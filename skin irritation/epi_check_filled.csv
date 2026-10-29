@@ -1,0 +1,31 @@
+casrn,smiles_for_EPI,salt_stripped,MolWt,rdkit_LogP,rdkit_ESOL_LogS,epi_exp_logKow,epi_KOWWIN_logKow,epi_exp_WS_mgL,epi_WSKOWWIN_WS_mgL,note
+74223-64-6,COC(=O)c1ccccc1S(=O)(=O)NC(=O)Nc1nc(C)nc(OC)n1,False,381.37,0.486,-2.522,2.2,2.00,9500,50.6354,WSKOWWIN_input_logKow=experimental
+38641-94-0,O=C(O)CNCP(=O)(O)O,True,169.07,-1.204,0.134,-3.4,-4.77,1.05e+06,1e+06,WSKOWWIN_input_logKow=experimental
+64-17-5,CCO,False,46.07,-0.001,-0.125,-0.31,-0.14,1e+06,857740,WSKOWWIN_input_logKow=experimental
+39148-24-8,CCOP(=O)=O,True,108.03,1.111,-1.078,-2.4,-1.17,,1e+06,"STRUCTURE_MISMATCH: EPI CAS record = full Al salt (MW 354.11); estimates here are from the salt-stripped SMILES (MW 108.03); exp_logKow -2.4 refers to fosetyl-Al, not the fragment; WSKOWWIN_input_logKow=KOWWIN_estimate"
+129909-90-6,CC(C)c1nn(C(=O)NC(C)(C)C)c(=O)n1N,False,241.29,0.238,-1.638,,1.24,,2287.11,no_exp_data; WSKOWWIN_input_logKow=KOWWIN_estimate
+104206-82-8,CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1,False,339.33,1.119,-2.578,0.9,1.49,,317.06,no_exp_WS; WSKOWWIN_input_logKow=experimental
+82097-50-5,COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2OCCCl)n1,False,401.83,1.317,-3.04,1.1,2.44,32,314.849,WSKOWWIN_input_logKow=experimental
+52-68-6,COP(=O)(OC)C(O)C(Cl)(Cl)Cl,False,257.44,2.161,-2.599,0.51,0.42,120000,56404.8,WSKOWWIN_input_logKow=experimental
+64902-72-3,COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2Cl)n1,False,357.78,1.352,-3.032,2,2.26,31000,65.1628,WSKOWWIN_input_logKow=experimental
+55406-53-6,CCCCNC(=O)OCC#CI,False,281.09,1.909,-2.521,,2.45,,335.725,no_exp_data; WSKOWWIN_input_logKow=KOWWIN_estimate
+122836-35-5,Cc1nn(-c2cc(NS(C)(=O)=O)c(Cl)cc2Cl)c(=O)n1C(F)F,False,387.2,2.416,-3.852,0.99,2.65,780,1668.58,WSKOWWIN_input_logKow=experimental
+104040-78-0,COc1cc(OC)nc(NC(=O)NS(=O)(=O)c2ncccc2C(F)(F)F)n1,False,407.33,1.418,-3.258,1.3,1.08,2100,223.84,WSKOWWIN_input_logKow=experimental
+34256-82-1,CCOCN(C(=O)CCl)c1c(C)cccc1CC,False,269.77,3.123,-3.331,4.14,3.37,223,20.0683,WSKOWWIN_input_logKow=experimental
+62-73-7,COP(=O)(OC)OC=C(Cl)Cl,False,220.98,2.68,-2.635,1.43,0.60,,9347.13,no_exp_WS; WSKOWWIN_input_logKow=experimental
+141112-29-0,CS(=O)(=O)c1cc(C(F)(F)F)ccc1C(=O)c1cnoc1C1CC1,False,359.33,3.205,-4.162,2.32,2.25,,68.3932,no_exp_WS; WSKOWWIN_input_logKow=experimental
+55335-06-3,O=C(O)COc1nc(Cl)c(Cl)cc1Cl,False,256.47,2.505,-3.128,,2.53,440,239.298,no_exp_logKow; WSKOWWIN_input_logKow=KOWWIN_estimate
+113-48-4,CCCCC(CC)CN1C(=O)[C@@H]2[C@H](C1=O)[C@@H]1C=C[C@H]2C1,False,275.39,3.01,-3.048,3.7,3.76,15,52.0256,WSKOWWIN_input_logKow=experimental
+374726-62-2,C#CCOc1ccc(CCNC(=O)C(OCC#C)c2ccc(Cl)cc2)cc1OC,False,411.89,3.41,-4.188,3.2,3.57,4.2,19.1174,WSKOWWIN_input_logKow=experimental
+67564-91-4,CC(Cc1ccc(C(C)(C)C)cc1)CN1C[C@@H](C)O[C@@H](C)C1,False,303.49,4.272,-4.351,4.93,5.50,1000,21.2511,WSKOWWIN_input_logKow=experimental
+29091-21-2,CCCN(CCC)c1c([N+](=O)[O-])cc(C(F)(F)F)c(N)c1[N+](=O)[O-],False,350.3,3.73,-4.085,4.1,4.94,0.013,1.95298,WSKOWWIN_input_logKow=experimental
+500008-45-7,CNC(=O)c1cc(Cl)cc(C)c1NC(=O)c1cc(Br)nn1-c1ncccc1Cl,False,483.15,4.257,-5.703,2.76,3.98,,3.29292,no_exp_WS; WSKOWWIN_input_logKow=experimental
+35367-38-5,O=C(NC(=O)c1c(F)cccc1F)Nc1ccc(Cl)cc1,False,310.69,3.58,-4.313,3.89,3.59,0.08,0.321042,WSKOWWIN_input_logKow=experimental
+129558-76-5,CCc1nn(C)c(C(=O)NCc2ccc(Oc3ccc(C)cc3)cc2)c1Cl,False,383.88,4.667,-5.23,,6.45,,0.0118553,CAS_NOT_IN_EPI_DB: queried by SMILES instead; no experimental data available; WSKOWWIN_input_logKow=KOWWIN_estimate
+112281-77-3,FC(F)C(F)(F)OCC(Cn1cncn1)c1ccc(Cl)cc1Cl,False,372.15,4.243,-4.712,3.56,4.25,,47.5953,no_exp_WS; WSKOWWIN_input_logKow=experimental
+71751-41-2,CC[C@H](C)[C@H]1O[C@]2(C=C[C@@H]1C)C[C@@H]1C[C@@H](C/C=C(\C)[C@@H](O[C@H]3C[C@H](OC)[C@@H](O[C@H]4C[C@H](OC)[C@@H](O)[C@H](C)O4)[C@H](C)O3)[C@@H](C)/C=C/C=C3\CO[C@@H]4[C@H](O)C(C)=C[C@@H](C(=O)O1)[C@]34O)O2,True,873.09,5.377,-8.113,4.4,4.39,1.21,0.0235141,MW_out_of_EPI_domain(873); WSKOWWIN_input_logKow=experimental
+57960-19-7,CCCCCCCCCCCCC1=C(OC(C)=O)C(=O)c2ccccc2C1=O,False,384.52,6.194,-5.493,6.2,7.44,,0.0625384,"STRUCTURE_MISMATCH: EPI record MW 386.54 vs template 384.52 (EPI uses non-aromatic ring, +2H); no_exp_WS; WSKOWWIN_input_logKow=experimental"
+66332-96-5,CC(C)Oc1cccc(NC(=O)c2ccccc2C(F)(F)F)c1,False,323.31,4.745,-4.956,3.7,4.65,,8.01701,no_exp_WS; WSKOWWIN_input_logKow=experimental
+65195-55-3,CC[C@H](C)[C@H]1O[C@]2(C=C[C@@H]1C)C[C@@H]1C[C@@H](C/C=C(\C)[C@@H](O[C@H]3C[C@H](OC)[C@@H](O[C@H]4C[C@H](OC)[C@@H](O)[C@H](C)O4)[C@H](C)O3)[C@@H](C)/C=C/C=C3\CO[C@@H]4[C@H](O)C(C)=C[C@@H](C(=O)O1)[C@]34O)O2,False,873.09,5.377,-8.113,,4.48,,0.000350383,STRUCTURE_MISMATCH: EPI record MW 875.12 vs template 873.09; template SMILES is identical to 71751-41-2 but EPI resolves a different isomer; MW_out_of_EPI_domain; no_exp_data; WSKOWWIN_input_logKow=KOWWIN_estimate
+1689-99-2,CCCCCCCC(=O)Oc1c(Br)cc(C#N)cc1Br,False,403.11,5.349,-5.469,5.4,5.86,0.08,0.19863,WSKOWWIN_input_logKow=experimental
+122453-73-0,CCOCn1c(-c2ccc(Cl)cc2)c(C#N)c(Br)c1C(F)(F)F,False,407.62,5.455,-5.894,4.83,5.51,,0.213762,no_exp_WS; WSKOWWIN_input_logKow=experimental
