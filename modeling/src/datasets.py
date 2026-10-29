@@ -20,8 +20,11 @@ CATEGORY_TO_BINARY = {1: 1, 2: 1, 3: 0, 4: 0}
 # 로 LogP/MolWt/RotatableBonds/AromaticProportion의 선형조합이라 100% 중복 정보. 3가지 처리방식(ESOL_LogS 제거/
 # LogP 제거/PCA 1성분)을 group 5-fold로 비교한 결과 Sensitivity/Specificity/MCC는 동률, ROC-AUC는 ESOL_LogS
 # 제거가 최고(0.700 vs LogP제거 0.697 vs 유지 0.686)라 채택. PCA는 격차가 더 벌어져(0.567->0.575) 기각.
-SKIN_COMMON7_COLS = ["MolWt", "LogP", "TPSA", "HBD", "HBA",
-                     "RotatableBonds", "AromaticProportion"]
+# 2026-10-29(2차): 나머지 6개 중 MolWt/LogP/TPSA/HBD/HBA/RotatableBonds가 desc_217 안의
+# desc_MolWt/desc_MolLogP/desc_TPSA/desc_NumHDonors/desc_NumHAcceptors/desc_NumRotatableBonds와
+# 값이 바이트 단위로 100% 동일(완전 중복)함을 발견 — 둘 다 염 제거된 동일 분자에 같은 RDKit 함수를 적용해서 생김.
+# AromaticProportion만 217개 안에 동일 계산이 없는 유일한 독립 컬럼이라 이것만 남김(7개->1개).
+SKIN_UNIQUE_COMMON_COLS = ["AromaticProportion"]
 
 
 class IrritationDataset(Dataset):
@@ -71,14 +74,14 @@ class IrritationDataset(Dataset):
 
 
 def skin_dataset(csv_path="../skin irritation/skin_vectorized.csv"):
-    # 공통 7개(ESOL_LogS 제외, 위 주석 참조) + desc_*(전체 RDKit 217) + fp_w_*(Morgan FP 2048) = 2,272차원
+    # AromaticProportion(유일 독립 공통컬럼, 위 주석 참조) + desc_*(전체 RDKit 217) + fp_w_*(Morgan FP 2048) = 2,266차원
     # 2026-10-29: unknown_pct/undeclared_pct를 feature로 추가하는 실험을 해봤으나(+2차원),
     # Sensitivity/Specificity 균형·MCC 기준으로 skin 성능이 오히려 악화되어(Sens 0.367->0.333,
     # 격차 0.520->0.545, MCC 0.174->0.143) 되돌림. skin_addons.ipynb의 단순 모델 테스트에서는
     # 개선된 것처럼 보였으나(RF 계열), 실제 Multi-task 신경망에서는 재현 안 됨 — 진행상황.md 참조.
     header = pd.read_csv(csv_path, nrows=0).columns
     expanded_cols = [c for c in header if c.startswith(("desc_", "fp_w_"))]
-    feature_cols = SKIN_COMMON7_COLS + expanded_cols
+    feature_cols = SKIN_UNIQUE_COMMON_COLS + expanded_cols
     return IrritationDataset(csv_path, label_col="binary_label", feature_cols=feature_cols)
 
 

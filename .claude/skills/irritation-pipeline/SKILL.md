@@ -12,7 +12,7 @@ ICE mixture(농약 제형) 성분조성 → skin/eye EPA Classification 예측 �
 
 ## 데이터 (②단계 산출물, 고정된 입력)
 - **`skin irritation\skin_vectorized.csv`** — 544행×2,289컬럼. 메타 16개 + feature 2,273개(공통 8개 MolWt/LogP/TPSA/HBD/HBA/RotatableBonds/AromaticProportion/ESOL_LogS + 전체 RDKit descriptor 217개(`desc_*`) + Morgan FP 2048비트(`fp_w_*`)). 염 제거(salt stripping) 적용됨(scalar descriptor는 염 제거 후 최대 프래그먼트 기준, FP는 염 포함 원본 분자 기준 — eye와 동일 원칙). `binary_label` 존재.
-  - ⚠ **2026-10-29: harness(`skin_dataset()`)는 이 중 `ESOL_LogS`를 제외하고 사용** — LogP/MolWt/RotatableBonds/AromaticProportion의 선형조합이라 100% 중복 정보(다중공선성). 비교실험 결과 Sensitivity 희생 없이 Specificity·MCC·ROC-AUC 전부 개선되어 채택. 파일 자체에는 컬럼이 그대로 남아있지만(CSV는 2,273개 feature), **모델 입력 차원은 2,272**. 진행상황.md 참조.
+  - ⚠ **2026-10-29: harness(`skin_dataset()`)는 공통 8개 중 `AromaticProportion` 1개만 사용**. 나머지 7개 중 ESOL_LogS는 LogP 등 4개의 선형조합이라 제외, MolWt/LogP/TPSA/HBD/HBA/RotatableBonds는 `desc_217` 안의 desc_MolWt/desc_MolLogP/desc_TPSA/desc_NumHDonors/desc_NumHAcceptors/desc_NumRotatableBonds와 바이트 단위로 100% 동일(완전 중복)함을 확인해 제외. 둘 다 비교실험에서 Sensitivity 희생 없이 Specificity·MCC 개선되어 채택. 파일 자체에는 8개 컬럼 다 남아있지만(CSV는 2,273개 feature), **모델 입력 차원은 2,266**(AromaticProportion 1 + desc_217 + fp_w_2048). 진행상황.md 참조.
   - ⚠ **이전 CASRN one-hot 버전은 완전히 폐기됨**(2026-10-06). 과거 세션 기록의 "skin_vectorized_v2.csv"/"DEPRECATED" 파일명은 전부 지금 이 파일을 가리킴. 재구성 과정은 `skin_feature_rebuild.ipynb`(8개 descriptor 버전) → `skin_feature_expand_full.ipynb`(217+2048 확장) 순서로 누적 반영됨.
   - harness(`modeling/src/datasets.py`)의 `skin_dataset()`은 feature 전체에 `dropna` 적용 — 구조 완전 미해결 1건(`MIX306`) + 무기물 성분의 일부 desc_ 컬럼 NaN(Gasteiger 전하 미정의) 영향 2건, 합계 3건 제외되어 **541건으로 학습**(binary_label 511/30, 2026-10-29 MIX839/840 worst-case 통일 반영).
 - **`eye irritation\eye_vectorized.csv`** — 841행. 메타 다수 + feature(공통 개념은 skin과 동일하나 컬럼명은 RDKit 표준 이름에 내장: `desc_*` 217개 + `fp_w_*` 2048개, ESOL은 `aux_ESOL_logS`로 별도 보관). **반드시 `substance_type == 'Mixture'`만 필터링해서 쓸 것**(순물질 Chemical 235건은 모집단이 달라 제외 — 진행상황.md 참조). `binary_label` 존재(GHS만 있고 EPA라벨 없는 47건은 NaN, 자동 제외).
@@ -22,7 +22,7 @@ ICE mixture(농약 제형) 성분조성 → skin/eye EPA Classification 예측 �
 
 ## 모델 아키텍처 (2026-09-18 교수님 피드백으로 확정, 기존 RF/XGBoost+4단계 계획은 폐기)
 - **Multi-task PyTorch, 이분류 단일**(4단계 다분류 안 함)
-- skin/eye는 입력 차원이 다르므로(skin 2,272 vs eye 2,265, 2026-10-06 팀 논의로 양쪽 다 고차원 feature로 통일, 2026-10-29 skin은 ESOL_LogS 제외로 2,273→2,272) 각각 **task-specific encoder**로 받고 shared_trunk에서 공통표현 학습 후 task별 head로 분기(hard parameter sharing)
+- skin/eye는 입력 차원이 다르므로(skin 2,266 vs eye 2,265, 2026-10-06 팀 논의로 양쪽 다 고차원 feature로 통일, 2026-10-29 skin은 공통컬럼 중복 제거로 2,273→2,266) 각각 **task-specific encoder**로 받고 shared_trunk에서 공통표현 학습 후 task별 head로 분기(hard parameter sharing)
 - ⚠ feature 차원(2천대) 대비 샘플 수(skin 541·eye 604)가 매우 작아 과적합 위험이 큼 — 정규화(dropout/L2)·차원축소(PCA) 적용을 강하게 권장(skin_feature_expand_full.ipynb 한계점 참조)
 - "α·skin + β·eye 가중합산"은 **샘플 단위 벡터합이 아니라 task loss 가중합**(`total_loss = α·skin_loss + β·eye_loss`)으로 구현 — skin/eye가 서로 다른 Formulation_ID라 벡터를 더할 짝이 없기 때문. 근거는 `세팅\멀티태스크_모델링_정리.md` 5절.
 - Loss: CrossEntropyLoss. 클래스 불균형 대응은 **class-weighted CE 우선(지도교수 피드백으로 채택 확정, 2026-10-29)**, 1:1 언더샘플링/SMOTE는 비교 검토했으나 최종 미채택(skin 양성 30건뿐이라 데이터 손실 크거나 Morgan FP 이진값과 상성 문제). `modeling/src/train.py`에 구현됨 — task별 독립적으로 inverse-frequency 가중치 계산.
