@@ -4,6 +4,7 @@
 1. `세팅\진행상황.md` — 진행 이력, 결정사항, 미결 사항 (단일 출처)
 2. `세팅\멀티태스크_모델링_정리.md` — 모델 아키텍처 설계 배경
 3. `.claude\skills\irritation-pipeline\SKILL.md` — 데이터 스키마/라벨링 규칙/작업 규칙
+4. **GitHub 팀 저장소(`https://github.com/tjdbf061106-sketch/COS`) 신규 커밋 확인** — `git fetch origin` 후 `git log main..origin/main`으로 팀원(작성자가 `tjdbf06`/`Seoyul Kim` 본인이 아닌 커밋)이 새로 올린 파일·변경사항이 있는지 확인하고, 있으면 작업 시작 전에 사용자에게 알릴 것. (2026-10-29 설정, 기준 커밋: `751ca3d`)
 
 작업 규칙:
 - 파일 수치·스키마는 추측 금지, 직접 열어서 확인 후 말할 것.
