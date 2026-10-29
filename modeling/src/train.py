@@ -1,0 +1,148 @@
+"""
+Multi-task skin/eye 독성(0/1) 분류 학습.
+
+사용법 (modeling/src 안에서):
+  py train.py --epochs 50
+
+클래스 불균형 대응 순서(진행상황.md 2026-09-18 합의):
+  1순위: class-weighted CrossEntropyLoss (기본값, --balance weighted)
+  최후수단: 1:1 언더샘플링 (--balance 1to1) — skin처럼 양성이 29건뿐이면 데이터 손실이 커서 권장 안 함
+"""
+import argparse
+
+import numpy as np
+import torch
+import torch.nn as nn
+from sklearn.preprocessing import StandardScaler
+from torch.utils.data import DataLoader, Subset
+
+from datasets import skin_dataset, eye_dataset
+from model import MultiTaskIrritationModel
+from splits import group_train_test_split
+
+
+def standardize_inplace(dataset, train_idx):
+    """train split 기준으로 평균0/분산1 정규화 — Linear 입력이 원시 descriptor 스케일(MolWt 수백~수천 등)
+    그대로 들어가면 logit이 발산하는 문제(실행해보고 처음 발견, 2026-10-29)를 막기 위함."""
+    scaler = StandardScaler().fit(dataset.X[train_idx])
+    dataset.X = scaler.transform(dataset.X).astype(np.float32)
+    return scaler
+
+
+def cycle(loader):
+    while True:
+        for batch in loader:
+            yield batch
+
+
+def class_weights(labels, num_classes=2):
+    counts = np.bincount(labels, minlength=num_classes).astype(np.float32)
+    counts[counts == 0] = 1.0
+    weights = counts.sum() / (num_classes * counts)
+    return torch.tensor(weights, dtype=torch.float32)
+
+
+def undersample_1to1(indices, labels, rng):
+    indices = np.array(indices)
+    labels = labels[indices]
+    pos = indices[labels == 1]
+    neg = indices[labels == 0]
+    n = min(len(pos), len(neg))
+    if n == 0:
+        raise ValueError("1:1 언더샘플링 불가 — 한쪽 클래스가 0건")
+    pos_sample = rng.choice(pos, size=n, replace=False)
+    neg_sample = rng.choice(neg, size=n, replace=False)
+    return np.concatenate([pos_sample, neg_sample])
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--skin-csv", default="../skin irritation/skin_vectorized.csv")
+    parser.add_argument("--eye-csv", default="../eye irritation/eye_vectorized.csv")
+    parser.add_argument("--epochs", type=int, default=50)
+    parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument("--lr", type=float, default=1e-3)
+    parser.add_argument("--hidden-dim", type=int, default=128)
+    parser.add_argument("--balance", choices=["weighted", "1to1"], default="weighted")
+    parser.add_argument("--test-size", type=float, default=0.2)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--save-path", default="checkpoint.pt")
+    args = parser.parse_args()
+
+    rng = np.random.default_rng(args.seed)
+
+    skin_ds = skin_dataset(args.skin_csv)
+    eye_ds = eye_dataset(args.eye_csv)
+
+    skin_train_idx, skin_test_idx = group_train_test_split(skin_ds, args.test_size, args.seed)
+    eye_train_idx, eye_test_idx = group_train_test_split(eye_ds, args.test_size, args.seed)
+
+    skin_scaler = standardize_inplace(skin_ds, skin_train_idx)
+    eye_scaler = standardize_inplace(eye_ds, eye_train_idx)
+
+    if args.balance == "1to1":
+        skin_train_idx = undersample_1to1(skin_train_idx, skin_ds.y, rng)
+        eye_train_idx = undersample_1to1(eye_train_idx, eye_ds.y, rng)
+
+    skin_train = Subset(skin_ds, skin_train_idx)
+    eye_train = Subset(eye_ds, eye_train_idx)
+
+    skin_loader = DataLoader(skin_train, batch_size=args.batch_size, shuffle=True, drop_last=True)
+    eye_loader = DataLoader(eye_train, batch_size=args.batch_size, shuffle=True, drop_last=True)
+
+    model = MultiTaskIrritationModel(skin_ds.input_dim, eye_ds.input_dim, hidden_dim=args.hidden_dim)
+    optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
+
+    if args.balance == "weighted":
+        skin_criterion = nn.CrossEntropyLoss(weight=class_weights(skin_ds.y[skin_train_idx]))
+        eye_criterion = nn.CrossEntropyLoss(weight=class_weights(eye_ds.y[eye_train_idx]))
+    else:
+        skin_criterion = nn.CrossEntropyLoss()
+        eye_criterion = nn.CrossEntropyLoss()
+
+    steps_per_epoch = max(len(skin_loader), len(eye_loader))
+    skin_iter = cycle(skin_loader)
+    eye_iter = cycle(eye_loader)
+
+    for epoch in range(args.epochs):
+        model.train()
+        total_loss = 0.0
+        for _ in range(steps_per_epoch):
+            sx, sy = next(skin_iter)
+            ex, ey = next(eye_iter)
+
+            skin_logits = model.forward_skin(sx)
+            eye_logits = model.forward_eye(ex)
+
+            skin_loss = skin_criterion(skin_logits, sy)
+            eye_loss = eye_criterion(eye_logits, ey)
+            loss = model.alpha * skin_loss + model.beta * eye_loss
+
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item()
+
+        print(
+            f"epoch {epoch + 1}/{args.epochs} loss={total_loss / steps_per_epoch:.4f} "
+            f"alpha={model.alpha.item():.3f} beta={model.beta.item():.3f}"
+        )
+
+    torch.save(
+        {
+            "model_state": model.state_dict(),
+            "skin_input_dim": skin_ds.input_dim,
+            "eye_input_dim": eye_ds.input_dim,
+            "hidden_dim": args.hidden_dim,
+            "skin_test_idx": skin_test_idx,
+            "eye_test_idx": eye_test_idx,
+            "skin_scaler": skin_scaler,
+            "eye_scaler": eye_scaler,
+        },
+        args.save_path,
+    )
+    print(f"저장 완료: {args.save_path} (evaluate.py에서 로드해 테스트셋 평가)")
+
+
+if __name__ == "__main__":
+    main()

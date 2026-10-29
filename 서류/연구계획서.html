@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연구계획서 — BBB 투과성 예측 머신러닝 모델 개발</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
+
+    :root {
+      --navy:    #1a2d4f;
+      --teal:    #1e7b6e;
+      --teal-lt: #e8f5f2;
+      --gray:    #4a5568;
+      --gray-lt: #f7f8fa;
+      --line:    #e2e8f0;
+      --accent:  #c0392b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.8;
+      color: #2d3748;
+      background: #fff;
+    }
+
+    /* ── COVER ─────────────────────────────── */
+    .cover {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 40px;
+      background: linear-gradient(160deg, #0f2342 0%, #1a4a3f 100%);
+      color: #fff;
+      page-break-after: always;
+    }
+
+    .cover-badge {
+      display: inline-block;
+      border: 1.5px solid rgba(255,255,255,0.4);
+      border-radius: 20px;
+      padding: 6px 20px;
+      font-size: 9pt;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 36px;
+      text-transform: uppercase;
+    }
+
+    .cover h1 {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 24pt;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+
+    .cover h2 {
+      font-size: 13pt;
+      font-weight: 400;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 56px;
+      line-height: 1.6;
+    }
+
+    .cover-divider {
+      width: 60px;
+      height: 2px;
+      background: rgba(255,255,255,0.35);
+      margin: 0 auto 48px;
+    }
+
+    .cover-meta {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .cover-meta-item {
+      text-align: center;
+    }
+
+    .cover-meta-item .label {
+      font-size: 8pt;
+      color: rgba(255,255,255,0.5);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .cover-meta-item .value {
+      font-size: 10pt;
+      font-weight: 500;
+      color: rgba(255,255,255,0.9);
+    }
+
+    .cover-keywords {
+      margin-top: 48px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .kw-tag {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 12px;
+      padding: 4px 14px;
+      font-size: 8.5pt;
+      color: rgba(255,255,255,0.75);
+    }
+
+    /* ── BODY LAYOUT ───────────────────────── */
+    .page-wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 64px 56px;
+    }
+
+    /* ── SECTION ───────────────────────────── */
+    .section {
+      margin-bottom: 52px;
+      page-break-inside: avoid;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--navy);
+    }
+
+    .section-num {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 9pt;
+      font-weight: 700;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 14pt;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -0.01em;
+    }
+
+    /* ── TEXT STYLES ───────────────────────── */
+    p { margin-bottom: 10px; }
+
+    .highlight-box {
+      background: var(--teal-lt);
+      border-left: 4px solid var(--teal);
+      padding: 14px 18px;
+      border-radius: 0 6px 6px 0;
+      margin: 14px 0;
+      font-size: 10pt;
+      color: #1a3d36;
+    }
+
+    .info-box {
+      background: var(--gray-lt);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 14px 0;
+    }
+
+    .info-box .info-title {
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+      font-size: 10pt;
+    }
+
+    ul.styled {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    ul.styled li {
+      padding: 5px 0 5px 22px;
+      position: relative;
+      color: var(--gray);
+    }
+
+    ul.styled li::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      color: var(--teal);
+      font-size: 9pt;
+    }
+
+    /* ── OBJECTIVE CARDS ───────────────────── */
+    .obj-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .obj-card {
+      border: 1.5px solid var(--line);
+      border-radius: 10px;
+      padding: 18px 16px;
+      background: #fff;
+    }
+
+    .obj-card .obj-num {
+      font-size: 8pt;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .obj-card .obj-text {
+      font-size: 10pt;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.5;
+    }
+
+    /* ── METHOD FLOW ───────────────────────── */
+    .flow {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-top: 16px;
+    }
+
+    .flow-step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .flow-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+      width: 36px;
+    }
+
+    .flow-dot {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9pt;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .flow-line {
+      width: 2px;
+      flex: 1;
+      min-height: 24px;
+      background: var(--line);
+      margin: 4px 0;
+    }
+
+    .flow-content {
+      padding-top: 6px;
+      padding-bottom: 24px;
+      flex: 1;
+    }
+
+    .flow-content h4 {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+
+    .flow-content p, .flow-content li {
+      font-size: 9.5pt;
+      color: var(--gray);
+    }
+
+    .flow-step:last-child .flow-line { display: none; }
+
+    /* ── SCHEDULE ──────────────────────────── */
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 9.5pt;
+      margin-top: 16px;
+    }
+
+    .schedule-table th {
+      background: var(--navy);
+      color: #fff;
+      padding: 10px 12px;
+      text-align: left;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    .schedule-table th:first-child { border-radius: 6px 0 0 0; }
+    .schedule-table th:last-child  { border-radius: 0 6px 0 0; }
+
+    .schedule-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      color: var(--gray);
+    }
+
+    .schedule-table tr:nth-child(even) td { background: var(--gray-lt); }
+
+    .phase-tag {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 10px;
+      font-size: 8pt;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .phase-1 { background: #dbeafe; color: #1e40af; }
+    .phase-2 { background: #dcfce7; color: #166534; }
+    .phase-3 { background: #fef9c3; color: #854d0e; }
+    .phase-4 { background: #fce7f3; color: #9d174d; }
+
+    .gantt-wrap {
+      overflow-x: auto;
+      margin-top: 24px;
+    }
+
+    .gantt {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8.5pt;
+    }
+
+    .gantt th {
+      background: var(--navy);
+      color: #fff;
+      padding: 8px 6px;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    .gantt td {
+      padding: 8px 6px;
+      border: 1px solid var(--line);
+      text-align: center;
+    }
+
+    .gantt td.task-label {
+      text-align: left;
+      padding-left: 10px;
+      white-space: nowrap;
+      font-weight: 500;
+      color: var(--navy);
+      background: #fff;
+    }
+
+    .gantt tr:nth-child(even) td.task-label { background: var(--gray-lt); }
+
+    .bar {
+      border-radius: 3px;
+      height: 14px;
+      display: inline-block;
+      width: 80%;
+    }
+
+    .bar-1 { background: #3b82f6; }
+    .bar-2 { background: #22c55e; }
+    .bar-3 { background: #eab308; }
+    .bar-4 { background: #ec4899; }
+    .bar-dot { background: #6b7280; opacity: 0.25; }
+
+    /* ── PRINT ─────────────────────────────── */
+    @media print {
+      body { font-size: 10pt; }
+      .cover { min-height: 0; padding: 80px 60px; }
+      .page-wrap { padding: 48px 40px; }
+      .section { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════
+     COVER PAGE
+════════════════════════════════════════════ -->
+<div class="cover">
+  <div class="cover-badge">학술제 연구계획서 · 2026</div>
+
+  <h1>CNS 질환 특화<br>BBB 투과성 예측<br>머신러닝 모델 개발</h1>
+  <h2>In silico 분자 도킹 기반 데이터 구축 및<br>이진 분류를 넘어선 DDS 방향성 제시 모델</h2>
+
+  <div class="cover-divider"></div>
+
+  <div class="cover-meta">
+    <div class="cover-meta-item">
+      <div class="label">소속</div>
+      <div class="value">AI신약학과</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="label">학년</div>
+      <div class="value">2학년</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="label">연구 기간</div>
+      <div class="value">2026. 08. 01 – 11. 06</div>
+    </div>
+  </div>
+
+  <div class="cover-keywords">
+    <span class="kw-tag">Blood-Brain Barrier</span>
+    <span class="kw-tag">Machine Learning</span>
+    <span class="kw-tag">Molecular Docking</span>
+    <span class="kw-tag">CNS Drug Discovery</span>
+    <span class="kw-tag">In Silico</span>
+    <span class="kw-tag">DDS</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     BODY
+════════════════════════════════════════════ -->
+<div class="page-wrap">
+
+  <!-- ── 1. 연구 필요성 ──────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <div class="section-title">연구 필요성</div>
+    </div>
+
+    <p>
+      중추신경계(CNS) 질환은 알츠하이머병, 파킨슨병, 뇌종양 등 사회적 부담이 크고
+      치료제 개발 실패율이 극히 높은 영역이다. 그 핵심 원인은 <strong>혈액-뇌 장벽(BBB,
+      Blood-Brain Barrier)</strong>이다. BBB는 신경계를 외부 물질로부터 보호하지만,
+      동시에 대부분의 약물 후보 물질이 뇌 조직에 도달하지 못하도록 차단하는 주요 장벽으로 작용한다.
+    </p>
+
+    <div class="highlight-box">
+      CNS 신약 개발에서 임상 실패의 상당수는 약물이 BBB를 통과하지 못하거나,
+      통과하더라도 원하는 농도에 도달하지 못하는 데서 기인한다.
+    </div>
+
+    <p>
+      현재 공개된 BBB 예측 모델들의 대부분은 <strong>"통과/불통과"라는 이진 분류</strong>에
+      그친다. 이는 연구자가 실제 의사결정을 내릴 때 필요한 후속 정보, 즉
+      <em>"어떤 제형 또는 Drug Delivery System(DDS)을 활용해야 하는가?"</em>라는
+      질문에 답하지 못한다.
+    </p>
+
+    <div class="info-box">
+      <div class="info-title">기존 모델의 한계 요약</div>
+      <ul class="styled">
+        <li>BBB 통과 여부(이진 분류)만 예측 → 낮은 실용성</li>
+        <li>특정 CNS 질환의 타겟 단백질 구조를 반영하지 않음</li>
+        <li>분자 도킹 기반의 구조적 결합 정보를 학습에 통합한 사례 부재</li>
+        <li>DDS 설계 방향성까지 제시하는 플랫폼은 상대적으로 드묾</li>
+      </ul>
+    </div>
+
+    <p>
+      본 연구는 이 공백을 채우기 위해, 특정 CNS 질환을 선정하고 해당 질환의
+      타겟 단백질에 대한 in silico 분자 도킹 실험 데이터를 기반으로
+      <strong>BBB 투과성과 구조-활성 관계를 통합 학습하는 머신러닝 모델</strong>을 개발하고자 한다.
+    </p>
+  </div>
+
+  <!-- ── 2. 연구 목적 ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <div class="section-title">연구 목적</div>
+    </div>
+
+    <p>본 연구의 목적은 다음과 같다.</p>
+
+    <div class="obj-grid">
+      <div class="obj-card">
+        <div class="obj-num">Objective 01</div>
+        <div class="obj-text">문헌 탐색을 통한 특정 CNS 질환 및 타겟 단백질 선정</div>
+      </div>
+      <div class="obj-card">
+        <div class="obj-num">Objective 02</div>
+        <div class="obj-text">In silico 분자 도킹을 통한 약물-단백질 결합 데이터 구축</div>
+      </div>
+      <div class="obj-card">
+        <div class="obj-num">Objective 03</div>
+        <div class="obj-text">BBB 투과성 예측 머신러닝 모델 개발 및 성능 검증</div>
+      </div>
+      <div class="obj-card">
+        <div class="obj-num">Objective 04</div>
+        <div class="obj-text">예측 결과 기반의 DDS 방향성 제시 가능성 탐색</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 3. 연구 주제 ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <div class="section-title">연구 주제</div>
+    </div>
+
+    <div class="highlight-box" style="font-size:11pt; font-weight:600; line-height:1.7;">
+      특정 CNS 질환 타겟 단백질에 대한 in silico 분자 도킹 기반 데이터셋 구축 및
+      BBB 투과성 예측 머신러닝 모델 개발
+    </div>
+
+    <p>
+      기존의 이진 분류 BBB 예측 모델을 넘어, 질환 특이적 타겟 단백질과의 도킹 결합 에너지 및
+      분자 특성(Molecular Descriptors)을 결합한 특징 공간을 구성하여,
+      보다 정보량이 높은 BBB 투과성 예측 모델을 구현하는 것을 핵심 주제로 한다.
+    </p>
+
+    <div class="info-box">
+      <div class="info-title">핵심 키워드</div>
+      <ul class="styled">
+        <li><strong>CNS 질환 선정</strong>: 문헌 탐색 후 팀 논의를 통해 구체화 (알츠하이머, 파킨슨 등 후보군 검토)</li>
+        <li><strong>In silico Docking</strong>: AutoDock Vina 등 오픈소스 도킹 툴 활용, PDB 단백질 구조 사용</li>
+        <li><strong>BBB Permeability</strong>: B3DB, ChEMBL 등 공개 데이터셋 활용</li>
+        <li><strong>Machine Learning</strong>: Random Forest, GNN, Transformer 기반 모델 비교 검토</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ── 4. 연구 내용 ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <div class="section-title">연구 내용</div>
+    </div>
+
+    <p>본 연구는 크게 세 가지 내용으로 구성된다.</p>
+
+    <div class="info-box" style="margin-bottom:14px;">
+      <div class="info-title">① 문헌 탐색 및 질환·타겟 선정</div>
+      <p style="margin:0; font-size:9.5pt; color:#4a5568;">
+        PubMed, Google Scholar 등을 통해 BBB 투과성 연구가 활발한 CNS 질환을 조사하고,
+        연구 가능성이 높은 단일 질환과 핵심 타겟 단백질을 선정한다.
+        선정 기준은 공개 데이터 접근성, PDB 등록 단백질 구조 가용성, 기존 문헌의 풍부함이다.
+      </p>
+    </div>
+
+    <div class="info-box" style="margin-bottom:14px;">
+      <div class="info-title">② In silico 분자 도킹 실험 및 데이터셋 구축</div>
+      <p style="margin:0; font-size:9.5pt; color:#4a5568;">
+        선정된 타겟 단백질의 3D 구조(PDB)를 다운로드하고, 공개 BBB 데이터셋(B3DB 등)에서
+        약물 분자를 수집하여 AutoDock Vina 등의 도구로 도킹을 수행한다.
+        도킹 결합 에너지(Binding Affinity) 및 분자 기술자(RDKit Molecular Descriptors,
+        Morgan Fingerprint 등)를 조합하여 ML 학습용 특징 벡터를 구성한다.
+      </p>
+    </div>
+
+    <div class="info-box">
+      <div class="info-title">③ 머신러닝 모델 개발 및 성능 평가</div>
+      <p style="margin:0; font-size:9.5pt; color:#4a5568;">
+        구축된 데이터셋으로 BBB 투과성 예측 모델을 학습시키고,
+        Accuracy, AUC-ROC, F1-score 등의 지표로 성능을 평가한다.
+        모델 성능이 유의미하다면, 예측 결과를 바탕으로 DDS 방향성(나노입자, 리포솜, 화학적 수식 등)
+        제시 가능성을 탐색하는 확장 연구를 검토한다.
+      </p>
+    </div>
+  </div>
+
+  <!-- ── 5. 연구 방법 ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">5</div>
+      <div class="section-title">연구 방법</div>
+    </div>
+
+    <div class="flow">
+
+      <div class="flow-step">
+        <div class="flow-left">
+          <div class="flow-dot">01</div>
+          <div class="flow-line"></div>
+        </div>
+        <div class="flow-content">
+          <h4>문헌 탐색 및 연구 설계</h4>
+          <ul class="styled">
+            <li>PubMed, Google Scholar 활용 — BBB 예측 관련 최신 논문 서칭</li>
+            <li>CNS 질환 후보 선정 및 팀 내 논의를 통한 최종 결정</li>
+            <li>타겟 단백질 결정, PDB ID 확인 및 3D 구조 다운로드</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-left">
+          <div class="flow-dot">02</div>
+          <div class="flow-line"></div>
+        </div>
+        <div class="flow-content">
+          <h4>데이터 수집 및 전처리</h4>
+          <ul class="styled">
+            <li><strong>BBB 데이터셋</strong>: B3DB, ChEMBL 등 공개 데이터베이스 활용</li>
+            <li><strong>단백질 구조</strong>: RCSB PDB에서 타겟 단백질 다운로드, PyMOL/UCSF Chimera로 전처리</li>
+            <li>리간드 SMILES → 3D 구조 변환, Gasteiger 전하 계산 등 도킹 준비</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-left">
+          <div class="flow-dot">03</div>
+          <div class="flow-line"></div>
+        </div>
+        <div class="flow-content">
+          <h4>In Silico 분자 도킹 (AutoDock Vina)</h4>
+          <ul class="styled">
+            <li>Grid box 설정 — 타겟 단백질의 활성 부위(binding site) 지정</li>
+            <li>수집된 약물 분자들에 대한 일괄 도킹 수행</li>
+            <li>Binding Affinity(kcal/mol), RMSD 등 결과값 추출</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-left">
+          <div class="flow-dot">04</div>
+          <div class="flow-line"></div>
+        </div>
+        <div class="flow-content">
+          <h4>특징 공학 및 ML 모델 학습</h4>
+          <ul class="styled">
+            <li>RDKit으로 분자 기술자(MW, LogP, TPSA, HBD/HBA 등) 계산</li>
+            <li>Morgan Fingerprint 생성, 도킹 결합 에너지와 결합하여 특징 벡터 구성</li>
+            <li>Random Forest, XGBoost 등으로 모델 학습; 필요 시 GNN 계열 탐색</li>
+            <li>5-fold Cross Validation, Hyperparameter Tuning 수행</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-left">
+          <div class="flow-dot">05</div>
+          <div class="flow-line"></div>
+        </div>
+        <div class="flow-content">
+          <h4>성능 평가 및 결과 해석</h4>
+          <ul class="styled">
+            <li>Accuracy, AUC-ROC, F1-score, MCC 등 지표 계산</li>
+            <li>Feature Importance 분석 — 어떤 분자 특성이 BBB 투과성에 기여하는지 해석</li>
+            <li>모델 성능 유의 시 DDS 방향성 매핑 가능성 탐색 (확장 과제)</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="highlight-box" style="margin-top:20px;">
+      <strong>활용 도구 &amp; 환경</strong>: Python (RDKit, scikit-learn, PyTorch), AutoDock Vina,
+      PyMOL / UCSF Chimera, RCSB PDB, B3DB / ChEMBL, Jupyter Notebook, Google Colab
+    </div>
+  </div>
+
+  <!-- ── 6. 일정 계획 ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">6</div>
+      <div class="section-title">일정 계획</div>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th style="width:14%">단계</th>
+          <th style="width:26%">기간</th>
+          <th style="width:20%">구분</th>
+          <th>주요 활동</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1단계</strong></td>
+          <td>08월 1일 – 08월 31일</td>
+          <td><span class="phase-tag phase-1">문헌 탐색 &amp; 설계</span></td>
+          <td>
+            논문 서칭, CNS 질환 후보 검토 및 선정<br>
+            타겟 단백질 결정, PDB 구조 수집<br>
+            연구 방향 확정 및 역할 분담
+          </td>
+        </tr>
+        <tr>
+          <td><strong>2단계</strong></td>
+          <td>09월 1일 – 09월 30일</td>
+          <td><span class="phase-tag phase-2">데이터 구축</span></td>
+          <td>
+            BBB 공개 데이터셋 수집 및 전처리<br>
+            분자 도킹 환경 구축 (AutoDock Vina)<br>
+            In silico 도킹 실험 수행 및 결과 추출
+          </td>
+        </tr>
+        <tr>
+          <td><strong>3단계</strong></td>
+          <td>10월 1일 – 10월 25일</td>
+          <td><span class="phase-tag phase-3">모델 개발</span></td>
+          <td>
+            특징 공학 (분자 기술자 + 도킹 결과 통합)<br>
+            ML 모델 학습 및 성능 비교<br>
+            Hyperparameter Tuning, Cross Validation
+          </td>
+        </tr>
+        <tr>
+          <td><strong>4단계</strong></td>
+          <td>10월 26일 – 11월 6일</td>
+          <td><span class="phase-tag phase-4">분석 &amp; 발표 준비</span></td>
+          <td>
+            결과 해석 및 Feature Importance 분석<br>
+            DDS 방향성 탐색 (성능 유의 시)<br>
+            최종 보고서 작성 및 발표 자료 제작
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Gantt -->
+    <div class="gantt-wrap" style="margin-top:28px;">
+      <p style="font-size:9pt; color:#718096; margin-bottom:10px; font-weight:600;">간트 차트 (월별 진행)</p>
+      <table class="gantt">
+        <thead>
+          <tr>
+            <th style="width:32%; text-align:left; padding-left:10px;">활동</th>
+            <th style="width:17%">8월</th>
+            <th style="width:17%">9월</th>
+            <th style="width:17%">10월</th>
+            <th style="width:17%">11월 (1–6일)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="task-label">문헌 탐색 &amp; 질환 선정</td>
+            <td style="background:#dbeafe;"><span class="bar bar-1"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="task-label">데이터 수집 &amp; 전처리</td>
+            <td style="background:#dcfce7; opacity:0.5;"></td>
+            <td style="background:#dcfce7;"><span class="bar bar-2"></span></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="task-label">In silico 분자 도킹</td>
+            <td></td>
+            <td style="background:#dcfce7;"><span class="bar bar-2"></span></td>
+            <td style="background:#dcfce7; opacity:0.4;"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="task-label">특징 공학 &amp; ML 모델 학습</td>
+            <td></td>
+            <td></td>
+            <td style="background:#fef9c3;"><span class="bar bar-3"></span></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="task-label">성능 평가 &amp; 결과 해석</td>
+            <td></td>
+            <td></td>
+            <td style="background:#fef9c3; opacity:0.5;"></td>
+            <td style="background:#fce7f3;"><span class="bar bar-4"></span></td>
+          </tr>
+          <tr>
+            <td class="task-label">발표 자료 및 최종 보고서</td>
+            <td></td>
+            <td></td>
+            <td style="background:#fce7f3; opacity:0.4;"></td>
+            <td style="background:#fce7f3;"><span class="bar bar-4"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div style="text-align:center; padding-top:40px; border-top:1px solid var(--line); color:#a0aec0; font-size:8.5pt; letter-spacing:0.05em;">
+    AI신약학과 · 학술제 2026 · 연구계획서
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+=== cell 0 ===
+# Eye Feature 재구성 — CASRN 조성벡터 → SMILES 기반 분자 descriptor
+
+**배경**: 기존 eye 벡터는 CASRN을 컬럼으로 쓰는 조성벡터 방식이라, 학습에 없던 새 화합물은 해당 컬럼이 아예 없어서 feature 계산이 불가능함(연구목표 ② "새로운 화합물·조합까지 예측"과 충돌). 2026-10-06 팀 회의 결정에 따라 분자구조 기반으로 재구성함 — skin 쪽 `skin_feature_rebuild.ipynb` 와 같은 결정이고 같은 방법론임.
+
+**방법**: SMILES → RDKit descriptor 계산. LogP·용해도·분자량 등 B(EPI Suite)로 얻으려던 물리화학 속성도 RDKit 자체 추정치로 전부 포함되므로, A/B를 나누지 않고 **RDKit 하나로 통합**.
+
+**이 노트북이 하는 일**:
+1. `eye_filtered.csv`(1,219행) 에서 성분별 SMILES 확보 — 결측은 PubChem 조회로 백필
+2. 염/UVCB 를 **최대 프래그먼트**로 정리 (skin 과 다른 점, 아래 3단계에서 설명)
+3. RDKit descriptor 계산 — skin 과 공통인 physchem 8개 + 전체 217개 + Morgan FP 2048
+4. 제형 단위로 함량(%) 가중평균하여 feature 합성
+5. 조성해시(`comp_group_id`) 부여 → `eye_vectorized.csv` 저장
+
+> **skin 과의 관계**: 모델은 skin / eye 를 **따로** 만들기로 했으므로 feature 집합이 서로 달라도 됩니다. 다만 `MolWt`·`LogP`·`TPSA`·`HBD`·`HBA`·`RotatableBonds`·`AromaticProportion`·`ESOL_LogS` 8개는 **skin 과 똑같은 정의·똑같은 컬럼명**으로 계산해서, 나중에 두 endpoint 를 비교하거나 합칠 여지를 남겨둡니다.
+
+> **배치 실행본**: 이 노트북과 동일한 계산을 하는 스크립트가 `build_vectors.py` 입니다. 노트북은 "왜 이렇게 했는지"를 설명하는 용도, 스크립트는 재실행용입니다. 두 결과가 어긋나지 않는지 아래 **QC 7단계**에서 실제로 대조합니다.
+
+=== cell 2 ===
+## 1단계 — 데이터 로드 및 제형 키 정의
+
+`eye_filtered.csv` 는 **성분 1개 = 1행** 구조입니다(1,219행). 제형 단위로 묶어야 하는데 두 종류가 섞여 있습니다:
+
+- **혼합물(Formulation)**: `formulation_id` 가 있음 (예: `EyeIrritation6pack_PID123`)
+- **단일물질(Chemical)**: `formulation_id` 가 비어 있음 → `record_id` 로 "성분 1개짜리 제형" 취급
+
+둘을 `form_key` 하나로 통일합니다.
+
+=== cell 4 ===
+## 2단계 — PubChem 으로 결측 SMILES 백필
+
+SMILES 가 없는 64행을 PubChem PUG-REST 로 조회합니다. **CASRN → 화합물명** 순으로 시도합니다.
+
+**주의사항 (실제로 겪은 것)**:
+- **SSL 인터셉션**: 처음 돌렸을 때 19건 전부 실패했습니다. 오류가 `CERTIFICATE_VERIFY_FAILED: self-signed certificate in certificate chain` 인데, 교내망 프록시가 TLS 를 중간에서 다시 서명하기 때문입니다. `certifi` 번들에는 그 루트 인증서가 없어서 `truststore`(OS 인증서 저장소 사용)를 넣어야 열립니다.
+- **UVCB 는 원래 안 나옵니다**: Polysorbate 20/80, Thyme oil, 지방산 칼륨염, benzylcoco 4급암모늄 등은 구조식이 하나로 정의되지 않는 물질군이라 "단일 SMILES" 자체가 존재하지 않습니다. 조회 실패가 정상입니다.
+
+**캐시**: `smiles_backfill.csv` 가 있으면 재조회하지 않습니다. 같은 물질이 여러 행에 중복 등장하므로 **고유 (CASRN, 이름) 19건만** 조회합니다.
+
+=== cell 7 ===
+## 3단계 — 염 / UVCB 를 최대 프래그먼트로 정리 ★ skin 과 다른 점
+
+여기가 **skin 노트북에 없는 단계**이고, 실제로 값이 틀리는 걸 잡은 부분입니다.
+
+SMILES 에 점(`.`)이 들어 있으면 분자가 둘 이상으로 쪼개져 있다는 뜻입니다. 두 경우가 섞여 있습니다:
+
+| 유형 | 예시 | 문제 |
+|---|---|---|
+| **염** | `[Na+].[N-]1C=NC=N1` | Na⁺ 가 분자량에 더해짐 (보통 23~35 Da) |
+| **UVCB 를 한 분자로 적은 것** | Abamectin = avermectin B1a + B1b | **두 성분의 MW·LogP 가 합산됨** |
+
+RDKit 의 `Descriptors.MolWt` 등은 SMILES 전체를 하나의 분자로 보기 때문에, 보정하지 않으면 이렇게 나옵니다:
+
+| 물질 | 보정 전 | 보정 후(최대 프래그먼트) | 실제 |
+|---|---|---|---|
+| Abamectin | MW 1732, LogP 10.4 | MW 873, LogP 5.4 | B1a 가 873 |
+| Spinosad | MW 1478, LogP 11.4 | MW 746, LogP 5.9 | spinosyn A 가 732 |
+
+**LogP 11** 은 실존 가능한 범위를 벗어난 값입니다. ESOL 공식이 `-0.63 × LogP` 항을 포함하므로 **ESOL 도 같이 틀어집니다** — skin 노트북 한계점 ③의 "아바멕틴 ESOL −16 극단치"가 바로 이 증상입니다(Delaney 공식의 한계만이 아니라 MW 가 2배로 들어간 탓).
+
+그래서 descriptor 는 **최대 프래그먼트**(중원자 수 → 분자량 순) 기준으로 계산합니다. QSAR 에서 표준으로 쓰는 salt stripping 입니다. 제거된 질량은 `mw_removed` 로 남겨서 추적 가능하게 둡니다.
+
+> **`sanitizeFrags=True` 가 필수입니다.** `False` 로 쪼개면 RDKit 내부 RingInfo 가 초기화되지 않아 `TPSA`·`FpDensityMorgan`·`SPS`·`NumAmideBonds` 가 **예외 없이 조용히 NaN** 으로 떨어집니다. 처음에 `False` 로 두는 실수를 했고 841제형 중 91개가 오염됐습니다.
+
+> **Morgan FP 는 전체 분자 기준으로 둡니다.** 대응 이온(4급암모늄의 Cl⁻ 등)도 구조 정보로서 의미가 있고, FP 는 비트 단위라 염이 섞여도 MW 처럼 값이 왜곡되지 않습니다.
+
+=== cell 10 ===
+## 4단계 — RDKit descriptor 계산
+
+세 묶음을 계산합니다.
+
+**① skin 과 공통인 physchem 8개** — 컬럼명·정의를 skin 노트북과 똑같이 맞춥니다.
+
+| descriptor | 의미 |
+|---|---|
+| `MolWt` | 분자량 |
+| `LogP` | 지용성/수용성 정도 (Crippen 추정법) |
+| `TPSA` | 극성 표면적 |
+| `HBD` / `HBA` | 수소결합 공여/수용 개수 |
+| `RotatableBonds` | 회전 가능 결합 수 (분자 유연성) |
+| `AromaticProportion` | 방향족 원자 비율 |
+| `ESOL_LogS` | 수용해도 추정치 (Delaney 2004 경험식) |
+
+**② RDKit 전체 descriptor 217개** — `Descriptors._descList` 전체. 위 8개도 여기 포함되지만(`desc_` 접두로 구분), 구조 기반 정보를 넓게 쓰기 위해 전부 넣습니다. `Ipc` 처럼 값이 폭주하는 것은 `inf → NaN` 으로 정리합니다.
+
+**③ Morgan fingerprint (ECFP4, r=2, 2048 bit)** — 부분구조 존재 여부. eye 에만 넣습니다.
+
+ESOL 공식 (Delaney 2004):
+
+$$\log S = 0.16 - 0.63\,\text{LogP} - 0.0062\,\text{MW} + 0.066\,\text{RotB} - 0.74\,\text{AP}$$
+
+=== cell 12 ===
+## 5단계 — 제형 단위 함량(%) 가중평균
+
+성분별 feature 를 `pct_active_ingredient` 가중평균으로 합쳐 제형 1행으로 만듭니다. edge case 2개를 같이 처리합니다:
+
+1. **함량% 결측**: 가중치를 못 만들므로 **균등가중치**로 대체하고 `weight_mode="equal_fallback"` 로 표시합니다. 단일성분 제형이면 결과에 영향이 없고(평균 대상이 하나), 다성분이면 "조성비를 모른다"는 정보를 컬럼으로 남기는 셈입니다.
+2. **descriptor 가 NaN 인 성분**: 무기물·금속(NaOH, ZnCl₂, Sb₂O₃ 등)은 Gasteiger 전하와 `BCUT2D` 가 원래 정의되지 않습니다. 이런 칸은 **NaN 을 빼고 남은 성분으로만** 가중평균합니다(NaN 하나가 제형 전체를 NaN 으로 만들지 않도록).
+
+=== cell 14 ===
+## 6단계 — 조성해시 `comp_group_id` 와 조성 완전성
+
+**왜 필요한가**: 같은 조성 제형이 여러 행에 들어 있습니다. 이게 train 과 test 로 갈리면 모델이 사실상 답을 외운 상태로 평가돼서 **성능이 실제보다 높게 나옵니다.** 그룹키로 묶어서 같은 조성은 한쪽 fold 에만 보내야 합니다.
+
+```python
+StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=0).split(X, y, groups=df["comp_group_id"])
+```
+
+**규칙**: `"CAS:%"` 를 정렬해 이어붙인 뒤 md5 앞 10자 (3주차 `build_harmonized.py` 와 동일). SMILES 유무와 무관하게 **원본 전체 행**에서 계산해서, 구조를 못 구한 UVCB 성분도 조성 비교에는 반영되게 합니다.
+
+> skin 신규 노트북은 그룹키를 대표 `MIX` id 로 쓰는데, **분할 결과는 이 해시와 동일**합니다(ARI = 1.0 로 확인). ID 문자열만 다르고 묶는 기능은 같으니, endpoint 별로 따로 학습하는 한 문제되지 않습니다.
+
+**조성 완전성**: FIFRA 신고서는 활성성분만 적고 계면활성제·용매 같은 inert 는 안 적습니다. 그래서 함량 합이 100% 가 안 됩니다. 재정규화하지 않고 세 컬럼으로 분해해서 남깁니다 — AD(적용범위) 신뢰도 축으로 쓸 수 있습니다.
+
+=== cell 16 ===
+## 7단계 — 저장 및 `build_vectors.py` 와 대조 (QC)
+
+평면 CSV 로 저장합니다. 그리고 **같은 계산을 하는 배치 스크립트 `build_vectors.py` 의 결과와 실제로 일치하는지** 대조합니다. 노트북과 스크립트가 따로 굴러가면서 조용히 어긋나는 걸 막는 장치입니다.
+
+=== cell 20 ===
+## 결과 시각화 — feature 가 실제로 어떻게 나왔는지 보기
+
+지금까지는 숫자(개수·%)로만 확인했는데, 여기서부터는 **feature 값 자체가 어떤 분포로 나왔는지, 자극/비자극 사이에 차이가 보이는지**를 그림으로 확인합니다.
+
+=== cell 22 ===
+### ① SMILES 커버리지 — 백필이 얼마나 메웠나
+
+=== cell 24 ===
+### ② 염 보정 효과 — 보정하지 않으면 LogP 가 얼마나 틀리나
+
+=== cell 26 ===
+### ③ physchem 8개 분포 — 성분이 어떤 값 범위에 퍼져 있나
+
+=== cell 28 ===
+### ④ descriptor 간 상관관계 — 서로 겹치는 정보는 없는지
+
+=== cell 30 ===
+**관찰**: `ESOL_LogS` 와 `LogP` 가 강한 음의 상관을 보입니다 — ESOL 공식 자체가 `-0.63 × LogP` 항을 포함하니 당연한 결과지만, **둘 다 feature 로 같이 넣으면 중복정보**라는 뜻입니다. Kang2023 벤치마크 논문도 Pearson `|r| ≥ 0.9` 기준으로 다중공선성을 제거했으니, 모델링 단계에서 둘 중 하나를 빼거나 PCA 로 묶는 걸 검토해야 합니다. skin 노트북에서도 같은 관찰(-0.93)이 나왔습니다.
+
+=== cell 31 ===
+### ⑤ 자극(1) vs 비자극(0) — feature 가 라벨과 관련 있어 보이는지 1차 확인
+
+모델을 돌리기 전에, 제형 단위로 합성한 feature 가 라벨과 **눈으로 봐도 차이가 나는지** 먼저 봅니다. 차이가 안 보여도 모델이 못 배운다는 뜻은 아니지만(비선형 조합으로 배울 수 있음), 보이면 최소한 '헛짓은 아니다'는 심증은 얻습니다.
+
+=== cell 33 ===
+### ⑥ 조성 완전성 — FIFRA 미기재 비율이 얼마나 큰가
+
+=== cell 35 ===
+## 한계점 (팀 공유 필요)
+
+1. **SMILES 미해결 22행 → 제형 8개가 완전 소실**: Polysorbate 20/80, Thyme oil, 지방산 칼륨염, benzylcoco 4급암모늄 등은 **구조식이 하나로 정의되지 않는 UVCB** 라 PubChem 에도 단일 SMILES 가 없습니다. "분자 하나의 구조"라는 전제가 안 맞는 물질이라 RDKit 방식의 **근본적 한계**입니다. 조성의 일부만 구조화된 제형은 `structure_coverage < 1` 로 표시해 뒀습니다.
+
+2. **UVCB 를 최대 프래그먼트로 대표한 것은 근사입니다**: Abamectin(B1a+B1b), Spinosad(spinosyn A+D), Pyrethrins 는 실제로 여러 성분의 혼합물인데 가장 큰 성분 하나로 대표했습니다. 합산값을 쓰는 것보다는 훨씬 타당하지만 실제 혼합물은 아닙니다. `aux_mw_removed` / `n_fragments` 로 어떤 행이 그런지 추적할 수 있습니다.
+
+3. **무기물·금속은 일부 descriptor 가 원천적으로 NaN**: NaOH, CaO, KOH, ZnCl₂, Sb₂O₃, Cu₂O, Maneb, triphenyltin 등 10개 제형에서 `BCUT2D_*` 와 `MaxPartialCharge` 계열이 NaN 입니다. Gasteiger 전하 파라미터가 해당 원소에 정의되어 있지 않기 때문이고, 계산 실패가 아니라 **정의되지 않음**입니다. 모델링 시 결측 처리 방침을 정해야 합니다.
+
+4. **ESOL 정확도**: 문헌 실측 logS 와 대조했을 때 RMSE 약 1.3 log unit 이었습니다(Delaney 원논문 보고값 ~0.9보다 나쁨). 특히 Hexane 은 +2.0 어긋납니다 — 소분자·고용해도 영역에서 ESOL 이 약한 건 알려진 한계입니다. **절대값으로 쓰지 말고 순서 정보(feature)로만** 쓰는 게 안전합니다.
+
+5. **`ESOL_LogS` ↔ `LogP` 다중공선성**: 공식 자체가 LogP 를 포함해서 생기는 구조적 중복입니다. 모델링 전에 하나를 빼거나 묶어야 합니다.
+
+6. **라벨 결측 47제형**: GHS 만 있고 EPA 4단계가 없는 제형입니다. `has_label` 로 구분되고 학습에서는 제외됩니다.
+
+7. **같은 조성인데 라벨이 다른 그룹 24제형**: 동일 조성이 다른 Cat 으로 보고된 경우입니다. 원본 데이터의 불일치이므로 최악값을 쓸지, 제외할지 팀에서 정해야 합니다. `group_label_conflict` 로 표시해 뒀습니다.
+
+8. **함량% 결측 → 균등가중치 대체**: `weight_mode == "equal_fallback"` 인 제형이 상당수입니다. 단일성분은 영향이 없지만 다성분이면 "조성비를 모르는 채 평균한 것"이므로 가중평균 feature 의 신뢰도가 낮습니다.
+
+=== cell 36 ===
+## 팀에 공유할 파일
+
+### 반드시 공유 (3개)
+
+| 파일 | 내용 | 왜 필요한가 |
+|---|---|---|
+| `eye_vectorized.csv` | **841행 × 2304컬럼** — 최종 feature + 라벨 + 메타 | 모델링 입력. 이 파일 하나로 학습 가능 |
+| `eye_feature_rebuild.ipynb` | 이 노트북 | 각 숫자가 왜 그렇게 나왔는지의 근거. 한계점 포함 |
+| `build_vectors.py` | 배치 재실행 스크립트 | 원본이 갱신되면 이걸 돌려서 재생성 |
+
+### 재현에 필요 (3개)
+
+| 파일 | 내용 |
+|---|---|
+| `smiles_backfill.csv` | PubChem 조회 캐시 19건 — 있으면 네트워크 재조회 안 함 |
+| `component_level_clean.csv` | 성분 단위 중간 산출물 (SMILES 출처·염 제거량·ESOL 추적용) |
+| `dropped_rows.csv` | 구조를 못 구해 제외된 23행 + 이유 |
+
+### 선택 (모델링 방식에 따라)
+
+| 파일 | 내용 |
+|---|---|
+| `eye_vectorized_multionly.csv` | 228행 — 다성분 제형만 (혼합물 전용 모델 쓸 때) |
+| `X_combined_labeled.parquet` / `y_labeled.parquet` | 라벨 있는 794행만, parquet (CSV 로딩이 느릴 때) |
+| `X_morgan_any.parquet` | FP 를 가중평균 대신 OR 집계한 버전 (대안 표현) |
+| `vectorization_log.json` | 전 단계 집계 수치 (보고서 작성용) |
+
+### 공유하지 않아도 되는 것
+
+- `vectorization_log_prev.json`, `build_vectors_prev.py.bak` — 개정 이전 버전 백업 (염 보정·ESOL 추가 전)
+- `X_descriptors.parquet`, `X_morgan_weighted.parquet` — `eye_vectorized.csv` 에 이미 합쳐져 있음
+- `eye_vectorized_nb.csv` — 이 노트북이 QC 대조용으로 만든 사본. `eye_vectorized.csv` 와 같은 내용
+
+---
+
+### 모델링 담당자에게 전달할 내용 3가지
+
+**1. 분할은 반드시 그룹 기준으로** — 같은 조성이 train/test 로 갈리면 성능이 부풀려집니다.
+
+```python
+from sklearn.model_selection import StratifiedGroupKFold
+
+d = pd.read_csv("eye_vectorized.csv")
+d = d[d["final_label"].notna()]                      # 794행
+feat = [c for c in d.columns if c.startswith(("fp_w_", "desc_"))] + DESC_COLS
+cv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=0)
+splits = list(cv.split(d[feat], d["binary_label"], groups=d["comp_group_id"]))
+```
+
+**2. `ESOL_LogS` 와 `LogP` 중 하나는 빼야 합니다** (상관 −0.9 이상).
+
+**3. NaN 처리 방침이 필요합니다** — 무기물 10제형의 `BCUT2D_*` 계열은 대치(imputation)보다 **해당 열을 쓰지 않거나 결측 표시자를 함께 넣는** 쪽이 맞습니다. 값이 없는 게 아니라 정의되지 않는 것이기 때문입니다.
+
+### skin 쪽에 전달할 사항 1가지
+
+skin 노트북 3단계 `compute_descriptors` 에 **염 제거가 빠져 있습니다.** LogP 가 1단위 이상 틀리는 성분이 19종, 영향받는 제형이 54개(그중 단일성분 20개 — 가중평균 희석이 없어 왜곡이 그대로 반영)입니다. Spinosad LogP 11.4, Abamectin 10.4 처럼 실존 범위를 벗어난 값이 들어가 있고, ESOL 도 같이 틀어집니다. skin 노트북 한계점 ③에 적힌 "아바멕틴 ESOL −16 극단치"가 이 증상입니다.
+
+고치는 건 3줄입니다:
+
+```python
+def compute_descriptors(smiles):
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is None:
+        return None
+    frags = Chem.GetMolFrags(mol, asMols=True, sanitizeFrags=True)   # True 필수
+    if len(frags) > 1:
+        mol = max(frags, key=lambda f: (f.GetNumHeavyAtoms(), Descriptors.MolWt(f)))
+    ...
+```
+
+SMILES 캐시를 그대로 쓰니 재조회 없이 몇 초면 끝나고, 제형 수와 라벨 분포는 바뀌지 않습니다.
+

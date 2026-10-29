@@ -1,0 +1,119 @@
+record_id,source,chemical_name,casrn,dtxsid,smiles,vitrigel_call,lag_time_sec,lag_time_censored,intensity_pct_per_sec,plateau_level_pct
+eye_irritation_1341,Yamaguchi et al. 2016,sucrose fatty acid ester,,,,Active,0,FALSE,0.24,42
+eye_irritation_1307,Yamaguchi et al. 2016,Polysorbate 80,9005-65-6,DTXSID0021175,,Inactive,180,TRUE,0.02,0
+eye_irritation_1217,Yamaguchi et al. 2016,"1,2-Propylene glycol",57-55-6,DTXSID0021206,CC(O)CO,Inactive,180,TRUE,0,0
+eye_irritation_1294,Yamaguchi et al. 2016,2-Methyl-1-propanol,78-83-1,DTXSID0021759,CC(C)CO,Active,10,FALSE,0.24,44.1
+eye_irritation_1238,Yamaguchi et al. 2016,n-Hexane,110-54-3,DTXSID0021917,CCCCCC,Inactive,180,TRUE,0.01,0
+eye_irritation_1311,Yamaguchi et al. 2016,Glycolic acid,79-14-1,DTXSID0025363,OCC(O)=O,Active,0,FALSE,0.37,3.7
+eye_irritation_1219,Yamaguchi et al. 2016,Gluconolactone,90-80-2,DTXSID0026549,OC[C@H]1OC(=O)[C@H](O)[C@@H](O)[C@@H]1O,Inactive,180,TRUE,0,0
+eye_irritation_1279,Yamaguchi et al. 2016,"2,5-Dimethylhexane-2,5-diol",110-03-2,DTXSID0026830,CC(C)(O)CCC(C)(C)O,Active,80,FALSE,0.15,18
+eye_irritation_1242,Yamaguchi et al. 2016,Isopropyl tetradecanoate,110-27-0,DTXSID0026838,CCCCCCCCCCCCCC(=O)OC(C)C,Inactive,180,TRUE,0,0
+eye_irritation_1221,Yamaguchi et al. 2016,Dodecane,112-40-3,DTXSID0026913,CCCCCCCCCCCC,Inactive,180,TRUE,0.02,0
+eye_irritation_1280,Yamaguchi et al. 2016,"Glycine, N-methyl-N-(1-oxododecyl)-, sodium salt",137-16-6,DTXSID0027066,[Na+].CCCCCCCCCCCC(=O)N(C)CC([O-])=O,Active,0,FALSE,0.35,63.6
+eye_irritation_1310,Yamaguchi et al. 2016,Sodium hydroxide,1310-73-2,DTXSID0029634,[OH-].[Na+],Active,0,FALSE,13.27,133
+eye_irritation_1251,Yamaguchi et al. 2016,"2,2-Dimethyl-3-pentanol",3970-62-5,DTXSID0032813,CCC(O)C(C)(C)C,Active,10,FALSE,0.2,35.7
+eye_irritation_1284,Yamaguchi et al. 2016,"3,3'-Dithiodipropionic acid",1119-62-6,DTXSID0032998,OC(=O)CCSSCCC(O)=O,Inactive,180,TRUE,0.02,0
+eye_irritation_1232,Yamaguchi et al. 2016,"3,3-Dimethylpentane",562-49-2,DTXSID0049319,CCC(C)(C)CC,Inactive,180,TRUE,0.01,0
+eye_irritation_1272,Yamaguchi et al. 2016,Tetrahydrofuran,109-99-9,DTXSID1021328,C1CCOC1,Active,0,FALSE,0.22,40
+eye_irritation_1295,Yamaguchi et al. 2016,1-Butanol,71-36-3,DTXSID1021740,CCCCO,Active,0,FALSE,0.89,53
+eye_irritation_1267,Yamaguchi et al. 2016,Ethyl acetate,141-78-6,DTXSID1022001,CCOC(C)=O,Active,0,FALSE,0.29,52
+eye_irritation_1299,Yamaguchi et al. 2016,2-Butoxyethanol,111-76-2,DTXSID1024097,CCCCOCCO,Active,0,FALSE,0.48,58
+eye_irritation_1315,Yamaguchi et al. 2016,Sodium dodecyl sulfate,151-21-3,DTXSID1026031,[Na+].CCCCCCCCCCCCOS([O-])(=O)=O,Active,0,FALSE,0.7,84
+eye_irritation_1320,Yamaguchi et al. 2016,"N,N,N-Trimethyloctadecan-1-aminium chloride",112-03-8,DTXSID1026902,[Cl-].CCCCCCCCCCCCCCCCCC[N+](C)(C)C,Active,0,FALSE,0.32,57
+eye_irritation_1328,Yamaguchi et al. 2016,Decamethylcyclopentasiloxane,541-02-6,DTXSID1027184,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,Inactive,180,TRUE,0.02,0
+eye_irritation_1270,Yamaguchi et al. 2016,Sodium chloroacetate,3926-62-3,DTXSID1027550,[Na+].[O-]C(=O)CCl,Active,0,FALSE,0.78,31.4
+eye_irritation_1282,Yamaguchi et al. 2016,Nonylphenoxypolyethoxyethanol,9016-45-9,DTXSID1027718,"[H]OCCO*.CCCCCCCCCC1=CC=CC=C1 |c:16,18,t:14,lp:1:2,4:2,m:5:19.20.18,Sg:n:1,2,3::ht|",Active,40,FALSE,0.2,30.1
+eye_irritation_1229,Yamaguchi et al. 2016,Silica,7631-86-9,DTXSID1029677,O=[Si]=O,Inactive,180,TRUE,0.05,0
+eye_irritation_1300,Yamaguchi et al. 2016,D&C Red 28,18472-87-2,DTXSID1031090,[Na+].[Na+].[O-]C1=C(Br)C2=C(C=C1Br)C1(OC(=O)C3=C1C(Cl)=C(Cl)C(Cl)=C3Cl)C1=C(O2)C(Br)=C([O-])C(Br)=C1,Active,0,FALSE,0.74,82
+eye_irritation_1273,Yamaguchi et al. 2016,Cyclopentanol,96-41-3,DTXSID1033371,OC1CCCC1,Active,10,FALSE,0.2,35.7
+eye_irritation_1247,Yamaguchi et al. 2016,Styrene,100-42-5,DTXSID2021284,C=CC1=CC=CC=C1,Inactive,180,TRUE,0.01,0
+eye_irritation_1255,Yamaguchi et al. 2016,Xylenes,1330-20-7,DTXSID2021446,"C*.CC1=CC=CC=C1 |c:4,6,t:2,m:1:4.5.6|",Inactive,180,TRUE,0.01,0
+eye_irritation_1248,Yamaguchi et al. 2016,Dimethyl sulfoxide,67-68-5,DTXSID2021735,CS(C)=O,Inactive,180,TRUE,0.11,0
+eye_irritation_1240,Yamaguchi et al. 2016,Polyoxyethylene dodecyl mono ether,9002-92-0,DTXSID2025218,"CCCCCCCCCCCCOCCO |lp:12:2,15:2,Sg:n:14,13,12::ht|",Inactive,180,TRUE,0.01,0
+eye_irritation_1293,Yamaguchi et al. 2016,Imidazole,288-32-4,DTXSID2029616,N1C=CN=C1,Active,100,FALSE,0.26,22
+eye_irritation_1271,Yamaguchi et al. 2016,Ammonium nitrate,6484-52-2,DTXSID2029668,[NH4+].[O-][N+]([O-])=O,Active,0,FALSE,2.07,62
+eye_irritation_1269,Yamaguchi et al. 2016,Ethyl-2-methyl acetoacetate,609-14-3,DTXSID2033493,CCOC(=O)C(C)C(C)=O,Active,10,FALSE,0.16,29.7
+eye_irritation_1321,Yamaguchi et al. 2016,1-Hexadecylpyridin-1-ium chloride--water (1/1/1),6004-24-6,DTXSID20975463,O.[Cl-].CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1,Active,0,FALSE,0.33,59
+eye_irritation_1264,Yamaguchi et al. 2016,Citric acid,77-92-9,DTXSID3020332,OC(=O)CC(O)(CC(O)=O)C(O)=O,Active,30,FALSE,0.2,15.7
+eye_irritation_1301,Yamaguchi et al. 2016,Promethazine hydrochloride,58-33-3,DTXSID3021192,Cl.CC(CN1C2=CC=CC=C2SC2=C1C=CC=C2)N(C)C,Active,0,FALSE,0.69,69
+eye_irritation_1290,Yamaguchi et al. 2016,Methyl ethyl ketone,78-93-3,DTXSID3021516,CCC(C)=O,Active,0,FALSE,0.21,37
+eye_irritation_1228,Yamaguchi et al. 2016,1-Bromooctane,111-83-1,DTXSID3021938,CCCCCCCCBr,Inactive,180,TRUE,0.05,0
+eye_irritation_1249,Yamaguchi et al. 2016,Butyl acetate,123-86-4,DTXSID3021982,CCCCOC(C)=O,Active,10,FALSE,0.15,26.3
+eye_irritation_1231,Yamaguchi et al. 2016,Methylcyclopentane,96-37-7,DTXSID3025590,CC1CCCC1,Inactive,180,TRUE,0.02,0
+eye_irritation_1235,Yamaguchi et al. 2016,Polysorbate 20,9005-64-5,DTXSID3031949,,Inactive,180,TRUE,0.03,0
+eye_irritation_1331,Yamaguchi et al. 2016,Butyl dipropasol solvent,29911-27-1,DTXSID3033276,CCCOCC(C)OCC(C)O,Active,0,FALSE,0.22,40.4
+eye_irritation_1318,Yamaguchi et al. 2016,Cetylpyridinium bromide,140-72-7,DTXSID3033307,[Br-].CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1,Active,0,FALSE,1.16,81
+eye_irritation_1225,Yamaguchi et al. 2016,1-O-Methylglycerol,623-39-2,DTXSID3049336,COCC(O)CO,Inactive,180,TRUE,0.1,0
+eye_irritation_1276,Yamaguchi et al. 2016,"Ethanol, 2-(phenylmethoxy)-",622-08-2,DTXSID3060744,OCCOCC1=CC=CC=C1,Active,10,FALSE,0.32,57.7
+eye_irritation_1324,Yamaguchi et al. 2016,"1,3-Benzenediamine",108-45-2,DTXSID4021137,NC1=CC(N)=CC=C1,Active,10,FALSE,0.35,62
+eye_irritation_1285,Yamaguchi et al. 2016,Methyl acetate,79-20-9,DTXSID4021767,COC(C)=O,Active,10,FALSE,0.16,29.2
+eye_irritation_1302,Yamaguchi et al. 2016,Cyclohexanol,108-93-0,DTXSID4021894,OC1CCCCC1,Active,0,FALSE,0.31,56
+eye_irritation_1263,Yamaguchi et al. 2016,"2,4-Pentanedione",123-54-6,DTXSID4021979,CC(=O)CC(C)=O,Active,10,FALSE,0.15,28.2
+eye_irritation_1222,Yamaguchi et al. 2016,"1,9-Decadiene",1647-16-1,DTXSID4022159,C=CCCCCCCC=C,Inactive,180,TRUE,0.01,0
+eye_irritation_1215,Yamaguchi et al. 2016,Diisobutyl ketone,108-83-8,DTXSID4025080,CC(C)CC(=O)CC(C)C,Inactive,180,TRUE,0,0
+eye_irritation_1327,Yamaguchi et al. 2016,2-(Phenylmethylene)octanal,101-86-0,DTXSID4026684,CCCCCCC(C=O)=CC1=CC=CC=C1,Active,0,FALSE,0.57,6
+eye_irritation_1234,Yamaguchi et al. 2016,Polyethylene glycol,25322-68-3,DTXSID4027862,"[H]OCCO |lp:1:2,4:2,Sg:n:1,2,3::ht|",Inactive,180,TRUE,0.01,2
+eye_irritation_1223,Yamaguchi et al. 2016,2-Methylpentane,107-83-5,DTXSID4029143,CCCC(C)C,Inactive,180,TRUE,0.01,0
+eye_irritation_1261,Yamaguchi et al. 2016,3-Chloropropionitrile,542-76-7,DTXSID4030336,ClCCC#N,Active,10,FALSE,0.31,56
+eye_irritation_1278,Yamaguchi et al. 2016,Sodium 2-naphthalenesulfonate,532-02-5,DTXSID4041442,[Na+].[O-]S(=O)(=O)C1=CC2=C(C=CC=C2)C=C1,Active,0,FALSE,0.54,59
+eye_irritation_1233,Yamaguchi et al. 2016,Ethylpivalate,3938-95-2,DTXSID4049294,CCOC(=O)C(C)(C)C,Active,110,FALSE,0.07,7.2
+eye_irritation_1239,Yamaguchi et al. 2016,"1,5-Hexadiene",592-42-7,DTXSID4049323,C=CCCC=C,Inactive,180,TRUE,0.01,0
+eye_irritation_1262,Yamaguchi et al. 2016,"Ethyl 2,6-dichloro-5-fluoro-b-oxo-3-pyridinepropionate",96568-04-6,DTXSID4049379,CCOC(=O)CC(=O)C1=CC(F)=C(Cl)N=C1Cl,Inactive,180,TRUE,0,1
+eye_irritation_1283,Yamaguchi et al. 2016,Benzyl alcohol,100-51-6,DTXSID5020152,OCC1=CC=CC=C1,Active,0,FALSE,0.27,49
+eye_irritation_1291,Yamaguchi et al. 2016,2-Ethyl-1-hexanol,104-76-7,DTXSID5020605,CCCCC(CC)CO,Active,0,FALSE,0.23,41
+eye_irritation_1256,Yamaguchi et al. 2016,2-Methylbutanoic acid,116-53-0,DTXSID5021621,CCC(C)C(O)=O,Inactive,180,TRUE,0.02,0.7
+eye_irritation_1303,Yamaguchi et al. 2016,Sodium salicylate,54-21-7,DTXSID5021708,[Na+].OC1=C(C=CC=C1)C([O-])=O,Active,0,FALSE,1.01,60
+eye_irritation_1330,Yamaguchi et al. 2016,3-Methyl-1-pentyn-3-ol,77-75-8,DTXSID5021756,CCC(C)(O)C#C,Active,0,FALSE,0.6,36
+eye_irritation_1304,Yamaguchi et al. 2016,"N,N-Diethylethanolamine",100-37-8,DTXSID5021837,CCN(CC)CCO,Active,0,FALSE,0.66,66
+eye_irritation_1243,Yamaguchi et al. 2016,4-Methyl-2-pentanone,108-10-1,DTXSID5021889,CC(C)CC(C)=O,Active,0,FALSE,0.25,32
+eye_irritation_1326,Yamaguchi et al. 2016,2-Heptanone,110-43-0,DTXSID5021916,CCCCCC(C)=O,Active,50,FALSE,0.2,9
+eye_irritation_1317,Yamaguchi et al. 2016,Acetic acid,64-19-7,DTXSID5024394,CC(O)=O,Inactive,180,TRUE,0,51
+eye_irritation_1226,Yamaguchi et al. 2016,Trimethoxy[3-(oxiran-2-ylmethoxy)propyl]silane,2530-83-8,DTXSID5027489,CO[Si](CCCOCC1CO1)(OC)OC,Active,0,FALSE,0.11,20.2
+eye_irritation_1220,Yamaguchi et al. 2016,Ligroine,8032-32-4,DTXSID5027699,,Inactive,180,TRUE,0.03,0
+eye_irritation_1313,Yamaguchi et al. 2016,Potassium laurate,10124-65-9,DTXSID5027722,[K+].CCCCCCCCCCCC([O-])=O,Active,0,FALSE,0.4,71
+eye_irritation_1325,Yamaguchi et al. 2016,1-Propoxy-2-propanol,1569-01-3,DTXSID5029217,CCCOCC(C)O,Active,0,FALSE,0.38,57
+eye_irritation_1322,Yamaguchi et al. 2016,Domiphen bromide,538-71-6,DTXSID5033468,[Br-].CCCCCCCCCCCC[N+](C)(C)CCOC1=CC=CC=C1,Active,0,FALSE,0.32,57.1
+eye_irritation_1323,Yamaguchi et al. 2016,Hexadecyltrimethylammonium bromide,57-09-0,DTXSID5037028,[Br-].CCCCCCCCCCCCCCCC[N+](C)(C)C,Active,0,FALSE,0.35,63
+eye_irritation_1246,Yamaguchi et al. 2016,"N,N-Dimethylguanidinium sulfate (2:1)",598-65-2,DTXSID5060512,OS(O)(=O)=O.CN(C)C(N)=N.CN(C)C(N)=N,Active,0,FALSE,1.35,41
+eye_irritation_1287,Yamaguchi et al. 2016,gamma-Butyrolactone,96-48-0,DTXSID6020224,O=C1CCCO1,Active,60,FALSE,0.11,16.1
+eye_irritation_1274,Yamaguchi et al. 2016,Cyclohexanone,108-94-1,DTXSID6020359,O=C1CCCCC1,Active,10,FALSE,0.26,48
+eye_irritation_1241,Yamaguchi et al. 2016,"1,2,4-Trimethylbenzene",95-63-6,DTXSID6021402,CC1=CC(C)=C(C)C=C1,Inactive,180,TRUE,0.01,0
+eye_irritation_1312,Yamaguchi et al. 2016,Ethanolamine,141-43-5,DTXSID6022000,NCCO,Active,0,FALSE,0.36,65.4
+eye_irritation_1298,Yamaguchi et al. 2016,Benzethonium chloride,121-54-0,DTXSID6023810,[Cl-].CC(C)(C)CC(C)(C)C1=CC=C(OCCOCC[N+](C)(C)CC2=CC=CC=C2)C=C1,Active,0,FALSE,0.38,68.3
+eye_irritation_1236,Yamaguchi et al. 2016,Polyethylene glycol monostearate,9004-99-3,DTXSID6027715,"CCCCCCCCCCCCCCCCCC(=O)OCCO |lp:18:2,19:2,22:2,Sg:n:19,20,21::ht|",Inactive,180,TRUE,0.02,0
+eye_irritation_1292,Yamaguchi et al. 2016,"Acetic acid, mercapto-, calcium salt (2:1)",814-71-1,DTXSID6061151,[Ca++].[O-]C(=O)CS.[O-]C(=O)CS,Active,0,FALSE,0.53,53.4
+eye_irritation_1258,Yamaguchi et al. 2016,"1H-Purine, 6-methyl-",2004-03-07,DTXSID6073283,CC1=C2NC=NC2=NC=N1,Inactive,180,TRUE,0.05,0
+eye_irritation_1281,Yamaguchi et al. 2016,Isopropanol,67-63-0,DTXSID7020762,CC(C)O,Active,0,FALSE,0.3,27
+eye_irritation_1254,Yamaguchi et al. 2016,Toluene,108-88-3,DTXSID7021360,CC1=CC=CC=C1,Active,140,FALSE,0.02,0
+eye_irritation_1286,Yamaguchi et al. 2016,1-Octanol,111-87-5,DTXSID7021940,CCCCCCCCO,Active,10,FALSE,0.16,29
+eye_irritation_1306,Yamaguchi et al. 2016,Lactic acid,50-21-5,DTXSID7023192,CC(O)C(O)=O,Inactive,180,TRUE,0.3,0
+eye_irritation_1288,Yamaguchi et al. 2016,2-Methoxyethyl acrylate,3121-61-7,DTXSID7025554,COCCOC(=O)C=C,Active,0,FALSE,0.24,42.7
+eye_irritation_1266,Yamaguchi et al. 2016,"Potassium (E,E)-hexa-2,4-dienoate",24634-61-5,DTXSID7027835,[K+].CC=CC=CC([O-])=O,Active,0,FALSE,0.72,21.7
+eye_irritation_1230,Yamaguchi et al. 2016,4-(Dimethylamino)benzoic acid 2-ethylhexyl ester,21245-02-3,DTXSID7029320,CCCCC(CC)COC(=O)C1=CC=C(C=C1)N(C)C,Inactive,180,TRUE,0.04,0
+eye_irritation_1227,Yamaguchi et al. 2016,2-Bromopropane,75-26-3,DTXSID7030197,CC(C)Br,Inactive,180,TRUE,0,0
+eye_irritation_1260,Yamaguchi et al. 2016,2-Ethylhexyl salicylate,118-60-5,DTXSID7040734,CCCCC(CC)COC(=O)C1=C(O)C=CC=C1,Inactive,180,TRUE,0.02,0
+eye_irritation_1245,Yamaguchi et al. 2016,Betaine monohydrate,590-47-6,DTXSID7049421,O.C[N+](C)(C)CC([O-])=O,Active,0,FALSE,0.26,21.1
+eye_irritation_1319,Yamaguchi et al. 2016,Diisopropanolamine,110-97-4,DTXSID8020179,CC(O)CNCC(C)O,Active,0,FALSE,0.24,43.1
+eye_irritation_1297,Yamaguchi et al. 2016,Acetone,67-64-1,DTXSID8021482,CC(C)=O,Active,0,FALSE,0.21,10
+eye_irritation_1329,Yamaguchi et al. 2016,Butyraldehyde,123-72-8,DTXSID8021513,CCCC=O,Active,80,FALSE,0.15,18
+eye_irritation_1296,Yamaguchi et al. 2016,1-Hexanol,111-27-3,DTXSID8021931,CCCCCCO,Active,0,FALSE,0.33,59
+eye_irritation_1314,Yamaguchi et al. 2016,Docusate sodium,577-11-7,DTXSID8022959,[Na+].CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S([O-])(=O)=O,Active,0,FALSE,0.24,35
+eye_irritation_1253,Yamaguchi et al. 2016,Camphene,79-92-5,DTXSID8026488,CC1(C)C2CCC(C2)C1=C,Active,100,FALSE,0.04,4
+eye_irritation_1224,Yamaguchi et al. 2016,"1,3-Diisopropylbenzene",99-62-7,DTXSID8026640,CC(C)C1=CC(=CC=C1)C(C)C,Inactive,180,TRUE,0,0
+eye_irritation_1305,Yamaguchi et al. 2016,Dimethyldioctadecylammonium chloride,107-64-2,DTXSID8026771,[Cl-].CCCCCCCCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCCCCCCCC,Active,90,FALSE,0.03,1
+eye_irritation_1244,Yamaguchi et al. 2016,Isooctyl acrylate,29590-42-9,DTXSID8027955,,Inactive,180,TRUE,0.02,0
+eye_irritation_1277,Yamaguchi et al. 2016,Methyl cyanoacetate,105-34-0,DTXSID8033649,COC(=O)CC#N,Active,20,FALSE,0.07,14
+eye_irritation_1316,Yamaguchi et al. 2016,Triton X 100,9002-93-1,DTXSID8034085,"CC(C)(C)CC(C)(C)C1=CC=C(OCCO)C=C1 |c:16,t:8,10,lp:12:2,15:2,Sg:n:12,13,14::ht|",Active,0,FALSE,0.92,83
+eye_irritation_1308,Yamaguchi et al. 2016,Ethoxylated hydrogenated castor oil,61788-85-0,DTXSID8044171,,Inactive,180,TRUE,0.01,0
+eye_irritation_1257,Yamaguchi et al. 2016,"EDTA,di-potassium dihydrate",25102-12-9,DTXSID80894202,O.O.[K+].[K+].[H]OC(=O)CN(CCN(CC([O-])=O)CC(=O)O[H])CC([O-])=O,Active,0,FALSE,0.38,37.8
+eye_irritation_1275,Yamaguchi et al. 2016,Ethanol,64-17-5,DTXSID9020584,CCO,Active,10,FALSE,0.12,23
+eye_irritation_1218,Yamaguchi et al. 2016,Glycerol,56-81-5,DTXSID9020663,OCC(O)CO,Active,0,FALSE,0.34,20.4
+eye_irritation_1252,Yamaguchi et al. 2016,"1,2,3-Trichloropropane",96-18-4,DTXSID9021390,ClCC(Cl)CCl,Active,80,FALSE,0.11,14.2
+eye_irritation_1250,Yamaguchi et al. 2016,Triethanolamine,102-71-6,DTXSID9021392,OCCN(CCO)CCO,Active,0,FALSE,0.17,31
+eye_irritation_1268,Yamaguchi et al. 2016,2-Methylpropanal,78-84-2,DTXSID9021635,CC(C)C=O,Active,30,FALSE,0.17,27.5
+eye_irritation_1289,Yamaguchi et al. 2016,Pyridine,110-86-1,DTXSID9021924,C1=CC=NC=C1,Active,10,FALSE,0.18,32.7
+eye_irritation_1265,Yamaguchi et al. 2016,Ethylene glycol monoethyl ether acetate,111-15-9,DTXSID9021928,CCOCCOC(C)=O,Active,0,FALSE,0.2,37
+eye_irritation_1259,Yamaguchi et al. 2016,2-Methyl-1-pentanol,105-30-6,DTXSID9026714,CCCC(C)CO,Active,0,FALSE,0.77,46
+eye_irritation_1237,Yamaguchi et al. 2016,1-Tetradecanol,112-72-1,DTXSID9026926,CCCCCCCCCCCCCCO,Inactive,180,TRUE,0.03,0
+eye_irritation_1216,Yamaguchi et al. 2016,"2,4-Pentanediol",625-69-4,DTXSID9032878,CC(O)CC(C)O,Active,70,FALSE,0.07,8
+eye_irritation_1309,Yamaguchi et al. 2016,Benzalkonium chloride,8001-54-5,DTXSID9034317,,Active,0,FALSE,1,90

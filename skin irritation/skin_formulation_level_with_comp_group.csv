@@ -1,0 +1,545 @@
+formulation_id,final_label,internal_conflict_resolved,formulation_name,comp_group_id,is_composition_twin
+MIX1,4,False,0.08% Mesotrione on Fertilizer,MIX1,False
+MIX10,4,False,A12010C Fungicide,MIX10,False
+MIX100,4,False,Chipco Brand Triton 70 WDG Fungicide,MIX100,False
+MIX101,4,False,Chlorine Bleach Sanitizer,MIX101,False
+MIX102,4,False,Chlorothalonil Fungicide,MIX102,False
+MIX103,4,False,Chlorpyrifos VC,MIX103,False
+MIX104,4,False,Clearcast 2.7G Herbicide,MIX104,False
+MIX106,4,False,Charter F3 Fungicide Seed Treatment,MIX106,False
+MIX107,3,False,Clincher CA - CYHALOFOP-BUTYL,MIX107,True
+MIX108,4,False,Cloak Ex Herbicide,MIX108,False
+MIX109,4,False,Chateau Herbicide,MIX109,False
+MIX11,3,False,Acticide SR 8213 C,MIX11,False
+MIX111,4,False,Cheminova Abamectin,MIX111,False
+MIX112,4,False,Clothiandin 600 FS,MIX112,True
+MIX113,4,False,Cheminova Nicosulfuron,MIX113,False
+MIX114,4,False,Clothianidin,MIX114,False
+MIX115,4,False,Clutch 50 WDG,MIX112,True
+MIX117,4,False,Co-Ral 1% Dust,MIX117,False
+MIX118,4,False,CruiserMaxx Rice,MIX118,False
+MIX119,4,False,Co-Ral 25% Wettable Powder,MIX119,False
+MIX12,4,False,Abacus LoV Agricultural Miticide/Insecticide,MIX12,False
+MIX120,4,False,Co-Ral 3% Spray Foam,MIX120,False
+MIX121,4,False,Co-Ral 4% Pour-On,MIX121,False
+MIX122,2,False,Cryocide 20,MIX122,False
+MIX123,3,False,Co-Ral Emulsifiable Livestock Insecticide,MIX123,False
+MIX124,4,False,CSI Imidacloprid + Fipronil SC,MIX124,False
+MIX125,3,False,Coronet Fungicide Seed Treatment,MIX125,False
+MIX126,4,False,CSI Lambda 25 CS,MIX126,True
+MIX127,4,False,CTN E-PRO 720 Fungicide,MIX127,False
+MIX128,4,False,DuPont Curzate 60DF,MIX128,False
+MIX129,4,False,CPPU Plant Growth Regulator,MIX129,False
+MIX13,4,False,Abamectin B1a,MIX13,False
+MIX130,4,False,Cyazofamid Fungicide,MIX130,False
+MIX131,4,False,CruiserMaxx Cereals,MIX131,False
+MIX132,3,False,CYFLU,MIX132,False
+MIX133,4,False,Cyflufenamid Fungicide,MIX133,False
+MIX135,4,False,Cymoxanil,MIX135,False
+MIX136,4,False,Cypermethrin(96.7%),MIX136,False
+MIX137,4,False,Cyproconazole,MIX137,False
+MIX138,4,False,Cruiser XL,MIX138,False
+MIX139,3,False,DDVP 2-E Emulsifiable Concentrate,MIX139,False
+MIX14,4,False,Adage Premier,MIX14,False
+MIX140,4,False,Deadline Bullets,MIX140,False
+MIX141,4,False,Deadly Attraction Permethrin Bait,MIX141,False
+MIX142,2,False,Decis 1.0 Gel,MIX142,False
+MIX143,4,False,CruiserMaxx Peanuts,MIX143,False
+MIX144,4,False,DeerPro Winter Animal Repellant,MIX144,False
+MIX145,3,False,Densil CA,MIX145,False
+MIX146,4,False,Desmedipham,MIX146,False
+MIX149,4,False,Devrinol 3.75 SC Selective Herbicide,MIX149,False
+MIX15,4,False,Abamectin B1b,MIX15,False
+MIX150,4,False,Dichloroprop-P,MIX150,False
+MIX151,3,False,Diflubenzuron VC-90,MIX151,False
+MIX152,4,False,Dimethoate 400,MIX152,False
+MIX153,4,False,DPX-LEM17 50WDG Fungicide,MIX153,False
+MIX155,4,False,DPX-MAT28 Herbicide,MIX155,False
+MIX157,4,False,Dinotefuran Injectable,MIX157,False
+MIX159,4,False,Dinotefuron(99%),MIX159,False
+MIX16,4,False,Abamectin(92.8%),MIX16,False
+MIX160,4,False,Drexel Sulfur 90W,MIX160,False
+MIX162,4,False,Dropp SC Cotton Defoliant,MIX162,False
+MIX163,4,False,DuPont Approach Prima Fungicide,MIX163,False
+MIX164,4,False,Dupont DPX-KP481 50DF,MIX164,False
+MIX166,4,False,DuPont Prevathon Insect Control,MIX166,False
+MIX167,4,False,Durham Metaldehyde Granules 3.5,MIX167,False
+MIX168,4,False,Durivo Insecticide,MIX168,False
+MIX169,4,False,Dylox 420 SL,MIX169,False
+MIX17,4,False,Abamectin(98%),MIX17,False
+MIX170,4,False,Dinotefuron Ant Bait,MIX170,False
+MIX171,4,False,Dylox 9.3% Insect Granules,MIX171,False
+MIX172,4,False,Diuron 4L Liquid Flowable Herbicide,MIX172,False
+MIX173,4,False,Dynasty Extreme,MIX173,False
+MIX175,4,False,Echo 375/Cymoxaanil 50,MIX175,False
+MIX176,4,False,Domark 230 ME Fungicide,MIX176,False
+MIX177,4,False,Double Threat Insecticide,MIX177,False
+MIX178,2,False,Ecolife One-Pack,MIX178,False
+MIX179,4,False,DP210 Professional Insecticide,MIX179,False
+MIX181,4,False,DPX-KJM44 80 MUP Herbicide,MIX181,False
+MIX182,4,False,DPX-KJM44 Herbicide,MIX182,False
+MIX183,4,False,Effipro Topical Solution for Dogs,MIX183,False
+MIX184,4,False,Encartis Fungicide,MIX184,False
+MIX185,4,False,EH-1446 Herbicide,MIX185,False
+MIX186,3,False,Endigo ZCX,MIX186,False
+MIX188,4,False,Envidor 2 SC,MIX188,False
+MIX189,4,False,EH-1479 Herbicide,MIX189,False
+MIX19,4,False,Absolute 500 SC Fungicide,MIX19,False
+MIX190,4,False,"E-Scape Turf & Ornamental Fungicide, Muscle ADV",MIX190,False
+MIX191,4,False,ET-005,MIX191,False
+MIX192,4,False,ET-751,MIX192,False
+MIX193,3,False,Ethephon 3# Plant Regulator,MIX193,False
+MIX195,4,False,Etoxazole(95.57%),MIX195,False
+MIX196,3,False,Evercide Total Release Fogger,MIX196,False
+MIX197,4,False,EH-1488 Herbicide,MIX197,False
+MIX198,3,False,F 9328-1EC Herbicide,MIX198,False
+MIX199,4,False,F4113 EW Herbicide,MIX199,False
+MIX2,4,False,Acetochlor,MIX2,False
+MIX20,4,False,AE 0172747,MIX20,False
+MIX200,3,False,F8028-3 Insecticide,MIX200,False
+MIX201,3,False,EH-1534 Herbicide,MIX201,False
+MIX202,4,False,Fanfare 2 SC,MIX202,False
+MIX204,1,False,Fenpropimorph,MIX204,False
+MIX205,4,False,First Choice Foliar Supreme Fungicide,MIX205,False
+MIX206,3,False,EI-785 Insecticide,MIX206,False
+MIX207,4,False,Fitness Fungicide,MIX207,False
+MIX208,4,False,Emamectin Benzoate,MIX208,False
+MIX209,4,False,Flonicamid Insecticide,MIX209,False
+MIX21,4,False,Accent SC,MIX21,False
+MIX210,4,False,"Flower, Rose, & Shrub Care II",MIX210,False
+MIX211,4,False,Fluopyram 500 SC,MIX211,False
+MIX212,4,False,Fluoxastrobin,MIX212,False
+MIX213,4,False,Flutolanil 40SC Fungicide,MIX213,False
+MIX214,4,False,Fluazasulfuron 25WG,MIX214,False
+MIX215,4,False,Flutriafol,MIX215,False
+MIX216,4,False,Folicur,MIX216,False
+MIX217,4,False,Folicur 1. 2 emulsifiable concentrate(16.6),MIX217,False
+MIX218,4,False,Fluazinam,MIX218,False
+MIX22,4,False,Agita 10 WG,MIX22,False
+MIX220,2,False,Folpan 80 WDG,MIX220,False
+MIX221,4,False,DuPont Fontelis Fungicide,MIX221,True
+MIX222,4,False,Flufenacet & Isoxaflutole SC Herbicide,MIX222,False
+MIX223,4,False,Formula 2873,MIX223,False
+MIX224,2,False,Formula 40 (XDE-225),MIX224,False
+MIX225,4,False,Fosetyl-Al,MIX225,False
+MIX226,4,False,Flufenacet 500 SC,MIX226,False
+MIX227,4,False,Foundation Lite,MIX227,False
+MIX228,4,False,Four-way VAP,MIX228,False
+MIX229,4,False,FreeHand 1.75G Herbicide,MIX229,False
+MIX23,4,False,Acephate,MIX23,False
+MIX231,3,False,Fyfanon 57 EC,MIX231,False
+MIX232,4,False,Flufenpyr-ethyl,MIX232,False
+MIX233,4,False,GA 6-Weed and Grass Killer Ready-to-Use,MIX233,True
+MIX234,4,False,Flufenpyr-Ethyl-S-3153 WDG,MIX234,False
+MIX237,4,False,GAT Lambda 25 CS,MIX126,True
+MIX24,4,False,Acephate 90 DF Insecticide,MIX24,False
+MIX241,4,False,Fluopyram,MIX241,False
+MIX242,4,False,Fluopyram + Prothioconazole 400,MIX242,False
+MIX243,4,False,Geo Tru,MIX243,False
+MIX244,4,False,Gharda Fipronil,MIX244,False
+MIX245,4,False,Gharda Permethrin(94%),MIX245,False
+MIX246,4,False,Gharda Permethrin(95.3%),MIX246,False
+MIX247,4,False,GF-1252,MIX247,False
+MIX248,4,False,Glyphosphate (96),MIX248,False
+MIX25,4,False,Albaugh Glyphosphate Acid,MIX25,False
+MIX250,4,False,Glyphosphate (97),MIX250,False
+MIX252,4,False,Glyphosphate XG,MIX252,True
+MIX253,4,False,Gordon's Horse & Pony Spray,MIX253,False
+MIX254,4,False,GF-1629 SC,MIX254,False
+MIX255,4,False,GF-1640 WG-NC,MIX255,False
+MIX256,3,False,GF-184,MIX256,False
+MIX257,4,False,Graduate A+,MIX257,False
+MIX258,4,False,Harness Xtra Herbicide,MIX258,False
+MIX259,4,False,GF-231,MIX259,False
+MIX26,4,False,Acequinocyl,MIX26,False
+MIX260,4,False,GF-2468,MIX260,False
+MIX261,3,False,Hero Insecticide,MIX261,False
+MIX262,4,False,HM-2010,MIX262,False
+MIX263,4,False,HM-413A,MIX263,False
+MIX264,4,False,GF-2506,MIX264,False
+MIX265,4,False,Home Defense Max Perimeter Insect Killer Aerosol,MIX265,False
+MIX266,4,False,Hurricane WDG,MIX266,False
+MIX267,4,False,IMA-Jet 10%,MIX267,False
+MIX268,4,False,GF-2836,MIX268,False
+MIX269,4,False,Imazosulfuron,MIX269,False
+MIX27,4,False,Albaugh Trifluralin 10G,MIX27,True
+MIX270,4,False,Imdaclpoprid-Vitavax-Metalaxyl Seed Treatment,MIX270,False
+MIX271,4,False,GF-2986,MIX271,False
+MIX272,4,False,"Imidacloprid + Tau-fluvalinate + Tebuconazole Ready-to-Use Insecticide, Miticide and Fungicide",MIX272,False
+MIX273,4,False,GF-3028,MIX273,False
+MIX274,4,False,Imidan 60 WDG,MIX274,False
+MIX275,4,False,INDOX2,MIX275,False
+MIX276,4,False,GF-881 Manufacturing Use Concentrate,MIX276,False
+MIX277,4,False,Kaput Field Rodent Bait B,MIX277,False
+MIX279,4,False,Initium Fungicide,MIX279,False
+MIX28,4,False,Acetamiprid + Triticonazole Concentrate,MIX28,False
+MIX281,4,False,Intrepid 2F Agricultural Insecticide,MIX281,False
+MIX282,3,False,Kilter Insecticide,MIX282,False
+MIX283,4,False,Ipconazole,MIX283,False
+MIX284,3,False,Ipconazole Metalaxyl MD (S) Seed Treatment,MIX284,False
+MIX286,4,False,Kixor Herbicide,MIX286,False
+MIX287,3,False,Lambda Cyhalothrin,MIX287,False
+MIX288,4,False,Lancer Gold Insecticide,MIX288,False
+MIX290,4,False,Larvin 500 Thiodicarb Insecticede for Cotton,MIX290,False
+MIX291,4,False,Lawn 3FL Herbicide Granule,MIX291,False
+MIX292,4,False,Lawn 3FL2 Herbicide GR,MIX292,False
+MIX293,4,False,Iprodione 4F Fungicide,MIX293,False
+MIX294,4,False,Ironclad Herbicide,MIX294,False
+MIX295,4,False,LG Permethrin,MIX295,False
+MIX296,4,False,Jingma Glyphosate,MIX296,False
+MIX297,4,False,Liberty 280 SL Herbicide,MIX297,False
+MIX298,4,False,Liberty ATZ Herbicide,MIX298,False
+MIX299,4,False,Justice Insecticide,MIX299,False
+MIX3,4,False,Acrobat 50WP Fungicide,MIX3,False
+MIX30,4,False,Allectus SC Insecticide,MIX30,False
+MIX300,4,False,Lonza Formulation R-82,MIX300,False
+MIX301,3,False,MCPP-P,MIX301,False
+MIX302,4,False,MCSI Hydroprene Cockroack Killer Fogger,MIX302,False
+MIX303,3,False,Mecoprop-P Acid,MIX303,False
+MIX304,4,False,Medallion,MIX304,False
+MIX306,4,False,Lonza Formulation FC-600,MIX306,False
+MIX307,4,False,Mefenoxam,MIX307,False
+MIX308,4,False,LPI 6365-18 Fungicide,MIX308,False
+MIX31,4,False,Autumn Super 51 WDG Herbicide,MIX31,False
+MIX310,4,False,Mesosulfuron-methyl,MIX310,False
+MIX312,4,False,Mesotrione 28% Manufacturing Use Product,MIX312,False
+MIX313,4,False,Mesotrione 50WG,MIX313,False
+MIX314,4,False,Metarex 4% Snail and Slug Bait,MIX314,False
+MIX315,4,False,Metrafenone Fungicide,MIX315,False
+MIX316,4,False,Metribuzin + Flufenacet,MIX316,False
+MIX317,4,False,M920 Insecticide,MIX317,True
+MIX318,4,False,Magnate,MIX318,False
+MIX319,4,False,Metsulfuron Methyl,MIX319,False
+MIX32,4,False,Averthor Granular Ant Bait,MIX32,False
+MIX320,4,False,Mana 11201,MIX320,False
+MIX321,4,False,MGK 29461,MIX321,False
+MIX322,4,False,Max Kill Dusta-Cide 6,MIX322,False
+MIX323,4,False,Maxim MZ,MIX323,False
+MIX324,4,False,Maxim Quattro,MIX324,False
+MIX325,4,False,MGK F-2862,MIX325,False
+MIX326,4,False,MGK Fogging Concentrate 2922,MIX326,False
+MIX327,4,False,MCM 437,MIX327,False
+MIX328,4,False,MGK Formula 2960,MIX328,False
+MIX33,4,False,Avicta Complete Corn 250,MIX33,False
+MIX330,4,False,MGK Formula 2976,MIX330,False
+MIX331,4,False,Mon 58494 Herbicide,MIX331,False
+MIX332,4,False,MGK Formula 2980,MIX332,False
+MIX333,4,False,Mon 8411,MIX333,False
+MIX334,4,False,Mon 8434 Herbicide,MIX334,False
+MIX335,4,False,Movento 240 SC Insecticide,MIX335,False
+MIX336,3,False,Multicide Crawling Insect Killer 28651,MIX336,False
+MIX337,4,False,Micromite 80WG,MIX337,False
+MIX338,1,False,Mycostat BX2,MIX338,False
+MIX34,4,False,Aloft GC SC Insecticide,MIX34,False
+MIX340,4,False,Nab Nicho Tech,MIX340,True
+MIX341,4,False,Navigator 80WG Termticide/Insecticide,MIX341,False
+MIX342,3,False,Nemathorin 500EC,MIX342,False
+MIX343,3,False,Neo Chlor Spa Angel Tab,MIX343,False
+MIX344,4,False,Neporax 25G,MIX344,False
+MIX345,4,False,NEU1171H,MIX345,False
+MIX346,4,False,Mitin FF Liquid,MIX346,False
+MIX348,4,False,Nicosulfuron 40SC,MIX348,False
+MIX351,4,False,Mon 37500,MIX351,False
+MIX352,4,False,NipsIt Canola Suite Seed Protectant,MIX352,False
+MIX353,4,False,Mon 37532,MIX353,False
+MIX354,4,False,Olympus Flex Herbicide,MIX354,False
+MIX355,3,False,Olympus Seed Treatment 3,MIX355,False
+MIX356,4,False,Optigard Cockroach Bait,MIX356,False
+MIX357,4,False,DuPont Prequel Herbicide,MIX357,False
+MIX358,4,False,Prevamite,MIX358,False
+MIX359,1,False,Preventol A14-D,MIX359,False
+MIX36,3,False,Axial BIA Herbicide,MIX36,False
+MIX360,2,False,Preventol BIT 20N,MIX360,False
+MIX361,2,False,Preventol P 91,MIX361,False
+MIX362,4,False,Proceed MD Fungicide,MIX362,False
+MIX365,4,False,Prohexadione calcium(27.5%),MIX365,False
+MIX366,4,False,Propiconazole(93%),MIX366,False
+MIX367,4,False,Propiconazole 0.51% Granular Fungicide,MIX367,False
+MIX368,4,False,Prosper T400 Insecticide and Fungicide,MIX368,False
+MIX369,4,False,Prothioconazole Fungicide,MIX369,False
+MIX37,3,False,Axial Star Herbicide,MIX37,False
+MIX370,4,False,Punjab Tebuconazole,MIX370,True
+MIX371,3,False,Pyranha 1-10 PPC Concentrate,MIX371,False
+MIX372,4,False,Pyrasulfotole,MIX372,False
+MIX373,4,False,Pyridalyl,MIX373,False
+MIX374,3,False,Pyrocide Falcon 7452,MIX374,False
+MIX375,4,False,Quadris Top,MIX375,False
+MIX376,4,False,Quali-Pro Enclave 5.3F,MIX376,False
+MIX378,2,False,Raid Ant & Roach Killer with Germ Kill CIK,MIX378,False
+MIX379,4,False,Raid Roach & Ant Killer IV Plus,MIX379,False
+MIX38,4,False,Ametryn,MIX38,False
+MIX380,4,False,Raid Roach & Ant Killer Plus,MIX380,False
+MIX381,4,False,Rancona Xxtra,MIX381,False
+MIX382,1,False,Ravap EC,MIX382,False
+MIX383,4,False,NNI-0001,MIX383,False
+MIX385,4,False,Optigard Liquid Ant Bait,MIX385,False
+MIX386,4,False,NTN 33893 75 WP-WS,MIX386,False
+MIX387,4,False,Optill powered by Kixor Herbicide,MIX387,False
+MIX388,3,False,Nuosept Bit,MIX388,False
+MIX389,4,False,NUP-06139 Herbicide,MIX389,False
+MIX39,4,False,Azoxystrobin 50 WG,MIX39,False
+MIX390,4,False,ORD-X042,MIX390,False
+MIX391,4,False,NUP06147,MIX391,False
+MIX392,4,False,ORD-X170,MIX392,False
+MIX393,3,False,NUP-07003 Herbicide,MIX393,False
+MIX394,1,False,ORD-X450,MIX394,False
+MIX395,3,False,OR-X123,MIX395,False
+MIX396,4,False,Nylar Total Release Aerosol 2644,MIX396,False
+MIX397,4,False,Penbotec,MIX397,False
+MIX398,4,False,Penclo 273.5FS,MIX398,False
+MIX399,4,False,Penclotrime 310.68 FS,MIX399,False
+MIX4,4,False,0.19% Mesotrione on Fertilizer,MIX4,False
+MIX40,4,False,Amicarbazone Herbicide,MIX40,False
+MIX400,1,False,Rocima 586,MIX400,False
+MIX401,4,False,Penflufen TC,MIX401,False
+MIX402,4,False,Penoxsulam,MIX402,False
+MIX403,4,False,Rotam 2F Ornamental Insecticide,MIX317,True
+MIX404,4,False,Penpro 118FS,MIX404,False
+MIX405,4,False,Rotam Imidacloprid,MIX405,True
+MIX406,4,False,ROTAM Methomyl 29LV Insecticide,MIX406,False
+MIX407,4,False,Penprome 177FS,MIX407,False
+MIX408,4,False,Rotam Nicosulfuron,MIX340,True
+MIX409,4,False,Rotam Tebuconazole,MIX409,False
+MIX41,3,False,Bactron K-139,MIX41,False
+MIX410,4,False,Rotam Thifensulfuron-methyl,MIX410,False
+MIX411,4,False,Penthiopyrad,MIX411,False
+MIX412,4,False,Roval Brand 75 WG Fungicide,MIX412,False
+MIX413,4,False,Penthiopyrad 40 SC Fungicide,MIX413,False
+MIX414,4,False,Rugged Herbicide,MIX414,False
+MIX415,4,False,Pentri 308FS,MIX415,False
+MIX416,4,False,RWH 34,MIX416,False
+MIX417,4,False,S-3153 WDG Herbicide,MIX417,False
+MIX418,4,False,Permethrin,MIX418,False
+MIX419,3,False,Safer Brand 3-in-1 Concentrate,MIX419,False
+MIX420,3,False,Permit Plus,MIX420,False
+MIX421,4,False,"Safer Brand Garden Fungicide, Insecticide & Miticide",MIX421,False
+MIX422,4,False,Picoxystrobin,MIX422,False
+MIX423,4,False,Pillar Granular Fungicide,MIX423,False
+MIX424,4,False,Sergeants Fipronil + Etofenprox + Methoprene Spot-On for Cats,MIX424,False
+MIX425,4,False,Pinoxaden,MIX425,False
+MIX426,4,False,Sativa,MIX426,False
+MIX427,4,False,Sativa IMF Max,MIX427,False
+MIX428,4,False,Platinum 75SG,MIX428,False
+MIX429,3,False,Polyphase 663,MIX429,False
+MIX43,3,False,Amitraz(12.5%),MIX43,False
+MIX430,3,False,Sativa IMX Max,MIX430,False
+MIX431,4,False,Precise Acephate,MIX431,False
+MIX432,4,False,SC 480 Herbicide,MIX432,False
+MIX433,2,True,Scala brand SC Pyrimenthanil,MIX433,False
+MIX434,4,False,Scimitar GR Insecticide,MIX434,False
+MIX435,4,False,Scorpion Insecticide,MIX435,False
+MIX436,4,False,Shield Herbicide,MIX233,True
+MIX437,1,False,Secure Fungicide,MIX437,False
+MIX438,3,False,Shooter Insecticide,MIX438,False
+MIX439,4,False,Secure Dry Insecticide,MIX439,False
+MIX44,4,False,Amitraz(98%),MIX44,False
+MIX440,4,False,Sedaxane,MIX440,False
+MIX441,4,False,Sedaxane 50FS A16148C,MIX441,False
+MIX442,3,False,Sigma Ecol HS Antifouling Paint,MIX442,False
+MIX443,4,False,Senator 600 FS,MIX443,False
+MIX445,4,False,Sharda Glyphosate,MIX252,True
+MIX446,4,False,Smacker Bait,MIX446,False
+MIX447,4,False,S-Metolachlor & Mesotrione,MIX447,False
+MIX448,4,False,Sharpen powered by Kixor Herbicide,MIX448,False
+MIX449,4,False,Shelter Island Plus,MIX449,False
+MIX45,4,False,Banner Dry MAXX,MIX45,False
+MIX450,4,False,SP1037,MIX450,False
+MIX451,3,False,SP5411,MIX451,False
+MIX452,4,False,Synguard Multi G,MIX452,False
+MIX453,4,False,Spirodiclofen,MIX453,False
+MIX454,4,False,Spirotetramet,MIX454,False
+MIX455,4,False,Tandem CS,MIX455,False
+MIX457,3,False,TC 218,MIX457,False
+MIX458,1,False,Spiroxamine (KWG 4168),MIX458,False
+MIX459,3,False,TC 240,MIX459,False
+MIX46,4,False,Amore DF,MIX46,False
+MIX460,4,False,Splat-Mat ME,MIX460,False
+MIX461,4,False,TC 246,MIX461,False
+MIX462,4,False,Sporgard WB,MIX462,False
+MIX463,4,False,TC 249,MIX463,False
+MIX464,4,False,TC 281,MIX464,False
+MIX465,4,False,TC-317,MIX465,False
+MIX466,4,False,Starane NXT Herbicide,MIX466,False
+MIX467,4,False,TC-320,MIX467,False
+MIX468,4,False,"Storicide II Grain, Bin and Warehouse Insecticide",MIX468,False
+MIX469,4,False,Tebuconazole 45 WP,MIX469,True
+MIX47,4,False,BAS 320 I Pro Fire Ant Bait,MIX47,False
+MIX470,4,False,Strada XT,MIX470,False
+MIX471,4,False,Tebuconazole Fungicide(97.4%),MIX471,False
+MIX472,4,False,Tebuject 16,MIX472,False
+MIX473,4,False,Techfilter,MIX473,False
+MIX476,4,False,Stratego 731 Fungicide,MIX476,False
+MIX477,4,False,Termidor Dry Termiticide,MIX477,False
+MIX478,4,False,Tetrasan 5 WDG,MIX478,False
+MIX479,4,False,Sumione,MIX479,False
+MIX48,4,False,Metaflumizone(88.7%),MIX48,False
+MIX480,3,False,The Andersons 3-Way Snowmold,MIX480,False
+MIX481,3,False,Super K-Gro Malathion 50 Insect Spray,MIX481,False
+MIX482,4,False,Superfine Wettable Sulphur,MIX482,False
+MIX483,4,False,Supremacy Herbicide,MIX483,False
+MIX485,4,False,Thidiazuron-Diuron SC,MIX485,False
+MIX486,4,False,SVP8,MIX486,False
+MIX487,4,False,Thiencarbazone-methyl,MIX487,False
+MIX489,4,False,Swagger,MIX489,False
+MIX49,4,False,Amtide Tebuconazole 45 WDG Fungicide,MIX469,True
+MIX490,4,False,Switch 62.5 WG,MIX490,False
+MIX491,4,False,Three-Way VAP,MIX491,False
+MIX492,4,False,SYN 1219 Herbicide,MIX492,False
+MIX493,4,False,THX/MXM/FDL CZ Insecticide with Fungicides,MIX493,False
+MIX494,4,False,Tital FL,MIX494,False
+MIX495,4,False,T-Methyl G-Pro 50 WSB Fungicide,MIX495,False
+MIX496,4,False,THX/MXM/FDL/TBZ FS,MIX496,False
+MIX497,2,False,Tolfenpyrad 15EC Insecticide,MIX497,False
+MIX499,4,False,Topguard Fungicide,MIX499,False
+MIX5,4,False,0.25% Mesotrione on Fertilizer,MIX5,False
+MIX50,4,False,Aproach Fungicide,MIX50,False
+MIX500,4,False,Tops MZ-Curzate,MIX500,False
+MIX501,4,False,Topsin M 5G Fungicide,MIX501,False
+MIX502,4,False,Topsin M 70 WDG,MIX502,False
+MIX503,4,False,Touchdown Diquat Home and Garden Concentrate,MIX503,False
+MIX504,3,False,V-10116 VPP Fungicide,MIX504,False
+MIX505,3,False,V-10141 2.8 EC Insecticide,MIX505,False
+MIX506,3,False,TPTH,MIX506,False
+MIX507,3,False,Tradename for Dogs,MIX507,False
+MIX508,3,False,V-10142 Herbicide,MIX508,False
+MIX509,4,False,V-10276  0.088 SL Insecticide/Fungicide,MIX509,False
+MIX51,4,False,ARY 0452-110 Herbicide,MIX51,False
+MIX510,4,False,TREE-age,MIX510,False
+MIX511,4,False,DuPont Treoris Fungicide,MIX511,False
+MIX512,4,False,V-10336 Herbicide,MIX512,False
+MIX513,4,False,Trifloxysulfuron-sodium,MIX513,False
+MIX514,1,False,Vapona Concentrate Insecticide,MIX514,False
+MIX515,3,False,Triflurex HFP,MIX515,False
+MIX516,4,False,Triticonazole Fungicide,MIX516,False
+MIX517,4,False,VCP-01,MIX517,True
+MIX518,4,False,Troysan 680,MIX518,False
+MIX519,4,False,Velocity SG Herbicide,MIX519,False
+MIX52,4,False,Atlantis Herbicide,MIX52,False
+MIX520,4,False,Veriguard OD,MIX520,False
+MIX521,3,False,Troysan V48,MIX521,False
+MIX522,4,False,DuPont Vertisan Fungicide,MIX221,True
+MIX523,3,False,Tru-Core Millwork Preservative Concentrate,MIX523,False
+MIX524,4,False,Viper WP,MIX524,True
+MIX525,3,False,Vitacon 100 Pro FS Fungicide,MIX525,False
+MIX526,4,False,TSS 75WG (CGA 362622 WG 75),MIX526,False
+MIX527,4,False,Vitacon RTU FL Fungicide,MIX527,False
+MIX528,4,False,Tundra Max,MIX528,False
+MIX529,4,False,Turfthor WP,MIX529,False
+MIX53,4,False,Metaflumizone(7.4%),MIX53,False
+MIX530,4,False,Voliam Flexi Insecticide,MIX530,False
+MIX531,4,False,Voliam Xpress Insecticide,MIX531,False
+MIX532,4,False,UBI 4389,MIX532,False
+MIX533,3,False,Waterborne Milltreat 111 Concentrate,MIX533,False
+MIX535,4,False,Ultrathion Insect Repellent,MIX535,False
+MIX536,4,False,Unicorn Fungicide,MIX536,False
+MIX537,4,False,Weld Herbicide,MIX537,False
+MIX538,4,False,Up-Cyde Pro 2.0 EC Termiticide/Insecticide,MIX538,False
+MIX539,4,False,UP-End Herbicide,MIX539,False
+MIX54,3,False,BAS 500 F Manufacturing Use Product,MIX54,False
+MIX541,4,False,UPI Glyphosphate,MIX541,False
+MIX542,4,False,Wolman E (mu CA-C),MIX542,False
+MIX543,4,False,UPI Imidacloprid,MIX405,True
+MIX544,4,False,US-LON-A,MIX544,False
+MIX545,4,False,V-10116 3.7 FS,MIX545,False
+MIX547,4,False,XDE-PRDX,MIX547,False
+MIX549,3,False,X-Cide 800 Biocide,MIX549,False
+MIX550,4,False,Xemium Fungicide,MIX550,False
+MIX552,3,False,Ygiene 206,MIX552,False
+MIX553,4,False,XDE-175,MIX553,False
+MIX554,4,False,XDE-742,MIX554,False
+MIX555,4,False,Zampro Fungicide,MIX555,False
+MIX556,3,False,"Zoxamide, 80 WP",MIX556,False
+MIX557,4,False,Zoxamide(95_100%),MIX557,False
+MIX559,1,False,"Ravap EC Livestock, Poultry & Premise Spray",MIX559,False
+MIX56,4,False,Bifenture 17,MIX56,False
+MIX560,4,False,Rave Herbicide,MIX560,False
+MIX561,3,False,Raxil MD Extra Fungicide,MIX561,False
+MIX562,4,False,Raxil MD Extra W Seed Treatment,MIX562,False
+MIX563,4,False,Reality 25,MIX563,False
+MIX564,4,False,RebelEx,MIX564,False
+MIX565,4,False,Regent 500TS Insecticide,MIX565,False
+MIX566,4,False,Reldan F,MIX566,False
+MIX567,4,False,Revus Top,MIX567,False
+MIX568,4,False,Report Herbicide,MIX568,False
+MIX569,4,False,Ridomil Gold MZ WG,MIX569,False
+MIX57,3,False,BAS 536 00 F Fungicide,MIX57,False
+MIX570,4,False,Reserve Fungicide,MIX570,False
+MIX572,4,False,Revus Opti,MIX572,False
+MIX575,4,False,Acticide PM Industrial Mildewicide,MIX575,False
+MIX578,3,False,Benefin(97.3%),MIX578,False
+MIX58,4,False,Biflex 5T,MIX58,False
+MIX586,4,False,Fenhexamid(95.4%),MIX586,False
+MIX59,2,False,Biflex SFR,MIX59,False
+MIX593,4,False,Meymik 15G,MIX593,False
+MIX596,4,False,Prodiamine/Diquat/Glyphosphate EW Manufacturing,MIX596,False
+MIX597,4,False,Provado 70 WG Insecticide,MIX597,False
+MIX6,1,False,Acticide CBM,MIX6,False
+MIX60,1,False,Bioban 425 Antimicrobial,MIX60,False
+MIX600,4,False,Rynaxypyr,MIX600,False
+MIX601,4,False,Tebuconazole Fungicide(97%),MIX370,True
+MIX609,4,False,Suprend,MIX609,False
+MIX61,4,False,BAS 556 01 F Fungicide,MIX61,False
+MIX611,3,False,Trilux 44 - White,MIX611,False
+MIX614,4,False,Bromuconazole(98.4%),MIX614,False
+MIX623,4,False,Aloft GC G Insecticide,MIX623,False
+MIX624,4,False,Bromuconazole(95.7%),MIX624,False
+MIX625,4,False,Fludioxonil(95.4%),MIX625,False
+MIX631,4,False,DPX-E9636-38,MIX631,False
+MIX64,4,False,Bispyribac-sodium,MIX64,False
+MIX647,1,False,Mixture of hydantoins,MIX647,False
+MIX65,4,False,Bonide Cyper WSP Insecticide,MIX524,True
+MIX650,1,False,Orthophenylphenol/Sodium Orthophenylphenate,MIX650,False
+MIX651,4,False,Pen 240FS,MIX651,False
+MIX654,1,False,Pursuit,MIX654,False
+MIX66,4,False,BAS 650 00 F Fungicide,MIX66,False
+MIX67,4,False,Bonide Spinosad Dust,MIX67,False
+MIX68,4,False,BAS 670 336SC Herbicide,MIX68,False
+MIX69,4,False,Boscalid,MIX69,False
+MIX70,4,False,BAS 700 01 Fungicide,MIX70,False
+MIX71,4,False,Bravo Top,MIX71,False
+MIX714,4,False,Tebuconazole Fungicide(93.4%),MIX714,False
+MIX72,4,False,BAS 703 01 F Fungicide,MIX72,False
+MIX73,4,False,Britz Dryout Dust,MIX73,False
+MIX74,4,False,Bromuconazole(20%),MIX74,False
+MIX746,4,False,Cyprodinil,MIX746,False
+MIX747,4,False,DEVRINOL 2-XT Selective Herbicide,MIX747,False
+MIX75,4,False,Bromuconazole(97.8%),MIX75,False
+MIX76,4,False,BAS 703 02 F Fungicide,MIX76,False
+MIX766,4,False,Quinoxyfen,MIX766,False
+MIX77,4,False,Cabrio EG Funcgicide,MIX77,False
+MIX770,4,False,Tebuconazole Fungicide(96.3%),MIX770,False
+MIX771,4,False,Touchdown Diquat Home and Garden Ready to Use,MIX771,False
+MIX78,4,False,Callisto Xtra,MIX78,False
+MIX79,3,False,Bayocide Pour On Insecticide,MIX79,False
+MIX8,1,False,Acticide LA 2605-F,MIX8,False
+MIX80,4,False,Bayonet 2,MIX27,True
+MIX81,3,False,Canguard BIT 20 DPG Preservative,MIX81,False
+MIX82,4,False,Captan 4L,MIX82,False
+MIX83,4,False,Bellacide 325 8-month,MIX83,False
+MIX830,4,False,Flumethrin,MIX830,False
+MIX831,4,False,Clodinafop Technical,MIX831,False
+MIX832,3,False,Cyhalofop-butyl(29.6%),MIX107,True
+MIX833,4,False,Tebuconazole Fungicide,MIX833,False
+MIX834,4,False,Tebuconazole Fungicide(15.4%),MIX834,False
+MIX835,4,False,Tebuconazole Fungicide(15%),MIX835,False
+MIX836,1,False,"1,3-Dichloro-5,5-dimethylhydantoin",MIX836,False
+MIX837,4,False,Ethofumesate (95%),MIX837,False
+MIX838,4,False,Ethofumesate (98%),MIX838,False
+MIX839,1,True,Potassium Silicate(>80%),MIX839,True
+MIX84,4,False,Captan 80 WDG,MIX84,False
+MIX840,1,True,Potassium Silicate (Agsil25) (Sodium silicate powder),MIX839,True
+MIX85,4,False,Bengal Dry Roach Spray,MIX85,False
+MIX86,4,False,Captevate 68 WDG,MIX86,False
+MIX88,4,False,Capture 1.15G,MIX88,False
+MIX89,4,False,Betamix,MIX89,False
+MIX9,3,False,Acticide MKW1,MIX9,False
+MIX90,4,False,Cavicide 1,MIX90,False
+MIX91,3,False,Bifenthrin,MIX91,False
+MIX92,4,False,Bifenthrin 0.2% Granular,MIX92,False
+MIX93,4,False,Bifenthrin 8% ME,MIX93,False
+MIX94,4,False,Bifenture 10WSB/10DF Insecticide/Miticide,MIX517,True
+MIX95,3,False,Chemsico Aerosol LEG,MIX95,False
+MIX96,4,False,Chemsico Pesticide Concentrate WI-N,MIX96,False
+MIX97,4,False,Celsius WG,MIX97,False
+MIX98,4,False,Chemsico Pesticide Granules WI-N,MIX98,False
+MIX99,4,False,Certifect for Dogs,MIX99,False
