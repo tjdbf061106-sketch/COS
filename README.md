@@ -35,6 +35,8 @@
 
 ### `skin irritation/` — skin 트랙
 
+핵심 데이터(원본~최종 벡터화 결과)는 폴더 바로 아래에, 그 외는 용도별 하위폴더로 정리했습니다.
+
 | 파일 | 설명 |
 |---|---|
 | `skin_irritation.xlsx` | NTP ICE 원본 데이터 |
@@ -43,13 +45,17 @@
 | `casrn_smiles_cache.csv` | CASRN → SMILES 매핑(PubChem 조회) |
 | `casrn_descriptors_full.csv` | 성분별 RDKit descriptor 계산 결과(264종 × 2,273차원) |
 | `skin_vectorized.csv` | **최종 벡터화 결과**(544행 × 2,289컬럼, 모델 입력용) |
-| `skin_feature_rebuild.ipynb` / `skin_feature_expand_full.ipynb` | feature 생성 과정 노트북(염 제거, descriptor 계산, 시각화 포함) |
-| `skin_addons.ipynb` | EPI Suite 대조용, 메타변수 검증, 그룹분할 검증 |
-| `skin_aggregation_comparison.ipynb` | 성분→제형 집계 방식(가중평균/최댓값/최솟값 등) 비교 실험 |
-| `skin_harness_cv_upgrade.ipynb` | 단일분할 vs group k-fold 교차검증 안정성 비교 |
-| `skin_classweight_demo.ipynb` / `skin_smote_demo.ipynb` | 클래스 불균형 대응 방식(class-weighted loss vs SMOTE) 비교 데모 |
 | `epi_check_template.csv` | EPI Suite 실측값 대조용 템플릿(30종, 입력 대기 중) |
-| `XGB.xlsx` / `descriptor.pdf` | 선행연구(Kang et al. 2023) 벤치마크 데이터·descriptor 정의 참고자료 |
+| `notebooks/` | feature 생성·실험 노트북 전체(아래 참조) |
+| `reference/` | 선행연구 벤치마크 자료(`XGB.xlsx`/`descriptor.pdf`)·학교 양식 사본 |
+| `images/` | 라벨분포·재벡터화 과정 시각화 PNG |
+
+`notebooks/`에 들어있는 파일:
+- `skin_feature_rebuild.ipynb` / `skin_feature_expand_full.ipynb` — feature 생성 과정(염 제거, descriptor 계산, 시각화 포함)
+- `skin_addons.ipynb` — EPI Suite 대조용, 메타변수 검증, 그룹분할 검증
+- `skin_aggregation_comparison.ipynb` — 성분→제형 집계 방식(가중평균/최댓값/최솟값 등) 비교 실험
+- `skin_harness_cv_upgrade.ipynb` — 단일분할 vs group k-fold 교차검증 안정성 비교
+- `skin_classweight_demo.ipynb` / `skin_smote_demo.ipynb` — 클래스 불균형 대응 방식(class-weighted loss vs SMOTE) 비교 데모
 
 ### `eye irritation/` — eye 트랙
 
@@ -58,9 +64,10 @@
 | `eye_irritation.xlsx` | NTP ICE 원본 데이터 |
 | `eye_filtered.csv` | 혼합물/순물질/시험법별 분리 결과 |
 | `eye_vectorized.csv` | **최종 벡터화 결과**(841행, skin과 동일한 descriptor+fingerprint 체계) |
-| `eye_feature_rebuild.ipynb` | feature 생성 과정 노트북 |
+| `drd_vectorized.csv` | 보강데이터(DRD_Barroso2017 기반) 벡터화 결과 — GHS 병행분류 채택 시에만 사용 |
 | `eye_벡터화_방법.md` | eye 트랙 벡터화 방법론 설명 |
-| `DRD_Barroso2017_extracted.xlsx`, `DRD_usable.csv`, `ICE_Eye_Irritation_CAP.xlsx`, `eye_invitro_vitrigel.csv` | 보강데이터 후보(검토 결과는 진행상황.md 참조) |
+| `notebooks/` | feature 생성 노트북·스크립트(`eye_feature_rebuild.ipynb`, `build_vectors.py` 등) |
+| `reference/` | 보강데이터 후보 원본(`DRD_Barroso2017_extracted.xlsx`, `DRD_usable.csv`, `ICE_Eye_Irritation_CAP.xlsx`, `eye_invitro_vitrigel.csv` — 검토 결과는 진행상황.md 참조) |
 
 ### `modeling/` — 통합 모델링 harness
 
@@ -77,13 +84,23 @@ skin과 eye를 하나의 Multi-task 신경망으로 학습·평가하는 PyTorch
 
 ### `서류/` — 문서
 
-연구계획서, 중간보고서(`중간보고서_COS.docx`), 학교 지정 작성양식, 참가신청서 등 제출용 서류.
+| 파일/폴더 | 설명 |
+|---|---|
+| `붙임1~3` | 학교 제출용 참가신청서·연구계획서·개인정보동의서(hwpx) |
+| `중간보고서_COS.docx` | 중간보고서(학교 양식 준수) |
+| `최종보고서 작성양식.hwp/pdf`, `최종보고서틀.hwp/pdf` | 학교 지정 작성양식 |
+| `주간연구일정표_20260803_20261106.pdf` | 전체 일정표 |
+| `연구계획서_버전들/` | 연구계획서 작성 과정의 이전 버전들 |
+| `생성스크립트/` | 위 문서들을 생성한 Python 스크립트 |
+| `스크린샷/` | 카카오톡 공유 스크린샷 |
 
 ### `선행연구/` — 선행연구 리뷰
 
-팀원별로 분담해 검토한 선행연구 4편(총 5개 논문): STopTox(Borba 2022), PFAS 전이학습(Feinstein 2021), AttentiveSkin(Huang 2024) + AI-Nano 리뷰(Zhou 2026), Kang·Kim·Lim(2023) XGBoost 벤치마크.
+팀원별 폴더(`김서율/`, `장다예/`, `전수진/`, `한세음/`)에 각자 담당한 선행연구 리뷰·원본이 들어있습니다. 총 4편 분담, 5개 논문: STopTox(Borba 2022), PFAS 전이학습(Feinstein 2021), AttentiveSkin(Huang 2024) + AI-Nano 리뷰(Zhou 2026), Kang·Kim·Lim(2023) XGBoost 벤치마크.
 
 ### `세팅/` — 프로젝트 운영 문서
 
 - **`진행상황.md`**: 이 프로젝트의 단일 진실 출처(source of truth). 모든 결정사항·실험결과·미결항목이 날짜순으로 기록됨.
 - `멀티태스크_모델링_정리.md`: 모델 아키텍처 설계 배경
+- `생성스크립트/`: 산출물 생성용 Python 스크립트
+- `images/`: 연구흐름 도식화 등 시각자료
