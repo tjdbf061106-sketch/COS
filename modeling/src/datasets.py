@@ -68,6 +68,10 @@ class IrritationDataset(Dataset):
 
 def skin_dataset(csv_path="../skin irritation/skin_vectorized.csv"):
     # 공통 8개 + desc_*(전체 RDKit 217) + fp_w_*(Morgan FP 2048) = 2,273차원
+    # 2026-10-29: unknown_pct/undeclared_pct를 feature로 추가하는 실험을 해봤으나(2,275차원),
+    # Sensitivity/Specificity 균형·MCC 기준으로 skin 성능이 오히려 악화되어(Sens 0.367->0.333,
+    # 격차 0.520->0.545, MCC 0.174->0.143) 되돌림. skin_addons.ipynb의 단순 모델 테스트에서는
+    # 개선된 것처럼 보였으나(RF 계열), 실제 Multi-task 신경망에서는 재현 안 됨 — 진행상황.md 참조.
     header = pd.read_csv(csv_path, nrows=0).columns
     expanded_cols = [c for c in header if c.startswith(("desc_", "fp_w_"))]
     feature_cols = SKIN_COMMON8_COLS + expanded_cols
