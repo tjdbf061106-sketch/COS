@@ -107,7 +107,7 @@ casrn,cid,smiles,status
 1912-24-9,2256.0,CCNC1=NC(=NC(=N1)Cl)NC(C)C,found
 1918-00-9,3030.0,COC1=C(C=CC(=C1C(=O)O)Cl)Cl,found
 1928-43-4,61286.0,CCCCC(CC)COC(=O)COC1=C(C=C(C=C1)Cl)Cl,found
-1951-03-06,5794.0,CCCCOCCOCCOCC1=CC2=C(C=C1CCC)OCO2,found_via_manual_fix
+51-03-6,5794.0,CCCCOCCOCCOCC1=CC2=C(C=C1CCC)OCO2,found_via_manual_fix
 1982-69-0,23680611.0,COC1=C(C=CC(=C1C(=O)[O-])Cl)Cl.[Na+],found
 199119-58-9,23676736.0,COC1=CC(=NC(=N1)NC(=O)[N-]S(=O)(=O)C2=C(C=CC=N2)OCC(F)(F)F)OC.[Na+],found
 2008-39-1,16180.0,CNC.C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,found
@@ -230,7 +230,7 @@ casrn,cid,smiles,status
 79622-59-6,91731.0,C1=C(C=NC(=C1Cl)NC2=C(C=C(C(=C2[N+](=O)[O-])Cl)C(F)(F)F)[N+](=O)[O-])C(F)(F)F,found
 8003-34-7,60202781.0,CC1=C(C(=O)C[C@@H]1OC(=O)[C@@H]2[C@H](C2(C)C)C=C(C)C)C/C=C\C=C.CC1=C(C(=O)C[C@@H]1OC(=O)[C@@H]2[C@H](C2(C)C)/C=C(\C)/C(=O)OC)C/C=C\C=C,found
 8007-46-3,,,http_error_404
-8018-01-07,3034368.0,C(CNC(=S)[S-])NC(=S)[S-].C(CNC(=S)[S-])NC(=S)[S-].[Mn+2].[Zn+2],found_via_manual_fix
+8018-01-7,3034368.0,C(CNC(=S)[S-])NC(=S)[S-].C(CNC(=S)[S-])NC(=S)[S-].[Mn+2].[Zn+2],found_via_manual_fix
 8046-74-0,,,http_error_404
 80844-07-1,71245.0,CCOC1=CC=C(C=C1)C(C)(C)COCC2=CC(=CC=C2)OC3=CC=CC=C3,found
 81335-77-5,54740.0,CCC1=CC(=C(N=C1)C2=NC(C(=O)N2)(C)C(C)C)C(=O)O,found
