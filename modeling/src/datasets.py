@@ -15,9 +15,13 @@ from torch.utils.data import Dataset
 
 CATEGORY_TO_BINARY = {1: 1, 2: 1, 3: 0, 4: 0}
 
-# skin_vectorized.csv의 공통 8개 descriptor (desc_*/fp_w_* 와 별도로 이름이 고정된 컬럼)
-SKIN_COMMON8_COLS = ["MolWt", "LogP", "TPSA", "HBD", "HBA",
-                     "RotatableBonds", "AromaticProportion", "ESOL_LogS"]
+# skin_vectorized.csv의 공통 descriptor (desc_*/fp_w_* 와 별도로 이름이 고정된 컬럼)
+# 2026-10-29: ESOL_LogS 제외(원래 8개->7개). ESOL_LogS = 0.16-0.63*LogP-0.0062*MolWt+0.066*RotB-0.74*AromaticProportion
+# 로 LogP/MolWt/RotatableBonds/AromaticProportion의 선형조합이라 100% 중복 정보. 3가지 처리방식(ESOL_LogS 제거/
+# LogP 제거/PCA 1성분)을 group 5-fold로 비교한 결과 Sensitivity/Specificity/MCC는 동률, ROC-AUC는 ESOL_LogS
+# 제거가 최고(0.700 vs LogP제거 0.697 vs 유지 0.686)라 채택. PCA는 격차가 더 벌어져(0.567->0.575) 기각.
+SKIN_COMMON7_COLS = ["MolWt", "LogP", "TPSA", "HBD", "HBA",
+                     "RotatableBonds", "AromaticProportion"]
 
 
 class IrritationDataset(Dataset):
@@ -67,14 +71,14 @@ class IrritationDataset(Dataset):
 
 
 def skin_dataset(csv_path="../skin irritation/skin_vectorized.csv"):
-    # 공통 8개 + desc_*(전체 RDKit 217) + fp_w_*(Morgan FP 2048) = 2,273차원
-    # 2026-10-29: unknown_pct/undeclared_pct를 feature로 추가하는 실험을 해봤으나(2,275차원),
+    # 공통 7개(ESOL_LogS 제외, 위 주석 참조) + desc_*(전체 RDKit 217) + fp_w_*(Morgan FP 2048) = 2,272차원
+    # 2026-10-29: unknown_pct/undeclared_pct를 feature로 추가하는 실험을 해봤으나(+2차원),
     # Sensitivity/Specificity 균형·MCC 기준으로 skin 성능이 오히려 악화되어(Sens 0.367->0.333,
     # 격차 0.520->0.545, MCC 0.174->0.143) 되돌림. skin_addons.ipynb의 단순 모델 테스트에서는
     # 개선된 것처럼 보였으나(RF 계열), 실제 Multi-task 신경망에서는 재현 안 됨 — 진행상황.md 참조.
     header = pd.read_csv(csv_path, nrows=0).columns
     expanded_cols = [c for c in header if c.startswith(("desc_", "fp_w_"))]
-    feature_cols = SKIN_COMMON8_COLS + expanded_cols
+    feature_cols = SKIN_COMMON7_COLS + expanded_cols
     return IrritationDataset(csv_path, label_col="binary_label", feature_cols=feature_cols)
 
 
