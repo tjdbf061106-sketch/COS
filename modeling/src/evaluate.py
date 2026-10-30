@@ -49,7 +49,9 @@ def main():
     eye_ds.X = ckpt["eye_scaler"].transform(eye_ds.X).astype("float32")
 
     model = MultiTaskIrritationModel(
-        ckpt["skin_input_dim"], ckpt["eye_input_dim"], hidden_dim=ckpt["hidden_dim"]
+        ckpt["skin_input_dim"], ckpt["eye_input_dim"], hidden_dim=ckpt["hidden_dim"],
+        skin_num_layers=ckpt.get("skin_num_layers", 2), skin_dropout=ckpt.get("skin_dropout", 0.2),
+        eye_num_layers=ckpt.get("eye_num_layers", 2), eye_dropout=ckpt.get("eye_dropout", 0.2),
     )
     model.load_state_dict(ckpt["model_state"])
 

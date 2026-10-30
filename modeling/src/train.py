@@ -90,6 +90,12 @@ def main():
     parser.add_argument("--lr", type=float, default=1e-2,
                          help="2026-10-30 하이퍼파라미터 튜닝 결과 채택(기존 1e-3): Sens/Spec 격차 0.281->0.167 개선")
     parser.add_argument("--hidden-dim", type=int, default=128)
+    parser.add_argument("--skin-num-layers", type=int, default=1,
+                         help="2026-10-30 구조 탐색 결과 채택(기존 2): skin은 데이터가 적어(541건, 양성 29건) 얕은 구조가 더 나음")
+    parser.add_argument("--skin-dropout", type=float, default=0.0,
+                         help="2026-10-30 구조 탐색 결과 채택(기존 0.2): 은닉층을 줄이니 dropout 없이도 격차/MCC 개선")
+    parser.add_argument("--eye-num-layers", type=int, default=2, help="eye는 팀원 담당 영역, 기존 구조 유지")
+    parser.add_argument("--eye-dropout", type=float, default=0.2, help="eye는 팀원 담당 영역, 기존 구조 유지")
     parser.add_argument("--balance", choices=["weighted", "1to1"], default="weighted")
     parser.add_argument("--test-size", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
@@ -121,7 +127,11 @@ def main():
     skin_loader = DataLoader(skin_train, batch_size=args.batch_size, shuffle=True, drop_last=True)
     eye_loader = DataLoader(eye_train, batch_size=args.batch_size, shuffle=True, drop_last=True)
 
-    model = MultiTaskIrritationModel(skin_ds.input_dim, eye_ds.input_dim, hidden_dim=args.hidden_dim)
+    model = MultiTaskIrritationModel(
+        skin_ds.input_dim, eye_ds.input_dim, hidden_dim=args.hidden_dim,
+        skin_num_layers=args.skin_num_layers, skin_dropout=args.skin_dropout,
+        eye_num_layers=args.eye_num_layers, eye_dropout=args.eye_dropout,
+    )
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
 
     if args.balance == "weighted":
@@ -186,6 +196,10 @@ def main():
             "skin_input_dim": skin_ds.input_dim,
             "eye_input_dim": eye_ds.input_dim,
             "hidden_dim": args.hidden_dim,
+            "skin_num_layers": args.skin_num_layers,
+            "skin_dropout": args.skin_dropout,
+            "eye_num_layers": args.eye_num_layers,
+            "eye_dropout": args.eye_dropout,
             "skin_test_idx": skin_test_idx,
             "eye_test_idx": eye_test_idx,
             "skin_scaler": skin_scaler,

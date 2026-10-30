@@ -10,25 +10,36 @@ import torch.nn as nn
 
 
 class TaskEncoder(nn.Module):
-    def __init__(self, input_dim, hidden_dim=128, dropout=0.2):
+    """num_layers=은닉층 개수. dropout은 기존 구조와 동일하게 첫 번째 은닉층 뒤에만 적용
+    (2026-10-30 구조 탐색 노트북(skin_architecture_demo.ipynb)에서 이 형태로 일반화해 비교함)."""
+
+    def __init__(self, input_dim, hidden_dim=128, dropout=0.2, num_layers=2):
         super().__init__()
-        self.net = nn.Sequential(
-            nn.Linear(input_dim, hidden_dim),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            nn.Linear(hidden_dim, hidden_dim),
-            nn.ReLU(),
-        )
+        layers = []
+        in_dim = input_dim
+        for i in range(num_layers):
+            layers.append(nn.Linear(in_dim, hidden_dim))
+            layers.append(nn.ReLU())
+            if i == 0 and dropout > 0:
+                layers.append(nn.Dropout(dropout))
+            in_dim = hidden_dim
+        self.net = nn.Sequential(*layers)
 
     def forward(self, x):
         return self.net(x)
 
 
 class MultiTaskIrritationModel(nn.Module):
-    def __init__(self, skin_input_dim, eye_input_dim, hidden_dim=128, num_classes=2):
+    """skin/eye encoder 구조를 독립적으로 지정 가능.
+    2026-10-30: skin은 1단계-3번 구조 탐색 결과 num_layers=1/dropout=0.0 채택
+    (은닉층 2개/dropout 0.2 대비 Sens 0.633->0.667, Spec 0.800->0.812, 격차 0.167->0.145, MCC 0.238->0.267).
+    eye는 담당 팀원 영역이라 기존 구조(num_layers=2, dropout=0.2) 유지."""
+
+    def __init__(self, skin_input_dim, eye_input_dim, hidden_dim=128, num_classes=2,
+                 skin_num_layers=1, skin_dropout=0.0, eye_num_layers=2, eye_dropout=0.2):
         super().__init__()
-        self.skin_encoder = TaskEncoder(skin_input_dim, hidden_dim)
-        self.eye_encoder = TaskEncoder(eye_input_dim, hidden_dim)
+        self.skin_encoder = TaskEncoder(skin_input_dim, hidden_dim, dropout=skin_dropout, num_layers=skin_num_layers)
+        self.eye_encoder = TaskEncoder(eye_input_dim, hidden_dim, dropout=eye_dropout, num_layers=eye_num_layers)
         self.shared_trunk = nn.Sequential(
             nn.Linear(hidden_dim, hidden_dim),
             nn.ReLU(),
