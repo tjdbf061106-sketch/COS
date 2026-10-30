@@ -1,7 +1,7 @@
 """
 Multi-task skin/eye 독성(0/1) 분류 학습.
 
-사용법 (modeling/src 안에서):
+사용법 (어느 디렉터리에서 실행해도 기본 CSV 경로는 레포 루트 기준으로 잡힌다):
   py train.py --epochs 50
 
 클래스 불균형 대응 순서(진행상황.md 2026-09-18 합의):
@@ -16,7 +16,7 @@ import torch.nn as nn
 from sklearn.preprocessing import StandardScaler
 from torch.utils.data import DataLoader, Subset
 
-from datasets import skin_dataset, eye_dataset
+from datasets import EYE_CSV, SKIN_CSV, skin_dataset, eye_dataset
 from model import MultiTaskIrritationModel
 from splits import group_train_test_split
 
@@ -57,8 +57,8 @@ def undersample_1to1(indices, labels, rng):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--skin-csv", default="../skin irritation/skin_vectorized.csv")
-    parser.add_argument("--eye-csv", default="../eye irritation/eye_vectorized.csv")
+    parser.add_argument("--skin-csv", default=SKIN_CSV)
+    parser.add_argument("--eye-csv", default=EYE_CSV)
     parser.add_argument("--epochs", type=int, default=50)
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--lr", type=float, default=1e-3)

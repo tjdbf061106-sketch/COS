@@ -8,10 +8,20 @@ skin/eye 벡터화 CSV를 PyTorch Dataset으로 로드.
 확장 — 기존 공통 8개 descriptor는 유지한 채 desc_*/fp_w_* 컬럼 추가(skin_feature_expand_full.ipynb).
 eye도 같은 시점에 동일 네이밍(desc_*/fp_w_*)으로 재구성 완료 — 두 트랙 feature 스키마가 호환됨.
 """
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import torch
 from torch.utils.data import Dataset
+
+# 기본 CSV 경로는 이 파일 위치에서 레포 루트를 거슬러 올라가 고정한다.
+# cwd 기준 상대경로("../skin irritation/...")로 두면 modeling/src에서 실행할 때
+# modeling/skin irritation/ 을 찾아 실패하고, 레포 루트에서 실행하면 또 다른 곳을 찾는다.
+# datasets.py -> src -> modeling -> 레포 루트
+REPO_ROOT = Path(__file__).resolve().parents[2]
+SKIN_CSV = REPO_ROOT / "skin irritation" / "skin_vectorized.csv"
+EYE_CSV = REPO_ROOT / "eye irritation" / "eye_vectorized.csv"
 
 CATEGORY_TO_BINARY = {1: 1, 2: 1, 3: 0, 4: 0}
 
@@ -73,7 +83,7 @@ class IrritationDataset(Dataset):
         return len(self.feature_cols)
 
 
-def skin_dataset(csv_path="../skin irritation/skin_vectorized.csv"):
+def skin_dataset(csv_path=SKIN_CSV):
     # AromaticProportion(유일 독립 공통컬럼, 위 주석 참조) + desc_*(전체 RDKit 217) + fp_w_*(Morgan FP 2048) = 2,266차원
     # 2026-10-29: unknown_pct/undeclared_pct를 feature로 추가하는 실험을 해봤으나(+2차원),
     # Sensitivity/Specificity 균형·MCC 기준으로 skin 성능이 오히려 악화되어(Sens 0.367->0.333,
@@ -85,7 +95,7 @@ def skin_dataset(csv_path="../skin irritation/skin_vectorized.csv"):
     return IrritationDataset(csv_path, label_col="binary_label", feature_cols=feature_cols)
 
 
-def eye_dataset(csv_path="../eye irritation/eye_vectorized.csv"):
+def eye_dataset(csv_path=EYE_CSV):
     # substance_type == 'Mixture'만 사용(순물질 Chemical 제외) — 진행상황.md 2026-09-18 결정사항
     # 2026-10-06 재구성 이후 eye도 desc_*/fp_w_* 스키마 + binary_label 보유(GHS만 있는 47건은 NaN -> 자동 제외)
     return IrritationDataset(

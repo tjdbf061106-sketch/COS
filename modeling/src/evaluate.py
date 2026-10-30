@@ -9,7 +9,7 @@ import argparse
 import torch
 from sklearn.metrics import classification_report, confusion_matrix, f1_score, roc_auc_score
 
-from datasets import skin_dataset, eye_dataset
+from datasets import EYE_CSV, SKIN_CSV, skin_dataset, eye_dataset
 from model import MultiTaskIrritationModel
 
 
@@ -37,8 +37,8 @@ def evaluate_task(model, forward_fn, dataset, test_idx, label):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint", default="checkpoint.pt")
-    parser.add_argument("--skin-csv", default="../skin irritation/skin_vectorized.csv")
-    parser.add_argument("--eye-csv", default="../eye irritation/eye_vectorized.csv")
+    parser.add_argument("--skin-csv", default=SKIN_CSV)
+    parser.add_argument("--eye-csv", default=EYE_CSV)
     args = parser.parse_args()
 
     ckpt = torch.load(args.checkpoint, map_location="cpu", weights_only=False)
