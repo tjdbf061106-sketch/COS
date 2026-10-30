@@ -87,7 +87,8 @@ def main():
     parser.add_argument("--patience", type=int, default=15, help="검증 손실이 이만큼 연속 개선 안 되면 조기 종료")
     parser.add_argument("--val-size", type=float, default=0.2, help="train 중 검증용으로 떼어낼 비율(조기종료 모니터링용)")
     parser.add_argument("--batch-size", type=int, default=32)
-    parser.add_argument("--lr", type=float, default=1e-3)
+    parser.add_argument("--lr", type=float, default=1e-2,
+                         help="2026-10-30 하이퍼파라미터 튜닝 결과 채택(기존 1e-3): Sens/Spec 격차 0.281->0.167 개선")
     parser.add_argument("--hidden-dim", type=int, default=128)
     parser.add_argument("--balance", choices=["weighted", "1to1"], default="weighted")
     parser.add_argument("--test-size", type=float, default=0.2)
