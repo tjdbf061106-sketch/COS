@@ -18,7 +18,7 @@ from torch.utils.data import DataLoader, Subset
 
 from datasets import EYE_CSV, SKIN_CSV, skin_dataset, eye_dataset
 from model import MultiTaskIrritationModel
-from splits import group_train_test_split
+from splits import group_train_test_split, group_train_test_split_from_subset
 
 
 def standardize_inplace(dataset, train_idx):
@@ -42,6 +42,30 @@ def class_weights(labels, num_classes=2):
     return torch.tensor(weights, dtype=torch.float32)
 
 
+class EarlyStopping:
+    """검증 손실(val loss)이 patience 에폭 연속 개선 안 되면 멈추라는 신호를 주는 헬퍼.
+    가장 좋았던 에폭의 모델 가중치를 따로 기억해뒀다가 돌려준다(마지막 에폭이 아니라 최적 에폭 채택)."""
+
+    def __init__(self, patience=15, mode="min"):
+        self.patience = patience
+        self.mode = mode
+        self.best = None
+        self.counter = 0
+        self.best_epoch = None
+        self.best_state = None
+
+    def step(self, value, epoch, model):
+        improved = self.best is None or (value < self.best if self.mode == "min" else value > self.best)
+        if improved:
+            self.best = value
+            self.best_epoch = epoch
+            self.counter = 0
+            self.best_state = {k: v.clone() for k, v in model.state_dict().items()}
+        else:
+            self.counter += 1
+        return self.counter >= self.patience  # True면 멈출 시점
+
+
 def undersample_1to1(indices, labels, rng):
     indices = np.array(indices)
     labels = labels[indices]
@@ -59,7 +83,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--skin-csv", default=SKIN_CSV)
     parser.add_argument("--eye-csv", default=EYE_CSV)
-    parser.add_argument("--epochs", type=int, default=50)
+    parser.add_argument("--epochs", type=int, default=200, help="최대 에폭(상한) — early stopping이 보통 더 일찍 멈춤")
+    parser.add_argument("--patience", type=int, default=15, help="검증 손실이 이만큼 연속 개선 안 되면 조기 종료")
+    parser.add_argument("--val-size", type=float, default=0.2, help="train 중 검증용으로 떼어낼 비율(조기종료 모니터링용)")
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--hidden-dim", type=int, default=128)
@@ -74,11 +100,15 @@ def main():
     skin_ds = skin_dataset(args.skin_csv)
     eye_ds = eye_dataset(args.eye_csv)
 
-    skin_train_idx, skin_test_idx = group_train_test_split(skin_ds, args.test_size, args.seed)
-    eye_train_idx, eye_test_idx = group_train_test_split(eye_ds, args.test_size, args.seed)
+    skin_trainval_idx, skin_test_idx = group_train_test_split(skin_ds, args.test_size, args.seed)
+    eye_trainval_idx, eye_test_idx = group_train_test_split(eye_ds, args.test_size, args.seed)
 
-    skin_scaler = standardize_inplace(skin_ds, skin_train_idx)
-    eye_scaler = standardize_inplace(eye_ds, eye_train_idx)
+    skin_scaler = standardize_inplace(skin_ds, skin_trainval_idx)
+    eye_scaler = standardize_inplace(eye_ds, eye_trainval_idx)
+
+    # early stopping 모니터링용 검증셋을 train에서 추가로 떼어냄(group-aware, test와는 완전 분리된 채로).
+    skin_train_idx, skin_val_idx = group_train_test_split_from_subset(skin_ds, skin_trainval_idx, args.val_size, args.seed)
+    eye_train_idx, eye_val_idx = group_train_test_split_from_subset(eye_ds, eye_trainval_idx, args.val_size, args.seed)
 
     if args.balance == "1to1":
         skin_train_idx = undersample_1to1(skin_train_idx, skin_ds.y, rng)
@@ -104,6 +134,13 @@ def main():
     skin_iter = cycle(skin_loader)
     eye_iter = cycle(eye_loader)
 
+    skin_X_val = torch.from_numpy(skin_ds.X[skin_val_idx])
+    skin_y_val = torch.from_numpy(skin_ds.y[skin_val_idx])
+    eye_X_val = torch.from_numpy(eye_ds.X[eye_val_idx])
+    eye_y_val = torch.from_numpy(eye_ds.y[eye_val_idx])
+
+    stopper = EarlyStopping(patience=args.patience)
+
     for epoch in range(args.epochs):
         model.train()
         total_loss = 0.0
@@ -123,10 +160,24 @@ def main():
             optimizer.step()
             total_loss += loss.item()
 
+        model.eval()
+        with torch.no_grad():
+            val_skin_loss = skin_criterion(model.forward_skin(skin_X_val), skin_y_val)
+            val_eye_loss = eye_criterion(model.forward_eye(eye_X_val), eye_y_val)
+            val_loss = (model.alpha * val_skin_loss + model.beta * val_eye_loss).item()
+
         print(
-            f"epoch {epoch + 1}/{args.epochs} loss={total_loss / steps_per_epoch:.4f} "
-            f"alpha={model.alpha.item():.3f} beta={model.beta.item():.3f}"
+            f"epoch {epoch + 1}/{args.epochs} train_loss={total_loss / steps_per_epoch:.4f} "
+            f"val_loss={val_loss:.4f} alpha={model.alpha.item():.3f} beta={model.beta.item():.3f}"
         )
+
+        should_stop = stopper.step(val_loss, epoch, model)
+        if should_stop:
+            print(f"조기 종료: epoch {epoch + 1}에서 중단 (최적은 epoch {stopper.best_epoch + 1}, val_loss={stopper.best:.4f})")
+            break
+
+    model.load_state_dict(stopper.best_state)
+    print(f"최종 채택: epoch {stopper.best_epoch + 1}의 가중치 (val_loss={stopper.best:.4f})")
 
     torch.save(
         {
@@ -138,6 +189,7 @@ def main():
             "eye_test_idx": eye_test_idx,
             "skin_scaler": skin_scaler,
             "eye_scaler": eye_scaler,
+            "best_epoch": stopper.best_epoch,
         },
         args.save_path,
     )

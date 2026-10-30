@@ -21,6 +21,20 @@ def group_train_test_split(dataset, test_size=0.2, random_state=42):
     return train_idx, test_idx
 
 
+def group_train_test_split_from_subset(dataset, subset_idx, val_size=0.2, random_state=42):
+    """subset_idx(예: train+val을 합친 인덱스)를 group-aware하게 다시 train/val로 쪼갠다.
+    early stopping 모니터링용 검증셋을 만들 때 사용 — 이미 떼어둔 test셋과는 완전히 분리된 상태에서
+    train 내부만 추가로 나누므로 test leakage는 없음."""
+    import numpy as np
+
+    subset_idx = np.asarray(subset_idx)
+    groups = np.asarray(dataset.group_id)[subset_idx]
+
+    splitter = GroupShuffleSplit(n_splits=1, test_size=val_size, random_state=random_state)
+    train_pos, val_pos = next(splitter.split(subset_idx, groups=groups))
+    return subset_idx[train_pos], subset_idx[val_pos]
+
+
 def grouped_kfold_splits(dataset, n_splits=5, random_state=0):
     """StratifiedGroupKFold -> [(train_idx, test_idx), ...]. 성능 보고/비교는 이 함수로 OOF 예측을 모아서 할 것."""
     groups = dataset.group_id
