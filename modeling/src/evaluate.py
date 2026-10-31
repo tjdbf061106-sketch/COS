@@ -45,6 +45,9 @@ def main():
 
     skin_ds = skin_dataset(args.skin_csv)
     eye_ds = eye_dataset(args.eye_csv)
+    skin_nz_keep = ckpt.get("skin_nz_filter_keep")
+    if skin_nz_keep is not None:
+        skin_ds.X = skin_ds.X[:, skin_nz_keep]
     skin_ds.X = ckpt["skin_scaler"].transform(skin_ds.X).astype("float32")
     eye_ds.X = ckpt["eye_scaler"].transform(eye_ds.X).astype("float32")
 

@@ -29,6 +29,35 @@ def standardize_inplace(dataset, train_idx):
     return scaler
 
 
+class NonZeroFilter:
+    """train 샘플 기준 nonzero 개수가 min_count 미만인(거의 다 0인) feature 컬럼 제거.
+    2026-10-31 B트랙(장다예) 검증 결과 채택: skin 2,266->444차원(min_count=20).
+    MCC는 그대로지만 Sens/Spec 격차·ROC-AUC가 20회 짝지은 비교에서 꾸준히 개선됨
+    (modeling/eval_b/final_results.json). 반드시 train 인덱스에서만 fit — 전체 데이터에 fit하면
+    test 정보가 샘(장다예 지적)."""
+
+    def __init__(self, min_count=20):
+        self.min_count = min_count
+
+    def fit(self, X):
+        self.keep_ = (X != 0).sum(axis=0) >= self.min_count
+        if self.keep_.sum() == 0:
+            self.keep_[:] = True
+        return self
+
+    def transform(self, X):
+        return X[:, self.keep_]
+
+
+def filter_inplace(dataset, train_idx, min_count=20):
+    """NonZeroFilter를 train 인덱스에서 fit하고 데이터셋 전체(train+val+test)에 적용(컬럼만 추리는
+    변환이라 test 쪽 라벨/분포 정보가 새어 들어가지 않음 — standardize_inplace와 동일한 안전 패턴).
+    StandardScaler보다 먼저 적용해야 함(스케일링 후엔 0이던 값도 0이 아니게 되어 nonzero 판정이 깨짐)."""
+    filt = NonZeroFilter(min_count).fit(dataset.X[train_idx])
+    dataset.X = filt.transform(dataset.X).astype(np.float32)
+    return filt
+
+
 def cycle(loader):
     while True:
         for batch in loader:
@@ -99,6 +128,9 @@ def main():
                          help="2026-10-30 구조 탐색 결과 채택(기존 0.2): 은닉층을 줄이니 dropout 없이도 격차/MCC 개선")
     parser.add_argument("--eye-num-layers", type=int, default=2, help="eye는 팀원 담당 영역, 기존 구조 유지")
     parser.add_argument("--eye-dropout", type=float, default=0.2, help="eye는 팀원 담당 영역, 기존 구조 유지")
+    parser.add_argument("--skin-nz-min-count", type=int, default=20,
+                         help="2026-10-31 B트랙(장다예) 검증 결과 채택: nonzero 개수가 이 값 미만인 skin "
+                              "feature 컬럼 제거(2,266->444차원). eye는 적용 안 함(팀원 담당 영역)")
     parser.add_argument("--balance", choices=["weighted", "1to1"], default="weighted")
     parser.add_argument("--test-size", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
@@ -113,6 +145,7 @@ def main():
     skin_trainval_idx, skin_test_idx = group_train_test_split(skin_ds, args.test_size, args.seed)
     eye_trainval_idx, eye_test_idx = group_train_test_split(eye_ds, args.test_size, args.seed)
 
+    skin_filter = filter_inplace(skin_ds, skin_trainval_idx, min_count=args.skin_nz_min_count)
     skin_scaler = standardize_inplace(skin_ds, skin_trainval_idx)
     eye_scaler = standardize_inplace(eye_ds, eye_trainval_idx)
 
@@ -131,7 +164,7 @@ def main():
     eye_loader = DataLoader(eye_train, batch_size=args.batch_size, shuffle=True, drop_last=True)
 
     model = MultiTaskIrritationModel(
-        skin_ds.input_dim, eye_ds.input_dim, hidden_dim=args.hidden_dim,
+        skin_ds.X.shape[1], eye_ds.input_dim, hidden_dim=args.hidden_dim,
         skin_num_layers=args.skin_num_layers, skin_dropout=args.skin_dropout,
         eye_num_layers=args.eye_num_layers, eye_dropout=args.eye_dropout,
     )
@@ -196,8 +229,10 @@ def main():
     torch.save(
         {
             "model_state": model.state_dict(),
-            "skin_input_dim": skin_ds.input_dim,
+            "skin_input_dim": skin_ds.X.shape[1],
             "eye_input_dim": eye_ds.input_dim,
+            "skin_nz_filter_keep": skin_filter.keep_,
+            "skin_nz_min_count": args.skin_nz_min_count,
             "hidden_dim": args.hidden_dim,
             "skin_num_layers": args.skin_num_layers,
             "skin_dropout": args.skin_dropout,
