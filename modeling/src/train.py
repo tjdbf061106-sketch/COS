@@ -87,8 +87,11 @@ def main():
     parser.add_argument("--patience", type=int, default=15, help="검증 손실이 이만큼 연속 개선 안 되면 조기 종료")
     parser.add_argument("--val-size", type=float, default=0.2, help="train 중 검증용으로 떼어낼 비율(조기종료 모니터링용)")
     parser.add_argument("--batch-size", type=int, default=32)
-    parser.add_argument("--lr", type=float, default=1e-2,
-                         help="2026-10-30 하이퍼파라미터 튜닝 결과 채택(기존 1e-3): Sens/Spec 격차 0.281->0.167 개선")
+    parser.add_argument("--lr", type=float, default=1e-3,
+                         help="2026-10-30(1차) lr=1e-2로 바꿨다가, 2026-10-31 반복 group 5-fold(10회) 재검증 결과 "
+                              "철회(원복). 단일 분할 1회 비교에선 좋아 보였지만 반복해보니 노이즈였고, 오히려 "
+                              "lr=0.01이 구조개선(층1/dropout0)의 격차개선 효과를 깎아먹는 것으로 확인됨 "
+                              "(skin_stage23_repeatedcv_revalidation.ipynb 참조, B트랙 장다예가 문제 제기)")
     parser.add_argument("--hidden-dim", type=int, default=128)
     parser.add_argument("--skin-num-layers", type=int, default=1,
                          help="2026-10-30 구조 탐색 결과 채택(기존 2): skin은 데이터가 적어(541건, 양성 29건) 얕은 구조가 더 나음")
