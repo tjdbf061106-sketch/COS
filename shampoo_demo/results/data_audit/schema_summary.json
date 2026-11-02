@@ -2,7 +2,6 @@
   "observational_unit": "one shampoo formulation in the source JSON",
   "record_count": 812,
   "raw_sha256": "3A195870782E6FD87BDD7499CBB4FE201D025B2CDA05F9EEE9FB9477F34B58BD",
-  "provenance_sha256": "3A195870782E6FD87BDD7499CBB4FE201D025B2CDA05F9EEE9FB9477F34B58BD",
   "top_level_field_counts": {
     "Arlypon F": 812,
     "Arlypon TT": 812,
@@ -58,17 +57,8 @@
     "Turbidity_NTU": 812,
     "Viscosity": 812
   },
-  "top_level_list_length_summary": {
-    "Rheology_Data": {
-      "records_with_list": 294,
-      "min": 3,
-      "max": 3,
-      "mean": 3.0
-    }
-  },
   "automatic_field_mapping": {
-    "stability_candidate": "Stability_Test",
-    "ingredient_list_candidate": null,
+    "stability": "Stability_Test",
     "wide_ingredient_columns": [
       "Arlypon F",
       "Arlypon TT",
