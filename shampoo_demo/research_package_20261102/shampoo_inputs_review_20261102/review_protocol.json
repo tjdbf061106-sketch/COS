@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "scope": "Review the 44 observed starting formulations and enrich composition-only inputs for all 812 formulations; no model retraining",
+  "reviewed_github_commit": "f04910653dac7cda57a11d47be8ea33124d276a0",
+  "baseline_folder": "shampoo_physics_20261102",
+  "selection": "Preserve the previous illustrative stable + viscosity(100 s^-1)>=100 mPa.s + turbidity<=100 NTU selection, without selecting new training rows",
+  "curve_rates_s_inv": [10, 100, 500],
+  "curve_rule": "Positive finite measured points, log-log interpolation within measured range only; retain original rheology class without relabeling",
+  "descriptive_review_flags": {"relative_turbidity_error_at_least": 0.3, "nearest_100_viscosity_cv_at_least": 0.2, "viscosity_lower_margin_fraction": 0.2, "turbidity_upper_margin_fraction": 0.2},
+  "representatives": "One observed formulation per represented polymer-thickener subsystem, ascending turbidity relative error, then nearest-100 viscosity CV, then sample ID. Review starting points only; no claim of optimality.",
+  "primary_input_basis": "Original study commercial-stock percentages and source-claimed ingredient ranges; never renormalize 18 stocks to 100%",
+  "supplier_sensitivity": "Separate scenario replacing only Dehyton PK45 active fraction 44-46% with BASF catalog 37-41%. Catalog origin/grade/batch equivalence is unconfirmed; not a correction of historical observations.",
+  "additional_supplier_context": "Luviquat Excellence solids 38-42%, approximate MW 40000 and charge density 6.1 meq/g at pH7 from BASF May 2012 are contextual values, not confirmed experimental-batch measurements or polymer-active purity.",
+  "feature_families": ["original_stock_amounts", "role_and_type_totals", "source_claimed_active_ranges", "declared_additive_contributions", "partial_water_accounting", "surfactant_balance", "commercial_grade_indicators", "prespecified_type_and_grade_interactions"],
+  "feature_guardrails": ["No outcome, ID, rheometer, sample order or target-selected membership in predictor columns", "No fit/scale/impute/feature selection using all samples", "Source ranges are marginal bounds, not simultaneous complete compositions", "Keep distinct Polyquaternium-7 grades separate", "No concentration midpoint treated as a known active concentration"],
+  "evaluation_next_stage": "Use all eligible 812/294/293 samples, preserved outer folds and training-only model selection; the 44 selected examples are a descriptive subset only",
+  "excluded_work": ["model performance claims", "new candidate prediction", "skin/eye scoring or cosmetic toxicity transfer", "GitHub publication"]
+}

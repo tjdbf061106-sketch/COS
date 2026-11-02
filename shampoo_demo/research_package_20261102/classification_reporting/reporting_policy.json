@@ -1,0 +1,18 @@
+{
+  "requested_by_user": true,
+  "classification_metrics_in_order": ["Sensitivity", "Specificity", "MCC", "ROC-AUC"],
+  "decision_principles": [
+    "Assess sensitivity and specificity together, considering both absolute levels and their gap.",
+    "A small gap is not sufficient when both class-specific performances are poor.",
+    "Use MCC and ROC-AUC as complementary evidence; never declare a model good because one metric is high.",
+    "Do not hide the sensitivity-specificity trade-off, low-performing class, or confusion counts.",
+    "Compare the same cohort, positive-class definition, threshold, grouping and evaluation splits.",
+    "Report repeated-evaluation mean and SD; SD is not a confidence interval or evidence of statistical superiority.",
+    "No automatic model replacement or acceptance threshold has been specified. Choose thresholds using training/inner validation only, never by optimizing the reported held-out results."
+  ],
+  "current_stability_positive_class": "1 = observed short-term stable; 0 = unstable",
+  "current_classification_threshold": 0.5,
+  "current_candidate_ranking_threshold": "0.8 is an exploratory uncalibrated candidate score filter, not the threshold used for the classification metrics here",
+  "regression_scope": "Sensitivity, specificity, MCC and ROC-AUC do not apply directly to continuous viscosity/turbidity. Keep regression error metrics separate; do not create post-hoc binary outcomes to force these metrics.",
+  "current_work": "Re-report stored out-of-fold predictions only; no refit, threshold tuning or candidate prediction"
+}

@@ -1,0 +1,115 @@
+﻿feature,nonzero_count,n_unique,missing_count,min,max
+Texapon SB 3 KC,112,106,0,0.0,16.24
+Plantapon ACG 50,121,111,0,0.0,13.68
+Plantapon LC 7,122,113,0,0.0,14.94
+Plantacare 818,150,138,0,0.0,14.45
+Plantacare 2000,146,133,0,0.0,13.99
+Dehyton MC,129,120,0,0.0,13.74
+Dehyton PK 45,140,118,0,0.0,13.3
+Dehyton ML,131,118,0,0.0,14.39
+Dehyton AB 30,153,139,0,0.0,13.52
+Plantapon Amino SCG-L,132,121,0,0.0,13.44
+Plantapon Amino KG-L,113,109,0,0.0,13.71
+Dehyquart A-CA,174,151,0,0.0,13.36
+Luviquat Excellence,298,167,0,0.0,3.08
+Dehyquart CC6,174,128,0,0.0,4.86
+Dehyquart CC7 Benz,155,117,0,0.0,4.02
+Salcare Super 7,185,137,0,0.0,3.39
+Arlypon F,360,230,0,0.0,5.27
+Arlypon TT,452,276,0,0.0,5.64
+stock_sum_pct,812,687,0,15.940000000000001,33.32
+added_water_balance_pct_estimate,812,612,0,66.68,84.06
+designated_surfactant_stock_pct,812,590,0,11.46,27.759999999999998
+polymer_stock_pct,812,264,0,0.3,4.86
+thickener_stock_pct,812,357,0,0.26,5.64
+designated_surfactant_count,812,2,0,1.0,2.0
+surfactant_major_stock_share,812,810,0,0.5002077274615704,1.0
+surfactant_pair_balance,811,810,0,0.0,0.9999998273972067
+no_designated_surfactant,0,1,0,0.0,0.0
+type_anionic_stock_pct,325,284,0,0.0,23.6
+type_anionic_active_claim_lower_pct,325,303,0,0.0,15.247749999999998
+type_anionic_active_claim_upper_pct,325,303,0,0.0,16.277749999999997
+type_non_ionic_stock_pct,264,234,0,0.0,26.92
+type_non_ionic_active_claim_lower_pct,264,249,0,0.0,12.981
+type_non_ionic_active_claim_upper_pct,264,250,0,0.0,13.7688
+type_amphoteric_stock_pct,468,378,0,0.0,25.73
+type_amphoteric_active_claim_lower_pct,468,435,0,0.0,9.4998
+type_amphoteric_active_claim_upper_pct,468,435,0,0.0,9.8057
+type_amino_acid_stock_pct,230,205,0,0.0,24.23
+type_amino_acid_active_claim_lower_pct,230,216,0,0.0,6.6739999999999995
+type_amino_acid_active_claim_upper_pct,230,218,0,0.0,7.8854999999999995
+type_cationic_stock_pct,174,151,0,0.0,13.36
+type_cationic_active_claim_lower_pct,174,151,0,0.0,3.34
+type_cationic_active_claim_upper_pct,174,151,0,0.0,3.34
+surfactant_active_claim_lower_pct,812,797,0,3.1470000000000002,18.8182
+surfactant_active_claim_upper_pct,812,805,0,3.8874,19.084600000000002
+surfactant_active_claim_width_pct,761,747,0,0.0,2.628999999999998
+water_known_partial_lower_pct,812,811,0,74.6579,92.93960000000001
+water_known_partial_upper_pct,812,807,0,74.8579,93.5925
+stock_without_water_spec_pct,812,500,0,1.8199999999999998,8.82
+declared_nacl_contribution_pct,153,139,0,0.0,0.9464
+declared_potassium_sorbate_contribution_pct,112,106,0,0.0,0.0812
+declared_citric_acid_lower_pct,225,210,0,0.0,1.0458
+declared_propanediol_lower_pct,121,111,0,0.0,0.5472
+declared_citric_acid_upper_pct,225,210,0,0.0,1.0458
+declared_propanediol_upper_pct,121,111,0,0.0,0.9576000000000001
+alkyl_length_stock_weighted_source_mean,812,806,0,8.5,15.126362625139041
+grade_present_luviquat_excellence,298,2,0,0.0,1.0
+grade_present_dehyquart_cc6,174,2,0,0.0,1.0
+grade_present_dehyquart_cc7_benz,155,2,0,0.0,1.0
+grade_present_salcare_super_7,185,2,0,0.0,1.0
+grade_present_arlypon_f,360,2,0,0.0,1.0
+grade_present_arlypon_tt,452,2,0,0.0,1.0
+interaction_type_anionic__anionic,325,284,0,0.0,0.055696
+interaction_type_anionic__non_ionic,60,61,0,0.0,0.017315999999999998
+interaction_type_anionic__amphoteric,136,137,0,0.0,0.018708479999999996
+interaction_type_anionic__amino_acid,66,67,0,0.0,0.0154998
+interaction_type_anionic__cationic,33,34,0,0.0,0.016253999999999998
+interaction_type_non_ionic__non_ionic,264,234,0,0.0,0.07246864
+interaction_type_non_ionic__amphoteric,88,89,0,0.0,0.01636434
+interaction_type_non_ionic__amino_acid,36,37,0,0.0,0.01538838
+interaction_type_non_ionic__cationic,47,48,0,0.0,0.01599441
+interaction_type_amphoteric__amphoteric,468,378,0,0.0,0.06620329
+interaction_type_amphoteric__amino_acid,89,90,0,0.0,0.01621987
+interaction_type_amphoteric__cationic,70,70,0,0.0,0.01662804
+interaction_type_amino_acid__amino_acid,230,205,0,0.0,0.05870929
+interaction_type_amino_acid__cationic,24,25,0,0.0,0.015235700000000003
+interaction_type_cationic__cationic,174,151,0,0.0,0.01784896
+interaction_grade_luviquat_excellence__arlypon_f,84,85,0,0.0,0.0014782800000000002
+interaction_grade_luviquat_excellence__arlypon_tt,214,215,0,0.0,0.0014749000000000001
+interaction_grade_dehyquart_cc6__arlypon_f,90,90,0,0.0,0.0018985699999999998
+interaction_grade_dehyquart_cc6__arlypon_tt,84,85,0,0.0,0.00166478
+interaction_grade_dehyquart_cc7_benz__arlypon_f,84,85,0,0.0,0.0016763399999999997
+interaction_grade_dehyquart_cc7_benz__arlypon_tt,71,72,0,0.0,0.00150177
+interaction_grade_salcare_super_7__arlypon_f,102,103,0,0.0,0.00141905
+interaction_grade_salcare_super_7__arlypon_tt,83,84,0,0.0,0.0015320899999999998
+interaction_type_grade_anionic__luviquat_excellence,78,79,0,0.0,0.00532224
+interaction_type_grade_anionic__dehyquart_cc6,78,79,0,0.0,0.006481439999999999
+interaction_type_grade_anionic__dehyquart_cc7_benz,70,71,0,0.0,0.0055155099999999995
+interaction_type_grade_anionic__salcare_super_7,99,100,0,0.0,0.0071272
+interaction_type_grade_anionic__arlypon_f,139,140,0,0.0,0.01112265
+interaction_type_grade_anionic__arlypon_tt,186,187,0,0.0,0.0116112
+interaction_type_grade_non_ionic__luviquat_excellence,118,119,0,0.0,0.0068272
+interaction_type_grade_non_ionic__dehyquart_cc6,52,53,0,0.0,0.008232
+interaction_type_grade_non_ionic__dehyquart_cc7_benz,48,49,0,0.0,0.00636314
+interaction_type_grade_non_ionic__salcare_super_7,46,47,0,0.0,0.0040068
+interaction_type_grade_non_ionic__arlypon_f,127,128,0,0.0,0.011439000000000001
+interaction_type_grade_non_ionic__arlypon_tt,137,138,0,0.0,0.012274129999999998
+interaction_type_grade_amphoteric__luviquat_excellence,176,177,0,0.0,0.006643779999999999
+interaction_type_grade_amphoteric__dehyquart_cc6,96,97,0,0.0,0.007601739999999999
+interaction_type_grade_amphoteric__dehyquart_cc7_benz,93,94,0,0.0,0.00743763
+interaction_type_grade_amphoteric__salcare_super_7,103,104,0,0.0,0.00648
+interaction_type_grade_amphoteric__arlypon_f,201,202,0,0.0,0.011570480000000001
+interaction_type_grade_amphoteric__arlypon_tt,267,267,0,0.0,0.011087120000000002
+interaction_type_grade_amino_acid__luviquat_excellence,61,62,0,0.0,0.00477
+interaction_type_grade_amino_acid__dehyquart_cc6,59,60,0,0.0,0.00444243
+interaction_type_grade_amino_acid__dehyquart_cc7_benz,46,47,0,0.0,0.0041391
+interaction_type_grade_amino_acid__salcare_super_7,64,65,0,0.0,0.00659148
+interaction_type_grade_amino_acid__arlypon_f,97,98,0,0.0,0.010380460000000001
+interaction_type_grade_amino_acid__arlypon_tt,133,134,0,0.0,0.011848469999999998
+interaction_type_grade_cationic__luviquat_excellence,87,88,0,0.0,0.0038835999999999996
+interaction_type_grade_cationic__dehyquart_cc6,35,36,0,0.0,0.00465605
+interaction_type_grade_cationic__dehyquart_cc7_benz,24,25,0,0.0,0.0038556
+interaction_type_grade_cationic__salcare_super_7,28,29,0,0.0,0.00393579
+interaction_type_grade_cationic__arlypon_f,86,87,0,0.0,0.00651567
+interaction_type_grade_cationic__arlypon_tt,88,89,0,0.0,0.005957

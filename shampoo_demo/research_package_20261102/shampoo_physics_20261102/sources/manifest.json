@@ -1,0 +1,35 @@
+{
+  "retrieved_utc": "2026-11-02T06:00:04.963119+00:00",
+  "records": [
+    {
+      "file": "sources/LiquidFormulationsDataset_2023.json",
+      "sha256": "3a195870782e6fd87bdd7499cbb4fe201d025b2cda05f9eee9fb9477f34b58bd",
+      "md5": "8898e7b460c71e334f6ece5daebc6a6e",
+      "published_md5": "8898e7b460c71e334f6ece5daebc6a6e",
+      "article_id": 25451878,
+      "version": 1,
+      "url": "https://springernature.figshare.com/articles/software/Liquid_Formulations_Dataset/25451878/1",
+      "license": "CC0"
+    },
+    {
+      "file": "sources/surfactants_information.csv",
+      "sha256": "27045f6d4fa7db19d8890c46e0926f1f07c4a39f5a4eb72cae4235191f6feea1",
+      "md5": "aac17fe16e7efe834ccbf685c98f154e",
+      "published_md5": "aac17fe16e7efe834ccbf685c98f154e",
+      "article_id": 25451926,
+      "version": 1,
+      "url": "https://springernature.figshare.com/articles/dataset/Surfactants_Information/25451926/1",
+      "license": "CC0"
+    },
+    {
+      "file": "sources/ingredient_structures.pptx",
+      "sha256": "332379efcb790cabae1b677a49c31389275206faf201534fb98507e6cda867e2",
+      "md5": "923a76c9fd744b78169b133a517768e0",
+      "published_md5": "923a76c9fd744b78169b133a517768e0",
+      "article_id": 25451929,
+      "version": 1,
+      "url": "https://springernature.figshare.com/articles/figure/Structures_of_Formulations_Ingredients/25451929/1",
+      "license": "CC0"
+    }
+  ]
+}

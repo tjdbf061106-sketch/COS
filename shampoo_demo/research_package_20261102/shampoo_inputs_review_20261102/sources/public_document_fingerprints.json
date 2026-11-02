@@ -1,0 +1,32 @@
+[
+  {
+    "source_id": "BASF_SURFACTANTS",
+    "requested_url": "https://promo.basf.com/campaign/TechCell/arquivos/Standard%20Surfactants%20%26%20Alcohols.pdf",
+    "resolved_url": "https://promo.basf.com/campaign/TechCell/arquivos/Standard%20Surfactants%20%26%20Alcohols.pdf",
+    "status_code": 200,
+    "content_type": "application/pdf",
+    "sha256_retrieved_bytes": "5e54d51be0ef242c9f85cea9ff926d2016384a7aa0782b3b24b2b1dbdcec7e0a",
+    "retrieved_utc": "2026-11-02T06:33:56.277149+00:00",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "BASF_LUVIQUAT",
+    "requested_url": "https://promo.basf.com/campaign/Projetos/CaringForYou/Documentos/Geral/Luviquat%C2%AE%20Ultracare%20AT%201.pdf",
+    "resolved_url": "https://promo.basf.com/campaign/Projetos/CaringForYou/Documentos/Geral/Luviquat%C2%AE%20Ultracare%20AT%201.pdf",
+    "status_code": 200,
+    "content_type": "application/pdf",
+    "sha256_retrieved_bytes": "1e866dd0fa9696d6761acefdfd9d27741b51398a49a608ef5af2966025c48750",
+    "retrieved_utc": "2026-11-02T06:33:58.069134+00:00",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "BASF_ACA",
+    "requested_url": "https://care360.basf.com/global/en/Product-Finder/30528457",
+    "resolved_url": "https://care360.basf.com/global/en/Product-Finder/30528457",
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256_retrieved_bytes": "46be33c1ea629bf4ea6506b0597ae5efb38aaac933b7296e38c0721174890957",
+    "retrieved_utc": "2026-11-02T06:34:00.488818+00:00",
+    "full_document_redistributed": false
+  }
+]

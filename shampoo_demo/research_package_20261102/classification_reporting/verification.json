@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "repeat_rows": 12,
+  "summary_rows": 6,
+  "n_samples_per_model_repeat": 812,
+  "positive_stable": 294,
+  "negative_unstable": 518,
+  "four_metrics_recomputed_from_saved_oof": true,
+  "classification_threshold": 0.5,
+  "baseline_metrics_matched": true,
+  "model_refitted": false,
+  "policy_sha256": "be4b707dc116a8e323b7a07ee7644114b855de81163f8e91912b130b4a633307",
+  "snapshot_sha256": "050ca802e516127f93f0882efc7caff157da90b45b90b128dc3c43cfea8d0bec"
+}

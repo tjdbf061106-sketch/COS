@@ -1,0 +1,17 @@
+{
+  "target_is_illustrative_not_user_specified": true,
+  "min_viscosity_at_100_s_inv_mPa_s": 100.0,
+  "max_turbidity_ntu": 100.0,
+  "min_uncalibrated_stability_score": 0.8,
+  "generation": "Convex interpolation at 0.25/0.5/0.75 between two observed stable recipes with exactly the same commercial ingredient set; exact observed recipes removed",
+  "candidate_count": 990,
+  "point_target_matches": 99,
+  "conservative_error_band_target_matches": 0,
+  "observed_starting_formulations": 44,
+  "residual_log10_halfwidths": {
+    "viscosity_100": 1.073363388602021,
+    "turbidity": 0.9432957358932001
+  },
+  "uncertainty": "Descriptive 90th percentile of absolute OOF log residuals from the first grouped-CV repeat. NOT calibrated prediction intervals, NOT joint 90% coverage, NOT a confidence bound on safety.",
+  "limitations": "All candidates are unmeasured; interpolation is not proof of stability. Commercial grades, mixing, pH and temperature must match source conditions. No irritation prediction used in ranking."
+}
