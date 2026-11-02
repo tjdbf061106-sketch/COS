@@ -13,6 +13,7 @@
 | [개정 연구 README](test1/revision_v1/README.md) | 편입 게이트, 입력 표현 비교와 모의 편입 실험 설명 |
 | [개정 연구 보고서](test1/revision_v1/report.html) | 비교 결과, 한계와 후속 우선순위 |
 | [개정 프로토콜](test1/revision_v1/protocol_revised.html) | 신규 원료 편입 절차 및 보류 조건 |
+| [팀 검토용 개선 프로토콜 Word](../docs/new_ingredient_improvement_protocol.docx) · [PDF](../docs/new_ingredient_improvement_protocol.pdf) | 원료·시험·독립 평가·보류 기준과 팀 역할을 정리한 7쪽 초안 |
 
 ## 현재 결과를 읽을 때
 
