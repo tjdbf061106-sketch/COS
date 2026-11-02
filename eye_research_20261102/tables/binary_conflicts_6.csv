@@ -1,0 +1,7 @@
+﻿formulation_id,source,substance_type,comp_count,final_label,binary_label,split_group_id,comp_group_id,outer_fold,excluded_retracted,binary_composition_conflict,binary_exact_input_conflict,multiclass_composition_disagreement,multiclass_only_disagreement,in_baseline699,in_exclusion693,training_policy,restored_from_old679,stage15_full_recipe_hold,stage15_issue,undeclared_pct,test_concentration,has_missing_pct,structure_coverage_pct
+EyeIrritation6pack_PID873,FIFRA data,Mixture,1,3.0,0.0,G6b4a40ac39a9e641,C885aa3d6771eb2d8,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,99.0,,False,1.0
+EyeIrritation6pack_PID358,FIFRA data,Mixture,1,4.0,0.0,G1e176bf8facf9b1a,Ce1bbc1619951e7b5,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID365,FIFRA data,Mixture,1,2.0,1.0,G1e176bf8facf9b1a,Ce1bbc1619951e7b5,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID481,FIFRA data,Mixture,1,2.0,1.0,G6b4a40ac39a9e641,C885aa3d6771eb2d8,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,99.0,,False,1.0
+EyeIrritation6pack_PID583,FIFRA data,Mixture,1,3.0,0.0,Ge6e794c9829813dc,Cd76d75024b28c97e,1,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,5.0,,False,1.0
+EyeIrritation6pack_PID585,FIFRA data,Mixture,1,2.0,1.0,Ge6e794c9829813dc,Cd76d75024b28c97e,1,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,5.0,,False,1.0

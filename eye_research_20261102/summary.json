@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE_CORRECTION_AND_INTERNAL_COMPARISON",
+  "baseline_training": 699,
+  "sensitivity_training": 693,
+  "primary_evaluation": 699,
+  "secondary_evaluation": 693,
+  "restored_rows": 14,
+  "baseline_auc": 0.7910312619138391,
+  "sensitivity_auc": 0.7920320243995425,
+  "paired_auc_delta": 0.0010007624857033,
+  "paired_auc_ci": [
+    -0.0062357781067044,
+    0.0089544179608794
+  ],
+  "checks_passed": 32,
+  "confirmed_cosmetics_validation": 0,
+  "current_report": "report.html",
+  "workbook": "cohort_correction_v2.xlsx"
+}

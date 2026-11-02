@@ -1,0 +1,795 @@
+﻿formulation_id,source,substance_type,comp_count,final_label,binary_label,split_group_id,comp_group_id,outer_fold,excluded_retracted,binary_composition_conflict,binary_exact_input_conflict,multiclass_composition_disagreement,multiclass_only_disagreement,in_baseline699,in_exclusion693,training_policy,restored_from_old679,stage15_full_recipe_hold,stage15_issue,undeclared_pct,test_concentration,has_missing_pct,structure_coverage_pct
+CHEM::eye_irritation_1,ICCVAM 2006,Chemical,1,1.0,1.0,G9cf55d5daad6969e,C96b36bd435650b48,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_10,ICCVAM 2006,Chemical,1,1.0,1.0,Gefa84e043ca3f2bb,C7f4e7a2d66016691,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_100,ICCVAM 2006,Chemical,1,1.0,1.0,Gc47cee18602f28ef,Cee0c3d0d732a325f,3,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,,False,1.0
+CHEM::eye_irritation_101,ICCVAM 2006,Chemical,1,3.0,0.0,G5cb0cadecb918644,C669362b94be2ec62,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_102,ICCVAM 2006,Chemical,1,1.0,1.0,Gd07a1751737d6650,Cb94afaec8d7a681a,3,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,30.0,False,1.0
+CHEM::eye_irritation_103,ICCVAM 2006,Chemical,1,1.0,1.0,G9ef939ac9a669e83,Ca9ada43bbbba1558,3,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,,False,1.0
+CHEM::eye_irritation_104,ICCVAM 2006,Chemical,1,1.0,1.0,G6072d0af4e083bf6,Ceee0f1fd5be01410,0,False,False,False,True,True,True,True,both,True,True,chemical_test_concentration_review,0.0,5.0,False,1.0
+CHEM::eye_irritation_105,ICCVAM 2006,Chemical,1,1.0,1.0,Gdd611d5d9b94f9b6,C3ce24cb0abdffc0a,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_106,ICCVAM 2006,Chemical,1,1.0,1.0,G6072d0af4e083bf6,Ceee0f1fd5be01410,0,False,False,False,True,True,True,True,both,True,True,chemical_test_concentration_review,0.0,5.0,False,1.0
+CHEM::eye_irritation_107,ICCVAM 2006,Chemical,1,1.0,1.0,G5def6b068d9a3aa0,C349549d2d0603477,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_108,ICCVAM 2006,Chemical,1,2.0,1.0,G6072d0af4e083bf6,Ceee0f1fd5be01410,0,False,False,False,True,True,True,True,both,True,True,chemical_test_concentration_review,0.0,1.0,False,1.0
+CHEM::eye_irritation_109,ICCVAM 2006,Chemical,1,3.0,0.0,G3a7ba36c604d0456,Ca898bda4eddecccb,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_11,ICCVAM 2006,Chemical,1,1.0,1.0,Gd8713cdf56b93e83,C89f42b5737104623,4,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,85.0,False,1.0
+CHEM::eye_irritation_112,ICCVAM 2006,Chemical,1,2.0,1.0,Gcd110fd234cc6c9e,Cec83f03f2e24df0e,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_113,ICCVAM 2006,Chemical,1,2.0,1.0,G1f71c0d22d9cede7,C458625790b1d8f39,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_12,ICCVAM 2006,Chemical,1,3.0,0.0,Ge21d6c6cde9a5c7b,C02c2bf9b0bfb5e4d,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_13,ICCVAM 2006,Chemical,1,4.0,0.0,G0351200561348ac1,C4e8513e693d23990,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_14,ICCVAM 2006,Chemical,1,2.0,1.0,G61f808281bdb7b8a,C84bfb5cf8c12870e,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_15,ICCVAM 2006,Chemical,1,1.0,1.0,G57286b0c9c8f4e26,C9e5d8cb85fa09eee,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_16,ICCVAM 2006,Chemical,1,2.0,1.0,G6b1490716120429d,C6cdeb12f816b8eac,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_17,ICCVAM 2006,Chemical,1,1.0,1.0,Gef0ea46d9d9dac2f,C53893bc162f364e6,0,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_20,ICCVAM 2006,Chemical,1,2.0,1.0,G123577408c011d4f,Ce38f018e3a0a1cb7,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_21,ICCVAM 2006,Chemical,1,3.0,0.0,Gda11cb5d72192db7,Cae71745c87d47e69,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_23,ICCVAM 2006,Chemical,1,1.0,1.0,G7b9cbaef06c0d3e0,Cb4bf2756f4c5e9bb,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_24,ICCVAM 2006,Chemical,1,1.0,1.0,G077128f238659302,Cb59f33ac84510415,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_26,ICCVAM 2006,Chemical,1,2.0,1.0,Gd3a5d0f835187ae8,C7ad633d3673af651,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_27,ICCVAM 2006,Chemical,1,1.0,1.0,G634c258a49c3bcc9,C8304988c41cc3d89,3,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,,False,1.0
+CHEM::eye_irritation_28,ICCVAM 2006,Chemical,1,1.0,1.0,G0f9d64f1182eb74b,C1342554fb032c1eb,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_29,ICCVAM 2006,Chemical,1,3.0,0.0,G7aca19975b860975,C54ed26bfa607ade6,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_3,ICCVAM 2006,Chemical,1,1.0,1.0,Gae1c406b74857042,C033b0e85c92c5744,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_30,ICCVAM 2006,Chemical,1,4.0,0.0,Gd289f3ade5be9a16,Cb4f1fc5b23345c28,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_32,ICCVAM 2006,Chemical,1,2.0,1.0,Gedd096acb93de158,C27599691ae05a5c0,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_33,ICCVAM 2006,Chemical,1,3.0,0.0,G68c863894a6ea728,C556204ef6221117b,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_34,ICCVAM 2006,Chemical,1,1.0,1.0,Gd7873ab1c6ce73b3,C084de71b9f61b0a6,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_35,ICCVAM 2006,Chemical,1,1.0,1.0,Gb90dea8e75ccad01,C5d56c163d9d75c94,0,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,5.0,False,1.0
+CHEM::eye_irritation_36,ICCVAM 2006,Chemical,1,1.0,1.0,G3ad6b9cf928ea32d,C527ba3d1fbcebcad,3,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,,False,1.0
+CHEM::eye_irritation_37,ICCVAM 2006,Chemical,1,1.0,1.0,G45be63cf7a5fd814,C675adcd002cd2359,3,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_38,ICCVAM 2006,Chemical,1,2.0,1.0,G3d666af0cf3f12ea,Cd9980bf768ecbada,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_4,ICCVAM 2006,Chemical,1,4.0,0.0,Gfce530471ff58e4c,Cb2547bd197b2f509,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_40,ICCVAM 2006,Chemical,1,1.0,1.0,G6f5fa5212e4f28e9,C8843753862818bd1,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_41,ICCVAM 2006,Chemical,1,2.0,1.0,Gcb6a4d8a8e6446a0,C6da2161d9b8c8204,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_42,ICCVAM 2006,Chemical,1,3.0,0.0,G59a09c524e237073,Cb1a43cf78df294fe,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_43,ICCVAM 2006,Chemical,1,1.0,1.0,G01c1934c3ba175ac,C9004eb6294aa3b4b,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_44,ICCVAM 2006,Chemical,1,2.0,1.0,Gaeb0f94b54b69245,Ca06f87e93a1d6e48,2,False,False,False,False,False,True,True,both,True,True,chemical_test_concentration_review,0.0,6.0,False,1.0
+CHEM::eye_irritation_46,ICCVAM 2006,Chemical,1,1.0,1.0,Gf714ed7014095f9f,Ce8b88840799e8ce9,2,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_48,ICCVAM 2006,Chemical,1,3.0,0.0,G9f1aef9f77c2f7ba,C679b9bac54628256,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_49,ICCVAM 2006,Chemical,1,1.0,1.0,Gba035846f10b883c,Cfe012e66d026977c,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_5,ICCVAM 2006,Chemical,1,1.0,1.0,Gd607cbc6bbe53050,C8988149a5a539ba3,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_50,ICCVAM 2006,Chemical,1,1.0,1.0,G96cb83eacdfdaf4a,Cb111f6654fdacee4,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_51,ICCVAM 2006,Chemical,1,2.0,1.0,Gc64445c24beaaace,C285896e6cd6dc911,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_52,ICCVAM 2006,Chemical,1,2.0,1.0,G34455c5bcf8c14a8,C4a7198189642e674,0,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_54,ICCVAM 2006,Chemical,1,1.0,1.0,G84c7adc6c220bfcd,C62b3d0e68a6a862b,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_55,ICCVAM 2006,Chemical,1,1.0,1.0,G68f834d6787e5f96,Ce980c3a59a8d2d58,0,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,,False,1.0
+CHEM::eye_irritation_56,ICCVAM 2006,Chemical,1,2.0,1.0,G83416b80c9062bcd,Cb0152ebb3848bcae,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_57,ICCVAM 2006,Chemical,1,2.0,1.0,G195f2b72462bb3a1,C19f8cdced452de6f,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_58,ICCVAM 2006,Chemical,1,1.0,1.0,G6b6c093e0d7f4118,C6934113c9ef3c4b1,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_59,ICCVAM 2006,Chemical,1,2.0,1.0,G46934dabb184835f,C09d2b8a74d3fe58a,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_6,ICCVAM 2006,Chemical,1,3.0,0.0,Ge25ce44bb0eb51f6,Ca7c621319ca3c3c8,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_60,ICCVAM 2006,Chemical,1,3.0,0.0,G244b87afded5257c,C07e502512152768f,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_61,ICCVAM 2006,Chemical,1,1.0,1.0,Gf036ce338ada921f,C70f23ec1e9cd6a37,3,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,25.0,False,1.0
+CHEM::eye_irritation_64,ICCVAM 2006,Chemical,1,4.0,0.0,Gd13324bac4dc28c7,C781603a5446dabad,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_65,ICCVAM 2006,Chemical,1,2.0,1.0,Gbe795120d3d75381,C14d1c0929f04f9cc,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_66,ICCVAM 2006,Chemical,1,1.0,1.0,G2024ffa034285ce8,C2fc7865f92e4f6dd,1,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_67,ICCVAM 2006,Chemical,1,3.0,0.0,G49cb80b3e5fef2c1,C9cdf20d0df3ee304,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_69,ICCVAM 2006,Chemical,1,2.0,1.0,G635cd5e59466f73b,C897cc28ece57bc87,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_70,ICCVAM 2006,Chemical,1,3.0,0.0,G1c05a7dcf0ea26bd,C776b6835bf19748c,0,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_72,ICCVAM 2006,Chemical,1,2.0,1.0,Ge701af611d12dbed,C0e2c524b1ac7da46,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_73,ICCVAM 2006,Chemical,1,3.0,0.0,G9415cbed78df34cd,Cdcd1156a4ab3b391,4,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,12.5,False,1.0
+CHEM::eye_irritation_74,ICCVAM 2006,Chemical,1,1.0,1.0,Gf8b0c282a8f8e870,Cc9492aaff0b013b5,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_75,ICCVAM 2006,Chemical,1,1.0,1.0,G3f8e082ab21d412b,C646540a9602cc236,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_76,ICCVAM 2006,Chemical,1,1.0,1.0,G6394bff539ae9940,Cf30acd29843a8c17,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_77,ICCVAM 2006,Chemical,1,1.0,1.0,G9d2433b0e9f83751,Cd8f10cc1e401d174,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_78,ICCVAM 2006,Chemical,1,1.0,1.0,Gc4a11f353592e429,C1d2a0cde6a302d4f,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_79,ICCVAM 2006,Chemical,1,1.0,1.0,Gd256f8e02a926064,C4e7be1552b600bdb,4,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_8,ICCVAM 2006,Chemical,1,3.0,0.0,G8fbf4161240230d3,C181f6dc2e34b63f6,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_80,ICCVAM 2006,Chemical,1,1.0,1.0,G086bba1615fdc340,Ca10cc10cd78c00ca,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_81,ICCVAM 2006,Chemical,1,4.0,0.0,Gb57f8a69d8c1823e,C4a788c5174b61b76,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_82,ICCVAM 2006,Chemical,1,4.0,0.0,G61a6f94326730498,C2512ff4758922e5a,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_83,ICCVAM 2006,Chemical,1,1.0,1.0,G07457c7f77c297cf,Cc9d85ce3967b55e3,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_84,ICCVAM 2006,Chemical,1,4.0,0.0,Gec33108f8ef0c548,Cd296eb3aefa4c718,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_85,ICCVAM 2006,Chemical,1,4.0,0.0,G4503c7dbbb53f5c5,Cf15aae9bec2defc5,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_86,ICCVAM 2006,Chemical,1,2.0,1.0,G52263860480df58c,Cd4509d43c0b0edec,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_87,ICCVAM 2006,Chemical,1,1.0,1.0,G613281aa4b173a7b,Cc91bac6ab4e2afba,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_88,ICCVAM 2006,Chemical,1,1.0,1.0,G7309cdeffdfc5150,C58d983772953a351,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_89,ICCVAM 2006,Chemical,1,1.0,1.0,Gad6dc5feca1d4f24,C12eff063bcbe5462,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_9,ICCVAM 2006,Chemical,1,4.0,0.0,Ge7bf73b3e93d9d19,Cad19a8873b7a49bf,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_90,ICCVAM 2006,Chemical,1,1.0,1.0,G58bd18f8d45952fa,C5ad28ffa585b1443,1,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_92,ICCVAM 2006,Chemical,1,1.0,1.0,G355414334f10c896,Ce965b218bcb2b8bf,4,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,10.0,False,1.0
+CHEM::eye_irritation_93,ICCVAM 2006,Chemical,1,3.0,0.0,G2c747de7f9acc818,Ce6e434f83f38eba2,4,False,False,False,False,False,True,True,both,False,True,chemical_test_concentration_review,0.0,3.0,False,1.0
+CHEM::eye_irritation_94,ICCVAM 2006,Chemical,1,1.0,1.0,G7f7aa640dfbdf4d6,C07e25573ace96e47,4,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_96,ICCVAM 2006,Chemical,1,3.0,0.0,G9626ef2fbc881deb,Cefe62c295fb0f69e,2,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_97,ICCVAM 2006,Chemical,1,1.0,1.0,G642f0d0085218709,C199a0959dc4699ee,0,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_99,ICCVAM 2006,Chemical,1,1.0,1.0,Gc9cc03683d78e69d,Cbc26c9051b216d59,3,False,False,False,False,False,True,True,both,False,False,,0.0,100.0,False,1.0
+CHEM::eye_irritation_124,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Gd289f3ade5be9a16,Cb4f1fc5b23345c28,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_125,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Gc9b8c50eb1e4443e,Cbc955cd93d44870a,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_126,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Gb7446f37227c6d16,Ce4afe04d455a9b69,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_127,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G0d5d55051f3ead40,C3b6fd20b5eff1bac,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_128,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Gf19a08b99d19fa93,C2b519b5478d931b8,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_131,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G70996fa5f74047ad,C159c3cc65014c40b,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_132,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G3ab6450a77265f2e,C00a9f30580b26a76,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_133,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G61a6f94326730498,C2512ff4758922e5a,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_1332,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,G941168567136a777,C2102ddf26e0568a9,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_134,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Gd13324bac4dc28c7,C781603a5446dabad,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_135,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gefa84e043ca3f2bb,C7f4e7a2d66016691,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_136,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Ge7bf73b3e93d9d19,Cad19a8873b7a49bf,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_137,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gb4003ad7ab9d25ab,C92da42dc852e0fd7,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_138,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Gad86353faee5b550,C80f31e1113285c21,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_139,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G661b029522db0861,C0d29f51b56f312ed,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_140,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G8f011af9f0cf6bb2,C056facc64d2d02fa,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_141,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,Gd3a5d0f835187ae8,C7ad633d3673af651,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_142,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Ga49659f6685d00f4,C05cc85f9ece16169,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_143,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,Gcd110fd234cc6c9e,Cec83f03f2e24df0e,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_144,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,Ge701af611d12dbed,C0e2c524b1ac7da46,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_145,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,G635cd5e59466f73b,C897cc28ece57bc87,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_146,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G6c22c2696eff6e20,C6d1bc5555b2ef00b,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_148,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gad6dc5feca1d4f24,C12eff063bcbe5462,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_149,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G37006721bf8eb4a8,C7f366fd87bb2030c,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_150,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G9f1aef9f77c2f7ba,C679b9bac54628256,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_151,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,G6b1490716120429d,C6cdeb12f816b8eac,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_152,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,Gf0badfe4cb506b21,C150edb8e1b30dab5,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_154,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G3abe6d66116c02d8,Ca1c09b87c59dfbd9,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_155,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G086bba1615fdc340,Ca10cc10cd78c00ca,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_156,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G4ad0e6e5105890c2,C74c156ea6ca62893,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_157,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G2e317a02067b520a,C84920dbe235232ac,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_158,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,Gbe795120d3d75381,C14d1c0929f04f9cc,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_159,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,G123577408c011d4f,Ce38f018e3a0a1cb7,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_161,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G5014a683f81a869f,Cf6f2a7c980253157,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_162,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,Gcb6a4d8a8e6446a0,C6da2161d9b8c8204,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_164,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G37654add823df7ac,Ce10efc1201016435,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_165,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G4503c7dbbb53f5c5,Cf15aae9bec2defc5,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_166,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G07457c7f77c297cf,Cc9d85ce3967b55e3,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_168,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gba035846f10b883c,Cfe012e66d026977c,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_169,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G0a74d5f9c1dcfe06,Cd9de3b1c5112c9df,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_170,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gefe2f573f24f733c,Cf61f317504093c48,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_171,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G1551955f2ce61fab,C9732ec0a76b79551,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_172,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gf036ce338ada921f,C70f23ec1e9cd6a37,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_174,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gd7268de8078da9c2,Ce8a6e94b5a5b69ab,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_175,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gf284590aa9e7d396,Ced444e1047c722b8,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_176,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gdd611d5d9b94f9b6,C3ce24cb0abdffc0a,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_177,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G3541c0ea780e57d3,Cd521516f0be0c169,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_181,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gbcecc9e61ebd79fb,C60e5b67759b1484f,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_183,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gb90dea8e75ccad01,C5d56c163d9d75c94,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_184,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G244b87afded5257c,C07e502512152768f,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_185,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G355414334f10c896,Ce965b218bcb2b8bf,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_186,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G08a772fb85a141d4,Cf7e3aa0b5bf7a530,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_187,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G0541e2a7c65dac31,C4c9ecbf40d22594b,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_188,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G322348172cded4bc,C08763eb6f1ee5370,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_189,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gef2fa7a70304c978,Cf0b1b9ad4db07d44,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_190,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Ge548c4962a08db0f,C8c2621502da4d8db,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_191,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Ge25ce44bb0eb51f6,Ca7c621319ca3c3c8,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_192,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G5a3d43f3aac164c2,C957f4951cad8d49c,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_193,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G71fce7b2b99c287c,C0a7b6311ec0d1e19,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_194,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G5cb0cadecb918644,C669362b94be2ec62,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_195,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,Gf5f55edd47b00a2d,Ceb606fb8e50cb19f,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_197,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gda11cb5d72192db7,Cae71745c87d47e69,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_198,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G7aca19975b860975,C54ed26bfa607ade6,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_200,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G998e84faa79ed62c,C38b2ca56b3a4c1ee,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_201,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gc6d4fc65bb16f0ef,C2680ad9d77efadec,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_202,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G49cb80b3e5fef2c1,C9cdf20d0df3ee304,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_203,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G68c863894a6ea728,C556204ef6221117b,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_204,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,Gc64445c24beaaace,C285896e6cd6dc911,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_205,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gb7715cf6a4eb161b,C9fc9903edde076bf,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_206,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,G1f71c0d22d9cede7,C458625790b1d8f39,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_207,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gd256f8e02a926064,C4e7be1552b600bdb,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_208,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G52528ecf97de2c6a,C6ca5088ad67ba518,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_209,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G2c747de7f9acc818,Ce6e434f83f38eba2,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,15.0,False,1.0
+CHEM::eye_irritation_210,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G6072d0af4e083bf6,Ceee0f1fd5be01410,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_211,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gef0ea46d9d9dac2f,C53893bc162f364e6,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_212,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gaeb0f94b54b69245,Ca06f87e93a1d6e48,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_214,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gd0e6f3c093bed2a4,Cb5fb889909f0f7a2,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_215,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G58211cbbe76532a0,C2ae837cfc7caaede,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_216,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G2024ffa034285ce8,C2fc7865f92e4f6dd,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_217,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,Gf714ed7014095f9f,Ce8b88840799e8ce9,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,10.0,False,1.0
+CHEM::eye_irritation_218,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G7f640c512803ba9e,Cd7d6901de4b9159c,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_219,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,G52263860480df58c,Cd4509d43c0b0edec,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_220,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G53a408e85d6c4de0,C89db4f023b31e8e0,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_223,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G6dcf5b010c8d99f9,Ce4976d4939f6ae7f,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_225,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G59a09c524e237073,Cb1a43cf78df294fe,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_226,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gcf8d3ed79c7512a4,Cfb7aa6899957cc28,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_227,Yamaguchi et al. 2016,Chemical,1,1.0,1.0,G7b9cbaef06c0d3e0,Cb4bf2756f4c5e9bb,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_229,Yamaguchi et al. 2016,Chemical,1,4.0,0.0,G7322ca2ce3331379,C12da7572bd4f2291,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_230,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Ge21d6c6cde9a5c7b,C02c2bf9b0bfb5e4d,4,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_233,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Ge7a6a9054e2fea7c,C804ee405da7a3bd1,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_234,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G7f2249b70ade7e49,C0e82a92ce028f12e,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_236,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G5b1dffa76cd3d4b5,C0c6db89e59a781af,1,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_237,Yamaguchi et al. 2016,Chemical,1,2.0,1.0,G73b0c4ccdbfe1497,C0c70c4ee58245d85,2,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_238,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,Gf35895b9bd0a19aa,C13aab8eaa2f2f5ba,3,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+CHEM::eye_irritation_239,Yamaguchi et al. 2016,Chemical,1,3.0,0.0,G1c05a7dcf0ea26bd,C776b6835bf19748c,0,True,False,False,False,False,False,False,excluded_retracted,False,False,,0.0,,False,1.0
+EyeIrritation6pack_PID857,FIFRA data,Mixture,1,4.0,0.0,G8e2226df5036b1e5,C440be33d39c92679,2,False,False,False,False,False,True,True,both,False,False,,62.6,,False,1.0
+EyeIrritation6pack_PID917,FIFRA data,Mixture,3,2.0,1.0,G6ae638736224b89e,C5a4aaf9b65c04cec,1,False,False,False,False,False,True,True,both,False,False,,58.0,,False,1.0
+EyeIrritation6pack_PID860,FIFRA data,Mixture,1,3.0,0.0,G1a8743f52717908b,Ced35cd2010342c93,4,False,False,False,False,False,True,True,both,False,False,,99.955,,False,1.0
+EyeIrritation6pack_PID861,FIFRA data,Mixture,1,3.0,0.0,G478fb3d0363f6e0e,C1198d364bbf1f401,3,False,False,False,False,False,True,True,both,False,False,,65.0,,False,1.0
+EyeIrritation6pack_PID918,FIFRA data,Mixture,2,3.0,0.0,G96e75559971245f1,Ce74481e88d0557dc,0,False,False,False,False,False,True,True,both,False,False,,20.0,,False,1.0
+EyeIrritation6pack_PID863,FIFRA data,Mixture,1,3.0,0.0,Ge732e0aafcd1b408,Cd39d877d26da65f4,2,False,False,False,False,False,True,True,both,False,False,,99.5,,False,1.0
+EyeIrritation6pack_PID865,FIFRA data,Mixture,1,4.0,0.0,G68053d5d66e7f8e1,C4fb50d2fea0dc9eb,4,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID919,FIFRA data,Mixture,2,2.0,1.0,Gb3893cbb282e901d,C3258e7ca0502a49c,1,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID866,FIFRA data,Mixture,1,4.0,0.0,G68053d5d66e7f8e1,C10a67fcab76aa851,4,False,False,False,False,False,True,True,both,False,False,,54.55,,False,1.0
+EyeIrritation6pack_PID867,FIFRA data,Mixture,1,3.0,0.0,G0de3ee44864f090c,C1f6e88ac6bd302ad,1,False,False,False,False,False,True,True,both,False,False,,51.3,,False,1.0
+EyeIrritation6pack_PID920,FIFRA data,Mixture,2,1.0,1.0,G7fe0b83a2558ae23,C5f6c0ce5ec238a4d,0,False,False,False,False,False,True,True,both,False,False,,88.6,,False,1.0
+EyeIrritation6pack_PID869,FIFRA data,Mixture,1,1.0,1.0,G1d278ef19a84b22a,C68b5773f1e93466b,3,False,False,False,True,True,True,True,both,True,False,,3.799999999999997,,False,1.0
+EyeIrritation6pack_PID870,FIFRA data,Mixture,1,3.0,0.0,G3ee0c163971cc494,C152e4d15664fd0f0,1,False,False,False,False,False,True,True,both,False,False,,70.26,,False,1.0
+EyeIrritation6pack_PID922,FIFRA data,Mixture,2,3.0,0.0,G97b887e87439c6e5,Cd35becf54083b55e,2,False,False,False,False,False,True,True,both,False,False,,37.5,,False,1.0
+EyeIrritation6pack_PID871,FIFRA data,Mixture,2,1.0,1.0,G57ba1bf730609e22,C9d330fbb92976a30,1,False,False,False,False,False,True,True,both,False,False,,90.4,,False,1.0
+EyeIrritation6pack_PID923,FIFRA data,Mixture,1,3.0,0.0,G1d278ef19a84b22a,C1646dea993e2e6bc,3,False,False,False,False,False,True,True,both,False,False,,54.8,,False,1.0
+EyeIrritation6pack_PID873,FIFRA data,Mixture,1,3.0,0.0,G6b4a40ac39a9e641,C885aa3d6771eb2d8,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,99.0,,False,1.0
+EyeIrritation6pack_PID924,FIFRA data,Mixture,2,4.0,0.0,G7bf0c45129e5e2ab,C2ce729d2eec37b0d,1,False,False,False,False,False,True,True,both,False,False,,99.47,,False,1.0
+EyeIrritation6pack_PID874,FIFRA data,Mixture,3,3.0,0.0,G13476703eb8bd7cf,C8d855be51afd5cfc,4,False,False,False,False,False,True,True,both,False,False,,45.97,,False,0.3337034980566352
+EyeIrritation6pack_PID928,FIFRA data,Mixture,2,4.0,0.0,G07ddae508e3df74b,Cf775277d7a4df882,2,False,False,False,False,False,True,True,both,False,False,,84.9,,False,1.0
+EyeIrritation6pack_PID875,FIFRA data,Mixture,1,1.0,1.0,Gfe982006618eabbf,Ce4b14dbd8dff7404,1,False,False,False,False,False,True,True,both,False,False,,58.3,,False,1.0
+EyeIrritation6pack_PID935,FIFRA data,Mixture,1,3.0,0.0,G040ea04916f7094b,C663775e412f64868,4,False,False,False,False,False,True,True,both,False,False,,99.6,,False,1.0
+EyeIrritation6pack_PID876,FIFRA data,Mixture,1,4.0,0.0,Gde2514d57757b375,C9322325aa47a3a91,2,False,False,False,False,False,True,True,both,False,False,,99.975,,False,1.0
+EyeIrritation6pack_PID936,FIFRA data,Mixture,2,3.0,0.0,G498a6e1b7b2604e4,C7d270213b6ed6054,4,False,False,False,False,False,True,True,both,False,False,,99.92,,False,1.0
+EyeIrritation6pack_PID877,FIFRA data,Mixture,2,4.0,0.0,Gddb2af4202431727,C82fa34d21c8fa386,1,False,False,False,False,False,True,True,both,False,False,,99.975,,False,1.0
+EyeIrritation6pack_PID937,FIFRA data,Mixture,1,3.0,0.0,G88b146b59a31dfe4,C64d9ff0d525fc8aa,2,False,False,False,False,False,True,True,both,False,False,,86.0,,False,1.0
+EyeIrritation6pack_PID838,FIFRA data,Mixture,2,3.0,0.0,Gb33f1a04ffaa37ab,Cc0b2ec0652446367,2,False,False,False,False,False,True,True,both,False,False,,59.52,,False,1.0
+EyeIrritation6pack_PID938,FIFRA data,Mixture,1,3.0,0.0,G478fb3d0363f6e0e,C1e6524fd70e1aac9,3,False,False,False,False,False,True,True,both,False,False,,99.75,,False,1.0
+EyeIrritation6pack_PID940,FIFRA data,Mixture,1,4.0,0.0,Gf76fdb453e65424b,Ca0ea2c8577bd12e1,2,False,False,False,False,False,True,True,both,False,False,,93.5,,False,1.0
+EyeIrritation6pack_PID891,FIFRA data,Mixture,2,3.0,0.0,G6de535ce659b1701,Cf6d672f321c2de43,2,False,False,False,False,False,True,True,both,False,False,,76.0,,False,1.0
+EyeIrritation6pack_PID932,FIFRA data,Mixture,3,4.0,0.0,G7e7c0cd93a08ff6f,C050d48ddac39410d,0,False,False,False,False,False,True,True,both,False,False,,99.4,,False,1.0
+EyeIrritation6pack_PID892,FIFRA data,Mixture,2,2.0,1.0,Gc33ee6a491963456,C31f945601d8d3388,0,False,False,False,False,False,True,True,both,False,False,,70.0,,False,1.0
+EyeIrritation6pack_PID933,FIFRA data,Mixture,1,4.0,0.0,Gb72f6d7fcf3cd050,Cab599114bca670bb,2,False,False,False,False,False,True,True,both,False,False,,89.5,,False,1.0
+EyeIrritation6pack_PID893,FIFRA data,Mixture,3,2.0,1.0,G934ba81c84c2d20d,Cc5f184dea6706ab8,4,False,False,False,False,False,True,True,both,False,False,,87.4,,False,1.0
+EyeIrritation6pack_PID934,FIFRA data,Mixture,3,3.0,0.0,G049c7ba70a15fa72,C46c2aac6ec54fe28,0,False,False,False,False,False,True,True,both,False,False,,95.3,,False,1.0
+EyeIrritation6pack_PID896,FIFRA data,Mixture,1,4.0,0.0,G083d570b3afd6e44,Cc69ef27fe7b04d6e,0,False,False,False,False,False,True,True,both,False,False,,2.200000000000003,,False,1.0
+EyeIrritation6pack_PID946,FIFRA data,Mixture,1,3.0,0.0,Gf63e3e596e082a60,Cf87738f490d6715e,4,False,False,False,False,False,True,True,both,False,False,,55.0,,False,1.0
+EyeIrritation6pack_PID897,FIFRA data,Mixture,1,2.0,1.0,Gabc735b135877e68,C7aec15776d081ef2,4,False,False,False,False,False,True,True,both,False,False,,2.6299999999999955,,False,1.0
+EyeIrritation6pack_PID951,FIFRA data,Mixture,1,3.0,0.0,Gf63e3e596e082a60,Ca3c75350df906d86,4,False,False,False,False,False,True,True,both,False,False,,3.700000000000003,,False,1.0
+EyeIrritation6pack_PID899,FIFRA data,Mixture,1,4.0,0.0,G31e502df0aa889d9,C9889f4911b022269,4,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID952,FIFRA data,Mixture,1,4.0,0.0,Gf63e3e596e082a60,Cf0f9750fb86b411b,4,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID900,FIFRA data,Mixture,2,4.0,0.0,Gfc8cfd58423dc5b2,C35ca6148a33c872e,4,False,False,False,False,False,True,True,both,False,False,,47.0,,False,1.0
+EyeIrritation6pack_PID953,FIFRA data,Mixture,1,3.0,0.0,Gf63e3e596e082a60,Caa5c5ef12f9a6a85,4,False,False,False,False,False,True,True,both,False,False,,2.5999999999999943,,False,1.0
+EyeIrritation6pack_PID955,FIFRA data,Mixture,1,3.0,0.0,Gf63e3e596e082a60,Cce7171da73ef1af5,4,False,False,False,False,False,True,True,both,False,False,,84.0,,False,1.0
+EyeIrritation6pack_PID901,FIFRA data,Mixture,3,3.0,0.0,Gdfd2b51f61582f6e,C469f09ced3dd5abc,4,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID956,FIFRA data,Mixture,1,3.0,0.0,Gb3e95e81e2ee0cf0,C6db9663086bb9d5d,2,False,False,False,False,False,True,True,both,False,False,,86.56,,False,1.0
+EyeIrritation6pack_PID960,FIFRA data,Mixture,1,3.0,0.0,G040ea04916f7094b,Cf09c64c3f4f1ebd8,4,False,False,False,False,False,True,True,both,False,False,,99.9,,False,1.0
+EyeIrritation6pack_PID961,FIFRA data,Mixture,1,3.0,0.0,Gaca401f07d6e36ac,C51734f4b98d3c5f6,1,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID903,FIFRA data,Mixture,2,2.0,1.0,G265318d54da64c1a,C0fa4cddb5717c5ac,2,False,False,False,False,False,True,True,both,False,False,,53.48,,False,1.0
+EyeIrritation6pack_PID962,FIFRA data,Mixture,1,4.0,0.0,G918d11107baa067e,Cd8ba93fb1cc73431,2,False,False,False,False,False,True,True,both,False,False,,99.5,,False,1.0
+EyeIrritation6pack_PID965,FIFRA data,Mixture,1,3.0,0.0,Gc02a4aa756dd7749,Ccac79fb878d331f2,2,False,False,False,False,False,True,True,both,False,False,,95.0,,False,1.0
+EyeIrritation6pack_PID905,FIFRA data,Mixture,2,1.0,1.0,Gb7431bc10e08d50a,C17a787dc8a8eea0c,2,False,False,False,False,False,True,True,both,False,False,,74.7,,False,1.0
+EyeIrritation6pack_PID966,FIFRA data,Mixture,1,1.0,1.0,G1d278ef19a84b22a,Cdb52a74ad08fffb2,3,False,False,False,False,False,True,True,both,False,False,,1.7000000000000028,,False,1.0
+EyeIrritation6pack_PID967,FIFRA data,Mixture,2,3.0,0.0,G7fe0b83a2558ae23,C56afe6bf5126bf5b,0,False,False,False,False,False,True,True,both,False,False,,99.827,,False,1.0
+EyeIrritation6pack_PID907,FIFRA data,Mixture,2,3.0,0.0,G8b5f6d437676ae32,C5203f21bd74b4269,1,False,False,False,False,False,True,True,both,False,False,,30.0,,False,1.0
+EyeIrritation6pack_PID908,FIFRA data,Mixture,2,4.0,0.0,Gcb1171c428c9a3f5,C18470b5456b11e70,0,False,False,False,False,False,True,True,both,False,False,,56.900000000000006,,False,1.0
+EyeIrritation6pack_PID968,FIFRA data,Mixture,2,3.0,0.0,G7fe0b83a2558ae23,C72d7575f9eb8c9ca,0,False,False,False,False,False,True,True,both,False,False,,99.768,,False,1.0
+EyeIrritation6pack_PID914,FIFRA data,Mixture,1,4.0,0.0,G4e1f97126d8fc158,C0988ed3f7d7c1618,1,False,False,False,False,False,True,True,both,False,False,,4.099999999999994,,False,1.0
+EyeIrritation6pack_PID969,FIFRA data,Mixture,1,3.0,0.0,G0de3ee44864f090c,C662b52f3bd6ff825,1,False,False,False,False,False,True,True,both,False,False,,99.8,,False,1.0
+EyeIrritation6pack_PID970,FIFRA data,Mixture,3,3.0,0.0,G9b20585f90ea0dfb,C46962af4ca6f2c3e,4,False,False,False,False,False,True,True,both,False,False,,87.98,,False,1.0
+EyeIrritation6pack_PID915,FIFRA data,Mixture,1,3.0,0.0,G6c00387cbbc7a687,Cf73062c9ed3d4173,1,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID916,FIFRA data,Mixture,1,3.0,0.0,G0e2cd95204901d15,C9f43d9e96fd6ec92,4,False,False,False,False,False,True,True,both,False,False,,6.0,,False,1.0
+EyeIrritation6pack_PID971,FIFRA data,Mixture,2,3.0,0.0,G7fe0b83a2558ae23,C56afe6bf5126bf5b,0,False,False,False,False,False,True,True,both,False,False,,99.827,,False,1.0
+EyeIrritation6pack_PID980,FIFRA data,Mixture,4,4.0,0.0,Gc8ce98cfed01ada2,Cb3c2531d596135c8,2,False,False,False,False,False,True,True,both,False,False,,72.44,,False,1.0
+EyeIrritation6pack_PID982,FIFRA data,Mixture,1,1.0,1.0,G1d278ef19a84b22a,C20f4ee591c5dec13,3,False,False,False,False,False,True,True,both,False,False,,4.0,,False,1.0
+EyeIrritation6pack_PID983,FIFRA data,Mixture,4,4.0,0.0,G2ed1f84ca6775a61,Cc306630c028b68e3,1,False,False,False,False,False,True,True,both,False,False,,76.274,,False,1.0
+EyeIrritation6pack_PID926,FIFRA data,Mixture,1,3.0,0.0,Ge81aa347a20285d0,C00115abf9d96479a,1,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID985,FIFRA data,Mixture,1,2.0,1.0,G399a9f4822ded1aa,Cc75bad57d28c00c2,0,False,False,False,False,False,True,True,both,False,False,,85.0,,False,1.0
+EyeIrritation6pack_PID986,FIFRA data,Mixture,1,2.0,1.0,G040ea04916f7094b,C9de051b6d89af45d,4,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID988,FIFRA data,Mixture,1,3.0,0.0,G77799ece62554438,Cf74ec633c4c872a8,3,False,False,False,False,False,True,True,both,False,False,,88.2,,False,1.0
+EyeIrritation6pack_PID989,FIFRA data,Mixture,1,3.0,0.0,Gd4789f6b0b186c1e,Cee61103e6a67141b,3,False,False,False,False,False,True,True,both,False,False,,70.3,,False,1.0
+EyeIrritation6pack_PID990,FIFRA data,Mixture,3,3.0,0.0,G9c703b7ea8437b28,Ce6d6dbe6fc1e7055,2,False,False,False,False,False,True,True,both,False,False,,90.5,,False,1.0
+EyeIrritation6pack_PID991,FIFRA data,Mixture,1,4.0,0.0,Ge81aa347a20285d0,Cb1d1be7ac9d2dbab,1,False,False,False,False,False,True,True,both,False,False,,95.0,,False,1.0
+EyeIrritation6pack_PID992,FIFRA data,Mixture,1,3.0,0.0,Ge81aa347a20285d0,C5c3e31b9035326a8,1,False,False,False,False,False,True,True,both,False,False,,30.0,,False,1.0
+EyeIrritation6pack_PID993,FIFRA data,Mixture,2,4.0,0.0,G024de944349a8f7b,Caadf0c62be667723,1,False,False,False,False,False,True,True,both,False,False,,85.87,,False,1.0
+EyeIrritation6pack_PID994,FIFRA data,Mixture,2,4.0,0.0,G024de944349a8f7b,C851c6b588ba8a2de,1,False,False,False,False,False,True,True,both,False,False,,99.13,,False,1.0
+EyeIrritation6pack_PID996,FIFRA data,Mixture,1,1.0,1.0,G4a4a32bd470deed9,C76f77f21285b7f25,4,False,False,False,False,False,True,True,both,False,False,,4.0,,False,1.0
+EyeIrritation6pack_PID997,FIFRA data,Mixture,2,2.0,1.0,G465136ea6201e787,Ced8c1e3ad4377e07,0,False,False,False,False,False,True,True,both,False,False,,49.11,,False,1.0
+EyeIrritation6pack_PID998,FIFRA data,Mixture,1,3.0,0.0,G0338de1596b7fd1e,C0b4da40b55fd012c,1,False,False,False,False,False,True,True,both,False,False,,20.0,,False,1.0
+EyeIrritation6pack_PID999,FIFRA data,Mixture,1,2.0,1.0,G2516a1ce4916fe7a,C1730eaf36f5fe19b,0,False,False,False,False,False,True,True,both,False,False,,96.0,,False,1.0
+EyeIrritation6pack_PID1000,FIFRA data,Mixture,1,3.0,0.0,Ga2fa0253e5be21ae,C7f0850456d0ac752,0,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID1001,FIFRA data,Mixture,1,3.0,0.0,G97c3fd1f32c21ba7,C49752e699a3cfcf2,3,False,False,False,False,False,True,True,both,False,False,,6.0,,False,1.0
+EyeIrritation6pack_PID1002,FIFRA data,Mixture,1,3.0,0.0,Gb3e95e81e2ee0cf0,C9ee48a0c4fd6532c,2,False,False,False,False,False,True,True,both,False,False,,57.22,,False,1.0
+EyeIrritation6pack_PID1004,FIFRA data,Mixture,1,4.0,0.0,Gb72f6d7fcf3cd050,C431f949c44d5925d,2,False,False,False,False,False,True,True,both,False,False,,7.5,,False,1.0
+EyeIrritation6pack_PID1005,FIFRA data,Mixture,3,1.0,1.0,G34215f2588052a21,C30b46d14bb6363b4,0,False,False,False,False,False,True,True,both,False,False,,73.0,,False,1.0
+EyeIrritation6pack_PID1007,FIFRA data,Mixture,1,3.0,0.0,G954fe85ffe479ede,Ce1d13c1e75290d2e,3,False,False,False,False,False,True,True,both,False,False,,52.0,,False,1.0
+EyeIrritation6pack_PID1008,FIFRA data,Mixture,3,2.0,1.0,Ge3162e0ae5635831,Ce41c8a796158ba3a,4,False,False,False,False,False,True,True,both,False,False,,96.23,,False,1.0
+EyeIrritation6pack_PID1009,FIFRA data,Mixture,1,4.0,0.0,G97c3fd1f32c21ba7,Cea6c8a7a7140e9c1,3,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID1011,FIFRA data,Mixture,2,2.0,1.0,G8c27ebf44bfd9340,C8c29056f1a88cb01,3,False,False,False,False,False,True,True,both,False,False,,62.4,,False,1.0
+EyeIrritation6pack_PID1012,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,C22dd9bd55badf846,1,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID1013,FIFRA data,Mixture,2,3.0,0.0,Gfee79c44cbe54b90,C0a813d5a0f0f6d83,1,False,False,False,False,False,True,True,both,False,False,,67.0,,False,1.0
+EyeIrritation6pack_PID1016,FIFRA data,Mixture,1,2.0,1.0,Gd8b850cfc3e24016,Cc895b8f564f1b06a,0,False,False,False,False,False,True,True,both,False,False,,65.0,,False,1.0
+EyeIrritation6pack_PID1018,FIFRA data,Mixture,2,3.0,0.0,G4cab3193b8684f52,C0cb88ce278def4b3,1,False,False,False,False,False,True,True,both,False,False,,25.5,,False,1.0
+EyeIrritation6pack_PID1019,FIFRA data,Mixture,1,3.0,0.0,Ge110caa06367e19e,C3c83b8cc306503e6,3,False,False,False,False,False,True,True,both,False,False,,75.2,,False,1.0
+EyeIrritation6pack_PID1020,FIFRA data,Mixture,1,4.0,0.0,Ga569c66d7ca50442,C4fb37b27427be6af,4,False,False,False,False,False,True,True,both,False,False,,61.3,,False,1.0
+EyeIrritation6pack_PID972,FIFRA data,Mixture,2,3.0,0.0,G7fe0b83a2558ae23,C72d7575f9eb8c9ca,0,False,False,False,False,False,True,True,both,False,False,,99.768,,False,1.0
+EyeIrritation6pack_PID974,FIFRA data,Mixture,2,4.0,0.0,Gd2b43a45c4617c09,C7bab08a28b2ec1c3,3,False,False,False,False,False,True,True,both,False,False,,82.0,,False,1.0
+EyeIrritation6pack_PID976,FIFRA data,Mixture,1,4.0,0.0,Gecfcbe4ad92940fb,Cf9613e6bf3ffde41,0,False,False,False,False,False,True,True,both,False,False,,2.430000000000007,,False,1.0
+EyeIrritation6pack_PID978,FIFRA data,Mixture,4,3.0,0.0,G254e5443b8c22e40,Cdfb869839887b823,2,False,False,False,False,False,True,True,both,False,False,,47.2,,False,0.9791666666666666
+EyeIrritation6pack_PID977,FIFRA data,Mixture,3,4.0,0.0,Gd60ad8e3378899f6,C47c63239e332ab1d,2,False,False,False,False,False,True,True,both,False,False,,60.28,,False,1.0
+EyeIrritation6pack_PID979,FIFRA data,Mixture,3,4.0,0.0,G35b1f35ada84b341,C54c4a2a5eb998e58,3,False,False,False,False,False,True,True,both,False,False,,74.22,,False,1.0
+EyeIrritation6pack_PID1034,FIFRA data,Mixture,2,1.0,1.0,Gcc28b62e7dccce7d,C8d88e8a96624dbd8,3,False,False,False,False,False,True,True,both,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID1037,FIFRA data,Mixture,1,3.0,0.0,Ge110caa06367e19e,C002ec15b25e40e04,3,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID1038,FIFRA data,Mixture,2,4.0,0.0,Gb14e9e655b4e9381,Cdb757f39046e0bb0,3,False,False,False,False,False,True,True,both,False,False,,62.25,,False,1.0
+EyeIrritation6pack_PID1039,FIFRA data,Mixture,3,4.0,0.0,Ge9925e908dbfc4d7,Ccac5dee741a58fe8,2,False,False,False,False,False,True,True,both,False,False,,85.69,,False,1.0
+EyeIrritation6pack_PID1040,FIFRA data,Mixture,2,3.0,0.0,G6e7b8068f969ba4f,Ca6e5a87d55ea2017,0,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID1042,FIFRA data,Mixture,2,3.0,0.0,G462f141cdb0ed5ab,C90bf92ab53c4d6ae,1,False,False,False,False,False,True,True,both,False,False,,86.11,,False,1.0
+EyeIrritation6pack_PID1043,FIFRA data,Mixture,3,4.0,0.0,Ge3162e0ae5635831,C0c5411a8797b1049,4,False,False,False,False,False,True,True,both,False,False,,95.77,,False,1.0
+EyeIrritation6pack_PID1044,FIFRA data,Mixture,3,3.0,0.0,Ge13a73cd9e4549ba,C2ca843621d34227f,2,False,False,False,False,False,True,True,both,False,False,,53.3,,False,1.0
+EyeIrritation6pack_PID1021,FIFRA data,Mixture,1,3.0,0.0,G1d278ef19a84b22a,Ce13f2969bb406df3,3,False,False,False,False,False,True,True,both,False,False,,2.269999999999996,,False,1.0
+EyeIrritation6pack_PID1022,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,C6d0bcc667e156409,1,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID1023,FIFRA data,Mixture,1,4.0,0.0,G0e3d339e155e8fc5,C514eba1353488967,3,False,False,False,False,False,True,True,both,False,False,,97.0,,False,1.0
+EyeIrritation6pack_PID1045,FIFRA data,Mixture,1,4.0,0.0,G958aae8cba831d57,C1c78c3bebeafd10f,0,False,False,False,False,False,True,True,both,False,False,,1.2000000000000028,,False,1.0
+EyeIrritation6pack_PID1048,FIFRA data,Mixture,3,1.0,1.0,G21c8da49c08f62bc,C9b7899ad427327d3,1,False,False,False,False,False,True,True,both,False,False,,55.6,,False,1.0
+EyeIrritation6pack_PID1024,FIFRA data,Mixture,1,3.0,0.0,G0725a3eb324dc27b,C4ffa24fbd0a4abfb,4,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID1025,FIFRA data,Mixture,1,3.0,0.0,G0725a3eb324dc27b,Cce9985f124fdf9e5,4,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID1026,FIFRA data,Mixture,2,3.0,0.0,Gdf1f2913304ac986,Cd145bdcf7d0dc997,0,False,False,False,False,False,True,True,both,False,False,,67.5,,False,1.0
+EyeIrritation6pack_PID1051,FIFRA data,Mixture,1,2.0,1.0,Gf9e8ba78bd38ae05,C37c9da3e44214730,2,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID1052,FIFRA data,Mixture,1,4.0,0.0,G8753ed8f4d1fc14e,C261fc3402f09ebe5,2,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID1027,FIFRA data,Mixture,1,3.0,0.0,G625a746098d754a9,C76b0660b7cbe570a,3,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID1053,FIFRA data,Mixture,1,4.0,0.0,G11977bb3c8549871,Cd66f6fc6aefecadf,4,False,False,False,False,False,True,True,both,False,False,,13.599999999999994,,False,1.0
+EyeIrritation6pack_PID1028,FIFRA data,Mixture,2,4.0,0.0,G418ecd93cf173b05,C6926a5c0a67a28a6,0,False,False,False,False,False,True,True,both,False,False,,98.96,,False,1.0
+EyeIrritation6pack_PID1054,FIFRA data,Mixture,1,4.0,0.0,G4338dd3b641b5b59,Cd5ecaf2531b92270,3,False,False,False,False,False,True,True,both,False,False,,1.0,,False,1.0
+EyeIrritation6pack_PID1055,FIFRA data,Mixture,3,3.0,0.0,G46d6fadbf34eae48,Cc99683e2fb204d87,4,False,False,False,False,False,True,True,both,False,False,,52.760000000000005,,False,1.0
+EyeIrritation6pack_PID1029,FIFRA data,Mixture,2,4.0,0.0,G644e1aaa704bd5d1,C8fa9b77a0be13072,0,False,False,False,False,False,True,True,both,False,False,,38.5,,False,1.0
+EyeIrritation6pack_PID1031,FIFRA data,Mixture,2,1.0,1.0,G7c2fd295cfda43b1,C6305efa5ea5c0b47,3,False,False,False,False,False,True,True,both,False,False,,56.8,,False,0.9305555555555556
+EyeIrritation6pack_PID1056,FIFRA data,Mixture,1,4.0,0.0,G64f1e37e02295a7c,C20955f2a7165d3c7,4,False,False,False,False,False,True,True,both,False,False,,1.0999999999999943,,False,1.0
+EyeIrritation6pack_PID1032,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C777ce7aeca1a8665,0,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID1059,FIFRA data,Mixture,2,1.0,1.0,G855846084b0e5a06,C7914d5a6a928c34c,3,False,False,False,False,False,True,True,both,False,False,,94.1,,False,1.0
+EyeIrritation6pack_PID1033,FIFRA data,Mixture,1,3.0,0.0,G0338de1596b7fd1e,Cbf548d9fe4665966,1,False,False,False,False,False,True,True,both,False,False,,82.4,,False,1.0
+EyeIrritation6pack_PID1060,FIFRA data,Mixture,2,4.0,0.0,G4efd58bf88f9102a,C6cb814ebde882e30,1,False,False,False,False,False,True,True,both,False,False,,52.900000000000006,,False,1.0
+EyeIrritation6pack_PID1061,FIFRA data,Mixture,2,3.0,0.0,Gd19cc30b1b7c9767,Cd778d13a57d03f5f,2,False,False,False,False,False,True,True,both,False,False,,22.739999999999995,,False,1.0
+EyeIrritation6pack_PID1062,FIFRA data,Mixture,1,3.0,0.0,G2d89c6924e1a572d,Ca76bd479e48214b2,3,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID1064,FIFRA data,Mixture,1,3.0,0.0,G2d89c6924e1a572d,Cad64bfe4adf043e3,3,False,False,False,False,False,True,True,both,False,False,,19.36,,False,1.0
+EyeIrritation6pack_PID48,FIFRA data,Mixture,3,1.0,1.0,G4a9e0c8f346729f7,Cc25e1d148f5e2c36,1,False,False,False,False,False,True,True,both,False,False,,84.0,,False,1.0
+EyeIrritation6pack_PID49,FIFRA data,Mixture,3,1.0,1.0,G17ece8dae0527e63,C2971d2727df975bd,2,False,False,False,False,False,True,True,both,False,False,,92.1,,False,1.0
+EyeIrritation6pack_PID50,FIFRA data,Mixture,3,3.0,0.0,Gafcd2f5d867bc68d,C0f02ff4276424a39,0,False,False,False,False,False,True,True,both,False,False,,67.5,,False,1.0
+EyeIrritation6pack_PID3,FIFRA data,Mixture,1,3.0,0.0,G3ed128e99c1ce149,Cdb85d643ef56e743,2,False,False,False,False,False,True,True,both,False,False,,99.92,,False,1.0
+EyeIrritation6pack_PID51,FIFRA data,Mixture,2,1.0,1.0,G12236088d1a08cce,C48eb6b23ec1b5065,3,False,False,False,False,False,True,True,both,False,False,,66.3,,False,1.0
+EyeIrritation6pack_PID4,FIFRA data,Mixture,1,3.0,0.0,G3ed128e99c1ce149,C6afe40cd67faddad,2,False,False,False,False,False,True,True,both,False,False,,99.81,,False,1.0
+EyeIrritation6pack_PID52,FIFRA data,Mixture,3,1.0,1.0,Ga514f24d6f9da371,C2604581e0ee9151d,0,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID5,FIFRA data,Mixture,1,3.0,0.0,G3ed128e99c1ce149,C0ba66b52c1a5b1d2,2,False,False,False,False,False,True,True,both,False,False,,99.75,,False,1.0
+EyeIrritation6pack_PID10,FIFRA data,Mixture,1,1.0,1.0,G68bee73c4d733352,Cce1b599ab4a7c212,4,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID53,FIFRA data,Mixture,5,4.0,0.0,Ge7dd7cf59e178886,C027a778447a97f5a,0,False,False,False,False,False,True,True,both,False,False,,68.48,,False,1.0
+EyeIrritation6pack_PID54,FIFRA data,Mixture,2,3.0,0.0,G4e2097277d839646,C126afe0e3da22824,2,False,False,False,False,False,True,True,both,False,False,,90.44,,False,1.0
+EyeIrritation6pack_PID55,FIFRA data,Mixture,1,4.0,0.0,G5d2845eb5588e8c5,C5f8b1d220138f052,3,False,False,False,False,False,True,True,both,False,False,,3.799999999999997,,False,1.0
+EyeIrritation6pack_PID57,FIFRA data,Mixture,1,4.0,0.0,Ge55ba8d46288309b,C7e087173b46cd325,3,False,False,False,False,False,True,True,both,False,False,,30.0,,False,1.0
+EyeIrritation6pack_PID58,FIFRA data,Mixture,2,3.0,0.0,G7b00cf15d9bdddab,Cce046b15fe67aaf0,3,False,False,False,False,False,True,True,both,False,False,,89.95,,False,1.0
+EyeIrritation6pack_PID59,FIFRA data,Mixture,2,3.0,0.0,G7b00cf15d9bdddab,C32db7314c0ccbc36,3,False,False,False,False,False,True,True,both,False,False,,98.9,,False,1.0
+EyeIrritation6pack_PID17,FIFRA data,Mixture,1,3.0,0.0,Ge81aa347a20285d0,C5c3e31b9035326a8,1,False,False,False,False,False,True,True,both,False,False,,30.0,,False,1.0
+EyeIrritation6pack_PID61,FIFRA data,Mixture,1,3.0,0.0,G1d278ef19a84b22a,C357a646187f1062f,3,False,False,False,False,False,True,True,both,False,False,,3.5,,False,1.0
+EyeIrritation6pack_PID18,FIFRA data,Mixture,1,1.0,1.0,G646a84d5e8ab5955,C741e4f5d4dc28a00,2,False,False,False,False,False,True,True,both,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID62,FIFRA data,Mixture,1,3.0,0.0,Gb3e95e81e2ee0cf0,Ca9ccb2e12f98f7c9,2,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID65,FIFRA data,Mixture,2,4.0,0.0,G7fe0b83a2558ae23,C8ea65a7ec0277834,0,False,False,False,False,False,True,True,both,False,False,,91.0,,False,1.0
+EyeIrritation6pack_PID23,FIFRA data,Mixture,2,3.0,0.0,G154e81db9fc30eb3,C3cfc2084509b1425,0,False,False,False,False,False,True,True,both,False,False,,74.5,,False,1.0
+EyeIrritation6pack_PID70,FIFRA data,Mixture,2,4.0,0.0,G9d46f5263b132337,C0182ee176c0fc15a,3,False,False,False,False,False,True,True,both,False,False,,63.0,,False,1.0
+EyeIrritation6pack_PID24,FIFRA data,Mixture,1,4.0,0.0,Ge55ba8d46288309b,C95ce390e6ab9f22f,3,False,False,False,False,False,True,True,both,False,False,,98.0,,False,1.0
+EyeIrritation6pack_PID71,FIFRA data,Mixture,2,3.0,0.0,G9d46f5263b132337,Cd1da3c462254094a,3,False,False,False,False,False,True,True,both,False,False,,99.625,,False,1.0
+EyeIrritation6pack_PID28,FIFRA data,Mixture,1,4.0,0.0,Gdf9c6a0457fc013b,C64f459d4cea6d5ca,0,False,False,False,False,False,True,True,both,False,False,,8.0,,False,1.0
+EyeIrritation6pack_PID75,FIFRA data,Mixture,1,3.0,0.0,Gc44a4ce5c2a185ab,Ccb6c36108f04e493,3,False,False,False,False,False,True,True,both,False,False,,3.299999999999997,,False,1.0
+EyeIrritation6pack_PID29,FIFRA data,Mixture,1,4.0,0.0,G3371ae6cc9d91809,C5b5d937466013eec,3,False,False,False,False,False,True,True,both,False,False,,8.0,,False,1.0
+EyeIrritation6pack_PID76,FIFRA data,Mixture,1,4.0,0.0,Gd1c339b14e0ebb50,Cfff9ee92f82efd88,0,False,False,False,False,False,True,True,both,False,False,,2.200000000000003,,False,1.0
+EyeIrritation6pack_PID77,FIFRA data,Mixture,1,1.0,1.0,G42c359aa828680b7,C32ef9da27bf8a0fe,1,False,False,False,False,False,True,True,both,False,False,,4.700000000000003,,False,1.0
+EyeIrritation6pack_PID31,FIFRA data,Mixture,1,3.0,0.0,Ge55ba8d46288309b,C63859f5fb4dc28c2,3,False,False,False,False,False,True,True,both,False,False,,7.200000000000003,,False,1.0
+EyeIrritation6pack_PID78,FIFRA data,Mixture,1,3.0,0.0,Ga6508ccf28c1f4a7,C72aaf3b5be057925,0,False,False,False,False,False,True,True,both,False,False,,87.5,,False,1.0
+EyeIrritation6pack_PID79,FIFRA data,Mixture,1,4.0,0.0,Ga6508ccf28c1f4a7,C5307d043bc3e327d,0,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID80,FIFRA data,Mixture,2,3.0,0.0,G5e6f310189c487ab,C4f6adca8175bdc8e,1,False,False,False,False,False,True,True,both,False,False,,21.879999999999995,,False,1.0
+EyeIrritation6pack_PID32,FIFRA data,Mixture,1,3.0,0.0,Ge55ba8d46288309b,C990c7681b389a813,3,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID37,FIFRA data,Mixture,2,4.0,0.0,Gd78c3a73a0c4cfa8,C92a38c5bdac0e147,0,False,False,False,False,False,True,True,both,False,False,,54.74,,False,1.0
+EyeIrritation6pack_PID40,FIFRA data,Mixture,1,3.0,0.0,G132eb8ce15b19d95,C27475a12c1960999,0,False,False,False,False,False,True,True,both,False,False,,1.4000000000000057,,False,1.0
+EyeIrritation6pack_PID41,FIFRA data,Mixture,1,3.0,0.0,G132eb8ce15b19d95,Cfcd900d460621dd3,0,False,False,False,False,False,True,True,both,False,False,,10.0,,False,1.0
+EyeIrritation6pack_PID42,FIFRA data,Mixture,1,4.0,0.0,G17030ba9a49934ce,C9178eefb3f6d6105,3,False,False,False,False,False,True,True,both,False,False,,3.200000000000003,,False,1.0
+EyeIrritation6pack_PID43,FIFRA data,Mixture,2,3.0,0.0,G5ce382fc73006945,C493bda39b451655d,4,False,False,False,False,False,True,True,both,False,False,,98.96,,False,1.0
+EyeIrritation6pack_PID44,FIFRA data,Mixture,1,2.0,1.0,G157435a139ce5861,Ca08976b213e407ff,2,False,False,False,False,False,True,True,both,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID45,FIFRA data,Mixture,2,3.0,0.0,G57e8fac999b7c25e,Ce92411017e74d22a,4,False,False,False,False,False,True,True,both,False,False,,39.7,,False,1.0
+EyeIrritation6pack_PID81,FIFRA data,Mixture,1,3.0,0.0,Gf63e3e596e082a60,Cf87738f490d6715e,4,False,False,False,False,False,True,True,both,False,False,,55.0,,False,1.0
+EyeIrritation6pack_PID86,FIFRA data,Mixture,1,3.0,0.0,Ga21c695f61c75f4b,Cb93930ef4372a287,1,False,False,False,False,False,True,True,both,False,False,,72.5,,False,1.0
+EyeIrritation6pack_PID87,FIFRA data,Mixture,1,4.0,0.0,G56d08413228df4a9,Ceed41847fdf1624c,2,False,False,False,False,False,True,True,both,False,False,,77.5,,False,1.0
+EyeIrritation6pack_PID96,FIFRA data,Mixture,1,4.0,0.0,Gd1c339b14e0ebb50,C920863a2807f256b,0,False,False,False,False,False,True,True,both,False,False,,53.5,,False,1.0
+EyeIrritation6pack_PID100,FIFRA data,Mixture,2,1.0,1.0,G4b03c7e09dc5b919,C58dbc9e519af7256,2,False,False,False,False,False,True,True,both,False,False,,96.4,,False,1.0
+EyeIrritation6pack_PID101,FIFRA data,Mixture,2,3.0,0.0,G7ba1a7c3a2200790,C380b1f9a9e3c95d0,0,False,False,False,False,False,True,True,both,False,False,,49.0,,False,1.0
+EyeIrritation6pack_PID102,FIFRA data,Mixture,1,4.0,0.0,Ge55ba8d46288309b,Cd89c47fc5464c9b7,3,False,False,False,False,False,True,True,both,False,False,,99.99,,False,1.0
+EyeIrritation6pack_PID103,FIFRA data,Mixture,6,4.0,0.0,G6db95089afb43284,C36d8083922b0ef60,2,False,False,False,False,False,True,True,both,False,False,,75.00999999999999,,False,1.0
+EyeIrritation6pack_PID104,FIFRA data,Mixture,1,3.0,0.0,Gd217ba47db56ec87,C51f61a7cd71893fc,2,False,False,False,False,False,True,True,both,False,False,,94.95,,False,1.0
+EyeIrritation6pack_PID105,FIFRA data,Mixture,2,3.0,0.0,G5947bf6bdd527f2a,C4de1ffda623e1405,1,False,False,False,False,False,True,True,both,False,False,,82.7,,False,1.0
+EyeIrritation6pack_PID107,FIFRA data,Mixture,1,3.0,0.0,Gebfaf6d8938be381,Cb6a3df8b6ad73c40,1,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID110,FIFRA data,Mixture,2,1.0,1.0,Gc60c1dd75eedf3c2,Cd72ea2eed97af324,3,False,False,False,False,False,True,True,both,False,False,,85.0,,False,0.3333333333333333
+EyeIrritation6pack_PID115,FIFRA data,Mixture,1,3.0,0.0,Gb7cc5e46f4b8ad82,Ccff9aa5d3893e98c,2,False,False,False,False,False,True,True,both,False,False,,67.6,,False,1.0
+EyeIrritation6pack_PID117,FIFRA data,Mixture,1,3.0,0.0,G534bc11db67cf860,C7a63bc4c52e60f7d,3,False,False,False,False,False,True,True,both,False,False,,9.799999999999995,,False,1.0
+EyeIrritation6pack_PID118,FIFRA data,Mixture,1,3.0,0.0,G534bc11db67cf860,C2bc479e4e93c25bd,3,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID119,FIFRA data,Mixture,1,2.0,1.0,G8a8c92499e25e2ac,C9deaaa359a51764b,1,False,False,False,False,False,True,True,both,False,False,,30.0,,False,1.0
+EyeIrritation6pack_PID120,FIFRA data,Mixture,2,3.0,0.0,Gcedbb36bcda078a7,C1cfad2819cd397b3,1,False,False,False,False,False,True,True,both,False,False,,81.3,,False,1.0
+EyeIrritation6pack_PID121,FIFRA data,Mixture,2,2.0,1.0,G38a1ae235dd01fa2,C0ab066253938f5e6,3,False,False,False,False,False,True,True,both,False,False,,80.6,,False,1.0
+EyeIrritation6pack_PID123,FIFRA data,Mixture,1,4.0,0.0,G6c5059c0cfb42031,C37f86e1a4259049d,4,False,False,False,False,False,True,True,both,False,False,,80.8,,False,1.0
+EyeIrritation6pack_PID124,FIFRA data,Mixture,1,3.0,0.0,Gd4789f6b0b186c1e,Cee61103e6a67141b,3,False,False,False,False,False,True,True,both,False,False,,70.3,,False,1.0
+EyeIrritation6pack_PID125,FIFRA data,Mixture,1,1.0,1.0,G64f1e37e02295a7c,C19bd5db11437fe0a,4,False,False,False,False,False,True,True,both,False,False,,94.04,,False,1.0
+EyeIrritation6pack_PID126,FIFRA data,Mixture,2,4.0,0.0,G176fc412c7768a04,Cf5d95fc91cf3e668,2,False,False,False,False,False,True,True,both,False,False,,57.48,,False,1.0
+EyeIrritation6pack_PID127,FIFRA data,Mixture,2,4.0,0.0,G176fc412c7768a04,C3f49f79ad5b420d9,2,False,False,False,False,False,True,True,both,False,False,,57.09,,False,1.0
+EyeIrritation6pack_PID128,FIFRA data,Mixture,1,1.0,1.0,G46d2092d5a540f47,Cfb1180c03a8b4dbe,2,False,False,False,False,False,True,True,both,False,False,,7.0,,False,1.0
+EyeIrritation6pack_PID131,FIFRA data,Mixture,1,2.0,1.0,G040ea04916f7094b,Ca58e39eefd559212,4,False,False,False,False,False,True,True,both,False,False,,99.0,,False,1.0
+EyeIrritation6pack_PID132,FIFRA data,Mixture,1,3.0,0.0,Gb3e95e81e2ee0cf0,Ca9ccb2e12f98f7c9,2,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID134,FIFRA data,Mixture,1,4.0,0.0,Gaca401f07d6e36ac,Ce0f4963ae79cc77c,1,False,False,False,False,False,True,True,both,False,False,,96.0,,False,1.0
+EyeIrritation6pack_PID137,FIFRA data,Mixture,2,3.0,0.0,G65b33eb6309986b6,C28a6dc7c4f7a0467,3,False,False,False,False,False,True,True,both,False,False,,97.95,,False,1.0
+EyeIrritation6pack_PID138,FIFRA data,Mixture,1,2.0,1.0,G8c938acecf281634,C6297c962c708bbdb,1,False,False,False,False,False,True,True,both,False,False,,1.4000000000000057,,False,1.0
+EyeIrritation6pack_PID142,FIFRA data,Mixture,2,2.0,1.0,Gfb1869d19c80e9c2,C681a72ffaddc1a63,4,False,False,False,False,False,True,True,both,False,False,,84.0,,False,1.0
+EyeIrritation6pack_PID143,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C45f0cab94495e3e2,0,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID144,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C34f389f93f55f218,0,False,False,False,False,False,True,True,both,False,False,,99.931,,False,1.0
+EyeIrritation6pack_PID145,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C34f389f93f55f218,0,False,False,False,False,False,True,True,both,False,False,,99.931,,False,1.0
+EyeIrritation6pack_PID146,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C2b5c148ec592519f,0,False,False,False,False,False,True,True,both,False,False,,99.927,,False,1.0
+EyeIrritation6pack_PID147,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C2b5c148ec592519f,0,False,False,False,False,False,True,True,both,False,False,,99.927,,False,1.0
+EyeIrritation6pack_PID148,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C13c43788f38cbc2f,0,False,False,False,False,False,True,True,both,False,False,,99.917,,False,1.0
+EyeIrritation6pack_PID149,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C971fee4f92bf4851,0,False,False,False,False,False,True,True,both,False,False,,99.914,,False,1.0
+EyeIrritation6pack_PID150,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,Ca5f628fd02c10a28,0,False,False,False,False,False,True,True,both,False,False,,99.8,,False,1.0
+EyeIrritation6pack_PID151,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C7c53c9813df0a8ab,0,False,False,False,False,False,True,True,both,False,False,,92.0,,False,1.0
+EyeIrritation6pack_PID152,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C777ce7aeca1a8665,0,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID153,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,Cea542eec2134d857,0,False,False,False,False,False,True,True,both,False,False,,82.85,,False,1.0
+EyeIrritation6pack_PID154,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C67a916a7ec07a4cd,0,False,False,False,False,False,True,True,both,False,False,,95.0,,False,1.0
+EyeIrritation6pack_PID155,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C8f2d3bdc9a886852,0,False,False,False,False,False,True,True,both,False,False,,76.6,,False,1.0
+EyeIrritation6pack_PID157,FIFRA data,Mixture,2,1.0,1.0,Ga138898df41ecf6b,Ca0b7d00bca18eaac,4,False,False,False,False,False,True,True,both,False,False,,2.799999999999997,,False,1.0
+EyeIrritation6pack_PID160,FIFRA data,Mixture,1,3.0,0.0,G0338de1596b7fd1e,C95cfc24eb9fd0584,1,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID167,FIFRA data,Mixture,1,3.0,0.0,Ge110caa06367e19e,C002ec15b25e40e04,3,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID168,FIFRA data,Mixture,1,4.0,0.0,Ge732e0aafcd1b408,Cb1a584ac010442a9,2,False,False,False,False,False,True,True,both,False,False,,99.999,,False,1.0
+EyeIrritation6pack_PID170,FIFRA data,Mixture,1,4.0,0.0,G8a8c92499e25e2ac,Cd6535b5a999174c7,1,False,False,False,False,False,True,True,both,False,False,,1.0,,False,1.0
+EyeIrritation6pack_PID173,FIFRA data,Mixture,2,3.0,0.0,Gdec52e1212ceb383,Cf3e1efd46b4c9ed7,1,False,False,False,False,False,True,True,both,False,False,,56.0,,False,1.0
+EyeIrritation6pack_PID175,FIFRA data,Mixture,1,1.0,1.0,G0e2cd95204901d15,C2dc299feee3fc267,4,False,False,False,False,False,True,True,both,False,False,,50.65,,False,1.0
+EyeIrritation6pack_PID176,FIFRA data,Mixture,1,3.0,0.0,G766405ae96ffafd7,C5b39e0f6933cd3a7,1,False,False,False,False,False,True,True,both,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID177,FIFRA data,Mixture,1,3.0,0.0,G766405ae96ffafd7,C1138cbf6bd7394f2,1,False,False,False,False,False,True,True,both,False,False,,4.299999999999997,,False,1.0
+EyeIrritation6pack_PID178,FIFRA data,Mixture,1,3.0,0.0,G766405ae96ffafd7,C724f6b50bbf7269a,1,False,False,False,False,False,True,True,both,False,False,,2.200000000000003,,False,1.0
+EyeIrritation6pack_PID179,FIFRA data,Mixture,1,3.0,0.0,G766405ae96ffafd7,C74250898480f47a9,1,False,False,False,False,False,True,True,both,False,False,,1.5999999999999943,,False,1.0
+EyeIrritation6pack_PID180,FIFRA data,Mixture,3,3.0,0.0,Gc1f24b45403e6a11,C86fb8bbd47f281d8,4,False,False,False,False,False,True,True,both,False,False,,80.5,,False,1.0
+EyeIrritation6pack_PID182,FIFRA data,Mixture,1,3.0,0.0,G534bc11db67cf860,C8267e9fbf0248007,3,False,False,False,False,False,True,True,both,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID186,FIFRA data,Mixture,3,3.0,0.0,Gbb2ad7c63a27e3c4,Cf57ca2522ea3d0f7,0,False,False,False,False,False,True,True,both,False,False,,59.64,,False,0.9826560951437066
+EyeIrritation6pack_PID194,FIFRA data,Mixture,2,3.0,0.0,G290f33a34a7664fc,Cd44d3ef431a11a11,4,False,False,False,False,False,True,True,both,False,False,,51.53,,False,0.9799876212089952
+EyeIrritation6pack_PID195,FIFRA data,Mixture,1,2.0,1.0,G01c1934c3ba175ac,C2a0e95549a6b6d71,3,False,False,False,False,False,True,True,both,False,False,,20.0,,False,1.0
+EyeIrritation6pack_PID196,FIFRA data,Mixture,3,1.0,1.0,Ga5ee9792956da250,C4e8371e7b2546098,0,False,False,False,False,False,True,True,both,False,False,,30.89999999999999,,False,0.9826338639652676
+EyeIrritation6pack_PID197,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C9584ef8e31836c36,0,False,False,False,False,False,True,True,both,False,False,,98.79,,False,1.0
+EyeIrritation6pack_PID205,FIFRA data,Mixture,3,2.0,1.0,G6e3d3cade625e8d3,C81e53e4b56f6c0ab,2,False,False,False,False,False,True,True,both,False,False,,76.74000000000001,,False,1.0
+EyeIrritation6pack_PID46,FIFRA data,Mixture,1,4.0,0.0,G3417a4a347575d5f,C4694b1d2e5f7cef7,4,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID47,FIFRA data,Mixture,3,1.0,1.0,G4a9e0c8f346729f7,C9aa5d425d5ed615f,1,False,False,False,False,False,True,True,both,False,False,,91.882,,False,1.0
+EyeIrritation6pack_PID217,FIFRA data,Mixture,1,3.0,0.0,G4e1f97126d8fc158,Ca11b20a32cada920,1,False,False,False,False,False,True,True,both,False,False,,68.32,,False,1.0
+EyeIrritation6pack_PID218,FIFRA data,Mixture,3,2.0,1.0,Gaf080bc603da834a,C2757ba77d60a9ad7,1,False,False,False,False,False,True,True,both,False,False,,80.32,,False,1.0
+EyeIrritation6pack_PID219,FIFRA data,Mixture,1,3.0,0.0,G6e8018ff612fe973,C613a68bd4193e070,2,False,False,False,False,False,True,True,both,False,False,,58.5,,False,1.0
+EyeIrritation6pack_PID220,FIFRA data,Mixture,1,3.0,0.0,Ge55ba8d46288309b,C81e71f433f978cce,3,False,False,False,False,False,True,True,both,False,False,,7.900000000000006,,False,1.0
+EyeIrritation6pack_PID221,FIFRA data,Mixture,1,4.0,0.0,G968f597399bdaf1e,Cfb384aea7c2a0404,2,False,False,False,False,False,True,True,both,False,False,,5.5,,False,1.0
+EyeIrritation6pack_PID222,FIFRA data,Mixture,3,3.0,0.0,G12cc6b6cd1c11cf9,Ccb0c4aa3b73cf0df,3,False,False,False,False,False,True,True,both,False,False,,99.865,,False,1.0
+EyeIrritation6pack_PID223,FIFRA data,Mixture,4,3.0,0.0,Gba50ba56548a3133,Cf75a5ff03aedf3b8,0,False,False,False,False,False,True,True,both,False,False,,93.5,,False,1.0
+EyeIrritation6pack_PID224,FIFRA data,Mixture,4,3.0,0.0,Gba50ba56548a3133,C35800997965b0069,0,False,False,False,False,False,True,True,both,False,False,,96.72,,False,1.0
+EyeIrritation6pack_PID225,FIFRA data,Mixture,4,3.0,0.0,Gba50ba56548a3133,Cfd1c46777ad6509d,0,False,False,False,False,False,True,True,both,False,False,,98.3775,,False,1.0
+EyeIrritation6pack_PID226,FIFRA data,Mixture,4,3.0,0.0,Gba50ba56548a3133,Ce1ec4afef41544db,0,False,False,False,False,False,True,True,both,False,False,,99.18,,False,1.0
+EyeIrritation6pack_PID213,FIFRA data,Mixture,3,3.0,0.0,G1d32ae961a551b67,C56d3262392bb3059,3,False,False,False,False,False,True,True,both,False,False,,32.0,,False,1.0
+EyeIrritation6pack_PID228,FIFRA data,Mixture,1,3.0,0.0,Gb72f6d7fcf3cd050,Cf0bd77d4b7ad1c97,2,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID214,FIFRA data,Mixture,3,3.0,0.0,Gf5fce742d65c877a,Cc9fd0a0f04631b46,2,False,False,False,False,False,True,True,both,False,False,,80.2,,False,1.0
+EyeIrritation6pack_PID229,FIFRA data,Mixture,1,1.0,1.0,G57e2584e649fae35,C45f9b801fcd08397,0,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID231,FIFRA data,Mixture,1,1.0,1.0,Ga1974f18a125fb84,C007cf31a28e54584,4,False,False,False,False,False,True,True,both,False,False,,1.5,,False,1.0
+EyeIrritation6pack_PID233,FIFRA data,Mixture,1,3.0,0.0,G88179574ac0cc9e5,C0c28d312a6cc9b49,3,False,False,False,False,False,True,True,both,False,False,,59.65,,False,1.0
+EyeIrritation6pack_PID240,FIFRA data,Mixture,1,3.0,0.0,Ge7f846570f7dac7b,Cb56b2280169119bf,0,False,False,False,False,False,True,True,both,False,False,,97.3,,False,1.0
+EyeIrritation6pack_PID241,FIFRA data,Mixture,1,2.0,1.0,Gda0300ae6a1b5223,C3a44d8d6c66092ce,1,False,False,False,False,False,True,True,both,False,False,,70.4,,False,1.0
+EyeIrritation6pack_PID242,FIFRA data,Mixture,2,3.0,0.0,Ga40eca6ae5ec8872,C7fac2a6614e3d57e,0,False,False,False,False,False,True,True,both,False,False,,70.5,,False,1.0
+EyeIrritation6pack_PID243,FIFRA data,Mixture,2,3.0,0.0,Ga40eca6ae5ec8872,C7fac2a6614e3d57e,0,False,False,False,False,False,True,True,both,False,False,,70.5,,False,1.0
+EyeIrritation6pack_PID246,FIFRA data,Mixture,1,4.0,0.0,G5fa8cedec5201175,Cfa7934d325962a9f,4,False,False,False,True,True,True,True,both,True,False,,52.0,,False,1.0
+EyeIrritation6pack_PID247,FIFRA data,Mixture,1,4.0,0.0,G5fa8cedec5201175,Cbe3fba6dd97f10c0,4,False,False,False,False,False,True,True,both,False,False,,4.0,,False,1.0
+EyeIrritation6pack_PID251,FIFRA data,Mixture,1,3.0,0.0,G5fa8cedec5201175,Cfa7934d325962a9f,4,False,False,False,True,True,True,True,both,True,False,,52.0,,False,1.0
+EyeIrritation6pack_PID274,FIFRA data,Mixture,2,2.0,1.0,Ge9506af2d9af87df,C5581afa5a146fe42,3,False,False,False,False,False,True,True,both,False,False,,98.88,,False,1.0
+EyeIrritation6pack_PID258,FIFRA data,Mixture,1,1.0,1.0,G1d278ef19a84b22a,C362396d28a7272f6,3,False,False,False,False,False,True,True,both,False,False,,3.4000000000000057,,False,1.0
+EyeIrritation6pack_PID275,FIFRA data,Mixture,2,4.0,0.0,G16cfffe071553b0f,Cc18cebcf8aeb9117,4,False,False,False,False,False,True,True,both,False,False,,72.0,,False,1.0
+EyeIrritation6pack_PID252,FIFRA data,Mixture,1,3.0,0.0,G10e1213c43514564,Ceefeca27bac0a8af,1,False,False,False,False,False,True,True,both,False,False,,99.0,,False,1.0
+EyeIrritation6pack_PID253,FIFRA data,Mixture,1,3.0,0.0,G10e1213c43514564,Cd26b9376caaf895e,1,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID276,FIFRA data,Mixture,1,3.0,0.0,G1a8743f52717908b,C50d11f3f946b5378,4,False,False,False,False,False,True,True,both,False,False,,76.4,,False,1.0
+EyeIrritation6pack_PID254,FIFRA data,Mixture,1,1.0,1.0,G10e1213c43514564,C0fa9535aecd09090,1,False,False,False,False,False,True,True,both,False,False,,97.0,,False,1.0
+EyeIrritation6pack_PID277,FIFRA data,Mixture,1,3.0,0.0,Ga1974f18a125fb84,C93eb3a774af89d87,4,False,False,False,False,False,True,True,both,False,False,,46.0,,False,1.0
+EyeIrritation6pack_PID255,FIFRA data,Mixture,1,3.0,0.0,G10e1213c43514564,C9c4300ca974ad56b,1,False,False,False,False,False,True,True,both,False,False,,96.0,,False,1.0
+EyeIrritation6pack_PID256,FIFRA data,Mixture,1,3.0,0.0,G10e1213c43514564,C691b21ee76f34161,1,False,False,False,False,False,True,True,both,False,False,,88.4,,False,1.0
+EyeIrritation6pack_PID281,FIFRA data,Mixture,1,4.0,0.0,G4c1dfc245d1df274,C071be04d61016516,3,False,False,False,False,False,True,True,both,False,False,,4.700000000000003,,False,1.0
+EyeIrritation6pack_PID263,FIFRA data,Mixture,2,4.0,0.0,Gdf42f9e5dafa489d,Cd34011be2acf2b93,1,False,False,False,False,False,True,True,both,False,False,,73.0,,False,1.0
+EyeIrritation6pack_PID282,FIFRA data,Mixture,1,2.0,1.0,G040ea04916f7094b,C9de051b6d89af45d,4,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID283,FIFRA data,Mixture,1,3.0,0.0,G2eeef11a869bbe45,C8e2f98fec416b09e,3,False,False,False,False,False,True,True,both,False,False,,1.0999999999999943,,False,1.0
+EyeIrritation6pack_PID267,FIFRA data,Mixture,1,2.0,1.0,G10e1213c43514564,C3f0255da9f8dbcf8,1,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID286,FIFRA data,Mixture,1,1.0,1.0,G491814f571ef4888,Cbc3897c46d532841,2,False,False,False,False,False,True,True,both,False,False,,1.2000000000000028,,False,1.0
+EyeIrritation6pack_PID269,FIFRA data,Mixture,1,3.0,0.0,G5568873ee0c31140,C8f6ece77176aac12,2,False,False,False,False,False,True,True,both,False,False,,99.2,,False,1.0
+EyeIrritation6pack_PID287,FIFRA data,Mixture,1,3.0,0.0,G8296d7e465cadbdd,C384571cf6cd14490,3,False,False,False,False,False,True,True,both,False,False,,1.2000000000000028,,False,1.0
+EyeIrritation6pack_PID270,FIFRA data,Mixture,3,4.0,0.0,G35b1f35ada84b341,C5bb1e6a5c7508378,3,False,False,False,False,False,True,True,both,False,False,,73.25,,False,1.0
+EyeIrritation6pack_PID288,FIFRA data,Mixture,1,3.0,0.0,Ge110caa06367e19e,C08d7299bb1e76932,3,False,False,False,False,False,True,True,both,False,False,,5.0,,False,1.0
+EyeIrritation6pack_PID289,FIFRA data,Mixture,1,3.0,0.0,Ge110caa06367e19e,C8eced9f0ef2f6b5b,3,False,False,False,False,False,True,True,both,False,False,,3.299999999999997,,False,1.0
+EyeIrritation6pack_PID271,FIFRA data,Mixture,3,4.0,0.0,G66dd3d0e20d542d0,C65858f1aa8e08da7,1,False,False,False,False,False,True,True,both,False,False,,93.28,,False,1.0
+EyeIrritation6pack_PID293,FIFRA data,Mixture,1,1.0,1.0,Ge77bef4f319c75a1,Ccc42c2cf2e640f54,1,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID298,FIFRA data,Mixture,1,1.0,1.0,Gfb98737495bd101f,C9a635894b2b99611,3,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID272,FIFRA data,Mixture,4,4.0,0.0,G873db160a3509c7d,C47a927a852cee51c,3,False,False,False,False,False,True,True,both,False,False,,76.4,,False,1.0
+EyeIrritation6pack_PID299,FIFRA data,Mixture,1,4.0,0.0,G0e3d339e155e8fc5,C4db046e438073d44,3,False,False,False,False,False,True,True,both,False,False,,93.0,,False,1.0
+EyeIrritation6pack_PID300,FIFRA data,Mixture,1,4.0,0.0,G3deda3a3493d9ac3,Ca8f5998f7b10af96,4,False,False,False,False,False,True,True,both,False,False,,99.5,,False,1.0
+EyeIrritation6pack_PID301,FIFRA data,Mixture,1,1.0,1.0,G6c11779bdce7796d,C5af09b01b15d7c7e,2,False,False,False,False,False,True,True,both,False,False,,88.3,,False,1.0
+EyeIrritation6pack_PID302,FIFRA data,Mixture,1,4.0,0.0,G4e1f97126d8fc158,Cb034c8bfcbe18584,1,False,False,False,False,False,True,True,both,False,False,,98.18,,False,1.0
+EyeIrritation6pack_PID273,FIFRA data,Mixture,4,3.0,0.0,G873db160a3509c7d,C1628d087b686268d,3,False,False,False,False,False,True,True,both,False,False,,70.35,,False,1.0
+EyeIrritation6pack_PID303,FIFRA data,Mixture,1,4.0,0.0,G93eb2cdc76679b0c,C42698bd4f9f6d047,2,False,False,False,False,False,True,True,both,False,False,,74.2,,False,1.0
+EyeIrritation6pack_PID306,FIFRA data,Mixture,2,2.0,1.0,G7d0169d4e57973b5,C68b8735e6f8746a0,1,False,False,False,False,False,True,True,both,False,False,,47.0,,False,1.0
+EyeIrritation6pack_PID310,FIFRA data,Mixture,1,3.0,0.0,Gf5976915b8d78249,C0767214a0db6a3c5,0,False,False,False,False,False,True,True,both,False,False,,75.9,,False,1.0
+EyeIrritation6pack_PID312,FIFRA data,Mixture,1,4.0,0.0,Gf5976915b8d78249,C8bbee19dbb3d400f,0,False,False,False,False,False,True,True,both,False,False,,78.0,,False,1.0
+EyeIrritation6pack_PID313,FIFRA data,Mixture,1,4.0,0.0,Gf5976915b8d78249,C9fe7a5387b88bc13,0,False,False,False,False,False,True,True,both,False,False,,59.1,,False,1.0
+EyeIrritation6pack_PID314,FIFRA data,Mixture,1,1.0,1.0,G78806825d5e2b660,C55b69d2fa714a4af,4,False,False,False,False,False,True,True,both,False,False,,10.0,,False,1.0
+EyeIrritation6pack_PID316,FIFRA data,Mixture,1,3.0,0.0,G1647f747ce7e1409,C51ca1b5501a33a0d,3,False,False,False,False,False,True,True,both,False,False,,7.799999999999997,,False,1.0
+EyeIrritation6pack_PID319,FIFRA data,Mixture,1,2.0,1.0,Gdc784ccfea7348ce,C9adb04bd6cf37b8d,3,False,False,False,False,False,True,True,both,False,False,,63.9,,False,1.0
+EyeIrritation6pack_PID366,FIFRA data,Mixture,1,4.0,0.0,G0e3d339e155e8fc5,C5aaef2930952e5be,3,False,False,False,False,False,True,True,both,False,False,,96.5,,False,1.0
+EyeIrritation6pack_PID321,FIFRA data,Mixture,1,3.0,0.0,G478fb3d0363f6e0e,C334ad336a519f302,3,False,False,False,False,False,True,True,both,False,False,,77.5,,False,1.0
+EyeIrritation6pack_PID367,FIFRA data,Mixture,2,4.0,0.0,G6e7b8068f969ba4f,Ca1ae3b6890660157,0,False,False,False,False,False,True,True,both,False,False,,73.7,,False,1.0
+EyeIrritation6pack_PID323,FIFRA data,Mixture,1,4.0,0.0,G478fb3d0363f6e0e,C0fd9b26437df0469,3,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID324,FIFRA data,Mixture,1,4.0,0.0,G478fb3d0363f6e0e,Cb5beddc194d1b8f4,3,False,False,False,False,False,True,True,both,False,False,,99.62,,False,1.0
+EyeIrritation6pack_PID368,FIFRA data,Mixture,1,3.0,0.0,Gb9716a607ced817f,C84d263f64cc2f078,4,False,False,False,False,False,True,True,both,False,False,,62.7,,False,1.0
+EyeIrritation6pack_PID325,FIFRA data,Mixture,1,4.0,0.0,G478fb3d0363f6e0e,Cb9da03dfbab152bb,3,False,False,False,False,False,True,True,both,False,False,,1.0,,False,1.0
+EyeIrritation6pack_PID369,FIFRA data,Mixture,1,3.0,0.0,Gb9716a607ced817f,C76474619a5415a9d,4,False,False,False,False,False,True,True,both,False,False,,90.7,,False,1.0
+EyeIrritation6pack_PID326,FIFRA data,Mixture,1,3.0,0.0,G3692772ecca57ff3,C78c6b1aad534e9ae,1,False,False,False,False,False,True,True,both,False,False,,99.75,,False,1.0
+EyeIrritation6pack_PID370,FIFRA data,Mixture,4,4.0,0.0,Gb4e77634d9d82167,C1ec9e96bca7ec82d,1,False,False,False,False,False,True,True,both,False,False,,76.88,,False,1.0
+EyeIrritation6pack_PID327,FIFRA data,Mixture,1,4.0,0.0,G954fe85ffe479ede,C6baeeaa4486f4867,3,False,False,False,False,False,True,True,both,False,False,,59.3,,False,1.0
+EyeIrritation6pack_PID328,FIFRA data,Mixture,1,4.0,0.0,G954fe85ffe479ede,Cbf5fe2255f70a537,3,False,False,False,False,False,True,True,both,False,False,,1.5,,False,1.0
+EyeIrritation6pack_PID329,FIFRA data,Mixture,1,3.0,0.0,Ge50307419ddcbeca,C218d21a3a857036b,1,False,False,False,False,False,True,True,both,False,False,,79.5,,False,1.0
+EyeIrritation6pack_PID330,FIFRA data,Mixture,2,4.0,0.0,G37057a630880c657,C96f41ec9f770edb4,1,False,False,False,False,False,True,True,both,False,False,,77.1,,False,1.0
+EyeIrritation6pack_PID373,FIFRA data,Mixture,2,3.0,0.0,G0c7da1e07a382d81,C20e2c5085f4fef7c,3,False,False,False,False,False,True,True,both,False,False,,64.28999999999999,,False,1.0
+EyeIrritation6pack_PID332,FIFRA data,Mixture,2,4.0,0.0,Ga0631b711a9ab9c5,Cff3231b30cf4ac53,0,False,False,False,False,False,True,True,both,False,False,,99.88,,False,1.0
+EyeIrritation6pack_PID375,FIFRA data,Mixture,2,3.0,0.0,G8713cc1a5c35b5b9,C778a46575b14977d,2,False,False,False,False,False,True,True,both,False,False,,97.45,,False,1.0
+EyeIrritation6pack_PID333,FIFRA data,Mixture,1,4.0,0.0,Gaa3f38e8720ff555,Cb7c3739f3aaea8e4,2,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID376,FIFRA data,Mixture,1,4.0,0.0,G918d11107baa067e,Cd58c2f7e836020f9,2,False,False,False,False,False,True,True,both,False,False,,90.4,,False,1.0
+EyeIrritation6pack_PID343,FIFRA data,Mixture,1,3.0,0.0,G0e2cd95204901d15,Cc7c1369f38e29614,4,False,False,False,False,False,True,True,both,False,False,,35.0,,False,1.0
+EyeIrritation6pack_PID377,FIFRA data,Mixture,4,4.0,0.0,Ga0c5b9a677a69021,Ccf10423f54828009,3,False,False,False,False,False,True,True,both,False,False,,92.69,,False,1.0
+EyeIrritation6pack_PID344,FIFRA data,Mixture,1,3.0,0.0,G0e2cd95204901d15,C3fcae0c9c6bad2a8,4,False,False,False,False,False,True,True,both,False,False,,10.0,,False,1.0
+EyeIrritation6pack_PID345,FIFRA data,Mixture,1,3.0,0.0,Gaa8b8984c48700d0,Cfa621ac73d46864c,1,False,False,False,True,True,True,True,both,True,False,,57.6,,False,1.0
+EyeIrritation6pack_PID347,FIFRA data,Mixture,1,3.0,0.0,G968f597399bdaf1e,C30cc13ee2c077fc8,2,False,False,False,False,False,True,True,both,False,False,,45.5,,False,1.0
+EyeIrritation6pack_PID348,FIFRA data,Mixture,1,4.0,0.0,G968f597399bdaf1e,Cea8a96b8bb748b9d,2,False,False,False,False,False,True,True,both,False,False,,95.8,,False,1.0
+EyeIrritation6pack_PID378,FIFRA data,Mixture,4,3.0,0.0,G5efc5aa74d527a2b,C950fab3878916e8b,2,False,False,False,False,False,True,True,both,False,False,,90.11,,False,1.0
+EyeIrritation6pack_PID349,FIFRA data,Mixture,2,4.0,0.0,Gfae375327e6dae12,C162f7a12ff807a77,4,False,False,False,False,False,True,True,both,False,False,,74.89,,False,1.0
+EyeIrritation6pack_PID350,FIFRA data,Mixture,1,4.0,0.0,G8296d7e465cadbdd,C1b444dc85a3558ac,3,False,False,False,False,False,True,True,both,False,False,,40.0,,False,1.0
+EyeIrritation6pack_PID351,FIFRA data,Mixture,1,4.0,0.0,Ge82ca5b1fb5a0cc8,C468862e07f30cf60,2,False,False,False,False,False,True,True,both,False,False,,20.0,,False,1.0
+EyeIrritation6pack_PID379,FIFRA data,Mixture,4,3.0,0.0,G5efc5aa74d527a2b,Ccdc93b0dfefe9925,2,False,False,False,False,False,True,True,both,False,False,,91.37,,False,1.0
+EyeIrritation6pack_PID352,FIFRA data,Mixture,1,3.0,0.0,Ge82ca5b1fb5a0cc8,C6b28243bd9544259,2,False,False,False,False,False,True,True,both,False,False,,4.400000000000006,,False,1.0
+EyeIrritation6pack_PID354,FIFRA data,Mixture,1,3.0,0.0,G1e176bf8facf9b1a,C5ef402d2d013d9f6,3,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID355,FIFRA data,Mixture,1,3.0,0.0,G41297e055b67fc00,Cfe3f25d7b919885e,2,False,False,False,False,False,True,True,both,False,False,,99.95,,False,1.0
+EyeIrritation6pack_PID380,FIFRA data,Mixture,4,2.0,1.0,G041f73d9840b1107,Ccf7697961012da54,0,False,False,False,False,False,True,True,both,False,False,,70.4,,False,1.0
+EyeIrritation6pack_PID356,FIFRA data,Mixture,1,3.0,0.0,G41297e055b67fc00,C04dd81de6ae8f440,2,False,False,False,False,False,True,True,both,False,False,,10.700000000000005,,False,1.0
+EyeIrritation6pack_PID358,FIFRA data,Mixture,1,4.0,0.0,G1e176bf8facf9b1a,Ce1bbc1619951e7b5,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID360,FIFRA data,Mixture,2,3.0,0.0,Gb7aaea1b09188025,Cde6c11316964f7e1,2,False,False,False,False,False,True,True,both,False,False,,55.0,,False,1.0
+EyeIrritation6pack_PID381,FIFRA data,Mixture,4,4.0,0.0,G041f73d9840b1107,Cfeac2a7e9105f5f4,0,False,False,False,False,False,True,True,both,False,False,,91.66,,False,1.0
+EyeIrritation6pack_PID361,FIFRA data,Mixture,1,4.0,0.0,G00e59e6752411a99,Cbb20710f7f843b8e,1,False,False,False,False,False,True,True,both,False,False,,95.0,,False,1.0
+EyeIrritation6pack_PID362,FIFRA data,Mixture,1,4.0,0.0,G00e59e6752411a99,C8467582dc43e77d3,1,False,False,False,False,False,True,True,both,False,False,,3.9000000000000057,,False,1.0
+EyeIrritation6pack_PID363,FIFRA data,Mixture,2,3.0,0.0,G6de535ce659b1701,C21cd4e0b048f71ef,2,False,False,False,False,False,True,True,both,False,False,,62.3,,False,1.0
+EyeIrritation6pack_PID382,FIFRA data,Mixture,3,4.0,0.0,G4a9cddae99ce3d9b,Cebe637b8d8ac658f,3,False,False,False,False,False,True,True,both,False,False,,96.21,,False,1.0
+EyeIrritation6pack_PID364,FIFRA data,Mixture,2,3.0,0.0,Gc21662d8860dbb7d,Caffc9895dfd1a746,0,False,False,False,False,False,True,True,both,False,False,,68.8,,False,1.0
+EyeIrritation6pack_PID365,FIFRA data,Mixture,1,2.0,1.0,G1e176bf8facf9b1a,Ce1bbc1619951e7b5,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,80.0,,False,1.0
+EyeIrritation6pack_PID383,FIFRA data,Mixture,1,3.0,0.0,G3deda3a3493d9ac3,C66873fae8eb74e71,4,False,False,False,False,False,True,True,both,False,False,,97.5,,False,1.0
+EyeIrritation6pack_PID386,FIFRA data,Mixture,1,3.0,0.0,G2516a1ce4916fe7a,Ce642b36ce3c4837e,0,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID390,FIFRA data,Mixture,2,3.0,0.0,G42317b403d614a77,C59c8ae4599cc2582,3,False,False,False,False,False,True,True,both,False,False,,43.66,,False,1.0
+EyeIrritation6pack_PID391,FIFRA data,Mixture,2,3.0,0.0,G07ddae508e3df74b,Cfe4e9721b9468356,2,False,False,False,False,False,True,True,both,False,False,,71.21000000000001,,False,1.0
+EyeIrritation6pack_PID429,FIFRA data,Mixture,1,4.0,0.0,G918d11107baa067e,C6371b98cb6f97ef1,2,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID433,FIFRA data,Mixture,2,4.0,0.0,G01ee53887987e205,Cc52c83d3035e14cb,3,False,False,False,False,False,True,True,both,False,False,,37.8,,False,1.0
+EyeIrritation6pack_PID434,FIFRA data,Mixture,1,2.0,1.0,Gb7cc5e46f4b8ad82,Cd1acbdfdcfd10a87,2,False,False,False,False,False,True,True,both,False,False,,58.2,,False,1.0
+EyeIrritation6pack_PID435,FIFRA data,Mixture,1,4.0,0.0,Ge2ac1c78c77ba6b2,C02c6e44a23782163,2,False,False,False,False,False,True,True,both,False,False,,1.5999999999999943,,False,1.0
+EyeIrritation6pack_PID437,FIFRA data,Mixture,3,3.0,0.0,Gab4e6a42788a414d,Cf751a16b019c6014,1,False,False,False,False,False,True,True,both,False,False,,98.78,,False,1.0
+EyeIrritation6pack_PID392,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,Ce81e4a86d0987e44,1,False,False,False,False,False,True,True,both,False,False,,1.0,,False,1.0
+EyeIrritation6pack_PID393,FIFRA data,Mixture,1,4.0,0.0,G083d570b3afd6e44,Cdf7de8ffd33c1012,0,False,False,False,False,False,True,True,both,False,False,,77.7,,False,1.0
+EyeIrritation6pack_PID371,FIFRA data,Mixture,2,4.0,0.0,Gddcdcedceee50cce,Caab513cd9ccb68ac,1,False,False,False,False,False,True,True,both,False,False,,61.02,,False,1.0
+EyeIrritation6pack_PID438,FIFRA data,Mixture,1,4.0,0.0,G4d13f55f37b0d41d,Ceb30118993f55139,3,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID439,FIFRA data,Mixture,1,3.0,0.0,G53531974e5bf5603,C54bb14404eaaadab,4,False,False,False,False,False,True,True,both,False,False,,3.200000000000003,,False,1.0
+EyeIrritation6pack_PID396,FIFRA data,Mixture,1,3.0,0.0,G35325366b12b9c15,C050ad059eac3a826,3,False,False,False,False,False,True,True,both,False,False,,76.7,,False,1.0
+EyeIrritation6pack_PID441,FIFRA data,Mixture,1,3.0,0.0,Gf76fdb453e65424b,C40aaff9e64b00d75,2,False,False,False,False,False,True,True,both,False,False,,4.599999999999994,,False,1.0
+EyeIrritation6pack_PID398,FIFRA data,Mixture,1,1.0,1.0,Gba5b5d5afa4497b6,Ccc78e7cd116ea81f,3,False,False,False,False,False,True,True,both,False,False,,73.0,,False,1.0
+EyeIrritation6pack_PID443,FIFRA data,Mixture,2,4.0,0.0,G49994bc000d90fbc,Cf2288a31a1786efe,1,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID404,FIFRA data,Mixture,1,4.0,0.0,G958aae8cba831d57,C30fd38f3eac4e00b,0,False,False,False,False,False,True,True,both,False,False,,2.299999999999997,,False,1.0
+EyeIrritation6pack_PID406,FIFRA data,Mixture,1,4.0,0.0,G477fd5f43fb0d098,C99b4c0d6508cd8c1,2,False,False,False,False,False,True,True,both,False,False,,3.3100000000000023,,False,1.0
+EyeIrritation6pack_PID444,FIFRA data,Mixture,1,4.0,0.0,G665bce27cdf34fec,Ceca5560b9118d6ce,3,False,False,False,False,False,True,True,both,False,False,,57.6,,False,1.0
+EyeIrritation6pack_PID408,FIFRA data,Mixture,1,4.0,0.0,Gc02a4aa756dd7749,C5bb53a03fede0fb8,2,False,False,False,False,False,True,True,both,False,False,,4.430000000000007,,False,1.0
+EyeIrritation6pack_PID445,FIFRA data,Mixture,1,4.0,0.0,G6885983f76f709c1,C7e6215008eff1fd0,4,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID411,FIFRA data,Mixture,3,3.0,0.0,Gb1f057d29e993d2d,Cf66d4d1f9364acbc,2,False,False,False,False,False,True,True,both,False,False,,98.3,,False,1.0
+EyeIrritation6pack_PID456,FIFRA data,Mixture,1,4.0,0.0,G2784d51a46ff2640,C5376cac22664f0fb,0,False,False,False,False,False,True,True,both,False,False,,3.799999999999997,,False,1.0
+EyeIrritation6pack_PID457,FIFRA data,Mixture,1,4.0,0.0,Geb22dace87b69f00,C39a52f9605fec309,0,False,False,False,False,False,True,True,both,False,False,,1.2000000000000028,,False,1.0
+EyeIrritation6pack_PID458,FIFRA data,Mixture,1,4.0,0.0,Gf560d31a9e4ac51b,C17616ca68f639f8f,1,False,False,False,False,False,True,True,both,False,False,,1.4000000000000057,,False,1.0
+EyeIrritation6pack_PID412,FIFRA data,Mixture,1,3.0,0.0,G6b5584007ecd3c02,Ce757cf7a3278da06,1,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID459,FIFRA data,Mixture,2,4.0,0.0,Gab0b10f721b6b96d,C38808811bb2d166b,2,False,False,False,False,False,True,True,both,False,False,,65.2,,False,1.0
+EyeIrritation6pack_PID413,FIFRA data,Mixture,2,2.0,1.0,Gf23c492965e87a56,C97336350e785f38a,4,False,False,False,False,False,True,True,both,False,False,,75.3,,False,1.0
+EyeIrritation6pack_PID414,FIFRA data,Mixture,2,3.0,0.0,Gf8844941458162e2,C8fb68f3851a557a3,4,False,False,False,False,False,True,True,both,False,False,,49.3,,False,1.0
+EyeIrritation6pack_PID460,FIFRA data,Mixture,1,4.0,0.0,Gf560d31a9e4ac51b,Ce82b841c0bbb3fed,1,False,False,False,False,False,True,True,both,False,False,,58.5,,False,1.0
+EyeIrritation6pack_PID462,FIFRA data,Mixture,1,3.0,0.0,G3692772ecca57ff3,C6f9a8502cd57ebbe,1,False,False,False,False,False,True,True,both,False,False,,5.200000000000003,,False,1.0
+EyeIrritation6pack_PID417,FIFRA data,Mixture,2,4.0,0.0,Gd3cc8142c4ae2c7e,C9bf6c96685ae06f0,4,False,False,False,False,False,True,True,both,False,False,,99.625,,False,1.0
+EyeIrritation6pack_PID463,FIFRA data,Mixture,1,4.0,0.0,Gab240f78c41e7f5d,C9ca63697c7d951d4,2,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID464,FIFRA data,Mixture,1,3.0,0.0,G77799ece62554438,Cc6d797bfa875ac63,3,False,False,False,False,False,True,True,both,False,False,,77.3,,False,1.0
+EyeIrritation6pack_PID419,FIFRA data,Mixture,1,3.0,0.0,G7bc4293971c00d52,C4fab9519fe5dd3dd,0,False,False,False,False,False,True,True,both,False,False,,99.94,,False,1.0
+EyeIrritation6pack_PID466,FIFRA data,Mixture,1,3.0,0.0,Gf63e3e596e082a60,C2b1c737ddea7185a,4,False,False,False,False,False,True,True,both,False,False,,4.629999999999996,,False,1.0
+EyeIrritation6pack_PID420,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C04f5e11ec7609d91,0,False,False,False,False,False,True,True,both,False,False,,74.9,,False,1.0
+EyeIrritation6pack_PID467,FIFRA data,Mixture,1,1.0,1.0,Gf63e3e596e082a60,Cc814012e36717f9b,4,False,False,False,False,False,True,True,both,False,False,,83.4,,False,1.0
+EyeIrritation6pack_PID422,FIFRA data,Mixture,1,4.0,0.0,G604e7dd5c0dc33f8,Cf0bf6cbb3a9798d8,4,False,False,False,False,False,True,True,both,False,False,,4.599999999999994,,False,1.0
+EyeIrritation6pack_PID469,FIFRA data,Mixture,1,1.0,1.0,G29aaeaafc2c9e7d4,C509355165030c333,4,False,False,False,False,False,True,True,both,False,False,,20.0,,False,1.0
+EyeIrritation6pack_PID471,FIFRA data,Mixture,1,4.0,0.0,G96fb602f70374465,Cfe1d1704bc6391ed,0,False,False,False,False,False,True,True,both,False,False,,99.5,,False,1.0
+EyeIrritation6pack_PID473,FIFRA data,Mixture,1,3.0,0.0,G28558b27932d0626,C8526d43589bd82b8,2,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID474,FIFRA data,Mixture,1,2.0,1.0,G57df5aa57a978e4d,Ca87866303353a779,4,False,False,False,False,False,True,True,both,False,False,,52.8,,False,1.0
+EyeIrritation6pack_PID475,FIFRA data,Mixture,2,3.0,0.0,Gcbca5a02e32b8584,Cb49a08dacf5f0ce0,0,False,False,False,False,False,True,True,both,False,False,,83.0,,False,1.0
+EyeIrritation6pack_PID512,FIFRA data,Mixture,1,4.0,0.0,G3deda3a3493d9ac3,C30e92b4b2283ae7f,4,False,False,False,False,False,True,True,both,False,False,,4.700000000000003,,False,1.0
+EyeIrritation6pack_PID476,FIFRA data,Mixture,4,3.0,0.0,G873db160a3509c7d,C06b0bbca1ab2a9dc,3,False,False,False,False,False,True,True,both,False,False,,73.68,,False,1.0
+EyeIrritation6pack_PID515,FIFRA data,Mixture,1,3.0,0.0,G1d278ef19a84b22a,C357a646187f1062f,3,False,False,False,False,False,True,True,both,False,False,,3.5,,False,1.0
+EyeIrritation6pack_PID516,FIFRA data,Mixture,1,3.0,0.0,G1d278ef19a84b22a,C811f6b539a818aa4,3,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID477,FIFRA data,Mixture,2,3.0,0.0,G7147922c82f039fe,Caf14234d06052f96,2,False,False,False,False,False,True,True,both,False,False,,98.25,,False,1.0
+EyeIrritation6pack_PID519,FIFRA data,Mixture,1,2.0,1.0,G1d278ef19a84b22a,C68b5773f1e93466b,3,False,False,False,True,True,True,True,both,True,False,,3.799999999999997,,False,1.0
+EyeIrritation6pack_PID520,FIFRA data,Mixture,4,4.0,0.0,G778d64a842ce83ed,Cfd95574f3f9da792,2,False,False,False,False,False,True,True,both,False,False,,88.95,,False,1.0
+EyeIrritation6pack_PID478,FIFRA data,Mixture,1,2.0,1.0,G950d5f5a55a3c5f8,Cbcb665505b847e1b,1,False,False,False,False,False,True,True,both,False,False,,95.0,,False,1.0
+EyeIrritation6pack_PID480,FIFRA data,Mixture,1,2.0,1.0,G6c00387cbbc7a687,C6b6ef27dbd19a7a7,1,False,False,False,False,False,True,True,both,False,False,,43.0,,False,1.0
+EyeIrritation6pack_PID521,FIFRA data,Mixture,2,3.0,0.0,G7ac3579313c68315,Cb44ec748a1967982,0,False,False,False,False,False,True,True,both,False,False,,58.8,,False,1.0
+EyeIrritation6pack_PID523,FIFRA data,Mixture,2,1.0,1.0,G855846084b0e5a06,Cded04c393bc3b9e0,3,False,False,False,False,False,True,True,both,False,False,,93.3,,False,1.0
+EyeIrritation6pack_PID481,FIFRA data,Mixture,1,2.0,1.0,G6b4a40ac39a9e641,C885aa3d6771eb2d8,3,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,99.0,,False,1.0
+EyeIrritation6pack_PID486,FIFRA data,Mixture,1,3.0,0.0,G1a8743f52717908b,C50d11f3f946b5378,4,False,False,False,False,False,True,True,both,False,False,,76.4,,False,1.0
+EyeIrritation6pack_PID529,FIFRA data,Mixture,2,4.0,0.0,G57e8fac999b7c25e,Cc7f72a707e881f47,4,False,False,False,False,False,True,True,both,False,False,,35.400000000000006,,False,1.0
+EyeIrritation6pack_PID489,FIFRA data,Mixture,1,1.0,1.0,G7f23ce432387a2e7,C27b1213e3478777a,2,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID493,FIFRA data,Mixture,1,4.0,0.0,G8753ed8f4d1fc14e,Cc1371384bef2b73c,2,False,False,False,False,False,True,True,both,False,False,,99.5,,False,1.0
+EyeIrritation6pack_PID530,FIFRA data,Mixture,1,3.0,0.0,G3ee0c163971cc494,C152e4d15664fd0f0,1,False,False,False,False,False,True,True,both,False,False,,70.26,,False,1.0
+EyeIrritation6pack_PID494,FIFRA data,Mixture,1,3.0,0.0,Ge732e0aafcd1b408,Cd39d877d26da65f4,2,False,False,False,False,False,True,True,both,False,False,,99.5,,False,1.0
+EyeIrritation6pack_PID533,FIFRA data,Mixture,2,3.0,0.0,Gf035299109cbcaa7,C72a6d5ea99f8cc82,0,False,False,False,False,False,True,True,both,False,False,,85.0,,False,1.0
+EyeIrritation6pack_PID495,FIFRA data,Mixture,1,3.0,0.0,Ge732e0aafcd1b408,C5d758e5cf87dcf1d,2,False,False,False,False,False,True,True,both,False,False,,79.4,,False,1.0
+EyeIrritation6pack_PID497,FIFRA data,Mixture,1,4.0,0.0,G11977bb3c8549871,C53f064f58861c87f,4,False,False,False,False,False,True,True,both,False,False,,94.1,,False,1.0
+EyeIrritation6pack_PID535,FIFRA data,Mixture,1,1.0,1.0,Gd6df4e00e4091762,Cd5d7eb308b0b3ed5,1,False,False,False,False,False,True,True,both,False,False,,80.4,,False,1.0
+EyeIrritation6pack_PID498,FIFRA data,Mixture,1,3.0,0.0,G11977bb3c8549871,C55804253ed220132,4,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID536,FIFRA data,Mixture,1,1.0,1.0,Gdb14d545eeee8dc6,Cb614392420f612fb,3,False,False,False,False,False,True,True,both,False,False,,70.6,,False,1.0
+EyeIrritation6pack_PID499,FIFRA data,Mixture,2,2.0,1.0,G581b17a3e148b56b,C905186f8f6e58156,2,False,False,False,False,False,True,True,both,False,False,,85.22,,False,1.0
+EyeIrritation6pack_PID538,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C02b8ec846c93955e,0,False,False,False,False,False,True,True,both,False,False,,99.95,,False,1.0
+EyeIrritation6pack_PID540,FIFRA data,Mixture,2,3.0,0.0,G44c610ec2c93de1f,Cd5abd19fb78bde90,4,False,False,False,False,False,True,True,both,False,False,,52.0,,False,1.0
+EyeIrritation6pack_PID500,FIFRA data,Mixture,1,3.0,0.0,Ge732e0aafcd1b408,C3c602c0636051e36,2,False,False,False,False,False,True,True,both,False,False,,97.5,,False,1.0
+EyeIrritation6pack_PID501,FIFRA data,Mixture,1,3.0,0.0,G1fca33226cf4677e,Cd99cf0894d476dd1,0,False,False,False,False,False,True,True,both,False,False,,85.6,,False,1.0
+EyeIrritation6pack_PID546,FIFRA data,Mixture,1,3.0,0.0,G0de3ee44864f090c,C34b56c796aeeffa7,1,False,False,False,False,False,True,True,both,False,False,,90.0,,False,1.0
+EyeIrritation6pack_PID502,FIFRA data,Mixture,1,4.0,0.0,G4338dd3b641b5b59,C43931ed5ad395b73,3,False,False,False,False,False,True,True,both,False,False,,86.87,,False,1.0
+EyeIrritation6pack_PID547,FIFRA data,Mixture,1,4.0,0.0,G625a746098d754a9,C2247f845a0034303,3,False,False,False,False,False,True,True,both,False,False,,0.5,,False,1.0
+EyeIrritation6pack_PID503,FIFRA data,Mixture,3,3.0,0.0,Gbaf18fa1e61281bb,C13a722bcbce3f460,4,False,False,False,False,False,True,True,both,False,False,,74.45,,False,1.0
+EyeIrritation6pack_PID548,FIFRA data,Mixture,3,3.0,0.0,Ga9a2c8b18497094a,Cc91bd9efe6e24806,0,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID504,FIFRA data,Mixture,2,4.0,0.0,G57e8fac999b7c25e,C1a449ab33e3d08d9,4,False,False,False,False,False,True,True,both,False,False,,63.5,,False,1.0
+EyeIrritation6pack_PID549,FIFRA data,Mixture,3,4.0,0.0,G8c79d1aebc383c5f,Caebf0a89b9557fc3,4,False,False,False,False,False,True,True,both,False,False,,99.959,,False,1.0
+EyeIrritation6pack_PID505,FIFRA data,Mixture,2,4.0,0.0,Gefde1efc538c91c6,C6f9133f3258312e6,1,False,False,False,False,False,True,True,both,False,False,,69.1,,False,1.0
+EyeIrritation6pack_PID551,FIFRA data,Mixture,1,3.0,0.0,Gf5c59fb7eae8f7ba,C34aac1994787ee98,3,False,False,False,False,False,True,True,both,False,False,,40.0,,False,1.0
+EyeIrritation6pack_PID506,FIFRA data,Mixture,2,3.0,0.0,Gf0685558e93e0916,Cd1ac2268fae98e1f,2,False,False,False,False,False,True,True,both,False,False,,66.03999999999999,,False,1.0
+EyeIrritation6pack_PID553,FIFRA data,Mixture,2,3.0,0.0,Gc618873b99893e81,C569d098fd663a928,1,False,False,False,False,False,True,True,both,False,False,,44.49,,False,1.0
+EyeIrritation6pack_PID507,FIFRA data,Mixture,1,4.0,0.0,G4e8558823eb86fb4,Ce992774a9eeaeeb4,3,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID554,FIFRA data,Mixture,1,4.0,0.0,G6c5059c0cfb42031,C1707472b2bd41f3b,4,False,False,False,False,False,True,True,both,False,False,,0.7999999999999972,,False,1.0
+EyeIrritation6pack_PID508,FIFRA data,Mixture,1,4.0,0.0,G918d11107baa067e,C6371b98cb6f97ef1,2,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID555,FIFRA data,Mixture,2,4.0,0.0,Gd1bf147dd8537c76,C24c3e490e372da4e,1,False,False,False,False,False,True,True,both,False,False,,99.175,,False,1.0
+EyeIrritation6pack_PID511,FIFRA data,Mixture,1,4.0,0.0,G3deda3a3493d9ac3,Ce73cbae112cc32b5,4,False,False,False,False,False,True,True,both,False,False,,6.0,,False,1.0
+EyeIrritation6pack_PID556,FIFRA data,Mixture,1,4.0,0.0,Gef8bb1944a8b0264,C47b0c4617374bb35,4,False,False,False,False,False,True,True,both,False,False,,77.4,,False,1.0
+EyeIrritation6pack_PID557,FIFRA data,Mixture,1,3.0,0.0,G7e3c2ec45d3167eb,Ca21ee8b742de20dd,1,False,False,False,False,False,True,True,both,False,False,,2.5999999999999943,,False,1.0
+EyeIrritation6pack_PID558,FIFRA data,Mixture,2,2.0,1.0,G5230eee1d299c0dc,Cb53d0ad7cb3a19d8,4,False,False,False,False,False,True,True,both,False,False,,74.69,,False,1.0
+EyeIrritation6pack_PID593,FIFRA data,Mixture,4,3.0,0.0,G3fa34faff8f9e2ef,C3d1d2ae03870294b,4,False,False,False,False,False,True,True,both,False,False,,99.5809,,False,1.0
+EyeIrritation6pack_PID559,FIFRA data,Mixture,1,4.0,0.0,G35325366b12b9c15,C404cc09c45368c29,3,False,False,False,False,False,True,True,both,False,False,,58.4,,False,1.0
+EyeIrritation6pack_PID560,FIFRA data,Mixture,2,3.0,0.0,G6de535ce659b1701,C41cd8b67c06aa49f,2,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID563,FIFRA data,Mixture,1,1.0,1.0,G1d278ef19a84b22a,Cdc28fddf35846208,3,False,False,False,False,False,True,True,both,False,False,,1.5,,False,1.0
+EyeIrritation6pack_PID594,FIFRA data,Mixture,4,4.0,0.0,Gb785969d56e151cf,C090872acb6f4bc7c,4,False,False,False,False,False,True,True,both,False,False,,99.845,,False,1.0
+EyeIrritation6pack_PID567,FIFRA data,Mixture,2,3.0,0.0,G308cd38085507e22,Ce4711113fe664d2c,2,False,False,False,False,False,True,True,both,False,False,,77.0,,False,1.0
+EyeIrritation6pack_PID568,FIFRA data,Mixture,2,3.0,0.0,Gf0f534ef96f502ea,C71127d3dfa74c41b,2,False,False,False,False,False,True,True,both,False,False,,99.9725,,False,1.0
+EyeIrritation6pack_PID600,FIFRA data,Mixture,1,3.0,0.0,G3deda3a3493d9ac3,C6be198e87a34889f,4,False,False,False,False,False,True,True,both,False,False,,4.799999999999997,,False,1.0
+EyeIrritation6pack_PID601,FIFRA data,Mixture,1,2.0,1.0,G6b4a40ac39a9e641,C2798cd4e60916759,3,False,False,False,False,False,True,True,both,False,False,,75.5,,False,1.0
+EyeIrritation6pack_PID602,FIFRA data,Mixture,1,3.0,0.0,Gfc904ebe54cfa08f,Ca96e316a9f604df3,2,False,False,False,False,False,True,True,both,False,False,,68.25,,False,1.0
+EyeIrritation6pack_PID570,FIFRA data,Mixture,1,4.0,0.0,G1a8743f52717908b,C5da3c2a8f241aff9,4,False,False,False,False,False,True,True,both,False,False,,77.2,,False,1.0
+EyeIrritation6pack_PID571,FIFRA data,Mixture,2,1.0,1.0,Gc38229859a7e896f,C3609ad834280962c,4,False,False,False,False,False,True,True,both,False,False,,74.83,,False,1.0
+EyeIrritation6pack_PID608,FIFRA data,Mixture,4,4.0,0.0,Gdb783365b3e02949,Ce7f7bc23cbd2a9f7,1,False,False,False,False,False,True,True,both,False,False,,78.3,,False,0.5999999999999999
+EyeIrritation6pack_PID572,FIFRA data,Mixture,1,2.0,1.0,G57e2584e649fae35,C75bec49a02df8915,0,False,False,False,False,False,True,True,both,False,False,,99.2,,False,1.0
+EyeIrritation6pack_PID573,FIFRA data,Mixture,1,4.0,0.0,G3ee0c163971cc494,Cb25852b695edc336,1,False,False,False,False,False,True,True,both,False,False,,2.5999999999999943,,False,1.0
+EyeIrritation6pack_PID574,FIFRA data,Mixture,1,4.0,0.0,Gaa8b8984c48700d0,Cfa621ac73d46864c,1,False,False,False,True,True,True,True,both,True,False,,57.6,,False,1.0
+EyeIrritation6pack_PID610,FIFRA data,Mixture,1,4.0,0.0,Gebfaf6d8938be381,C7c733905bea7bb7e,1,False,False,False,False,False,True,True,both,False,False,,77.1,,False,1.0
+EyeIrritation6pack_PID578,FIFRA data,Mixture,1,3.0,0.0,G1a8743f52717908b,Ca0fcad31b92a9ad6,4,False,False,False,False,False,True,True,both,False,False,,1.7000000000000028,,False,1.0
+EyeIrritation6pack_PID616,FIFRA data,Mixture,1,3.0,0.0,G0de3ee44864f090c,C16709298341473fa,1,False,False,False,True,True,True,True,both,True,False,,78.6,,False,1.0
+EyeIrritation6pack_PID579,FIFRA data,Mixture,2,4.0,0.0,Gf10163d55c75e8cb,Cd25eb56d6a4d40ba,4,False,False,False,False,False,True,True,both,False,False,,48.2,,False,1.0
+EyeIrritation6pack_PID618,FIFRA data,Mixture,1,2.0,1.0,G88b146b59a31dfe4,C34cdfd0f350635d5,2,False,False,False,False,False,True,True,both,False,False,,1.5,,False,1.0
+EyeIrritation6pack_PID621,FIFRA data,Mixture,2,4.0,0.0,G7fe0b83a2558ae23,C5da8d54bba4efcc7,0,False,False,False,False,False,True,True,both,False,False,,67.55,,False,1.0
+EyeIrritation6pack_PID583,FIFRA data,Mixture,1,3.0,0.0,Ge6e794c9829813dc,Cd76d75024b28c97e,1,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,5.0,,False,1.0
+EyeIrritation6pack_PID585,FIFRA data,Mixture,1,2.0,1.0,Ge6e794c9829813dc,Cd76d75024b28c97e,1,False,True,True,True,False,True,False,baseline_only_conflict,False,False,,5.0,,False,1.0
+EyeIrritation6pack_PID626,FIFRA data,Mixture,1,3.0,0.0,G6c00387cbbc7a687,C0b4cdb481a74e8dd,1,False,False,False,False,False,True,True,both,False,False,,94.0,,False,1.0
+EyeIrritation6pack_PID592,FIFRA data,Mixture,3,3.0,0.0,Ge87b189c7a01fb13,Ca832ea447eedbaa3,2,False,False,False,False,False,True,True,both,False,False,,99.78,,False,1.0
+EyeIrritation6pack_PID627,FIFRA data,Mixture,2,3.0,0.0,Gb9b411621e1f4558,Ca2742028f8c1524f,0,False,False,False,False,False,True,True,both,False,False,,93.8,,False,1.0
+EyeIrritation6pack_PID628,FIFRA data,Mixture,4,3.0,0.0,G8804f1497f7b14ff,C0eee42c84f883ea9,3,False,False,False,False,False,True,True,both,False,False,,66.2,,False,1.0
+EyeIrritation6pack_PID629,FIFRA data,Mixture,1,3.0,0.0,G918d11107baa067e,C33003761163c3afd,2,False,False,False,False,False,True,True,both,False,False,,3.5,,False,1.0
+EyeIrritation6pack_PID631,FIFRA data,Mixture,5,4.0,0.0,Ga7f5d6f41bcd8ae4,C33691b900b98a2f4,1,False,False,False,False,False,True,True,both,False,False,,98.98,,False,1.0
+EyeIrritation6pack_PID661,FIFRA data,Mixture,1,3.0,0.0,G1647f747ce7e1409,C3f871e2f4b2b0dbf,3,False,False,False,False,False,True,True,both,False,False,,20.0,,False,1.0
+EyeIrritation6pack_PID663,FIFRA data,Mixture,1,1.0,1.0,G58114b28a1546d7d,C8b0942f1f0a80c12,0,False,False,False,False,False,True,True,both,False,False,,67.0,,False,1.0
+EyeIrritation6pack_PID668,FIFRA data,Mixture,1,3.0,0.0,Gdf2753c80d8eb9be,C7a6989269b4a0d8a,1,False,False,False,False,False,True,True,both,False,False,,98.0,,False,1.0
+EyeIrritation6pack_PID669,FIFRA data,Mixture,1,3.0,0.0,G0169786f17fba18b,C8821637a820194ea,2,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID632,FIFRA data,Mixture,1,1.0,1.0,Ge60ab143305aca61,C98e15afbd3098966,4,False,False,False,False,False,True,True,both,False,False,,9.5,,False,1.0
+EyeIrritation6pack_PID673,FIFRA data,Mixture,2,4.0,0.0,G57e8fac999b7c25e,Cf483ebd5aaa403e2,4,False,False,False,False,False,True,True,both,False,False,,56.5,,False,1.0
+EyeIrritation6pack_PID633,FIFRA data,Mixture,1,3.0,0.0,Gf76fdb453e65424b,C6be6cd8b2356ca20,2,False,False,False,False,False,True,True,both,False,False,,49.3,,False,1.0
+EyeIrritation6pack_PID635,FIFRA data,Mixture,1,1.0,1.0,G24f50fb729db271b,C58507d2c83fd31b1,4,False,False,False,False,False,True,True,both,False,False,,3.9000000000000057,,False,1.0
+EyeIrritation6pack_PID674,FIFRA data,Mixture,1,3.0,0.0,G157435a139ce5861,Ce050e35e8bcab097,2,False,False,False,False,False,True,True,both,False,False,,14.5,,False,1.0
+EyeIrritation6pack_PID639,FIFRA data,Mixture,1,3.0,0.0,G34736c1f5cda1958,C2579590edf2851aa,3,False,False,False,False,False,True,True,both,False,False,,5.0,,False,1.0
+EyeIrritation6pack_PID675,FIFRA data,Mixture,2,3.0,0.0,G57e8fac999b7c25e,Ce92411017e74d22a,4,False,False,False,False,False,True,True,both,False,False,,39.7,,False,1.0
+EyeIrritation6pack_PID641,FIFRA data,Mixture,1,3.0,0.0,G3ed128e99c1ce149,C3cdd76fce57bb6fc,2,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID640,FIFRA data,Mixture,1,3.0,0.0,G3ed128e99c1ce149,Ce8cc7c95c6ead2b2,2,False,False,False,False,False,True,True,both,False,False,,72.0,,False,1.0
+EyeIrritation6pack_PID676,FIFRA data,Mixture,1,3.0,0.0,Gabc735b135877e68,Cc5a1a3a381733437,4,False,False,False,False,False,True,True,both,False,False,,77.6,,False,1.0
+EyeIrritation6pack_PID642,FIFRA data,Mixture,1,4.0,0.0,Ga50c22168538db14,C0c8d93b7c9d1749d,1,False,False,False,False,False,True,True,both,False,False,,92.6,,False,1.0
+EyeIrritation6pack_PID677,FIFRA data,Mixture,2,3.0,0.0,G52c123df5658080c,C1868984d5dc67051,2,False,False,False,False,False,True,True,both,False,False,,99.9,,False,1.0
+EyeIrritation6pack_PID643,FIFRA data,Mixture,1,4.0,0.0,Ga50c22168538db14,Ccfbd0bc98c0b4af6,1,False,False,False,False,False,True,True,both,False,False,,11.299999999999995,,False,1.0
+EyeIrritation6pack_PID645,FIFRA data,Mixture,1,4.0,0.0,G0e3d339e155e8fc5,Cbfce00d303c3e232,3,False,False,False,False,False,True,True,both,False,False,,96.0,,False,1.0
+EyeIrritation6pack_PID678,FIFRA data,Mixture,3,4.0,0.0,G6e86b361e385f749,C567f6176c3dc5447,4,False,False,False,False,False,True,True,both,False,False,,99.948,,False,1.0
+EyeIrritation6pack_PID650,FIFRA data,Mixture,1,4.0,0.0,G7a8186f3ce0c4553,Cb5dd1b92c161630f,0,False,False,False,False,False,True,True,both,False,False,,0.5999999999999943,,False,1.0
+EyeIrritation6pack_PID651,FIFRA data,Mixture,2,4.0,0.0,G70b2d821f03110cf,C5eed20c317600552,3,False,False,False,False,False,True,True,both,False,False,,40.0,,False,1.0
+EyeIrritation6pack_PID680,FIFRA data,Mixture,1,1.0,1.0,Gb7cc5e46f4b8ad82,C418e2a3b9f8aa573,2,False,False,False,False,False,True,True,both,False,False,,98.0,,False,1.0
+EyeIrritation6pack_PID652,FIFRA data,Mixture,1,3.0,0.0,G5ba802ec6fdc7162,C67aee26321123069,3,False,False,False,False,False,True,True,both,False,False,,0.7999999999999972,,False,1.0
+EyeIrritation6pack_PID684,FIFRA data,Mixture,2,3.0,0.0,Gd19cc30b1b7c9767,C1f488e097a2ef59f,2,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID654,FIFRA data,Mixture,1,4.0,0.0,G3ed2185297de6581,Ce8329edcb9b5af1d,3,False,False,False,False,False,True,True,both,False,False,,85.0,,False,1.0
+EyeIrritation6pack_PID687,FIFRA data,Mixture,1,3.0,0.0,G968f597399bdaf1e,C248c1d0bab521402,2,False,False,False,True,True,True,True,both,True,False,,2.0,,False,1.0
+EyeIrritation6pack_PID689,FIFRA data,Mixture,1,4.0,0.0,G918d11107baa067e,C9f3bf8bfc8923112,2,False,False,False,False,False,True,True,both,False,False,,20.0,,False,1.0
+EyeIrritation6pack_PID690,FIFRA data,Mixture,1,2.0,1.0,G57df5aa57a978e4d,Ca87866303353a779,4,False,False,False,False,False,True,True,both,False,False,,52.8,,False,1.0
+EyeIrritation6pack_PID655,FIFRA data,Mixture,7,3.0,0.0,G66b4664bb1bfa622,Cd0a41b0b367434c2,0,False,False,False,False,False,True,True,both,False,False,,99.928,,False,0.888888888888889
+EyeIrritation6pack_PID691,FIFRA data,Mixture,1,1.0,1.0,G57e2584e649fae35,Ca34fb91e4fff4ef9,0,False,False,False,False,False,True,True,both,False,False,,69.31,,False,1.0
+EyeIrritation6pack_PID692,FIFRA data,Mixture,1,3.0,0.0,G86604d68b17e04d7,C7de9eed54dce4031,0,False,False,False,False,False,True,True,both,False,False,,98.0,,False,1.0
+EyeIrritation6pack_PID694,FIFRA data,Mixture,2,2.0,1.0,Gccb823a1d71226f8,C3e66af6e2c74a3a5,0,False,False,False,False,False,True,True,both,False,False,,74.89,,False,0.1194743130227001
+EyeIrritation6pack_PID695,FIFRA data,Mixture,2,3.0,0.0,Gccb823a1d71226f8,C6354dc04024ed63d,0,False,False,False,False,False,True,True,both,False,False,,95.82,,False,0.1196172248803827
+EyeIrritation6pack_PID656,FIFRA data,Mixture,1,4.0,0.0,G7bc4293971c00d52,C86d90ba687be3baf,0,False,False,False,False,False,True,True,both,False,False,,99.9,,False,1.0
+EyeIrritation6pack_PID696,FIFRA data,Mixture,1,4.0,0.0,G968f597399bdaf1e,Cec87d3d52f69dbef,2,False,False,False,False,False,True,True,both,False,False,,67.0,,False,1.0
+EyeIrritation6pack_PID657,FIFRA data,Mixture,3,4.0,0.0,G98210d27e12215c1,C96cd4af80bfb984a,3,False,False,False,False,False,True,True,both,False,False,,89.0,,False,1.0
+EyeIrritation6pack_PID698,FIFRA data,Mixture,3,4.0,0.0,Gd7d704490e4159c5,Cae4de55aee34b505,2,False,False,False,False,False,True,True,both,False,False,,77.3525,,False,1.0
+EyeIrritation6pack_PID658,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,Ca6d4d77196037605,1,False,False,False,False,False,True,True,both,False,False,,99.995,,False,1.0
+EyeIrritation6pack_PID699,FIFRA data,Mixture,1,4.0,0.0,Gd4f2f494559230fa,C603f6013734defb5,3,False,False,False,False,False,True,True,both,False,False,,2.239999999999995,,False,1.0
+EyeIrritation6pack_PID659,FIFRA data,Mixture,2,4.0,0.0,Gd4887197b41b3bd6,Cbd28036da17a0365,1,False,False,False,False,False,True,True,both,False,False,,99.45,,False,1.0
+EyeIrritation6pack_PID700,FIFRA data,Mixture,1,4.0,0.0,G4e1f97126d8fc158,Cc0d998919a50ed39,1,False,False,False,False,False,True,True,both,False,False,,0.0,,False,1.0
+EyeIrritation6pack_PID702,FIFRA data,Mixture,1,3.0,0.0,G0de3ee44864f090c,C7ed0b869e562821d,1,False,False,False,False,False,True,True,both,False,False,,23.90000000000001,,False,1.0
+EyeIrritation6pack_PID660,FIFRA data,Mixture,3,4.0,0.0,Gc1f24b45403e6a11,Ce7a5191f39d1c2a7,4,False,False,False,False,False,True,True,both,False,False,,63.5,,False,1.0
+EyeIrritation6pack_PID704,FIFRA data,Mixture,2,3.0,0.0,Gd90cb29c9d2f75d0,C31349e994156249e,0,False,False,False,False,False,True,True,both,False,False,,50.0,,False,1.0
+EyeIrritation6pack_PID708,FIFRA data,Mixture,2,3.0,0.0,G6d44cb2209006299,Cf8c518c0b4522033,4,False,False,False,False,False,True,True,both,False,False,,18.44,,False,1.0
+EyeIrritation6pack_PID705,FIFRA data,Mixture,4,3.0,0.0,Gb941dd7cdd73502a,C4416b7f2e69e6a7a,1,False,False,False,False,False,True,True,both,False,False,,53.07999999999999,,False,1.0
+EyeIrritation6pack_PID738,FIFRA data,Mixture,1,4.0,0.0,G8e2226df5036b1e5,C9b7437a3bd56b4ec,2,False,False,False,False,False,True,True,both,False,False,,62.86,,False,1.0
+EyeIrritation6pack_PID707,FIFRA data,Mixture,2,3.0,0.0,G38d1ecad41216656,C5c266fbbaa9c22bb,0,False,False,False,False,False,True,True,both,False,False,,39.8,,False,1.0
+EyeIrritation6pack_PID739,FIFRA data,Mixture,2,4.0,0.0,Gbe920fdbc00fb860,C95f78193a2782b6b,2,False,False,False,False,False,True,True,both,False,False,,75.4,,False,1.0
+EyeIrritation6pack_PID710,FIFRA data,Mixture,3,3.0,0.0,G7942fc8b056dc6f0,Cbbb80acbbe27a03c,1,False,False,False,False,False,True,True,both,False,False,,99.26,,False,1.0
+EyeIrritation6pack_PID740,FIFRA data,Mixture,4,4.0,0.0,G6f6ea9c78b32160f,Cc625b26bbad2bb0a,0,False,False,False,False,False,True,True,both,False,False,,75.78,,False,1.0
+EyeIrritation6pack_PID716,FIFRA data,Mixture,2,1.0,1.0,Gc47d83e7ee0d4add,C302efcafea122f67,4,False,False,False,False,False,True,True,both,False,False,,88.75,,False,1.0
+EyeIrritation6pack_PID741,FIFRA data,Mixture,1,3.0,0.0,Gb15fb497ca6cd396,Cd75c7e6fdb06817f,1,False,False,False,False,False,True,True,both,False,False,,1.2800000000000011,,False,1.0
+EyeIrritation6pack_PID717,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,C5b42aab2b5d23c51,1,False,False,False,False,False,True,True,both,False,False,,79.13,,False,1.0
+EyeIrritation6pack_PID743,FIFRA data,Mixture,1,4.0,0.0,G4e8558823eb86fb4,C08b73260b46c93c3,3,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID718,FIFRA data,Mixture,1,3.0,0.0,G2516a1ce4916fe7a,Cba4ae4b503158075,0,False,False,False,False,False,True,True,both,False,False,,99.9,,False,1.0
+EyeIrritation6pack_PID744,FIFRA data,Mixture,2,4.0,0.0,G2870896eda7a0c7d,Cfc726e62ef786932,4,False,False,False,False,False,True,True,both,False,False,,88.97,,False,1.0
+EyeIrritation6pack_PID719,FIFRA data,Mixture,1,4.0,0.0,G23a28a6c34cb08ec,C47e1508360fa820a,0,False,False,False,False,False,True,True,both,False,False,,99.997,,False,1.0
+EyeIrritation6pack_PID722,FIFRA data,Mixture,2,3.0,0.0,Gd942fb41bed6295b,C2c32d241b9574e4b,1,False,False,False,False,False,True,True,both,False,True,PID722_composition_conflict,0.0,,False,1.0
+EyeIrritation6pack_PID745,FIFRA data,Mixture,3,4.0,0.0,G8f732e6e8b087349,C0adfaf281332fdb1,2,False,False,False,False,False,True,True,both,False,False,,83.49000000000001,,False,1.0
+EyeIrritation6pack_PID726,FIFRA data,Mixture,2,3.0,0.0,G58847f0a91792e3d,Ce8943ff121727021,3,False,False,False,False,False,True,True,both,False,False,,57.5,,False,1.0
+EyeIrritation6pack_PID746,FIFRA data,Mixture,1,4.0,0.0,G1e176bf8facf9b1a,Cbcf28d2124e89246,3,False,False,False,False,False,True,True,both,False,False,,0.5,,False,1.0
+EyeIrritation6pack_PID747,FIFRA data,Mixture,1,4.0,0.0,G1e176bf8facf9b1a,C88a6537d75d8e3c2,3,False,False,False,False,False,True,True,both,False,False,,60.0,,False,1.0
+EyeIrritation6pack_PID727,FIFRA data,Mixture,2,3.0,0.0,G03dc7f8a34a0ecf4,C63b112b8f08e3b8c,1,False,False,False,False,False,True,True,both,False,False,,41.08,,False,1.0
+EyeIrritation6pack_PID748,FIFRA data,Mixture,2,4.0,0.0,G729f1e4a58128b25,Cfb1fd0a664b117c8,2,False,False,False,False,False,True,True,both,False,False,,73.4,,False,1.0
+EyeIrritation6pack_PID728,FIFRA data,Mixture,1,1.0,1.0,Gf63e3e596e082a60,C78c9d7e4ba15ea14,4,False,False,False,False,False,True,True,both,False,False,,94.4,,False,1.0
+EyeIrritation6pack_PID732,FIFRA data,Mixture,2,4.0,0.0,G4efd58bf88f9102a,C6cb814ebde882e30,1,False,False,False,False,False,True,True,both,False,False,,52.900000000000006,,False,1.0
+EyeIrritation6pack_PID723,FIFRA data,Mixture,3,1.0,1.0,G8d755b534713344c,C234431c2c88468be,2,False,False,False,False,False,True,True,both,False,False,,79.0,,False,1.0
+EyeIrritation6pack_PID750,FIFRA data,Mixture,1,3.0,0.0,G3deda3a3493d9ac3,Cdf92471de47a54ad,4,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID737,FIFRA data,Mixture,1,4.0,0.0,Gb15fb497ca6cd396,C20ebe951b6edbeac,1,False,False,False,False,False,True,True,both,False,False,,77.3,,False,1.0
+EyeIrritation6pack_PID751,FIFRA data,Mixture,2,2.0,1.0,G279c274e7ecd3a80,Cde4cb7abb7d1deab,4,False,False,False,False,False,True,True,both,False,False,,67.0,,False,1.0
+EyeIrritation6pack_PID756,FIFRA data,Mixture,1,3.0,0.0,G56d08413228df4a9,Cf62903accbfedac0,2,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID757,FIFRA data,Mixture,2,3.0,0.0,G61d91430b244c558,C6be04825b59a191d,1,False,False,False,False,False,True,True,both,False,False,,99.19,,False,1.0
+EyeIrritation6pack_PID795,FIFRA data,Mixture,5,3.0,0.0,Gc368b875cf084cb9,C65be49a3dda5918d,2,False,False,False,False,False,True,True,both,False,False,,93.7,,False,1.0
+EyeIrritation6pack_PID760,FIFRA data,Mixture,1,1.0,1.0,Gd217ba47db56ec87,C5a86242adb86e09d,2,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID764,FIFRA data,Mixture,1,4.0,0.0,G23a28a6c34cb08ec,C31b842b725d5588b,0,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID796,FIFRA data,Mixture,2,3.0,0.0,G161b562c72f8cf1a,C6919b2a6df7b9e46,4,False,False,False,False,False,True,True,both,False,False,,70.4,,False,1.0
+EyeIrritation6pack_PID765,FIFRA data,Mixture,3,3.0,0.0,G4afc793b999754d1,Ce88e928be9c71221,2,False,False,False,False,False,True,True,both,False,False,,73.0,,False,1.0
+EyeIrritation6pack_PID797,FIFRA data,Mixture,4,3.0,0.0,Gf361c52074b49ebe,C8960e79cf1500a3c,4,False,False,False,False,False,True,True,both,False,False,,49.7,,False,1.0
+EyeIrritation6pack_PID768,FIFRA data,Mixture,1,4.0,0.0,G132eb8ce15b19d95,C22129ddcc630e578,0,False,False,False,False,False,True,True,both,False,False,,96.0,,False,1.0
+EyeIrritation6pack_PID770,FIFRA data,Mixture,2,4.0,0.0,G123bb0a958910872,Ca08191ea4d7ee549,1,False,False,False,False,False,True,True,both,False,False,,54.6,,False,1.0
+EyeIrritation6pack_PID798,FIFRA data,Mixture,1,3.0,0.0,Gdbd0eaafe71b7cfb,C184ebdef754cdc47,0,False,False,False,False,False,True,True,both,False,True,mixture_active_percent_missing,,,True,
+EyeIrritation6pack_PID771,FIFRA data,Mixture,3,1.0,1.0,Gb96354f89744460a,Cc8b7440bc2b09573,2,False,False,False,False,False,True,True,both,False,False,,65.0,,False,1.0
+EyeIrritation6pack_PID799,FIFRA data,Mixture,1,3.0,0.0,Gdbd0eaafe71b7cfb,Cef299023a3731925,0,False,False,False,False,False,True,True,both,False,False,,46.5,,False,1.0
+EyeIrritation6pack_PID800,FIFRA data,Mixture,4,3.0,0.0,Gfe090cfe96d6df26,C337795c8ada56f30,3,False,False,False,False,False,True,True,both,False,False,,99.0,,False,1.0
+EyeIrritation6pack_PID772,FIFRA data,Mixture,1,1.0,1.0,G9f5a182ec2c0c2f9,C6c0cb1eb0a92522e,1,False,False,False,False,False,True,True,both,False,False,,79.5,,False,1.0
+EyeIrritation6pack_PID801,FIFRA data,Mixture,3,2.0,1.0,G94c25f44adf3cb29,C3b5f6deff7743c52,4,False,False,False,False,False,True,True,both,False,False,,98.149,,False,1.0
+EyeIrritation6pack_PID773,FIFRA data,Mixture,3,1.0,1.0,G17ece8dae0527e63,C63c9d3d3b37a343c,2,False,False,False,False,False,True,True,both,False,False,,88.92999999999999,,False,1.0
+EyeIrritation6pack_PID802,FIFRA data,Mixture,4,2.0,1.0,G4edb24ea7f1f012b,Cd28ddd3e099ba7f0,2,False,False,False,False,False,True,True,both,False,False,,98.635,,False,0.9897435897435898
+EyeIrritation6pack_PID774,FIFRA data,Mixture,3,2.0,1.0,G646874767192844f,C0c33cc85af7ec40c,3,False,False,False,False,False,True,True,both,False,False,,97.65,,False,1.0
+EyeIrritation6pack_PID803,FIFRA data,Mixture,2,4.0,0.0,G5230eee1d299c0dc,C7442e2f2c0bd8e2b,4,False,False,False,False,False,True,True,both,False,False,,97.324,,False,1.0
+EyeIrritation6pack_PID776,FIFRA data,Mixture,3,4.0,0.0,Gb90d552073a304e1,C43bcc604846f9d37,2,False,False,False,False,False,True,True,both,False,False,,83.21000000000001,,False,1.0
+EyeIrritation6pack_PID804,FIFRA data,Mixture,3,1.0,1.0,Gd383ae1bc7e7ffe4,C902deb306dbdb71a,4,False,False,False,False,False,True,True,both,False,False,,71.3,,False,0.9860627177700348
+EyeIrritation6pack_PID806,FIFRA data,Mixture,2,3.0,0.0,G6fab2e477ba3e870,C3f1ce659125c8bea,3,False,False,False,False,False,True,True,both,False,False,,41.2,,False,1.0
+EyeIrritation6pack_PID777,FIFRA data,Mixture,1,3.0,0.0,Ga21c695f61c75f4b,Cb93930ef4372a287,1,False,False,False,False,False,True,True,both,False,False,,72.5,,False,1.0
+EyeIrritation6pack_PID779,FIFRA data,Mixture,1,3.0,0.0,Gb7cc5e46f4b8ad82,C4aba3f6f63549dc3,2,False,False,False,False,False,True,True,both,False,False,,99.49,,False,1.0
+EyeIrritation6pack_PID808,FIFRA data,Mixture,3,3.0,0.0,G5240b4da222559b5,C002d1e8a235132d4,0,False,False,False,False,False,True,True,both,False,False,,97.99,,False,1.0
+EyeIrritation6pack_PID780,FIFRA data,Mixture,1,3.0,0.0,Gb7cc5e46f4b8ad82,C224b8046785a5107,2,False,False,False,False,False,True,True,both,False,False,,7.0,,False,1.0
+EyeIrritation6pack_PID781,FIFRA data,Mixture,4,4.0,0.0,G78af2e9a7c1e426a,Ca757c835875fe736,2,False,False,False,False,False,True,True,both,False,False,,73.49000000000001,,False,1.0
+EyeIrritation6pack_PID809,FIFRA data,Mixture,4,4.0,0.0,G2f9013cdbf4f81ba,C4fc8b5d0550e5996,4,False,False,False,False,False,True,True,both,False,False,,96.676,,False,1.0
+EyeIrritation6pack_PID783,FIFRA data,Mixture,1,4.0,0.0,Ga85b24b3e3b8d3b4,Cab5129274559a483,0,False,False,False,False,False,True,True,both,False,False,,2.299999999999997,,False,1.0
+EyeIrritation6pack_PID810,FIFRA data,Mixture,1,3.0,0.0,G3deda3a3493d9ac3,C110be8a21a83e56e,4,False,False,False,False,False,True,True,both,False,False,,75.0,,False,1.0
+EyeIrritation6pack_PID811,FIFRA data,Mixture,2,4.0,0.0,G5b1a5736a7918059,Cbdc560c9d8283566,3,False,False,False,False,False,True,True,both,False,False,,75.71000000000001,,False,1.0
+EyeIrritation6pack_PID784,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,Cccf1038eec402647,1,False,False,False,False,False,True,True,both,False,False,,30.0,,False,1.0
+EyeIrritation6pack_PID788,FIFRA data,Mixture,1,4.0,0.0,Gf63e3e596e082a60,Cf0f9750fb86b411b,4,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID812,FIFRA data,Mixture,1,4.0,0.0,G918d11107baa067e,C09e0aeb512323b62,2,False,False,False,False,False,True,True,both,False,False,,59.0,,False,1.0
+EyeIrritation6pack_PID813,FIFRA data,Mixture,1,3.0,0.0,G0338de1596b7fd1e,C8e66680a1a21b947,1,False,False,False,False,False,True,True,both,False,False,,18.40000000000001,,False,1.0
+EyeIrritation6pack_PID790,FIFRA data,Mixture,2,1.0,1.0,G394110526b9441df,C1cd7538fabb8f3ae,3,False,False,False,False,False,True,True,both,False,False,,32.27,,False,1.0
+EyeIrritation6pack_PID814,FIFRA data,Mixture,1,4.0,0.0,G3bc6361e3b24d9d8,C4f18d63c65ce943b,4,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID815,FIFRA data,Mixture,1,3.0,0.0,G343a3d54cc968b3a,C6661733dabd5e1dc,0,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID791,FIFRA data,Mixture,1,3.0,0.0,Gada3b707f0e247bb,C734b6dd490307fdf,1,False,False,False,False,False,True,True,both,False,False,,2.0999999999999943,,False,1.0
+EyeIrritation6pack_PID816,FIFRA data,Mixture,2,2.0,1.0,Gb9bd594d6dfde194,C1ef0b834dce331cc,3,False,False,False,False,False,True,True,both,False,False,,55.0,,False,1.0
+EyeIrritation6pack_PID792,FIFRA data,Mixture,3,3.0,0.0,Gc1f24b45403e6a11,C47ab5deee7672c94,4,False,False,False,False,False,True,True,both,False,False,,74.0,,False,1.0
+EyeIrritation6pack_PID817,FIFRA data,Mixture,2,3.0,0.0,G2ba83476b5b1373a,C7947c5cee040e67c,3,False,False,False,False,False,True,True,both,False,False,,63.370000000000005,,False,1.0
+EyeIrritation6pack_PID793,FIFRA data,Mixture,1,3.0,0.0,G5cf67d3271b4f2d2,C88396e6b1dae113c,3,False,False,False,False,False,True,True,both,False,False,,1.4000000000000057,,False,1.0
+EyeIrritation6pack_PID818,FIFRA data,Mixture,2,4.0,0.0,G5df8e6f774fecb87,C5bcc02b566e70b15,4,False,False,False,False,False,True,True,both,False,False,,56.2,,False,1.0
+EyeIrritation6pack_PID794,FIFRA data,Mixture,1,4.0,0.0,G2c62de613e09f3b1,C6a2a98df96ce1529,1,False,False,False,False,False,True,True,both,False,False,,6.5,,False,1.0
+EyeIrritation6pack_PID819,FIFRA data,Mixture,2,3.0,0.0,Gc8d149bccbf85d93,C013fa2449d906dea,0,False,False,False,False,False,True,True,both,False,False,,32.0,,False,1.0
+EyeIrritation6pack_PID822,FIFRA data,Mixture,3,1.0,1.0,G17ece8dae0527e63,Cdc0acfd343b29eaf,2,False,False,False,False,False,True,True,both,False,False,,91.44,,False,1.0
+EyeIrritation6pack_PID827,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,C16709298341473fa,1,False,False,False,True,True,True,True,both,True,False,,78.6,,False,1.0
+EyeIrritation6pack_PID841,FIFRA data,Mixture,2,4.0,0.0,G8c3984cb00bb24a3,C80c5cb20a0f183c9,2,False,False,False,False,False,True,True,both,False,False,,81.14,,False,0.3435843054082715
+EyeIrritation6pack_PID828,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,C6d0bcc667e156409,1,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID829,FIFRA data,Mixture,1,1.0,1.0,G9576b1e3232651cf,C803596b527a1020f,0,False,False,False,False,False,True,True,both,False,False,,71.0,,False,1.0
+EyeIrritation6pack_PID843,FIFRA data,Mixture,2,4.0,0.0,G8c3984cb00bb24a3,C0e7dba1831fbb366,2,False,False,False,False,False,True,True,both,False,False,,98.85,,False,0.3478260869565218
+EyeIrritation6pack_PID830,FIFRA data,Mixture,1,4.0,0.0,G968f597399bdaf1e,C248c1d0bab521402,2,False,False,False,True,True,True,True,both,True,False,,2.0,,False,1.0
+EyeIrritation6pack_PID844,FIFRA data,Mixture,1,4.0,0.0,G0e2cd95204901d15,C8426ae833fcddb43,4,False,False,False,False,False,True,True,both,False,False,,99.6,,False,1.0
+EyeIrritation6pack_PID831,FIFRA data,Mixture,1,4.0,0.0,Gf63e3e596e082a60,C8efe86158cc9c170,4,False,False,False,False,False,True,True,both,False,False,,2.0,,False,1.0
+EyeIrritation6pack_PID868,FIFRA data,Mixture,3,3.0,0.0,G1511e64325ef47e6,Cb8714a3f75c81421,1,False,False,False,False,False,True,True,both,False,False,,63.4,,False,1.0
+EyeIrritation6pack_PID832,FIFRA data,Mixture,1,3.0,0.0,G5e789837a4844830,Cfbe6e88f221cc3f5,4,False,False,False,False,False,True,True,both,False,False,,3.0,,False,1.0
+EyeIrritation6pack_PID833,FIFRA data,Mixture,1,2.0,1.0,G35325366b12b9c15,C33e9e47dd31ac411,3,False,False,False,False,False,True,True,both,False,False,,25.0,,False,1.0
+EyeIrritation6pack_PID834,FIFRA data,Mixture,1,1.0,1.0,Gd6df4e00e4091762,C0c5a0aca5f8d668d,1,False,False,False,False,False,True,True,both,False,False,,61.6,,False,1.0
+EyeIrritation6pack_PID852,FIFRA data,Mixture,1,4.0,0.0,Gf63e3e596e082a60,C350c37a792aa0d38,4,False,False,False,False,False,True,True,both,False,False,,71.7,,False,1.0
+EyeIrritation6pack_PID835,FIFRA data,Mixture,2,3.0,0.0,Gb98f15c15133df15,Cf9baea82c4eedf4b,3,False,False,False,False,False,True,True,both,False,False,,99.93,,False,1.0
+EyeIrritation6pack_PID853,FIFRA data,Mixture,4,4.0,0.0,Gce5d63a63c7833b5,C5ab8445a8a6e2aa1,0,False,False,False,False,False,True,True,both,False,False,,87.43,,False,1.0
+EyeIrritation6pack_PID837,FIFRA data,Mixture,1,3.0,0.0,G6885983f76f709c1,C715c12c017c74441,4,False,False,False,False,False,True,True,both,False,False,,42.4,,False,1.0
+EyeIrritation6pack_PID839,FIFRA data,Mixture,1,4.0,0.0,G478fb3d0363f6e0e,Cca0a044caef602bf,3,False,False,False,False,False,True,True,both,False,False,,98.0,,False,1.0
+EyeIrritation6pack_PID854,FIFRA data,Mixture,4,4.0,0.0,Gded437f83db50a6b,C2cb321ee9653c49e,4,False,False,False,False,False,True,True,both,False,False,,77.43,,False,1.0
+EyeIrritation6pack_PID856,FIFRA data,Mixture,1,3.0,0.0,Ga7ae810bf81c4bb8,C419db05f6d8b7ba1,3,False,False,False,False,False,True,True,both,False,False,,79.66,,False,1.0
