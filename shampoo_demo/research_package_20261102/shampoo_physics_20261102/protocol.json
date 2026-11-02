@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "scope": "Shampoo physical-property baselines and read-only skin/eye ingredient-domain audit",
+  "source_commit": "f7ff4d2f1b24c3c41e41dcc8b678810389280d80",
+  "source_articles": [25451878, 25451926, 25451929],
+  "features": "18 as-supplied commercial ingredient mass percentages; no renormalization of known ingredients",
+  "targets": {
+    "stability": "Observed short-term phase stability: both pre-titration and 36 h post-titration inspections",
+    "viscosity_100": "log10 viscosity in mPa.s at 100 s^-1, log-log interpolation strictly within measured flow-curve range; observed stable samples only",
+    "turbidity": "log10(1 + proxy NTU); observed stable samples only"
+  },
+  "primary_evaluation": "5-fold StratifiedGroupKFold grouped by exact set of nonzero commercial ingredient IDs; repeats with fixed seeds; same outer folds for all tasks and models",
+  "repeat_seeds": [20261102, 20261103, 20261104],
+  "secondary_evaluation": "Leave one polymer-thickener subsystem out, including any missing-component subsystem as its own group",
+  "models": ["dummy", "linear", "extra_trees"],
+  "primary_model": "extra_trees",
+  "extra_trees": {"n_estimators": 200, "min_samples_leaf": 3, "max_features": 1.0, "n_jobs": 2},
+  "linear": {"classification_C": 1.0, "regression_alpha": 10.0},
+  "classification_threshold": 0.5,
+  "curve_quality_rule": "Conservative first baseline: exclude the viscosity target of an entire flow curve containing any nonpositive/nonfinite viscosity or shear value, duplicate shear rates, or lacking coverage of 100 s^-1. Keep other valid outcomes for that formulation. No extrapolation.",
+  "classification_metrics": ["roc_auc", "average_precision", "balanced_accuracy", "mcc", "brier", "recall", "specificity"],
+  "regression_metrics": ["mae_log10", "rmse_log10", "r2_log10", "median_absolute_error_original_units"],
+  "selection": "No hyperparameter search. Extra Trees fixed before evaluation; baselines retained regardless of result. Repeated-CV SD is not a confidence interval.",
+  "source_data_use": "Skin and eye composition/structure coverage and ingredient similarity audit only. No toxicity labels are used as physical-property labels or candidate ground truth.",
+  "prediction_limits": ["No shampoo irritation ground truth", "No confirmed independent external validation", "Short-term stability only", "Regression conditional on observed stable formulations", "Commercial stocks and polymers are not fully specified pure molecules", "No causal or formulation safety claims"]
+}

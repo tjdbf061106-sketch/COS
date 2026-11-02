@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Input snapshot hashes and all 46 baseline files unchanged",
+    "812 rows: original stocks and mass balance preserved; 18/61/114 predictor sets finite and unaffected by outcome/ID changes",
+    "PK45 scenario: only active-range features change, exactly 140 affected recipes; no silent stock/target corrections",
+    "Targets, missingness and outer folds unchanged; 44-row review does not replace full training cohorts",
+    "44 selected recipes, 176 stock entries, original curves and 7 descriptive representatives traced to source"
+  ],
+  "training_performed": false,
+  "skin_eye_scoring_performed": false
+}

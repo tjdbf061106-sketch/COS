@@ -1,0 +1,1365 @@
+﻿sample_id,shear_rate_s_inv,mean_viscosity_mPa_s,std_dev_mPa_s,polymer_thickener_group
+11,1.102,545.505,17.858,Luviquat Excellence / Arlypon TT
+11,1.406,541.235,19.334,Luviquat Excellence / Arlypon TT
+11,1.759,540.929,23.158,Luviquat Excellence / Arlypon TT
+11,2.195,538.084,25.341,Luviquat Excellence / Arlypon TT
+11,2.739,535.192,26.962,Luviquat Excellence / Arlypon TT
+11,3.426,532.041,27.725,Luviquat Excellence / Arlypon TT
+11,4.286,528.816,28.641,Luviquat Excellence / Arlypon TT
+11,5.348,526.04,29.701,Luviquat Excellence / Arlypon TT
+11,6.69,522.842,30.386,Luviquat Excellence / Arlypon TT
+11,8.368,519.237,31.02,Luviquat Excellence / Arlypon TT
+11,10.442,515.719,32.492,Luviquat Excellence / Arlypon TT
+11,13.064,512.401,34.186,Luviquat Excellence / Arlypon TT
+11,16.339,509.282,36.356,Luviquat Excellence / Arlypon TT
+11,20.386,506.235,37.897,Luviquat Excellence / Arlypon TT
+11,25.432,502.236,38.319,Luviquat Excellence / Arlypon TT
+11,31.804,498.437,36.671,Luviquat Excellence / Arlypon TT
+11,39.796,493.037,35.614,Luviquat Excellence / Arlypon TT
+11,49.67,485.297,37.41,Luviquat Excellence / Arlypon TT
+11,62.082,476.339,35.937,Luviquat Excellence / Arlypon TT
+11,77.727,464.179,35.093,Luviquat Excellence / Arlypon TT
+11,96.909,449.858,32.497,Luviquat Excellence / Arlypon TT
+11,121.256,432.878,30.663,Luviquat Excellence / Arlypon TT
+11,151.689,413.437,28.495,Luviquat Excellence / Arlypon TT
+11,189.257,392.704,25.873,Luviquat Excellence / Arlypon TT
+11,236.133,371.035,23.081,Luviquat Excellence / Arlypon TT
+11,295.392,349.095,20.425,Luviquat Excellence / Arlypon TT
+11,369.467,327.855,17.847,Luviquat Excellence / Arlypon TT
+11,460.99,307.618,15.722,Luviquat Excellence / Arlypon TT
+11,576.725,288.208,13.824,Luviquat Excellence / Arlypon TT
+11,721.317,269.636,12.073,Luviquat Excellence / Arlypon TT
+11,897.704,251.406,10.528,Luviquat Excellence / Arlypon TT
+14,1.101,1635.68,89.157,Luviquat Excellence / Arlypon TT
+14,1.407,1633.787,88.736,Luviquat Excellence / Arlypon TT
+14,1.759,1633.463,86.659,Luviquat Excellence / Arlypon TT
+14,2.195,1631.197,85.424,Luviquat Excellence / Arlypon TT
+14,2.739,1629.877,85.733,Luviquat Excellence / Arlypon TT
+14,3.427,1628.287,84.663,Luviquat Excellence / Arlypon TT
+14,4.287,1626.897,82.934,Luviquat Excellence / Arlypon TT
+14,5.349,1625.03,81.85,Luviquat Excellence / Arlypon TT
+14,6.691,1622.323,80.156,Luviquat Excellence / Arlypon TT
+14,8.369,1619.113,78.839,Luviquat Excellence / Arlypon TT
+14,10.441,1615.12,75.829,Luviquat Excellence / Arlypon TT
+14,13.06,1611.51,72.059,Luviquat Excellence / Arlypon TT
+14,16.334,1607.217,68.868,Luviquat Excellence / Arlypon TT
+14,20.382,1603.007,66.732,Luviquat Excellence / Arlypon TT
+14,25.439,1597.853,68.645,Luviquat Excellence / Arlypon TT
+14,31.83,1592.66,75.247,Luviquat Excellence / Arlypon TT
+14,39.798,1583.41,72.425,Luviquat Excellence / Arlypon TT
+14,49.635,1568.03,63.744,Luviquat Excellence / Arlypon TT
+14,62.153,1550.99,68.718,Luviquat Excellence / Arlypon TT
+14,77.664,1525.583,63.197,Luviquat Excellence / Arlypon TT
+14,96.97,1493.103,64.273,Luviquat Excellence / Arlypon TT
+14,121.288,1449.28,60.803,Luviquat Excellence / Arlypon TT
+14,151.681,1394.627,56.977,Luviquat Excellence / Arlypon TT
+14,189.266,1330.33,53.303,Luviquat Excellence / Arlypon TT
+14,236.164,1255.477,48.874,Luviquat Excellence / Arlypon TT
+14,295.442,1170.083,44.022,Luviquat Excellence / Arlypon TT
+14,369.516,1079.76,39.233,Luviquat Excellence / Arlypon TT
+14,461.109,990.146,35.945,Luviquat Excellence / Arlypon TT
+14,576.8,901.269,32.571,Luviquat Excellence / Arlypon TT
+14,721.434,814.748,28.403,Luviquat Excellence / Arlypon TT
+14,897.886,728.793,21.596,Luviquat Excellence / Arlypon TT
+15,1.1,1798.693,84.811,Luviquat Excellence / Arlypon TT
+15,1.407,1795.7,86.632,Luviquat Excellence / Arlypon TT
+15,1.76,1793.747,88.646,Luviquat Excellence / Arlypon TT
+15,2.195,1791.35,88.286,Luviquat Excellence / Arlypon TT
+15,2.74,1789.217,88.551,Luviquat Excellence / Arlypon TT
+15,3.427,1787.463,87.914,Luviquat Excellence / Arlypon TT
+15,4.287,1784.757,87.475,Luviquat Excellence / Arlypon TT
+15,5.349,1783.487,87.742,Luviquat Excellence / Arlypon TT
+15,6.691,1780.863,85.336,Luviquat Excellence / Arlypon TT
+15,8.37,1778.657,82.035,Luviquat Excellence / Arlypon TT
+15,10.444,1775.81,77.336,Luviquat Excellence / Arlypon TT
+15,13.065,1773.043,73.128,Luviquat Excellence / Arlypon TT
+15,16.34,1769.467,70.452,Luviquat Excellence / Arlypon TT
+15,20.386,1763.44,70.106,Luviquat Excellence / Arlypon TT
+15,25.43,1760.66,75.706,Luviquat Excellence / Arlypon TT
+15,31.81,1759.553,82.565,Luviquat Excellence / Arlypon TT
+15,39.816,1753.773,77.306,Luviquat Excellence / Arlypon TT
+15,49.666,1741.337,68.625,Luviquat Excellence / Arlypon TT
+15,62.099,1731.54,76.653,Luviquat Excellence / Arlypon TT
+15,77.724,1711.27,67.419,Luviquat Excellence / Arlypon TT
+15,96.95,1687.15,68.857,Luviquat Excellence / Arlypon TT
+15,121.27,1650.407,63.772,Luviquat Excellence / Arlypon TT
+15,151.709,1601.4,58.289,Luviquat Excellence / Arlypon TT
+15,189.259,1538.34,53.262,Luviquat Excellence / Arlypon TT
+15,236.187,1461.54,46.249,Luviquat Excellence / Arlypon TT
+15,295.439,1373.607,40.793,Luviquat Excellence / Arlypon TT
+15,369.58,1279.647,36.742,Luviquat Excellence / Arlypon TT
+15,461.062,1183.94,34.139,Luviquat Excellence / Arlypon TT
+15,576.856,1085.793,31.389,Luviquat Excellence / Arlypon TT
+15,721.522,987.646,26.472,Luviquat Excellence / Arlypon TT
+15,895.539,890.533,20.569,Luviquat Excellence / Arlypon TT
+17,1.101,1031.66,40.76,Luviquat Excellence / Arlypon TT
+17,1.407,1028.07,41.201,Luviquat Excellence / Arlypon TT
+17,1.76,1025.546,40.737,Luviquat Excellence / Arlypon TT
+17,2.196,1022.91,40.991,Luviquat Excellence / Arlypon TT
+17,2.74,1020.393,41.208,Luviquat Excellence / Arlypon TT
+17,3.427,1017.788,41.014,Luviquat Excellence / Arlypon TT
+17,4.287,1014.977,40.789,Luviquat Excellence / Arlypon TT
+17,5.349,1012.382,41.142,Luviquat Excellence / Arlypon TT
+17,6.692,1009.311,41.404,Luviquat Excellence / Arlypon TT
+17,8.37,1006.186,41.307,Luviquat Excellence / Arlypon TT
+17,10.443,1002.962,40.688,Luviquat Excellence / Arlypon TT
+17,13.065,999.816,40.461,Luviquat Excellence / Arlypon TT
+17,16.339,996.851,40.42,Luviquat Excellence / Arlypon TT
+17,20.382,995.37,40.315,Luviquat Excellence / Arlypon TT
+17,25.429,997.114,39.687,Luviquat Excellence / Arlypon TT
+17,31.821,997.325,39.504,Luviquat Excellence / Arlypon TT
+17,39.817,989.91,39.292,Luviquat Excellence / Arlypon TT
+17,49.649,983.578,38.495,Luviquat Excellence / Arlypon TT
+17,62.119,982.883,38.75,Luviquat Excellence / Arlypon TT
+17,77.707,971.254,37.865,Luviquat Excellence / Arlypon TT
+17,96.97,962.942,36.963,Luviquat Excellence / Arlypon TT
+17,121.274,947.574,35.367,Luviquat Excellence / Arlypon TT
+17,151.703,927.085,33.743,Luviquat Excellence / Arlypon TT
+17,189.247,901.458,31.525,Luviquat Excellence / Arlypon TT
+17,236.187,868.805,29.454,Luviquat Excellence / Arlypon TT
+17,295.433,829.001,27.072,Luviquat Excellence / Arlypon TT
+17,369.562,782.668,24.171,Luviquat Excellence / Arlypon TT
+17,461.061,732.479,21.448,Luviquat Excellence / Arlypon TT
+17,576.844,678.939,19.25,Luviquat Excellence / Arlypon TT
+17,721.491,624.321,17.061,Luviquat Excellence / Arlypon TT
+17,897.852,570.889,14.956,Luviquat Excellence / Arlypon TT
+113,1.104,197.266,13.843,Luviquat Excellence / Arlypon TT
+113,1.407,193.424,11.832,Luviquat Excellence / Arlypon TT
+113,1.76,194.678,12.119,Luviquat Excellence / Arlypon TT
+113,2.196,193.519,10.977,Luviquat Excellence / Arlypon TT
+113,2.74,191.724,10.053,Luviquat Excellence / Arlypon TT
+113,3.427,189.559,9.179,Luviquat Excellence / Arlypon TT
+113,4.287,187.301,8.801,Luviquat Excellence / Arlypon TT
+113,5.348,185.12,8.938,Luviquat Excellence / Arlypon TT
+113,6.691,182.605,8.995,Luviquat Excellence / Arlypon TT
+113,8.369,180.491,9.379,Luviquat Excellence / Arlypon TT
+113,10.442,178.478,9.815,Luviquat Excellence / Arlypon TT
+113,13.061,176.763,10.002,Luviquat Excellence / Arlypon TT
+113,16.335,175.353,10.051,Luviquat Excellence / Arlypon TT
+113,20.38,174.344,10.2,Luviquat Excellence / Arlypon TT
+113,25.435,172.558,10.144,Luviquat Excellence / Arlypon TT
+113,31.831,170.602,10.348,Luviquat Excellence / Arlypon TT
+113,39.803,168.947,10.907,Luviquat Excellence / Arlypon TT
+113,49.632,167.805,10.591,Luviquat Excellence / Arlypon TT
+113,62.148,165.566,10.543,Luviquat Excellence / Arlypon TT
+113,77.664,163.777,10.696,Luviquat Excellence / Arlypon TT
+113,96.975,161.398,10.742,Luviquat Excellence / Arlypon TT
+113,121.283,158.69,10.495,Luviquat Excellence / Arlypon TT
+113,151.672,155.369,10.276,Luviquat Excellence / Arlypon TT
+113,189.243,151.386,9.902,Luviquat Excellence / Arlypon TT
+113,236.158,146.752,9.457,Luviquat Excellence / Arlypon TT
+113,295.434,141.398,8.864,Luviquat Excellence / Arlypon TT
+113,369.5,135.421,8.198,Luviquat Excellence / Arlypon TT
+113,461.039,128.956,7.407,Luviquat Excellence / Arlypon TT
+113,576.757,122.142,6.513,Luviquat Excellence / Arlypon TT
+113,721.367,115.104,5.64,Luviquat Excellence / Arlypon TT
+113,895.424,107.977,4.755,Luviquat Excellence / Arlypon TT
+147,1.102,262.209,22.894,Luviquat Excellence / Arlypon TT
+147,1.407,256.812,19.214,Luviquat Excellence / Arlypon TT
+147,1.76,253.972,15.767,Luviquat Excellence / Arlypon TT
+147,2.196,252.254,12.289,Luviquat Excellence / Arlypon TT
+147,2.74,251.135,11.328,Luviquat Excellence / Arlypon TT
+147,3.427,249.725,10.94,Luviquat Excellence / Arlypon TT
+147,4.287,248.007,9.578,Luviquat Excellence / Arlypon TT
+147,5.349,245.611,7.712,Luviquat Excellence / Arlypon TT
+147,6.692,243.139,6.129,Luviquat Excellence / Arlypon TT
+147,8.37,240.264,5.189,Luviquat Excellence / Arlypon TT
+147,10.444,236.921,4.965,Luviquat Excellence / Arlypon TT
+147,13.063,234.277,6.006,Luviquat Excellence / Arlypon TT
+147,16.336,232.65,6.725,Luviquat Excellence / Arlypon TT
+147,20.383,230.788,6.838,Luviquat Excellence / Arlypon TT
+147,25.437,229.737,7.441,Luviquat Excellence / Arlypon TT
+147,31.835,228.317,9.747,Luviquat Excellence / Arlypon TT
+147,39.811,225.999,10.99,Luviquat Excellence / Arlypon TT
+147,49.639,224.609,9.585,Luviquat Excellence / Arlypon TT
+147,62.151,223.094,8.641,Luviquat Excellence / Arlypon TT
+147,77.682,218.95,7.379,Luviquat Excellence / Arlypon TT
+147,96.987,217.12,5.204,Luviquat Excellence / Arlypon TT
+147,121.297,214.629,2.432,Luviquat Excellence / Arlypon TT
+147,151.696,211.93,1.761,Luviquat Excellence / Arlypon TT
+147,189.269,210.618,2.036,Luviquat Excellence / Arlypon TT
+147,236.203,209.532,2.655,Luviquat Excellence / Arlypon TT
+147,295.458,208.594,3.681,Luviquat Excellence / Arlypon TT
+147,369.558,207.507,4.792,Luviquat Excellence / Arlypon TT
+147,461.109,205.918,5.746,Luviquat Excellence / Arlypon TT
+147,576.826,203.993,6.679,Luviquat Excellence / Arlypon TT
+147,721.498,200.933,7.528,Luviquat Excellence / Arlypon TT
+147,895.526,196.623,7.869,Luviquat Excellence / Arlypon TT
+150,1.103,240.805,1.434,Luviquat Excellence / Arlypon TT
+150,1.407,236.4,1.918,Luviquat Excellence / Arlypon TT
+150,1.76,237.123,0.415,Luviquat Excellence / Arlypon TT
+150,2.196,237.138,1.187,Luviquat Excellence / Arlypon TT
+150,2.739,235.196,1.408,Luviquat Excellence / Arlypon TT
+150,3.427,233.375,1.941,Luviquat Excellence / Arlypon TT
+150,4.287,231.698,2.503,Luviquat Excellence / Arlypon TT
+150,5.348,230.177,3.271,Luviquat Excellence / Arlypon TT
+150,6.691,228.578,3.604,Luviquat Excellence / Arlypon TT
+150,8.369,227.471,3.353,Luviquat Excellence / Arlypon TT
+150,10.442,226.976,2.391,Luviquat Excellence / Arlypon TT
+150,13.061,227.305,1.083,Luviquat Excellence / Arlypon TT
+150,16.333,228.231,0.437,Luviquat Excellence / Arlypon TT
+150,20.382,228.562,0.321,Luviquat Excellence / Arlypon TT
+150,25.434,226.866,2.214,Luviquat Excellence / Arlypon TT
+150,31.831,223.708,3.096,Luviquat Excellence / Arlypon TT
+150,39.804,221.916,1.326,Luviquat Excellence / Arlypon TT
+150,49.631,224.102,0.664,Luviquat Excellence / Arlypon TT
+150,62.145,221.609,2.138,Luviquat Excellence / Arlypon TT
+150,77.666,220.932,0.664,Luviquat Excellence / Arlypon TT
+150,96.977,220.038,0.918,Luviquat Excellence / Arlypon TT
+150,121.28,219.949,0.601,Luviquat Excellence / Arlypon TT
+150,151.674,219.185,0.393,Luviquat Excellence / Arlypon TT
+150,189.239,218.538,0.684,Luviquat Excellence / Arlypon TT
+150,236.16,217.751,0.445,Luviquat Excellence / Arlypon TT
+150,295.423,216.823,0.699,Luviquat Excellence / Arlypon TT
+150,369.498,215.449,0.742,Luviquat Excellence / Arlypon TT
+150,461.041,213.454,0.905,Luviquat Excellence / Arlypon TT
+150,576.726,210.413,0.824,Luviquat Excellence / Arlypon TT
+150,721.381,205.901,0.954,Luviquat Excellence / Arlypon TT
+150,897.747,199.547,1.238,Luviquat Excellence / Arlypon TT
+153,1.1,221.868,20.907,Luviquat Excellence / Arlypon TT
+153,1.407,219.019,20.05,Luviquat Excellence / Arlypon TT
+153,1.76,219.686,19.019,Luviquat Excellence / Arlypon TT
+153,2.195,220.101,18.836,Luviquat Excellence / Arlypon TT
+153,2.74,219.066,18.269,Luviquat Excellence / Arlypon TT
+153,3.427,217.732,18.221,Luviquat Excellence / Arlypon TT
+153,4.286,216.458,18.317,Luviquat Excellence / Arlypon TT
+153,5.348,215.465,17.9,Luviquat Excellence / Arlypon TT
+153,6.691,214.412,17.097,Luviquat Excellence / Arlypon TT
+153,8.369,213.23,16.144,Luviquat Excellence / Arlypon TT
+153,10.443,212.117,14.658,Luviquat Excellence / Arlypon TT
+153,13.066,211.295,13.867,Luviquat Excellence / Arlypon TT
+153,16.34,211.031,14.999,Luviquat Excellence / Arlypon TT
+153,20.388,210.44,17.914,Luviquat Excellence / Arlypon TT
+153,25.433,208.407,20.337,Luviquat Excellence / Arlypon TT
+153,31.807,206.874,18.718,Luviquat Excellence / Arlypon TT
+153,39.805,207.126,15.822,Luviquat Excellence / Arlypon TT
+153,49.676,208.087,17.803,Luviquat Excellence / Arlypon TT
+153,62.09,206.522,17.395,Luviquat Excellence / Arlypon TT
+153,77.734,206.013,17.095,Luviquat Excellence / Arlypon TT
+153,96.925,204.898,17.062,Luviquat Excellence / Arlypon TT
+153,121.271,204.906,16.907,Luviquat Excellence / Arlypon TT
+153,151.703,203.862,17.274,Luviquat Excellence / Arlypon TT
+153,189.277,203.296,17.276,Luviquat Excellence / Arlypon TT
+153,236.159,202.732,17.142,Luviquat Excellence / Arlypon TT
+153,295.412,201.934,16.887,Luviquat Excellence / Arlypon TT
+153,369.509,200.911,16.697,Luviquat Excellence / Arlypon TT
+153,461.037,199.363,16.374,Luviquat Excellence / Arlypon TT
+153,576.763,196.851,16.061,Luviquat Excellence / Arlypon TT
+153,721.381,193.294,15.437,Luviquat Excellence / Arlypon TT
+153,895.401,188.29,14.942,Luviquat Excellence / Arlypon TT
+154,1.101,768.116,56.788,Luviquat Excellence / Arlypon TT
+154,1.407,764.811,56.106,Luviquat Excellence / Arlypon TT
+154,1.76,763.544,57.159,Luviquat Excellence / Arlypon TT
+154,2.196,762.11,56.495,Luviquat Excellence / Arlypon TT
+154,2.74,760.416,56.141,Luviquat Excellence / Arlypon TT
+154,3.428,758.498,55.277,Luviquat Excellence / Arlypon TT
+154,4.287,756.792,54.744,Luviquat Excellence / Arlypon TT
+154,5.349,754.928,54.363,Luviquat Excellence / Arlypon TT
+154,6.692,752.677,54.465,Luviquat Excellence / Arlypon TT
+154,8.369,750.765,53.782,Luviquat Excellence / Arlypon TT
+154,10.442,748.437,51.998,Luviquat Excellence / Arlypon TT
+154,13.061,746.973,49.491,Luviquat Excellence / Arlypon TT
+154,16.337,747.026,48.281,Luviquat Excellence / Arlypon TT
+154,20.386,748.574,49.333,Luviquat Excellence / Arlypon TT
+154,25.446,749.887,52.874,Luviquat Excellence / Arlypon TT
+154,31.831,748.509,54.253,Luviquat Excellence / Arlypon TT
+154,39.794,739.985,50.94,Luviquat Excellence / Arlypon TT
+154,49.649,738.187,45.668,Luviquat Excellence / Arlypon TT
+154,62.156,742.704,48.23,Luviquat Excellence / Arlypon TT
+154,77.676,737.67,47.575,Luviquat Excellence / Arlypon TT
+154,96.968,735.872,48.311,Luviquat Excellence / Arlypon TT
+154,121.304,731.204,46.655,Luviquat Excellence / Arlypon TT
+154,151.696,723.076,44.745,Luviquat Excellence / Arlypon TT
+154,189.292,712.536,42.577,Luviquat Excellence / Arlypon TT
+154,236.159,696.272,39.972,Luviquat Excellence / Arlypon TT
+154,295.482,674.813,36.414,Luviquat Excellence / Arlypon TT
+154,369.533,645.931,32.081,Luviquat Excellence / Arlypon TT
+154,461.134,611.014,27.851,Luviquat Excellence / Arlypon TT
+154,576.841,569.448,23.068,Luviquat Excellence / Arlypon TT
+154,721.486,522.984,18.76,Luviquat Excellence / Arlypon TT
+154,897.944,474.756,14.967,Luviquat Excellence / Arlypon TT
+160,1.104,255.959,3.647,Luviquat Excellence / Arlypon TT
+160,1.407,253.064,3.77,Luviquat Excellence / Arlypon TT
+160,1.76,252.568,4.122,Luviquat Excellence / Arlypon TT
+160,2.195,251.433,4.487,Luviquat Excellence / Arlypon TT
+160,2.739,250.492,5.223,Luviquat Excellence / Arlypon TT
+160,3.427,249.688,5.479,Luviquat Excellence / Arlypon TT
+160,4.287,248.424,5.57,Luviquat Excellence / Arlypon TT
+160,5.349,247.2,5.855,Luviquat Excellence / Arlypon TT
+160,6.691,245.828,5.83,Luviquat Excellence / Arlypon TT
+160,8.37,244.366,6.035,Luviquat Excellence / Arlypon TT
+160,10.443,242.816,6.011,Luviquat Excellence / Arlypon TT
+160,13.064,241.573,6.089,Luviquat Excellence / Arlypon TT
+160,16.34,240.425,6.22,Luviquat Excellence / Arlypon TT
+160,20.383,239.03,6.348,Luviquat Excellence / Arlypon TT
+160,25.427,240.047,6.385,Luviquat Excellence / Arlypon TT
+160,31.816,242.282,6.614,Luviquat Excellence / Arlypon TT
+160,39.815,240.726,6.837,Luviquat Excellence / Arlypon TT
+160,49.655,237.111,6.727,Luviquat Excellence / Arlypon TT
+160,62.108,239.728,6.82,Luviquat Excellence / Arlypon TT
+160,77.711,237.088,6.903,Luviquat Excellence / Arlypon TT
+160,96.953,238.294,6.884,Luviquat Excellence / Arlypon TT
+160,121.263,237.167,6.993,Luviquat Excellence / Arlypon TT
+160,151.694,236.783,7.04,Luviquat Excellence / Arlypon TT
+160,189.24,236.389,6.98,Luviquat Excellence / Arlypon TT
+160,236.177,236.251,7.041,Luviquat Excellence / Arlypon TT
+160,295.402,235.797,6.899,Luviquat Excellence / Arlypon TT
+160,369.52,235.156,6.821,Luviquat Excellence / Arlypon TT
+160,461.021,234.323,6.761,Luviquat Excellence / Arlypon TT
+160,576.76,232.888,6.601,Luviquat Excellence / Arlypon TT
+160,721.405,230.976,6.471,Luviquat Excellence / Arlypon TT
+160,897.763,228.119,6.305,Luviquat Excellence / Arlypon TT
+166,1.103,258.965,10.15,Luviquat Excellence / Arlypon TT
+166,1.407,254.863,7.905,Luviquat Excellence / Arlypon TT
+166,1.76,253.255,6.597,Luviquat Excellence / Arlypon TT
+166,2.196,250.659,6.997,Luviquat Excellence / Arlypon TT
+166,2.74,248.312,6.39,Luviquat Excellence / Arlypon TT
+166,3.427,245.766,5.182,Luviquat Excellence / Arlypon TT
+166,4.287,243.265,5.409,Luviquat Excellence / Arlypon TT
+166,5.35,240.727,4.933,Luviquat Excellence / Arlypon TT
+166,6.692,238.418,5.251,Luviquat Excellence / Arlypon TT
+166,8.371,235.817,4.825,Luviquat Excellence / Arlypon TT
+166,10.445,233.242,4.175,Luviquat Excellence / Arlypon TT
+166,13.065,231.695,4.062,Luviquat Excellence / Arlypon TT
+166,16.342,230.684,4.102,Luviquat Excellence / Arlypon TT
+166,20.386,229.26,4.782,Luviquat Excellence / Arlypon TT
+166,25.431,228.784,4.513,Luviquat Excellence / Arlypon TT
+166,31.818,228.731,4.418,Luviquat Excellence / Arlypon TT
+166,39.819,226.41,4.067,Luviquat Excellence / Arlypon TT
+166,49.666,224.568,4.07,Luviquat Excellence / Arlypon TT
+166,62.112,224.874,3.899,Luviquat Excellence / Arlypon TT
+166,77.724,222.266,3.412,Luviquat Excellence / Arlypon TT
+166,96.96,221.994,3.484,Luviquat Excellence / Arlypon TT
+166,121.283,220.796,3.454,Luviquat Excellence / Arlypon TT
+166,151.717,219.605,3.297,Luviquat Excellence / Arlypon TT
+166,189.26,218.619,3.41,Luviquat Excellence / Arlypon TT
+166,236.21,217.545,3.176,Luviquat Excellence / Arlypon TT
+166,295.438,216.111,3.072,Luviquat Excellence / Arlypon TT
+166,369.566,214.144,2.934,Luviquat Excellence / Arlypon TT
+166,461.075,211.389,2.709,Luviquat Excellence / Arlypon TT
+166,576.814,207.434,2.517,Luviquat Excellence / Arlypon TT
+166,721.501,201.872,2.268,Luviquat Excellence / Arlypon TT
+166,897.886,194.544,1.997,Luviquat Excellence / Arlypon TT
+170,1.103,289.257,15.96,Luviquat Excellence / Arlypon TT
+170,1.407,280.743,14.058,Luviquat Excellence / Arlypon TT
+170,1.76,275.578,12.275,Luviquat Excellence / Arlypon TT
+170,2.196,271.864,11.763,Luviquat Excellence / Arlypon TT
+170,2.74,268.467,11.295,Luviquat Excellence / Arlypon TT
+170,3.427,265.11,10.587,Luviquat Excellence / Arlypon TT
+170,4.287,262.271,9.586,Luviquat Excellence / Arlypon TT
+170,5.348,259.728,8.465,Luviquat Excellence / Arlypon TT
+170,6.691,257.676,7.353,Luviquat Excellence / Arlypon TT
+170,8.37,255.842,6.024,Luviquat Excellence / Arlypon TT
+170,10.441,254.448,4.82,Luviquat Excellence / Arlypon TT
+170,13.063,253.246,4.206,Luviquat Excellence / Arlypon TT
+170,16.341,251.81,4.151,Luviquat Excellence / Arlypon TT
+170,20.393,250.025,4.315,Luviquat Excellence / Arlypon TT
+170,25.444,248.032,3.907,Luviquat Excellence / Arlypon TT
+170,31.819,245.748,2.835,Luviquat Excellence / Arlypon TT
+170,39.786,244.784,1.594,Luviquat Excellence / Arlypon TT
+170,49.681,244.175,2.023,Luviquat Excellence / Arlypon TT
+170,62.122,241.245,1.49,Luviquat Excellence / Arlypon TT
+170,77.712,240.573,0.653,Luviquat Excellence / Arlypon TT
+170,96.928,238.11,0.689,Luviquat Excellence / Arlypon TT
+170,121.298,236.435,0.8,Luviquat Excellence / Arlypon TT
+170,151.706,234.258,1.036,Luviquat Excellence / Arlypon TT
+170,189.325,232.079,1.181,Luviquat Excellence / Arlypon TT
+170,236.15,229.217,1.452,Luviquat Excellence / Arlypon TT
+170,295.477,225.46,1.56,Luviquat Excellence / Arlypon TT
+170,369.505,220.681,1.575,Luviquat Excellence / Arlypon TT
+170,461.107,214.649,1.518,Luviquat Excellence / Arlypon TT
+170,576.803,207.055,1.218,Luviquat Excellence / Arlypon TT
+170,721.46,198.057,0.948,Luviquat Excellence / Arlypon TT
+170,897.858,188.101,0.908,Luviquat Excellence / Arlypon TT
+171,1.104,202.297,12.563,Luviquat Excellence / Arlypon TT
+171,1.407,196.836,10.341,Luviquat Excellence / Arlypon TT
+171,1.76,192.498,8.201,Luviquat Excellence / Arlypon TT
+171,2.196,189.658,7.486,Luviquat Excellence / Arlypon TT
+171,2.74,186.988,6.274,Luviquat Excellence / Arlypon TT
+171,3.427,183.955,5.709,Luviquat Excellence / Arlypon TT
+171,4.287,181.257,4.947,Luviquat Excellence / Arlypon TT
+171,5.349,178.601,4.533,Luviquat Excellence / Arlypon TT
+171,6.692,176.464,4.648,Luviquat Excellence / Arlypon TT
+171,8.371,174.611,4.35,Luviquat Excellence / Arlypon TT
+171,10.445,172.585,3.442,Luviquat Excellence / Arlypon TT
+171,13.066,171.403,3.328,Luviquat Excellence / Arlypon TT
+171,16.342,170.348,3.411,Luviquat Excellence / Arlypon TT
+171,20.388,168.753,3.054,Luviquat Excellence / Arlypon TT
+171,25.43,167.866,2.79,Luviquat Excellence / Arlypon TT
+171,31.816,167.526,2.32,Luviquat Excellence / Arlypon TT
+171,39.819,165.988,2.164,Luviquat Excellence / Arlypon TT
+171,49.669,164.488,2.212,Luviquat Excellence / Arlypon TT
+171,62.106,164.259,1.798,Luviquat Excellence / Arlypon TT
+171,77.731,162.611,1.768,Luviquat Excellence / Arlypon TT
+171,96.96,162.158,1.524,Luviquat Excellence / Arlypon TT
+171,121.282,161.211,1.314,Luviquat Excellence / Arlypon TT
+171,151.722,160.329,1.27,Luviquat Excellence / Arlypon TT
+171,189.272,159.716,1.097,Luviquat Excellence / Arlypon TT
+171,236.198,159.185,0.872,Luviquat Excellence / Arlypon TT
+171,295.433,158.937,0.907,Luviquat Excellence / Arlypon TT
+171,369.574,158.759,1.049,Luviquat Excellence / Arlypon TT
+171,461.083,158.736,1.422,Luviquat Excellence / Arlypon TT
+171,576.847,158.352,1.686,Luviquat Excellence / Arlypon TT
+171,721.492,157.4,1.562,Luviquat Excellence / Arlypon TT
+171,897.863,155.295,1.082,Luviquat Excellence / Arlypon TT
+197,1.104,186.72,16.291,Luviquat Excellence / Arlypon TT
+197,1.407,182.059,15.161,Luviquat Excellence / Arlypon TT
+197,1.759,181.722,13.039,Luviquat Excellence / Arlypon TT
+197,2.195,180.741,12.261,Luviquat Excellence / Arlypon TT
+197,2.739,179.049,11.649,Luviquat Excellence / Arlypon TT
+197,3.427,177.21,11.093,Luviquat Excellence / Arlypon TT
+197,4.286,175.754,10.35,Luviquat Excellence / Arlypon TT
+197,5.348,174.181,9.363,Luviquat Excellence / Arlypon TT
+197,6.691,172.339,8.722,Luviquat Excellence / Arlypon TT
+197,8.368,170.502,8.098,Luviquat Excellence / Arlypon TT
+197,10.442,168.711,7.16,Luviquat Excellence / Arlypon TT
+197,13.062,167.002,6.049,Luviquat Excellence / Arlypon TT
+197,16.337,165.437,5.847,Luviquat Excellence / Arlypon TT
+197,20.38,164.048,4.933,Luviquat Excellence / Arlypon TT
+197,25.423,163.971,3.55,Luviquat Excellence / Arlypon TT
+197,31.816,165.052,3.311,Luviquat Excellence / Arlypon TT
+197,39.811,163.652,3.65,Luviquat Excellence / Arlypon TT
+197,49.643,161.155,2.941,Luviquat Excellence / Arlypon TT
+197,62.109,162.413,2.201,Luviquat Excellence / Arlypon TT
+197,77.695,160.328,2.234,Luviquat Excellence / Arlypon TT
+197,96.952,160.642,1.76,Luviquat Excellence / Arlypon TT
+197,121.256,159.471,1.334,Luviquat Excellence / Arlypon TT
+197,151.679,158.607,1.067,Luviquat Excellence / Arlypon TT
+197,189.207,157.904,0.943,Luviquat Excellence / Arlypon TT
+197,236.148,157.325,0.868,Luviquat Excellence / Arlypon TT
+197,295.374,156.649,0.838,Luviquat Excellence / Arlypon TT
+197,369.511,155.79,0.733,Luviquat Excellence / Arlypon TT
+197,460.975,154.673,0.677,Luviquat Excellence / Arlypon TT
+197,576.697,153.061,0.67,Luviquat Excellence / Arlypon TT
+197,721.346,150.72,0.549,Luviquat Excellence / Arlypon TT
+197,897.632,147.526,0.461,Luviquat Excellence / Arlypon TT
+200,1.103,310.739,22.512,Luviquat Excellence / Arlypon TT
+200,1.407,307.121,18.822,Luviquat Excellence / Arlypon TT
+200,1.76,305.968,16.867,Luviquat Excellence / Arlypon TT
+200,2.196,304.864,15.628,Luviquat Excellence / Arlypon TT
+200,2.74,303.523,14.378,Luviquat Excellence / Arlypon TT
+200,3.427,301.709,13.115,Luviquat Excellence / Arlypon TT
+200,4.287,300.24,12.325,Luviquat Excellence / Arlypon TT
+200,5.349,298.559,11.159,Luviquat Excellence / Arlypon TT
+200,6.692,296.505,10.405,Luviquat Excellence / Arlypon TT
+200,8.369,294.131,9.471,Luviquat Excellence / Arlypon TT
+200,10.441,292.517,8.23,Luviquat Excellence / Arlypon TT
+200,13.061,291.449,6.756,Luviquat Excellence / Arlypon TT
+200,16.334,291.52,4.711,Luviquat Excellence / Arlypon TT
+200,20.382,291.546,2.289,Luviquat Excellence / Arlypon TT
+200,25.439,290.758,1.682,Luviquat Excellence / Arlypon TT
+200,31.831,289.029,3.995,Luviquat Excellence / Arlypon TT
+200,39.798,286.821,4.657,Luviquat Excellence / Arlypon TT
+200,49.636,287.385,0.772,Luviquat Excellence / Arlypon TT
+200,62.152,286.092,2.303,Luviquat Excellence / Arlypon TT
+200,77.665,284.646,1.283,Luviquat Excellence / Arlypon TT
+200,96.975,283.668,2.015,Luviquat Excellence / Arlypon TT
+200,121.288,282.845,1.551,Luviquat Excellence / Arlypon TT
+200,151.674,281.719,1.568,Luviquat Excellence / Arlypon TT
+200,189.257,280.491,1.659,Luviquat Excellence / Arlypon TT
+200,236.155,278.774,1.57,Luviquat Excellence / Arlypon TT
+200,295.444,276.517,1.643,Luviquat Excellence / Arlypon TT
+200,369.515,273.26,1.581,Luviquat Excellence / Arlypon TT
+200,461.068,268.589,1.523,Luviquat Excellence / Arlypon TT
+200,576.783,261.952,1.473,Luviquat Excellence / Arlypon TT
+200,721.418,252.79,1.562,Luviquat Excellence / Arlypon TT
+200,897.786,240.983,1.655,Luviquat Excellence / Arlypon TT
+203,1.10329,690.65,132.593652,Luviquat Excellence / Arlypon TT
+203,1.40648,677.79,122.6365104,Luviquat Excellence / Arlypon TT
+203,1.75956,673.77,119.1018479,Luviquat Excellence / Arlypon TT
+203,2.1953,669.77,117.9410712,Luviquat Excellence / Arlypon TT
+203,2.73939,667.29,117.9418539,Luviquat Excellence / Arlypon TT
+203,3.42723,663.64,115.8091367,Luviquat Excellence / Arlypon TT
+203,4.28649,657.87,110.8207119,Luviquat Excellence / Arlypon TT
+203,5.3488,652.43,106.0955405,Luviquat Excellence / Arlypon TT
+203,6.69124,646.95,102.216601,Luviquat Excellence / Arlypon TT
+203,8.36917,642.0,98.52868992,Luviquat Excellence / Arlypon TT
+203,10.4425,637.28,95.13796652,Luviquat Excellence / Arlypon TT
+203,13.0633,632.94,92.46725892,Luviquat Excellence / Arlypon TT
+203,16.338,628.54,91.11153196,Luviquat Excellence / Arlypon TT
+203,20.3819,623.84,90.28402591,Luviquat Excellence / Arlypon TT
+203,25.4263,620.49,89.81598732,Luviquat Excellence / Arlypon TT
+203,31.8179,617.61,88.18724889,Luviquat Excellence / Arlypon TT
+203,39.8144,611.74,85.94001631,Luviquat Excellence / Arlypon TT
+203,49.6466,605.11,84.680777,Luviquat Excellence / Arlypon TT
+203,62.1167,601.12,82.50085063,Luviquat Excellence / Arlypon TT
+203,77.7008,591.07,81.46176562,Luviquat Excellence / Arlypon TT
+203,96.9616,581.81,78.45414998,Luviquat Excellence / Arlypon TT
+203,121.264,568.58,75.20916885,Luviquat Excellence / Arlypon TT
+203,151.692,552.71,72.18981162,Luviquat Excellence / Arlypon TT
+203,189.229,534.64,68.33233736,Luviquat Excellence / Arlypon TT
+203,236.182,514.06,63.74285701,Luviquat Excellence / Arlypon TT
+203,295.405,490.2,59.3228165,Luviquat Excellence / Arlypon TT
+203,369.534,463.77,54.49495573,Luviquat Excellence / Arlypon TT
+203,461.029,434.47,49.72704838,Luviquat Excellence / Arlypon TT
+203,576.757,401.41,44.49184362,Luviquat Excellence / Arlypon TT
+203,721.406,364.46,38.28050904,Luviquat Excellence / Arlypon TT
+203,897.775,326.83,33.23976736,Luviquat Excellence / Arlypon TT
+205,1.104,303.019,10.074,Luviquat Excellence / Arlypon TT
+205,1.407,300.653,9.424,Luviquat Excellence / Arlypon TT
+205,1.76,300.302,9.735,Luviquat Excellence / Arlypon TT
+205,2.196,299.105,8.453,Luviquat Excellence / Arlypon TT
+205,2.74,297.758,7.595,Luviquat Excellence / Arlypon TT
+205,3.428,296.087,7.042,Luviquat Excellence / Arlypon TT
+205,4.287,294.141,6.396,Luviquat Excellence / Arlypon TT
+205,5.35,291.411,5.991,Luviquat Excellence / Arlypon TT
+205,6.692,288.213,5.612,Luviquat Excellence / Arlypon TT
+205,8.371,285.076,5.086,Luviquat Excellence / Arlypon TT
+205,10.444,282.615,4.689,Luviquat Excellence / Arlypon TT
+205,13.067,280.98,3.835,Luviquat Excellence / Arlypon TT
+205,16.343,280.332,2.544,Luviquat Excellence / Arlypon TT
+205,20.389,279.354,1.936,Luviquat Excellence / Arlypon TT
+205,25.433,278.59,2.714,Luviquat Excellence / Arlypon TT
+205,31.817,278.38,4.466,Luviquat Excellence / Arlypon TT
+205,39.82,276.883,5.193,Luviquat Excellence / Arlypon TT
+205,49.674,275.871,3.865,Luviquat Excellence / Arlypon TT
+205,62.107,275.544,5.24,Luviquat Excellence / Arlypon TT
+205,77.736,273.905,5.003,Luviquat Excellence / Arlypon TT
+205,96.955,273.335,5.768,Luviquat Excellence / Arlypon TT
+205,121.29,271.76,6.032,Luviquat Excellence / Arlypon TT
+205,151.724,269.868,6.083,Luviquat Excellence / Arlypon TT
+205,189.285,267.845,6.357,Luviquat Excellence / Arlypon TT
+205,236.21,265.951,6.388,Luviquat Excellence / Arlypon TT
+205,295.451,263.777,6.73,Luviquat Excellence / Arlypon TT
+205,369.582,260.622,6.781,Luviquat Excellence / Arlypon TT
+205,461.113,256.033,6.602,Luviquat Excellence / Arlypon TT
+205,576.864,250.415,6.231,Luviquat Excellence / Arlypon TT
+205,721.526,244.69,5.974,Luviquat Excellence / Arlypon TT
+205,897.963,237.714,5.77,Luviquat Excellence / Arlypon TT
+208,1.103,358.161,14.37,Luviquat Excellence / Arlypon TT
+208,1.407,351.637,14.236,Luviquat Excellence / Arlypon TT
+208,1.76,353.024,13.559,Luviquat Excellence / Arlypon TT
+208,2.195,351.354,13.789,Luviquat Excellence / Arlypon TT
+208,2.74,348.793,14.029,Luviquat Excellence / Arlypon TT
+208,3.428,346.332,14.569,Luviquat Excellence / Arlypon TT
+208,4.287,344.027,14.945,Luviquat Excellence / Arlypon TT
+208,5.349,342.235,15.2,Luviquat Excellence / Arlypon TT
+208,6.691,340.83,15.746,Luviquat Excellence / Arlypon TT
+208,8.37,339.535,15.599,Luviquat Excellence / Arlypon TT
+208,10.444,339.225,15.117,Luviquat Excellence / Arlypon TT
+208,13.067,339.569,14.033,Luviquat Excellence / Arlypon TT
+208,16.343,340.019,12.158,Luviquat Excellence / Arlypon TT
+208,20.39,339.922,11.18,Luviquat Excellence / Arlypon TT
+208,25.434,339.206,12.303,Luviquat Excellence / Arlypon TT
+208,31.811,336.787,14.446,Luviquat Excellence / Arlypon TT
+208,39.809,333.507,14.999,Luviquat Excellence / Arlypon TT
+208,49.681,331.641,12.892,Luviquat Excellence / Arlypon TT
+208,62.098,327.621,13.272,Luviquat Excellence / Arlypon TT
+208,77.744,322.745,13.859,Luviquat Excellence / Arlypon TT
+208,96.938,318.25,13.687,Luviquat Excellence / Arlypon TT
+208,121.283,313.533,12.844,Luviquat Excellence / Arlypon TT
+208,151.72,309.018,11.926,Luviquat Excellence / Arlypon TT
+208,189.288,303.037,11.093,Luviquat Excellence / Arlypon TT
+208,236.182,295.67,10.634,Luviquat Excellence / Arlypon TT
+208,295.445,286.914,10.194,Luviquat Excellence / Arlypon TT
+208,369.568,277.686,9.979,Luviquat Excellence / Arlypon TT
+208,461.086,267.836,9.769,Luviquat Excellence / Arlypon TT
+208,576.818,257.245,9.631,Luviquat Excellence / Arlypon TT
+208,721.472,245.001,9.331,Luviquat Excellence / Arlypon TT
+208,897.904,230.73,8.86,Luviquat Excellence / Arlypon TT
+256,1.103,372.46,15.332,Luviquat Excellence / Arlypon F
+256,1.407,366.958,12.913,Luviquat Excellence / Arlypon F
+256,1.76,363.377,11.056,Luviquat Excellence / Arlypon F
+256,2.196,360.57,9.598,Luviquat Excellence / Arlypon F
+256,2.74,357.8,8.311,Luviquat Excellence / Arlypon F
+256,3.427,355.344,7.123,Luviquat Excellence / Arlypon F
+256,4.287,352.858,6.003,Luviquat Excellence / Arlypon F
+256,5.349,350.156,4.869,Luviquat Excellence / Arlypon F
+256,6.692,347.045,4.019,Luviquat Excellence / Arlypon F
+256,8.37,343.766,3.607,Luviquat Excellence / Arlypon F
+256,10.444,340.269,3.401,Luviquat Excellence / Arlypon F
+256,13.064,336.739,2.882,Luviquat Excellence / Arlypon F
+256,16.341,333.068,2.902,Luviquat Excellence / Arlypon F
+256,20.386,329.843,2.403,Luviquat Excellence / Arlypon F
+256,25.429,329.32,2.51,Luviquat Excellence / Arlypon F
+256,31.815,331.832,2.794,Luviquat Excellence / Arlypon F
+256,39.817,329.862,2.857,Luviquat Excellence / Arlypon F
+256,49.665,323.406,2.41,Luviquat Excellence / Arlypon F
+256,62.103,325.29,1.904,Luviquat Excellence / Arlypon F
+256,77.724,320.638,2.644,Luviquat Excellence / Arlypon F
+256,96.952,319.888,2.069,Luviquat Excellence / Arlypon F
+256,121.271,315.796,1.963,Luviquat Excellence / Arlypon F
+256,151.709,311.622,2.167,Luviquat Excellence / Arlypon F
+256,189.257,306.305,2.029,Luviquat Excellence / Arlypon F
+256,236.19,299.648,2.143,Luviquat Excellence / Arlypon F
+256,295.429,290.099,2.038,Luviquat Excellence / Arlypon F
+256,369.554,277.505,1.918,Luviquat Excellence / Arlypon F
+256,461.062,261.801,1.83,Luviquat Excellence / Arlypon F
+256,576.826,242.488,1.693,Luviquat Excellence / Arlypon F
+256,721.456,220.48,1.521,Luviquat Excellence / Arlypon F
+256,897.814,197.206,1.111,Luviquat Excellence / Arlypon F
+264,1.102,367.097,21.51,Luviquat Excellence / Arlypon F
+264,1.407,364.097,18.951,Luviquat Excellence / Arlypon F
+264,1.76,363.254,16.681,Luviquat Excellence / Arlypon F
+264,2.196,363.124,14.442,Luviquat Excellence / Arlypon F
+264,2.74,362.819,12.929,Luviquat Excellence / Arlypon F
+264,3.428,362.095,11.169,Luviquat Excellence / Arlypon F
+264,4.287,361.676,9.844,Luviquat Excellence / Arlypon F
+264,5.349,360.949,8.251,Luviquat Excellence / Arlypon F
+264,6.692,359.924,6.79,Luviquat Excellence / Arlypon F
+264,8.371,358.455,5.147,Luviquat Excellence / Arlypon F
+264,10.445,356.929,4.095,Luviquat Excellence / Arlypon F
+264,13.066,355.23,3.404,Luviquat Excellence / Arlypon F
+264,16.343,353.655,2.553,Luviquat Excellence / Arlypon F
+264,20.388,351.9,1.5,Luviquat Excellence / Arlypon F
+264,25.432,351.656,2.38,Luviquat Excellence / Arlypon F
+264,31.818,353.874,3.28,Luviquat Excellence / Arlypon F
+264,39.821,353.007,1.486,Luviquat Excellence / Arlypon F
+264,49.669,347.758,0.663,Luviquat Excellence / Arlypon F
+264,62.11,347.738,1.008,Luviquat Excellence / Arlypon F
+264,77.733,345.195,0.849,Luviquat Excellence / Arlypon F
+264,96.962,343.195,0.767,Luviquat Excellence / Arlypon F
+264,121.284,338.935,1.203,Luviquat Excellence / Arlypon F
+264,151.721,333.57,1.517,Luviquat Excellence / Arlypon F
+264,189.276,325.47,1.648,Luviquat Excellence / Arlypon F
+264,236.218,314.858,1.76,Luviquat Excellence / Arlypon F
+264,295.445,300.532,1.787,Luviquat Excellence / Arlypon F
+264,369.591,282.931,1.915,Luviquat Excellence / Arlypon F
+264,461.086,262.478,1.898,Luviquat Excellence / Arlypon F
+264,576.86,239.253,1.831,Luviquat Excellence / Arlypon F
+264,721.54,214.534,1.687,Luviquat Excellence / Arlypon F
+264,897.912,189.965,1.296,Luviquat Excellence / Arlypon F
+271,1.101,1050.24,25.146,Luviquat Excellence / Arlypon F
+271,1.407,1051.197,23.215,Luviquat Excellence / Arlypon F
+271,1.76,1050.697,20.774,Luviquat Excellence / Arlypon F
+271,2.196,1049.857,19.158,Luviquat Excellence / Arlypon F
+271,2.74,1049.15,17.379,Luviquat Excellence / Arlypon F
+271,3.427,1048.103,15.567,Luviquat Excellence / Arlypon F
+271,4.287,1046.97,13.63,Luviquat Excellence / Arlypon F
+271,5.349,1045.343,11.527,Luviquat Excellence / Arlypon F
+271,6.692,1042.563,9.207,Luviquat Excellence / Arlypon F
+271,8.37,1038.107,7.252,Luviquat Excellence / Arlypon F
+271,10.444,1029.08,6.668,Luviquat Excellence / Arlypon F
+271,13.065,1014.693,8.342,Luviquat Excellence / Arlypon F
+271,16.341,995.277,10.723,Luviquat Excellence / Arlypon F
+271,20.387,972.972,11.909,Luviquat Excellence / Arlypon F
+271,25.429,948.701,15.195,Luviquat Excellence / Arlypon F
+271,31.816,925.156,13.107,Luviquat Excellence / Arlypon F
+271,39.82,887.039,6.939,Luviquat Excellence / Arlypon F
+271,49.666,824.766,6.744,Luviquat Excellence / Arlypon F
+271,62.106,766.722,7.477,Luviquat Excellence / Arlypon F
+271,77.73,697.059,4.343,Luviquat Excellence / Arlypon F
+271,96.959,625.61,4.803,Luviquat Excellence / Arlypon F
+271,121.28,548.214,4.361,Luviquat Excellence / Arlypon F
+271,151.72,472.664,3.448,Luviquat Excellence / Arlypon F
+271,189.273,401.503,2.981,Luviquat Excellence / Arlypon F
+271,236.21,336.338,2.714,Luviquat Excellence / Arlypon F
+271,295.447,277.695,2.755,Luviquat Excellence / Arlypon F
+271,369.589,227.048,2.543,Luviquat Excellence / Arlypon F
+271,461.082,184.678,2.201,Luviquat Excellence / Arlypon F
+271,576.866,149.175,1.898,Luviquat Excellence / Arlypon F
+271,721.479,120.328,1.561,Luviquat Excellence / Arlypon F
+271,897.882,97.69,1.282,Luviquat Excellence / Arlypon F
+272,1.103,186.266,12.017,Luviquat Excellence / Arlypon F
+272,1.407,182.576,10.607,Luviquat Excellence / Arlypon F
+272,1.76,182.288,10.254,Luviquat Excellence / Arlypon F
+272,2.196,181.521,10.213,Luviquat Excellence / Arlypon F
+272,2.74,180.555,9.71,Luviquat Excellence / Arlypon F
+272,3.427,179.132,8.843,Luviquat Excellence / Arlypon F
+272,4.287,177.646,8.023,Luviquat Excellence / Arlypon F
+272,5.349,176.108,7.281,Luviquat Excellence / Arlypon F
+272,6.692,174.471,6.633,Luviquat Excellence / Arlypon F
+272,8.37,172.482,6.136,Luviquat Excellence / Arlypon F
+272,10.445,170.376,5.653,Luviquat Excellence / Arlypon F
+272,13.066,168.629,5.283,Luviquat Excellence / Arlypon F
+272,16.341,166.978,4.854,Luviquat Excellence / Arlypon F
+272,20.389,164.588,4.386,Luviquat Excellence / Arlypon F
+272,25.431,163.41,3.905,Luviquat Excellence / Arlypon F
+272,31.813,163.599,3.477,Luviquat Excellence / Arlypon F
+272,39.815,160.45,3.029,Luviquat Excellence / Arlypon F
+272,49.673,154.957,2.678,Luviquat Excellence / Arlypon F
+272,62.098,152.598,2.232,Luviquat Excellence / Arlypon F
+272,77.737,146.387,1.855,Luviquat Excellence / Arlypon F
+272,96.945,141.292,1.512,Luviquat Excellence / Arlypon F
+272,121.284,133.931,1.149,Luviquat Excellence / Arlypon F
+272,151.714,126.004,0.87,Luviquat Excellence / Arlypon F
+272,189.274,117.544,0.658,Luviquat Excellence / Arlypon F
+272,236.196,108.582,0.525,Luviquat Excellence / Arlypon F
+272,295.439,99.14,0.487,Luviquat Excellence / Arlypon F
+272,369.551,89.603,0.47,Luviquat Excellence / Arlypon F
+272,461.071,80.299,0.427,Luviquat Excellence / Arlypon F
+272,576.837,71.205,0.352,Luviquat Excellence / Arlypon F
+272,721.451,62.613,0.242,Luviquat Excellence / Arlypon F
+272,895.504,54.867,0.078,Luviquat Excellence / Arlypon F
+310,1.102,495.273,21.971,Dehyquart CC7 Benz / Arlypon F
+310,1.407,490.781,18.433,Dehyquart CC7 Benz / Arlypon F
+310,1.76,488.683,16.061,Dehyquart CC7 Benz / Arlypon F
+310,2.196,486.266,14.913,Dehyquart CC7 Benz / Arlypon F
+310,2.74,483.881,13.572,Dehyquart CC7 Benz / Arlypon F
+310,3.427,481.754,12.48,Dehyquart CC7 Benz / Arlypon F
+310,4.287,479.787,11.477,Dehyquart CC7 Benz / Arlypon F
+310,5.349,478.067,10.151,Dehyquart CC7 Benz / Arlypon F
+310,6.691,476.045,8.668,Dehyquart CC7 Benz / Arlypon F
+310,8.37,473.816,7.688,Dehyquart CC7 Benz / Arlypon F
+310,10.442,471.197,6.806,Dehyquart CC7 Benz / Arlypon F
+310,13.062,468.246,6.286,Dehyquart CC7 Benz / Arlypon F
+310,16.34,465.617,5.575,Dehyquart CC7 Benz / Arlypon F
+310,20.388,462.09,5.093,Dehyquart CC7 Benz / Arlypon F
+310,25.436,458.997,4.949,Dehyquart CC7 Benz / Arlypon F
+310,31.82,455.628,4.444,Dehyquart CC7 Benz / Arlypon F
+310,39.803,449.335,4.185,Dehyquart CC7 Benz / Arlypon F
+310,49.661,442.784,4.286,Dehyquart CC7 Benz / Arlypon F
+310,62.123,434.99,4.105,Dehyquart CC7 Benz / Arlypon F
+310,77.703,421.445,3.937,Dehyquart CC7 Benz / Arlypon F
+310,96.951,407.957,4.02,Dehyquart CC7 Benz / Arlypon F
+310,121.285,388.581,4.065,Dehyquart CC7 Benz / Arlypon F
+310,151.702,364.789,3.958,Dehyquart CC7 Benz / Arlypon F
+310,189.286,338.07,3.989,Dehyquart CC7 Benz / Arlypon F
+310,236.172,307.988,3.638,Dehyquart CC7 Benz / Arlypon F
+310,295.452,276.521,3.327,Dehyquart CC7 Benz / Arlypon F
+310,369.536,244.707,2.965,Dehyquart CC7 Benz / Arlypon F
+310,461.077,214.293,2.537,Dehyquart CC7 Benz / Arlypon F
+310,576.811,185.413,2.157,Dehyquart CC7 Benz / Arlypon F
+310,721.479,158.988,1.784,Dehyquart CC7 Benz / Arlypon F
+310,897.823,135.848,1.455,Dehyquart CC7 Benz / Arlypon F
+335,1.101,146.138,8.313,Dehyquart CC7 Benz / Arlypon F
+335,1.407,144.194,7.811,Dehyquart CC7 Benz / Arlypon F
+335,1.76,144.155,7.672,Dehyquart CC7 Benz / Arlypon F
+335,2.196,142.487,7.175,Dehyquart CC7 Benz / Arlypon F
+335,2.74,140.586,6.038,Dehyquart CC7 Benz / Arlypon F
+335,3.427,139.439,4.978,Dehyquart CC7 Benz / Arlypon F
+335,4.287,138.268,5.064,Dehyquart CC7 Benz / Arlypon F
+335,5.349,137.144,4.593,Dehyquart CC7 Benz / Arlypon F
+335,6.691,136.165,4.463,Dehyquart CC7 Benz / Arlypon F
+335,8.369,135.78,3.947,Dehyquart CC7 Benz / Arlypon F
+335,10.442,134.636,3.832,Dehyquart CC7 Benz / Arlypon F
+335,13.062,133.909,4.012,Dehyquart CC7 Benz / Arlypon F
+335,16.339,133.007,3.396,Dehyquart CC7 Benz / Arlypon F
+335,20.386,132.255,3.384,Dehyquart CC7 Benz / Arlypon F
+335,25.436,131.723,3.001,Dehyquart CC7 Benz / Arlypon F
+335,31.82,131.328,2.926,Dehyquart CC7 Benz / Arlypon F
+335,39.8,130.693,3.031,Dehyquart CC7 Benz / Arlypon F
+335,49.66,129.781,2.971,Dehyquart CC7 Benz / Arlypon F
+335,62.123,129.44,2.754,Dehyquart CC7 Benz / Arlypon F
+335,77.701,128.627,2.913,Dehyquart CC7 Benz / Arlypon F
+335,96.948,128.139,2.847,Dehyquart CC7 Benz / Arlypon F
+335,121.287,127.367,2.814,Dehyquart CC7 Benz / Arlypon F
+335,151.702,126.585,2.899,Dehyquart CC7 Benz / Arlypon F
+335,189.278,125.732,2.872,Dehyquart CC7 Benz / Arlypon F
+335,236.172,124.677,2.954,Dehyquart CC7 Benz / Arlypon F
+335,295.438,123.405,2.979,Dehyquart CC7 Benz / Arlypon F
+335,369.506,121.769,3.011,Dehyquart CC7 Benz / Arlypon F
+335,461.049,119.761,3.012,Dehyquart CC7 Benz / Arlypon F
+335,576.773,117.004,2.979,Dehyquart CC7 Benz / Arlypon F
+335,721.386,113.34,2.97,Dehyquart CC7 Benz / Arlypon F
+335,897.8,108.718,2.9,Dehyquart CC7 Benz / Arlypon F
+337,1.104,153.039,11.891,Dehyquart CC7 Benz / Arlypon F
+337,1.407,148.869,11.485,Dehyquart CC7 Benz / Arlypon F
+337,1.76,149.177,12.182,Dehyquart CC7 Benz / Arlypon F
+337,2.196,147.153,11.769,Dehyquart CC7 Benz / Arlypon F
+337,2.74,144.538,10.479,Dehyquart CC7 Benz / Arlypon F
+337,3.428,141.731,8.996,Dehyquart CC7 Benz / Arlypon F
+337,4.287,139.518,7.845,Dehyquart CC7 Benz / Arlypon F
+337,5.349,137.693,7.365,Dehyquart CC7 Benz / Arlypon F
+337,6.692,135.983,7.514,Dehyquart CC7 Benz / Arlypon F
+337,8.369,134.8,6.271,Dehyquart CC7 Benz / Arlypon F
+337,10.443,133.405,5.833,Dehyquart CC7 Benz / Arlypon F
+337,13.064,132.021,5.243,Dehyquart CC7 Benz / Arlypon F
+337,16.34,130.505,4.757,Dehyquart CC7 Benz / Arlypon F
+337,20.387,129.281,4.238,Dehyquart CC7 Benz / Arlypon F
+337,25.439,127.768,3.703,Dehyquart CC7 Benz / Arlypon F
+337,31.822,126.441,3.372,Dehyquart CC7 Benz / Arlypon F
+337,39.803,125.193,3.104,Dehyquart CC7 Benz / Arlypon F
+337,49.664,123.906,2.615,Dehyquart CC7 Benz / Arlypon F
+337,62.129,122.286,2.355,Dehyquart CC7 Benz / Arlypon F
+337,77.707,120.836,2.076,Dehyquart CC7 Benz / Arlypon F
+337,96.956,119.019,1.831,Dehyquart CC7 Benz / Arlypon F
+337,121.29,116.968,1.568,Dehyquart CC7 Benz / Arlypon F
+337,151.705,114.564,1.359,Dehyquart CC7 Benz / Arlypon F
+337,189.289,111.722,1.184,Dehyquart CC7 Benz / Arlypon F
+337,236.178,108.434,1.047,Dehyquart CC7 Benz / Arlypon F
+337,295.46,104.539,0.909,Dehyquart CC7 Benz / Arlypon F
+337,369.532,100.097,0.794,Dehyquart CC7 Benz / Arlypon F
+337,461.075,95.106,0.759,Dehyquart CC7 Benz / Arlypon F
+337,576.804,89.364,0.724,Dehyquart CC7 Benz / Arlypon F
+337,721.463,83.112,0.739,Dehyquart CC7 Benz / Arlypon F
+337,897.852,76.64,0.745,Dehyquart CC7 Benz / Arlypon F
+349,1.10271,117.62,7.527858793,Dehyquart CC7 Benz / Arlypon F
+349,1.40661,115.19,5.738878636,Dehyquart CC7 Benz / Arlypon F
+349,1.75966,115.43,4.768728132,Dehyquart CC7 Benz / Arlypon F
+349,2.19552,114.64,3.773828891,Dehyquart CC7 Benz / Arlypon F
+349,2.73973,113.24,3.758272542,Dehyquart CC7 Benz / Arlypon F
+349,3.42758,112.27,4.049600536,Dehyquart CC7 Benz / Arlypon F
+349,4.28692,111.59,3.508663848,Dehyquart CC7 Benz / Arlypon F
+349,5.34914,110.51,3.087935313,Dehyquart CC7 Benz / Arlypon F
+349,6.69102,109.72,3.058943935,Dehyquart CC7 Benz / Arlypon F
+349,8.36895,109.17,2.624073265,Dehyquart CC7 Benz / Arlypon F
+349,10.4428,108.33,2.450124997,Dehyquart CC7 Benz / Arlypon F
+349,13.0636,108.08,2.228093468,Dehyquart CC7 Benz / Arlypon F
+349,16.3395,107.06,1.948079182,Dehyquart CC7 Benz / Arlypon F
+349,20.3871,106.62,1.85403398,Dehyquart CC7 Benz / Arlypon F
+349,25.4368,106.0,1.554927812,Dehyquart CC7 Benz / Arlypon F
+349,31.8224,105.81,1.46088261,Dehyquart CC7 Benz / Arlypon F
+349,39.7993,105.47,1.339260244,Dehyquart CC7 Benz / Arlypon F
+349,49.6612,104.68,1.217637877,Dehyquart CC7 Benz / Arlypon F
+349,62.123,104.45,1.062074385,Dehyquart CC7 Benz / Arlypon F
+349,77.7045,103.83,0.869741341,Dehyquart CC7 Benz / Arlypon F
+349,96.9514,103.52,0.789131168,Dehyquart CC7 Benz / Arlypon F
+349,121.282,102.92,0.616597113,Dehyquart CC7 Benz / Arlypon F
+349,151.697,102.3,0.49638896,Dehyquart CC7 Benz / Arlypon F
+349,189.284,101.52,0.311834091,Dehyquart CC7 Benz / Arlypon F
+349,236.158,100.54,0.18243355,Dehyquart CC7 Benz / Arlypon F
+349,295.444,99.37,0.056497832,Dehyquart CC7 Benz / Arlypon F
+349,369.53,97.82,0.002899138,Dehyquart CC7 Benz / Arlypon F
+349,461.073,95.69,0.037830213,Dehyquart CC7 Benz / Arlypon F
+349,576.796,92.65,0.042072853,Dehyquart CC7 Benz / Arlypon F
+349,721.443,88.72,0.109247998,Dehyquart CC7 Benz / Arlypon F
+349,897.858,84.02,0.132158257,Dehyquart CC7 Benz / Arlypon F
+351,1.102,315.694,14.056,Dehyquart CC7 Benz / Arlypon F
+351,1.407,310.145,12.085,Dehyquart CC7 Benz / Arlypon F
+351,1.76,306.747,10.043,Dehyquart CC7 Benz / Arlypon F
+351,2.196,302.619,8.265,Dehyquart CC7 Benz / Arlypon F
+351,2.74,297.74,6.79,Dehyquart CC7 Benz / Arlypon F
+351,3.427,293.196,5.94,Dehyquart CC7 Benz / Arlypon F
+351,4.287,289.947,5.363,Dehyquart CC7 Benz / Arlypon F
+351,5.349,287.402,4.522,Dehyquart CC7 Benz / Arlypon F
+351,6.691,284.983,3.637,Dehyquart CC7 Benz / Arlypon F
+351,8.369,282.676,2.899,Dehyquart CC7 Benz / Arlypon F
+351,10.443,280.634,2.608,Dehyquart CC7 Benz / Arlypon F
+351,13.064,278.168,2.283,Dehyquart CC7 Benz / Arlypon F
+351,16.338,275.672,2.769,Dehyquart CC7 Benz / Arlypon F
+351,20.388,273.289,2.861,Dehyquart CC7 Benz / Arlypon F
+351,25.436,270.066,2.657,Dehyquart CC7 Benz / Arlypon F
+351,31.822,267.326,2.189,Dehyquart CC7 Benz / Arlypon F
+351,39.802,264.761,2.447,Dehyquart CC7 Benz / Arlypon F
+351,49.66,261.013,3.345,Dehyquart CC7 Benz / Arlypon F
+351,62.125,256.156,3.041,Dehyquart CC7 Benz / Arlypon F
+351,77.705,250.942,3.548,Dehyquart CC7 Benz / Arlypon F
+351,96.948,243.559,3.127,Dehyquart CC7 Benz / Arlypon F
+351,121.285,234.306,3.355,Dehyquart CC7 Benz / Arlypon F
+351,151.698,222.755,3.164,Dehyquart CC7 Benz / Arlypon F
+351,189.275,208.709,3.019,Dehyquart CC7 Benz / Arlypon F
+351,236.171,192.405,2.741,Dehyquart CC7 Benz / Arlypon F
+351,295.44,173.947,2.388,Dehyquart CC7 Benz / Arlypon F
+351,369.528,154.523,1.976,Dehyquart CC7 Benz / Arlypon F
+351,461.096,135.564,1.424,Dehyquart CC7 Benz / Arlypon F
+351,576.803,117.372,0.861,Dehyquart CC7 Benz / Arlypon F
+351,721.421,100.679,0.496,Dehyquart CC7 Benz / Arlypon F
+351,897.821,86.113,0.342,Dehyquart CC7 Benz / Arlypon F
+496,1.102,270.324,8.322,Dehyquart CC6 / Arlypon F
+496,1.407,267.016,8.881,Dehyquart CC6 / Arlypon F
+496,1.76,267.291,6.973,Dehyquart CC6 / Arlypon F
+496,2.196,264.955,5.736,Dehyquart CC6 / Arlypon F
+496,2.74,262.249,5.057,Dehyquart CC6 / Arlypon F
+496,3.427,259.066,4.526,Dehyquart CC6 / Arlypon F
+496,4.287,256.368,4.118,Dehyquart CC6 / Arlypon F
+496,5.349,254.14,3.701,Dehyquart CC6 / Arlypon F
+496,6.691,252.211,3.471,Dehyquart CC6 / Arlypon F
+496,8.37,250.383,2.415,Dehyquart CC6 / Arlypon F
+496,10.443,248.41,1.823,Dehyquart CC6 / Arlypon F
+496,13.063,246.814,1.533,Dehyquart CC6 / Arlypon F
+496,16.339,244.631,1.366,Dehyquart CC6 / Arlypon F
+496,20.387,242.671,0.763,Dehyquart CC6 / Arlypon F
+496,25.437,240.843,0.414,Dehyquart CC6 / Arlypon F
+496,31.821,239.513,0.438,Dehyquart CC6 / Arlypon F
+496,39.8,238.192,0.537,Dehyquart CC6 / Arlypon F
+496,49.66,235.447,0.657,Dehyquart CC6 / Arlypon F
+496,62.126,232.987,1.227,Dehyquart CC6 / Arlypon F
+496,77.701,229.854,1.151,Dehyquart CC6 / Arlypon F
+496,96.951,225.84,1.576,Dehyquart CC6 / Arlypon F
+496,121.285,220.151,1.567,Dehyquart CC6 / Arlypon F
+496,151.698,212.854,1.592,Dehyquart CC6 / Arlypon F
+496,189.279,203.361,1.532,Dehyquart CC6 / Arlypon F
+496,236.17,191.196,1.319,Dehyquart CC6 / Arlypon F
+496,295.445,175.68,1.076,Dehyquart CC6 / Arlypon F
+496,369.538,157.619,0.758,Dehyquart CC6 / Arlypon F
+496,461.109,137.582,0.423,Dehyquart CC6 / Arlypon F
+496,576.826,116.511,0.362,Dehyquart CC6 / Arlypon F
+496,721.448,97.576,0.411,Dehyquart CC6 / Arlypon F
+496,897.823,81.79,0.31,Dehyquart CC6 / Arlypon F
+498,1.102,410.551,10.491,Dehyquart CC6 / Arlypon F
+498,1.407,407.785,8.963,Dehyquart CC6 / Arlypon F
+498,1.76,406.989,6.97,Dehyquart CC6 / Arlypon F
+498,2.196,405.691,6.019,Dehyquart CC6 / Arlypon F
+498,2.74,403.719,5.073,Dehyquart CC6 / Arlypon F
+498,3.427,401.228,5.147,Dehyquart CC6 / Arlypon F
+498,4.287,399.24,5.467,Dehyquart CC6 / Arlypon F
+498,5.349,398.624,5.195,Dehyquart CC6 / Arlypon F
+498,6.692,397.453,3.888,Dehyquart CC6 / Arlypon F
+498,8.37,395.919,3.175,Dehyquart CC6 / Arlypon F
+498,10.442,395.069,2.379,Dehyquart CC6 / Arlypon F
+498,13.063,394.259,2.442,Dehyquart CC6 / Arlypon F
+498,16.34,393.128,2.343,Dehyquart CC6 / Arlypon F
+498,20.387,391.434,2.593,Dehyquart CC6 / Arlypon F
+498,25.438,389.736,2.853,Dehyquart CC6 / Arlypon F
+498,31.821,388.053,3.122,Dehyquart CC6 / Arlypon F
+498,39.802,387.703,3.063,Dehyquart CC6 / Arlypon F
+498,49.662,386.633,3.749,Dehyquart CC6 / Arlypon F
+498,62.127,384.017,3.884,Dehyquart CC6 / Arlypon F
+498,77.704,383.042,4.196,Dehyquart CC6 / Arlypon F
+498,96.954,380.686,4.23,Dehyquart CC6 / Arlypon F
+498,121.289,378.322,4.629,Dehyquart CC6 / Arlypon F
+498,151.707,375.118,4.763,Dehyquart CC6 / Arlypon F
+498,189.293,370.724,4.86,Dehyquart CC6 / Arlypon F
+498,236.166,364.464,4.818,Dehyquart CC6 / Arlypon F
+498,295.449,355.232,4.575,Dehyquart CC6 / Arlypon F
+498,369.549,342.626,4.453,Dehyquart CC6 / Arlypon F
+498,461.087,326.395,4.146,Dehyquart CC6 / Arlypon F
+498,576.836,305.684,3.839,Dehyquart CC6 / Arlypon F
+498,721.473,281.177,3.305,Dehyquart CC6 / Arlypon F
+498,897.842,254.282,2.797,Dehyquart CC6 / Arlypon F
+519,1.1,1449.813,16.723,Dehyquart CC6 / Arlypon F
+519,1.407,1452.527,16.516,Dehyquart CC6 / Arlypon F
+519,1.76,1450.47,16.015,Dehyquart CC6 / Arlypon F
+519,2.195,1448.18,15.866,Dehyquart CC6 / Arlypon F
+519,2.739,1444.117,14.841,Dehyquart CC6 / Arlypon F
+519,3.427,1439.307,14.946,Dehyquart CC6 / Arlypon F
+519,4.287,1434.293,15.653,Dehyquart CC6 / Arlypon F
+519,5.349,1428.457,15.609,Dehyquart CC6 / Arlypon F
+519,6.691,1421.143,15.215,Dehyquart CC6 / Arlypon F
+519,8.369,1411.577,17.177,Dehyquart CC6 / Arlypon F
+519,10.442,1397.03,18.612,Dehyquart CC6 / Arlypon F
+519,13.063,1376.227,17.551,Dehyquart CC6 / Arlypon F
+519,16.338,1345.653,16.195,Dehyquart CC6 / Arlypon F
+519,20.386,1306.25,16.075,Dehyquart CC6 / Arlypon F
+519,25.436,1254.187,11.968,Dehyquart CC6 / Arlypon F
+519,31.821,1189.03,10.038,Dehyquart CC6 / Arlypon F
+519,39.8,1108.23,9.757,Dehyquart CC6 / Arlypon F
+519,49.66,1012.04,8.587,Dehyquart CC6 / Arlypon F
+519,62.124,907.062,6.485,Dehyquart CC6 / Arlypon F
+519,77.704,796.435,5.971,Dehyquart CC6 / Arlypon F
+519,96.954,688.328,4.831,Dehyquart CC6 / Arlypon F
+519,121.289,583.109,4.043,Dehyquart CC6 / Arlypon F
+519,151.702,486.769,3.441,Dehyquart CC6 / Arlypon F
+519,189.279,402.539,2.919,Dehyquart CC6 / Arlypon F
+519,236.166,330.159,2.413,Dehyquart CC6 / Arlypon F
+519,295.452,268.764,1.987,Dehyquart CC6 / Arlypon F
+519,369.548,217.788,1.577,Dehyquart CC6 / Arlypon F
+519,461.091,176.372,1.305,Dehyquart CC6 / Arlypon F
+519,576.811,142.19,1.067,Dehyquart CC6 / Arlypon F
+519,721.452,114.653,0.877,Dehyquart CC6 / Arlypon F
+519,895.501,93.237,0.795,Dehyquart CC6 / Arlypon F
+524,1.0996,252.78,11.08672722,Salcare Super 7 / Arlypon F
+524,1.40676,249.36,8.504373257,Salcare Super 7 / Arlypon F
+524,1.75954,249.2,7.934445192,Salcare Super 7 / Arlypon F
+524,2.19558,249.44,9.107535342,Salcare Super 7 / Arlypon F
+524,2.73956,247.99,8.490938228,Salcare Super 7 / Arlypon F
+524,3.42723,246.46,8.00515587,Salcare Super 7 / Arlypon F
+524,4.2867,245.39,7.415428814,Salcare Super 7 / Arlypon F
+524,5.34848,244.29,7.008842415,Salcare Super 7 / Arlypon F
+524,6.69082,243.6,6.734484984,Salcare Super 7 / Arlypon F
+524,8.3687,243.01,6.102331522,Salcare Super 7 / Arlypon F
+524,10.442,241.95,5.461692778,Salcare Super 7 / Arlypon F
+524,13.0633,240.82,5.088340397,Salcare Super 7 / Arlypon F
+524,16.3382,239.3,4.581344835,Salcare Super 7 / Arlypon F
+524,20.3863,238.42,4.115361467,Salcare Super 7 / Arlypon F
+524,25.4359,237.58,3.626750681,Salcare Super 7 / Arlypon F
+524,31.821,238.14,3.331180046,Salcare Super 7 / Arlypon F
+524,39.7995,238.08,2.952877918,Salcare Super 7 / Arlypon F
+524,49.6588,236.07,3.003789606,Salcare Super 7 / Arlypon F
+524,62.1225,235.76,3.083692673,Salcare Super 7 / Arlypon F
+524,77.7024,234.36,2.365272183,Salcare Super 7 / Arlypon F
+524,96.9502,234.32,2.020911181,Salcare Super 7 / Arlypon F
+524,121.286,233.02,2.228093468,Salcare Super 7 / Arlypon F
+524,151.699,231.64,1.581090763,Salcare Super 7 / Arlypon F
+524,189.279,230.1,1.680792819,Salcare Super 7 / Arlypon F
+524,236.163,227.88,1.478560279,Salcare Super 7 / Arlypon F
+524,295.444,224.98,1.398657213,Salcare Super 7 / Arlypon F
+524,369.514,220.42,1.277741954,Salcare Super 7 / Arlypon F
+524,461.055,214.34,1.105207899,Salcare Super 7 / Arlypon F
+524,576.753,205.97,0.883883476,Salcare Super 7 / Arlypon F
+524,721.445,195.18,0.539522474,Salcare Super 7 / Arlypon F
+524,897.776,182.52,0.470226009,Salcare Super 7 / Arlypon F
+542,1.101,479.671,13.484,Salcare Super 7 / Arlypon F
+542,1.406,477.581,12.838,Salcare Super 7 / Arlypon F
+542,1.759,475.348,11.786,Salcare Super 7 / Arlypon F
+542,2.195,472.084,10.604,Salcare Super 7 / Arlypon F
+542,2.739,468.295,9.431,Salcare Super 7 / Arlypon F
+542,3.427,464.587,8.683,Salcare Super 7 / Arlypon F
+542,4.286,461.5,8.638,Salcare Super 7 / Arlypon F
+542,5.348,458.209,8.36,Salcare Super 7 / Arlypon F
+542,6.69,455.229,7.752,Salcare Super 7 / Arlypon F
+542,8.368,453.121,7.147,Salcare Super 7 / Arlypon F
+542,10.441,450.749,6.653,Salcare Super 7 / Arlypon F
+542,13.061,448.128,6.421,Salcare Super 7 / Arlypon F
+542,16.336,445.044,5.436,Salcare Super 7 / Arlypon F
+542,20.384,442.207,3.783,Salcare Super 7 / Arlypon F
+542,25.433,438.903,2.913,Salcare Super 7 / Arlypon F
+542,31.818,435.315,2.694,Salcare Super 7 / Arlypon F
+542,39.795,430.327,4.023,Salcare Super 7 / Arlypon F
+542,49.653,423.155,3.21,Salcare Super 7 / Arlypon F
+542,62.114,414.719,2.395,Salcare Super 7 / Arlypon F
+542,77.693,402.968,2.792,Salcare Super 7 / Arlypon F
+542,96.936,388.256,2.674,Salcare Super 7 / Arlypon F
+542,121.268,369.28,2.448,Salcare Super 7 / Arlypon F
+542,151.681,346.236,2.359,Salcare Super 7 / Arlypon F
+542,189.259,319.824,2.089,Salcare Super 7 / Arlypon F
+542,236.146,290.311,1.947,Salcare Super 7 / Arlypon F
+542,295.408,258.506,1.585,Salcare Super 7 / Arlypon F
+542,369.478,226.307,1.31,Salcare Super 7 / Arlypon F
+542,461.008,195.509,1.144,Salcare Super 7 / Arlypon F
+542,576.732,166.529,0.935,Salcare Super 7 / Arlypon F
+542,721.335,140.479,0.726,Salcare Super 7 / Arlypon F
+542,897.698,118.53,0.573,Salcare Super 7 / Arlypon F
+625,1.0,269.11,14.631,Salcare Super 7 / Arlypon F
+625,1.26,266.003,13.543,Salcare Super 7 / Arlypon F
+625,1.59,268.427,11.673,Salcare Super 7 / Arlypon F
+625,2.0,262.587,12.035,Salcare Super 7 / Arlypon F
+625,2.51,260.64,11.081,Salcare Super 7 / Arlypon F
+625,3.16,260.09,11.683,Salcare Super 7 / Arlypon F
+625,3.98,262.273,11.629,Salcare Super 7 / Arlypon F
+625,5.01,261.56,11.166,Salcare Super 7 / Arlypon F
+625,6.31,260.0,10.546,Salcare Super 7 / Arlypon F
+625,7.94,260.287,10.552,Salcare Super 7 / Arlypon F
+625,10.0,259.773,9.903,Salcare Super 7 / Arlypon F
+625,12.6,260.123,9.823,Salcare Super 7 / Arlypon F
+625,15.9,259.63,9.499,Salcare Super 7 / Arlypon F
+625,20.0,259.34,9.287,Salcare Super 7 / Arlypon F
+625,25.1,258.9,9.025,Salcare Super 7 / Arlypon F
+625,31.6,258.38,8.812,Salcare Super 7 / Arlypon F
+625,39.8,257.717,8.656,Salcare Super 7 / Arlypon F
+625,50.1,256.44,8.423,Salcare Super 7 / Arlypon F
+625,63.1,254.623,8.208,Salcare Super 7 / Arlypon F
+625,79.4,251.843,7.908,Salcare Super 7 / Arlypon F
+625,100.0,247.73,7.599,Salcare Super 7 / Arlypon F
+625,126.0,241.787,7.268,Salcare Super 7 / Arlypon F
+625,159.0,233.627,6.81,Salcare Super 7 / Arlypon F
+625,200.0,222.91,6.18,Salcare Super 7 / Arlypon F
+625,251.0,209.277,5.573,Salcare Super 7 / Arlypon F
+625,316.0,192.807,4.986,Salcare Super 7 / Arlypon F
+625,398.0,174.217,4.212,Salcare Super 7 / Arlypon F
+625,501.0,154.917,3.63,Salcare Super 7 / Arlypon F
+625,631.0,134.963,2.825,Salcare Super 7 / Arlypon F
+625,794.0,116.09,1.864,Salcare Super 7 / Arlypon F
+625,1000.0,98.56,1.146,Salcare Super 7 / Arlypon F
+635,1.0,672.203,16.201,Salcare Super 7 / Arlypon F
+635,1.26,673.877,14.661,Salcare Super 7 / Arlypon F
+635,1.59,675.207,13.961,Salcare Super 7 / Arlypon F
+635,2.0,674.26,15.983,Salcare Super 7 / Arlypon F
+635,2.51,675.343,14.091,Salcare Super 7 / Arlypon F
+635,3.16,676.243,10.797,Salcare Super 7 / Arlypon F
+635,3.98,677.057,9.845,Salcare Super 7 / Arlypon F
+635,5.01,677.42,9.214,Salcare Super 7 / Arlypon F
+635,6.31,676.527,9.17,Salcare Super 7 / Arlypon F
+635,7.95,675.057,7.512,Salcare Super 7 / Arlypon F
+635,10.0,672.153,6.804,Salcare Super 7 / Arlypon F
+635,12.6,667.23,6.161,Salcare Super 7 / Arlypon F
+635,15.9,658.69,5.79,Salcare Super 7 / Arlypon F
+635,20.0,645.36,5.242,Salcare Super 7 / Arlypon F
+635,25.1,625.623,5.37,Salcare Super 7 / Arlypon F
+635,31.6,599.057,5.304,Salcare Super 7 / Arlypon F
+635,39.8,564.723,4.171,Salcare Super 7 / Arlypon F
+635,50.1,523.387,2.542,Salcare Super 7 / Arlypon F
+635,63.1,476.293,1.045,Salcare Super 7 / Arlypon F
+635,79.5,425.85,1.668,Salcare Super 7 / Arlypon F
+635,100.0,373.913,2.972,Salcare Super 7 / Arlypon F
+635,126.0,321.693,2.668,Salcare Super 7 / Arlypon F
+635,159.0,272.64,2.485,Salcare Super 7 / Arlypon F
+635,200.0,228.417,2.244,Salcare Super 7 / Arlypon F
+635,251.0,189.393,1.999,Salcare Super 7 / Arlypon F
+635,316.0,155.867,1.756,Salcare Super 7 / Arlypon F
+635,398.0,127.523,1.423,Salcare Super 7 / Arlypon F
+635,501.0,103.94,1.133,Salcare Super 7 / Arlypon F
+635,631.0,84.526,0.963,Salcare Super 7 / Arlypon F
+635,795.0,68.748,0.755,Salcare Super 7 / Arlypon F
+635,1000.0,55.956,0.628,Salcare Super 7 / Arlypon F
+639,1.0,1420.233,14.344,Salcare Super 7 / Arlypon F
+639,1.26,1416.733,13.512,Salcare Super 7 / Arlypon F
+639,1.59,1415.567,14.374,Salcare Super 7 / Arlypon F
+639,2.0,1415.5,16.982,Salcare Super 7 / Arlypon F
+639,2.51,1413.333,14.46,Salcare Super 7 / Arlypon F
+639,3.16,1409.867,13.343,Salcare Super 7 / Arlypon F
+639,3.98,1406.933,12.286,Salcare Super 7 / Arlypon F
+639,5.01,1401.267,12.077,Salcare Super 7 / Arlypon F
+639,6.31,1394.9,11.081,Salcare Super 7 / Arlypon F
+639,7.95,1384.867,12.208,Salcare Super 7 / Arlypon F
+639,10.0,1368.2,11.699,Salcare Super 7 / Arlypon F
+639,12.6,1343.867,11.039,Salcare Super 7 / Arlypon F
+639,15.9,1308.833,10.352,Salcare Super 7 / Arlypon F
+639,20.0,1259.767,9.34,Salcare Super 7 / Arlypon F
+639,25.1,1194.4,9.095,Salcare Super 7 / Arlypon F
+639,31.6,1111.7,8.408,Salcare Super 7 / Arlypon F
+639,39.8,1013.9,8.163,Salcare Super 7 / Arlypon F
+639,50.1,906.337,7.106,Salcare Super 7 / Arlypon F
+639,63.1,795.027,5.974,Salcare Super 7 / Arlypon F
+639,79.5,683.903,4.888,Salcare Super 7 / Arlypon F
+639,100.0,577.797,3.991,Salcare Super 7 / Arlypon F
+639,126.0,481.223,3.321,Salcare Super 7 / Arlypon F
+639,159.0,396.027,2.836,Salcare Super 7 / Arlypon F
+639,200.0,322.757,2.347,Salcare Super 7 / Arlypon F
+639,251.0,261.103,1.946,Salcare Super 7 / Arlypon F
+639,316.0,210.1,1.48,Salcare Super 7 / Arlypon F
+639,398.0,168.53,1.255,Salcare Super 7 / Arlypon F
+639,501.0,134.887,0.911,Salcare Super 7 / Arlypon F
+639,631.0,107.767,0.712,Salcare Super 7 / Arlypon F
+639,795.0,86.007,0.62,Salcare Super 7 / Arlypon F
+639,1000.0,68.746,0.566,Salcare Super 7 / Arlypon F
+672,1.0,4459.233,56.345,Salcare Super 7 / Arlypon TT
+672,1.26,4470.733,61.257,Salcare Super 7 / Arlypon TT
+672,1.59,4465.467,66.854,Salcare Super 7 / Arlypon TT
+672,2.0,4474.6,65.126,Salcare Super 7 / Arlypon TT
+672,2.51,4476.9,69.222,Salcare Super 7 / Arlypon TT
+672,3.16,4478.433,70.561,Salcare Super 7 / Arlypon TT
+672,3.98,4459.767,75.467,Salcare Super 7 / Arlypon TT
+672,5.01,4428.1,70.842,Salcare Super 7 / Arlypon TT
+672,6.31,4375.633,61.78,Salcare Super 7 / Arlypon TT
+672,7.95,4289.667,52.63,Salcare Super 7 / Arlypon TT
+672,10.0,4179.1,55.179,Salcare Super 7 / Arlypon TT
+672,12.6,4053.033,36.868,Salcare Super 7 / Arlypon TT
+672,15.9,3886.7,35.987,Salcare Super 7 / Arlypon TT
+672,20.0,3667.6,31.45,Salcare Super 7 / Arlypon TT
+672,25.1,3428.267,35.061,Salcare Super 7 / Arlypon TT
+672,31.6,3180.9,27.438,Salcare Super 7 / Arlypon TT
+672,39.8,2923.867,23.256,Salcare Super 7 / Arlypon TT
+672,50.1,2705.067,20.405,Salcare Super 7 / Arlypon TT
+672,63.1,2512.767,15.059,Salcare Super 7 / Arlypon TT
+672,79.5,2335.033,10.939,Salcare Super 7 / Arlypon TT
+672,100.0,2156.833,11.39,Salcare Super 7 / Arlypon TT
+672,126.0,1960.7,7.114,Salcare Super 7 / Arlypon TT
+672,159.0,1747.8,5.719,Salcare Super 7 / Arlypon TT
+672,200.0,1557.7,5.012,Salcare Super 7 / Arlypon TT
+672,251.0,1408.067,9.445,Salcare Super 7 / Arlypon TT
+672,316.0,1263.533,12.194,Salcare Super 7 / Arlypon TT
+672,398.0,780.18,41.227,Salcare Super 7 / Arlypon TT
+672,501.0,529.593,39.439,Salcare Super 7 / Arlypon TT
+672,631.0,403.857,12.022,Salcare Super 7 / Arlypon TT
+672,795.0,438.967,60.431,Salcare Super 7 / Arlypon TT
+672,1000.0,388.137,80.802,Salcare Super 7 / Arlypon TT
+693,1.102,335.837,12.375,Salcare Super 7 / Arlypon TT
+693,1.407,331.191,13.864,Salcare Super 7 / Arlypon TT
+693,1.76,333.427,13.102,Salcare Super 7 / Arlypon TT
+693,2.196,331.852,12.633,Salcare Super 7 / Arlypon TT
+693,2.74,329.965,12.418,Salcare Super 7 / Arlypon TT
+693,3.428,328.336,11.771,Salcare Super 7 / Arlypon TT
+693,4.287,327.274,11.168,Salcare Super 7 / Arlypon TT
+693,5.349,326.28,10.662,Salcare Super 7 / Arlypon TT
+693,6.692,325.372,10.321,Salcare Super 7 / Arlypon TT
+693,8.37,324.81,9.684,Salcare Super 7 / Arlypon TT
+693,10.443,324.402,9.396,Salcare Super 7 / Arlypon TT
+693,13.064,324.199,8.796,Salcare Super 7 / Arlypon TT
+693,16.34,323.956,9.0,Salcare Super 7 / Arlypon TT
+693,20.387,323.456,8.386,Salcare Super 7 / Arlypon TT
+693,25.439,323.702,8.289,Salcare Super 7 / Arlypon TT
+693,31.822,324.418,7.771,Salcare Super 7 / Arlypon TT
+693,39.803,325.453,7.02,Salcare Super 7 / Arlypon TT
+693,49.663,325.15,7.137,Salcare Super 7 / Arlypon TT
+693,62.128,324.979,6.577,Salcare Super 7 / Arlypon TT
+693,77.705,325.805,6.383,Salcare Super 7 / Arlypon TT
+693,96.953,324.472,6.216,Salcare Super 7 / Arlypon TT
+693,121.292,324.525,7.402,Salcare Super 7 / Arlypon TT
+693,151.703,325.579,7.172,Salcare Super 7 / Arlypon TT
+693,189.289,327.259,7.331,Salcare Super 7 / Arlypon TT
+693,236.173,329.138,7.094,Salcare Super 7 / Arlypon TT
+693,295.47,331.348,6.97,Salcare Super 7 / Arlypon TT
+693,369.557,332.83,6.875,Salcare Super 7 / Arlypon TT
+693,461.097,333.104,7.006,Salcare Super 7 / Arlypon TT
+693,576.83,331.32,7.325,Salcare Super 7 / Arlypon TT
+693,721.465,326.727,7.341,Salcare Super 7 / Arlypon TT
+693,897.84,318.225,7.343,Salcare Super 7 / Arlypon TT
+700,1.10206,497.84,23.30705373,Salcare Super 7 / Arlypon TT
+700,1.40694,495.39,23.9582771,Salcare Super 7 / Arlypon TT
+700,1.75972,494.58,22.27558729,Salcare Super 7 / Arlypon TT
+700,2.19592,493.1,22.23663725,Salcare Super 7 / Arlypon TT
+700,2.73982,492.25,22.58367196,Salcare Super 7 / Arlypon TT
+700,3.42736,491.38,23.22905853,Salcare Super 7 / Arlypon TT
+700,4.28692,490.5,23.05462106,Salcare Super 7 / Arlypon TT
+700,5.34891,489.88,23.11165522,Salcare Super 7 / Arlypon TT
+700,6.69145,489.7,22.60901313,Salcare Super 7 / Arlypon TT
+700,8.37007,490.17,22.38303236,Salcare Super 7 / Arlypon TT
+700,10.4432,490.82,22.43620283,Salcare Super 7 / Arlypon TT
+700,13.0648,491.66,23.65760893,Salcare Super 7 / Arlypon TT
+700,16.3391,492.5,24.480785,Salcare Super 7 / Arlypon TT
+700,20.389,494.27,25.18938961,Salcare Super 7 / Arlypon TT
+700,25.4393,496.19,26.3256637,Salcare Super 7 / Arlypon TT
+700,31.8234,499.68,26.81885438,Salcare Super 7 / Arlypon TT
+700,39.8031,504.02,28.30049413,Salcare Super 7 / Arlypon TT
+700,49.6626,504.87,29.96825198,Salcare Super 7 / Arlypon TT
+700,62.1264,505.34,28.20141609,Salcare Super 7 / Arlypon TT
+700,77.7091,510.33,31.45829901,Salcare Super 7 / Arlypon TT
+700,96.9579,507.5,27.89572116,Salcare Super 7 / Arlypon TT
+700,121.289,505.99,26.27141311,Salcare Super 7 / Arlypon TT
+700,151.707,507.92,24.05055236,Salcare Super 7 / Arlypon TT
+700,189.296,516.22,24.32357033,Salcare Super 7 / Arlypon TT
+700,236.186,525.35,24.67965821,Salcare Super 7 / Arlypon TT
+700,295.462,532.6,23.9541544,Salcare Super 7 / Arlypon TT
+700,369.552,532.81,23.57129243,Salcare Super 7 / Arlypon TT
+700,461.099,523.31,21.61700256,Salcare Super 7 / Arlypon TT
+700,576.836,502.23,19.7197236,Salcare Super 7 / Arlypon TT
+700,721.533,470.24,16.87729426,Salcare Super 7 / Arlypon TT
+700,897.875,431.81,14.1784373,Salcare Super 7 / Arlypon TT
+720,1.10365,286.56,24.71873638,Salcare Super 7 / Arlypon TT
+720,1.40697,281.43,24.46748774,Salcare Super 7 / Arlypon TT
+720,1.75972,281.62,21.83248764,Salcare Super 7 / Arlypon TT
+720,2.19598,278.88,20.87765166,Salcare Super 7 / Arlypon TT
+720,2.73993,275.18,19.33748367,Salcare Super 7 / Arlypon TT
+720,3.42764,271.96,18.1860863,Salcare Super 7 / Arlypon TT
+720,4.28727,269.55,17.43689537,Salcare Super 7 / Arlypon TT
+720,5.34937,267.03,16.67573212,Salcare Super 7 / Arlypon TT
+720,6.69236,264.58,16.27714228,Salcare Super 7 / Arlypon TT
+720,8.36989,262.59,15.9551632,Salcare Super 7 / Arlypon TT
+720,10.443,260.51,15.23306834,Salcare Super 7 / Arlypon TT
+720,13.0651,258.71,14.95302995,Salcare Super 7 / Arlypon TT
+720,16.3415,256.72,14.26216527,Salcare Super 7 / Arlypon TT
+720,20.3884,254.96,14.00690262,Salcare Super 7 / Arlypon TT
+720,25.4401,253.35,13.6651355,Salcare Super 7 / Arlypon TT
+720,31.8242,251.97,13.55730782,Salcare Super 7 / Arlypon TT
+720,39.8039,250.62,13.14773442,Salcare Super 7 / Arlypon TT
+720,49.668,248.67,12.76006871,Salcare Super 7 / Arlypon TT
+720,62.1302,247.27,12.73200239,Salcare Super 7 / Arlypon TT
+720,77.7082,245.41,12.27509495,Salcare Super 7 / Arlypon TT
+720,96.961,243.13,12.10721464,Salcare Super 7 / Arlypon TT
+720,121.293,240.3,11.81495065,Salcare Super 7 / Arlypon TT
+720,151.714,236.87,11.5187803,Salcare Super 7 / Arlypon TT
+720,189.303,232.72,10.93154733,Salcare Super 7 / Arlypon TT
+720,236.185,227.59,10.39301616,Salcare Super 7 / Arlypon TT
+720,295.477,221.36,9.826029628,Salcare Super 7 / Arlypon TT
+720,369.573,214.19,9.22206011,Salcare Super 7 / Arlypon TT
+720,461.119,206.49,8.778431803,Salcare Super 7 / Arlypon TT
+720,576.863,198.1,8.401702303,Salcare Super 7 / Arlypon TT
+720,721.544,189.16,7.888195416,Salcare Super 7 / Arlypon TT
+720,897.889,179.71,7.418921328,Salcare Super 7 / Arlypon TT
+736,1.105,416.742,24.671,Salcare Super 7 / Arlypon TT
+736,1.407,416.145,27.791,Salcare Super 7 / Arlypon TT
+736,1.76,417.792,26.086,Salcare Super 7 / Arlypon TT
+736,2.196,416.719,25.262,Salcare Super 7 / Arlypon TT
+736,2.74,411.735,22.729,Salcare Super 7 / Arlypon TT
+736,3.428,409.395,21.719,Salcare Super 7 / Arlypon TT
+736,4.288,408.743,21.805,Salcare Super 7 / Arlypon TT
+736,5.35,408.006,22.083,Salcare Super 7 / Arlypon TT
+736,6.692,407.675,22.481,Salcare Super 7 / Arlypon TT
+736,8.37,407.532,22.722,Salcare Super 7 / Arlypon TT
+736,10.444,407.243,23.616,Salcare Super 7 / Arlypon TT
+736,13.066,407.467,24.575,Salcare Super 7 / Arlypon TT
+736,16.342,407.51,25.67,Salcare Super 7 / Arlypon TT
+736,20.39,408.058,26.739,Salcare Super 7 / Arlypon TT
+736,25.441,408.644,27.282,Salcare Super 7 / Arlypon TT
+736,31.828,410.723,28.489,Salcare Super 7 / Arlypon TT
+736,39.808,413.264,30.77,Salcare Super 7 / Arlypon TT
+736,49.669,414.814,32.683,Salcare Super 7 / Arlypon TT
+736,62.135,415.136,27.94,Salcare Super 7 / Arlypon TT
+736,77.72,418.71,29.485,Salcare Super 7 / Arlypon TT
+736,96.968,420.578,23.835,Salcare Super 7 / Arlypon TT
+736,121.305,424.402,19.564,Salcare Super 7 / Arlypon TT
+736,151.725,429.308,17.133,Salcare Super 7 / Arlypon TT
+736,189.315,435.34,15.684,Salcare Super 7 / Arlypon TT
+736,236.21,438.63,14.515,Salcare Super 7 / Arlypon TT
+736,295.497,436.788,13.563,Salcare Super 7 / Arlypon TT
+736,369.596,427.245,13.688,Salcare Super 7 / Arlypon TT
+736,461.169,409.755,12.304,Salcare Super 7 / Arlypon TT
+736,576.911,384.057,11.281,Salcare Super 7 / Arlypon TT
+736,721.561,352.231,11.042,Salcare Super 7 / Arlypon TT
+736,895.667,317.095,10.328,Salcare Super 7 / Arlypon TT
+765,1.105,164.606,8.183,Dehyquart CC7 Benz / Arlypon TT
+765,1.407,161.607,11.54,Dehyquart CC7 Benz / Arlypon TT
+765,1.76,161.731,8.663,Dehyquart CC7 Benz / Arlypon TT
+765,2.196,158.977,6.101,Dehyquart CC7 Benz / Arlypon TT
+765,2.74,154.748,5.181,Dehyquart CC7 Benz / Arlypon TT
+765,3.428,150.928,4.893,Dehyquart CC7 Benz / Arlypon TT
+765,4.288,147.923,4.518,Dehyquart CC7 Benz / Arlypon TT
+765,5.35,144.528,4.723,Dehyquart CC7 Benz / Arlypon TT
+765,6.692,142.012,4.34,Dehyquart CC7 Benz / Arlypon TT
+765,8.37,139.759,3.894,Dehyquart CC7 Benz / Arlypon TT
+765,10.444,137.162,3.473,Dehyquart CC7 Benz / Arlypon TT
+765,13.066,135.133,3.053,Dehyquart CC7 Benz / Arlypon TT
+765,16.342,132.597,2.811,Dehyquart CC7 Benz / Arlypon TT
+765,20.39,130.706,2.5,Dehyquart CC7 Benz / Arlypon TT
+765,25.441,129.01,2.209,Dehyquart CC7 Benz / Arlypon TT
+765,31.828,127.629,1.872,Dehyquart CC7 Benz / Arlypon TT
+765,39.808,126.268,1.576,Dehyquart CC7 Benz / Arlypon TT
+765,49.669,124.607,1.305,Dehyquart CC7 Benz / Arlypon TT
+765,62.135,123.349,1.115,Dehyquart CC7 Benz / Arlypon TT
+765,77.72,121.94,0.947,Dehyquart CC7 Benz / Arlypon TT
+765,96.968,120.72,0.766,Dehyquart CC7 Benz / Arlypon TT
+765,121.305,119.203,0.622,Dehyquart CC7 Benz / Arlypon TT
+765,151.725,117.582,0.519,Dehyquart CC7 Benz / Arlypon TT
+765,189.315,115.802,0.421,Dehyquart CC7 Benz / Arlypon TT
+765,236.21,113.75,0.341,Dehyquart CC7 Benz / Arlypon TT
+765,295.497,111.398,0.225,Dehyquart CC7 Benz / Arlypon TT
+765,369.596,108.642,0.146,Dehyquart CC7 Benz / Arlypon TT
+765,461.169,105.614,0.11,Dehyquart CC7 Benz / Arlypon TT
+765,576.911,102.38,0.071,Dehyquart CC7 Benz / Arlypon TT
+765,721.561,98.992,0.089,Dehyquart CC7 Benz / Arlypon TT
+765,895.667,95.331,0.179,Dehyquart CC7 Benz / Arlypon TT
+785,1.1031,182.31,10.22935809,Dehyquart CC7 Benz / Arlypon TT
+785,1.40656,178.6,11.30312696,Dehyquart CC7 Benz / Arlypon TT
+785,1.75947,180.8,11.49292584,Dehyquart CC7 Benz / Arlypon TT
+785,2.1954,180.84,9.654728082,Dehyquart CC7 Benz / Arlypon TT
+785,2.73948,177.76,8.968009274,Dehyquart CC7 Benz / Arlypon TT
+785,3.42706,174.61,8.337856559,Dehyquart CC7 Benz / Arlypon TT
+785,4.28669,172.65,7.800319374,Dehyquart CC7 Benz / Arlypon TT
+785,5.34862,171.02,7.410974722,Dehyquart CC7 Benz / Arlypon TT
+785,6.69086,169.59,6.904585602,Dehyquart CC7 Benz / Arlypon TT
+785,8.36844,168.5,6.530765575,Dehyquart CC7 Benz / Arlypon TT
+785,10.4413,167.11,6.185131931,Dehyquart CC7 Benz / Arlypon TT
+785,13.0628,166.26,5.873939933,Dehyquart CC7 Benz / Arlypon TT
+785,16.3388,164.65,5.695790141,Dehyquart CC7 Benz / Arlypon TT
+785,20.3852,163.78,5.449462573,Dehyquart CC7 Benz / Arlypon TT
+785,25.435,162.85,5.388173995,Dehyquart CC7 Benz / Arlypon TT
+785,31.8193,162.05,5.255924403,Dehyquart CC7 Benz / Arlypon TT
+785,39.7967,161.36,5.0437988,Dehyquart CC7 Benz / Arlypon TT
+785,49.657,160.3,4.916004577,Dehyquart CC7 Benz / Arlypon TT
+785,62.1182,159.57,4.895721499,Dehyquart CC7 Benz / Arlypon TT
+785,77.6966,158.89,4.695765149,Dehyquart CC7 Benz / Arlypon TT
+785,96.9443,158.47,4.699990887,Dehyquart CC7 Benz / Arlypon TT
+785,121.271,157.84,4.640105638,Dehyquart CC7 Benz / Arlypon TT
+785,151.685,157.48,4.634745552,Dehyquart CC7 Benz / Arlypon TT
+785,189.261,157.39,4.694451193,Dehyquart CC7 Benz / Arlypon TT
+785,236.148,157.64,4.804702523,Dehyquart CC7 Benz / Arlypon TT
+785,295.424,158.09,4.990593385,Dehyquart CC7 Benz / Arlypon TT
+785,369.519,159.04,5.042071697,Dehyquart CC7 Benz / Arlypon TT
+785,461.068,160.28,5.076503357,Dehyquart CC7 Benz / Arlypon TT
+785,576.758,161.64,5.176532849,Dehyquart CC7 Benz / Arlypon TT
+785,721.376,162.59,5.634149714,Dehyquart CC7 Benz / Arlypon TT
+785,897.73,161.69,5.732340912,Dehyquart CC7 Benz / Arlypon TT
+795,1.105,481.241,7.138,Dehyquart CC7 Benz / Arlypon TT
+795,1.407,475.64,4.409,Dehyquart CC7 Benz / Arlypon TT
+795,1.76,476.311,4.926,Dehyquart CC7 Benz / Arlypon TT
+795,2.196,474.887,5.864,Dehyquart CC7 Benz / Arlypon TT
+795,2.74,472.693,6.37,Dehyquart CC7 Benz / Arlypon TT
+795,3.428,471.073,6.109,Dehyquart CC7 Benz / Arlypon TT
+795,4.288,470.105,6.352,Dehyquart CC7 Benz / Arlypon TT
+795,5.35,469.737,6.954,Dehyquart CC7 Benz / Arlypon TT
+795,6.692,468.334,7.18,Dehyquart CC7 Benz / Arlypon TT
+795,8.37,467.139,6.992,Dehyquart CC7 Benz / Arlypon TT
+795,10.444,465.777,6.707,Dehyquart CC7 Benz / Arlypon TT
+795,13.066,464.537,7.607,Dehyquart CC7 Benz / Arlypon TT
+795,16.342,463.109,7.985,Dehyquart CC7 Benz / Arlypon TT
+795,20.39,462.076,8.013,Dehyquart CC7 Benz / Arlypon TT
+795,25.441,461.073,8.347,Dehyquart CC7 Benz / Arlypon TT
+795,31.828,460.156,8.157,Dehyquart CC7 Benz / Arlypon TT
+795,39.808,458.429,7.757,Dehyquart CC7 Benz / Arlypon TT
+795,49.669,456.189,8.088,Dehyquart CC7 Benz / Arlypon TT
+795,62.135,454.738,7.998,Dehyquart CC7 Benz / Arlypon TT
+795,77.72,451.345,7.899,Dehyquart CC7 Benz / Arlypon TT
+795,96.968,448.267,8.039,Dehyquart CC7 Benz / Arlypon TT
+795,121.305,443.891,7.709,Dehyquart CC7 Benz / Arlypon TT
+795,151.725,438.135,7.65,Dehyquart CC7 Benz / Arlypon TT
+795,189.315,430.463,7.094,Dehyquart CC7 Benz / Arlypon TT
+795,236.21,420.079,6.526,Dehyquart CC7 Benz / Arlypon TT
+795,295.497,406.712,5.376,Dehyquart CC7 Benz / Arlypon TT
+795,369.596,390.177,4.718,Dehyquart CC7 Benz / Arlypon TT
+795,461.169,370.697,4.306,Dehyquart CC7 Benz / Arlypon TT
+795,576.911,348.215,4.07,Dehyquart CC7 Benz / Arlypon TT
+795,721.561,324.007,3.953,Dehyquart CC7 Benz / Arlypon TT
+795,895.667,299.209,3.07,Dehyquart CC7 Benz / Arlypon TT
+801,1.105,487.689,7.465,Dehyquart CC7 Benz / Arlypon TT
+801,1.407,485.44,8.561,Dehyquart CC7 Benz / Arlypon TT
+801,1.76,485.264,9.35,Dehyquart CC7 Benz / Arlypon TT
+801,2.196,483.43,10.81,Dehyquart CC7 Benz / Arlypon TT
+801,2.74,481.657,11.16,Dehyquart CC7 Benz / Arlypon TT
+801,3.428,480.528,11.663,Dehyquart CC7 Benz / Arlypon TT
+801,4.288,479.656,12.665,Dehyquart CC7 Benz / Arlypon TT
+801,5.35,479.246,13.038,Dehyquart CC7 Benz / Arlypon TT
+801,6.692,478.899,13.425,Dehyquart CC7 Benz / Arlypon TT
+801,8.37,478.195,14.106,Dehyquart CC7 Benz / Arlypon TT
+801,10.444,477.188,14.673,Dehyquart CC7 Benz / Arlypon TT
+801,13.066,476.746,15.04,Dehyquart CC7 Benz / Arlypon TT
+801,16.342,475.378,15.159,Dehyquart CC7 Benz / Arlypon TT
+801,20.39,474.399,15.701,Dehyquart CC7 Benz / Arlypon TT
+801,25.441,473.476,15.905,Dehyquart CC7 Benz / Arlypon TT
+801,31.828,472.624,16.089,Dehyquart CC7 Benz / Arlypon TT
+801,39.808,470.679,16.307,Dehyquart CC7 Benz / Arlypon TT
+801,49.669,467.911,16.325,Dehyquart CC7 Benz / Arlypon TT
+801,62.135,465.373,16.297,Dehyquart CC7 Benz / Arlypon TT
+801,77.72,460.427,16.138,Dehyquart CC7 Benz / Arlypon TT
+801,96.968,454.446,16.127,Dehyquart CC7 Benz / Arlypon TT
+801,121.305,445.668,15.386,Dehyquart CC7 Benz / Arlypon TT
+801,151.725,434.39,14.741,Dehyquart CC7 Benz / Arlypon TT
+801,189.315,420.729,13.698,Dehyquart CC7 Benz / Arlypon TT
+801,236.21,404.189,12.643,Dehyquart CC7 Benz / Arlypon TT
+801,295.497,385.147,11.677,Dehyquart CC7 Benz / Arlypon TT
+801,369.596,364.44,10.652,Dehyquart CC7 Benz / Arlypon TT
+801,461.169,342.931,9.511,Dehyquart CC7 Benz / Arlypon TT
+801,576.911,320.334,8.499,Dehyquart CC7 Benz / Arlypon TT
+801,721.561,297.161,7.323,Dehyquart CC7 Benz / Arlypon TT
+801,895.667,273.97,6.262,Dehyquart CC7 Benz / Arlypon TT

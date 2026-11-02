@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Published source, training inputs/code, and unchanged skin/eye input hashes",
+    "All stock quantities preserved; no missing measurements replaced with zero; interpolated viscosity targets trace to source curves",
+    "All grouped holdouts disjoint; one OOF prediction per eligible ID/model/repeat; task-specific training counts checked",
+    "Recomputed 36 pooled evaluation rows and 90 metric summaries",
+    "Model hashes, feature order, eligible training IDs and finite predictions",
+    "Physical outcomes kept separate from unmeasured skin/eye outcomes",
+    "Candidate parent recipes, interpolation, mass balance and saved predictions"
+  ],
+  "fold0_refit_max_absolute_differences": {
+    "stability": 5.551115123125783e-17,
+    "viscosity_100": 8.881784197001252e-16,
+    "turbidity": 6.661338147750939e-16
+  },
+  "external_validation_performed": false,
+  "toxicity_transfer_performed": false
+}

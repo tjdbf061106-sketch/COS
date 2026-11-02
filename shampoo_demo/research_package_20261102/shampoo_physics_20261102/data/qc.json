@@ -1,0 +1,32 @@
+{
+  "rows": 812,
+  "stable": 294,
+  "unstable": 518,
+  "ingredient_count": 18,
+  "combination_groups": 475,
+  "subsystem_groups": 8,
+  "nonzero_ingredient_counts": {
+    "4": 811,
+    "3": 1
+  },
+  "viscosity_100_targets": 293,
+  "turbidity_targets": 294,
+  "curve_issues": [
+    {
+      "sample_id": 151,
+      "reason": "Log interpolation needs finite positive measurements"
+    }
+  ],
+  "non_four_ingredient_ids": [
+    366
+  ],
+  "duplicate_exact_recipes": 0,
+  "physical_conditions": "35 min mixing at 360 rpm and 25 C; pH 5.8 +/- 0.2; final stability at 36 h; rheology 25 C",
+  "not_present": [
+    "skin irritation",
+    "eye irritation",
+    "long-term stability",
+    "exact acid/base titrant mass",
+    "complete molecular composition"
+  ]
+}

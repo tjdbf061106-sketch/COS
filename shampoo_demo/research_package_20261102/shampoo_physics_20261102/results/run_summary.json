@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "n_formulations": 812,
+  "n_stable": 294,
+  "oof_prediction_rows": 16788,
+  "repeat_metric_rows": 36,
+  "primary_model_fixed_before_results": "extra_trees",
+  "toxicity_prediction_or_transfer_performed": false,
+  "independent_external_validation_performed": false
+}

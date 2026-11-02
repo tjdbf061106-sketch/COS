@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "scope": "Short-term shampoo physical properties under the source study conditions; no skin/eye endpoint scoring",
+  "feature_order": [
+    "Texapon SB 3 KC",
+    "Plantapon ACG 50",
+    "Plantapon LC 7",
+    "Plantacare 818",
+    "Plantacare 2000",
+    "Dehyton MC",
+    "Dehyton PK 45",
+    "Dehyton ML",
+    "Dehyton AB 30",
+    "Plantapon Amino SCG-L",
+    "Plantapon Amino KG-L",
+    "Dehyquart A-CA",
+    "Luviquat Excellence",
+    "Dehyquart CC6",
+    "Dehyquart CC7 Benz",
+    "Salcare Super 7",
+    "Arlypon F",
+    "Arlypon TT"
+  ],
+  "feature_unit": "as-supplied stock mass percent of total formulation",
+  "number_of_features": 18,
+  "renormalize_stock_sum_to_100": false,
+  "supply_grade_changes_supported": false,
+  "model_positive_class": "stable",
+  "model_class_order": [
+    0,
+    1
+  ],
+  "predict_proba_column_1": "P(stable) uncalibrated score, not a validated probability",
+  "demo_positive_class": "unstable",
+  "p_unstable": "1 - p_stable",
+  "evaluation_threshold_p_stable": 0.5,
+  "stable_decision": "p_stable >= 0.5",
+  "unstable_decision": "NOT stable_decision (equivalently p_unstable > 0.5)",
+  "threshold_tie_class": "stable",
+  "metric_conversion": "Swap Sensitivity and Specificity; MCC and ROC-AUC are unchanged when truth, rank, and decision are reversed together",
+  "roc_auc_unstable_score": "-p_stable; same theoretical ranking as 1-p_stable, avoids merging near-ties through floating-point subtraction. A ranking score, not a probability.",
+  "models": {
+    "stability": {
+      "path": "shampoo_physics_20261102/models/stability.joblib",
+      "type": "ExtraTreesClassifier",
+      "training_rows": 812,
+      "output": "uncalibrated stability score"
+    },
+    "viscosity_100": {
+      "path": "shampoo_physics_20261102/models/viscosity_100.joblib",
+      "type": "ExtraTreesRegressor",
+      "training_rows": 293,
+      "raw_output": "log10(viscosity in mPa.s at 100 s^-1)",
+      "inverse": "10 ** raw_prediction",
+      "temperature_c": 25,
+      "conditional_on": "observed stable formulations"
+    },
+    "turbidity": {
+      "path": "shampoo_physics_20261102/models/turbidity.joblib",
+      "type": "ExtraTreesRegressor",
+      "training_rows": 294,
+      "raw_output": "log10(1 + NTU)",
+      "inverse": "10 ** max(raw_prediction, 0) - 1",
+      "conditional_on": "observed stable formulations"
+    }
+  },
+  "candidate_filter_p_stable": 0.8,
+  "candidate_filter_is_evaluation_threshold": false,
+  "example_targets": {
+    "min_viscosity_100_mPa_s": 100,
+    "max_turbidity_ntu": 100
+  },
+  "observed_target_matches": 44,
+  "unmeasured_candidates": 990,
+  "point_target_matches": 99,
+  "error_band_target_matches": 0,
+  "error_bands": "Descriptive OOF 90th-percentile absolute log residuals, not calibrated prediction intervals",
+  "enriched_features": {
+    "counts": [
+      18,
+      61,
+      114
+    ],
+    "model_trained": false,
+    "saved_models_accept_enriched_columns": false
+  },
+  "external_validation_performed": false,
+  "skin_eye_predictions_supported": false,
+  "full_molecular_composition_available": false,
+  "experimental_confirmation_required_for_new_candidates": true
+}
