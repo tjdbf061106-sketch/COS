@@ -1,0 +1,37 @@
+{
+  "retrieved_at": "2026-11-02",
+  "paper": {
+    "citation": "Chitre A. et al. Accelerating Formulation Design via Machine Learning: Generating a High-throughput Shampoo Formulations Dataset. Scientific Data 11, 728 (2024).",
+    "doi": "10.1038/s41597-024-03573-w",
+    "url": "https://www.nature.com/articles/s41597-024-03573-w"
+  },
+  "sources": [
+    {
+      "figshare_article_id": 25451878,
+      "doi": "10.6084/m9.figshare.25451878.v1",
+      "landing_page": "https://springernature.figshare.com/articles/software/Liquid_Formulations_Dataset/25451878",
+      "download_url": "https://ndownloader.figshare.com/files/45187180",
+      "path": "source_data/liquid_formulations/LiquidFormulationsDataset_2023.json",
+      "bytes": 1464630,
+      "sha256": "3A195870782E6FD87BDD7499CBB4FE201D025B2CDA05F9EEE9FB9477F34B58BD"
+    },
+    {
+      "figshare_article_id": 25451926,
+      "doi": "10.6084/m9.figshare.25451926.v1",
+      "landing_page": "https://springernature.figshare.com/articles/dataset/Surfactants_Information/25451926",
+      "download_url": "https://ndownloader.figshare.com/files/45187306",
+      "path": "source_data/surfactant_information/BASF Surfactants Information.csv",
+      "bytes": 2642,
+      "sha256": "27045F6D4FA7DB19D8890C46E0926F1F07C4A39F5A4EB72CAE4235191F6FEEA1"
+    },
+    {
+      "figshare_article_id": 25451929,
+      "doi": "10.6084/m9.figshare.25451929.v1",
+      "landing_page": "https://springernature.figshare.com/articles/figure/Structures_of_Formulations_Ingredients/25451929",
+      "download_url": "https://ndownloader.figshare.com/files/45187309",
+      "path": "source_data/ingredient_structures/BASF Formulation Ingredient Structures.pptx",
+      "bytes": 354656,
+      "sha256": "332379EFCB790CABAE1B677A49C31389275206FAF201534FB98507E6CDA867E2"
+    }
+  ]
+}
