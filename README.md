@@ -1,106 +1,129 @@
-# NTP ICE 혼합물 기반 화장품 피부·안 자극성 예측 모델 개발
-### — 도메인 전이 및 적용범위(Applicability Domain) 정량화
+# COS — 제형 근거 추적 및 물성 설계 연구
 
-2026학년도 미래인재대학 학술제 참가 프로젝트 (팀 COS: 김서율 · 장다예 · 전수진 · 한세음)
+2026학년도 미래인재대학 학술제 · 팀 COS
 
-## 이 연구가 뭘 하는 건가
+## 연구 방향
 
-화장품 피부·안 자극성 평가는 전통적으로 동물실험(Draize test)에 의존해왔지만, EU 등 주요 시장에서 화장품 원료 동물실험이 금지되면서 in vitro·in silico 대체 평가법 수요가 커지고 있습니다.
+이 프로젝트는 처음에 NTP ICE 혼합물 데이터로 학습한 피부·안자극성 모델을 화장품 제형에 전이하는 것을 목표로 시작했습니다. 공개 화장품 자료와 학습 자료를 검토한 결과, **신뢰할 수 있는 화장품 자극성 전이학습은 현재 공개 자료만으로 수행하지 않기로 결정**했습니다.
 
-이 연구는 **NTP ICE(Integrated Chemical Environment)**의 농약 혼합물 피부·안 자극성 데이터(EPA Classification 4단계 등급)로 성분 조성(SMILES 기반 분자구조 feature)으로부터 제형 전체의 자극성을 예측하는 모델을 만들고, 이를 **화장품 제형에 전이학습(transfer learning)으로 적용**하는 것을 목표로 합니다. 핵심 질문은 두 가지입니다.
+전이학습을 억지로 수행해 외부 적용 성능을 주장하지 않습니다. 대신 지금까지 구축한 자극성 모델과 데이터 검증 경험을 다음 두 산출물로 발전시킵니다.
 
-1. 농약 제형 데이터로 학습한 모델이 화장품처럼 전혀 다른 조성의 제형에도 쓸 수 있을까?
-2. 쓸 수 있다면 어디까지(적용범위, AD) 믿을 수 있고, 어디서부터는 확인시험이 필요할까?
+1. **처방 변경 근거 추적기** — 처방 변경 전·후의 원료, 공급사, 등급, 활성분, 농도, 시험 조건 차이를 정리하고 재확인이 필요한 항목을 제시하는 도구
+2. **샴푸 물성 설계 연구** — 공개 실측 샴푸 데이터로 단기 상안정성을 먼저 분류하고, 안정 제형 안에서 탁도·점도 목표에 가까운 후보를 탐색하는 연구
 
-## 지금까지 한 일 (요약)
+두 산출물은 제형 조성의 출처·단위·결측·적용범위를 엄격하게 추적한다는 원칙을 공유하지만, 자극성 라벨과 샴푸 물성 라벨을 서로 전이하거나 결합하지 않습니다.
 
-- **skin/eye 데이터 벡터화 완료**: NTP ICE 원본에서 Mixture+EPA Classification 조건으로 필터링 → CASRN 결측/라벨 충돌 등 데이터 정제 → SMILES 기반 RDKit 분자 descriptor(공통 8개 + 전체 descriptor 217개 + Morgan fingerprint 2,048비트)로 벡터화. (skin 544건, eye 841건)
-- **Multi-task PyTorch 모델 설계 및 1차 학습**: skin/eye를 하나의 신경망으로 묶어 task-specific encoder + shared trunk + task별 head 구조로 설계. 클래스 불균형(skin 독성:비독성 ≈ 1:17) 대응 방식을 class-weighted loss / SMOTE 등으로 비교 검토 후 class-weighted loss 채택.
-- **중간보고서 작성 완료**(`서류/중간보고서_COS.docx`).
-- 현재 단계: 모델 성능 개선(feature 정비, 하이퍼파라미터 튜닝) 진행 중. 화장품 데이터 적용(전이학습)은 다음 단계.
+## 왜 화장품 자극성 전이학습을 중단했나
 
+공개 자료를 검토하면서 다음 세 가지 장벽을 확인했습니다.
 
-## 폴더 구조
+- 농약/산업용 자극성 학습 자료에는 분자구조가 있지만 제형 조성·시험 조건이 충분히 공개되지 않은 경우가 많습니다.
+- 화장품 자료에는 전성분이 있어도 자극성을 좌우할 수 있는 계면활성제의 실제 공급원료 조성, 활성분, 시험농도, 등급 정보가 부족합니다.
+- 두 도메인에서 겹치는 성분이 적고, 공개 화장품 소표본에서는 제품군·연도 효과가 화학적 신호를 교란할 수 있습니다.
 
+따라서 화장품 자료에 대한 자극성 점수·등급·안전성 판정을 생성하거나, 시험 면제 근거를 제공하지 않습니다. 화장품 파트는 적용 가능성·근거 공백·재확인 필요성을 분석하는 범위로 제한합니다.
+
+## 현재 파이프라인
+
+```text
+[완료] NTP ICE skin·eye 데이터 확보
+  → [완료] 혼합물 전처리 · 라벨 정리 · 구조 기반 벡터화
+  → [진행] 자극성 모델 내부 검증
+       - group-aware 분할, 클래스 불균형, feature·threshold·오류 분석
+       - 모델의 성능·변동성·적용 한계를 함께 보고
+  → [완료] 공개 화장품 자료 기반 전이 가능성 검토
+       - 결론: 신뢰 가능한 자극성 전이학습은 수행하지 않음
+  ├─ [다음] A. 처방 변경 근거 추적기
+  │    처방 비교 → 확인된 변화/미확인 정보 → 재확인 체크리스트
+  └─ [다음] B. 샴푸 물성 설계 연구
+       데이터 점검 → 상안정성 분류 → 안정 제형 물성 회귀 → 후보 탐색
 ```
-학술제/
-├── skin irritation/   # skin 트랙 — 데이터 전처리·벡터화·feature 실험
-├── eye irritation/     # eye 트랙 — 데이터 전처리·벡터화
-├── modeling/           # Multi-task PyTorch 모델 harness (skin+eye 통합 학습/평가)
-├── 서류/               # 연구계획서, 중간보고서, 학교 제출 서식
-├── 선행연구/            # 팀원별 선행연구 리뷰 (4편)
-├── 세팅/               # 진행상황.md 등 프로젝트 운영 문서
-└── 주차 별 진행상황/     # 주차별 결과요약 PDF
+
+## 지금까지 완료한 일
+
+### 1) NTP ICE 피부·안자극성 데이터 준비
+
+- skin/eye 혼합물 자료를 정제하고, EPA Classification을 이진 라벨(Category 1–2 vs 3–4)로 병행 사용합니다.
+- 피부 자극 트랙은 제형 단위 라벨, 동일 조성 그룹(`comp_group_id`), 성분별 SMILES 기반 RDKit descriptor와 Morgan fingerprint를 준비했습니다.
+- CASRN 결측·날짜 오염, 라벨 충돌, 동일 조성 제형의 leakage 위험, 중복 descriptor를 점검·정리했습니다.
+- 모델 성능은 단일 hold-out 수치가 아니라 group-aware 교차검증과 반복 평가로 해석합니다.
+
+### 2) 자극성 모델의 역할
+
+`modeling/`은 skin/eye NTP ICE 벡터화 자료를 이용하는 multi-task PyTorch 이진분류 harness입니다. 이 모델은 다음 용도로만 사용합니다.
+
+- 원 학습 도메인 안에서의 내부 성능 및 변동성 검증
+- 작은 양성 표본, 고차원 feature, 조기종료, threshold, data leakage의 영향을 분석
+- 오분류(FN/FP)와 적용 한계를 발표 자료로 설명
+
+이 모델의 현재 checkpoint나 내부 교차검증 수치를 화장품 외부검증 성능으로 해석해서는 안 됩니다.
+
+### 3) 처방 변경 근거 추적기 — 다음 개발 대상
+
+근거 추적기는 예측기가 아니라 **확인 항목을 구조화하는 도구**입니다.
+
+입력:
+
+- 변경 전·후 처방: 원료명, 투입량, 공급사, 원료등급, 활성분 함량
+- 시험농도, 적용 시험 기준/버전, 제품군 및 용도
+
+출력:
+
+- 기능 범주별로 확인된 변경사항
+- 내부 조성·활성분·시험 조건 등 계산 또는 비교가 불가능한 정보
+- 공개 규격서·보유 시험 자료에서 재확인할 체크리스트
+
+하지 않는 일:
+
+- 자극성 점수·등급·안전성 판정 생성
+- 시험 면제 또는 규제 제출 근거 자동 생성
+- 기존 시험 결과의 재사용 가능 여부 확정
+
+### 4) 샴푸 물성 설계 연구 — 별도 모델링 트랙
+
+공개 실측 샴푸 데이터(Chitre et al., 2024)를 별도 데이터셋으로 사용합니다. 이 자료는 18개 상용 원료 기반 812개 제형의 조성·상안정성 정보와, 안정 제형 294개의 탁도·유변 측정값을 제공합니다. [논문](https://doi.org/10.1038/s41597-024-03573-w)
+
+개발 순서:
+
+1. 원본·단위·결측·반복 측정·원료 활성분을 점검하고 평가 계획을 고정합니다.
+2. 조성만으로 단기 상안정성(안정/불안정)을 분류합니다.
+3. 안정 제형 중 실제 측정값이 있는 표본으로 탁도와 사전에 정한 전단률의 점도를 각각 회귀합니다.
+4. 학습 원료·농도 범위 안에서만 목표 물성에 가까운 후보를 제안하고, 후속 실험 대상임을 명확히 표시합니다.
+
+이 연구는 장기 보관 안정성, 유통기한, 모든 상용 샴푸에 대한 일반화, 새 제형의 실측 성능 보장을 주장하지 않습니다.
+
+## 리포지터리 구조
+
+```text
+COS/
+├── skin irritation/   # skin 데이터, 벡터화, feature·평가 실험
+├── eye irritation/    # eye 데이터, 벡터화, 참고 자료
+├── modeling/          # NTP ICE skin+eye 내부 검증용 PyTorch harness
+├── 서류/              # 연구계획서·중간보고서·학교 제출 양식
+├── 선행연구/          # 팀원별 선행연구 리뷰
+├── 세팅/              # 진행상황 및 프로젝트 운영 문서
+└── 주차 별 진행상황/  # 주차별 결과 요약
 ```
 
-### `skin irritation/` — skin 트랙
+## 재현·보고 원칙
 
-핵심 데이터(원본~최종 벡터화 결과)는 폴더 바로 아래에, 그 외는 용도별 하위폴더로 정리했습니다.
+- 평가 분할, feature 선택, 표준화, threshold 선택은 학습 데이터 또는 fold 내부에서만 수행합니다.
+- 성능은 Sensitivity, Specificity, MCC, ROC-AUC와 Sens–Spec 격차를 함께 보고합니다.
+- single split 결과는 배포용 checkpoint 확인에만 사용하고, 설정 비교·발표 성능은 반복 group-aware CV를 기준으로 합니다.
+- 모델, 실측값, 미확인 정보, 연구용 후보 제안을 화면·문서에서 구분합니다.
+- 새로운 UI나 앱은 위 원칙을 준수하기 전에는 실제 예측·안전성 판정을 제공하지 않습니다.
 
-| 파일 | 설명 |
+## 상태
+
+| 작업 | 상태 |
 |---|---|
-| `skin_irritation.xlsx` | NTP ICE 원본 데이터 |
-| `skin_filtered.csv` | Mixture + EPA Classification 필터링 결과(1,799행) |
-| `skin_formulation_level_with_comp_group.csv` | 제형 단위 라벨 + 동일조성 그룹(comp_group_id) 정리본 |
-| `casrn_smiles_cache.csv` | CASRN → SMILES 매핑(PubChem 조회) |
-| `casrn_descriptors_full.csv` | 성분별 RDKit descriptor 계산 결과(264종 × 2,273차원) |
-| `skin_vectorized.csv` | **최종 벡터화 결과**(544행 × 2,289컬럼, 모델 입력용) |
-| `epi_check_template.csv` | EPI Suite 실측값 대조용 템플릿(30종, 입력 대기 중) |
-| `notebooks/` | feature 생성·실험 노트북 전체(아래 참조) |
-| `reference/` | 선행연구 벤치마크 자료(`XGB.xlsx`/`descriptor.pdf`)·학교 양식 사본 |
-| `images/` | 라벨분포·재벡터화 과정 시각화 PNG |
+| NTP ICE skin/eye 전처리·벡터화 | 완료 |
+| 자극성 모델 내부 검증 | 진행 중 |
+| 화장품 자극성 전이학습 | 수행하지 않음 — 공개 자료 한계 확인 |
+| 처방 변경 근거 추적기 | 설계 확정, 구현 전 |
+| 샴푸 상안정성·물성 모델 | 데이터 점검·평가계획 수립 전 |
 
-`notebooks/`에 들어있는 파일:
-- `skin_feature_rebuild.ipynb` / `skin_feature_expand_full.ipynb` — feature 생성 과정(염 제거, descriptor 계산, 시각화 포함)
-- `skin_addons.ipynb` — EPI Suite 대조용, 메타변수 검증, 그룹분할 검증
-- `skin_aggregation_comparison.ipynb` — 성분→제형 집계 방식(가중평균/최댓값/최솟값 등) 비교 실험
-- `skin_harness_cv_upgrade.ipynb` — 단일분할 vs group k-fold 교차검증 안정성 비교
-- `skin_classweight_demo.ipynb` / `skin_smote_demo.ipynb` — 클래스 불균형 대응 방식(class-weighted loss vs SMOTE) 비교 데모
+## 참고
 
-### `eye irritation/` — eye 트랙
-
-| 파일 | 설명 |
-|---|---|
-| `eye_irritation.xlsx` | NTP ICE 원본 데이터 |
-| `eye_filtered.csv` | 혼합물/순물질/시험법별 분리 결과 |
-| `eye_vectorized.csv` | **최종 벡터화 결과**(841행, skin과 동일한 descriptor+fingerprint 체계) |
-| `drd_vectorized.csv` | 보강데이터(DRD_Barroso2017 기반) 벡터화 결과 — GHS 병행분류 채택 시에만 사용 |
-| `eye_벡터화_방법.md` | eye 트랙 벡터화 방법론 설명 |
-| `notebooks/` | feature 생성 노트북·스크립트(`eye_feature_rebuild.ipynb`, `build_vectors.py` 등) |
-| `reference/` | 보강데이터 후보 원본(`DRD_Barroso2017_extracted.xlsx`, `DRD_usable.csv`, `ICE_Eye_Irritation_CAP.xlsx`, `eye_invitro_vitrigel.csv` — 검토 결과는 진행상황.md 참조) |
-
-### `modeling/` — 통합 모델링 harness
-
-skin과 eye를 하나의 Multi-task 신경망으로 학습·평가하는 PyTorch 코드.
-
-| 파일 | 설명 |
-|---|---|
-| `src/datasets.py` | skin/eye CSV를 PyTorch Dataset으로 로드 |
-| `src/model.py` | Multi-task 모델 구조(task-specific encoder + shared trunk + head, 학습 가능한 α/β 손실가중치) |
-| `src/splits.py` | 동일조성 제형이 train/test에 갈라지지 않도록 하는 group-aware 분할 |
-| `src/train.py` | 학습 스크립트(클래스 불균형 대응 포함) |
-| `src/evaluate.py` | 학습된 모델 평가(F1, ROC-AUC, 혼동행렬) |
-| `checkpoint.pt` | 최근 학습된 모델 가중치 |
-
-### `서류/` — 문서
-
-| 파일/폴더 | 설명 |
-|---|---|
-| `붙임1~3` | 학교 제출용 참가신청서·연구계획서·개인정보동의서(hwpx) |
-| `중간보고서_COS.docx` | 중간보고서(학교 양식 준수) |
-| `최종보고서 작성양식.hwp/pdf`, `최종보고서틀.hwp/pdf` | 학교 지정 작성양식 |
-| `주간연구일정표_20260803_20261106.pdf` | 전체 일정표 |
-| `연구계획서_버전들/` | 연구계획서 작성 과정의 이전 버전들 |
-| `생성스크립트/` | 위 문서들을 생성한 Python 스크립트 |
-| `스크린샷/` | 카카오톡 공유 스크린샷 |
-
-### `선행연구/` — 선행연구 리뷰
-
-팀원별 폴더(`김서율/`, `장다예/`, `전수진/`, `한세음/`)에 각자 담당한 선행연구 리뷰·원본이 들어있습니다. 총 4편 분담, 5개 논문: STopTox(Borba 2022), PFAS 전이학습(Feinstein 2021), AttentiveSkin(Huang 2024) + AI-Nano 리뷰(Zhou 2026), Kang·Kim·Lim(2023) XGBoost 벤치마크.
-
-### `세팅/` — 프로젝트 운영 문서
-
-- **`진행상황.md`**: 이 프로젝트의 단일 진실 출처(source of truth). 모든 결정사항·실험결과·미결항목이 날짜순으로 기록됨.
-- `멀티태스크_모델링_정리.md`: 모델 아키텍처 설계 배경
-- `생성스크립트/`: 산출물 생성용 Python 스크립트
-- `images/`: 연구흐름 도식화 등 시각자료
+- 샴푸 데이터: Chitre A. et al. *Accelerating Formulation Design via Machine Learning: Generating a High-throughput Shampoo Formulations Dataset.* Scientific Data 11, 728 (2024). https://doi.org/10.1038/s41597-024-03573-w
+- 이전 자극성 모델의 세부 실험 기록과 결정사항은 `세팅/진행상황.md`에 남아 있습니다. 일부 과거 기록은 전이학습을 목표로 작성되었으므로, 현재 연구 범위는 이 README를 우선 기준으로 합니다.
