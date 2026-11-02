@@ -1,0 +1,14 @@
+{
+ "version":"public_development_acquisition_v1",
+ "status":"Outcome-access boundary for this acquisition only; not a preregistered final cohort, trained model or external evaluation.",
+ "no_external_messages":true,
+ "reserved_final_candidates":"All 105 phase7 candidate structures plus their canonical parents and conservative >=0.70 Morgan radius2 2048-bit chiral similarity neighborhood. No development outcomes may be extracted for any matched material.",
+ "observed_exposure":{"cas":"2365-48-2","event":"An OECD TG492 search snippet displayed an in-vivo Category 1 and assay outcome while locating public sources. This chemical is permanently excluded from prospective blind final evaluation in both tracks and conservatively flagged as eye risk pending test-article/source adjudication.","user_informed":true},
+ "separation":"Only exact-CAS/structure matched chemicals demonstrably outside the full reserved set can be copied as development results. Unmapped/ambiguous chemicals and source records must be quarantined before result parsing/export. Any previously seen or downloaded public result is retrospective development, never prospective-blind final data.",
+ "skin":"Preserve each original assay/version and condition. EpiDerm 2004 15min/42h is distinct from current EpiDerm SIT 60min/42h. Do not declare historical method TG439 compliance without a method-specific basis.",
+ "eye":"OECD TG492 EpiOcular native No Category or No prediction can be made is an assay-specific endpoint; no prediction is NOT an irritant label. Keep TG492, TG491, TG467, Draize, GHS and EPA separate.",
+ "gating_order":["skin corrosion and eye GHS Category 1 risk evidence", "target assay compatibility", "evidence grade and experimental independence", "model and evaluation gate", "joint candidate"],
+ "label_custody":"No independent custodian exists. Public results are development only; final evaluation remains blocked.",
+ "primary_risk_gate":"phase14_public_data/src/risk_gates.py: v2 with additional strict type checking for all joint-gate inputs. The phase13 gate remains archived and is no longer the active gate.",
+ "pilot":"Metadata coverage, independent source/run counts and class distribution; exploratory only, confidence intervals disclosed. Confirmatory sample size and paired power must be finalized prospectively, not selected based on pilot performance."
+}
