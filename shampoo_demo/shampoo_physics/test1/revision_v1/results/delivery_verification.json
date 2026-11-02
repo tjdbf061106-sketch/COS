@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "original_project_and_previous_review_unchanged": true,
+  "original_user_docx_unchanged": true,
+  "analysis_lock_verified": true,
+  "unit_tests": 21,
+  "ui_verification": "PASS",
+  "experiment_verification": "PASS",
+  "html_readme_local_links": "PASS",
+  "docx_xml_and_archive_check": "PASS",
+  "docx_word_visual_render": "not_performed",
+  "word_files": [
+    {
+      "file": "신규원료_편입_프로토콜_개정안.docx",
+      "embedded_images": 0,
+      "text_characters": 3873
+    },
+    {
+      "file": "연구결과_및_다음우선순위.docx",
+      "embedded_images": 4,
+      "text_characters": 7083
+    }
+  ],
+  "external_material_approval_count": 0,
+  "github_modified": false
+}

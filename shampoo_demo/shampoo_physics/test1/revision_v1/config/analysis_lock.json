@@ -1,0 +1,18 @@
+{
+  "hashes": {
+    "config/research_protocol.json": "f6170e4ee4c9fc6777b7f9e4d45989fa5d862a9ec8a0053cc1fc21d49f5f6243",
+    "src/research_core.py": "c90d422d45e2ba68cfdcb7591a218a6ad1f5025d00d38767ec914682b01a8b5c",
+    "src/run_benchmark.py": "0cc79657affbc37c5c51cb37bc564cc727c915ab372639fadf660a169a999d55",
+    "results/onboarding_splits.csv": "ede5d3586759ad9e7dcd7248ff3c8ba70884fd1460cb2b3c784c13567bda937a",
+    "inputs/feature_names.json": "fb90ef39f3213a44291e5c4276d45ee0095f07a83ba639fa304121e9e70add4a",
+    "inputs/feature_sets.json": "4707c7d45fc8a1193ccb5316da10bbd190135d0aff1a2de4ca71ec4a71114c53",
+    "inputs/features_pk45_supplier_sensitivity_812.csv": "a2ca14d2743ef476d556713929ba878206a022b126fa0e1b7c43aa9748f2a406",
+    "inputs/features_source_reported_812.csv": "71691a2c74da5c4d88613a3866c048412f637735669eddb2fb1d56cab6156503",
+    "inputs/formulations.csv": "60045a5ecb95cb2e17e5ec70f15d97002687af52347df9ab67b2f79e70af54bf",
+    "inputs/ingredient_registry.csv": "a4a7227c02aaa361e25daeb2be1c0f458ed95ded6dcd83224dd11c2c2c63d4fc",
+    "inputs/ingredient_registry_reviewed.csv": "67a0295d81d90ef84bffddff38153699e890bbda06efd76c9f36420dbe4ef266",
+    "inputs/outer_folds.csv": "fc9cccbacfcb962446cb3f5ae882a0c193c5e3b650710c70ac6d9460de36e040"
+  },
+  "created_before_predictions": true,
+  "note": "Retrospective internal benchmark; data and prior results were already available."
+}

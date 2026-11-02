@@ -1,0 +1,18 @@
+{
+  "illustrative_only": true,
+  "team_acceptance_targets_selected": false,
+  "interpretation": "Counts are per independent evaluation class, not total recipes and not training samples.",
+  "assumptions": [
+    "Independent Bernoulli units",
+    "Assumed future success rate",
+    "Two-sided 95% Wilson lower bound"
+  ],
+  "limitations": [
+    "Not a power or assurance calculation",
+    "No guarantee the assumed success rate will occur",
+    "Technical repeats do not increase independent n",
+    "Manufacturing-batch clustering requires a clustered design/analysis",
+    "Stable/unstable prevalence and invalid measurements can increase the number of recipes needed",
+    "Regression requires pilot residual/variance data and an application-specific tolerance; no universal minimum is supplied"
+  ]
+}

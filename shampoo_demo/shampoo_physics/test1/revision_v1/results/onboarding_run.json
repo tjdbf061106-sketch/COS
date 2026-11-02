@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fits": 1296,
+  "prediction_rows": 134096,
+  "elapsed_seconds": 29.595432000001892,
+  "materials": 18,
+  "independent_external_datasets": 0,
+  "real_new_material_experiments": 0,
+  "batch_independence": "unresolved",
+  "model_selection_performed": false
+}

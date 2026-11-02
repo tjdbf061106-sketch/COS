@@ -1,0 +1,202 @@
+{
+  "url_public_html": "https://springernature.figshare.com/articles/software/Liquid_Formulations_Dataset/25451878/1",
+  "files": [
+    {
+      "id": 45187180,
+      "name": "LiquidFormulationsDataset_2023.json",
+      "size": 1464630,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/45187180",
+      "supplied_md5": "8898e7b460c71e334f6ece5daebc6a6e",
+      "computed_md5": "8898e7b460c71e334f6ece5daebc6a6e",
+      "mimetype": "text/plain"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 1360902,
+      "full_name": "Alexei Lapkin",
+      "first_name": "Alexei",
+      "last_name": "Lapkin",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 18194866,
+      "full_name": "Aniket Chitre",
+      "first_name": "Aniket",
+      "last_name": "Chitre",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 18194869,
+      "full_name": "Robert Querimit",
+      "first_name": "Robert",
+      "last_name": "Querimit",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 17291340,
+      "full_name": "Simon Rihm",
+      "first_name": "Simon",
+      "last_name": "Rihm",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 18194872,
+      "full_name": "Dogancan Karan",
+      "first_name": "Dogancan",
+      "last_name": "Karan",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 18194875,
+      "full_name": "Benchuan Zhu",
+      "first_name": "Benchuan",
+      "last_name": "Zhu",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 95893,
+      "full_name": "Long Wang",
+      "first_name": "Long",
+      "last_name": "Wang",
+      "is_active": false,
+      "url_name": "Long_Wang",
+      "orcid_id": ""
+    },
+    {
+      "id": 82395,
+      "full_name": "Ke Wang",
+      "first_name": "Ke",
+      "last_name": "Wang",
+      "is_active": false,
+      "url_name": "Ke_Wang",
+      "orcid_id": ""
+    },
+    {
+      "id": 1661362,
+      "full_name": "Kedar Hippalgaonkar",
+      "first_name": "Kedar",
+      "last_name": "Hippalgaonkar",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [
+    {
+      "name": "Research Data Support",
+      "value": "",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "placeholder": "Complete where RDS data are part of RDS submission"
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    }
+  ],
+  "figshare_url": "https://springernature.figshare.com/articles/software/Liquid_Formulations_Dataset/25451878",
+  "download_disabled": false,
+  "description": "JASON file gives all data collected for the formulations dataset apart from images of stability, which are provided in a zip file.",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 1464630,
+  "created_date": "2024-07-01T07:36:34Z",
+  "modified_date": "2024-07-01T07:36:34Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 2,
+    "name": "CC0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "tags": [
+    "liquid formulations",
+    "viscosity",
+    "formulation stability",
+    "formulations target"
+  ],
+  "keywords": [
+    "liquid formulations",
+    "viscosity",
+    "formulation stability",
+    "formulations target"
+  ],
+  "categories": [
+    {
+      "id": 863,
+      "title": "Physical Chemistry not elsewhere classified",
+      "parent_id": 38,
+      "path": "",
+      "source_id": "",
+      "taxonomy_id": 10
+    },
+    {
+      "id": 838,
+      "title": "Physical Chemistry of Materials",
+      "parent_id": 38,
+      "path": "",
+      "source_id": "",
+      "taxonomy_id": 10
+    },
+    {
+      "id": 854,
+      "title": "Physical Organic Chemistry",
+      "parent_id": 38,
+      "path": "",
+      "source_id": "",
+      "taxonomy_id": 10
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Lapkin, Alexei; Chitre, Aniket; Querimit, Robert; Rihm, Simon; Karan, Dogancan; Zhu, Benchuan; et al. (2024). Liquid Formulations Dataset. figshare. Software. https://doi.org/10.6084/m9.figshare.25451878.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 25451878,
+  "title": "Liquid Formulations Dataset",
+  "doi": "10.6084/m9.figshare.25451878.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/25451878",
+  "published_date": "2024-07-01T07:36:34Z",
+  "thumb": "",
+  "defined_type": 9,
+  "defined_type_name": "software",
+  "group_id": 2826,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/25451878",
+  "url_public_api": "https://api.figshare.com/v2/articles/25451878",
+  "url_private_html": "https://figshare.com/account/articles/25451878",
+  "timeline": {
+    "posted": "2024-07-01T07:36:34",
+    "firstOnline": "2024-07-01"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

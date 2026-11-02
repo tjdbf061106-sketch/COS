@@ -1,0 +1,37 @@
+﻿endpoint,ingredient_id,inci,representative_only,exact_structure_match,exact_reference_class,nearest_tanimoto,nearest_reference_smiles,nearest_reference_class,use
+skin,Texapon SB 3 KC,Disodium Laureth Sulfosuccinate,True,False,,0.45098039215686275,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].[Na+],1,reference_only_not_shampoo_prediction
+skin,Plantapon ACG 50,Disodium Cocoyl Glutamate,True,False,,0.5,CCCCCCCC(=O)[O-].CCCCCCCC(=O)[O-].[Zn+2],0,reference_only_not_shampoo_prediction
+skin,Plantapon LC 7,Laureth-7 Citrate,True,False,,0.4594594594594595,CCCCOCCOC(C)=O,0,reference_only_not_shampoo_prediction
+skin,Plantacare 818,Coco-Glucoside,True,False,,0.35135135135135137,CCCCCCOCCO,1,reference_only_not_shampoo_prediction
+skin,Plantacare 2000,Decyl-Glucoside,True,False,,0.35135135135135137,CCCCCCOCCO,1,reference_only_not_shampoo_prediction
+skin,Dehyton MC,Sodium Cocoamphoacetate,True,False,,0.5641025641025641,CCCCCCCCCCCCCCCC(=O)NCCO,1,reference_only_not_shampoo_prediction
+skin,Dehyton PK 45,Cocamidopropyl Betaine,True,False,,0.6571428571428571,CCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-],1,reference_only_not_shampoo_prediction
+skin,Dehyton ML,Sodium Lauroamphoacetate,True,False,,0.5641025641025641,CCCCCCCCCCCCCCCC(=O)NCCO,1,reference_only_not_shampoo_prediction
+skin,Dehyton AB 30,Coco-Betaine,True,False,,0.96,CCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-],1,reference_only_not_shampoo_prediction
+skin,Plantapon Amino SCG-L,Sodium Cocoyl Glutamate,True,False,,0.5,CCCCCCCC(=O)[O-].CCCCCCCC(=O)[O-].[Zn+2],0,reference_only_not_shampoo_prediction
+skin,Plantapon Amino KG-L,Potassium Cocoyl Glycinate,True,False,,0.6666666666666666,CCCCCCCC(=O)NCC(=O)O,1,reference_only_not_shampoo_prediction
+skin,Dehyquart A-CA,Potassium Cetrimonium Chloride,True,False,,1.0,CCCCCCCCCCCC[N+](C)(C)C.[Cl-],1,reference_only_not_shampoo_prediction
+skin,Luviquat Excellence,Polyquaternium-16,True,False,,,,,reference_only_not_shampoo_prediction
+skin,Dehyquart CC6,Polyquaternium-6,True,False,,,,,reference_only_not_shampoo_prediction
+skin,Dehyquart CC7 Benz,Polyquaternium-7,True,False,,,,,reference_only_not_shampoo_prediction
+skin,Salcare Super 7,Polyquaternium-7,True,False,,,,,reference_only_not_shampoo_prediction
+skin,Arlypon F,Laureth-2,True,False,,0.95,CCCCCCOCCO,1,reference_only_not_shampoo_prediction
+skin,Arlypon TT,PEG/PPG-120/10 Trimethylolpropane Trioleate and Laureth-2,True,False,,,,,reference_only_not_shampoo_prediction
+eye,Texapon SB 3 KC,Disodium Laureth Sulfosuccinate,True,False,,0.5,CCCCCCCCCCCCOCCOCCOS(=O)(=O)[O-].[Na+],1,reference_only_not_shampoo_prediction
+eye,Plantapon ACG 50,Disodium Cocoyl Glutamate,True,False,,0.5,CCCCCCCCCCCC(=O)[O-].CCCCCCCCCCCC(=O)[O-].[Zn+2],0,reference_only_not_shampoo_prediction
+eye,Plantapon LC 7,Laureth-7 Citrate,True,False,,0.4594594594594595,CCCCOCCOC(C)=O,0,reference_only_not_shampoo_prediction
+eye,Plantacare 818,Coco-Glucoside,True,False,,0.5952380952380952,CCCCC(CC)COC1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,1,reference_only_not_shampoo_prediction
+eye,Plantacare 2000,Decyl-Glucoside,True,False,,0.5952380952380952,CCCCC(CC)COC1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,1,reference_only_not_shampoo_prediction
+eye,Dehyton MC,Sodium Cocoamphoacetate,True,False,,0.6904761904761905,CCCCCCCC(=O)NCCN(CCO)CCC(=O)O,1,reference_only_not_shampoo_prediction
+eye,Dehyton PK 45,Cocamidopropyl Betaine,True,False,,0.7435897435897436,CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(=O)O.[OH-],1,reference_only_not_shampoo_prediction
+eye,Dehyton ML,Sodium Lauroamphoacetate,True,False,,0.6904761904761905,CCCCCCCC(=O)NCCN(CCO)CCC(=O)O,1,reference_only_not_shampoo_prediction
+eye,Dehyton AB 30,Coco-Betaine,True,False,,0.5588235294117647,CCCCCCCCCCCCCCCC[N+](C)(C)CC(=O)OCC.[Cl-],1,reference_only_not_shampoo_prediction
+eye,Plantapon Amino SCG-L,Sodium Cocoyl Glutamate,True,False,,0.5,CCCCCCCCCCCC(=O)[O-].CCCCCCCCCCCC(=O)[O-].[Zn+2],0,reference_only_not_shampoo_prediction
+eye,Plantapon Amino KG-L,Potassium Cocoyl Glycinate,True,False,,0.6666666666666666,CCCCCCCC(=O)NCC(=O)O,1,reference_only_not_shampoo_prediction
+eye,Dehyquart A-CA,Potassium Cetrimonium Chloride,True,False,,1.0,CCCCCCCCCCCC[N+](C)(C)C.[Cl-],1,reference_only_not_shampoo_prediction
+eye,Luviquat Excellence,Polyquaternium-16,True,False,,,,,reference_only_not_shampoo_prediction
+eye,Dehyquart CC6,Polyquaternium-6,True,False,,,,,reference_only_not_shampoo_prediction
+eye,Dehyquart CC7 Benz,Polyquaternium-7,True,False,,,,,reference_only_not_shampoo_prediction
+eye,Salcare Super 7,Polyquaternium-7,True,False,,,,,reference_only_not_shampoo_prediction
+eye,Arlypon F,Laureth-2,True,False,,1.0,CCCCCCOCCOCCO,1,reference_only_not_shampoo_prediction
+eye,Arlypon TT,PEG/PPG-120/10 Trimethylolpropane Trioleate and Laureth-2,True,False,,,,,reference_only_not_shampoo_prediction

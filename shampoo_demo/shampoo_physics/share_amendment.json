@@ -1,0 +1,33 @@
+{
+  "reason": "Remove personal absolute paths, make the launcher portable, and update affected distribution manifests; baseline and analysis locks remain unchanged. The original protocol DOCX is not included.",
+  "files": {
+    "test1/audit_feasibility.py": {
+      "original_sha256": "92ff03e18b02a39a685a2ed56b743c3171dbc91097e87cbaf07b2f2cb5d60325",
+      "shared_sha256": "1276a735a425f4ea5a0e849b8c48b70b8c673f323482d51f25218782d65ec6a6"
+    },
+    "test1/source_inventory.json": {
+      "original_sha256": "db5d3e57a3110be67f6ce10ecd39837ede99e4a710b9b294e36b803b6a5a7b85",
+      "shared_sha256": "f0395bc70a7a2ed94b756a5f531f23a599313d0cd7677ff1330e838864e4c63a"
+    },
+    "test1/revision_v1/source_provenance.json": {
+      "original_sha256": "9f4792c06fbff8a85f1b5bc0a1b0ee08fe76046d2cacc1f35421f3b715c8df41",
+      "shared_sha256": "2fb8553006137559b487b2aebb6274f6461d6d9ce80423b2b13d50d6ed10e942"
+    },
+    "test1/revision_v1/run_app.ps1": {
+      "original_sha256": "62237269db89ddb0733883c80d818bda575f38897b4b1c9583eac5fdf52b036d",
+      "shared_sha256": "8c1c237902f596015e87e1c904459681be8aa1b0277ff3c0954e99954cb3794e"
+    },
+    "test1/review_manifest.json": {
+      "original_sha256": "c95b06c9b4386470b51642f184956f795d9c5d81a0a5a8e3b123936fb5096445",
+      "shared_sha256": "2bfe3fd8f67d4da49f73809dcfebd48c477be24f4c5a66d61c92bb889af5d039"
+    },
+    "test1/revision_v1/manifest.json": {
+      "original_sha256": "87a74b856979795a7f01232587103390617c7a1707fe813ea60c4ae7ebd532e3",
+      "shared_sha256": "645942369b09efbafd2674aa47214a1f635e1adb883d39e70188bf6cc33b1d2c"
+    },
+    "test1/revision_v1/src/verify_revision.py": {
+      "original_sha256": "eb2d30dc028e6308a749989eb5549b4ebae1072275edf2167b7166a6a5326bcd",
+      "shared_sha256": "120bf3ffcc0e85db87fd363835f837bc594c5020cf71ce2ae7a55c2c83752908"
+    }
+  }
+}

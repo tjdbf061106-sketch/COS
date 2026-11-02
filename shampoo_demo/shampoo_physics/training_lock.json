@@ -1,0 +1,16 @@
+{
+  "hashes": {
+    "protocol.json": "b00d48c3e48626aa0b29f8792f92372330fdb1b5d69c26fdb4b3fb9998818665",
+    "data/formulations.csv": "60045a5ecb95cb2e17e5ec70f15d97002687af52347df9ab67b2f79e70af54bf",
+    "data/feature_names.json": "fb90ef39f3213a44291e5c4276d45ee0095f07a83ba639fa304121e9e70add4a",
+    "data/ingredient_registry.csv": "a4a7227c02aaa361e25daeb2be1c0f458ed95ded6dcd83224dd11c2c2c63d4fc",
+    "src/common.py": "e6578fd8f6d3ad0d81fe232ad6cd05dd882af4479c6b7e9b70d3ceb9e6756afb",
+    "src/prepare_data.py": "e8ccfbd68fa3dd7185b0a5cd6f0c4f930a0d0b068dc8ba199d0011e385a5fc68",
+    "src/train_evaluate.py": "fc6e16ffab2d54f693b9ae324f372b2da0547bc3371ae809a2f43a764ca22ffe"
+  },
+  "python": "3.14.6",
+  "sklearn": "1.9.0",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "source_labels_used_for_physics": false
+}

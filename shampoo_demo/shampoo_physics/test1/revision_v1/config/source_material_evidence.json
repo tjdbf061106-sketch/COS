@@ -1,0 +1,182 @@
+[
+  {
+    "evidence_id": "source:Texapon SB 3 KC",
+    "ingredient_id": "Texapon SB 3 KC",
+    "supplier": "BASF",
+    "grade": "Texapon SB 3 KC",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Plantapon ACG 50",
+    "ingredient_id": "Plantapon ACG 50",
+    "supplier": "BASF",
+    "grade": "Plantapon ACG 50",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Plantapon LC 7",
+    "ingredient_id": "Plantapon LC 7",
+    "supplier": "BASF",
+    "grade": "Plantapon LC 7",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Plantacare 818",
+    "ingredient_id": "Plantacare 818",
+    "supplier": "BASF",
+    "grade": "Plantacare 818",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Plantacare 2000",
+    "ingredient_id": "Plantacare 2000",
+    "supplier": "BASF",
+    "grade": "Plantacare 2000",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Dehyton MC",
+    "ingredient_id": "Dehyton MC",
+    "supplier": "BASF",
+    "grade": "Dehyton MC",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Dehyton PK 45",
+    "ingredient_id": "Dehyton PK 45",
+    "supplier": "BASF",
+    "grade": "Dehyton PK 45",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Dehyton ML",
+    "ingredient_id": "Dehyton ML",
+    "supplier": "BASF",
+    "grade": "Dehyton ML",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Dehyton AB 30",
+    "ingredient_id": "Dehyton AB 30",
+    "supplier": "BASF",
+    "grade": "Dehyton AB 30",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Plantapon Amino SCG-L",
+    "ingredient_id": "Plantapon Amino SCG-L",
+    "supplier": "BASF",
+    "grade": "Plantapon Amino SCG-L",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Plantapon Amino KG-L",
+    "ingredient_id": "Plantapon Amino KG-L",
+    "supplier": "BASF",
+    "grade": "Plantapon Amino KG-L",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Dehyquart A-CA",
+    "ingredient_id": "Dehyquart A-CA",
+    "supplier": "BASF",
+    "grade": "Dehyquart A-CA",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Luviquat Excellence",
+    "ingredient_id": "Luviquat Excellence",
+    "supplier": "BASF",
+    "grade": "Luviquat Excellence",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Dehyquart CC6",
+    "ingredient_id": "Dehyquart CC6",
+    "supplier": "BASF",
+    "grade": "Dehyquart CC6",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Dehyquart CC7 Benz",
+    "ingredient_id": "Dehyquart CC7 Benz",
+    "supplier": "BASF",
+    "grade": "Dehyquart CC7 Benz",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Salcare Super 7",
+    "ingredient_id": "Salcare Super 7",
+    "supplier": "BASF",
+    "grade": "Salcare Super 7",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Arlypon F",
+    "ingredient_id": "Arlypon F",
+    "supplier": "BASF",
+    "grade": "Arlypon F",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  },
+  {
+    "evidence_id": "source:Arlypon TT",
+    "ingredient_id": "Arlypon TT",
+    "supplier": "BASF",
+    "grade": "Arlypon TT",
+    "status": "documented_source_assumption",
+    "evidence_reference": "Figshare v1 / source study ingredient registry",
+    "historical_lot_verified": false,
+    "external_material_approved": false
+  }
+]
