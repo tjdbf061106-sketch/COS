@@ -1,0 +1,37 @@
+{
+  "skin": {
+    "rows": 544,
+    "label_counts": {
+      "0": 514,
+      "1": 30
+    },
+    "undeclared_over_1pct": 534,
+    "median_undeclared_pct": 68.36500000000001,
+    "label_meaning": "1=EPA I/II, 0=EPA III/IV; 0 does not mean absence of skin irritation",
+    "reference_rows": 270,
+    "reference_rows_with_smiles": 264,
+    "unique_valid_reference_structures": 264
+  },
+  "eye": {
+    "all_rows": 841,
+    "mixture_labeled_rows": 606,
+    "label_counts": {
+      "0.0": 491,
+      "1.0": 115
+    },
+    "label_meaning": "1=EPA I/II, 0=EPA III/IV; outcome distinct from skin and from physical properties",
+    "reference_rows": 976,
+    "reference_rows_with_smiles": 925,
+    "unique_valid_reference_structures": 265
+  },
+  "source_commit": "f7ff4d2f1b24c3c41e41dcc8b678810389280d80",
+  "use": "Read-only reference ingredient audit, not physical-property training or toxicity prediction",
+  "limitations": "Only reference SMILES actually present in these inputs are compared; unresolved source structures are not imputed. Molecular similarity is not a validated AD threshold.",
+  "input_hashes": {
+    "skin irritation/skin_vectorized.csv": "336efce9c17c56f22ef3f53daa9ce9536d5d5becd14fbf54b62bd3c82bcb4b8a",
+    "skin irritation/skin_filtered.csv": "6b29068ca48e6665effa72ec63319b196e7959df1d2c76b8af65d6e1970d1e22",
+    "skin irritation/casrn_smiles_cache.csv": "aef5e5f34e24d4c85f40e6a4c500812c301f7681503963fc455150c2f4fd481a",
+    "eye irritation/eye_vectorized.csv": "261bfc20868635d26896c572d4bd3006d3e5b34fa31023f96d67b6d858b5340b",
+    "eye irritation/eye_filtered.csv": "a4aa5997290374731956a62f89db27a1941fd22a50a6c13074e4dc7bfb829ffa"
+  }
+}

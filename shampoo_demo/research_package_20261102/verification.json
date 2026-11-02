@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "checks": [
+    "All frozen artifacts and package manifest hashes match",
+    "Existing shampoo_demo JSON content and ingredient source bytes match the snapshots",
+    "All four metrics and confusion counts reproduced in both positive-class conventions; 0.5 ties preserved",
+    "Original review, baseline and classification verifiers pass from temporary copies at the new layout",
+    "Original 12 contract tests pass; shared snapshots are not overwritten",
+    "Outer fold 0 refit reproduced for all three Extra Trees targets"
+  ],
+  "frozen_files": 97,
+  "unit_tests": 12,
+  "metric_rows_both_orientations": 24,
+  "metric_summary_rows": 12,
+  "baseline_verification": {
+    "status": "PASS",
+    "checks": [
+      "Published source, training inputs/code, and unchanged skin/eye input hashes",
+      "All stock quantities preserved; no missing measurements replaced with zero; interpolated viscosity targets trace to source curves",
+      "All grouped holdouts disjoint; one OOF prediction per eligible ID/model/repeat; task-specific training counts checked",
+      "Recomputed 36 pooled evaluation rows and 90 metric summaries",
+      "Model hashes, feature order, eligible training IDs and finite predictions",
+      "Physical outcomes kept separate from unmeasured skin/eye outcomes",
+      "Candidate parent recipes, interpolation, mass balance and saved predictions"
+    ],
+    "fold0_refit_max_absolute_differences": {
+      "stability": 1.1102230246251565e-16,
+      "viscosity_100": 8.881784197001252e-16,
+      "turbidity": 4.440892098500626e-16
+    },
+    "external_validation_performed": false,
+    "toxicity_transfer_performed": false
+  },
+  "review_verification": {
+    "status": "PASS",
+    "checks": [
+      "Input snapshot hashes and all 46 baseline files unchanged",
+      "812 rows: original stocks and mass balance preserved; 18/61/114 predictor sets finite and unaffected by outcome/ID changes",
+      "PK45 scenario: only active-range features change, exactly 140 affected recipes; no silent stock/target corrections",
+      "Targets, missingness and outer folds unchanged; 44-row review does not replace full training cohorts",
+      "44 selected recipes, 176 stock entries, original curves and 7 descriptive representatives traced to source"
+    ],
+    "training_performed": false,
+    "skin_eye_scoring_performed": false
+  },
+  "archived_metrics_verification": {
+    "status": "PASS",
+    "repeat_rows": 12,
+    "summary_rows": 6,
+    "n_samples_per_model_repeat": 812,
+    "positive_stable": 294,
+    "negative_unstable": 518,
+    "four_metrics_recomputed_from_saved_oof": true,
+    "classification_threshold": 0.5,
+    "baseline_metrics_matched": true,
+    "model_refitted": false,
+    "policy_sha256": "be4b707dc116a8e323b7a07ee7644114b855de81163f8e91912b130b4a633307",
+    "snapshot_sha256": "050ca802e516127f93f0882efc7caff157da90b45b90b128dc3c43cfea8d0bec"
+  },
+  "python": "3.14.6",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.5.3",
+    "rdkit": "2025.9.6",
+    "openpyxl": "3.1.5"
+  },
+  "external_validation_performed": false,
+  "enriched_feature_model_trained": false,
+  "model_reselected": false,
+  "skin_eye_scoring_performed": false
+}

@@ -1,0 +1,813 @@
+﻿sample_id,stable,viscosity_100_mPa_s,log10_viscosity_100,turbidity_ntu,log10p1_turbidity,ingredient_combination,polymer_thickener_group
+1,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+2,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+3,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+4,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+5,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+6,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+7,1,100.94517972215732,2.0040855855872417,491.0,2.69196510276736,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+8,1,56.70626705995808,1.7536310588779318,299.0,2.4771212547196626,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+9,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+10,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+11,1,447.4398014632504,2.6507346136162897,25.0,1.414973347970818,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+12,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+13,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+14,1,1486.9995151921648,3.1723108269285434,33.0,1.5314789170422551,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+15,1,1682.016809258982,3.2258303316116814,35.0,1.5563025007672873,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+16,1,20.351215587126298,1.3085903549378668,16.0,1.2304489213782739,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+17,1,960.8130670157221,2.9826389008209877,48.0,1.6901960800285136,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+18,1,49.67834573578259,1.6961671256189483,332.0,2.5224442335063197,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+19,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+20,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+21,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+22,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+23,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+24,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+25,1,5.263493391767487,0.7212740820215924,32.0,1.5185139398778875,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+27,1,5.5918168550568215,0.7475529388211841,36.0,1.568201724066995,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+28,1,2.4039556449190034,0.38092645029216976,20.0,1.3222192947339193,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+29,1,181.0916147061222,2.2578983411413827,479.0,2.681241237375587,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+30,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+31,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+32,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+33,1,1277.4683045656077,3.10635013360282,1065.0,3.0277572046905536,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+34,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+35,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+36,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+37,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon ACG 50 | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+38,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon LC 7 | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+39,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+40,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+41,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+42,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+43,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+44,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+45,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino SCG-L | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+46,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+47,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+48,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon ACG 50 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+49,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+50,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+51,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+52,1,7.274129289527842,0.8617810158868959,37.0,1.5797835966168101,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+53,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+54,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+55,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon ACG 50 | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+56,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon ACG 50 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+57,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+58,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+59,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+60,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+61,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+62,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+63,1,18.78272371671623,1.2737585703246128,153.0,2.187520720836463,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+64,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino SCG-L | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+65,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon Amino KG-L | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+66,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+67,1,95.95913196434853,1.9820863107339068,19.0,1.3010299956639813,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+68,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+69,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+70,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+71,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+72,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+73,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+74,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+75,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+76,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+77,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+78,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+79,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+80,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+81,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+82,0,,,,,Arlypon TT | Dehyton MC | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+83,0,,,,,Arlypon TT | Dehyton MC | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+84,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+85,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+86,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+87,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+88,0,,,,,Arlypon TT | Dehyton ML | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+89,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+90,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+91,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+92,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+93,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+94,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+95,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+96,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+97,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+98,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+99,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+100,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+101,1,45.008737281306196,1.6532968289915027,21.0,1.3424226808222062,Arlypon TT | Dehyton AB 30 | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+102,1,7.291503656640353,0.8628170979260582,18.0,1.2787536009528289,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+103,1,4.065995335279241,0.6091668760571484,22.0,1.3617278360175928,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+104,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+105,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon ACG 50 | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+106,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+107,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon ACG 50 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+108,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+109,1,2.093479432249438,0.3208686984469993,30.0,1.4913616938342726,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+110,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+111,1,5.81451791717842,0.7645137131163542,18.0,1.2787536009528289,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+112,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+113,1,161.0233918105075,2.2068889704187877,32.0,1.5185139398778875,Arlypon TT | Dehyton MC | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+114,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+115,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+116,1,43.91100626862229,1.6425733895503585,35.0,1.5563025007672873,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+117,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+118,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+119,0,,,,,Arlypon TT | Dehyton MC | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+120,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+121,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+122,0,,,,,Arlypon TT | Dehyton ML | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+123,0,,,,,Arlypon TT | Dehyton ML | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+124,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+125,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+126,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+127,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+128,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+129,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+130,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+131,1,53.20932666900552,1.7259877632324538,252.0,2.403120521175818,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+132,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+133,0,,,,,Arlypon TT | Dehyton MC | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+134,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+135,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+136,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+137,1,651.8510186966731,2.814148348567489,430.0,2.6344772701607315,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+138,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon TT
+139,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+140,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+141,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+142,1,12.583834020645492,1.0998129813576685,20.0,1.3222192947339193,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+143,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+144,0,,,,,Arlypon TT | Dehyton MC | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+145,1,24.843121209685442,1.3952061582914927,41.0,1.6232492903979006,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+146,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+147,1,216.77757813870684,2.336014359996361,27.0,1.4471580313422192,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+148,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+149,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+150,1,220.02578126705114,2.34247357175863,48.0,1.6901960800285136,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+151,1,,,26.0,1.4313637641589874,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+152,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+153,1,204.89911498580182,2.3115400825709718,52.0,1.724275869600789,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+154,1,735.2283803193221,2.866422262766233,40.0,1.6127838567197355,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+155,1,3.4181847495034354,0.533795532206107,15.0,1.2041199826559248,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+156,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+157,1,249.46452640504347,2.3970087981283523,142.0,2.155336037465062,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+158,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+159,1,2.808606314502643,0.4484908679230245,15.0,1.2041199826559248,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+160,1,238.13781104032273,2.376828357279897,20.0,1.3222192947339193,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+161,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+162,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+163,0,,,,,Arlypon TT | Dehyton MC | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+164,1,3.556659072055574,0.551042237347391,14.0,1.1760912590556813,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+165,0,,,,,Arlypon TT | Luviquat Excellence | Plantapon ACG 50 | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+166,1,221.82837930299573,2.3460171062237296,31.0,1.505149978319906,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+167,1,50.63625509362625,1.7044615790726194,118.0,2.0755469613925306,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+168,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+169,1,1.9248060506386708,0.2843869752050674,275.0,2.4409090820652177,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+170,1,237.87626790182716,2.3763511161297575,50.0,1.7075701760979363,Arlypon TT | Dehyton AB 30 | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+171,1,162.02704950281733,2.2095875236115936,40.0,1.6127838567197355,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+172,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+173,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+174,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+175,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+176,1,85.40863837156536,1.9315017981758398,19.0,1.3010299956639813,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+177,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+178,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+179,1,9.564220614736222,0.9806495852874773,18.0,1.2787536009528289,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+180,1,2.7113670256903517,0.43318831007148617,21.0,1.3424226808222062,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+181,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+182,0,,,,,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon TT
+183,1,1375.8450434329495,3.1385695236003923,169.0,2.230448921378274,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+184,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+185,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+186,1,126.48688465966576,2.102045496142443,236.0,2.374748346010104,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+187,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 818 | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+188,1,2.8402326947943317,0.4533539224150963,18.0,1.2787536009528289,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+189,1,9.626056770753676,0.9834484186495001,20.0,1.3222192947339193,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+190,1,2.3458569415087944,0.370301523803501,14.0,1.1760912590556813,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+191,1,5.373107669047405,0.7302255432682391,21.0,1.3424226808222062,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+192,1,7.505837955828435,0.8753991841579063,90.0,1.9590413923210936,Arlypon TT | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon TT
+193,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+194,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+195,1,14.337694241633496,1.1564793146057952,23.0,1.380211241711606,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+196,1,1.4057206597441028,0.14789902766483948,25.0,1.414973347970818,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+197,1,160.4794446231002,2.205419412700643,21.0,1.3424226808222062,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+198,1,11.958356981491056,1.0776715138589787,396.0,2.598790506763115,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+199,0,,,,,Arlypon TT | Dehyton MC | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+200,1,283.55485693843804,2.4526370906045507,42.0,1.6334684555795864,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+201,1,196.9995697980244,2.2944652777628716,914.0,2.9614210940664485,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+202,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+203,1,579.9666599046978,2.763403028329159,44.0,1.6532125137753437,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+204,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+205,1,273.11696824058146,2.436348682872541,51.0,1.7160033436347992,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+206,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+207,1,9.247689187584779,0.9660332247977771,22.0,1.3617278360175928,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon TT
+208,1,317.59106840153845,2.501868280283807,21.0,1.3424226808222062,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+210,0,,,,,Arlypon TT | Dehyton PK 45 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon TT
+211,0,,,,,Arlypon TT | Dehyton ML | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+212,0,,,,,Arlypon TT | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon TT
+213,0,,,,,Arlypon TT | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon TT
+214,0,,,,,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+215,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon TT
+216,1,0.6085000522962092,-0.21573938010942303,17.0,1.255272505103306,Arlypon TT | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon TT
+217,1,45.07268540774371,1.6539134338868537,28.0,1.462397997898956,Arlypon F | Dehyquart A-CA | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon F
+218,0,,,,,Arlypon F | Luviquat Excellence | Plantapon ACG 50 | Plantapon LC 7,Luviquat Excellence / Arlypon F
+219,0,,,,,Arlypon F | Luviquat Excellence | Plantapon Amino KG-L | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon F
+220,0,,,,,Arlypon F | Dehyton ML | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon F
+221,0,,,,,Arlypon F | Dehyton ML | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+222,0,,,,,Arlypon F | Luviquat Excellence | Plantapon ACG 50 | Texapon SB 3 KC,Luviquat Excellence / Arlypon F
+223,0,,,,,Arlypon F | Luviquat Excellence | Plantapon LC 7 | Texapon SB 3 KC,Luviquat Excellence / Arlypon F
+224,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+225,0,,,,,Arlypon F | Dehyton MC | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon F
+226,0,,,,,Arlypon F | Dehyton ML | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+227,0,,,,,Arlypon F | Dehyton PK 45 | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon F
+228,0,,,,,Arlypon F | Luviquat Excellence | Plantapon Amino SCG-L | Plantapon LC 7,Luviquat Excellence / Arlypon F
+229,0,,,,,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon F
+230,0,,,,,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantapon ACG 50,Luviquat Excellence / Arlypon F
+231,1,69.89287296533071,1.8444328926321545,25.0,1.414973347970818,Arlypon F | Dehyton AB 30 | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon F
+232,0,,,,,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon F
+233,1,63.09972582586921,1.8000274721986387,28.0,1.462397997898956,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+234,0,,,,,Arlypon F | Dehyton MC | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+235,0,,,,,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantapon LC 7,Luviquat Excellence / Arlypon F
+236,0,,,,,Arlypon F | Luviquat Excellence | Plantapon Amino KG-L | Texapon SB 3 KC,Luviquat Excellence / Arlypon F
+237,0,,,,,Arlypon F | Dehyton PK 45 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon F
+238,0,,,,,Arlypon F | Luviquat Excellence | Plantacare 818 | Plantapon Amino KG-L,Luviquat Excellence / Arlypon F
+239,0,,,,,Arlypon F | Dehyton MC | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon F
+240,0,,,,,Arlypon F | Dehyton MC | Luviquat Excellence | Texapon SB 3 KC,Luviquat Excellence / Arlypon F
+241,1,67.96636776855841,1.8322940611504173,23.0,1.380211241711606,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+242,0,,,,,Arlypon F | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+243,0,,,,,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon F
+244,0,,,,,Arlypon F | Dehyton MC | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+245,1,84.58944564334347,1.9273161788215094,30.0,1.4913616938342726,Arlypon F | Dehyton PK 45 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+246,1,7.337342292616297,0.8655387797163097,17.0,1.255272505103306,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+247,1,20.06139793418234,1.3023611925900935,22.0,1.3617278360175928,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+248,1,2.56440793197744,0.4089871115312642,21.0,1.3424226808222062,Arlypon F | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+249,0,,,,,Arlypon F | Dehyton MC | Luviquat Excellence | Plantapon Amino KG-L,Luviquat Excellence / Arlypon F
+250,0,,,,,Arlypon F | Dehyton MC | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon F
+251,0,,,,,Arlypon F | Dehyton ML | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon F
+252,0,,,,,Arlypon F | Dehyton AB 30 | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon F
+253,1,4.7825002261036955,0.6796549992316042,19.0,1.3010299956639813,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+254,1,8.99559487333746,0.954029888266943,21.0,1.3424226808222062,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+255,0,,,,,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantapon Amino SCG-L,Luviquat Excellence / Arlypon F
+256,1,319.31891368224035,2.504224643138751,25.0,1.414973347970818,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+257,0,,,,,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+258,0,,,,,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantapon ACG 50,Luviquat Excellence / Arlypon F
+259,1,60.69064586696703,1.783121759256282,19.0,1.3010299956639813,Arlypon F | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+260,0,,,,,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+261,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon F
+262,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon F
+263,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton ML | Luviquat Excellence,Luviquat Excellence / Arlypon F
+264,1,342.604629910405,2.5347932276632164,24.0,1.3979400086720377,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+265,0,,,,,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+266,0,,,,,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+267,1,21.806444903121093,1.3385848684761859,20.0,1.3222192947339193,Arlypon F | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+268,1,16.45428033254494,1.2162788921339203,31.0,1.505149978319906,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+269,0,,,,,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+270,0,,,,,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+271,1,614.3134111542549,2.7883899965611585,28.0,1.462397997898956,Arlypon F | Dehyquart A-CA | Dehyton MC | Luviquat Excellence,Luviquat Excellence / Arlypon F
+272,1,140.24873349704342,2.14689894809056,28.0,1.462397997898956,Arlypon F | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+273,1,59.25837689063923,1.7727497518167852,25.0,1.414973347970818,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+274,0,,,,,Arlypon F | Dehyton AB 30 | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+275,1,14.49035469535873,1.1610790162752955,29.0,1.4771212547196624,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+276,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+277,1,4.660161982803038,0.6684010126159421,21.0,1.3424226808222062,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+278,1,6.200862319958381,0.7924520886528451,73.0,1.8692317197309762,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+279,1,3.3408619281632843,0.5238585273963253,29.0,1.4771212547196624,Arlypon F | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+280,1,7.455166808255432,0.8724573651725684,21.0,1.3424226808222062,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+281,1,6.810584848987978,0.8331844079160329,31.0,1.505149978319906,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+282,1,2.7987509065621645,0.4469642472623459,17.0,1.255272505103306,Arlypon F | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+283,1,33.46728917789484,1.5246205362968164,20.0,1.3222192947339193,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+284,1,3.668414877048199,0.5644784460338921,19.0,1.3010299956639813,Arlypon F | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+285,1,5.591821178907073,0.7475532746375435,18.0,1.2787536009528289,Arlypon F | Dehyquart A-CA | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+286,1,3.3972163251685243,0.5311232024001207,25.0,1.414973347970818,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+287,1,1.9203471859909234,0.28337975335414,19.0,1.3010299956639813,Arlypon F | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+288,1,7.913428657615025,0.8983646913934575,20.0,1.3222192947339193,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+289,1,5.876771999866054,0.7691388417913365,23.0,1.380211241711606,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+290,1,29.087302404359686,1.463703446058853,36.0,1.568201724066995,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+291,1,7.634956911233484,0.8828065904079823,24.0,1.3979400086720377,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+292,1,4.353974338324342,0.6388858650456871,23.0,1.380211241711606,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+293,1,23.89913224806629,1.3783821324662098,22.0,1.3617278360175928,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+294,1,9.263943691832532,0.96679590665962,19.0,1.3010299956639813,Arlypon F | Dehyton AB 30 | Dehyton PK 45 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+295,1,1.7555498880088796,0.24441317545851649,14.0,1.1760912590556813,Arlypon F | Dehyquart A-CA | Dehyton AB 30 | Luviquat Excellence,Luviquat Excellence / Arlypon F
+296,1,3.2637384437347845,0.5137153470811426,33.0,1.5314789170422551,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 2000,Luviquat Excellence / Arlypon F
+297,1,8.244908278020281,0.9161858286195633,24.0,1.3979400086720377,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+298,1,5.905302110404608,0.771242120666794,24.0,1.3979400086720377,Arlypon F | Luviquat Excellence | Plantacare 2000 | Plantacare 818,Luviquat Excellence / Arlypon F
+299,1,23.78411024889348,1.376286909330715,29.0,1.4771212547196624,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+300,1,32.41155898834173,1.5106999209967484,18.0,1.2787536009528289,Arlypon F | Dehyquart A-CA | Luviquat Excellence | Plantacare 818,Luviquat Excellence / Arlypon F
+301,1,16.544301899943783,1.2186484464793337,2447.0,3.3888114134735234,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Plantacare 818,Dehyquart CC7 Benz / Arlypon F
+302,1,4.317128956939821,0.6351950216585591,15.0,1.2041199826559248,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+303,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Plantacare 818,Dehyquart CC7 Benz / Arlypon F
+304,1,7.965503347671444,0.9012132244823149,730.0,2.8639173769578603,Arlypon F | Dehyquart CC7 Benz | Plantapon ACG 50 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+305,1,5.039487370965072,0.7023863611907468,16.0,1.2304489213782739,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon F
+306,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton MC,Dehyquart CC7 Benz / Arlypon F
+307,1,2.2926180004768533,0.3603316979460293,19.0,1.3010299956639813,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+308,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+309,1,3.2926085681131507,0.5175401039846459,14.0,1.1760912590556813,Arlypon F | Dehyquart CC7 Benz | Plantapon Amino SCG-L | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+310,1,405.2213240036491,2.6076922912130307,58.0,1.7708520116421442,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon F
+311,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+312,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+313,1,6.468862272156077,0.8108279047222835,23.0,1.380211241711606,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantacare 2000,Dehyquart CC7 Benz / Arlypon F
+314,0,,,,,Arlypon F | Dehyquart CC7 Benz | Plantacare 818 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+315,1,2.5454510829945534,0.4057647554335941,25.0,1.414973347970818,Arlypon F | Dehyquart CC7 Benz | Plantapon ACG 50 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+316,1,7.337139527264508,0.865526777946913,28.0,1.462397997898956,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon F
+317,1,133.76964404704518,2.1263575714393843,411.0,2.6148972160331345,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+318,1,14.374776386168758,1.1576010975350013,2083.0,3.3188977146274867,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton ML,Dehyquart CC7 Benz / Arlypon F
+319,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+320,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+321,1,87.71344311260177,1.9430661591836926,502.0,2.7015679850559273,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+322,1,6.132860036858025,0.7876630534020145,15.0,1.2041199826559248,Arlypon F | Dehyquart CC7 Benz | Plantacare 818 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+323,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon F
+324,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Plantacare 2000,Dehyquart CC7 Benz / Arlypon F
+325,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+326,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+327,1,3.733344940551687,0.5720981182031205,260.0,2.416640507338281,Arlypon F | Dehyquart CC7 Benz | Plantapon Amino KG-L | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+328,1,2.079342694192856,0.3179260708283393,17.0,1.255272505103306,Arlypon F | Dehyquart CC7 Benz | Plantapon Amino SCG-L | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+329,1,3.8034135577199177,0.5801735502527045,14.0,1.1760912590556813,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+330,1,7.716276166940401,0.8874077627292312,17.0,1.255272505103306,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+331,1,2.4380321455947302,0.3870394275179548,14.0,1.1760912590556813,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+332,1,2.093308198003776,0.3208331742720887,19.0,1.3010299956639813,Arlypon F | Dehyquart CC7 Benz | Plantapon ACG 50 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+333,1,18.426000000000002,1.2654310668267126,38.0,1.591064607026499,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+334,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon F
+335,1,128.03189092309123,2.1073181597014043,86.0,1.9395192526186185,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+336,1,7.029166977572479,0.8469038600867203,941.0,2.9740509027928774,Arlypon F | Dehyquart CC7 Benz | Plantapon Amino KG-L | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+337,1,118.73373586270056,2.074574132748831,19.0,1.3010299956639813,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Plantacare 2000,Dehyquart CC7 Benz / Arlypon F
+338,1,33.742936140395,1.5281828700163396,2910.0,3.464042205438811,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+339,1,13.186422292847599,1.120126979834558,1081.0,3.0342272607705505,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Dehyton ML,Dehyquart CC7 Benz / Arlypon F
+340,1,4.5583726373761415,0.6588098249560768,14.0,1.1760912590556813,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon F
+341,1,16.127709745691305,1.207572698732511,33.0,1.5314789170422551,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon F
+342,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Plantacare 818,Dehyquart CC7 Benz / Arlypon F
+343,1,5.664656137942503,0.753173551988183,15.0,1.2041199826559248,Arlypon F | Dehyquart CC7 Benz | Plantapon ACG 50 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+344,0,,,,,Arlypon F | Dehyquart CC7 Benz | Plantapon Amino KG-L | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+345,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+346,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton MC,Dehyquart CC7 Benz / Arlypon F
+347,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Plantacare 2000,Dehyquart CC7 Benz / Arlypon F
+348,0,,,,,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000 | Plantacare 818,Dehyquart CC7 Benz / Arlypon F
+349,1,103.43682866705171,2.014675196776503,47.0,1.6812412373755872,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton ML,Dehyquart CC7 Benz / Arlypon F
+350,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+351,1,242.25699284297033,2.384276321984033,92.0,1.968482948553935,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+352,1,6.789893889982871,0.8318629873357305,19.0,1.3010299956639813,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+353,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon F
+354,1,117.03876228016038,2.0683297203477844,2380.0,3.37675939540488,Arlypon F | Dehyquart CC7 Benz | Plantacare 818 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+355,1,21.067003871826376,1.3236027750738661,1232.0,3.0909630765957314,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantacare 818,Dehyquart CC7 Benz / Arlypon F
+356,1,8.50300008113722,0.9295721832206693,195.0,2.292256071356476,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+357,1,72.50933359702462,1.8603939137266112,34.0,1.5440680443502757,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon F
+358,1,8.379715710854912,0.923229285062104,26.0,1.4313637641589874,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon F
+359,0,,,,,Arlypon F | Dehyquart CC7 Benz | Plantapon LC 7 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+360,1,5.166835133688962,0.7132246040516693,31.0,1.505149978319906,Arlypon F | Dehyquart CC7 Benz | Plantacare 818 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon F
+361,1,1.969175367845125,0.29428439460231925,23.0,1.380211241711606,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton AB 30,Dehyquart CC7 Benz / Arlypon F
+362,1,208.73650957316977,2.3195984170550337,160.0,2.2068258760318495,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Dehyton ML,Dehyquart CC7 Benz / Arlypon F
+363,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Plantacare 2000,Dehyquart CC7 Benz / Arlypon F
+364,1,8.861276708288793,0.947496298345272,26.0,1.4313637641589874,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantacare 818,Dehyquart CC7 Benz / Arlypon F
+365,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+366,0,,,,,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000,Dehyquart CC7 Benz / Arlypon F
+367,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+368,1,7.847375501136388,0.894724434330873,20.0,1.3222192947339193,Arlypon F | Dehyquart CC7 Benz | Dehyton PK 45 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+369,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon F
+370,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton AB 30,Dehyquart CC7 Benz / Arlypon F
+371,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon F
+372,1,2.104510534861853,0.32315110410205916,16.0,1.2304489213782739,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+373,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton MC | Plantacare 818,Dehyquart CC7 Benz / Arlypon F
+374,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+375,1,91.90387989622825,1.963333846336641,62.0,1.7993405494535817,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton ML,Dehyquart CC7 Benz / Arlypon F
+376,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+377,1,246.06044053259174,2.391041797207918,1504.0,3.1775364999298623,Arlypon F | Dehyquart CC7 Benz | Plantacare 818 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+378,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon F
+379,1,3.4697238740054,0.5402949143391885,17.0,1.255272505103306,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+380,1,58.23410370730666,1.7651773955457977,250.0,2.399673721481038,Arlypon F | Dehyquart CC7 Benz | Dehyton AB 30 | Plantacare 2000,Dehyquart CC7 Benz / Arlypon F
+381,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon F
+382,1,144.94356699884773,2.1611989449141946,2368.0,3.374565060722765,Arlypon F | Dehyquart CC7 Benz | Plantacare 2000 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon F
+383,0,,,,,Arlypon F | Dehyquart CC7 Benz | Dehyton ML | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon F
+384,0,,,,,Arlypon F | Dehyquart CC7 Benz | Plantacare 818 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon F
+385,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 818 | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+386,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC6 / Arlypon TT
+387,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton PK 45 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+388,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon ACG 50 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+389,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantacare 818,Dehyquart CC6 / Arlypon TT
+390,1,82.68970676812998,1.91745145184974,40.0,1.6127838567197355,Arlypon TT | Dehyquart CC6 | Dehyton PK 45 | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+391,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon Amino KG-L | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+392,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon Amino KG-L | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+393,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+394,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 2000 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+395,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon Amino SCG-L | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+396,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+397,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 2000 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+398,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Dehyton MC,Dehyquart CC6 / Arlypon TT
+399,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+400,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+401,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantacare 818,Dehyquart CC6 / Arlypon TT
+402,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon ACG 50 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+403,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+404,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 2000 | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+405,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+406,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Dehyton PK 45,Dehyquart CC6 / Arlypon TT
+407,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+408,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+409,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 818 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+410,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+411,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Plantacare 818,Dehyquart CC6 / Arlypon TT
+412,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Dehyton PK 45,Dehyquart CC6 / Arlypon TT
+413,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon Amino SCG-L | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+414,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantacare 2000,Dehyquart CC6 / Arlypon TT
+415,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantacare 2000,Dehyquart CC6 / Arlypon TT
+416,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon Amino KG-L | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+417,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+418,1,148.99612041273875,2.1731749603231796,541.0,2.733999286538387,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+419,1,8.136977468336353,0.9104631134159481,24.0,1.3979400086720377,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Dehyton AB 30,Dehyquart CC6 / Arlypon TT
+420,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon ACG 50 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+421,1,12.29727529288188,1.0898088954758856,69.0,1.845098040014257,Arlypon TT | Dehyquart CC6 | Dehyton PK 45 | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+422,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon LC 7 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+423,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Dehyton MC,Dehyquart CC6 / Arlypon TT
+424,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantacare 818,Dehyquart CC6 / Arlypon TT
+425,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+426,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+427,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+428,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 2000 | Plantacare 818,Dehyquart CC6 / Arlypon TT
+429,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantacare 2000,Dehyquart CC6 / Arlypon TT
+430,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Plantacare 818,Dehyquart CC6 / Arlypon TT
+431,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 818 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+432,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Dehyton PK 45,Dehyquart CC6 / Arlypon TT
+433,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Dehyton ML,Dehyquart CC6 / Arlypon TT
+434,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 818 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+435,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+436,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+437,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+438,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+439,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+440,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+441,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+442,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+443,1,6.19057208755071,0.7917307852052408,144.0,2.161368002234975,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+444,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+445,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Dehyton ML,Dehyquart CC6 / Arlypon TT
+446,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+447,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon ACG 50 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+448,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 818 | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+449,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Dehyton PK 45,Dehyquart CC6 / Arlypon TT
+450,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+451,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+452,1,6.377239889325807,0.8046327539248354,28.0,1.462397997898956,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+453,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantapon ACG 50,Dehyquart CC6 / Arlypon TT
+454,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon Amino KG-L | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+455,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Dehyton ML,Dehyquart CC6 / Arlypon TT
+456,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton PK 45 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+457,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Plantacare 818,Dehyquart CC6 / Arlypon TT
+458,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton PK 45 | Plantacare 2000,Dehyquart CC6 / Arlypon TT
+459,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon ACG 50 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon TT
+460,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton ML | Plantacare 818,Dehyquart CC6 / Arlypon TT
+461,0,,,,,Arlypon TT | Dehyquart CC6 | Plantacare 2000 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon TT
+462,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton MC | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+463,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Dehyton MC,Dehyquart CC6 / Arlypon TT
+464,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC6 | Dehyton AB 30,Dehyquart CC6 / Arlypon TT
+465,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC6 / Arlypon TT
+466,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton AB 30 | Plantacare 2000,Dehyquart CC6 / Arlypon TT
+467,0,,,,,Arlypon TT | Dehyquart CC6 | Dehyton PK 45 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon TT
+468,0,,,,,Arlypon TT | Dehyquart CC6 | Plantapon Amino SCG-L | Plantapon LC 7,Dehyquart CC6 / Arlypon TT
+469,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon Amino SCG-L | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+470,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Dehyton ML,Dehyquart CC6 / Arlypon F
+471,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon ACG 50 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+472,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+473,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Plantapon ACG 50,Dehyquart CC6 / Arlypon F
+474,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+475,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+476,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Plantacare 818,Dehyquart CC6 / Arlypon F
+477,1,47.65330222692453,1.6780930012857715,1077.0,3.03261876085072,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantacare 818,Dehyquart CC6 / Arlypon F
+478,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+479,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantacare 2000,Dehyquart CC6 / Arlypon F
+480,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 818 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+481,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+482,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon Amino KG-L | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+483,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantacare 2000,Dehyquart CC6 / Arlypon F
+484,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 818 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+485,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+486,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantapon ACG 50,Dehyquart CC6 / Arlypon F
+487,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantapon ACG 50,Dehyquart CC6 / Arlypon F
+488,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantacare 818,Dehyquart CC6 / Arlypon F
+489,1,15.991701016971586,1.203894661556957,39.0,1.6020599913279623,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Dehyton AB 30,Dehyquart CC6 / Arlypon F
+490,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+491,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon ACG 50 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+492,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantapon ACG 50,Dehyquart CC6 / Arlypon F
+493,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+494,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+495,1,16.171585520569685,1.20875260179123,364.0,2.5622928644564746,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Plantapon ACG 50,Dehyquart CC6 / Arlypon F
+496,1,225.04469148629653,2.352268772949238,57.0,1.7634279935629373,Arlypon F | Dehyquart CC6 | Dehyton MC | Dehyton ML,Dehyquart CC6 / Arlypon F
+497,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 818 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+498,1,380.35857515745516,2.5801932118401076,18.0,1.2787536009528289,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC6 / Arlypon F
+499,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+500,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+501,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+502,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+503,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+504,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+505,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Dehyton MC,Dehyquart CC6 / Arlypon F
+506,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Plantacare 2000,Dehyquart CC6 / Arlypon F
+507,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+508,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon Amino SCG-L | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+509,1,73.07285690127466,1.8637560871208338,33.0,1.5314789170422551,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Plantacare 2000,Dehyquart CC6 / Arlypon F
+510,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+511,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon Amino KG-L | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+512,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantacare 2000,Dehyquart CC6 / Arlypon F
+513,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon ACG 50 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+514,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+515,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Dehyton PK 45,Dehyquart CC6 / Arlypon F
+516,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantacare 818,Dehyquart CC6 / Arlypon F
+517,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+518,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Dehyton ML,Dehyquart CC6 / Arlypon F
+519,1,672.734208734578,2.8278435122478696,40.0,1.6127838567197355,Arlypon F | Dehyquart CC6 | Dehyton MC | Dehyton PK 45,Dehyquart CC6 / Arlypon F
+520,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Dehyton MC,Dehyquart CC6 / Arlypon F
+521,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+522,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+523,1,2.475172422707215,0.3936054576623376,26.0,1.4313637641589874,Arlypon F | Plantapon Amino SCG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+524,1,234.13977927644703,2.369475204609149,44.0,1.6532125137753437,Arlypon F | Dehyton PK 45 | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+525,1,3.3686219501728347,0.5274522742145848,66.0,1.8260748027008264,Arlypon F | Plantacare 2000 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+526,0,,,,,Arlypon F | Dehyton AB 30 | Dehyton MC | Salcare Super 7,Salcare Super 7 / Arlypon F
+527,1,3.608861855082774,0.5573702578634596,80.0,1.9084850188786497,Arlypon F | Dehyton ML | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+528,1,3.205756814619083,0.5059305741395242,17.0,1.255272505103306,Arlypon F | Plantapon ACG 50 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+529,0,,,,,Arlypon F | Plantapon Amino KG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+530,0,,,,,Arlypon F | Dehyton MC | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon F
+531,0,,,,,Arlypon F | Dehyton PK 45 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+532,1,4.9307608876129,0.6929139423591307,39.0,1.6020599913279623,Arlypon F | Plantacare 2000 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+533,1,2.5730353465804563,0.41044575228862346,34.0,1.5440680443502757,Arlypon F | Plantapon Amino KG-L | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+534,1,2.8183128624986993,0.44998920272463305,17.0,1.255272505103306,Arlypon F | Dehyton PK 45 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+535,0,,,,,Arlypon F | Dehyton AB 30 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+536,0,,,,,Arlypon F | Dehyton ML | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon F
+537,0,,,,,Arlypon F | Dehyton PK 45 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+538,1,4.740260957928101,0.675802250844669,3047.0,3.4840149626675627,Arlypon F | Dehyton ML | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+539,0,,,,,Arlypon F | Dehyton PK 45 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+540,1,2.322744944591083,0.36600152351607446,18.0,1.2787536009528289,Arlypon F | Plantapon Amino SCG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+541,0,,,,,Arlypon F | Dehyton MC | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+542,1,385.56196616639596,2.586094186281784,38.0,1.591064607026499,Arlypon F | Dehyquart A-CA | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon F
+543,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon F
+544,1,2.97589847434861,0.4736181107507622,14.0,1.1760912590556813,Arlypon F | Plantapon ACG 50 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+545,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon F
+546,0,,,,,Arlypon F | Plantacare 818 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+547,0,,,,,Arlypon F | Dehyton MC | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon F
+548,1,4.158617198357542,0.6189489453006488,21.0,1.3424226808222062,Arlypon F | Plantapon ACG 50 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+549,1,16.0361247631608,1.2050994264598447,3275.0,3.5153438930883807,Arlypon F | Dehyquart A-CA | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+550,0,,,,,Arlypon F | Dehyton AB 30 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+551,1,44.43390443279175,1.6477144766240428,60.0,1.7853298350107671,Arlypon F | Plantacare 2000 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+552,1,34.03242297357721,1.5318928702416885,30.0,1.4913616938342726,Arlypon F | Dehyquart A-CA | Dehyton AB 30 | Salcare Super 7,Salcare Super 7 / Arlypon F
+553,0,,,,,Arlypon F | Dehyton ML | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+554,0,,,,,Arlypon F | Dehyton AB 30 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+555,1,118.11672536197354,2.072311398190275,2289.0,3.359835482339888,Arlypon F | Dehyton PK 45 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+556,0,,,,,Arlypon F | Dehyton AB 30 | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+557,1,150.61126697421605,2.177857461915809,1332.0,3.1248301494138593,Arlypon F | Dehyton MC | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+558,1,9.133413969436967,0.9606331423700971,23.0,1.380211241711606,Arlypon F | Dehyton ML | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+559,1,76.38626937624919,1.8830153000673113,33.0,1.5314789170422551,Arlypon F | Dehyton ML | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+560,0,,,,,Arlypon F | Dehyton MC | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+561,1,220.05134623359396,2.342524029840717,1301.0,3.114610984232173,Arlypon F | Dehyquart A-CA | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+562,1,4.464446853454977,0.6497676573177857,20.0,1.3222192947339193,Arlypon F | Plantapon Amino SCG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+563,1,2.8580342755366783,0.4560674328479478,15.0,1.2041199826559248,Arlypon F | Plantacare 818 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+564,1,2.4015098600560654,0.3804843740935109,18.0,1.2787536009528289,Arlypon F | Dehyton MC | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+565,0,,,,,Arlypon F | Dehyquart A-CA | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+566,1,16.323942245235102,1.212825049552589,1216.0,3.085290578230065,Arlypon F | Dehyton MC | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+567,1,48.13794063821859,1.6824875070318988,34.0,1.5440680443502757,Arlypon F | Dehyquart A-CA | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon F
+569,0,,,,,Arlypon F | Plantacare 818 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+570,0,,,,,Arlypon F | Dehyton MC | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon F
+571,1,50.57701856159943,1.7039532247630587,826.0,2.9175055095525466,Arlypon F | Dehyton ML | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+572,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton MC | Salcare Super 7,Salcare Super 7 / Arlypon F
+573,0,,,,,Arlypon F | Dehyton MC | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+574,0,,,,,Arlypon F | Dehyton PK 45 | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon F
+575,1,12.679820443747136,1.1031131036370436,44.0,1.6532125137753437,Arlypon F | Plantacare 818 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+576,1,45.494297242747564,1.6579569608059732,22.0,1.3617278360175928,Arlypon F | Dehyquart A-CA | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+577,1,4.601337121828875,0.6628840534748442,25.0,1.414973347970818,Arlypon F | Dehyton MC | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+578,1,2.124620139636898,0.3272812939127786,27.0,1.4471580313422192,Arlypon F | Dehyton ML | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+580,1,73.65162324935372,1.8671823229433262,1642.0,3.215637563435062,Arlypon F | Dehyton MC | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+581,0,,,,,Arlypon F | Dehyton PK 45 | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon F
+582,0,,,,,Arlypon F | Plantacare 818 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+583,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantacare 818,Dehyquart CC6 / Arlypon F
+584,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Dehyton AB 30,Dehyquart CC6 / Arlypon F
+585,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+586,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+587,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+588,1,12.541689057841255,1.098356029246082,39.0,1.6020599913279623,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantacare 2000,Dehyquart CC6 / Arlypon F
+589,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon Amino SCG-L | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+590,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+591,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 818 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+592,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+593,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon ACG 50 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+594,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 818 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+595,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+596,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+597,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon LC 7 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+598,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 818 | Plantapon ACG 50,Dehyquart CC6 / Arlypon F
+599,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon ACG 50 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+600,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Dehyton ML,Dehyquart CC6 / Arlypon F
+601,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+602,1,276.7034089882847,2.4420145096855164,1523.0,3.182984967003582,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+603,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+604,1,64.4987443650279,1.8095512600515837,38.0,1.591064607026499,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantacare 818,Dehyquart CC6 / Arlypon F
+605,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantacare 818,Dehyquart CC6 / Arlypon F
+606,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+607,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 2000 | Plantapon Amino KG-L,Dehyquart CC6 / Arlypon F
+608,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantapon ACG 50,Dehyquart CC6 / Arlypon F
+609,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantacare 2000,Dehyquart CC6 / Arlypon F
+610,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+611,0,,,,,Arlypon F | Dehyquart CC6 | Plantacare 818 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+612,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon ACG 50 | Texapon SB 3 KC,Dehyquart CC6 / Arlypon F
+613,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton MC | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+614,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton ML | Plantacare 2000,Dehyquart CC6 / Arlypon F
+615,0,,,,,Arlypon F | Dehyquart A-CA | Dehyquart CC6 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+616,0,,,,,Arlypon F | Dehyquart CC6 | Dehyton PK 45 | Plantapon LC 7,Dehyquart CC6 / Arlypon F
+617,0,,,,,Arlypon F | Dehyquart CC6 | Plantapon ACG 50 | Plantapon Amino SCG-L,Dehyquart CC6 / Arlypon F
+618,1,15.108226377196473,1.1792134835443342,18.0,1.2787536009528289,Arlypon F | Dehyquart CC6 | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC6 / Arlypon F
+620,0,,,,,Arlypon F | Dehyquart A-CA | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+621,0,,,,,Arlypon F | Dehyquart A-CA | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+622,0,,,,,Arlypon F | Dehyquart A-CA | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+625,1,247.73000000000002,2.3939786026517718,22.0,1.3617278360175928,Arlypon F | Dehyton AB 30 | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon F
+626,1,3.27,0.5145477526602861,17.0,1.255272505103306,Arlypon F | Plantacare 2000 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+627,0,,,,,Arlypon F | Dehyton ML | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon F
+628,0,,,,,Arlypon F | Plantapon Amino KG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+629,0,,,,,Arlypon F | Dehyton MC | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon F
+630,1,2.563,0.408748606184244,27.0,1.4471580313422192,Arlypon F | Plantacare 818 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+631,0,,,,,Arlypon F | Plantapon Amino KG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+632,1,6.2299999999999995,0.7944880466591696,19.0,1.3010299956639813,Arlypon F | Plantapon ACG 50 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+633,0,,,,,Arlypon F | Dehyton AB 30 | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon F
+634,1,2.749,0.4391747398434685,19.0,1.3010299956639813,Arlypon F | Plantapon LC 7 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+635,1,373.9130000000001,2.5727705647266137,35.0,1.5563025007672873,Arlypon F | Dehyton MC | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon F
+636,1,254.30999999999997,2.4053634378769715,2531.0,3.4034637013453173,Arlypon F | Dehyton ML | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+637,1,256.8569999999999,2.4096914058397925,486.0,2.6875289612146345,Arlypon F | Plantacare 2000 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+638,0,,,,,Arlypon F | Plantapon Amino KG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+639,1,577.797,2.7617752825984723,37.0,1.5797835966168101,Arlypon F | Dehyton ML | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon F
+640,1,43.799,1.641464194991778,24.0,1.3979400086720377,Arlypon F | Dehyton AB 30 | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon F
+641,0,,,,,Arlypon F | Dehyton AB 30 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+642,0,,,,,Arlypon F | Dehyton AB 30 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+643,1,4.889,0.6892200372638356,17.0,1.255272505103306,Arlypon F | Dehyquart A-CA | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+644,0,,,,,Arlypon F | Dehyquart A-CA | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+645,1,5.718,0.7572441510219701,29.0,1.4771212547196624,Arlypon F | Plantapon Amino SCG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+646,1,2.697,0.4308809464528912,18.0,1.2787536009528289,Arlypon F | Dehyton AB 30 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+647,0,,,,,Arlypon F | Dehyton ML | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+648,1,3.5400000000000005,0.5490032620257879,27.0,1.4471580313422192,Arlypon F | Dehyton AB 30 | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon F
+649,1,1.553,0.1911714557285585,18.0,1.2787536009528289,Arlypon F | Plantapon ACG 50 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+650,0,,,,,Arlypon F | Dehyton AB 30 | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon F
+651,0,,,,,Arlypon F | Dehyton PK 45 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+652,0,,,,,Arlypon F | Dehyton ML | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+653,1,4.235,0.6268534146667257,15.0,1.2041199826559248,Arlypon F | Plantapon ACG 50 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+654,1,2.894,0.46149852678301867,15.0,1.2041199826559248,Arlypon F | Plantacare 2000 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+655,0,,,,,Arlypon F | Dehyquart A-CA | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon F
+656,1,7.202999999999999,0.8575134147766897,19.0,1.3010299956639813,Arlypon F | Dehyton MC | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon F
+657,0,,,,,Arlypon F | Dehyton MC | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+658,0,,,,,Arlypon F | Dehyquart A-CA | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+659,1,4.494,0.6526330680831101,35.0,1.5563025007672873,Arlypon F | Plantacare 2000 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+660,0,,,,,Arlypon F | Dehyquart A-CA | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+662,1,5.129,0.7100326990657535,16.0,1.2304489213782739,Arlypon F | Dehyton PK 45 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+663,0,,,,,Arlypon F | Dehyton ML | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon F
+664,0,,,,,Arlypon F | Plantapon Amino KG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon F
+665,0,,,,,Arlypon F | Dehyton MC | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon F
+666,0,,,,,Arlypon F | Plantapon Amino KG-L | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon F
+667,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon TT
+668,0,,,,,Arlypon TT | Plantacare 818 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+669,0,,,,,Arlypon TT | Dehyton MC | Dehyton ML | Salcare Super 7,Salcare Super 7 / Arlypon TT
+670,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+671,0,,,,,Arlypon TT | Dehyton PK 45 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+672,1,2156.8330000000005,3.3338165197032708,44.0,1.6532125137753437,Arlypon TT | Dehyton PK 45 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+673,1,2.87,0.4578818967339923,15.0,1.2041199826559248,Arlypon TT | Dehyton PK 45 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+674,0,,,,,Arlypon TT | Plantapon Amino KG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+675,0,,,,,Arlypon TT | Dehyton ML | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+676,0,,,,,Arlypon TT | Plantapon Amino SCG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+677,0,,,,,Arlypon TT | Dehyton ML | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+678,0,,,,,Arlypon TT | Dehyton PK 45 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+679,0,,,,,Arlypon TT | Plantacare 818 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+680,0,,,,,Arlypon TT | Dehyton AB 30 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+681,0,,,,,Arlypon TT | Plantapon Amino KG-L | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+682,0,,,,,Arlypon TT | Plantapon Amino SCG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+683,0,,,,,Arlypon TT | Dehyton MC | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+684,0,,,,,Arlypon TT | Plantapon Amino KG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+685,1,4.992,0.6982745766743675,3881.0,3.589055531052344,Arlypon TT | Plantapon ACG 50 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+686,0,,,,,Arlypon TT | Dehyton AB 30 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+687,0,,,,,Arlypon TT | Dehyquart A-CA | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+688,1,77.64400000000002,1.890107900920081,20.0,1.3222192947339193,Arlypon TT | Dehyton MC | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+689,0,,,,,Arlypon TT | Dehyton PK 45 | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+690,0,,,,,Arlypon TT | Dehyquart A-CA | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+691,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton AB 30 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+692,1,5.375869225322337,0.730448695423061,14.0,1.1760912590556813,Arlypon TT | Plantacare 818 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+693,1,324.4793218555637,2.5111870256659214,20.0,1.3222192947339193,Arlypon TT | Dehyton ML | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+694,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton MC | Salcare Super 7,Salcare Super 7 / Arlypon TT
+695,0,,,,,Arlypon TT | Dehyquart A-CA | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+696,0,,,,,Arlypon TT | Dehyton MC | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+697,0,,,,,Arlypon TT | Dehyquart A-CA | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+698,0,,,,,Arlypon TT | Dehyton ML | Plantacare 818 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+699,0,,,,,Arlypon TT | Dehyton ML | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+700,1,507.29138452752244,2.705257486634517,28.0,1.462397997898956,Arlypon TT | Plantapon ACG 50 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+701,1,4.787655926512793,0.68012293150333,19.0,1.3010299956639813,Arlypon TT | Plantacare 2000 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+702,1,8.346981874586545,0.9215294704348003,26.0,1.4313637641589874,Arlypon TT | Dehyton MC | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+703,1,26.199994439167764,1.418301199142684,21.0,1.3424226808222062,Arlypon TT | Dehyton ML | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+704,0,,,,,Arlypon TT | Dehyquart A-CA | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+705,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyton MC | Salcare Super 7,Salcare Super 7 / Arlypon TT
+706,0,,,,,Arlypon TT | Dehyton AB 30 | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+707,1,24.365738021861215,1.386779570405089,14.0,1.1760912590556813,Arlypon TT | Plantacare 2000 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+708,0,,,,,Arlypon TT | Plantapon LC 7 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+709,0,,,,,Arlypon TT | Dehyton ML | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+710,0,,,,,Arlypon TT | Plantacare 2000 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+711,0,,,,,Arlypon TT | Dehyton MC | Plantacare 2000 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+712,1,4.517311990957556,0.6548800864153032,21.0,1.3424226808222062,Arlypon TT | Plantacare 2000 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+713,1,6.644861986806511,0.822485965114595,28.0,1.462397997898956,Arlypon TT | Dehyton ML | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+714,0,,,,,Arlypon TT | Dehyquart A-CA | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+715,1,2.982,0.4745076391169758,17.0,1.255272505103306,Arlypon TT | Plantapon ACG 50 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+716,1,4.822757053458617,0.6832953848744394,16.0,1.2304489213782739,Arlypon TT | Dehyton PK 45 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+717,0,,,,,Arlypon TT | Dehyton MC | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+718,0,,,,,Arlypon TT | Dehyton AB 30 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+719,1,3.363401057989469,0.5267786564572854,23.0,1.380211241711606,Arlypon TT | Plantapon ACG 50 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+720,1,242.73795468756592,2.3851376882504267,29.0,1.4771212547196624,Arlypon TT | Dehyton AB 30 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+721,1,4.61348154535,0.664028787704627,15.0,1.2041199826559248,Arlypon TT | Dehyton MC | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+722,1,11.33892890785521,1.0545720323895422,14.0,1.1760912590556813,Arlypon TT | Plantapon ACG 50 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+723,0,,,,,Arlypon TT | Dehyton MC | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+724,0,,,,,Arlypon TT | Plantapon LC 7 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+725,1,8.972674506819644,0.9529219135488092,16.0,1.2304489213782739,Arlypon TT | Dehyton AB 30 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+726,0,,,,,Arlypon TT | Plantapon ACG 50 | Plantapon Amino KG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+727,1,10.718732287760014,1.0301434240706715,15.0,1.2041199826559248,Arlypon TT | Dehyton PK 45 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+728,1,2.3077831228274497,0.3631949929651054,25.0,1.414973347970818,Arlypon TT | Plantapon Amino SCG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+729,0,,,,,Arlypon TT | Plantapon Amino KG-L | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+730,1,4.145934330299604,0.6176224187866938,20.0,1.3222192947339193,Arlypon TT | Plantacare 818 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+731,1,3.2590366327153757,0.5130892421149542,23.0,1.380211241711606,Arlypon TT | Dehyton ML | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+732,1,5.238758734966129,0.7192283979735021,19.0,1.3010299956639813,Arlypon TT | Dehyton MC | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+733,1,2.7164848931599463,0.4340072941900904,16.0,1.2304489213782739,Arlypon TT | Plantapon ACG 50 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+734,1,14.992666784173654,1.1758788887950193,14.0,1.1760912590556813,Arlypon TT | Plantacare 2000 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+735,0,,,,,Arlypon TT | Dehyton PK 45 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+736,1,421.10173618536055,2.624387032002472,23.0,1.380211241711606,Arlypon TT | Dehyton MC | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+737,1,4.153485809911731,0.6184127310676432,15.0,1.2041199826559248,Arlypon TT | Plantapon ACG 50 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+738,1,127.2270232126054,2.1045793659165937,377.0,2.5774917998372255,Arlypon TT | Dehyton ML | Dehyton PK 45 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+739,1,4.472312186331373,0.6505321115306195,17.0,1.255272505103306,Arlypon TT | Plantapon Amino SCG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+740,1,8.827349075206644,0.9458303009884323,18.0,1.2787536009528289,Arlypon TT | Dehyton PK 45 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+741,0,,,,,Arlypon TT | Dehyton PK 45 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+742,1,5.8332459990870635,0.765910291841175,25.0,1.414973347970818,Arlypon TT | Plantapon Amino SCG-L | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+743,1,5.2515874091350145,0.720290598419987,16.0,1.2304489213782739,Arlypon TT | Plantacare 2000 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+744,1,26.815647940178213,1.4283882951810303,15.0,1.2041199826559248,Arlypon TT | Dehyton AB 30 | Plantapon Amino SCG-L | Salcare Super 7,Salcare Super 7 / Arlypon TT
+745,1,4.468106709703587,0.6501235366194957,16.0,1.2304489213782739,Arlypon TT | Plantapon LC 7 | Salcare Super 7 | Texapon SB 3 KC,Salcare Super 7 / Arlypon TT
+746,1,4.609761489454894,0.6636784554344857,15.0,1.2041199826559248,Arlypon TT | Plantacare 818 | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+747,1,9.150962157453822,0.9614667593893649,24.0,1.3979400086720377,Arlypon TT | Dehyton MC | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+748,1,7.12717472193463,0.8529174056107555,15.0,1.2041199826559248,Arlypon TT | Plantacare 818 | Plantapon ACG 50 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+749,1,10.50268734091882,1.0213004369752414,15.0,1.2041199826559248,Arlypon TT | Plantapon Amino SCG-L | Plantapon LC 7 | Salcare Super 7,Salcare Super 7 / Arlypon TT
+751,1,6.6380370872324335,0.8220396745166044,15.0,1.2041199826559248,Arlypon TT | Dehyquart CC7 Benz | Plantacare 818 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon TT
+752,1,72.01700725398705,1.8574350698249817,757.0,2.8796692056320534,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon TT
+753,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+754,1,3.353795520927128,0.5255365803809412,15.0,1.2041199826559248,Arlypon TT | Dehyquart CC7 Benz | Plantapon ACG 50 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+755,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+756,1,5.080864574424793,0.7059376193614201,14.0,1.1760912590556813,Arlypon TT | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon TT
+757,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantapon Amino KG-L | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+758,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantapon Amino KG-L | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+759,1,1675.4180687680396,3.2241231948379907,123.0,2.093421685162235,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon TT
+760,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+761,1,4.9905551458514505,0.6981488589239352,22.0,1.3617278360175928,Arlypon TT | Dehyquart CC7 Benz | Plantapon Amino SCG-L | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+762,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon TT
+763,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+764,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton MC,Dehyquart CC7 Benz / Arlypon TT
+765,1,120.51027870015518,2.0810240908310496,36.0,1.568201724066995,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+766,1,5.746345241369939,0.7593917149238884,21.0,1.3424226808222062,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+767,1,3374.5057339693053,3.5282101704323976,633.0,2.802089257881733,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+768,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantapon ACG 50 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+769,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+770,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon TT
+771,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+772,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon TT
+773,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+774,1,42.29175587544431,1.6262557166244593,20.0,1.3222192947339193,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+775,1,2.845837144313331,0.4542100435522898,18.0,1.2787536009528289,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+776,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+777,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+778,1,61.15122626580268,1.7864051703687343,27.0,1.4471580313422192,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+779,1,11.265863356584271,1.0517644793827932,15.0,1.2041199826559248,Arlypon TT | Dehyquart CC7 Benz | Plantapon Amino SCG-L | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+780,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+781,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton MC,Dehyquart CC7 Benz / Arlypon TT
+782,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantapon ACG 50 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+783,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon TT
+784,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+785,1,158.38252566803126,2.199707264219505,15.0,1.2041199826559248,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon TT
+786,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton ML,Dehyquart CC7 Benz / Arlypon TT
+788,1,1269.3154287704592,3.1035695590150705,2213.0,3.345177616542704,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+789,1,14.63625293321364,1.1654299060448114,17.0,1.255272505103306,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+790,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+791,1,90.95017293896107,1.9588035291979091,134.0,2.130333768495006,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Plantacare 2000,Dehyquart CC7 Benz / Arlypon TT
+792,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton PK 45 | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+793,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton ML,Dehyquart CC7 Benz / Arlypon TT
+794,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+795,1,447.66276723867554,2.6509509749838225,25.0,1.414973347970818,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+796,1,8.573489052901893,0.9331575976587099,20.0,1.3222192947339193,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Plantapon ACG 50,Dehyquart CC7 Benz / Arlypon TT
+797,1,234.5521908285648,2.3702394938182993,197.0,2.296665190261531,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+798,1,8.40021266902776,0.9242902812780794,28.0,1.462397997898956,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+799,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantapon Amino SCG-L,Dehyquart CC7 Benz / Arlypon TT
+800,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Dehyton ML,Dehyquart CC7 Benz / Arlypon TT
+801,1,453.2288804706921,2.6563175760135787,28.0,1.462397997898956,Arlypon TT | Dehyquart CC7 Benz | Plantacare 818 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+802,1,35.087413115669065,1.5451513502329564,717.0,2.8561244442423,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon TT
+803,1,6.261280678843053,0.7966631726464001,20.0,1.3222192947339193,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Dehyton PK 45,Dehyquart CC7 Benz / Arlypon TT
+804,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantacare 818 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+805,1,4.110000429475494,0.613841867257779,14.0,1.1760912590556813,Arlypon TT | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+806,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton PK 45 | Plantacare 2000,Dehyquart CC7 Benz / Arlypon TT
+807,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Plantacare 2000,Dehyquart CC7 Benz / Arlypon TT
+808,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+809,1,9.178109723219587,0.9627532453290005,14.0,1.1760912590556813,Arlypon TT | Dehyquart CC7 Benz | Plantapon ACG 50 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+810,1,44.50741344665273,1.6484323559431304,3876.0,3.58849580100721,Arlypon TT | Dehyquart CC7 Benz | Plantapon Amino KG-L | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+811,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantapon ACG 50 | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+812,1,4.222691975710486,0.6255894029669028,13.0,1.146128035678238,Arlypon TT | Dehyquart CC7 Benz | Dehyton AB 30 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+813,1,1431.9377471571254,3.155924137626987,255.0,2.4082399653118496,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Dehyton AB 30,Dehyquart CC7 Benz / Arlypon TT
+814,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantacare 818,Dehyquart CC7 Benz / Arlypon TT
+815,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantapon Amino SCG-L | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+816,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantapon Amino SCG-L | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+817,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+818,0,,,,,Arlypon TT | Dehyquart A-CA | Dehyquart CC7 Benz | Texapon SB 3 KC,Dehyquart CC7 Benz / Arlypon TT
+819,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton MC | Plantapon Amino KG-L,Dehyquart CC7 Benz / Arlypon TT
+820,1,17.034667790162217,1.231333668381958,14.0,1.1760912590556813,Arlypon TT | Dehyquart CC7 Benz | Plantacare 2000 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT
+821,0,,,,,Arlypon TT | Dehyquart CC7 Benz | Dehyton ML | Plantacare 2000,Dehyquart CC7 Benz / Arlypon TT
+822,1,3.22138090440458,0.5080420799580134,15.0,1.2041199826559248,Arlypon TT | Dehyquart CC7 Benz | Dehyton PK 45 | Plantapon LC 7,Dehyquart CC7 Benz / Arlypon TT

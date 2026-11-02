@@ -1,0 +1,115 @@
+﻿feature,family,units,definition
+Texapon SB 3 KC,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Plantapon ACG 50,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Plantapon LC 7,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Plantacare 818,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Plantacare 2000,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Dehyton MC,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Dehyton PK 45,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Dehyton ML,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Dehyton AB 30,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Plantapon Amino SCG-L,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Plantapon Amino KG-L,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Dehyquart A-CA,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Luviquat Excellence,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Dehyquart CC6,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Dehyquart CC7 Benz,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Salcare Super 7,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Arlypon F,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+Arlypon TT,original_stock_amounts,mass_percent,As-supplied commercial grade amount; source stock column preserved
+stock_sum_pct,role_totals,mass_percent,Sum of the 18 commercial stocks; excludes balance water and titrant
+added_water_balance_pct_estimate,partial_water_accounting,mass_percent,"100 minus commercial-stock sum, pre-titration estimate; excludes water inside stocks"
+designated_surfactant_stock_pct,role_totals,mass_percent,Sum of the 12 designated surfactants; thickeners not relabeled as surfactants
+polymer_stock_pct,role_totals,mass_percent,"Commercial polymer stock sum, not polymer solids"
+thickener_stock_pct,role_totals,mass_percent,Commercial thickener stock sum
+designated_surfactant_count,surfactant_balance,count,Nonzero designated surfactant grades
+surfactant_major_stock_share,surfactant_balance,fraction,Largest surfactant stock divided by designated surfactant sum; 0 with no surfactant
+surfactant_pair_balance,surfactant_balance,dimensionless,4ab/(a+b)^2 when two surfactants; 0 for one/none; stock-basis balance
+no_designated_surfactant,surfactant_balance,indicator,Explicit zero denominator indicator
+type_anionic_stock_pct,source_type_totals,mass_percent,Source CSV surfactant type; not a measured charge state
+type_anionic_active_claim_lower_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_anionic_active_claim_upper_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_non_ionic_stock_pct,source_type_totals,mass_percent,Source CSV surfactant type; not a measured charge state
+type_non_ionic_active_claim_lower_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_non_ionic_active_claim_upper_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_amphoteric_stock_pct,source_type_totals,mass_percent,Source CSV surfactant type; not a measured charge state
+type_amphoteric_active_claim_lower_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_amphoteric_active_claim_upper_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_amino_acid_stock_pct,source_type_totals,mass_percent,Source CSV surfactant type; not a measured charge state
+type_amino_acid_active_claim_lower_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_amino_acid_active_claim_upper_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_cationic_stock_pct,source_type_totals,mass_percent,Source CSV surfactant type; not a measured charge state
+type_cationic_active_claim_lower_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+type_cationic_active_claim_upper_pct,source_claimed_active_ranges,mass_percent,Weighted source-claimed range endpoint; not batch-measured active concentration
+surfactant_active_claim_lower_pct,source_claimed_active_ranges,mass_percent,Marginal endpoint for designated surfactants only; no midpoint normalization
+surfactant_active_claim_upper_pct,source_claimed_active_ranges,mass_percent,Marginal endpoint for designated surfactants only; no midpoint normalization
+surfactant_active_claim_width_pct,source_claimed_active_ranges,percentage_points,Upper minus lower; not a probability interval
+water_known_partial_lower_pct,partial_water_accounting,mass_percent,Balance water plus reported water from designated surfactants; excludes unknown water in polymer/thickener and titrants
+water_known_partial_upper_pct,partial_water_accounting,mass_percent,Balance water plus reported water from designated surfactants; excludes unknown water in polymer/thickener and titrants
+stock_without_water_spec_pct,partial_water_accounting,mass_percent,"Uncharacterized commercial stocks, not an estimate of missing water"
+declared_nacl_contribution_pct,declared_additive_contributions,mass_percent,Only source-declared NaCl in AB30; not total salt or ionic strength
+declared_potassium_sorbate_contribution_pct,declared_additive_contributions,mass_percent,Only source-declared contribution; not total preservatives
+declared_citric_acid_lower_pct,declared_additive_contributions,mass_percent,Source stock contribution; excludes unknown pH-adjustment titrant
+declared_propanediol_lower_pct,declared_additive_contributions,mass_percent,Source stock contribution only
+declared_citric_acid_upper_pct,declared_additive_contributions,mass_percent,Source stock contribution; excludes unknown pH-adjustment titrant
+declared_propanediol_upper_pct,declared_additive_contributions,mass_percent,Source stock contribution only
+alkyl_length_stock_weighted_source_mean,source_chain_length,source_chain_length_units,Stock-weighted published (CH2)x descriptor; not exact molecular-chain distribution
+grade_present_luviquat_excellence,commercial_grade_indicators,indicator,"Preserve distinct commercial grades, including the two Polyquaternium-7 products"
+grade_present_dehyquart_cc6,commercial_grade_indicators,indicator,"Preserve distinct commercial grades, including the two Polyquaternium-7 products"
+grade_present_dehyquart_cc7_benz,commercial_grade_indicators,indicator,"Preserve distinct commercial grades, including the two Polyquaternium-7 products"
+grade_present_salcare_super_7,commercial_grade_indicators,indicator,"Preserve distinct commercial grades, including the two Polyquaternium-7 products"
+grade_present_arlypon_f,commercial_grade_indicators,indicator,"Preserve distinct commercial grades, including the two Polyquaternium-7 products"
+grade_present_arlypon_tt,commercial_grade_indicators,indicator,"Preserve distinct commercial grades, including the two Polyquaternium-7 products"
+interaction_type_anionic__anionic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_anionic__non_ionic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_anionic__amphoteric,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_anionic__amino_acid,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_anionic__cationic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_non_ionic__non_ionic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_non_ionic__amphoteric,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_non_ionic__amino_acid,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_non_ionic__cationic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_amphoteric__amphoteric,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_amphoteric__amino_acid,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_amphoteric__cationic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_amino_acid__amino_acid,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_amino_acid__cationic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_type_cationic__cationic,type_interactions,fraction_squared,"Product of stock fractions; prespecified proxy, not measured intermolecular interaction"
+interaction_grade_luviquat_excellence__arlypon_f,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_grade_luviquat_excellence__arlypon_tt,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_grade_dehyquart_cc6__arlypon_f,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_grade_dehyquart_cc6__arlypon_tt,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_grade_dehyquart_cc7_benz__arlypon_f,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_grade_dehyquart_cc7_benz__arlypon_tt,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_grade_salcare_super_7__arlypon_f,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_grade_salcare_super_7__arlypon_tt,grade_interactions,fraction_squared,Polymer-grade x thickener-grade stock fraction
+interaction_type_grade_anionic__luviquat_excellence,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_anionic__dehyquart_cc6,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_anionic__dehyquart_cc7_benz,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_anionic__salcare_super_7,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_anionic__arlypon_f,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_anionic__arlypon_tt,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_non_ionic__luviquat_excellence,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_non_ionic__dehyquart_cc6,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_non_ionic__dehyquart_cc7_benz,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_non_ionic__salcare_super_7,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_non_ionic__arlypon_f,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_non_ionic__arlypon_tt,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amphoteric__luviquat_excellence,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amphoteric__dehyquart_cc6,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amphoteric__dehyquart_cc7_benz,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amphoteric__salcare_super_7,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amphoteric__arlypon_f,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amphoteric__arlypon_tt,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amino_acid__luviquat_excellence,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amino_acid__dehyquart_cc6,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amino_acid__dehyquart_cc7_benz,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amino_acid__salcare_super_7,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amino_acid__arlypon_f,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_amino_acid__arlypon_tt,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_cationic__luviquat_excellence,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_cationic__dehyquart_cc6,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_cationic__dehyquart_cc7_benz,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_cationic__salcare_super_7,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_cationic__arlypon_f,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction
+interaction_type_grade_cationic__arlypon_tt,type_grade_interactions,fraction_squared,Source surfactant type x commercial polymer/thickener stock fraction

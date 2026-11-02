@@ -1,0 +1,22 @@
+{
+  "assembled_at": "2026-11-02",
+  "upstream_repository": "https://github.com/tjdbf061106-sketch/COS",
+  "upstream_base_commit": "1928ec8673c865cd83cd76c25e32f52687347c57",
+  "destination": "shampoo_demo/research_package_20261102",
+  "frozen_artifact_files": 97,
+  "original_files_modified": false,
+  "original_sources_and_results_byte_preserved": true,
+  "new_outputs": "Positive-class orientation tables, prediction contract, relocated verification wrapper, and entry documentation",
+  "source_manifests": [
+    "shampoo_physics_20261102/sources/manifest.json",
+    "shampoo_inputs_review_20261102/sources/supplier_evidence.json",
+    "shampoo_inputs_review_20261102/input_provenance.json",
+    "classification_reporting/provenance.json"
+  ],
+  "notes": [
+    "Raw shampoo JSON is semantically equal to the existing shampoo_demo copy; ingredient CSV and PPTX are byte-equal.",
+    "Archived documentation retains the original paths and historical reporting. Use the package README for current paths and the four-metric policy.",
+    "No new fit or model selection was performed except the verifier fold-0 reproduction check."
+  ],
+  "verification_base_commit": "8364ea11807f4555c00db00945b5e33e138cd4f2"
+}

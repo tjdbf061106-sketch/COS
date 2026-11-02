@@ -1,0 +1,9 @@
+{
+  "review_date": "2026-11-02",
+  "historical_batch_equivalence_confirmed": false,
+  "documents": [
+    {"id":"BASF_SURFACTANTS","title":"BASF Standard Surfactants & Alcohols","url":"https://promo.basf.com/campaign/TechCell/arquivos/Standard%20Surfactants%20%26%20Alcohols.pdf","page":6,"document_date":"not established","facts":[{"ingredient":"Dehyton PK 45","field":"catalog_active_pct","lower":37.0,"upper":41.0,"origin":"Brazil","cas":"61789-40-0"},{"ingredient":"Dehyton AB 30","field":"catalog_active_pct","lower":29.0,"upper":33.0,"origin":"Europe","cas":"66455-29-6"},{"ingredient":"Dehyton MC","field":"catalog_active_pct","lower":30.5,"upper":33.5,"origin":"Europe","cas":"68334-21-4"}],"use":"Public comparison; historical lot and regional grade not confirmed"},
+    {"id":"BASF_LUVIQUAT","title":"Luviquat Polymer Grades Technical Information","url":"https://promo.basf.com/campaign/Projetos/CaringForYou/Documentos/Geral/Luviquat%C2%AE%20Ultracare%20AT%201.pdf","page":4,"document_date":"2012-05","facts":[{"ingredient":"Luviquat Excellence","field":"solids_pct","lower":38.0,"upper":42.0},{"ingredient":"Luviquat Excellence","field":"approximate_molecular_weight_g_mol","value":40000},{"ingredient":"Luviquat Excellence","field":"charge_density_meq_g_at_pH7","value":6.1},{"ingredient":"Luviquat Excellence","field":"VP_QVI_weight_pct","values":[5,95]}],"use":"Context only; solids not equated to pure polymer active, charge density at pH7 not assumed at pH5.8"},
+    {"id":"BASF_ACA","title":"BASF Dehyquart A-CA product finder","url":"https://care360.basf.com/global/en/Product-Finder/30528457","document_date":"current page reviewed 2026-11-02","facts":[{"ingredient":"Dehyquart A-CA","field":"INCI","value":"Cetrimonium Chloride"},{"ingredient":"Dehyquart A-CA","field":"PRD","value":"30528457"}],"use":"Supports a reviewed INCI alias; retain source spelling Potassium Cetrimonium Chloride separately"}
+  ]
+}

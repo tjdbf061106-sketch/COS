@@ -1,0 +1,46 @@
+{
+  "status": "prepared_not_retrained",
+  "review_rows": 44,
+  "recipe_component_rows": 176,
+  "represented_subsystems": 7,
+  "representative_sample_ids": [
+    496,
+    337,
+    765,
+    272,
+    166,
+    542,
+    693
+  ],
+  "rheology_source_counts": {
+    "SHEAR-THIN": 41,
+    "NEWTONIAN": 3
+  },
+  "feature_rows": 812,
+  "feature_count": 114,
+  "feature_set_sizes": {
+    "stock18": 18,
+    "physics_core": 61,
+    "physics_interactions": 114
+  },
+  "source_metadata_only_feature_construction": true,
+  "review_flag_counts": {
+    "flag_turbidity_relative_error": 6,
+    "flag_nearest100_cv": 0,
+    "flag_viscosity_near_target": 2,
+    "flag_turbidity_near_target": 2,
+    "flag_turbidity_plus_reported_error_crosses_target": 1,
+    "flag_pk45_active_discrepancy": 14,
+    "flag_aca_inci_alias_review": 10,
+    "flag_ab30_representative_charge_review": 14,
+    "flag_commercial_thickener_blend": 27
+  },
+  "pk45_affected_all_rows": 140,
+  "pk45_affected_review_rows": 14,
+  "pk45_max_lower_difference_magnitude_pct": 0.931,
+  "pk45_max_upper_difference_magnitude_pct": 0.6650000000000009,
+  "model_training_performed": false,
+  "new_performance_claim": false,
+  "skin_eye_predictions_performed": false,
+  "scope_alignment": "GitHub README f049106: cosmetic irritation transfer is not performed; physical-property research is separate"
+}
