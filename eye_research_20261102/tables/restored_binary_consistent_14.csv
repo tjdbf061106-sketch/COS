@@ -1,0 +1,15 @@
+﻿formulation_id,source,substance_type,comp_count,final_label,binary_label,split_group_id,comp_group_id,outer_fold,excluded_retracted,binary_composition_conflict,binary_exact_input_conflict,multiclass_composition_disagreement,multiclass_only_disagreement,in_baseline699,in_exclusion693,training_policy,restored_from_old679,stage15_full_recipe_hold,stage15_issue,undeclared_pct,test_concentration,has_missing_pct,structure_coverage_pct
+CHEM::eye_irritation_104,ICCVAM 2006,Chemical,1,1.0,1.0,G6072d0af4e083bf6,Ceee0f1fd5be01410,0,False,False,False,True,True,True,True,both,True,True,chemical_test_concentration_review,0.0,5.0,False,1.0
+CHEM::eye_irritation_106,ICCVAM 2006,Chemical,1,1.0,1.0,G6072d0af4e083bf6,Ceee0f1fd5be01410,0,False,False,False,True,True,True,True,both,True,True,chemical_test_concentration_review,0.0,5.0,False,1.0
+CHEM::eye_irritation_108,ICCVAM 2006,Chemical,1,2.0,1.0,G6072d0af4e083bf6,Ceee0f1fd5be01410,0,False,False,False,True,True,True,True,both,True,True,chemical_test_concentration_review,0.0,1.0,False,1.0
+CHEM::eye_irritation_44,ICCVAM 2006,Chemical,1,2.0,1.0,Gaeb0f94b54b69245,Ca06f87e93a1d6e48,2,False,False,False,False,False,True,True,both,True,True,chemical_test_concentration_review,0.0,6.0,False,1.0
+EyeIrritation6pack_PID869,FIFRA data,Mixture,1,1.0,1.0,G1d278ef19a84b22a,C68b5773f1e93466b,3,False,False,False,True,True,True,True,both,True,False,,3.799999999999997,,False,1.0
+EyeIrritation6pack_PID246,FIFRA data,Mixture,1,4.0,0.0,G5fa8cedec5201175,Cfa7934d325962a9f,4,False,False,False,True,True,True,True,both,True,False,,52.0,,False,1.0
+EyeIrritation6pack_PID251,FIFRA data,Mixture,1,3.0,0.0,G5fa8cedec5201175,Cfa7934d325962a9f,4,False,False,False,True,True,True,True,both,True,False,,52.0,,False,1.0
+EyeIrritation6pack_PID345,FIFRA data,Mixture,1,3.0,0.0,Gaa8b8984c48700d0,Cfa621ac73d46864c,1,False,False,False,True,True,True,True,both,True,False,,57.6,,False,1.0
+EyeIrritation6pack_PID519,FIFRA data,Mixture,1,2.0,1.0,G1d278ef19a84b22a,C68b5773f1e93466b,3,False,False,False,True,True,True,True,both,True,False,,3.799999999999997,,False,1.0
+EyeIrritation6pack_PID574,FIFRA data,Mixture,1,4.0,0.0,Gaa8b8984c48700d0,Cfa621ac73d46864c,1,False,False,False,True,True,True,True,both,True,False,,57.6,,False,1.0
+EyeIrritation6pack_PID616,FIFRA data,Mixture,1,3.0,0.0,G0de3ee44864f090c,C16709298341473fa,1,False,False,False,True,True,True,True,both,True,False,,78.6,,False,1.0
+EyeIrritation6pack_PID687,FIFRA data,Mixture,1,3.0,0.0,G968f597399bdaf1e,C248c1d0bab521402,2,False,False,False,True,True,True,True,both,True,False,,2.0,,False,1.0
+EyeIrritation6pack_PID827,FIFRA data,Mixture,1,4.0,0.0,G0de3ee44864f090c,C16709298341473fa,1,False,False,False,True,True,True,True,both,True,False,,78.6,,False,1.0
+EyeIrritation6pack_PID830,FIFRA data,Mixture,1,4.0,0.0,G968f597399bdaf1e,C248c1d0bab521402,2,False,False,False,True,True,True,True,both,True,False,,2.0,,False,1.0
