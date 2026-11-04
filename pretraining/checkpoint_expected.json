@@ -1,0 +1,65 @@
+{
+  "base_files": {
+    "added_tokens.json": "b1360dafad6df04a48959e0678631ec3fd2c42a96fb31adf552521e7122add74",
+    "config.json": "5353fa58a6147ba6abb2f9f2d4f6112dbced651107010b984d464fe71c122503",
+    "merges.txt": "215a6aba00d27bcd42b8ad1dccc4b4d23f40decc150bdbf0d5ce6bb2410708df",
+    "model.safetensors": "c591e46e6d25d724b6a06d47f1bb309bcbd7f37368739043ec57b3f2742aaf69",
+    "special_tokens_map.json": "ef7d0adb64fa9b75187e308f5b0ec3bab3dbf3e4c753e04ea5ebcfdf37211d52",
+    "tokenizer.json": "1879e1bc5562e4bc5053f9d8e4d9344b92adbeb079a16c6cda5534e1eb67ab09",
+    "tokenizer_config.json": "d895fd3bc222b749c81add4146ec6e5ae201f799779d2cc3fe9b9e0fae606de2",
+    "vocab.json": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6"
+  },
+  "logits_equality": true,
+  "model_id": "DeepChem/ChemBERTa-77M-MLM",
+  "parameter_count": 3428808,
+  "published_objects": {
+    "added_tokens.json": [
+      "git",
+      "016b2483e7c4139ca3bcf51a6be96ae2196b4ac5"
+    ],
+    "config.json": [
+      "git",
+      "71ce09b8467b661f142c186d7dc874f1c3c432bf"
+    ],
+    "merges.txt": [
+      "git",
+      "0809d44ce8365aeb44f7147fae635254ab0891de"
+    ],
+    "pytorch_model.bin": [
+      "sha256",
+      "95571af26b61ba8d56b9d61ff108b5c9afe96fd69ea3cbd1901d9421e3d2dd6d"
+    ],
+    "special_tokens_map.json": [
+      "git",
+      "22ad7b9d36b6b7745bec24be464488a788d92a3c"
+    ],
+    "tokenizer.json": [
+      "git",
+      "e9860f97fe31a7016940e5f7d752098226d28ce5"
+    ],
+    "tokenizer_config.json": [
+      "git",
+      "485c900fe7fd974e5e2d2afa547580a784f52c3a"
+    ],
+    "vocab.json": [
+      "git",
+      "4f1006880296b590ef1eb82c22beb2d8192b8daf"
+    ]
+  },
+  "revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+  "schema_version": 1,
+  "tensor_count": 60,
+  "tensor_equality": true,
+  "tokenizer_backend_equality": true,
+  "upstream_files": {
+    "added_tokens.json": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+    "config.json": "b9ec477f76a173461741cb0f339b89661c9d9249af2f6a84df7593c3baede9b0",
+    "merges.txt": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+    "pytorch_model.bin": "95571af26b61ba8d56b9d61ff108b5c9afe96fd69ea3cbd1901d9421e3d2dd6d",
+    "special_tokens_map.json": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+    "tokenizer.json": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+    "tokenizer_config.json": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+    "vocab.json": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6"
+  },
+  "verifier_sha256": "fcf353b99491cdee1d2bf0db350c249955cca776ea8b52cdc79440b0bb7c27c6"
+}

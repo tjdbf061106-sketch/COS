@@ -1,0 +1,56 @@
+{
+  "baseline_validation": {
+    "loss": 0.7049441027661992,
+    "masked_tokens": 432,
+    "optimizer_steps": 0,
+    "skipped_batches": 0
+  },
+  "best_epoch": 3,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.4999037443772394,
+        "masked_tokens": 4275,
+        "optimizer_steps": 64,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.6188197572439633,
+        "masked_tokens": 432,
+        "optimizer_steps": 0,
+        "skipped_batches": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.3980248158166276,
+        "masked_tokens": 4272,
+        "optimizer_steps": 64,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.573998026980984,
+        "masked_tokens": 432,
+        "optimizer_steps": 0,
+        "skipped_batches": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.3629018289701248,
+        "masked_tokens": 4128,
+        "optimizer_steps": 64,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.5306121578560797,
+        "masked_tokens": 432,
+        "optimizer_steps": 0,
+        "skipped_batches": 0
+      }
+    }
+  ]
+}
