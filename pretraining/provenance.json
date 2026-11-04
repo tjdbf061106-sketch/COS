@@ -1,0 +1,29 @@
+{
+  "package_run": "mixture-003",
+  "mlm_trained_in": "mixture-002",
+  "mlm_reused_in": "mixture-003",
+  "mlm_retrained_for_mixture003": false,
+  "mlm_manifest_sha256": "b9460c62162bf021a1691b47189b31f43cc959fd2fb9fd5f5d312deefdd405dd",
+  "mlm_corpus_sha256": "0db316cc96797e9f2dce8558bd0e74e74a70a1929b8841ef76c22de9f221e12f",
+  "mlm_structures": {
+    "initial_unique_smiles": 1156,
+    "removed_overlap_structures": 12,
+    "remaining_unique_smiles": 1144,
+    "remaining_structure_groups": 1140,
+    "train_structures": 1030,
+    "validation_structures": 114,
+    "candidate_component_groups_excluded": 263,
+    "previous_mlm_file_identical": true,
+    "previous_excluded_groups_identical": true
+  },
+  "supervised_target": "mixture-level EPA I/II versus III/IV, eye and skin separate",
+  "encoder_supervised_finetuning": false,
+  "original_base_model": "DeepChem/ChemBERTa-77M-MLM",
+  "base_revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+  "source_evaluation_manifest_sha256": "e657e46f44488dd70c32a67e78ea2bded0038cb5170732158836d202c4d4f4d9",
+  "replaces_commit": "0fcaec251f5777a067a9a1837e824e6569f53c64",
+  "replaces_checkpoint_sha256": "8d0c02ed73f0ca4aded981f136a5b614a48241ab7b51afd51073d65d920a3f61",
+  "new_checkpoint_sha256": "8bfea57ec448ee11aa37e6c046f2c750a404b24d2d61cd62515a9af9b946dfd4",
+  "upstream_pretraining_overlap": "unknown",
+  "external_cosmetic_validation": false
+}

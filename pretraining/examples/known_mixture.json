@@ -1,0 +1,29 @@
+{
+  "mixture_id": "eye::EyeIrritation6pack_PID874",
+  "example_scope": "Actual mixture-003 training-cohort input; an inference reproducibility example, not independent validation.",
+  "source_endpoint": "eye_epa",
+  "amount_basis": "Reported ingredient percentage; mass/volume basis was not established in the source.",
+  "components": [
+    {
+      "component_id": "CMP_588165bb588999d85f3e",
+      "name": "Thyme oil",
+      "canonical_smiles": "",
+      "amount_pct": 36.0,
+      "structure_status": "missing_structure"
+    },
+    {
+      "component_id": "CMP_805e0e24d22c98c0e9e2",
+      "name": "Deltamethrin",
+      "canonical_smiles": "CC1(C)[C@H](C(=O)O[C@H](C#N)c2cccc(Oc3ccccc3)c2)[C@@H]1C=C(Br)Br",
+      "amount_pct": 0.75,
+      "structure_status": "usable_exact_structure"
+    },
+    {
+      "component_id": "CMP_c5aeea8a5ca89a092e3d",
+      "name": "Geraniol",
+      "canonical_smiles": "CC(C)=CCCC(C)=CCO",
+      "amount_pct": 17.28,
+      "structure_status": "usable_unspecified_stereochemistry"
+    }
+  ]
+}

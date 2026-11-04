@@ -1,0 +1,71 @@
+{
+  "schema": "mixture003-portable-package-v1",
+  "files": {
+    ".gitattributes": "3c93da893ca7ba64625f687293dd38baaa0733a10622dc12bb01366f5e881014",
+    "checkpoint_expected.json": "20e94a59c8fb211ae9bff208f716af8d0b9b2ebf9b2d685a3280732e99067913",
+    "environment_lock.json": "9f99f6f17c74689222d4ad8d95bd7e23f105e345dd1b8b97bf414043ad9748c5",
+    "evaluation_summary.json": "b8a8d94ae0ff0751e6611d120a002b32b72639f7f2ecd8b9bc92876ddf8938d6",
+    "input_schema.json": "462eb89d2a3ac902436977b64ceff8a4ca03dad23b15dffbe2e7e22c5543c148",
+    "losses.csv": "5b4b05663df4392ab1fd4f80b3f872ea5bec3d92f8195699acfca9fadffe8645",
+    "losses.json": "45097d545611a23d066ff15a1c616e80995dfdeeecd6614de6c9bb5535baa7b9",
+    "manifest.json": "b9460c62162bf021a1691b47189b31f43cc959fd2fb9fd5f5d312deefdd405dd",
+    "manifest.json.sha256": "c213247adca3f89ed84e858094fc9780f323b8f998abff617038d5cc313a15a8",
+    "mixture_predictor.py": "c563655d81fd16fec732366698968db1a72d1ac26c789b8210ca14cdbc805a5a",
+    "protocol.json": "6250bb5f96b677a9a046e28fa6678dec29d1aee2578e6295ea3de4bb85534c9d",
+    "provenance.json": "6e9c75efd73efafd6840a5b605b079a4109446ebb232209334dce823b74bfeee",
+    "README.md": "bbf2e421a851b2d07bac971f5287c51420266af01ec134e8e6b431ea792c4d5c",
+    "requirements.txt": "92816ec9d94e3a9715cc6d1e165817b71049a7436dc1089bbcd67d4084466263",
+    "verification_summary.json": "5f7ff29242811fd36586a6fa978ba613bdb0327bb1f6307a0c95c920eac6c824",
+    "best/added_tokens.json": "b1360dafad6df04a48959e0678631ec3fd2c42a96fb31adf552521e7122add74",
+    "best/config.json": "5353fa58a6147ba6abb2f9f2d4f6112dbced651107010b984d464fe71c122503",
+    "best/merges.txt": "215a6aba00d27bcd42b8ad1dccc4b4d23f40decc150bdbf0d5ce6bb2410708df",
+    "best/model.safetensors": "8bfea57ec448ee11aa37e6c046f2c750a404b24d2d61cd62515a9af9b946dfd4",
+    "best/special_tokens_map.json": "ef7d0adb64fa9b75187e308f5b0ec3bab3dbf3e4c753e04ea5ebcfdf37211d52",
+    "best/tokenizer.json": "1879e1bc5562e4bc5053f9d8e4d9344b92adbeb079a16c6cda5534e1eb67ab09",
+    "best/tokenizer_config.json": "d895fd3bc222b749c81add4146ec6e5ae201f799779d2cc3fe9b9e0fae606de2",
+    "best/vocab.json": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+    "data/excluded_candidate_identities.json": "9f62f20e63cb745f52802af1e25b28a8a7860711d42fa5d818ba23f835dac99c",
+    "data/mlm_corpus.csv": "0db316cc96797e9f2dce8558bd0e74e74a70a1929b8841ef76c22de9f221e12f",
+    "examples/known_mixture.json": "826e1a868325ea5938c739d135feb3b0a35bc32e148bea914535f3f8d702c6fa",
+    "mixture_heads/eye_epa__mean.joblib": "745e2899fd586719b54a6d4372776ae40156d5dbf777af0dcaab175d71616bc0",
+    "mixture_heads/eye_epa__weighted.joblib": "52859760829e6c20db9c0b26ee70f74ae8503c9dde555c959777f00419e3f07e",
+    "mixture_heads/skin_epa__mean.joblib": "87ae956198f78adb5a31d53790cacdd772fd51e3d4101e30d64f5e98e21aeb3a",
+    "mixture_heads/skin_epa__weighted.joblib": "2e8ea65122825d18cfe76bb142f77aa6ae0ffdbb76c040aee4e18d3d976c3ce0"
+  },
+  "verification": {
+    "status": "passed",
+    "component_structures": 240,
+    "component_embedding_max_absolute_error": 0.0,
+    "mixtures_checked": 1041,
+    "coverage_values_checked": 11451,
+    "mixture_vectors_checked": 2082,
+    "mixture_feature_max_absolute_error": 0.0,
+    "heads_checked": 4,
+    "predictions_checked": 2082,
+    "prediction_max_absolute_error": 0.0,
+    "end_to_end_example_checks": [
+      {
+        "endpoint": "eye_epa",
+        "pooling": "mean",
+        "absolute_error": 2.483241962406013e-08
+      },
+      {
+        "endpoint": "eye_epa",
+        "pooling": "weighted",
+        "absolute_error": 2.3107141552245793e-13
+      },
+      {
+        "endpoint": "skin_epa",
+        "pooling": "mean",
+        "absolute_error": 1.7139767659627922e-12
+      },
+      {
+        "endpoint": "skin_epa",
+        "pooling": "weighted",
+        "absolute_error": 1.2378118669655154e-14
+      }
+    ],
+    "missing_amount_and_ingredient_label_rejected": true,
+    "scope": "Training-input reproduction and packaging verification, not external predictive validation."
+  }
+}

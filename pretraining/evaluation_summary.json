@@ -1,0 +1,2608 @@
+{
+  "scope": "Grouped internal OOF evaluation of fold models; packaged heads are refitted on all primary mixtures and have no independent external test.",
+  "cohort": {
+    "eye_epa": {
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "groups": 310,
+      "with_multiple_represented_components": 193,
+      "with_missing_amount": 0,
+      "with_unspecified_stereo": 320,
+      "fully_represented_100pct": 2,
+      "represented_pct_median": 28.79,
+      "excluded_reasons": {
+        "no_usable_positive_amount_structure": 57,
+        "exact_disclosed_input_binary_conflict": 6,
+        "missing_reported_amount_weighted_comparison_unavailable": 9,
+        "legacy_final_row_missing": 2
+      }
+    },
+    "skin_epa": {
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "groups": 301,
+      "with_multiple_represented_components": 172,
+      "with_missing_amount": 0,
+      "with_unspecified_stereo": 286,
+      "fully_represented_100pct": 1,
+      "represented_pct_median": 29.674999999999997,
+      "excluded_reasons": {
+        "no_usable_positive_amount_structure": 46,
+        "missing_reported_amount_weighted_comparison_unavailable": 8,
+        "ambiguous_or_missing_mixture_label": 1,
+        "legacy_source_binary_label_mismatch": 2,
+        "possible_repeat_unknown_identity": 3,
+        "exact_disclosed_input_binary_conflict": 2
+      }
+    }
+  },
+  "metrics": [
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "dummy_prior",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.4271964910685878,
+      "average_precision": 0.1580734915570563,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.15275691786654602,
+      "confusion": [
+        [
+          449,
+          0
+        ],
+        [
+          98,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "legacy_final_csv",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.5665651561292668,
+      "average_precision": 0.21847085604744076,
+      "balanced_accuracy": 0.5694968410526794,
+      "mcc": 0.1074625049294739,
+      "sensitivity": 0.5510204081632653,
+      "specificity": 0.5879732739420935,
+      "brier": 0.3601439659242743,
+      "confusion": [
+        [
+          264,
+          185
+        ],
+        [
+          44,
+          54
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_mean",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6208126903322576,
+      "average_precision": 0.305711952285755,
+      "balanced_accuracy": 0.5860983591654925,
+      "mcc": 0.1324798417056414,
+      "sensitivity": 0.6020408163265306,
+      "specificity": 0.5701559020044543,
+      "brier": 0.35352802556126794,
+      "confusion": [
+        [
+          256,
+          193
+        ],
+        [
+          39,
+          59
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_weighted",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.603995272942139,
+      "average_precision": 0.2831570704787809,
+      "balanced_accuracy": 0.5643948002363529,
+      "mcc": 0.09962063049852886,
+      "sensitivity": 0.5408163265306123,
+      "specificity": 0.5879732739420935,
+      "brier": 0.35587288709323084,
+      "confusion": [
+        [
+          264,
+          185
+        ],
+        [
+          45,
+          53
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_mean",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6014953865733376,
+      "average_precision": 0.30972941846342916,
+      "balanced_accuracy": 0.5553043043498023,
+      "mcc": 0.08568679713486828,
+      "sensitivity": 0.5204081632653061,
+      "specificity": 0.5902004454342984,
+      "brier": 0.3431336675352056,
+      "confusion": [
+        [
+          265,
+          184
+        ],
+        [
+          47,
+          51
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_weighted",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6005181582655335,
+      "average_precision": 0.27567692423351897,
+      "balanced_accuracy": 0.5537248306895142,
+      "mcc": 0.08296284885867365,
+      "sensitivity": 0.5306122448979592,
+      "specificity": 0.576837416481069,
+      "brier": 0.3480204330838873,
+      "confusion": [
+        [
+          259,
+          190
+        ],
+        [
+          46,
+          52
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_mean",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.5806781509931367,
+      "average_precision": 0.22591489617550253,
+      "balanced_accuracy": 0.5631789464115268,
+      "mcc": 0.09694020568929124,
+      "sensitivity": 0.5918367346938775,
+      "specificity": 0.534521158129176,
+      "brier": 0.3718731335677701,
+      "confusion": [
+        [
+          240,
+          209
+        ],
+        [
+          40,
+          58
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_weighted",
+      "groups": 79,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.5761442661697195,
+      "average_precision": 0.21896074999183154,
+      "balanced_accuracy": 0.5665197036498342,
+      "mcc": 0.10209896241015864,
+      "sensitivity": 0.5918367346938775,
+      "specificity": 0.5412026726057907,
+      "brier": 0.39207621239683654,
+      "confusion": [
+        [
+          243,
+          206
+        ],
+        [
+          40,
+          58
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "dummy_prior",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "legacy_final_csv",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "dummy_prior",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.4929775919276396,
+      "average_precision": 0.17684001907596913,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.14707002471482147,
+      "confusion": [
+        [
+          449,
+          0
+        ],
+        [
+          98,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "legacy_final_csv",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6095518385527932,
+      "average_precision": 0.2881962434363444,
+      "balanced_accuracy": 0.6310281350847688,
+      "mcc": 0.2182130552047379,
+      "sensitivity": 0.5204081632653061,
+      "specificity": 0.7416481069042317,
+      "brier": 0.27661957757110384,
+      "confusion": [
+        [
+          333,
+          116
+        ],
+        [
+          47,
+          51
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_adapted_mean",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6603790736784692,
+      "average_precision": 0.42174666303665975,
+      "balanced_accuracy": 0.6128471433116676,
+      "mcc": 0.18991102736427687,
+      "sensitivity": 0.47959183673469385,
+      "specificity": 0.7461024498886414,
+      "brier": 0.22472764944815665,
+      "confusion": [
+        [
+          335,
+          114
+        ],
+        [
+          51,
+          47
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_adapted_weighted",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6411072223989818,
+      "average_precision": 0.3633310084400183,
+      "balanced_accuracy": 0.6129494113903914,
+      "mcc": 0.20194085235552942,
+      "sensitivity": 0.42857142857142855,
+      "specificity": 0.7973273942093542,
+      "brier": 0.2206970135736976,
+      "confusion": [
+        [
+          358,
+          91
+        ],
+        [
+          56,
+          42
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_base_mean",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6570610426798782,
+      "average_precision": 0.40076041044141686,
+      "balanced_accuracy": 0.6068133266669697,
+      "mcc": 0.17644598801737268,
+      "sensitivity": 0.4897959183673469,
+      "specificity": 0.7238307349665924,
+      "brier": 0.22976964135112,
+      "confusion": [
+        [
+          325,
+          124
+        ],
+        [
+          50,
+          48
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_base_weighted",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.633266669696832,
+      "average_precision": 0.3480414453225035,
+      "balanced_accuracy": 0.6016317440116359,
+      "mcc": 0.1821732340415872,
+      "sensitivity": 0.40816326530612246,
+      "specificity": 0.7951002227171492,
+      "brier": 0.22521743312934406,
+      "confusion": [
+        [
+          357,
+          92
+        ],
+        [
+          58,
+          40
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "rdkit_morgan_mean",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.623858006454252,
+      "average_precision": 0.31502260031905494,
+      "balanced_accuracy": 0.5762010817690105,
+      "mcc": 0.12711909984508743,
+      "sensitivity": 0.42857142857142855,
+      "specificity": 0.7238307349665924,
+      "brier": 0.28214849084428284,
+      "confusion": [
+        [
+          325,
+          124
+        ],
+        [
+          56,
+          42
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "rdkit_morgan_weighted",
+      "groups": 310,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6206763328939593,
+      "average_precision": 0.27022480934688164,
+      "balanced_accuracy": 0.6028248715967456,
+      "mcc": 0.17039986410307315,
+      "sensitivity": 0.47959183673469385,
+      "specificity": 0.7260579064587973,
+      "brier": 0.27701993860185925,
+      "confusion": [
+        [
+          326,
+          123
+        ],
+        [
+          51,
+          47
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "dummy_prior",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.49430285868392665,
+      "average_precision": 0.1407612735336778,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.11835670465758931,
+      "confusion": [
+        [
+          309,
+          0
+        ],
+        [
+          48,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "legacy_final_csv",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.6033238942826322,
+      "average_precision": 0.2625482862243377,
+      "balanced_accuracy": 0.634203074433657,
+      "mcc": 0.2020955954898875,
+      "sensitivity": 0.5208333333333334,
+      "specificity": 0.7475728155339806,
+      "brier": 0.2633759164808101,
+      "confusion": [
+        [
+          231,
+          78
+        ],
+        [
+          23,
+          25
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_mean",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.6514293419633226,
+      "average_precision": 0.3610951342490826,
+      "balanced_accuracy": 0.6036610032362459,
+      "mcc": 0.15437727423461292,
+      "sensitivity": 0.4791666666666667,
+      "specificity": 0.7281553398058253,
+      "brier": 0.21496607589316086,
+      "confusion": [
+        [
+          225,
+          84
+        ],
+        [
+          25,
+          23
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_weighted",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.6472491909385113,
+      "average_precision": 0.33397070262499784,
+      "balanced_accuracy": 0.5985032362459547,
+      "mcc": 0.16663251649602764,
+      "sensitivity": 0.375,
+      "specificity": 0.8220064724919094,
+      "brier": 0.19607357691521957,
+      "confusion": [
+        [
+          254,
+          55
+        ],
+        [
+          30,
+          18
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_mean",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.6535868392664509,
+      "average_precision": 0.33421265036206677,
+      "balanced_accuracy": 0.6076051779935275,
+      "mcc": 0.15822349403233477,
+      "sensitivity": 0.5,
+      "specificity": 0.7152103559870551,
+      "brier": 0.21507208118129173,
+      "confusion": [
+        [
+          221,
+          88
+        ],
+        [
+          24,
+          24
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_weighted",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.6359897518878103,
+      "average_precision": 0.30553348044217954,
+      "balanced_accuracy": 0.5848503236245954,
+      "mcc": 0.14281514972520604,
+      "sensitivity": 0.3541666666666667,
+      "specificity": 0.8155339805825242,
+      "brier": 0.19934114945592904,
+      "confusion": [
+        [
+          252,
+          57
+        ],
+        [
+          31,
+          17
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_mean",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.6549352750809061,
+      "average_precision": 0.31164811077553045,
+      "balanced_accuracy": 0.634203074433657,
+      "mcc": 0.2020955954898875,
+      "sensitivity": 0.5208333333333334,
+      "specificity": 0.7475728155339806,
+      "brier": 0.25239343574332507,
+      "confusion": [
+        [
+          231,
+          78
+        ],
+        [
+          23,
+          25
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_weighted",
+      "groups": 180,
+      "n": 357,
+      "positives": 48,
+      "negatives": 309,
+      "roc_auc": 0.6262473031283711,
+      "average_precision": 0.2416040838963708,
+      "balanced_accuracy": 0.6325849514563107,
+      "mcc": 0.1990889507556559,
+      "sensitivity": 0.5208333333333334,
+      "specificity": 0.7443365695792881,
+      "brier": 0.2567387677684186,
+      "confusion": [
+        [
+          230,
+          79
+        ],
+        [
+          23,
+          25
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "dummy_prior",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.4767169674105722,
+      "average_precision": 0.17301935480036126,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.14966748876880584,
+      "confusion": [
+        [
+          449,
+          0
+        ],
+        [
+          98,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "legacy_final_csv",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.5541339030044089,
+      "average_precision": 0.21150108172677065,
+      "balanced_accuracy": 0.5377937366483342,
+      "mcc": 0.06294134260783613,
+      "sensitivity": 0.3673469387755102,
+      "specificity": 0.7082405345211581,
+      "brier": 0.2592499035447348,
+      "confusion": [
+        [
+          318,
+          131
+        ],
+        [
+          62,
+          36
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_mean",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.632357620108177,
+      "average_precision": 0.2711359657443402,
+      "balanced_accuracy": 0.5559747284214354,
+      "mcc": 0.09232075478742648,
+      "sensitivity": 0.40816326530612246,
+      "specificity": 0.7037861915367484,
+      "brier": 0.24484236315352242,
+      "confusion": [
+        [
+          316,
+          133
+        ],
+        [
+          58,
+          40
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_weighted",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6190400436343801,
+      "average_precision": 0.2481682165788605,
+      "balanced_accuracy": 0.5590314076632881,
+      "mcc": 0.09545029828027704,
+      "sensitivity": 0.4387755102040816,
+      "specificity": 0.6792873051224945,
+      "brier": 0.255449379183662,
+      "confusion": [
+        [
+          305,
+          144
+        ],
+        [
+          55,
+          43
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_mean",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6098131903095313,
+      "average_precision": 0.24483258324921336,
+      "balanced_accuracy": 0.5380778146447889,
+      "mcc": 0.06546321593557426,
+      "sensitivity": 0.336734693877551,
+      "specificity": 0.7394209354120267,
+      "brier": 0.2403379041359169,
+      "confusion": [
+        [
+          332,
+          117
+        ],
+        [
+          65,
+          33
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_weighted",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.6047225126130631,
+      "average_precision": 0.23317404817680326,
+      "balanced_accuracy": 0.5407708740511795,
+      "mcc": 0.07132545359284735,
+      "sensitivity": 0.32653061224489793,
+      "specificity": 0.755011135857461,
+      "brier": 0.24311740968257003,
+      "confusion": [
+        [
+          339,
+          110
+        ],
+        [
+          66,
+          32
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_mean",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.5429525930639517,
+      "average_precision": 0.20219975523865302,
+      "balanced_accuracy": 0.5461342666242444,
+      "mcc": 0.07404735325137302,
+      "sensitivity": 0.42857142857142855,
+      "specificity": 0.6636971046770601,
+      "brier": 0.273564655331822,
+      "confusion": [
+        [
+          298,
+          151
+        ],
+        [
+          56,
+          42
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_weighted",
+      "groups": 39,
+      "n": 547,
+      "positives": 98,
+      "negatives": 449,
+      "roc_auc": 0.5272033089405026,
+      "average_precision": 0.1968148376660888,
+      "balanced_accuracy": 0.5225671560383619,
+      "mcc": 0.0358274415017355,
+      "sensitivity": 0.40816326530612246,
+      "specificity": 0.6369710467706013,
+      "brier": 0.2827713905102308,
+      "confusion": [
+        [
+          286,
+          163
+        ],
+        [
+          58,
+          40
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "dummy_prior",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "legacy_final_csv",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "eye_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "dummy_prior",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.4168743653650882,
+      "average_precision": 0.04085240487190542,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.044452531923424674,
+      "confusion": [
+        [
+          471,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "legacy_final_csv",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.46289116588202717,
+      "average_precision": 0.042925729123013956,
+      "balanced_accuracy": 0.42462845010615713,
+      "mcc": -0.09053415555352058,
+      "sensitivity": 0.0,
+      "specificity": 0.8492569002123143,
+      "brier": 0.15535336986966997,
+      "confusion": [
+        [
+          400,
+          71
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_mean",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.3528108557186375,
+      "average_precision": 0.03475550218335389,
+      "balanced_accuracy": 0.44530600941567433,
+      "mcc": -0.06494436888729661,
+      "sensitivity": 0.043478260869565216,
+      "specificity": 0.8471337579617835,
+      "brier": 0.15632183901719232,
+      "confusion": [
+        [
+          399,
+          72
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_weighted",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.32677928551647745,
+      "average_precision": 0.03337744407734057,
+      "balanced_accuracy": 0.4357518692882858,
+      "mcc": -0.07276278770341918,
+      "sensitivity": 0.043478260869565216,
+      "specificity": 0.8280254777070064,
+      "brier": 0.15367556720077263,
+      "confusion": [
+        [
+          390,
+          81
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_mean",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.38151943136711897,
+      "average_precision": 0.03664635645537652,
+      "balanced_accuracy": 0.4346902981630204,
+      "mcc": -0.07360750737717994,
+      "sensitivity": 0.043478260869565216,
+      "specificity": 0.8259023354564756,
+      "brier": 0.16840318769325924,
+      "confusion": [
+        [
+          389,
+          82
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_weighted",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.32456383273331485,
+      "average_precision": 0.03323446712531639,
+      "balanced_accuracy": 0.4368134404135512,
+      "mcc": -0.07191368464534359,
+      "sensitivity": 0.043478260869565216,
+      "specificity": 0.8301486199575372,
+      "brier": 0.15189908274524452,
+      "confusion": [
+        [
+          391,
+          80
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_mean",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.37358072556078653,
+      "average_precision": 0.03605943432261301,
+      "balanced_accuracy": 0.4648758423336103,
+      "mcc": -0.034611559723816236,
+      "sensitivity": 0.17391304347826086,
+      "specificity": 0.7558386411889597,
+      "brier": 0.22537535192635788,
+      "confusion": [
+        [
+          356,
+          115
+        ],
+        [
+          19,
+          4
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_weighted",
+      "groups": 80,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.32677928551647745,
+      "average_precision": 0.03337052901665715,
+      "balanced_accuracy": 0.41664358903350873,
+      "mcc": -0.08741687224774077,
+      "sensitivity": 0.043478260869565216,
+      "specificity": 0.7898089171974523,
+      "brier": 0.2139881619401128,
+      "confusion": [
+        [
+          372,
+          99
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "dummy_prior",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "legacy_final_csv",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "component_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "dummy_prior",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.4738761192652081,
+      "average_precision": 0.04398748919016981,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.04440316061747338,
+      "confusion": [
+        [
+          471,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "legacy_final_csv",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.6710052617003601,
+      "average_precision": 0.27792975891845845,
+      "balanced_accuracy": 0.6616818979045509,
+      "mcc": 0.2469589308925359,
+      "sensitivity": 0.391304347826087,
+      "specificity": 0.9320594479830149,
+      "brier": 0.07660077722828991,
+      "confusion": [
+        [
+          439,
+          32
+        ],
+        [
+          14,
+          9
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_adapted_mean",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5636481122496078,
+      "average_precision": 0.1552568804642319,
+      "balanced_accuracy": 0.5990953567802086,
+      "mcc": 0.13070118542730624,
+      "sensitivity": 0.30434782608695654,
+      "specificity": 0.8938428874734607,
+      "brier": 0.10323019544636054,
+      "confusion": [
+        [
+          421,
+          50
+        ],
+        [
+          16,
+          7
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_adapted_weighted",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.41133573340718177,
+      "average_precision": 0.07087815101597413,
+      "balanced_accuracy": 0.565171236038032,
+      "mcc": 0.09450230517708605,
+      "sensitivity": 0.21739130434782608,
+      "specificity": 0.9129511677282378,
+      "brier": 0.09959261918137319,
+      "confusion": [
+        [
+          430,
+          41
+        ],
+        [
+          18,
+          5
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_base_mean",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5555247853780116,
+      "average_precision": 0.1528526513246708,
+      "balanced_accuracy": 0.5916643589033509,
+      "mcc": 0.11502193192725133,
+      "sensitivity": 0.30434782608695654,
+      "specificity": 0.8789808917197452,
+      "brier": 0.11374766487065728,
+      "confusion": [
+        [
+          414,
+          57
+        ],
+        [
+          16,
+          7
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "chemberta_base_weighted",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.38991968983661035,
+      "average_precision": 0.06231585122245778,
+      "balanced_accuracy": 0.5195698329179359,
+      "mcc": 0.02837746274439411,
+      "sensitivity": 0.13043478260869565,
+      "specificity": 0.9087048832271762,
+      "brier": 0.10331673579418935,
+      "confusion": [
+        [
+          428,
+          43
+        ],
+        [
+          20,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "rdkit_morgan_mean",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.6030647096833748,
+      "average_precision": 0.1882019950449126,
+      "balanced_accuracy": 0.6250807717160528,
+      "mcc": 0.16891635492800441,
+      "sensitivity": 0.34782608695652173,
+      "specificity": 0.9023354564755839,
+      "brier": 0.10166546894490949,
+      "confusion": [
+        [
+          425,
+          46
+        ],
+        [
+          15,
+          8
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "all",
+      "model": "rdkit_morgan_weighted",
+      "groups": 301,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5680328625496169,
+      "average_precision": 0.22695205726271778,
+      "balanced_accuracy": 0.6410043385950337,
+      "mcc": 0.2203427884562225,
+      "sensitivity": 0.34782608695652173,
+      "specificity": 0.9341825902335457,
+      "brier": 0.07947472441213013,
+      "confusion": [
+        [
+          440,
+          31
+        ],
+        [
+          15,
+          8
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "dummy_prior",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.48024891774891776,
+      "average_precision": 0.035430042803638304,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.036191878072915254,
+      "confusion": [
+        [
+          308,
+          0
+        ],
+        [
+          12,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "legacy_final_csv",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.6410984848484849,
+      "average_precision": 0.18081357922669458,
+      "balanced_accuracy": 0.652056277056277,
+      "mcc": 0.29265737042259626,
+      "sensitivity": 0.3333333333333333,
+      "specificity": 0.9707792207792207,
+      "brier": 0.05273120527463073,
+      "confusion": [
+        [
+          299,
+          9
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_mean",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.47483766233766234,
+      "average_precision": 0.18833104989288066,
+      "balanced_accuracy": 0.5827922077922079,
+      "mcc": 0.10958218290185034,
+      "sensitivity": 0.25,
+      "specificity": 0.9155844155844156,
+      "brier": 0.08487244594965132,
+      "confusion": [
+        [
+          282,
+          26
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_weighted",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.45021645021645024,
+      "average_precision": 0.1457271832023666,
+      "balanced_accuracy": 0.5892857142857143,
+      "mcc": 0.12641451475187324,
+      "sensitivity": 0.25,
+      "specificity": 0.9285714285714286,
+      "brier": 0.0765923138823974,
+      "confusion": [
+        [
+          286,
+          22
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_mean",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.4761904761904761,
+      "average_precision": 0.18859123364155264,
+      "balanced_accuracy": 0.5827922077922079,
+      "mcc": 0.10958218290185034,
+      "sensitivity": 0.25,
+      "specificity": 0.9155844155844156,
+      "brier": 0.08580555839191543,
+      "confusion": [
+        [
+          282,
+          26
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_weighted",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.4383116883116883,
+      "average_precision": 0.14501192096161464,
+      "balanced_accuracy": 0.586038961038961,
+      "mcc": 0.11761844735555405,
+      "sensitivity": 0.25,
+      "specificity": 0.922077922077922,
+      "brier": 0.0797272703143884,
+      "confusion": [
+        [
+          284,
+          24
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_mean",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.5143398268398268,
+      "average_precision": 0.12658794366725146,
+      "balanced_accuracy": 0.5827922077922079,
+      "mcc": 0.10958218290185034,
+      "sensitivity": 0.25,
+      "specificity": 0.9155844155844156,
+      "brier": 0.09534607344399335,
+      "confusion": [
+        [
+          282,
+          26
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "composition_group",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_weighted",
+      "groups": 176,
+      "n": 320,
+      "positives": 12,
+      "negatives": 308,
+      "roc_auc": 0.45860389610389607,
+      "average_precision": 0.12752278474384324,
+      "balanced_accuracy": 0.6022727272727273,
+      "mcc": 0.17326467938889306,
+      "sensitivity": 0.25,
+      "specificity": 0.9545454545454546,
+      "brier": 0.06566153054335702,
+      "confusion": [
+        [
+          294,
+          14
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "dummy_prior",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.4691682821009877,
+      "average_precision": 0.04460648130432232,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.04475436991671741,
+      "confusion": [
+        [
+          471,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "legacy_final_csv",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5144004430905567,
+      "average_precision": 0.04745165912964809,
+      "balanced_accuracy": 0.4601680051693898,
+      "mcc": -0.05175660607365139,
+      "sensitivity": 0.043478260869565216,
+      "specificity": 0.8768577494692145,
+      "brier": 0.12378209229293659,
+      "confusion": [
+        [
+          413,
+          58
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_mean",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5811871134496446,
+      "average_precision": 0.07767506396855475,
+      "balanced_accuracy": 0.5137542693621342,
+      "mcc": 0.024267345585571157,
+      "sensitivity": 0.08695652173913043,
+      "specificity": 0.940552016985138,
+      "brier": 0.07383550583085229,
+      "confusion": [
+        [
+          443,
+          28
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_adapted_weighted",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5359549524600757,
+      "average_precision": 0.10048426235598723,
+      "balanced_accuracy": 0.533370257546386,
+      "mcc": 0.056319202068779224,
+      "sensitivity": 0.13043478260869565,
+      "specificity": 0.9363057324840764,
+      "brier": 0.07654654967715542,
+      "confusion": [
+        [
+          441,
+          30
+        ],
+        [
+          20,
+          3
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_mean",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.6298347641465891,
+      "average_precision": 0.10077520497585037,
+      "balanced_accuracy": 0.5582941013569649,
+      "mcc": 0.10128791622029366,
+      "sensitivity": 0.17391304347826086,
+      "specificity": 0.9426751592356688,
+      "brier": 0.07386573048387397,
+      "confusion": [
+        [
+          444,
+          27
+        ],
+        [
+          19,
+          4
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "chemberta_base_weighted",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5568171328348566,
+      "average_precision": 0.10182372204998758,
+      "balanced_accuracy": 0.5810948029170129,
+      "mcc": 0.14090488424311637,
+      "sensitivity": 0.21739130434782608,
+      "specificity": 0.9447983014861996,
+      "brier": 0.07147211114183914,
+      "confusion": [
+        [
+          445,
+          26
+        ],
+        [
+          18,
+          5
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_mean",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5721406812517309,
+      "average_precision": 0.05545656186829161,
+      "balanced_accuracy": 0.4760915720483707,
+      "mcc": -0.035369000978206326,
+      "sensitivity": 0.043478260869565216,
+      "specificity": 0.9087048832271762,
+      "brier": 0.10889206656613905,
+      "confusion": [
+        [
+          428,
+          43
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "all",
+      "model": "rdkit_morgan_weighted",
+      "groups": 38,
+      "n": 494,
+      "positives": 23,
+      "negatives": 471,
+      "roc_auc": 0.5502630850180006,
+      "average_precision": 0.05392230178257326,
+      "balanced_accuracy": 0.48933813348103017,
+      "mcc": -0.014517117059061736,
+      "sensitivity": 0.08695652173913043,
+      "specificity": 0.89171974522293,
+      "brier": 0.10944470160064922,
+      "confusion": [
+        [
+          420,
+          51
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "status": "both_classes"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "dummy_prior",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "legacy_final_csv",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_adapted_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "chemberta_base_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_mean",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "stratum": "known_declared_components_only",
+      "model": "rdkit_morgan_weighted",
+      "groups": 0,
+      "n": 0,
+      "positives": 0,
+      "negatives": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": null,
+      "brier": null,
+      "confusion": null,
+      "status": "empty"
+    }
+  ],
+  "one_class_test_folds": [
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "fold": 0,
+      "model": "dummy_prior",
+      "train_n": 477,
+      "test_n": 17,
+      "n": 17,
+      "positives": 0,
+      "negatives": 17,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": 1.0,
+      "brier": 0.0023249783544075676,
+      "confusion": [
+        [
+          17,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "status": "one_class_no_discrimination_metrics"
+    },
+    {
+      "dataset": "primary",
+      "endpoint": "skin_epa",
+      "task": "scaffold_disjoint",
+      "fold": 3,
+      "model": "dummy_prior",
+      "train_n": 477,
+      "test_n": 17,
+      "n": 17,
+      "positives": 0,
+      "negatives": 17,
+      "roc_auc": null,
+      "average_precision": null,
+      "balanced_accuracy": null,
+      "mcc": null,
+      "sensitivity": null,
+      "specificity": 1.0,
+      "brier": 0.0023249783544075676,
+      "confusion": [
+        [
+          17,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "status": "one_class_no_discrimination_metrics"
+    }
+  ],
+  "notes": [
+    "Source domain is FIFRA/ICE pesticide formulations, mostly partial active ingredient compositions.",
+    "Legacy final CSV is a whole-pipeline baseline; recomputed RDKit uses matched component inputs.",
+    "No consistent benefit from additional MLM is established.",
+    "No independent cosmetic formulation EPA validation is established.",
+    "Scaffold-disjoint is supervised-mixture scope; original pretraining overlap unknown."
+  ]
+}

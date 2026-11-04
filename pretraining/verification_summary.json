@@ -1,0 +1,195 @@
+{
+  "source_run": "mixture-003",
+  "status": "passed",
+  "complete": true,
+  "checks_passed": 44,
+  "checks_failed": 0,
+  "verified_at_utc": "2026-11-04T06:26:35.875191+00:00",
+  "source_verification_sha256": "bdce4cb63db770657f138ecb13d22042d2a59b83c856da6e7273eb01e362c643",
+  "source_verifier_sha256": "3399a7077d1b256108d7687299d16b8152f38720d433c6154e936c1d9d6ed076",
+  "checks": [
+    {
+      "name": "frozen_artifact_hashes",
+      "passed": true
+    },
+    {
+      "name": "features_artifact_hashes",
+      "passed": true
+    },
+    {
+      "name": "evaluation_artifact_hashes",
+      "passed": true
+    },
+    {
+      "name": "mlm_artifact_hashes",
+      "passed": true
+    },
+    {
+      "name": "frozen_implementation_snapshot_hashes",
+      "passed": true
+    },
+    {
+      "name": "actual_training_code_matches_pre_result_snapshot",
+      "passed": true
+    },
+    {
+      "name": "features_actual_training_code_hashes",
+      "passed": true
+    },
+    {
+      "name": "evaluation_actual_training_code_hashes",
+      "passed": true
+    },
+    {
+      "name": "feature_frozen_hash_chain",
+      "passed": true
+    },
+    {
+      "name": "evaluation_feature_hash_chain",
+      "passed": true
+    },
+    {
+      "name": "available_original_source_hashes",
+      "passed": true
+    },
+    {
+      "name": "mlm_reuse_original_manifest",
+      "passed": true
+    },
+    {
+      "name": "mlm_reuse_identical_corpus_and_partitions",
+      "passed": true
+    },
+    {
+      "name": "mlm_reuse_identical_candidate_exclusions",
+      "passed": true
+    },
+    {
+      "name": "all_reused_mlm_artifacts_unchanged",
+      "passed": true
+    },
+    {
+      "name": "verified_base_checkpoint_hashes",
+      "passed": true
+    },
+    {
+      "name": "reused_mlm_original_update_evidence",
+      "passed": true
+    },
+    {
+      "name": "assay_separated_public_evidence_hashes",
+      "passed": true
+    },
+    {
+      "name": "unique_mixture_ids_in_all_tables",
+      "passed": true
+    },
+    {
+      "name": "eye_epa_unique_final_csv_ids",
+      "passed": true
+    },
+    {
+      "name": "skin_epa_unique_final_csv_ids",
+      "passed": true
+    },
+    {
+      "name": "all_labels_remain_on_original_mixtures",
+      "passed": true
+    },
+    {
+      "name": "final_csv_common_cohort_source_label_alignment",
+      "passed": true
+    },
+    {
+      "name": "eleven_uncertainty_fields_unknown_amounts_and_repeat_ambiguity",
+      "passed": true
+    },
+    {
+      "name": "no_component_level_targets",
+      "passed": true
+    },
+    {
+      "name": "primary_and_missing_only_exploratory_cohort_relationship",
+      "passed": true
+    },
+    {
+      "name": "all_selected_amounts_valid_and_primary_fully_known",
+      "passed": true
+    },
+    {
+      "name": "source_stereochemistry_preserved_and_ambiguity_flagged",
+      "passed": true
+    },
+    {
+      "name": "protocol_and_amount_missingness_counts_independently_recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_splits_oof_once_groups_known_novelty_and_holdout_intersections",
+      "passed": true
+    },
+    {
+      "name": "candidate_structure_groups_independently_recomputed",
+      "passed": true
+    },
+    {
+      "name": "new_mlm_zero_candidate_overlap",
+      "passed": true
+    },
+    {
+      "name": "mlm_training_validation_identity_disjoint",
+      "passed": true
+    },
+    {
+      "name": "mlm_actual_train_corpus_digest",
+      "passed": true
+    },
+    {
+      "name": "mlm_actual_validation_corpus_digest",
+      "passed": true
+    },
+    {
+      "name": "feature_library_order_and_shared_eleven_covariates",
+      "passed": true
+    },
+    {
+      "name": "all_new_vectors_reconstructed_with_true_unknowns",
+      "passed": true
+    },
+    {
+      "name": "legacy_baselines_are_exact_final_csv_whitelisted_values",
+      "passed": true
+    },
+    {
+      "name": "all_comparisons_have_identical_ids_folds_labels_once",
+      "passed": true
+    },
+    {
+      "name": "every_saved_fold_head_and_training_only_preprocessor",
+      "passed": true
+    },
+    {
+      "name": "complete_summary_and_fold_metric_grids",
+      "passed": true
+    },
+    {
+      "name": "all_metrics_independent_sklearn_recalculation",
+      "passed": true
+    },
+    {
+      "name": "paired_observed_deltas_and_attribution_scope",
+      "passed": true
+    },
+    {
+      "name": "fast_bootstrap_metrics_ties_and_zero_weight_boundary_cases",
+      "passed": true
+    }
+  ],
+  "scope": "No training/refitting or full CI redraw. All saved OOF predictions and fold heads checked. Legacy baseline is a full-pipeline comparison. Upstream pretraining overlap unknown.",
+  "unit_tests": {
+    "tests": 21,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  }
+}

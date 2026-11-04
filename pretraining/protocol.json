@@ -1,0 +1,122 @@
+{
+  "schema": "mixture-component-encoder-v3",
+  "seed": 20261104,
+  "unit": "one formulation outcome; never ingredient-level toxicity labels",
+  "endpoints": {
+    "eye_epa": "EPA I/II=1; III/IV=0",
+    "skin_epa": "EPA I/II=1; III/IV=0"
+  },
+  "input_scope": "Reported active ingredients only; incomplete full formulations; percentage mass/volume basis not established.",
+  "primary_eligibility": "Mixture with unambiguous source EPA binary label; declared amounts known and in [0,100], sum<=100.01; >=1 usable positive-amount component. For direct legacy comparison require final CSV row and matching binary label; source label is never overwritten by legacy label.",
+  "structure_policy": "Accept source-original, parseable, connected discrete organic SMILES with specified OR unspecified stereochemistry; preserve exactly the reported stereochemical information and flag uncertainty. Do not invent isomers. Keep representative materials, disconnected salts, unverified lookup structures, unsupported atoms and invalid/overlength inputs out of encoding.",
+  "missing_amount_policy": "Never fill unknown weights with zero or one. Keep primary paired mean/weighted analysis restricted to known amounts. Retain otherwise eligible missing-amount mixtures in a separately flagged exploratory mean-only cohort including the primary cohort; freeze separate grouped splits. No weighted predictions on that exploratory cohort.",
+  "unresolved_identity_policy": "Without a usable structural identity or reported CAS, create a mixture-specific UNKNOWN key; matching blank fields or generic names does not prove identical ingredients or known-component status.",
+  "partial_structure_policy": "Encode only accepted components, retain omitted ingredients and amounts in audit and uncertainty covariates. Known zero amounts excluded. Unknown-amount accepted components included only in exploratory means. This is incomplete disclosed-active-ingredient prediction.",
+  "aggregation": [
+    "mean",
+    "reported_pct_weighted_mean_of_represented_subset"
+  ],
+  "exact_disclosed_input_conflicts": "Exclude same declared identities+amounts+reported assay/test conditions with opposite binary labels; do not exclude different ratios merely sharing an ingredient set.",
+  "outer_split": "5-fold StratifiedGroupKFold on union of full declared ingredient set, exact disclosed composition, represented ingredient set and legacy duplicate groups; endpoints separate.",
+  "primary_evaluation_question": "New declared ingredient combinations whose ingredient identities all occur in that fold training set. Novel-component OOF rows reported separately.",
+  "secondary_split": "Connected components of declared-ingredient graph, additionally union all composition/legacy duplicate groups. Declared identity train/test intersection must be empty. Unidentified and undisclosed components prevent a claim that all true ingredients are disjoint.",
+  "models": [
+    "dummy_prior",
+    "legacy_final_csv",
+    "rdkit_morgan_mean",
+    "rdkit_morgan_weighted",
+    "chemberta_base_mean",
+    "chemberta_base_weighted",
+    "chemberta_adapted_mean",
+    "chemberta_adapted_weighted"
+  ],
+  "classifier": "Train-only median descriptor imputation with indicators, StandardScaler, balanced LogisticRegression(C=1,solver=liblinear,max_iter=5000); fixed settings, threshold 0.5; no evaluation-driven tuning.",
+  "uncertainty_columns": [
+    "declared_count",
+    "represented_count",
+    "unrepresented_count",
+    "declared_pct_sum",
+    "represented_pct",
+    "unrepresented_declared_pct",
+    "undeclared_pct",
+    "zero_amount_count",
+    "represented_unspecified_stereo_count",
+    "has_missing_amount",
+    "amount_unknown_count"
+  ],
+  "mlm": "Start verified original base; remove ALL parseable candidate mixture component identity groups from public cosmetic structure pool before any new MLM; group-split 90/10; 3 epochs; validation-loss checkpoint; no mixture outcome used.",
+  "upstream_pretraining_overlap": "Unknown; component-disjoint claims concern supervised mixture training and this new cosmetic MLM, not the original upstream pretraining corpus.",
+  "metrics": [
+    "MCC",
+    "balanced_accuracy",
+    "ROC_AUC",
+    "average_precision",
+    "sensitivity",
+    "specificity"
+  ],
+  "uncertainty_estimation": "1000 paired bootstrap draws of composition groups on fixed OOF predictions; excludes full refitting uncertainty.",
+  "comparison_scope": "Internal source-domain mixture classification; not external cosmetics validation or safety determination.",
+  "outcomes_seen_before_design": "Earlier mixture-002 results were viewed. This revision changes input acceptance following a structure audit, not a blinded prospective design. The v3 protocol is frozen before v3 model results.",
+  "ambiguous_repeat_reporting_policy": "Keep all source rows. If different unidentified components have the same reported amount in disjoint repeat-study records, do not assume they are either identical or distinct ingredients. Flag possible repeat unknown identity and exclude the ambiguous union composition from both primary and exploratory cohorts.",
+  "scaffold_split": "Feasibility audit and, if possible, folds from connected components of exact Murcko scaffolds of canonical parent structures plus declared identities and composition/legacy duplicate groups. All acyclic structures share one ACYCLIC key. No scaffold inference for unknown structures. At least two groups and both classes in each training fold required. Missing scaffold information reported explicitly.",
+  "scaffold_exposure_scope": "Scaffold holdout concerns supervised mixture training only. Cosmetic MLM removes component identities but not all shared scaffold families; upstream base pretraining exposure is unknown.",
+  "exploratory_models": [
+    "dummy_prior",
+    "legacy_final_csv",
+    "rdkit_morgan_mean",
+    "chemberta_base_mean",
+    "chemberta_adapted_mean"
+  ],
+  "legacy_model_scope": "Direct final CSV numerical features with explicit feature whitelist excluding targets, identifiers and outcome-derived metadata. Legacy vectorizer has its own ingredient/weight policies: this is a complete pipeline baseline, whereas recomputed RDKit controls component inputs. Existing missing-weight fallback remains a legacy limitation and is not introduced into new component embeddings.",
+  "paired_comparisons": [
+    [
+      "rdkit_morgan_mean",
+      "chemberta_base_mean"
+    ],
+    [
+      "rdkit_morgan_weighted",
+      "chemberta_base_weighted"
+    ],
+    [
+      "chemberta_base_mean",
+      "chemberta_adapted_mean"
+    ],
+    [
+      "chemberta_base_weighted",
+      "chemberta_adapted_weighted"
+    ],
+    [
+      "rdkit_morgan_mean",
+      "rdkit_morgan_weighted"
+    ],
+    [
+      "chemberta_base_mean",
+      "chemberta_base_weighted"
+    ],
+    [
+      "chemberta_adapted_mean",
+      "chemberta_adapted_weighted"
+    ],
+    [
+      "legacy_final_csv",
+      "rdkit_morgan_weighted"
+    ],
+    [
+      "legacy_final_csv",
+      "chemberta_base_mean"
+    ],
+    [
+      "legacy_final_csv",
+      "chemberta_base_weighted"
+    ],
+    [
+      "legacy_final_csv",
+      "chemberta_adapted_mean"
+    ],
+    [
+      "legacy_final_csv",
+      "chemberta_adapted_weighted"
+    ]
+  ],
+  "mlm_checkpoint_reuse": "An earlier checkpoint may be reused only if frozen MLM rows, partition membership and excluded candidate identities are identical and its checkpoint provenance/artifact hashes are verified. No new toxicity labels may enter MLM. Upstream base pretraining overlap remains unknown."
+}

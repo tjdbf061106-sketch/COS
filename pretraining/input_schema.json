@@ -1,0 +1,31 @@
+{
+  "run": "mixture-003",
+  "component_embedding_width": 384,
+  "pooled_feature_width": 395,
+  "uncertainty_columns": [
+    "declared_count",
+    "represented_count",
+    "unrepresented_count",
+    "declared_pct_sum",
+    "represented_pct",
+    "unrepresented_declared_pct",
+    "undeclared_pct",
+    "zero_amount_count",
+    "represented_unspecified_stereo_count",
+    "has_missing_amount",
+    "amount_unknown_count"
+  ],
+  "pooling": [
+    "mean",
+    "weighted"
+  ],
+  "unit": "mixture; no ingredient toxicity labels",
+  "encoder_pooling": "non-special non-padding token mean from last_hidden_state; then ingredient pooling",
+  "head_input_dtype": "float32",
+  "primary_only": true,
+  "unknown_amounts": "rejected; exploratory mean-only heads are not included",
+  "known_zero_amounts": "excluded from both pools but recorded in zero_amount_count",
+  "amount_basis": "source-reported percentage; mass/volume basis not established",
+  "full_formulation_fraction": false,
+  "uncertainty_note": "all declared components including unrepresented ingredients must be retained; do not pass only encodable SMILES"
+}

@@ -3,13 +3,13 @@
     "best/added_tokens.json": "b1360dafad6df04a48959e0678631ec3fd2c42a96fb31adf552521e7122add74",
     "best/config.json": "5353fa58a6147ba6abb2f9f2d4f6112dbced651107010b984d464fe71c122503",
     "best/merges.txt": "215a6aba00d27bcd42b8ad1dccc4b4d23f40decc150bdbf0d5ce6bb2410708df",
-    "best/model.safetensors": "8d0c02ed73f0ca4aded981f136a5b614a48241ab7b51afd51073d65d920a3f61",
+    "best/model.safetensors": "8bfea57ec448ee11aa37e6c046f2c750a404b24d2d61cd62515a9af9b946dfd4",
     "best/special_tokens_map.json": "ef7d0adb64fa9b75187e308f5b0ec3bab3dbf3e4c753e04ea5ebcfdf37211d52",
     "best/tokenizer.json": "1879e1bc5562e4bc5053f9d8e4d9344b92adbeb079a16c6cda5534e1eb67ab09",
     "best/tokenizer_config.json": "d895fd3bc222b749c81add4146ec6e5ae201f799779d2cc3fe9b9e0fae606de2",
     "best/vocab.json": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
-    "losses.csv": "563795d6fbd26caa1db6e69a22e9daeb9d27fa4be1ea11c4eb1094711094753b",
-    "losses.json": "e7fd257022880b7aba548b691a58006c40abbfefe74d3018ea76bf9005584e04"
+    "losses.csv": "5b4b05663df4392ab1fd4f80b3f872ea5bec3d92f8195699acfca9fadffe8645",
+    "losses.json": "45097d545611a23d066ff15a1c616e80995dfdeeecd6614de6c9bb5535baa7b9"
   },
   "base_files": {
     "added_tokens.json": "b1360dafad6df04a48959e0678631ec3fd2c42a96fb31adf552521e7122add74",
@@ -97,12 +97,12 @@
     "special_and_padding_excluded": true,
     "validation_fixed": true
   },
-  "optimizer_steps": 192,
+  "optimizer_steps": 195,
   "reload_output_verified": true,
   "reload_tensor_verified": true,
   "schema": "chemberta-mlm-v3",
-  "seed": 42,
+  "seed": 20261104,
   "selected_epoch": 3,
-  "train_smiles_sha256": "f509fe7b9b814ff03268b9b4e747dbab9e9012d70e68043011af5ebdd62edb0e",
-  "validation_smiles_sha256": "ca567782a52661b6f79a93cefbce37d6a8971da7a1b06c3b4bb9217e7afb8af6"
+  "train_smiles_sha256": "c04d988bfb3c70d1823ade0a0ea9dc042c709f1af73291af9e05965e2b315188",
+  "validation_smiles_sha256": "f4d75f01030e2f561e8d3dac2e4e7da555537ad6378457cc4e80e1af2588428b"
 }
