@@ -1,0 +1,114 @@
+{
+  "version": "revision_v1",
+  "frozen_before_new_predictions": true,
+  "scope": "Retrospective internal benchmark and research support software; no real new-ingredient or external validation",
+  "positive_class": "stable",
+  "classification_threshold": 0.5,
+  "classification_metrics": [
+    "Sensitivity",
+    "Specificity",
+    "MCC",
+    "ROC-AUC"
+  ],
+  "interpretation": "Judge sensitivity and specificity levels together, with MCC/AUC as complementary evidence; no single-metric winner",
+  "repeat_seeds": [
+    20261102,
+    20261103,
+    20261104
+  ],
+  "preprocessing": "StandardScaler fitted only to training rows for linear models. No imputation or outcome-driven feature selection.",
+  "model_settings": {
+    "linear": {
+      "C": 1.0,
+      "max_iter": 5000,
+      "ridge_alpha": 10.0
+    },
+    "extra_trees": {
+      "n_estimators": 200,
+      "min_samples_leaf": 3,
+      "max_features": 1.0,
+      "n_jobs": 2
+    }
+  },
+  "targets": {
+    "stability": "stable",
+    "viscosity_100": "log10_viscosity_100",
+    "turbidity": "log10p1_turbidity"
+  },
+  "representation_comparison": {
+    "splits": "Preserved combination_holdout, 3 seeds x 5 folds",
+    "models": [
+      "linear",
+      "extra_trees"
+    ],
+    "features": [
+      "stock18",
+      "physics_core61",
+      "physics_core61_pk45"
+    ],
+    "retrospective_status": "Original data and baseline outcomes have already been inspected. This is not an untouched external test.",
+    "supplier_scenario": "Train and evaluate a separate feature scenario, never overwrite source values"
+  },
+  "onboarding": {
+    "materials": "all 18, report failures and all results",
+    "models": [
+      "linear"
+    ],
+    "features": [
+      "stock18",
+      "physics_core61"
+    ],
+    "new_test_group_fraction": 0.3,
+    "old_retention_group_fraction": 0.2,
+    "adaptation_group_budgets": [
+      0,
+      4,
+      12,
+      "all"
+    ],
+    "selection": "Nested random order of complete ingredient-combination groups, fixed before prediction and without outcome-based search",
+    "test_lock": "Same new-material test and old-material retention sets across all budgets and features within ingredient/seed",
+    "fit_from_scratch": true,
+    "no_old_saved_model_reuse": true,
+    "budgets_are_groups_not_recipes": true,
+    "batches": "Not reported in source; independence across manufacturing batches remains unresolved"
+  },
+  "selective_prediction": {
+    "models": "Every representation/model in representation comparison",
+    "confidence_margins": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "threshold_selection": "All fixed in advance; no best cutoff selected from outer OOF",
+    "outputs": [
+      "coverage",
+      "stable_coverage",
+      "unstable_coverage",
+      "Sensitivity",
+      "Specificity",
+      "MCC",
+      "ROC-AUC",
+      "selective_error"
+    ],
+    "not_deployed_as_validated_gate": true
+  },
+  "reporting": {
+    "uncertainty": "Repeat SD is not a confidence interval. Across-material results overlap in formulations; no independence or significance claims.",
+    "primary_summary": "Report per-material means over seeds and equal-weight descriptive means; include all per-split counts and uncomputable metrics",
+    "no_automatic_model_replacement": true
+  },
+  "stop_rules": [
+    "Hash mismatch",
+    "Group leakage",
+    "Nonfinite input",
+    "Failed optimization convergence"
+  ],
+  "references": [
+    "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "https://proceedings.mlr.press/v97/geifman19a.html",
+    "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm"
+  ]
+}

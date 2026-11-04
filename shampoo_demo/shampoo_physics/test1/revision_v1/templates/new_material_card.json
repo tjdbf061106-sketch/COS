@@ -1,0 +1,18 @@
+{
+  "ingredient_id": null,
+  "supplier": null,
+  "commercial_grade": null,
+  "lot_id": null,
+  "inci": null,
+  "active_content_basis": null,
+  "active_min_pct": null,
+  "active_max_pct": null,
+  "water_min_pct": null,
+  "water_max_pct": null,
+  "salt_or_solvent_content": null,
+  "specification_url_or_document": null,
+  "document_version": null,
+  "reviewed_by": null,
+  "status": "unreviewed",
+  "complete_molecular_composition_confirmed": false
+}

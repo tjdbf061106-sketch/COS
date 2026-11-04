@@ -1,5 +1,9 @@
 # Shampoo Demo — B안 샴푸 물성 설계 연구
 
+> **공유 자료 보충:** 로컬 `shampoo_physics`의 앱, 분석 결과, 신규 원료 편입 검토 및 개정본을 [shampoo_physics/](shampoo_physics/)에 추가했습니다. 기존 [`research_package_20261102/`](research_package_20261102/)는 그대로 보존합니다. 아래의 기존 계획·상태 표는 초기 계획이며, 후속 작업의 실제 범위와 실행 안내는 [보충 자료 안내](shampoo_physics/GITHUB_SHARE_GUIDE.md)와 각 폴더의 README를 확인하세요.
+
+> **팀 검토용 새 프로토콜:** [Word 문서](docs/new_ingredient_improvement_protocol.docx) · [PDF](docs/new_ingredient_improvement_protocol.pdf) — 신규 원료 정보, 실험·평가 분리, 기준 미설정 시 보류와 역할 분담을 정리한 초안입니다.
+
 ## 한 줄 목적
 
 공개 실측 샴푸 제형을 이용해 **단기 상안정성**을 먼저 검토하고, 실제로 안정한 제형 범위 안에서만 목표 탁도·점도에 가까운 실험 후보를 찾는 연구·데모입니다.

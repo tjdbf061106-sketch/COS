@@ -1,0 +1,17 @@
+{
+  "status": "requires_use_case_targets",
+  "positive_class": "stable",
+  "confidence_level": 0.95,
+  "sensitivity_lower_bound_min": null,
+  "specificity_lower_bound_min": null,
+  "max_sensitivity_specificity_gap": null,
+  "coverage_min": null,
+  "min_independent_stable_units": null,
+  "min_independent_unstable_units": null,
+  "viscosity_log_mae_max": null,
+  "turbidity_log_mae_max": null,
+  "min_viscosity_test_units": null,
+  "min_turbidity_test_units": null,
+  "require_prospective_independence_for_registration": true,
+  "rule": "Unset criteria or unresolved independence means HOLD; no default automatic registration. These are use-case decisions, not tunable values chosen from evaluation outcomes."
+}

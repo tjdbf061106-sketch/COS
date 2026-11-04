@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Streamlit initial rendering with research figures",
+    "Supported source-assumption candidate flow",
+    "Unknown ingredient edit produces HOLD"
+  ],
+  "browser_visual_inspection": false,
+  "method": "streamlit.testing.v1.AppTest"
+}

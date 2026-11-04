@@ -1,0 +1,37 @@
+﻿endpoint,ingredient_id,representative_only,reference_structure_count,exact_full_smiles_match,nearest_parent_tanimoto,nearest_casrn,nearest_name,ad_status,identity_review_note
+skin,Texapon SB 3 KC,True,264,False,0.26785714285714285,57960-19-7,Acequinocyl,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Plantapon ACG 50,True,264,False,0.2641509433962264,1689-99-2,Bromoxynil octanoate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Plantapon LC 7,True,264,False,0.25,51-03-6,Piperonyl butoxide,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Plantacare 818,True,264,False,0.21621621621621623,27519-02-4,cis-Tricos-9-ene,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Plantacare 2000,True,264,False,0.21621621621621623,27519-02-4,cis-Tricos-9-ene,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Dehyton MC,True,264,False,0.22641509433962265,55406-53-6,3-Iodo-2-propynylbutylcarbamate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Dehyton PK 45,True,264,False,0.3611111111111111,32426-11-2,Octyl decyl dimethyl ammonium chloride,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Dehyton ML,True,264,False,0.22641509433962265,55406-53-6,3-Iodo-2-propynylbutylcarbamate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Dehyton AB 30,True,264,False,0.56,32426-11-2,Octyl decyl dimethyl ammonium chloride,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV; published representative SMILES includes a net +1 charge: do not silently correct
+skin,Plantapon Amino SCG-L,True,264,False,0.2641509433962264,1689-99-2,Bromoxynil octanoate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Plantapon Amino KG-L,True,264,False,0.3,27519-02-4,cis-Tricos-9-ene,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+skin,Dehyquart A-CA,True,264,False,0.6666666666666666,32426-11-2,Octyl decyl dimethyl ammonium chloride,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV; published INCI contains 'Potassium' but SMILES has chloride and no potassium: identity review required
+skin,Luviquat Excellence,True,264,False,,,,not_validated,approximately 40000 g/mol; distribution and charge density not fully specified
+skin,Dehyquart CC6,True,264,False,,,,not_validated,molecular weight unknown
+skin,Dehyquart CC7 Benz,True,264,False,,,,not_validated,approximately 500000 g/mol; source slide gives copolymer fractions
+skin,Salcare Super 7,True,264,False,,,,not_validated,100000-200000 g/mol; different copolymer fractions from CC7
+skin,Arlypon F,True,264,False,0.3076923076923077,27519-02-4,cis-Tricos-9-ene,not_validated,Representative SMILES transcribed from source slide 26; not a full commercial distribution
+skin,Arlypon TT,True,264,False,,,,not_validated,"Source slide 25: commercial blend, each component 40-50%; polymer distribution unresolved"
+eye,Texapon SB 3 KC,True,265,False,0.2926829268292683,9003-13-8,Butoxypolypropylene glycol,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Plantapon ACG 50,True,265,False,0.2641509433962264,1689-99-2,Bromoxynil octanoate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Plantapon LC 7,True,265,False,0.32432432432432434,9003-13-8,Butoxypolypropylene glycol,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Plantacare 818,True,265,False,0.2631578947368421,9003-13-8,Butoxypolypropylene glycol,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Plantacare 2000,True,265,False,0.2631578947368421,9003-13-8,Butoxypolypropylene glycol,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Dehyton MC,True,265,False,0.22641509433962265,55406-53-6,3-Iodo-2-propynyl-N-butylcarbamate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Dehyton PK 45,True,265,False,0.3611111111111111,7173-51-5,Didecyldimethylammonium chloride,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Dehyton ML,True,265,False,0.22641509433962265,55406-53-6,3-Iodo-2-propynyl-N-butylcarbamate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Dehyton AB 30,True,265,False,0.56,7173-51-5,Didecyldimethylammonium chloride,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV; published representative SMILES includes a net +1 charge: do not silently correct
+eye,Plantapon Amino SCG-L,True,265,False,0.2641509433962264,1689-99-2,Bromoxynil octanoate,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Plantapon Amino KG-L,True,265,False,0.3,27519-02-4,cis-Tricos-9-ene,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV
+eye,Dehyquart A-CA,True,265,False,0.6666666666666666,7173-51-5,Didecyldimethylammonium chloride,not_validated,Representative chain only; commercial chain-length distribution retained in source CSV; published INCI contains 'Potassium' but SMILES has chloride and no potassium: identity review required
+eye,Luviquat Excellence,True,265,False,,,,not_validated,approximately 40000 g/mol; distribution and charge density not fully specified
+eye,Dehyquart CC6,True,265,False,,,,not_validated,molecular weight unknown
+eye,Dehyquart CC7 Benz,True,265,False,,,,not_validated,approximately 500000 g/mol; source slide gives copolymer fractions
+eye,Salcare Super 7,True,265,False,,,,not_validated,100000-200000 g/mol; different copolymer fractions from CC7
+eye,Arlypon F,True,265,False,0.6086956521739131,9003-13-8,Butoxypolypropylene glycol,not_validated,Representative SMILES transcribed from source slide 26; not a full commercial distribution
+eye,Arlypon TT,True,265,False,,,,not_validated,"Source slide 25: commercial blend, each component 40-50%; polymer distribution unresolved"

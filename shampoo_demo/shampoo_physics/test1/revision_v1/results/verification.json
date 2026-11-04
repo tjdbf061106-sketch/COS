@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Frozen analysis inputs/code/protocol/splits match and original project/review files are unchanged",
+    "Every representation and onboarding prediction traces to eligible targets and disjoint recipe groups with a locked final test",
+    "All saved classification/regression metrics, confusion counts and class-specific coverage recompute from saved predictions",
+    "Six selected target fits reproduce the saved predictions, including a new-material adaptation case"
+  ],
+  "refit_max_absolute_differences": {
+    "representation_stability": 1.1102230246251565e-16,
+    "representation_viscosity_100": 4.440892098500626e-16,
+    "representation_turbidity": 6.661338147750939e-16,
+    "onboarding_stability": 8.992806499463768e-15,
+    "onboarding_viscosity_100": 2.220446049250313e-15,
+    "onboarding_turbidity": 2.220446049250313e-15
+  },
+  "original_files_unchanged": true,
+  "real_new_material_experiment": false,
+  "independent_external_validation": false,
+  "representation_predictions": 25182,
+  "onboarding_predictions": 134096
+}

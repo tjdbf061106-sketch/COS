@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "fits": 270,
+  "prediction_rows": 25182,
+  "elapsed_seconds": 41.285346399992704,
+  "model_selection_performed": false,
+  "threshold_selection_performed": false,
+  "external_validation": false
+}

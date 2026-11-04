@@ -1,0 +1,30 @@
+<!doctype html><html lang='ko'><meta charset='utf-8'><title>샴푸 연구 개선 결과</title><style>body{font:16px/1.7 'Malgun Gothic',sans-serif;color:#193349;max-width:1150px;margin:36px auto;padding:0 24px}h1{font-size:28px}h2{font-size:22px;margin-top:36px;border-bottom:2px solid #237487}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd9e1;padding:9px;vertical-align:top}th{background:#e9f2f6}img{max-width:100%;height:auto}figure{margin:24px 0}figcaption{font-size:13px;color:#536672}pre{background:#edf2f4;padding:16px;white-space:pre-wrap}@media print{body{font-size:10pt;margin:0}h2{page-break-after:avoid}tr{page-break-inside:avoid}thead{display:table-header-group}}</style><body><h1>신규 원료 적용범위 편입 프로토콜 — 개정안 v1</h1>
+<p>2026-11-02 | 원본 문서는 보존하고 네 가지 개선 사항을 코드·자료 양식과 연결한 개정안입니다.</p>
+<h2>1. 목적과 상태</h2>
+<p>신규 원료·공급사·등급을 입력 라이브러리에 등록하는 일과, 물성 예측 지원 범위에 편입하는 일을 구분합니다. 정보만 등록된 원료는 예측 대상이 아닙니다. 실제 원료 편입은 재학습용 관측과 독립 평가 근거가 확보되고 사전 기준을 통과한 제한된 조합·농도·제조·시험 조건에 대해서만 검토합니다.</p>
+<table><thead><tr><th>상태</th><th>의미</th></tr></thead><tbody><tr><td>unreviewed</td><td>원료 카드 또는 규격이 미확인. 수치 예측 보류</td></tr><tr><td>documented_source_assumption</td><td>원 논문 원료를 가정한 연구 계산에만 사용. 현재 공급제품·배치 승인 아님</td></tr><tr><td>verified_external_grade</td><td>원료·공급사·등급·로트 근거 대조 완료. 이 상태만으로 모델 지원 승인은 아님</td></tr><tr><td>HOLD</td><td>입력·조건·데이터·통과 기준·독립성 중 하나라도 부족함</td></tr><tr><td>PASS_LIMITED_SCOPE</td><td>사전 기준과 독립 평가 근거를 충족한 검토 결과. 명시된 범위와 모델 버전에만 적용</td></tr></tbody></table>
+<h2>2. 원료와 실험 식별자</h2>
+<p>원료 ID, 공급사, 상용 등급, 로트, 활성분 기준·범위, 물·염·용매 정보, 규격서 출처·버전을 기록합니다. 대표 SMILES나 INCI는 검색 근거로만 사용하고 동일 상용 원료의 증거로 자동 대체하지 않습니다. 새 등급은 기존 투입량 열에 덮어쓰지 않고 새 ID와 입력 열로 관리합니다.</p>
+<p>각 측정에는 record_id, source_id, formulation_id, preparation_batch_id, measurement_event_id를 둡니다. 관련 반복은 related_group_id로도 연결합니다. 제조 반복과 기기 반복을 구분하며, 투입량의 단위는 전체 제형 대비 공급제품 질량%입니다. 미지원 원료를 0으로 숨기거나 알려진 원료 합계만 100으로 재정규화하지 않습니다.</p>
+<h2>3. 최소 처방 실험의 설계</h2>
+<p>먼저 용도와 허용오차를 정하고 대조 처방, 신규 원료의 농도 범위, 대표 조합, 제조 반복·배치를 설계합니다. 상용 원료 1:1 질량 대체와 활성분 고정 대체는 별도 질문입니다. 물·염·용매 차이를 기록하고 필요하면 대조군을 둡니다. 기기 반복을 여러 독립 처방으로 세지 않습니다.</p>
+<p>제조 순서, 혼합 시간·회전수, 온도, 실측 pH, 적정액 종류·투입량, 관찰 시간, 기기와 전단속도를 기록합니다. 단기 안정성을 먼저 관찰하고 점도·탁도의 미측정·QC 제외 사유를 남깁니다. 다른 조건의 결과를 원자료의 25℃·100 s⁻¹ 점도 또는 36시간 안정성과 직접 같은 결과로 취급하지 않습니다.</p>
+<h2>4. A 개발 자료와 B 잠금 평가 자료</h2>
+<p>신규 원료 처방을 전부 B로 보내지 않습니다. A에는 신규 원료의 영향 학습에 사용할 관측을 포함하고, B에는 최종 확인용 처방·배치를 보류합니다. 동일 처방 ID, 제조 배치, 측정 이벤트 또는 동일 조성으로 연결된 기록은 하나의 그룹으로 묶습니다. 연결이 연쇄적으로 이어지는 경우도 같은 그룹으로 처리합니다.</p>
+<p>intake_split.py는 식별자와 신규 원료의 실제 투입 열을 확인한 뒤 분할 CSV와 해시를 저장합니다. A/B 중 한쪽에 신규 원료 관측이 없거나 모든 기록이 하나의 그룹이면 분할을 진행하지 않습니다. 실제 독립성은 식별자의 진위·관계를 확인해야 하며 자동 분할만으로 확정되지 않습니다.</p>
+<pre>python src/intake_split.py --input new_experiments.csv --feature-list intake_feature_list.json --output-dir new_locked_split</pre>
+<p>최종 B의 결과는 모델·전처리·임계값을 고른 후 한 번 평가합니다. B를 보고 변경했다면 새 최종 평가 자료가 필요합니다. 기존 원료의 별도 보류 자료도 유지해 새 원료 적응 후 기존 성능 저하를 함께 확인합니다.</p>
+<h2>5. 입력·조건·공동 조성의 보류 규칙</h2>
+<p>실제 처방은 확인된 공급사·등급·로트 기록이 일치해야 합니다. 조합에 관측 처방이 없으면 보류하고, 관측점 하나에서 농도가 바뀌어도 보간으로 인정하지 않습니다. 관측 처방들의 비음수 가중합(가중치 합=1)으로 조성을 복원할 수 있어야 기하학적 보간 후보로 표시합니다. 이는 실제 오차를 보장하는 통과 기준이 아닙니다.</p>
+<p>상안정성과 회귀의 지지 자료를 구분합니다. 점도·탁도는 실측 안정·해당 물성 측정 처방의 공동 조성 지지가 있어야 하고, 현재 연구 앱에서는 안정성 점수 0.5 미만일 때도 회귀 수치를 보류합니다. 0.5 이상이어도 실측 안정성이 확인된 것은 아니므로 조건부 연구 추정으로 표시합니다. 이미 측정한 처방은 실측값을 우선 표시합니다.</p>
+<h2>6. 평가 지표와 통과 판정</h2>
+<p>양성=안정, 임계값=0.5를 기본 평가 정의로 고정합니다. Sensitivity·Specificity·MCC·ROC-AUC와 혼동행렬을 함께 보고, 양쪽 클래스 탐지 수준과 격차를 판단합니다. 양성을 불안정으로 바꿀 때는 정의·점수·판정까지 일치시키고 민감도·특이도를 환산합니다. 한 클래스만 있는 평가에서는 계산 불가능한 지표를 임의의 0이나 1로 채우지 않고 보류합니다.</p>
+<p>예측을 일부 보류하면 전체·클래스별 예측 비율과 남은 표본의 네 지표를 같이 보고합니다. 회귀는 로그 MAE·RMSE·R²와 실제 단위의 목표 오차를 별도로 검토합니다. 실제 불안정한 처방을 통과시키는 오류와, 실제 안정 처방에서의 물성 오차를 서로 대신 쓰지 않습니다.</p>
+<table><thead><tr><th>사전에 정할 필드</th><th>용도</th></tr></thead><tbody><tr><td>sensitivity_lower_bound_min / specificity_lower_bound_min</td><td>각 클래스 탐지율의 신뢰 하한 요구</td></tr><tr><td>max_sensitivity_specificity_gap / coverage_min</td><td>양쪽 예측 균형과 지원 범위의 최소 수준</td></tr><tr><td>min_independent_stable_units / min_independent_unstable_units</td><td>클래스별 독립 평가 단위 수</td></tr><tr><td>viscosity_log_mae_max / turbidity_log_mae_max</td><td>용도에 맞는 회귀 허용오차</td></tr><tr><td>min_viscosity_test_units / min_turbidity_test_units</td><td>물성별 독립 평가 단위 수</td></tr></tbody></table>
+<p>config/acceptance_criteria.json에 용도별 목표를 기록합니다. 현재는 실제 용도의 허용오차가 정해지지 않아 null이며, 이 경우 판정기는 반드시 HOLD를 반환합니다. 연구 결과를 본 뒤 통과하도록 수치를 낮추지 않습니다. 기준을 채워도 독립 평가 근거가 확인되지 않으면 HOLD입니다. 판정 결과만으로 원료 목록이나 모델을 자동 배포하지 않습니다.</p>
+<h2>7. 표본 수 산정의 의미</h2>
+<p>sample_planning.py는 독립 이항 평가 단위를 가정한 클래스별 Wilson 신뢰 하한 시나리오를 제공합니다. 예를 들어 68개 중 61개를 맞힌 경우 두쪽 95% Wilson 하한은 약 0.802입니다. 이는 ‘각 클래스 68개를 만들면 성공한다’는 보장이나 학습 데이터 최소 수가 아닙니다. 기술 반복, 제조 배치 상관, 불안정 비율, QC 제외로 실제 필요한 실험 수는 더 커질 수 있습니다.</p>
+<p>회귀의 필요한 실험 수는 용도별 허용오차와 예비 실험의 분산·잔차가 있어야 산정할 수 있습니다. 현재 자료만으로 공통 최소 개수를 제시하지 않습니다. 조건이 부족하면 산정 불가로 표시하고 무엇이 필요한지 기록합니다.</p>
+<h2>8. 등록 범위와 변경 관리</h2>
+<p>등록은 원료×공급사×등급×농도×조합×제조·시험 조건×모델 버전으로 한정합니다. 규격·활성분·공정·측정 조건이 바뀌면 근거를 다시 검토합니다. 능동학습은 초기 편입의 필수 조건으로 두지 않고, 같은 실험 예산의 무작위·다양성 선택 기준선과 비교한 후 별도 효과를 주장합니다.</p>
+<p>현재 revision_v1의 결과는 공개 자료를 이용한 모의 편입입니다. 실제 신규 원료 등록, 제품 안전성·자극성·출시 적합성 판단 또는 시험 면제를 뜻하지 않습니다.</p></body></html>

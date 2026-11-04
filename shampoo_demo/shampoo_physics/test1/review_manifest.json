@@ -1,0 +1,19 @@
+{
+  "files": {
+    "app_counterexamples.json": "306787bfd446184bcc7d898e9bbc2ea00d0123d5f19cd055c83208b456361b80",
+    "audit_feasibility.py": "1276a735a425f4ea5a0e849b8c48b70b8c673f323482d51f25218782d65ec6a6",
+    "audit_summary.json": "5a8ffc418f7205d227025eea1a6cc7d83724295102c2ab6c74eae9ec4fc7efe8",
+    "classification_metrics_by_repeat.csv": "84a037eafc580e48353f391ca089ab75213b8de0ee9cc71b71d300d41dee62a5",
+    "classification_metrics_summary.csv": "f05cb49ee8ffbef26da46b63ecf877dac938e2d5190bbb9193c25eb702366c20",
+    "hypothetical_gate_coverage.csv": "490c37efa79ef0e651245b00ac9b4f5c4e18e64149eff8fbbc43cba36cd3d8f5",
+    "ingredient_support.csv": "d07dc7566bae40ce9fefd8a81fe233878c5705fe4d6223d98b1ffc3ef6ef5200",
+    "make_review.py": "a745f3d2def1c9f112727394d6fbe6020c5d165684b8a4423ab9081404fc4b20",
+    "original_protocol_text.txt": "b8b4107ef3f2889a3f00dd8d61115006108c794c78b2630ea7df5e32af0267fb",
+    "source_inventory.json": "f0395bc70a7a2ed94b756a5f531f23a599313d0cd7677ff1330e838864e4c63a",
+    "검토보고서.html": "cddbd3d88a788bab8a117f5a97cd3ebfb9b8a9c1a7285d1c177771d52a4629cf",
+    "신규원료_프로토콜_실현가능성_검토.docx": "697be5c54dab42f7e30275ef356cfe6a7bdcfaba583a16d9d0e124eedbef9a48"
+  },
+  "docx_package_xml_check": "PASS",
+  "docx_word_visual_render": "not_performed",
+  "source_files_unchanged": true
+}

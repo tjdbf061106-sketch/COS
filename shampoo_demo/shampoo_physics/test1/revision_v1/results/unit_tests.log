@@ -1,0 +1,26 @@
+test_empty_real_evidence_and_unset_criteria_hold (test_policy.PolicyContracts.test_empty_real_evidence_and_unset_criteria_hold) ... ok
+test_false_new_material_indicator_rejected (test_policy.PolicyContracts.test_false_new_material_indicator_rejected) ... ok
+test_invalid_acceptance_target_rejected (test_policy.PolicyContracts.test_invalid_acceptance_target_rejected) ... ok
+test_four_metrics_and_tie_positive_stable (test_research_core.ResearchContracts.test_four_metrics_and_tie_positive_stable) ... ok
+test_linked_identifiers_are_transitive_and_duplicate_recipes_grouped (test_research_core.ResearchContracts.test_linked_identifiers_are_transitive_and_duplicate_recipes_grouped) ... ok
+test_missing_batch_cannot_claim_independence (test_research_core.ResearchContracts.test_missing_batch_cannot_claim_independence) ... ok
+test_one_class_or_zero_coverage_is_not_success (test_research_core.ResearchContracts.test_one_class_or_zero_coverage_is_not_success) ... ok
+test_small_perfect_sample_has_uncertainty (test_research_core.ResearchContracts.test_small_perfect_sample_has_uncertainty) ... ok
+test_split_group_disjoint_and_reproducible (test_research_core.ResearchContracts.test_split_group_disjoint_and_reproducible) ... ok
+test_unset_criteria_and_unverified_units_hold (test_research_core.ResearchContracts.test_unset_criteria_and_unverified_units_hold) ... ok
+test_blocked_inputs_never_call_models (test_support_gate.GateContracts.test_blocked_inputs_never_call_models) ... ok
+test_conditions_and_unstable_score_suppress_regression (test_support_gate.GateContracts.test_conditions_and_unstable_score_suppress_regression) ... ok
+test_convex_combination_recovers_support_and_observed_is_measured (test_support_gate.GateContracts.test_convex_combination_recovers_support_and_observed_is_measured) ... ok
+test_external_verified_record_must_match_grade_and_lot (test_support_gate.GateContracts.test_external_verified_record_must_match_grade_and_lot) ... ok
+test_high_stability_score_cannot_bypass_regression_domain (test_support_gate.GateContracts.test_high_stability_score_cannot_bypass_regression_domain) ... ok
+test_intake_split_groups_repeats_and_preserves_new_training (test_support_gate.GateContracts.test_intake_split_groups_repeats_and_preserves_new_training) ... ok
+test_joint_ranges_do_not_imply_convex_hull (test_support_gate.GateContracts.test_joint_ranges_do_not_imply_convex_hull) ... ok
+test_singleton_changed_concentration_is_not_interpolation (test_support_gate.GateContracts.test_singleton_changed_concentration_is_not_interpolation) ... ok
+test_source_evidence_cannot_authorize_external_batch (test_support_gate.GateContracts.test_source_evidence_cannot_authorize_external_batch) ... ok
+test_unique_inci_and_product_name_without_evidence_are_not_approval (test_support_gate.GateContracts.test_unique_inci_and_product_name_without_evidence_are_not_approval) ... ok
+test_unknown_supplier_name_never_falls_back_to_known_smiles (test_support_gate.GateContracts.test_unknown_supplier_name_never_falls_back_to_known_smiles) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.089s
+
+OK

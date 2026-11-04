@@ -1,0 +1,40 @@
+{
+  "source": "https://github.com/yxliu0907/SkinEye",
+  "source_commit": "1e5de1a4310feb17c576de7a54431f1ea56e8f9f",
+  "license": "MIT",
+  "source_hashes": {
+    "sources/skin_eye_chemical_skin.csv": "7066fa7bd60e5e5329cb5ebee16b7c5d99b61d3498d9cda4bed8e25242fae087",
+    "sources/skin_eye_chemical_eye.csv": "11612c27d1550515914ea59a9c733f82b30a80c81b41bb4e28e03611d73831ab"
+  },
+  "endpoints": {
+    "skin": {
+      "rows": 3079,
+      "valid_smiles_rows": 3078,
+      "invalid_smiles_rows": 1,
+      "unique_valid_structures": 3066,
+      "positive_rows": 1382,
+      "negative_rows": 1697,
+      "conflicting_unique_structures": 2
+    },
+    "eye": {
+      "rows": 2971,
+      "valid_smiles_rows": 2970,
+      "invalid_smiles_rows": 1,
+      "unique_valid_structures": 2961,
+      "positive_rows": 1644,
+      "negative_rows": 1327,
+      "conflicting_unique_structures": 0
+    }
+  },
+  "shampoo_representative_exact_matches": {
+    "eye": 0,
+    "skin": 0
+  },
+  "intended_use": "Ingredient-level chemical reference audit only",
+  "not_validated_for": [
+    "shampoo mixture irritation prediction",
+    "commercial ingredient distribution prediction",
+    "product safety or regulatory decisions"
+  ],
+  "label_note": "The source provides binary chemical-level class labels. Nearest-neighbor labels are not predictions."
+}

@@ -1,0 +1,21 @@
+{
+  "all_materials_reported": 18,
+  "interpretation": "No significance or independent-material sampling claim",
+  "material_change_counts": {
+    "stock18": {
+      "materials_with_MCC_increase": 13,
+      "materials_with_both_class_recalls_increased": 1
+    },
+    "physics_core61": {
+      "materials_with_MCC_increase": 9,
+      "materials_with_both_class_recalls_increased": 1
+    }
+  },
+  "four_group_cases_without_new_stable_observations": 4,
+  "four_group_cases": 54,
+  "onboarding_regression_and_old_retention_reported": true,
+  "fit_counts": {
+    "representations": 270,
+    "onboarding": 1296
+  }
+}

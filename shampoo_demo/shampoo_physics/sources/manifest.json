@@ -1,0 +1,58 @@
+{
+  "retrieved_utc": "2026-11-02T06:00:04.963119+00:00",
+  "records": [
+    {
+      "file": "sources/LiquidFormulationsDataset_2023.json",
+      "sha256": "3a195870782e6fd87bdd7499cbb4fe201d025b2cda05f9eee9fb9477f34b58bd",
+      "md5": "8898e7b460c71e334f6ece5daebc6a6e",
+      "published_md5": "8898e7b460c71e334f6ece5daebc6a6e",
+      "article_id": 25451878,
+      "version": 1,
+      "url": "https://springernature.figshare.com/articles/software/Liquid_Formulations_Dataset/25451878/1",
+      "license": "CC0"
+    },
+    {
+      "file": "sources/surfactants_information.csv",
+      "sha256": "27045f6d4fa7db19d8890c46e0926f1f07c4a39f5a4eb72cae4235191f6feea1",
+      "md5": "aac17fe16e7efe834ccbf685c98f154e",
+      "published_md5": "aac17fe16e7efe834ccbf685c98f154e",
+      "article_id": 25451926,
+      "version": 1,
+      "url": "https://springernature.figshare.com/articles/dataset/Surfactants_Information/25451926/1",
+      "license": "CC0"
+    },
+    {
+      "file": "sources/ingredient_structures.pptx",
+      "sha256": "332379efcb790cabae1b677a49c31389275206faf201534fb98507e6cda867e2",
+      "md5": "923a76c9fd744b78169b133a517768e0",
+      "published_md5": "923a76c9fd744b78169b133a517768e0",
+      "article_id": 25451929,
+      "version": 1,
+      "url": "https://springernature.figshare.com/articles/figure/Structures_of_Formulations_Ingredients/25451929/1",
+      "license": "CC0"
+    },
+    {
+      "file": "sources/skin_eye_chemical_skin.csv",
+      "sha256": "7066fa7bd60e5e5329cb5ebee16b7c5d99b61d3498d9cda4bed8e25242fae087",
+      "url": "https://raw.githubusercontent.com/yxliu0907/SkinEye/1e5de1a4310feb17c576de7a54431f1ea56e8f9f/dataset/skin.csv",
+      "source_commit": "1e5de1a4310feb17c576de7a54431f1ea56e8f9f",
+      "license": "MIT",
+      "use": "single-chemical reference audit only"
+    },
+    {
+      "file": "sources/skin_eye_chemical_eye.csv",
+      "sha256": "11612c27d1550515914ea59a9c733f82b30a80c81b41bb4e28e03611d73831ab",
+      "url": "https://raw.githubusercontent.com/yxliu0907/SkinEye/1e5de1a4310feb17c576de7a54431f1ea56e8f9f/dataset/eye.csv",
+      "source_commit": "1e5de1a4310feb17c576de7a54431f1ea56e8f9f",
+      "license": "MIT",
+      "use": "single-chemical reference audit only"
+    },
+    {
+      "file": "sources/skin_eye_chemical_LICENSE.txt",
+      "sha256": "61561d9ddbad0737e513b6b42bdcd5a1b1a9df83129d30dfe0406778715cbd62",
+      "url": "https://raw.githubusercontent.com/yxliu0907/SkinEye/1e5de1a4310feb17c576de7a54431f1ea56e8f9f/LICENSE",
+      "source_commit": "1e5de1a4310feb17c576de7a54431f1ea56e8f9f",
+      "license": "MIT"
+    }
+  ]
+}
