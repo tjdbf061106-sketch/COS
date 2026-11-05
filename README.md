@@ -50,13 +50,15 @@
 
 ### 2) 자극성 모델의 역할
 
-`modeling/`은 skin/eye NTP ICE 벡터화 자료를 이용하는 multi-task PyTorch 이진분류 harness입니다. 이 모델은 다음 용도로만 사용합니다.
+skin과 eye는 각자 최적 모델을 독립적으로 사용합니다(2026-11-05 결정).
 
-- 원 학습 도메인 안에서의 내부 성능 및 변동성 검증
-- 작은 양성 표본, 고차원 feature, 조기종료, threshold, data leakage의 영향을 분석
-- 오분류(FN/FP)와 적용 한계를 발표 자료로 설명
+- **`modeling/skin_rf/`** — skin의 실제 production 모델. RandomForest 기반, nz20 feature 선택, 검증셋에서만 고른(nested) threshold를 사용합니다. 채택 근거는 `skin irritation/rf_feature_compare/`의 RF vs 신경망 정면 비교(반복 group 5-fold)에 있습니다 — 같은 조건에서 RF가 Sensitivity·Specificity·MCC·ROC-AUC 모두 동등하거나 우수했고, 최적 threshold도 더 일관되게 재현됐습니다.
+- **`modeling/src/`** — 기존 multi-task PyTorch(신경망) harness. skin의 production 모델로는 더 이상 쓰지 않으며, 다음 용도로만 남겨둡니다.
+  - 원 학습 도메인 안에서의 내부 성능 및 변동성 검증
+  - 작은 양성 표본, 고차원 feature, 조기종료, threshold, data leakage의 영향을 분석
+  - 오분류(FN/FP)와 적용 한계를 발표 자료로 설명
 
-이 모델의 현재 checkpoint나 내부 교차검증 수치를 화장품 외부검증 성능으로 해석해서는 안 됩니다.
+두 모델 모두 현재 checkpoint나 내부 교차검증 수치를 화장품 외부검증 성능으로 해석해서는 안 됩니다.
 
 ### 3) 처방 변경 근거 추적기 — 다음 개발 대상
 
