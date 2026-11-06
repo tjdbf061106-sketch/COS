@@ -52,3 +52,9 @@ Sodium Lauryl Sulfate,151-21-3,5.1,rabbit,skin,IV,0,mild irritation,CIR SLS/ALS 
 Sodium Lauryl Sulfate,151-21-3,21.0,rabbit,skin,II,1,"unrinsed, severely irritating",CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)",True,CCCCCCCCCCCCOS(=O)(=O)O
 Sodium Lauryl Sulfate,151-21-3,21.0,rabbit,skin,IV,0,"rinsed, mildly irritating",CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)",True,CCCCCCCCCCCCOS(=O)(=O)O
 Sodium Lauryl Sulfate,151-21-3,10.0,rabbit,eye,I,1,corneal damage without rinsing,CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)",True,CCCCCCCCCCCCOS(=O)(=O)O
+MCI/MI mixture (3:1),26172-55-4;2682-20-4,0.056,rabbit,skin,IV,0,"560ppm, non-irritating (occlusive patch)","CIR MCI/MI Final Amended Report 2019 (mcimi122019FAR.pdf, 무료)",high,False,
+MCI/MI mixture (3:1),26172-55-4;2682-20-4,0.28,rabbit,skin,III,0,"2800ppm, moderately irritating (occlusive patch)","CIR MCI/MI Final Amended Report 2019 (mcimi122019FAR.pdf, 무료)",high,False,
+MCI/MI mixture (3:1),26172-55-4;2682-20-4,0.56,rabbit,skin,II,1,"5600ppm, severely irritating (occlusive patch)","CIR MCI/MI Final Amended Report 2019 (mcimi122019FAR.pdf, 무료)",high,False,
+MCI/MI mixture (3:1),26172-55-4;2682-20-4,0.0055,rabbit,eye,IV,0,"55ppm, not a cumulative ocular irritant","CIR MCI/MI Final Amended Report 2019 (mcimi122019FAR.pdf, 무료)",high,False,
+MCI/MI mixture (3:1),26172-55-4;2682-20-4,1.1,rabbit,eye,I,1,"1.1%(11000ppm+), corrosive","CIR MCI/MI Final Amended Report 2019 (mcimi122019FAR.pdf, 무료)",high,False,
+Butylene Glycol,107-88-0,,rabbit,skin,IV,0,"caused minimal to mild irritation of rabbit skin (초록만 확인, 농도 불명)","CIR Butylene Glycol/Hexylene Glycol/Ethoxydiglycol/Dipropylene Glycol Final Report 1985 (Elder RL, JACT 4(5):223-248, 초록만 확인)","medium(초록만 확인, 원문 유료)",True,C(CC(C)O)O
