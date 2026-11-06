@@ -1,9 +1,0 @@
-﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
-Lauramide DEA,120-40-1,1.0,rabbit,skin,IV,0,not an irritant,CIR Diethanolamides Amended Report 2011,high
-Lauramide DEA,120-40-1,5.0,rabbit,skin,III,0,moderate irritant(14-day cumulative),CIR Diethanolamides Amended Report 2011,high
-Lauramide DEA,120-40-1,20.0,rabbit,skin,II,1,severe irritant,CIR Diethanolamides Amended Report 2011,high
-Lauramide DEA,120-40-1,1.0,rabbit,eye,IV,0,mildly irritating,CIR Diethanolamides Amended Report 2011,high
-Lauramide DEA,120-40-1,15.0,rabbit,eye,III,0,"10-20%, moderately irritating",CIR Diethanolamides Amended Report 2011,high
-Lauramide DEA,120-40-1,25.0,rabbit,eye,II,1,moderately to severely irritating,CIR Diethanolamides Amended Report 2011,"high(tentative, clearing기간 미기재)"
-Oleamide DEA,5299-69-4,5.0,rabbit,skin,IV,0,mildly irritating (in propylene glycol),CIR Diethanolamides Amended Report 2011,high
-Oleamide DEA,5299-69-4,70.0,rabbit,skin,III,0,moderately irritating (in propylene glycol),CIR Diethanolamides Amended Report 2011,high

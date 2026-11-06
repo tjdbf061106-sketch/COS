@@ -1,0 +1,54 @@
+﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
+Cocamidopropyl Betaine,61789-40-0,30.0,rabbit,skin,IV,0,"PII=0.5, slight erythema, no edema",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,15.0,rabbit,skin,II,1,"PII=3.50, well-defined erythema+slight edema",CIR CAPB Final Report 2012,"high(보고서 본문은 '비자극' 결론과 상충, 참고)"
+Cocamidopropyl Betaine,61789-40-0,10.0,rabbit,skin,IV,0,PII=0.3 (pH4.5),CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,5.0,rabbit,eye,IV,0,"score 4.90/110, not an ocular irritant",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,10.0,rabbit,eye,III,0,"score 27.3/110, moderately irritating",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,6.5,rabbit,eye,II,1,"score 30/110, 14일 후 무자극(8-21일 회복)",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,30.0,rabbit,eye,I,1,"corneal opacity+iritis+necrosis, 부식성",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,2.3,rabbit,eye,IV,0,"max score 1.7(unrinsed)/3.3(rinsed), minimal",CIR CAPB Final Report 2012,high
+Lauramide DEA,120-40-1,1.0,rabbit,skin,IV,0,not an irritant,CIR Diethanolamides Amended Report 2011,high
+Lauramide DEA,120-40-1,5.0,rabbit,skin,III,0,moderate irritant(14-day cumulative),CIR Diethanolamides Amended Report 2011,high
+Lauramide DEA,120-40-1,20.0,rabbit,skin,II,1,severe irritant,CIR Diethanolamides Amended Report 2011,high
+Lauramide DEA,120-40-1,1.0,rabbit,eye,IV,0,mildly irritating,CIR Diethanolamides Amended Report 2011,high
+Lauramide DEA,120-40-1,15.0,rabbit,eye,III,0,"10-20%, moderately irritating",CIR Diethanolamides Amended Report 2011,high
+Lauramide DEA,120-40-1,25.0,rabbit,eye,II,1,moderately to severely irritating,CIR Diethanolamides Amended Report 2011,"high(tentative, clearing기간 미기재)"
+Oleamide DEA,5299-69-4,5.0,rabbit,skin,IV,0,mildly irritating (in propylene glycol),CIR Diethanolamides Amended Report 2011,high
+Oleamide DEA,5299-69-4,70.0,rabbit,skin,III,0,moderately irritating (in propylene glycol),CIR Diethanolamides Amended Report 2011,high
+Acetamide MEA,142-26-7,100.0,rabbit,skin,IV,0,mild skin irritant (open-patch Draize),CIR Ethanolamides Report 2015,high
+Stearamide MEA,111-57-9,17.0,rabbit,skin,IV,0,PII=1.00/8,CIR Ethanolamides Report 2015,high
+Propylene Glycol,57-55-6,100.0,rabbit,skin,IV,0,at most mild dermal irritant,CIR Propylene Glycol Amended Report 2012,high
+Propylene Glycol,57-55-6,100.0,rabbit,eye,III,0,"slight-moderate hyperemia, cleared by day3",CIR Propylene Glycol Amended Report 2012,high
+Glycerin,56-81-5,100.0,rabbit,skin,IV,0,"Draize score 0-0.4/30, not irritating",CIR Glycerin Final Report 2015,high
+Glycerin,56-81-5,100.0,rabbit,eye,IV,0,"Draize score 0-2/110, no irritation",CIR Glycerin Final Report 2015,high
+Triethylene Glycol,112-27-6,100.0,rabbit,skin,IV,0,no erythema/edema/reaction,CIR PEGs Final Report 2010,high
+Triethylene Glycol,112-27-6,100.0,rabbit,eye,III,0,"acute iritis, resolved within 24h",CIR PEGs Final Report 2010,high(24h 회복은 IV 경계)
+Methylparaben,99-76-3,100.0,rabbit,skin,IV,0,"PII=0.67/4, mild irritation",CIR Parabens Report 1984,high
+Methylparaben,99-76-3,100.0,rabbit,eye,IV,0,"score 1/110 Day1, slight transient",CIR Parabens Report 1984,high
+Propylparaben,94-13-3,0.3,rabbit,skin,IV,0,"PII max 0.5/4, minimal irritation",CIR Parabens Report 1984,high
+Propylparaben,94-13-3,0.1,rabbit,eye,IV,0,"scores 1.0-3.3/110, minimal",CIR Parabens Report 1984,high
+Butylparaben,94-26-8,0.3,rabbit,skin,IV,0,"mild irritation, grade 1/4 erythema/edema",CIR Parabens Report 1984,high
+Phenoxyethanol,122-99-6,100.0,rabbit,skin,IV,0,"erythema score 1 in 2/3, reversible 24h",SCCS/BASF 1983 (cited SCCS/1575/16),high
+Phenoxyethanol,122-99-6,100.0,rabbit,eye,II,1,"corneal opacity to day8, 거의 15일내 회복",SCCS/BASF 1983 (cited SCCS/1575/16),high
+Benzyl Alcohol,100-51-6,100.0,rabbit,skin,IV,0,slightly irritating,CIR Benzyl Alcohol/Benzoic Acid Report,high
+Benzoic Acid,65-85-0,100.0,rabbit,skin,IV,0,slightly irritating,CIR Benzyl Alcohol/Benzoic Acid Report,high
+Sodium Benzoate,532-32-1,100.0,rabbit,skin,IV,0,slightly irritating(일부연구는 무자극),CIR Benzyl Alcohol/Benzoic Acid Report,medium(연구간 불일치)
+Bronopol,52-51-7,50.0,rabbit,skin,IV,0,PII 0.75/8(환산 0.375/4),CIR Bronopol Final Report,high
+Bronopol,52-51-7,20.0,rabbit,skin,II,1,"PII 6.75/8(환산 3.4/4), moderately-severely irritating",CIR Bronopol Final Report,high
+Bronopol,52-51-7,10.0,rabbit,eye,I,1,"severe damage, unrinsed 35일까지 지속",CIR Bronopol Final Report,high
+Bronopol,52-51-7,10.0,rabbit,eye,II,1,"severe damage, rinsed 14일내 회복",CIR Bronopol Final Report,high
+Methylisothiazolinone,2682-20-4,97.8,rabbit,skin,I,1,corrosive after 1h exposure,CIR MIT Amended Report,high
+Methylisothiazolinone,2682-20-4,0.01,rabbit,skin,IV,0,"PII=0.0 (100ppm), nonirritating",CIR MIT Amended Report,high
+Methylisothiazolinone,2682-20-4,0.01,rabbit,eye,IV,0,"100ppm, no adverse effects",CIR MIT Amended Report,high
+Cetyl Alcohol,36653-82-4,2.0,rabbit,skin,IV,0,PII=0.50 (in cream vehicle),CIR Fatty Alcohols Report 1988,medium(스캔본 2차확인 필요)
+Stearyl Alcohol,112-92-5,100.0,rabbit,skin,IV,0,minimal to mild (individual scores <1.5),CIR Stearyl Alcohol Report 1985,medium
+Stearyl Alcohol,112-92-5,100.0,rabbit,eye,IV,0,minimal ocular irritation,CIR Stearyl Alcohol Report 1985,medium
+Cetrimonium Chloride,112-02-7,2.0,rabbit,eye,III,0,moderate ocular irritation,CIR Trimoniums Report 2012,medium(정확 clearing일수 미기재)
+Cetrimonium Chloride,112-02-7,10.0,rabbit,eye,I,1,"severe ocular irritant, irreversible damage",CIR Trimoniums Report 2012,medium
+Behentrimonium Chloride,17301-53-0,5.0,rabbit,skin,IV,0,not irritating,CIR Trimoniums Report 2012,high
+Behentrimonium Chloride,17301-53-0,3.0,rabbit,eye,IV,0,mild,CIR Trimoniums Report 2012,high
+Behentrimonium Chloride,17301-53-0,10.0,rabbit,eye,I,1,irreversible ocular damage,CIR Trimoniums Report 2012,high
+Sodium Lauryl Sulfate,151-21-3,5.1,rabbit,skin,IV,0,mild irritation,CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"
+Sodium Lauryl Sulfate,151-21-3,21.0,rabbit,skin,II,1,"unrinsed, severely irritating",CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"
+Sodium Lauryl Sulfate,151-21-3,21.0,rabbit,skin,IV,0,"rinsed, mildly irritating",CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"
+Sodium Lauryl Sulfate,151-21-3,10.0,rabbit,eye,I,1,corneal damage without rinsing,CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"
