@@ -1,0 +1,61 @@
+﻿CASRN,Substance_Name,SMILES,Concentration,Concentration_Unit,GHS_Category,EPA_Category,Data_Source,Substance_Type
+12645-31-7,Ethylhexyl acid phosphate ester,CCCCC(CC)COP(=O)(O)O.CCCC(CC)CCOP(=O)(O)O.CCC(CC)CCCOP(=O)(O)O.CCCCCC(CC)OP(=O)(O)O,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+18472-51-0,"2,4,11,13-Tetraazatetradecanediamidine, N,N?-bis(4-chlorophenyl)-3,12-diimino-, di-d-gluconic acid (20% aqueous)",OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(O)=O.OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(O)=O.ClC1=CC=C(NC(=N)NC(=N)NCCCCCCNC(=N)NC(=N)NC2=CC=C(Cl)C=C2)C=C1,20.0,%,Category 2A,Category II,NICEATM,MIXTURE
+25103-09-7,iso-Octylthioglycolate,CC(C)CCCCCOC(=O)CS.CCCCCCC(C)OC(=O)CS,100.0,%,No category,Category IV,NICEATM,MIXTURE
+26444-49-5,Kronitex CDP (Chemical name: Cresyl diphenyl phosphate),O=P(OC1=CC=CC=C1C)(OC1=CC=CC=C1)OC1=CC=CC=C1.O=P(OC1=CC=C(C)C=C1)(OC1=CC=CC=C1)OC1=CC=CC=C1.O=P(OC1=CC=CC(C)=C1)(OC1=CC=CC=C1)OC1=CC=CC=C1,100.0,%,No category,Category IV,NICEATM,MIXTURE
+26472-00-4,Methyl cyclopentadiene dimer,CC1=CC2C3CC(C2C1)C=C3C.CC1=CC2C3C(C)C(C2C1)C=C3.C1=C(C)C2C3C(C)C(C2C1)C=C3,100.0,%,No category,Category IV,NICEATM,MIXTURE
+30525-89-4,Granuform,C=O.OCOCOCOCOCOCOCOCO.OCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCOCO,100.0,%,Category 1,SCNM,NICEATM,MIXTURE
+437-74-1,Xanthinol nicotinate,OC(=O)C1=CC=CN=C1.CN(CCO)CC(O)CN1C=NC2=C1C(=O)N(C)C(=O)N2C,100.0,%,No category,Category IV,NICEATM,MIXTURE
+5634-34-4,Ambuphylline,CC(C)(N)CO.CN1C2=C(NC=N2)C(=O)N(C)C1=O,100.0,%,No category,Category IV,NICEATM,MIXTURE
+598-65-2,"N,N-Dimethylguanidine sulfate",OS(O)(=O)=O.CN(C)C(N)=N.CN(C)C(N)=N,100.0,%,No category,Category III,NICEATM,MIXTURE
+59993-86-1,"p-tert-Butylbenzoic acid, triethanolamine salt (neat)",OCCN(CCO)CCO.CC(C)(C)C1=CC=C(C=C1)C(O)=O,100.0,%,No category,Category III,NICEATM,MIXTURE
+59993-86-1,"p-tert-Butylbenzoic acid, triethanolamine salt (10%)",OCCN(CCO)CCO.CC(C)(C)C1=CC=C(C=C1)C(O)=O,10.0,%,No category,Category IV,NICEATM,MIXTURE
+67800-94-6,"o-Toluene diamine, propoxylated, ethoxylated",CC1CO1.Cc2cccc(N)c2N.C3CO3,100.0,%,Category 2A,Category III,NICEATM,MIXTURE
+9016-45-9,"Igepal CO-990 (Chemical name: Nonyl phenol ethoxylate, branched)",CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,100.0,%,No category,Category IV,NICEATM,MIXTURE
+68855-58-3 ,C10 alpha-Olefins (neat),C=CCCCCCCCC.C=CCCCCCCCCCC.C=CCCCCCCCCCCC.C=CCCCCCCCCCCCCC,100.0,%,No category,Category IV,NICEATM,MIXTURE
+68855-58-3 ,C16 alpha-Olefin (neat),C=CCCCCCCCC.C=CCCCCCCCCCC.C=CCCCCCCCCCCC.C=CCCCCCCCCCCCCC,100.0,%,No category,Category IV,NICEATM,MIXTURE
+68952-33-0,Kronitex TXP (Chemical name: Trixylenyl phosphate) (2 of 2),c1cc(C)c(cc1C)OP(=O)(Oc2c(C)c(C)ccc2)Oc3c(C)cccc3C.c1c(C)cc(C)cc1OP(=O)(Oc2cc(C)c(C)cc2)Oc3ccc(C)cc3C,100.0,%,No category,Category IV,NICEATM,MIXTURE
+68952-33-0,Kronitex TXP (Chemical name: Trixylenyl phosphate) (1 of 2),c1cc(C)c(cc1C)OP(=O)(Oc2c(C)c(C)ccc2)Oc3c(C)cccc3C.c1c(C)cc(C)cc1OP(=O)(Oc2cc(C)c(C)cc2)Oc3ccc(C)cc3C,100.0,%,No category,Category IV,NICEATM,MIXTURE
+71751-41-2,"Avermectin 80% b1a, 20% b1b",CC[C@H](C)[C@@H]1[C@H](C=C[C@@]2(O1)C[C@@H]3C[C@H](O2)C/C=C(/[C@H]([C@H](/C=C/C=C/4\CO[C@H]5[C@@]4([C@@H](C=C([C@H]5O)C)C(=O)O3)O)C)O[C@H]6C[C@@H]([C@H]([C@@H](O6)C)O[C@H]7C[C@@H]([C@H]([C@@H](O7)C)O)OC)OC)\C)C.C[C@H]1/C=C/C=C/2\CO[C@H]3[C@@]2([C@@H](C=C([C@H]3O)C)C(=O)O[C@H]4C[C@@H](C/C=C(/[C@H]1O[C@H]5C[C@@H]([C@H]([C@@H](O5)C)O[C@H]6C[C@@H]([C@H]([C@@H](O6)C)O)OC)OC)\C)O[C@]7(C4)C=C[C@@H]([C@H](O7)C(C)C)C)O,,,No category,Category III,NICEATM,MIXTURE
+8008-20-6 ,Kerosine ,CCCCCCCCCC.CCCCCCCCCCCCCCCC.C1CCCCCCCCCCC1.C1CCCCCCCCCCCCC1.CC(C)CCCCCCC.CCC(CC)CCCCCC(CC)CCC,100.0,%,No category,Category IV,NICEATM,MIXTURE
+9002-93-1,Triton X-100 (1%),CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCO.CCCCCCCCc1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,1.0,%,No category,Category III,NICEATM,MIXTURE
+9002-93-1,Triton X-100,CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCO.CCCCCCCCc1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+9002-93-1,Triton X-100 (5%),CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCO.CCCCCCCCc1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,5.0,%,Category 2B,Category III,NICEATM,MIXTURE
+9002-93-1,Triton X-100 (10%),CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCO.CCCCCCCCc1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,10.0,%,Category 1,Category I,NICEATM,MIXTURE
+9002-93-1,Triton X-100 (5%),CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCO.CCCCCCCCc1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,5.0,%,Category 2A,Category III,NICEATM,MIXTURE
+9002-93-1,Triton X-100 (100%),CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCO.CCCCCCCCc1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+9002-93-1,Triton X-100,CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCO.CCCCCCCCc1ccc(cc1)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+9004-82-4,"Sodium polyoxyethylene laurylether sulphate (27%, aqueous)",CCCCCCCCCCCCOCCOS(=O)(=O)[O-].[Na+].CCCCCCCCCCCCOCCOCCOCCOS(=O)(=O)[O-].[Na+],27.0,%,No category,Category III,NICEATM,MIXTURE
+9016-45-9,"Polyethylene glycol nonylphenyl ether (Surfonic HDL-1, Surfonic N-102)",CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+9016-45-9,"Polyethylene glycol nonylphenyl ether (Surfonic HDL-1, Surfonic N-102)",CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+9016-45-9,"Carsonon N-9 (Chemical name: Nonyl phenol ethoxylate, branched) (neat)",CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,100.0,%,No category,Category IV,NICEATM,MIXTURE
+9016-45-9,"Carsonon N-6 (5%) (Chemical name: Nonyl phenol ethoxylate, branched)",CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,5.0,%,No category,Category III,NICEATM,MIXTURE
+9036-19-5,"Igepal CA-720 (Chemical name: Octyl phenol ethoxylate, branched)",CC(C)(C)CC(C)(C)c1ccc(cc1)OCCO.CCCCCCCCc1ccc(cc1)OCCOCCO,100.0,%,SCNM,SCNM,NICEATM,MIXTURE
+9036-19-5 ,Triton X-15 surfactant ,CC(C)(C)CC(C)(C)c1ccc(cc1)OCCOCCO.CC(C)CCCC(C)c1ccc(cc1)OCCO.CCCCCCCCc1ccc(cc1)OCCOCCO.CC(C)CC(C)CCc1ccc(cc1)OCCO,100.0,%,SCNM,Category III,NICEATM,MIXTURE
+9051-49-4,"Pentaerythritol, propoxylated ",OCCCOCC(COCCCO)(COCCCO)COCCCO.OCC(CO)(CO)CO,100.0,%,No category,Category IV,NICEATM,MIXTURE
+29797-40-8,Dichlorotoluenes,[Cl]c1ccccc1[Cl].[Cl]c1cc(ccc1)[Cl].[Cl]c1ccc(cc1)[Cl],100.0,%,No category,Category IV,NICEATM,MIXTURE
+69898-00-6,C12-16 blend alpha olefin,C=CCCCCCCCCCCCCCC.C=CCCCCCCCCCC.C=CCCCCCCCCCCCC.C=CCCC(CCCC)CCCCCCC.C=CCCCC(CC)CCCC.C=C(CCCC)CCCCCCCC.,100.0,%,No category,Category IV,NICEATM,MIXTURE
+25168-73-4,Sucrose fatty acid ester (neat),CCCCCCCCCCCCCCCCCC(=O)O[C@H]1[C@@H]([C@H](O[C@@]1(CO)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)CO)O.CCCCCCCCCCCC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O,100.0,%,SCNM,SCNM,NICEATM,MIXTURE
+59122-55-3,C12/C14-Glucoside,CCCCCCCCCCCCO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O.CCCCCCCCCCCCCCO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+25168-73-4,Sucrose fatty acid ester (10%),CCCCCCCCCCCCCCCCCC(=O)O[C@H]1[C@@H]([C@H](O[C@@]1(CO)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)CO)O.CCCCCCCCCCCC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O,10.0,%,No category,Category III,NICEATM,MIXTURE
+8009-03-8,Perfecto petrolatum ,CCCCCCCCCCCCCCCCCCCCCCCC.CCCCCCCCC(CCCCCCCC)CCCCCCC,100.0,%,No category,Category IV,NICEATM,MIXTURE
+96300-97-9,Kronitex 200 (Chemical name: synthetic iso-Propylphenyl phosphate),CC(C)c1ccccc1OP(=O)(Oc2ccccc2)Oc3ccccc3.O=P(Oc4ccccc4)(Oc5ccccc5)Oc6ccccc6,100.0,%,No category,Category IV,NICEATM,MIXTURE
+29793-22-4,Diethylaminopropionitrile,CN(C)CCC#N.CN(C)C(C#N)C,100.0,%,Category 1,Category I,NICEATM,MIXTURE
+68585-34-2,Sodium polyoxyethylene laurylether sulfate (2 E.O.) 27%),CCCCCCCCCCCCCCCCOCCOS(=O)(=O)[O-].[Na+].CCCCCCCCCCOCCOCCOCCOS(=O)(=O)[O-].[Na+],27.0,%,No category,Category III,NICEATM,MIXTURE
+342573-75-5,1-Ethyl-3-methylimidazolium ethyl sulphate,CCOS([O-])(=O)=O.CCN1C=C[N+](C)=C1,,,No category,SCNM,Barroso et al. (2017),MIXTURE
+75150-29-7,Acrylamidopropyltrimonium chloride/acrylamide copolymer,[Cl-].C[N+](C)(C)CCCNC(=O)C=C.NC(=O)C=C,,,No category,SCNM,Barroso et al. (2017),MIXTURE
+68955-20-4,"Alcohol sulfate mono-C16-18 (25%, aqueous)",CCCCCCCCCCCCCCCC(=O)OS(=O)(=O)O.CCCCCCCCCCCCCCCCCC(=O)OS(=O)(=O)O,25.0,%,No category,SCNM,Barroso et al. (2017),MIXTURE
+110615-47-9,"Alkyl (C10-16) glucoside (~50%, aqueous)",CCCCCCCCCCCCOC1C(O)C(O)C(CO1)(CO)O.CCCCCCCCCCOC1C(O)C(O)C(CO1)(CO)O.CCCCCCCCCCCCCCCCOC1C(O)C(O)C(CO1)(CO)O,50.0,%,Category 1,SCNM,Barroso et al. (2017),MIXTURE
+383178-66-3,"Alkyl (C10-16) glucoside sodium carboxylate (32.4%, aqueous)",CCCCCCCCCCCCOC1C(O)C(O)C(CO1)(CO)OCC(=O)[O-].[Na+].CCCCCCCCCCCCCCCCOC1C(O)C(O)C(CO1)(CO)OCC(=O)[O-].[Na+].CCCCCCCCCCOC1C(O)C(O)C(CO1)(CO)OCC(=O)[O-].[Na+],32.4,%,Category 2A,SCNM,Barroso et al. (2017),MIXTURE
+66455-15-0,Ethoxylated (5 EO) alkyl (C10-14) alcohol,CCCCCCCCCCOCCOCCOCCOCCO.CCCCCCCCCCCOCCO.CCCCCCCCCCCCCCOCCOCCO,,,Category 1,SCNM,Barroso et al. (2017),MIXTURE
+8032-32-4,Petroleum ether,CCCCCCC.CCCCC(C)C.CCC(CC)CC.C(C)(C)CCC(C)C.CCCCCCCC.CC(C)CCCCC.C1CCCCCC1,,,No category,SCNM,Barroso et al. (2017),MIXTURE
+109292-17-3,"Steareth-10 allyl ether/acrylates copolymer (~40%, aqueous)",CCCCCCCCCCCCCCCCCCOCCOCC=C.CCOC(=O)C=C.CC(=C)C(O)=O,40.0,%,No category,SCNM,Barroso et al. (2017),MIXTURE
+9016-45-9,"Surfonic N-85 (Chemical name: Nonyl phenol ethoxylate, branched)",CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,100.0,%,Category 1,SCNM,NICEATM,MIXTURE
+9016-45-9,"Surfonic N-95 (Chemical name: Nonyl phenol ethoxylate, branched)",CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,100.0,%,Category 1,SCNM,NICEATM,MIXTURE
+90583-18-9,"Triethanol ammonium alkyl sulphate (25%, aqueous)",CCCCCCCCCCCCOS(=O)(=O)[O-].OCC[NH+](CCO)CCO.CCCCCCCCCCCCCCOS(=O)(=O)[O-].OCC[NH+](CCO)CCO,25.0,%,Category 1,SCNM,Barroso et al. (2017),MIXTURE
+134429-57-5,"Xanthylium, 3,6-bis(diethylamino)-9-[2-(methoxy
+carbonyl)phenyl]-tetrafluoroborate",CCNc1cc2c(cc1C)c(c-3cc(c(=NCC)cc3o2)C)c4ccccc4C(=O)OC.F[B-](F)(F)F,,,Category 1,SCNM,Barroso et al. (2017),MIXTURE
+8032-32-4,Petroleum ether,CCCCCCC.CCCCC(C)C.CCC(CC)CC.C(C)(C)CCC(C)C.CCCCCCCC.CC(C)CCCCC.C1CCCCCC1,,,No category,SCNM,Verstraelen et al. (2013),MIXTURE
+9016-45-9,Nonylphenyl-polyethylene glycol,CCCCCCCCCc1ccc(cc1)OCCO.CCCCCCCCCc1ccc(cc1)OCCOCCOCCO,,,Category 1,SCNM,Yamaguchi et al. (2015),MIXTURE
+25168-73-4,Sucrose fatty acid ester,CCCCCCCCCCCCCCCCCC(=O)O[C@H]1[C@@H]([C@H](O[C@@]1(CO)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)CO)O.CCCCCCCCCCCC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O,,,Category 2A,Category II,Yamaguchi et al. (2015),MIXTURE
+8032-32-4,Petroleum ether,CCCCCCC.CCCCC(C)C.CCC(CC)CC.C(C)(C)CCC(C)C.CCCCCCCC.CC(C)CCCCC.C1CCCCCC1,,,No category,SCNM,Takahashi et al. (2011),MIXTURE
