@@ -1,0 +1,477 @@
+PUC ID,General category,Product family,Product type,Allowed attributes,Assumed attributes,Definition,PUC kind,PUC level,Product count,Cumulative product count
+482,Agriculture,,,granules; powder; pump spray,,"Product formulations intended for use in agricultural settings and applications, especially as agricultural inputs.",OC,1,41,2796
+483,Agriculture,fertilizer,,granules; powder; pump spray,,"Products of natural or synthetic origin applied to soil or to plant tissues to supply plant nutrients, to enhance plant growth or productivity.",OC,2,563,563
+485,Agriculture,pesticides,,,,Substances used in agricultural settings or applications to control pests.,OC,2,78,2189
+488,Agriculture,pesticides,fungicide,,,"Chemicals that kill or prevent the growth of fungi and their spores, used in agricultural settings.",OC,3,476,476
+486,Agriculture,pesticides,herbicide,,,"Chemical substances used to manipulate or control undesirable vegetation, used in agricultural settings.",OC,3,1128,1128
+487,Agriculture,pesticides,insecticide,,,"Chemicals used to control insects or prevent them from engaging in undesirable or destructive behaviors, used in agricultural settings.",OC,3,495,495
+494,Agriculture,pesticides,rodenticide,,,"Chemical substances used to control rodents or prevent them from engaging in undesirable or destructive behaviors, used in agricultural settings.",OC,3,12,12
+484,Agriculture,soil amendments,,,,"Products added to soil to improve its physical or chemical properties to promote healthy plant growth, excluding fertilizers. Soil amendments may be added to improve water retention, permeability, water infiltration, drainage, aeration, and structure.",OC,2,3,3
+20,Arts and crafts/office supplies,,,aerosol; child; gel; hot melt; liquid; paste; powder; pump spray; solid,,General arts and crafts or office supplies which can not be classified into a more refined category.,FO,1,294,2911
+1,Arts and crafts/office supplies,body paint,,aerosol; child; gel; liquid; paste; pump spray,,"products placed on the skin for decorative purposes (body paints, markers, play cosmetics, Halloween cosmetics, and products such as henna)",FO,2,24,360
+322,Arts and crafts/office supplies,body paint,tattoo ink,,,inks used for permanent tattoos,FO,3,336,336
+6,Arts and crafts/office supplies,children's arts and crafts,,child; gel; liquid; paste; solid,child,"Children's arts and craft supplies, and toy formulations which can not be classified into a more refined category.",FO,2,25,136
+2,Arts and crafts/office supplies,children's arts and crafts,bubble solution,child; liquid,child,"liquid bubble solutions, including solutions for bubble machines",FO,3,21,21
+359,Arts and crafts/office supplies,children's arts and crafts,chalk,child; solid,child,"solid chalk sticks intended for children's use. Does not include chalk paint, or professional marking chalk.",FO,3,0,0
+3,Arts and crafts/office supplies,children's arts and crafts,crayons,child; solid,child,wax crayons for coloring or illustration,FO,3,66,66
+4,Arts and crafts/office supplies,children's arts and crafts,finger paint,child; gel; paste,child,non-edible finger paints,FO,3,7,7
+471,Arts and crafts/office supplies,children's arts and crafts,glowsticks,gel; liquid; plastic,,"a self-contained, short-term light-source, consisting of a plastic tube containing a chemical substance that produces light through chemiluminescence. Also known as a light stick, light wand, light rod, and rave light, Includes glow jewelry, necklaces, bracelets, and related consumer products.",FO,3,3,3
+5,Arts and crafts/office supplies,children's arts and crafts,modeling clay,child; solid,child,soft modeling compounds,FO,3,13,13
+335,Arts and crafts/office supplies,children's arts and crafts,slime,child; liquid; powder; solid,child,"children's play slime, including flubber, silly putty, etc. Also includes liquid and powder solutions to make slime.",FO,3,1,1
+9,Arts and crafts/office supplies,fabric treatment and dye,,child; exterior; gel; interior; liquid; paste; powder,,Fabric treatments or dyes which can not be assigned to a more refined category,FO,2,3,59
+7,Arts and crafts/office supplies,fabric treatment and dye,fabric dye,child; exterior; interior; liquid; powder,,products for dying fabrics that require dilution in water prior to application,FO,3,10,10
+8,Arts and crafts/office supplies,fabric treatment and dye,fabric paints and sealers,child; exterior; gel; interior; liquid; paste,,paints or sealers for treating fabrics,FO,3,46,46
+489,Arts and crafts/office supplies,fine art supplies,,,,"Paints, charcoal, pencils, pens, and other tools used to create fine art by professional artists or hobbyists",FO,2,0,0
+491,Arts and crafts/office supplies,fine art supplies,inks,,,Inks used by artists and hobbyists in creating art,FO,3,0,0
+490,Arts and crafts/office supplies,fine art supplies,modeling clay,,,Modeling clay used by artists and hobbyists for creating 3 dimensional models.,FO,3,0,0
+10,Arts and crafts/office supplies,fog machine,,exterior; gas; interior; liquid,,"liquid solutions for fogger machines, intended for stage special effects.",FO,2,4,4
+17,Arts and crafts/office supplies,general arts and crafts supplies,,aerosol; child; gel; hot melt; liquid; paste; powder; pump spray; solid,,arts and crafts supplies which can not be assigned to a more refined category,FO,2,38,1316
+11,Arts and crafts/office supplies,general arts and crafts supplies,arts and crafts adhesive,aerosol; child; gel; hot melt; liquid; paste; pump spray,,"glue sticks, glitter glues, fabric glues, craft glue, spray mounts, stencil sprays, and other adhesives used for primarily craft purposes",FO,3,233,233
+12,Arts and crafts/office supplies,general arts and crafts supplies,arts and crafts cleaner,child; gel; liquid,,"solvent- or detergent-based products for removing craft related paints, adhesives, etc. from hands or surfaces",FO,3,38,38
+13,Arts and crafts/office supplies,general arts and crafts supplies,arts and crafts finish,aerosol; child; liquid,,shellacs or polyurethane coatings for primarily craft purposes,FO,3,63,63
+14,Arts and crafts/office supplies,general arts and crafts supplies,arts and crafts paint,aerosol; child; liquid; solid,,"paints (including acrylic and enamel), colorants (materials that color solid objects), and pigments primarily used for craft purposes",FO,3,929,929
+15,Arts and crafts/office supplies,general arts and crafts supplies,craft kit,child; gel; liquid; solid,,multi-component crafting kits where individual products are not designated,FO,3,0,0
+16,Arts and crafts/office supplies,general arts and crafts supplies,flocking,aerosol; child; exterior; interior; liquid; powder,,"products used to create textured or fiber covered surfaces, including artificial snow",FO,3,15,15
+18,Arts and crafts/office supplies,home office,,gel; liquid,,home office supplies which can not be assigned to a more refined category,FO,2,4,264
+469,Arts and crafts/office supplies,home office,pencils,child; plastic; solid; wood,,"writing utensil containing graphite, including lead refills for mechanical pencils.",FO,3,1,1
+22,Arts and crafts/office supplies,home office,pens and markers,gel; liquid,,writing utensils containing liquid or gel ink,FO,3,185,185
+23,Arts and crafts/office supplies,home office,white out,liquid,,fluids used to cover inked or typed text on paper allowing for over laying of new text,FO,3,74,74
+19,Arts and crafts/office supplies,pottery making,,aerosol; liquid; pump spray,,products related to pottery making which can not be assigned to a more refined category,FO,2,40,478
+24,Arts and crafts/office supplies,pottery making,glaze,aerosol; liquid; pump spray,,liquid products for glazing craft pottery,FO,3,438,438
+316,Batteries,,,,,A device consisting of one or more electrochemical cells with external connections used in powering electrical devices.,AR,1,2511,6260
+450,Batteries,electronic device,,,,Electronic device batteries that do not fit into more refined categories. Includes replacement batteries for these devices.,AR,2,157,456
+443,Batteries,electronic device,camera,,,"Electronic device batteries intended for cameras, including photo and video cameras. Includes replacement batteries for these devices.",AR,3,288,288
+441,Batteries,electronic device,laptop,,,Electronic device batteries intended for laptop computers. Includes replacement batteries for these devices.,AR,3,0,0
+440,Batteries,electronic device,phone,,,"Electronic device batteries intended for wireless/cordless telephones, including cell phones. Includes replacement batteries for these devices.",AR,3,11,11
+436,Batteries,general use,,,,General use batteries that do not fit into a more refined category.,AR,2,28,2402
+437,Batteries,general use,alkaline,,,"Single-use alkaline batteries, used in general household products (AA, AAA,  etc).",AR,3,289,289
+438,Batteries,general use,lithium,,,"Single use lithium based batteries for general use, including lithium metal and lithium-ion batteries.",AR,3,870,870
+439,Batteries,general use,rechargeable,,,Batteries for general use that are specified as rechargeable.,AR,3,1215,1215
+442,Batteries,vehicle,,,,"Batteries commonly found in vehicles (such as cars), including lead acid batteries and lithium-ion batteries used in electric vehicles.",AR,2,876,876
+444,Batteries,watch,,,,batteries intended for use in wrist watches. Includes replacement batteries for these devices.,AR,2,15,15
+319,Cleaning and safety,,,,,"Products used for cleaning or safety in an occupational or industrial setting (e.g. industrial cleaning supplies or laundry detergent, eye wash, spill kits)",OC,1,859,13520
+363,Cleaning and safety,cleaning products,,,,Products used for cleaning in an occupational or industrial setting,OC,2,3150,9049
+370,Cleaning and safety,cleaning products,aircraft cleaners,,,Cleaning products used in the aviation industry for commercial or military aircraft. Includes surface/exterior cleaners,OC,3,446,446
+395,Cleaning and safety,cleaning products,graffiti remover,,,Products used to remove graffiti from surfaces,OC,3,60,60
+369,Cleaning and safety,cleaning products,industrial carpet and floor cleaner,,,"Products used to clean the floors/carpeting of businesses, hospitals, factories, and other places of work",OC,3,499,499
+367,Cleaning and safety,cleaning products,industrial degreaser,,,Degreasers used in industrial applications,OC,3,1049,1049
+397,Cleaning and safety,cleaning products,industrial deodorizer,,,Deodorizing sprays or compounds used in an industrial or commercial setting.,OC,3,778,778
+365,Cleaning and safety,cleaning products,industrial dishwashing detergent,,,Dishwashing detergent used in an occupational setting (e.g. in restaurants),OC,3,214,214
+413,Cleaning and safety,cleaning products,industrial disinfectant,,,"products used to control viruses, bacteria, etc. on hard surfaces in commercial/industrial settings. Includes disinfectant sprays, wipes, etc.",OC,3,554,554
+416,Cleaning and safety,cleaning products,industrial electrical cleaner,aerosol; gel; liquid; powder; wipes,,"products for cleaning industrial/commercial electronic equipment (including surface cleaners or cleaners for interior parts, connectors, switches and other electrical and electronic components.) Also called contact cleaner, switch cleaner, electrical contact cleaner.",OC,3,371,371
+464,Cleaning and safety,cleaning products,industrial glass cleaners,aerosol; liquid; wipes,,Glass cleaning products intended for use by professionals or in occupational/industrial settings,OC,3,38,38
+368,Cleaning and safety,cleaning products,industrial hand cleaner,,,"Soaps and hand cleaners designed for workers to remove grease, pigments, and other industrial soils from their hands",OC,3,735,735
+414,Cleaning and safety,cleaning products,industrial hand sanitizer,,,"Antibacterial products for application to hands intended for commercial/industrial settings. Includes sprays, gels, wipes, etc.",OC,3,35,35
+366,Cleaning and safety,cleaning products,industrial laundry detergent,,,Laundry detergent used in an occupational setting (e.g. in hotels),OC,3,98,98
+412,Cleaning and safety,cleaning products,industrial surface cleaners,liquid,,Products used to clean hard surfaces in commercial/industrial settings. Including surface and glass combination products.,OC,3,472,472
+465,Cleaning and safety,cleaning products,restroom cleaner,aerosol; liquid; powder; wipes,,"Products used for cleaning restrooms, toilets, urinals in an occupational or industrial setting",OC,3,201,201
+364,Cleaning and safety,cleaning products,Sorbents and spill kits,,,Products used to control spills in an industrial setting,OC,3,349,349
+371,Cleaning and safety,safety products,,,,Products used to promote safety in an occupational or industrial setting,OC,2,41,3612
+373,Cleaning and safety,safety products,emergency eye wash solution,,,Eye wash solutions and preservatives to flush eyes with in case of emergency,OC,3,16,16
+374,Cleaning and safety,safety products,fire extinguishers,,,Fire extinguishers and related chemicals. Excludes firefighting foam used by professional firefighters.,OC,3,3168,3168
+372,Cleaning and safety,safety products,personal protective equipment,,,"Articles used to minimize exposure to workplace hazards including goggles, face masks, gloves, hard hats, and ear protection. Does NOT include medical/dental PPE",OC,3,279,279
+405,Cleaning and safety,safety products,reflective materials,,,"Industrial safety related products or raw materials with reflective properties that are intended to enhance visibility in low light and nighttime conditions. This may include fabrics, tapes, patches, or other solid materials. (See ""marking paint' PUC for reflective paints). Industry applications include firefighting, marine rescue, etc.",OC,3,65,65
+472,Cleaning and safety,safety products,safety lightsticks,gel; liquid; plastic,,"Products used to provide a safe (non-flammable non-electric) light source, used in emergency, occupational, military or industrial settings. Safety lightsticks are a self-contained, short-term light-source, consisting of a plastic tube containing a chemical substance that produces light through chemiluminescence.",OC,3,43,43
+48,Cleaning products and household care,,,aerosol; exterior; foam spray; gel; impregnated sheets; interior; liquid; paste; powder; pump spray; solid; wipes,,cleaning and household care products that can not be placed in a more refined category,FO,1,1200,16350
+25,Cleaning products and household care,air freshener,,aerosol; candle; gel; liquid; oil; pump spray; solid,,"home air fresheners, including fragranced candles and incense",FO,2,3564,3564
+44,Cleaning products and household care,appliance cleaner,,foam spray; liquid; powder; wipes,,cleaning products intended for cleaning the interior of appliances that do not fit in a more refined category,FO,2,13,192
+463,Cleaning products and household care,appliance cleaner,dishwasher cleaner,gel; liquid; powder,,Products intended for the care and cleaning of dishwashers.,FO,3,12,12
+68,Cleaning products and household care,appliance cleaner,oven cleaner,aerosol; gel; liquid; pump spray; wipes,,"products used to clean grills, ovens, or range cooktops",FO,3,163,163
+425,Cleaning products and household care,appliance cleaner,washing machine cleaner,liquid; powder,,"Products intended for washing machine cleaning and maintenance, to help prevent the buildup of mold, mildew, dust, dirt, and soap deposits in the machine.",FO,3,4,4
+27,Cleaning products and household care,bathroom,,,,"products related to cleaning or care of bathrooms, which do not fit into a more refined category",FO,2,77,1057
+26,Cleaning products and household care,bathroom,bathroom cleaner,aerosol; foam spray; gel; liquid; powder; pump spray,,"bathtub, tile, and toilet surface cleaners",FO,3,980,980
+32,Cleaning products and household care,carpet and floor,,,,"cleaning products for carpet or other flooring, which do not fit into a more refined category",FO,2,33,761
+28,Cleaning products and household care,carpet and floor,carpet cleaner,aerosol; foam spray; liquid; powder; pump spray,,"carpet-cleaning products that may be used directly (or require dilution), includes solutions that may be used by hand or in mechanical carpet cleaners",FO,3,322,322
+29,Cleaning products and household care,carpet and floor,carpet deodorizer,aerosol; liquid; powder; pump spray,,products applied to carpets to remove or mask odors,FO,3,52,52
+30,Cleaning products and household care,carpet and floor,floor cleaner,liquid; powder; pump spray; wipes,,"hard floor cleaners, including pre-moistened wipes",FO,3,250,250
+31,Cleaning products and household care,carpet and floor,floor polish,liquid; pump spray,,products that impart a shine to solid floors,FO,3,104,104
+36,Cleaning products and household care,dishwasher and dishes,,,,"cleaning products used in the dishwasher or on dishes, which do not fit into a more refined category",FO,2,41,1148
+33,Cleaning products and household care,dishwasher and dishes,automatic dishwashing additive,liquid; pods; powder,,"products used in automatic dishwashers other than detergents (rinse aids, spot removers, and dishwasher cleaners/scale or rust removers )",FO,3,78,78
+34,Cleaning products and household care,dishwasher and dishes,automatic dishwashing detergent,gel; liquid; pods; powder; tablet,,detergents for automatic dishwashers,FO,3,407,407
+35,Cleaning products and household care,dishwasher and dishes,dish soap,liquid,,detergent based products used during the hand washing of dishes,FO,3,622,622
+37,Cleaning products and household care,drain products,,liquid; pods; powder,,"products poured down, or placed in, drains to control odors or clear blockages that work by chemical or biological processes",FO,2,327,327
+49,Cleaning products and household care,fireplace,,aerosol; liquid; powder; pump spray; solid,,"products used to clean fireplaces, firepits, stoves, and related objects (screens and grates) also includes chimney cleaners",FO,2,3,3
+39,Cleaning products and household care,general household cleaning,,,,"cleaning products for general household cleaning, which do not fit into a more refined category",FO,2,689,3238
+50,Cleaning products and household care,general household cleaning,bleach,liquid; powder,,products that remove stains or discoloration of fabric (including color-safe bleaches) used in laundry,FO,3,380,380
+51,Cleaning products and household care,general household cleaning,disinfectant,aerosol; foam spray; liquid; pump spray; wipes,,products used to control microbial pests on hard surfaces or laundry,FO,3,710,710
+52,Cleaning products and household care,general household cleaning,glass cleaner,aerosol; in vehicle; liquid; powder; pump spray; wipes,,"products used to clean glass, mirrors, and windows",FO,3,310,310
+54,Cleaning products and household care,general household cleaning,heavy duty cleaner,liquid; powder,,"heavy duty hard surface cleaning products that may require dilution prior to use (i.e., may be concentrated)",FO,3,51,51
+38,Cleaning products and household care,general household cleaning,surface cleaner,foam spray; liquid; powder; pump spray; wipes,,"General all-purpose products used to clean hard surfaces in the home, including kitchen specific hard surface cleaners. See also, bathroom cleaner, wood cleaner, metal cleaner for more specific cleaning products.",FO,3,1098,1098
+40,Cleaning products and household care,hand cleaner,,gel; liquid; powder; wipes,,"products that remove grease, oil, and other hydrophobic  materials from hands, includes waterless products",FO,2,65,65
+55,Cleaning products and household care,houseplant care,,liquid; powder; pump spray,,"products used for houseplants (fertilizers, pesticides, and leaf cleaners) and cut flowers (preservatives and desiccants)",FO,2,6,6
+393,Cleaning products and household care,jewelry,,,,"Cleaning products intended for use with Jewelry, that do not fit into a more refined category",FO,2,0,35
+303,Cleaning products and household care,jewelry,jewelry cleaner,liquid; paste,,Cleaning solutions specifically for jewelry products,FO,3,35,35
+56,Cleaning products and household care,lamp oil/lighter fluid,,liquid,,"lighters, lighter fluids, and other indoor fuels",FO,2,142,142
+42,Cleaning products and household care,laundry and fabric treatment,,,,Cleaning or care products for laundry and fabric treatment which do not fit into a more refined category,FO,2,298,3531
+41,Cleaning products and household care,laundry and fabric treatment,anti-static spray,aerosol; pump spray,,anti-static sprays for fabrics (spray formulation assumed),FO,3,16,16
+57,Cleaning products and household care,laundry and fabric treatment,dry cleaner,liquid,,dry cleaning fluids or kits for home use,FO,3,4,4
+58,Cleaning products and household care,laundry and fabric treatment,dryer sheets,child; impregnated sheets,,dryer fabric softener sheets,FO,3,77,77
+59,Cleaning products and household care,laundry and fabric treatment,fabric deodorizer,aerosol; pump spray,,fabric deodorizers,FO,3,84,84
+60,Cleaning products and household care,laundry and fabric treatment,fabric protectant,aerosol; pump spray,,products used to release wrinkles or to impart stain resistance to fabric,FO,3,23,23
+61,Cleaning products and household care,laundry and fabric treatment,fabric softener,child; liquid,,products used to improve tactile properties of fabrics that are added to the rinse water of clothes washers  (excluding dryer sheets),FO,3,357,357
+62,Cleaning products and household care,laundry and fabric treatment,laundry detergent,child; liquid; pods; powder; solid,,products used in washing machines to clean fabrics,FO,3,2160,2160
+63,Cleaning products and household care,laundry and fabric treatment,laundry fragrance,aerosol; liquid; powder; pump spray,,products added to clothes washers or dryers to scent clothing and other fabrics,FO,3,81,81
+64,Cleaning products and household care,laundry and fabric treatment,laundry stain remover,child; gel; liquid; paste; powder; pump spray,,stain removers or laundry pre-treatment products,FO,3,305,305
+65,Cleaning products and household care,laundry and fabric treatment,laundry starch,aerosol; powder; pump spray,,products applied to fabric prior to ironing to prevent wrinkles and add stiffness to fabrics,FO,3,126,126
+66,Cleaning products and household care,lime remover,,exterior; interior; liquid; powder; pump spray,,products used to remove lime or scale from hard surfaces excludes dishwasher related products,FO,2,57,57
+43,Cleaning products and household care,metal specific,,aerosol; gel; liquid; metal; powder; wipes,,"cleaning or care products specific to metals, which do not fit into a more refined category",FO,2,113,363
+460,Cleaning products and household care,metal specific,metal cleaner,aerosol; liquid; metal; powder; wipes,,"Cleaning products intended for use on metal surfaces, including stainless steel cleaners.",FO,3,25,25
+67,Cleaning products and household care,metal specific,metal polish,gel; liquid; paste,,products used to polish metal surfaces,FO,3,225,225
+45,Cleaning products and household care,shoes,,,,Products related to the care of footwear which do not fit into a more refined category,FO,2,86,300
+69,Cleaning products and household care,shoes,shoe polish or protectant,aerosol; liquid; paste; pump spray,,"products applied to footwear to color, polish, clean, or add a protective surface",FO,3,214,214
+46,Cleaning products and household care,upholstery specific,,,,care or cleaning products for upholstery which do  not fit into a more refined category,FO,2,10,55
+70,Cleaning products and household care,upholstery specific,upholstery cleaner,aerosol; foam spray; liquid; pump spray,,"upholstery fabric cleaning products that may be used directly (or require dilution), includes solutions that may be used by hand or in upholstery cleaning machines",FO,3,45,45
+47,Cleaning products and household care,wood specific,,aerosol; liquid; powder; wipes; wood,,"cleaning or care products specifically for wood, which do not fit into a more refined category",FO,2,12,306
+461,Cleaning products and household care,wood specific,wood cleaner,aerosol; liquid; oil; pump spray; wipes,,Cleaning products intended for use on wooden surfaces,FO,3,41,41
+71,Cleaning products and household care,wood specific,wood polish,aerosol; liquid; paste; pump spray,,products used on wood surfaces for the removal of dust and other finely  powdered material and to provide polish,FO,3,253,253
+305,"Cons. electronics, mech. appliances, and machinery",,,metal; plastic; rubber,,"Including small and large consumer electronics appliances (e.g. refrigerator, washing machine, vacuum cleaner, computer, phone, smoke detector, electric tools, lamps); includes small electronics with direct personal contact such as massagers; excludes electronics specifically intended for use by children; excludes electronics with direct food contact (e.g. electric blender)",AR,1,251,267
+429,"Cons. electronics, mech. appliances, and machinery",light bulbs,,,,"Products used to convert electricity into light, consisting of a source of illumination (e.g. an electric filament or one or more LEDs) enclosed within a transparent or translucent shell.",AR,2,16,16
+433,Construction,,,aerosol; foam; gel; liquid; metal; paste; plastic; powder; rubber; stone/cement,,Products intended for use by professionals in general construction applications.,OC,1,225,5609
+446,Construction,building construction,,,,Building construction products used by professionals.,OC,2,83,83
+406,Construction,construction adhesives,,,,Adhesives used in construction applications,OC,2,3666,3666
+351,Construction,marking paint,,aerosol; exterior; liquid,,"Specialty paint that adheres to outdoor surfaces (gravel, soil, trees, grass, concrete, blacktop, etc,) used by professionals (in land surveying, utility locating, traffic marking, public safety,  etc.) for marking outdoor environments (construction sites, roads, yards, etc.)",OC,2,1281,1281
+434,Construction,road construction,,foam; liquid; metal; paste; plastic; powder; stone/cement; wood,,Products used by professionals in the construction of roadways.,OC,2,354,354
+309,Construction and building materials,,,metal; paste; rubber; stone/cement; wood,,"Materials used for construction (e.g. flooring, tile, sinks, bathtubs, mirrors, wall materials/drywall, wall-to-wall carpets, insulation, playground surfaces); includes semi-permanent fixtures such as faucets and light fixtures",AR,1,5972,6243
+493,Construction and building materials,flooring,,interior; plastic; stone/cement; wood,,material or covering that is permanently installed on a floor,AR,2,23,23
+445,Construction and building materials,insulation,,,,"Products used for thermal insulation in construction and home building situations, including tapes, rolls, foam, etc.",AR,2,237,237
+495,Construction and building materials,roofing,,,,"Roofing materials used for construction, including flashing, shingles, panels, underlayment, etc.",AR,2,0,0
+497,Construction and building materials,tiling,,,,"Tiling materials used in construction applications, made from a variety of materials including porcelain, ceramic, glass, cement, or natural stone like marble, granite, and slate.",AR,2,5,5
+496,Construction and building materials,waterproofing materials,,,,"Waterproofing materials used in construction applications to prevent water leaks or damages, such as sheets and membranes used for roofing, basements, etc.",AR,2,6,6
+72,Electronics/small appliances,,,,,"formulation products used on or for electronics or small appliances, which do not fit into a more refined category",FO,1,9,7076
+479,Electronics/small appliances,3D printing,,,,General 3D printing supplies which can not be assigned to a more refined category.,FO,2,7,8
+480,Electronics/small appliances,3D printing,3D printing filament,plastic,,"Thermoplastic feedstock for fused deposition modeling 3D printers, that can be melted, shaped and molded, and solidify when cooled.",FO,3,1,1
+75,Electronics/small appliances,computers and accessories/supplies,,,,"formulation products for use in or on computers and related accessories or supplies, which do not fit into a more refined category",FO,2,179,6589
+73,Electronics/small appliances,computers and accessories/supplies,printer ink,cartridge,,ink for inkjet printers,FO,3,4590,4590
+74,Electronics/small appliances,computers and accessories/supplies,printer toner,cartridge,,toners used in laser printers,FO,3,1820,1820
+76,Electronics/small appliances,electronics cleaner,,aerosol; pump spray; wipes,,miscellaneous products for cleaning home electronic equipment (including surface cleaners or cleaners for interior parts),FO,2,470,470
+344,Food and drug,,,child; paste; powder; solid,,"Products that are related to food and drugs, but do not fit into any more refined categories.",FO,1,12,4134
+345,Food and drug,food products,,aerosol; child; gel; liquid; paste; powder; solid,,"Food and beverage products intended for human consumption, such as protein bars, energy drinks, etc. Excluding supplements, protein powder, or products for smoking cessation.",FO,2,58,58
+454,Food and drug,food products,infant formula and baby food,child; liquid; powder; solid,child,"Food and beverage products intended for infants and children, including infant formula and baby food.",FO,3,0,0
+347,Food and drug,pharmaceuticals,,child; liquid; powder; solid,,"A product, compound, medicine or therapeutic which is subject to regulation, including medicinal and illicit drugs, biologics, and the salts, esters, and hydrates of pharmaceuticals, includes precursors to pharmaceuticals, additives, and pharmaceuticals for animal/veterinary use. Includes prescription drugs. See 'Food and drug - pharmaceuticals - over the counter' for over-the-counter drugs.",FO,2,3255,3878
+431,Food and drug,pharmaceuticals,children's,child; gel; liquid; oral,child,Pharmaceutical products intended for use by children or infants.,FO,3,42,42
+419,Food and drug,pharmaceuticals,over the counter,gel; inhalation; liquid; oral; paste; powder,,"Over-the-counter (OTC) drugs that are available to consumers without a prescription. Includes products that are taken primarily by oral route. Examples include acetaminophen, aspirin, antacids, decongestants, antihistamines, and laxatives.",FO,3,575,575
+411,Food and drug,pharmaceuticals,vaccines,,,Pharmaceutical products intended to produce host immunity to a specific disease.,FO,3,6,6
+388,Food and drug,smoking-related products,,,,Smoking related products that do not fit within a more refined category,FO,2,0,2
+350,Food and drug,smoking-related products,smoking cessation products,,,"Products intended to help with smoking cessation; including nicotine gums, lozenges, or patches",FO,3,2,2
+348,Food and drug,smoking-related products,tobacco products,,,"Products made or derived from tobacco intended for human consumption, including smoked and chewed tobacco products, excluding vaping chemicals and smoking cessation products",FO,3,0,0
+349,Food and drug,smoking-related products,vaping chemicals,,,"products and chemicals used to deliver nicotine, cannabis (THC, CBD), flavorings, chemicals, and other substances, including 'e-juice' for vaping",FO,3,0,0
+346,Food and drug,supplements,,child; liquid; powder; solid,,"Products intended for human consumption to supplement health, available without a prescription; including vitamins, minerals, prebiotics, probiotics, and herbal products, excluding Cannabis-derived products.",FO,2,184,184
+312,Food contact items,,,paper; plastic; textile,,"Articles intended for food contact, including food-contact packaging (e.g. glasses, plates, pots/pans, food storage containers, cloth napkins and placemats,cutlery, paper plates and plastic utensils, take-out containers, plastic wrap and foil; includes small electronics with direct food contact (e.g. blender)",AR,1,29,29
+313,Furniture and furnishings,,,metal; plastic; textile; wood,,"Items used to furnish a home or workplace, e.g. tables, chairs, sofa, outdoor patio furniture, sofa cover, hammock, mattress, area rug",AR,1,1104,1104
+77,Home maintenance,,,,,"general formulation products used for home maintenance, which do not fit into a more refined category",FO,1,2423,31996
+82,Home maintenance,adhesives and adhesive removers,,,,adhesive and adhesive remover related products which do not fit into a more refined category,FO,2,1044,2208
+78,Home maintenance,adhesives and adhesive removers,adhesive remover,aerosol; liquid; pump spray; wipes,,solvent- or detergent-based products for removing adhesives from surfaces,FO,3,157,157
+79,Home maintenance,adhesives and adhesive removers,multipurpose adhesive,aerosol; foam spray; liquid; paste; pump spray; two-component,,"general purpose repair adhesives including all purpose glues, super glue, and epoxies; not including wood glues",FO,3,950,950
+81,Home maintenance,adhesives and adhesive removers,wood adhesive,aerosol; liquid; paste; powder,,adhesives specifically designated for gluing wooden surfaces together,FO,3,57,57
+84,Home maintenance,caulk/sealant,,exterior; foam spray; interior; liquid; paste; two-component,,liquid or gels designed to seal cracks or fill cracks and depressions on hard surfaces,FO,2,2494,2494
+85,Home maintenance,concrete,,exterior; interior; liquid; paste; solid; two-component,,"products for modifying concrete surfaces, including patch and repair, sealers, coatings, surface treatments, etc.",FO,2,405,506
+354,Home maintenance,concrete,concrete paint,gel; liquid; paste,,Products intended to coat or paint concrete surfaces,FO,3,101,101
+86,Home maintenance,corrosion protection,,aerosol; exterior; interior; liquid,,products for protecting metal surfaces from corrosion or removing corrosion from metal surfaces,FO,2,28,28
+87,Home maintenance,degreaser,,aerosol; exterior; interior; liquid; powder,,products for removing grease and other hydrophobic materials from hard surfaces,FO,2,372,372
+88,Home maintenance,finish,,exterior; interior,,general home maintenance finishes,FO,2,118,842
+296,Home maintenance,finish,wood finish,aerosol; exterior; interior; liquid,,products for permanently coating and protecting wood surfaces,FO,3,724,724
+90,Home maintenance,insulation,,,,"formulation products related to, or used on or for insulation, which do not fit into a more refined category",FO,2,141,197
+89,Home maintenance,insulation,spray foam,exterior; foam spray; interior,,spray products that form ridged or semi ridged foams used to fill cracks and voids or to provide insulation,FO,3,56,56
+91,Home maintenance,lock deicer,,aerosol; exterior; interior; liquid; pump spray,,products for deicing automotive or residential locks,FO,2,2,2
+92,Home maintenance,lubricant,,aerosol; gel; liquid; powder; pump spray,,household maintenance lubricants,FO,2,364,364
+93,Home maintenance,paint/stain and related products,,,,paint or stain related products that do not fit into a more refined category,FO,2,14235,21445
+94,Home maintenance,paint/stain and related products,oil-based paint,aerosol; exterior; interior; liquid,,oil or solvent-based home improvement paints,FO,3,160,160
+95,Home maintenance,paint/stain and related products,paint,aerosol; exterior; interior; liquid,,"home improvement paints, excluding or not specified as oil-, solvent-, or water-based paints",FO,3,4576,4576
+97,Home maintenance,paint/stain and related products,paint cleaner,exterior; interior; liquid,,paint removing products for clean-up,FO,3,12,12
+98,Home maintenance,paint/stain and related products,paint texture,exterior; gel; interior; liquid,,textured paints including those used on ceilings,FO,3,9,9
+99,Home maintenance,paint/stain and related products,paint thinner,exterior; interior; liquid,,paint or lacquer thinners,FO,3,343,343
+100,Home maintenance,paint/stain and related products,primer,aerosol; exterior; interior; liquid,,"paints applied to hard surfaces that are intended to be painted over and that improve adhesion, coverage, or prevent the bleeding through of stains",FO,3,432,432
+101,Home maintenance,paint/stain and related products,stain,exterior; interior; liquid,,"products used on wooden surfaces, including decks, to impart transparent or semitransparent color",FO,3,560,560
+102,Home maintenance,paint/stain and related products,stripper,exterior; gel; interior; liquid; paste,,products applied to hard surfaces to remove paints and finishes,FO,3,521,521
+96,Home maintenance,paint/stain and related products,water-based paint,aerosol; exterior; interior; liquid,,water-based home improvement paints,FO,3,597,597
+103,Home maintenance,patch and repair,,,,products related to patch and repair that do not fit into a more refined category,FO,2,89,282
+105,Home maintenance,patch and repair,putty or filler,exterior; gel; interior; paste; solid,,products used to fill cracks and holes in wooden and other surfaces,FO,3,130,130
+104,Home maintenance,patch and repair,wall patch and repair,gel; paste,,products to fill gaps and cracks in walls and ceilings covered in plaster or drywall,FO,3,63,63
+106,Home maintenance,plumbing,,exterior; gel; interior; liquid; paste,,"miscellaneous plumbing repair products (putties, tapes, cements)",FO,2,16,16
+108,Home maintenance,roof,,liquid; paste,,"products for roof maintenance or repair, including cleaners, sealers, or coatings (does not include flashing, shingles or underlayment)",FO,2,140,140
+109,Home maintenance,septic system,,liquid; powder; solid,,septic system treatment products,FO,2,51,51
+110,Home maintenance,surface sealers,,aerosol; liquid; pump spray,,"products for coating and protecting household surfaces other than glass, stone, or grout",FO,2,366,437
+111,Home maintenance,surface sealers,glass surface sealer,aerosol; exterior; interior; liquid,,products for coating and protecting glass household surfaces,FO,3,0,0
+112,Home maintenance,surface sealers,stone surface sealer,aerosol; exterior; interior; liquid; pump spray,,products for coating and protecting stone household surfaces,FO,3,71,71
+113,Home maintenance,tiling,,,,products related to tiling which do not fit into a more refined category,FO,2,18,189
+114,Home maintenance,tiling,grout sealer,aerosol; exterior; gel; interior; liquid; paste; pump spray,,products for coating and protecting tile or grout,FO,3,20,20
+115,Home maintenance,tiling,mortar or grout,exterior; interior; paste; solid,,products for mortaring bricks or blocks and attaching or grouting interior tiles,FO,3,151,151
+306,Industrial machinery,,,metal,,Large scale stationary industrial machines/tools,AR,1,28,28
+318,Industrial products,,,,,"Formulations used as part of a process, or in a piece of equipment (e.g. lubricants, adhesives, oils)",OC,1,4563,11024
+467,Industrial products,adhesive removers,,aerosol; liquid; pump spray; wipes,,Products for removing adhesives that are intended for use in industrial/occupational settings and processes.,OC,2,44,44
+398,Industrial products,anti-seize,,,,"Products applied to bolts, fasteners, flanges and other clamped interfaces to prevent galling, seizing and corrosion, as well as lubricating to ease disassembly",OC,2,395,395
+452,Industrial products,blast media,,,,"Products used in an industrial setting as blast media for a variety of purposes, including: paint stripping, coatings removal, pressure blasting, powder coating, deflashing, deburring, surface preparation and mold cleaning.",OC,2,192,192
+382,Industrial products,corrosion inhibitor,,,,Products that decrease the corrosion rate of a material,OC,2,517,517
+401,Industrial products,electrical insulation,,,,"Sprays, varnishes, resins, etc. intended for coating and insulating electrical and electronic products.",OC,2,216,216
+451,Industrial products,food contact formulations,,,,"Food contact formulations used as part of a process, or in a piece of equipment. These are industrial products that are classified as food safe, food grade, etc.",OC,2,79,79
+381,Industrial products,hydraulic fluid,,,,Fluids used to transfer power in hydraulic machinery,OC,2,274,324
+385,Industrial products,hydraulic fluid,tractor hydraulic fluid,,,"Fluids/oils used to transfer power in hydraulic machinery, specifically for use in tractor vehicles.",OC,3,50,50
+466,Industrial products,hydraulic fracturing fluid,,liquid,,Fluids used in the hydraulic fracturing process. Consists of chemical mixtures used in drilling operations to increase the quantity of hydrocarbons that can be extracted from wells.,OC,2,0,0
+379,Industrial products,industrial lubricants,,,,"Lubricants, greases, and oils used in an industrial setting",OC,2,2265,2265
+447,Industrial products,labels,,,,"Products used in an industrial context as labels, to be attached to an object to provide information. (i.e. labels attached to tires)",OC,2,48,48
+358,Industrial products,metalworking fluid,,liquid; oil,,"oils and other liquids that are used to cool and/or lubricate metal workpieces when they are being machined, ground, milled, etc. Includes Cutting Fluids used for cooling and lubricating cutting tools, and Stamping fluids used for the forming of metal into shapes.",OC,2,1211,1211
+380,Industrial products,mold release agents,,,,"Products that prevent materials from adhering to each other, or bonding to surfaces/ manufacturing molds.",OC,2,323,323
+475,Industrial products,paint strippers,,,,products used in industrial context/processes to remove paints and finishes from surfaces,OC,2,177,177
+386,Industrial products,penetrating oil,,,,Low-viscosity oil used to free rusted mechanical parts,OC,2,199,199
+383,Industrial products,refrigerant,,,,"fluids used as heat carriers in the refrigeration cycle for repeated phase transitions from gas to liquid, primarily used in air conditioners and refrigerators/freezers",OC,2,388,388
+403,Industrial products,vulcanizing fluid,,,,"Fluids used to cure (vulcanize) rubber components for enhanced strength and durability, especially as used repairing rubber products, such as tires.",OC,2,83,83
+321,Laboratory supplies,,,,,"Products specifically used in a laboratory setting, e.g. laboratory diagnostics or consumables, solvents and reagents used in experiments or laboratory tests, etc. Includes supplies for medical testing. Note that pure chemicals will be included in the 'Raw materials' category.",OC,1,28313,28313
+117,Landscape/yard,,,,,"products related or for use in the outdoor landscape or yard, which do not fit into a more refined category",FO,1,39,1276
+119,Landscape/yard,grill/camping fuel,,gas; liquid; solid,,"fuels used for outdoor heating, cooking, or illumination",FO,2,98,98
+120,Landscape/yard,herbicide,,hose spray; liquid; pump spray; solid,,products used to control or kill unwanted plants,FO,2,489,489
+121,Landscape/yard,lawn fertilizer,,granules; hose spray; liquid; pump spray; solid,,"fertilizers for lawns, including in combination with pest/weed controllers",FO,2,247,247
+122,Landscape/yard,lawnmower,,,,"formulation products for use in or with lawnmowers, which do not fit into a more refined category",FO,2,0,9
+123,Landscape/yard,lawnmower,lawnmower fluids,liquid,,oils and other fluids for lawnmowers or other small yard care equipment,FO,3,9,9
+118,Landscape/yard,outdoor cleaner,,exterior; liquid; pump spray,,"products used to clean hard surfaces outside of the home including decks, driveways, and external walls includes products used as part of a mechanical cleaning system (e.g., solutions for pressure sprayers)",FO,2,38,38
+124,Landscape/yard,plants and garden,,,,"general products for use with plants or in the garden, which do not fit into a more refined category",FO,2,18,142
+125,Landscape/yard,plants and garden,garden care,liquid; powder,,miscellaneous garden care products not otherwise characterized (e.g. rooting powders),FO,3,5,5
+126,Landscape/yard,plants and garden,garden fertilizer,granules; hose spray; liquid; pump spray; solid,,"fertilizers for vegetable or flower gardens, including in combination with pest/weed controllers",FO,3,99,99
+127,Landscape/yard,plants and garden,mulch,solid,,"organic materials placed on soil surface or mixed with soil to improve water retention, suppress weeds, or otherwise improve soils",FO,3,9,9
+128,Landscape/yard,plants and garden,potting soil,solid,,"potting soil and mixes including plant based materials, vermiculite, and hydrogels",FO,3,5,5
+129,Landscape/yard,plants and garden,tree care products,aerosol; liquid,,miscellaneous tree care products including sealers (excluding fertilizers or pesticides),FO,3,6,6
+131,Landscape/yard,pool chemicals,,granules; liquid; powder; solid,,"products not otherwise characterized for pools, hot tubs, and spas",FO,2,41,119
+133,Landscape/yard,pool chemicals,chlorine and bromine,granules; liquid; powder; solid; tablet,,"chlorine or bromine products for pools, hot tubs, and spas, to keep water bacteria free",FO,3,25,25
+134,Landscape/yard,pool chemicals,pH control,granules; liquid; powder; solid,,"pH control products for pools, hot tubs, and spas",FO,3,13,13
+132,Landscape/yard,pool chemicals,pool algaecide,granules; liquid; powder; solid,,"algaecidal products for pools, hot tubs, and spas",FO,3,18,18
+135,Landscape/yard,pool chemicals,shock,granules; liquid; powder; solid,,"shock products for pools, hot tubs, and spas",FO,3,22,22
+136,Landscape/yard,surface deicer,,granules; liquid; powder,,"products for deicing surfaces, including ice/snow melt",FO,2,95,95
+402,Manufacturing Components,,,,,"Article components that are used as parts in the manufacturing of other products, including hardware (such as nuts, bolts, screws, etc.) or seals (such as gaskets, o-rings, etc.), that do not fit into a more refined PUC.",AR,1,380,380
+317,Medical/dental,,,,,"Medical and dental supplies and equipment, e.g. medical equipment used in a hospital or doctor's office setting, at home (e.g. wheelchairs), Excludes medical testing supplies. See Medical PPE for clothing and personal protective equipment used in medical settings (e.g. scrubs, face masks, gowns, gloves); See Personal Care - Ostomy products for ostomy related products used in home settings.",OC,1,3819,3828
+375,Medical/dental,medical personal protective equipment,,,,"Clothing and personal protective equipment used in medical settings to minimize exposure to workplace hazards (e.g. scrubs, face masks, gowns, gloves);",OC,2,9,9
+389,Other consumer products,,,,,Other consumer products that do not fit into more common categories,FO,1,0,36
+478,Other consumer products,fireworks,,powder; solid,,"Low explosive pyrotechnic products used for aesthetic and entertainment purposes available for purchase to the general public, including novelty (ex. snakes, tanks, poppers, and snappers) and consumer fireworks.",FO,2,4,4
+390,Other consumer products,personal safety,,,,Consumer products related to personal safety,FO,2,31,32
+334,Other consumer products,personal safety,pepper spray,aerosol,,Pepper sprays for personal self-defense,FO,3,1,1
+314,Other direct contact consumer goods,,,leather; plastic; textile,,"Misc. consumer goods likely to have direct contact with the user (e.g. sports equipment, hand-held non-electric tools, jewelry, clothing, jackets, bags/luggage/purses, and other apparel, blankets and sheets, newspapers, adult diapers, feminine hygiene products, pencils and writing implements",AR,1,247,338
+426,Other direct contact consumer goods,apparel,,leather; plastic; solid; textile,,"Clothing and accessories likely to have direct contact with the user. Includes jackets, hats, shoes, etc.",AR,2,0,0
+409,Other direct contact consumer goods,gun ammo,,,,"Materials that are fired, scattered, dropped or detonated from guns, including ammunition and components such as shell casing, a bullet, gun powder, and primer.",AR,2,91,91
+468,Other direct contact consumer goods,medical products,,plastic; rubber; solid; textile,,"medical products applied with direct contact to the body, such as bandages, nasal strips, medical tapes.",AR,2,0,0
+315,Other indirect contact consumer goods,,,,,"Misc. consumer goods likely to have indirect contact with the user (e.g. home decor (paintings, decorations), lampshades)",AR,1,54,54
+308,Other vehicles/mass transit,,,metal,,"Vehicles beyond standard road vehicles for passengers and goods (e.g. planes, trains, boats, *not* cars, trucks, vans); also including mass transit vehicles",AR,1,6,6
+311,Packaging (non-food contact),,,paper; plastic; textile,,"Packaging that does not come into contact with food, e.g. boxes, cloth packaging, phone covers, bubble wrap, packing tape.",AR,1,123,123
+137,Personal care,,,,,general personal care products which do not fit into a more refined category,FO,1,2273,99720
+139,Personal care,acne treatment,,,,general products for acne treatment that do not fit into a more refined category,FO,2,32,344
+138,Personal care,acne treatment,acne spot treatment,gel; liquid; paste; wipes,,"products for spot-treating acne, including creams, lotions, wipes and pads",FO,3,73,73
+140,Personal care,acne treatment,face scrub,gel; paste,,"facial cleansing products containing exfoliating particles, for acne treatment",FO,3,51,51
+141,Personal care,acne treatment,face wash,gel; liquid; paste,,"facial cleansing products (excluding scrubs), for acne treatment",FO,3,188,188
+328,Personal care,after sun product,,gel; liquid; paste,,Products for soothing and treating sunburns,FO,2,288,288
+392,Personal care,body,,,,"Personal Care products intended for use on the body, that do not fall into more specific categories.",FO,2,5,962
+143,Personal care,body,body adhesive,gel; liquid; pump spray,,adhesive products for attaching clothing or accessories to skin,FO,3,1,1
+329,Personal care,body,body firming lotion,gel; liquid; paste,,"Moisturizers, creams, and serums that claim to firm, tone, tighten, or lift skin",FO,3,145,145
+153,Personal care,body,body oil,liquid,,lipophilic products applied to skin (excluding baby oils),FO,3,798,798
+154,Personal care,body,body powder,powder,,talcum and dusting powders for the body (excluding baby powder),FO,3,13,13
+144,Personal care,body care set,,aerosol; child; gel; liquid; powder; pump spray,,multicomponent body care or bath set for which individual products are not designated,FO,2,6,6
+145,Personal care,body hygiene,,,,products related to body hygiene which do not fit into a more refined category,FO,2,98,7659
+146,Personal care,body hygiene,bar soap,solid,,bar and other solid soaps,FO,3,1451,1451
+147,Personal care,body hygiene,body scrub,child; gel; liquid; paste,,body cleaners containing abrasives or exfoliants,FO,3,245,245
+148,Personal care,body hygiene,body wash,child; foam spray; gel; liquid; paste,,"body cleaners, washes, shower gels",FO,3,4050,4050
+149,Personal care,body hygiene,body wipes,child; wipes,,textile wipes and towelettes intended for use on body areas outside of the hands and face (excluding diaper or baby wipes),FO,3,8,8
+304,Personal care,body hygiene,feminine hygiene,,,Feminine hygiene products such as vaginal washes,FO,3,26,26
+150,Personal care,body hygiene,hand sanitizer,child; gel; liquid,,antibacterial products for application to hands,FO,3,473,473
+151,Personal care,body hygiene,hand soap,child; gel; liquid,,liquid hand soaps,FO,3,1265,1265
+152,Personal care,body hygiene,hand wipes,child; wipes,,textile wipes and towelettes for hands,FO,3,43,43
+155,Personal care,child specific,,child,child,"personal care products intended for use by children, which do not fit into a more specific category",FO,2,350,1606
+415,Personal care,child specific,baby dental care,child; gel; liquid; paste; wipes,child,"Products intended for infant dental care, including: toothpaste, tooth gel, tooth wipes, etc.",FO,3,37,37
+156,Personal care,child specific,baby lotion,child; gel; liquid; paste,child,baby cream or lotion (excluding diaper creams),FO,3,345,345
+157,Personal care,child specific,baby oil,child; gel; liquid,child,"lipophilic products applied to skin marketed for use on infants, such as baby oil.",FO,3,138,138
+158,Personal care,child specific,baby powder,child; powder,child,"powder products applied to skin to absorb excess moisture and lubricate skin, marketed for use on infants",FO,3,77,77
+159,Personal care,child specific,baby shampoo,child; foam spray; gel; liquid,child,hair cleaning products marketed for use on infants,FO,3,150,150
+160,Personal care,child specific,baby wash,child; liquid,child,body washes and cleaning products specifically marketed for use on infants,FO,3,168,168
+161,Personal care,child specific,baby wipes,child; wipes,child,textile wipes and towelettes specifically marketed for use on infants,FO,3,146,146
+162,Personal care,child specific,bath paints/crayons,child; gel; liquid; solid,child,bath paints or bath crayons intended for use by children,FO,3,9,9
+163,Personal care,child specific,diaper cream,child; gel; liquid; paste,child,diaper creams and ointments intended for use on infants,FO,3,186,186
+170,Personal care,deodorant,,aerosol; child; gel; liquid; paste; pump spray,,deodorants and antiperspirants,FO,2,2409,2409
+172,Personal care,eye care and contacts,,gel; liquid; paste; pump spray,,products for use around or in the eye that are not otherwise categorized,FO,2,127,927
+171,Personal care,eye care and contacts,contact care,liquid,,contact lens cleaners and solutions,FO,3,9,9
+173,Personal care,eye care and contacts,eye cream,gel; paste,,products applied to skin located around the eye to moisturize or improve skin qualities,FO,3,754,754
+174,Personal care,eye care and contacts,eye drops,liquid,,products applied to the eye for lubrication or treating redness,FO,3,21,21
+298,Personal care,eye care and contacts,eye products,gel; liquid; paste,,skin treatments applied to the eyelids and skin around the eye (excludes makeup and eye cream),FO,3,16,16
+175,Personal care,eye care and contacts,eyelid spray,pump spray,,spray products applied to eyelids to treat skin and eye lash problems,FO,3,0,0
+177,Personal care,facial cleansing and moisturizing,,,,facial cleansing and moisturizing products which do not fit into a more refined category,FO,2,56,12993
+178,Personal care,facial cleansing and moisturizing,face cleansing wipes,child; wipes,,textile wipes or pads treated with cleansing solution applied to the face to clean or improve the characteristics of skin on the face,FO,3,74,74
+179,Personal care,facial cleansing and moisturizing,face cream/moisturizer,gel; liquid; paste,,"moisturizers, lotions, and creams for treating the face (excluding eye-specific products)",FO,3,7488,7488
+180,Personal care,facial cleansing and moisturizing,face mask,gel; liquid; paste,,leave-on masks or peels for treatment of the face,FO,3,954,954
+181,Personal care,facial cleansing and moisturizing,face scrub,gel; paste,,facial cleansing products containing exfoliating particles (excluding products for acne),FO,3,1064,1064
+182,Personal care,facial cleansing and moisturizing,face wash,gel; liquid; paste,,facial cleansing products (excluding scrubs and products for acne),FO,3,3316,3316
+430,Personal care,facial cleansing and moisturizing,facial hair conditioning,foam; gel; liquid; oil; pump spray,,"Products intended for care and grooming of facial hair, such as beard conditioner, oils, creams, etc.",FO,3,41,41
+183,Personal care,foot care,,gel; liquid; paste,,"miscellaneous products for application to feet, including scrubs, lotions, deodorants, and treatments for skin and nail problems",FO,2,421,421
+184,Personal care,fragrance,,aerosol; child; gel; liquid; paste; pump spray,,"concentrated fragrances, colognes, and perfume products",FO,2,2018,2730
+456,Personal care,fragrance,body mist,aerosol,,Body mist products intended to be used for light fragrance and skin hydration.,FO,3,287,287
+457,Personal care,fragrance,body spray,aerosol,,Body spray products intended to be used for whole body fragrance.,FO,3,345,345
+462,Personal care,fragrance,essential oils,oil,,Concentrated hydrophobic liquid products containing volatile chemical compounds from plants.,FO,3,80,80
+186,Personal care,general moisturizing,,,,general moisturizing products which do not fit into a more refined category,FO,2,44,6326
+185,Personal care,general moisturizing,hand/body lotion,gel; paste,,products specifically marketed for application to hands or body to moisturize or improve skin characteristics (excluding baby lotion),FO,3,6282,6282
+187,Personal care,glitter,,child; gel; paste; powder,,products containing reflective particles applied to the face or body for cosmetic purposes,FO,2,66,66
+188,Personal care,hair coloring,,child; gel; liquid; paste; powder,,general hair coloring products which can not be classified into a more refined category,FO,2,1261,2391
+362,Personal care,hair coloring,beard and mustache,gel; liquid; paste; powder,,"hair colors, dyes and washes intended for beard and mustache facial hair",FO,3,32,32
+189,Personal care,hair coloring,hair bleach,child; gel; liquid; paste; powder,,products for lightening or removing color from hair on the head,FO,3,22,22
+190,Personal care,hair coloring,hair color - permanent,child; gel; liquid; paste; powder,,"hair colors and dyes characterized as permanent, excludes products for use by a professional",FO,3,787,787
+191,Personal care,hair coloring,hair color - professional,child; gel; liquid; paste; powder,,hair colors and dyes characterized as for professional use,FO,3,185,185
+192,Personal care,hair coloring,hair color - temporary,aerosol; child; gel; liquid; paste; powder; pump spray,,hair colors and dyes characterized as temporary,FO,3,79,79
+193,Personal care,hair coloring,hair color activator,gel; liquid; paste,,chemical activators for hair coloring products,FO,3,2,2
+194,Personal care,hair coloring,hair color developer,gel; liquid; paste,,chemical developers for hair coloring products,FO,3,23,23
+195,Personal care,hair coloring,hair color toner,gel; liquid; paste; powder,,chemical toners for hair coloring products,FO,3,0,0
+197,Personal care,hair styling and care,,,,general hair styling or hair care products which do not fit into a more refined category,FO,2,283,16904
+196,Personal care,hair styling and care,dry shampoo,aerosol; powder,,products for removing oil and dirt from hair,FO,3,36,36
+198,Personal care,hair styling and care,ethnic hair care,child; gel; liquid; paste; pump spray,,"products for ethnic hair care, including wrap set lotions and pressing lotions (excluding relaxers)",FO,3,82,82
+297,Personal care,hair styling and care,hair conditioner,child; gel; liquid; paste,,rinse-out everyday hair conditioners (excluding combo shampoo/conditioner products),FO,3,3283,3283
+200,Personal care,hair styling and care,hair conditioner - leave-in,child; gel; liquid; paste; pump spray,,leave-in everyday hair conditioners and detanglers,FO,3,185,185
+201,Personal care,hair styling and care,hair conditioning treatment,gel; liquid; paste; pump spray,,hair conditioning and moisturizing treatments for occasional use,FO,3,116,116
+202,Personal care,hair styling and care,hair conditioning treatment - professional,gel; liquid; paste; pump spray,,hair conditioning and moisturizing treatments characterized as for professional use,FO,3,18,18
+203,Personal care,hair styling and care,hair relaxer,gel; liquid; paste,,chemical hair relaxers,FO,3,103,103
+204,Personal care,hair styling and care,hair spray,aerosol; child; pump spray,,spray fixatives for hair,FO,3,1206,1206
+205,Personal care,hair styling and care,hair styling,aerosol; child; foam; gel; liquid; paste; pump spray,,"products for imparting hold, shine, or texture to hair",FO,3,4056,4056
+208,Personal care,hair styling and care,lice shampoo,child; liquid; pump spray,,shampoos for the treatment of various types of lice,FO,3,9,9
+209,Personal care,hair styling and care,scalp treatment,aerosol; child; gel; liquid; paste; powder; pump spray,,"products for treating the scalp, including products for dandruff or hair loss (excluding dandruff shampoo)",FO,3,95,95
+210,Personal care,hair styling and care,shampoo,child; foam spray; gel; liquid; paste; powder,,"shampoos, including dual shampoo/conditioner products",FO,3,6934,6934
+211,Personal care,hair styling and care,shampoo - dandruff,aerosol; child; gel; liquid; paste; pump spray,,"shampoos, including dual shampoo/conditioner products for treatment of dandruff",FO,3,498,498
+212,Personal care,liniment,,aerosol; gel; liquid; paste; pump spray,,products for treatment of muscle or joint pain,FO,2,102,102
+213,Personal care,makeup and related,,,,makeup or cosmetic products which do not fit into a more refined category,FO,2,795,29248
+214,Personal care,makeup and related,blush/bronzer,child; paste; powder,,"cheek blushes, bronzers, and rouges",FO,3,2199,2199
+327,Personal care,makeup and related,combination makeup products,gel; liquid; paste; powder; pump spray,,"Makeup products that are advertised as serving multiple distinct functions (e.g., combination lipstick /blush; combination eyeshadow/highlighter)",FO,3,278,278
+215,Personal care,makeup and related,cosmetic tool cleaner,child; gel; liquid; paste; pump spray,,products for cleaning brushes and other devices used to apply makeup,FO,3,2,2
+216,Personal care,makeup and related,eye liner,child; gel; liquid; paste,,Liquid or pencil eye liners,FO,3,1779,1779
+217,Personal care,makeup and related,eye makeup,child; gel; liquid; paste,,"miscellaneous cosmetic eye products including lash adhesives and tints (excludes eye shadow, mascara, eye primer, and eye liner)",FO,3,109,109
+361,Personal care,makeup and related,eye primer,child; gel; liquid; paste; pump spray,,products for priming eyes for makeup,FO,3,33,33
+218,Personal care,makeup and related,eye shadow,child; gel; liquid; paste; powder,,products for coloring eye lids,FO,3,3488,3488
+325,Personal care,makeup and related,eyebrow makeup,gel; liquid; paste; powder,,"Brow gels, pencils, fillers, and other eyebrow cosmetic products",FO,3,514,514
+219,Personal care,makeup and related,face powder,child; powder,,pressed or loose powders for face,FO,3,899,899
+220,Personal care,makeup and related,foundation/concealer,child; gel; liquid; paste; powder,,foundation makeup and concealers,FO,3,5769,5769
+221,Personal care,makeup and related,lip balm,child; gel; paste,,lip products primarily for protection,FO,3,4058,4058
+222,Personal care,makeup and related,lip color,child; gel; liquid; paste,,"colored lip products, excluding glosses",FO,3,3569,3569
+223,Personal care,makeup and related,lip gloss,child; gel; liquid,,glossy lip products,FO,3,1937,1937
+224,Personal care,makeup and related,lip liner,child; paste,,pencils for lining lips,FO,3,567,567
+326,Personal care,makeup and related,lip plumper,gel; liquid; paste,,Lip products that are designed to plump lips,FO,3,147,147
+225,Personal care,makeup and related,makeup primer,child; gel; liquid; paste; powder; pump spray,,"products for priming face for make-up, excluding eye primers",FO,3,243,243
+226,Personal care,makeup and related,makeup remover,aerosol; child; gel; liquid; paste; pump spray,,products for removing face makeup,FO,3,887,887
+227,Personal care,makeup and related,makeup set,aerosol; child; gel; liquid; paste; powder; pump spray,,multicomponent makeup set for which individual products are not designated,FO,3,0,0
+228,Personal care,makeup and related,mascara,child; gel; liquid,,eyelash mascaras,FO,3,1158,1158
+229,Personal care,makeup and related,toner,child; gel; liquid; pump spray,,"face and skin toners and astringents, excluding eye related products",FO,3,817,817
+230,Personal care,nails,,,,products for nail or cuticle treatment or decoration,FO,2,54,1948
+231,Personal care,nails,nail adhesive,child; gel,,adhesives for reparing fingernails or attaching artificial nails,FO,3,50,50
+232,Personal care,nails,nail polish,aerosol; child; gel; liquid,,"clear or colored nail enamels, polishes, basecoats, topcoats, and other acrylic coatings",FO,3,1430,1430
+233,Personal care,nails,nail polish remover,child; gel; liquid; wipes,,products for removing nail polish or artificial nails,FO,3,163,163
+342,Personal care,nails,nail treatment,child; gel; liquid,,"Products used to treat nails and/or cuticles, including strengthening serums and repair for brittle nails, cuticle creams, etc.",FO,3,251,251
+164,Personal care,oral and dental care,,gel; liquid; oral; paste; powder; wipes,,"personal care products related to oral or dental care, which do not fit into a more refined category",FO,2,19,1430
+424,Personal care,oral and dental care,breath freshener,aerosol; gel; oral; powder; pump spray; solid,,"Oral care products intended to remove bad breath. Products include sprays, breath strips, etc. Does not include mints or other ingested food products.",FO,3,4,4
+165,Personal care,oral and dental care,denture adhesive,gel; oral; paste; powder; solid,,"Adhesive products that may be placed in/on dentures to help them stay in place, including pastes, powders or adhesive pads.",FO,3,7,7
+166,Personal care,oral and dental care,denture cleaner,gel; liquid; paste; powder; solid; tablet,,Cleansers and cleaning products intended to clean denture appliances.,FO,3,12,12
+167,Personal care,oral and dental care,mouthwash,child; liquid; oral,,antiseptic and dental mouthwashes and rinses,FO,3,459,459
+455,Personal care,oral and dental care,pain relief,gel; liquid; oral; paste; powder,,"oral and dental products intended for pain relief, such as toothache, gum, mouth sore relief products.",FO,3,20,20
+168,Personal care,oral and dental care,teeth whitener,gel; oral; powder; solid,,teeth whitening products (excluding toothpastes),FO,3,101,101
+169,Personal care,oral and dental care,toothpaste,child; gel; oral; paste; powder,oral,toothpastes and dentrifices intended for cleaning teeth and gums,FO,3,808,808
+449,Personal care,ostomy products,,,,"Ostomy-related products used by patients in home environments. Includes barrier products, adhesives, adhesive removers, creams, etc. for colostomies, ileostomies, urostomies, etc.",FO,2,160,160
+234,Personal care,self-tanner,,aerosol; child; gel; liquid,,"chemical products for tanning, staining, or coloring the skin",FO,2,339,339
+235,Personal care,sexual wellness,,aerosol; gel; liquid; powder; pump spray,,"sexual wellness products, including personal lubricants",FO,2,114,114
+236,Personal care,shaving and hair removal,,,,shaving or hair removal products which do not fit into a more refined category,FO,2,30,1175
+237,Personal care,shaving and hair removal,aftershave,gel; liquid; paste; pump spray,,"products applied to the skin following shaving to provide scent, or improve skin characteristics",FO,3,332,332
+238,Personal care,shaving and hair removal,clipper lubricant/cleaner,liquid,,cleaning and lubricating products for hair clippers,FO,3,9,9
+239,Personal care,shaving and hair removal,depilatory,aerosol; foam spray; gel; paste,,products for removal of body or facial hair,FO,3,171,171
+240,Personal care,shaving and hair removal,shaving cream,foam; foam spray; gel; solid,,"shaving creams, foams, balms and soaps",FO,3,502,502
+241,Personal care,shaving and hair removal,waxing,gel; hot melt; paste,,products for removing hair by waxing,FO,3,131,131
+330,Personal care,skin lightener,,gel; liquid; paste,,Products designed to lighten skin or fade spots and scars,FO,2,99,99
+421,Personal care,skin protectant,,child; gel; liquid; paste; powder; solid,,"Products that form a protective coating on the skin designed to protect vulnerable areas  from the effects of 1) mechanical or chemical injury and 2) excessive moisture from incontinence, perspiration or wound drainage. Products include petroleum jelly, skin sealants and balms, etc.",FO,2,62,62
+242,Personal care,specialized bath products,,,,specialized bath products that do not fit into a more refined category,FO,2,505,866
+243,Personal care,specialized bath products,bath oil,liquid; pods,,liquid or liquid-filled pods added to bath water,FO,3,49,49
+244,Personal care,specialized bath products,bath salts,child; powder; solid,,"solid or powdered products added to bathwater including bath salts, soaks,  and fizzes",FO,3,98,98
+245,Personal care,specialized bath products,bubble bath,child; gel; liquid; powder; solid,,"products added to bath water to create bubbles, may provide cleaning, fragrance, or improve skin characteristics (including bubble bath marketed to babies or children)",FO,3,214,214
+246,Personal care,sunscreen,,aerosol; child; foam spray; gel; liquid; paste; pump spray; wipes,,products applied to the skin to block harmful effects of sunlight,FO,2,5787,5787
+360,Personal care,topical skin treatment,,gel; liquid; paste,,Treatments for skin infections that are not otherwise specified,FO,2,19,85
+337,Personal care,topical skin treatment,antibacterial treatment,gel; liquid; paste; powder,,"Ointments for non-acne bacterial skin infections, including antiseptics",FO,3,4,4
+336,Personal care,topical skin treatment,antifungal treatment,gel; liquid; paste; powder,,"Ointments for fungal infections like ringworm, athlete’s foot, and tinea versicolor",FO,3,13,13
+420,Personal care,topical skin treatment,antiseptic,gel; liquid; paste; powder,,"Products intended to  stops or slow down the growth of microorganisms, primarily used to reduce the risk of infection. Antiseptic substances inhibit the growth and reproduction of many microorganisms, including bacteria, fungi, protozoa, and viruses. Intended for general antiseptic products that do not fit into  more specific categories such as antibacterial or antifungal skin treatments.",FO,3,43,43
+142,Personal care,topical skin treatment,bite relief,child; gel; liquid; paste; pump spray,,products applied to the skin for soothing insect bites,FO,3,6,6
+247,Pesticides,,,,,general pesticide products that do not fit into a more refined category,FO,1,137,2009
+248,Pesticides,animal repellent,,gel; granules; liquid; powder; pump spray,,products used to repel animals from locations or objects or to keep animals from chewing objects,FO,2,46,46
+249,Pesticides,fungicide,,aerosol; liquid; powder; pump spray,,products used to control fungi pests in the garden or home,FO,2,83,83
+250,Pesticides,insect repellent,,aerosol; candle; child; exterior; gel; interior; liquid; paste; pump spray; solid; wipes,,"miscellaneous products for repelling insects, including citronella type candles (excluding products to be applied to the skin)",FO,2,109,302
+252,Pesticides,insect repellent,insect repellent - skin,aerosol; child; liquid; pump spray; wipes,,products for repelling insects from skin,FO,3,193,193
+253,Pesticides,insecticide,,aerosol; exterior; gel; granules; interior; liquid; paste; powder; pump spray; trap,,"insecticides, for interior or exterior use",FO,2,1213,1213
+435,Pesticides,Professional use pesticides,,foam; gas; granules; liquid; powder; trap,,Pesticide products that are intended for use/application by professionals.,FO,2,11,11
+254,Pesticides,rodenticide,,aerosol; exterior; gel; granules; interior; liquid; paste; powder; pump spray; solid; trap,,rodenticides for interior or exterior use,FO,2,217,217
+255,Pet and animal care,,,,,"products intended for pet care and general animal care, which do not fit into a more refined category",FO,1,2,345
+256,Pet and animal care,all pets,,,,products for pet care which do not fit into a more refined category; specifically those products which can be used on all pets,FO,2,17,227
+257,Pet and animal care,all pets,other pet treatments,gel; liquid; pump spray,,miscellaneous pet treatments (excluding pesticides and shampoos),FO,3,42,42
+258,Pet and animal care,all pets,pesticide - pet,aerosol; gel; liquid; paste; pump spray,,"pesticides orally administered, worn (e.g. collars), or applied to the skin, fur, etc. of pets; including flea/tick collars, excluding pesticidal shampoos",FO,3,39,39
+259,Pet and animal care,all pets,pet shampoo,foam spray; gel; liquid,,"pet shampoos (including those containing pesticides, such as flea/tick shampoos)",FO,3,34,34
+260,Pet and animal care,all pets,pet stain cleaner,aerosol; foam spray; gel; liquid; pump spray,,carpet and upholstery cleaners for pet stains,FO,3,95,95
+357,Pet and animal care,birds,,liquid; solid,,"products related to the care of birds, including bird seed, nectar, etc.",FO,2,1,1
+261,Pet and animal care,cats,,,,care products specifically for cats which do not fit into a more refined category,FO,2,20,93
+262,Pet and animal care,cats,cat litter,powder; solid,,solids used to capture and deodorize cat wastes,FO,3,73,73
+432,Pet and animal care,farm animals,,aerosol; gel; liquid; paste; powder; wipes,,"products intended for the care of farm animals, including cows, horses, pigs, chickens, etc.",FO,2,13,13
+263,Pet and animal care,fish,,,,"care products specifically for pet fish, fish ponds, etc, which do not fit into a more refined category",FO,2,1,9
+264,Pet and animal care,fish,aquarium,gas; liquid; powder; pump spray; solid,,miscellaneous aquarium products for the maintenance of aquatic pets,FO,3,8,8
+301,Raw materials,,,,,Pure chemicals or ingredients,OC,1,8726,25169
+376,Raw materials,adhesives,,,,Adhesives used in manufacturing or industrial applications.,OC,2,1991,1991
+355,Raw materials,coatings,,,,Coatings manufactured for commercial use.,OC,2,7958,8038
+410,Raw materials,coatings,fireproof coatings,,,"Fireproof coatings manufactured for commercial use, to be used within products.",OC,3,80,80
+492,Raw materials,curing agents,,liquid; powder,,"a substance that helps create a three-dimensional structure in a material, increasing its strength and other properties, used as a raw material in industrial settings.",OC,2,361,361
+323,Raw materials,flame retardants,,,,flame retardants used as a raw material in a finished product,OC,2,188,188
+428,Raw materials,food additive formulations,,,,"Substances added as a raw material in the manufacture of food products, to preserve flavor or enhance taste, appearance, or other sensory qualities.",OC,2,22,22
+470,Raw materials,fragrance formulations,,gas; liquid; powder,,Products that function as a fragrance (with the intent to control odors or add scent) that are used as raw materials in a final consumer product.,OC,2,4,4
+384,Raw materials,glass microspheres,,,,"Microscopic spheres of glass manufactured for a wide variety of uses in research, medicine, consumer goods and various industries. (e.g. as a filler material) Also known as microballoons or glass bubbles.",OC,2,166,166
+356,Raw materials,inks,,,,Inks manufactured for commercial use,OC,2,1715,1715
+400,Raw materials,paints and primers,,,,Paints and primers used as raw materials in the manufacture of a product,OC,2,2343,2826
+422,Raw materials,paints and primers,machinery paint,liquid,,"Paint and primer products that are intended for use with industrial machinery and equipment, to protect against rust, corrosion, dirt, etc. and improve the appearance of the product. Includes heavy machinery and tractor paint.",OC,3,483,483
+477,Raw materials,personal care formulations,,,,"Products used as raw material ingredients in personal care products, such as skin softening formulations.",OC,2,13,13
+476,Raw materials,pigments,,powder; solid,,"a substance that gives color to other materials, used as a raw material or in an industrial setting.",OC,2,39,39
+473,Raw materials,resins,,,,"Resins and epoxies for use in manufacturing, not specifically labeled as coatings or adhesives",OC,2,143,143
+394,Raw materials,solvent formulations,,,,Industrial solvents used as a raw material in industrial/commercial manufacturing processes.,OC,2,409,409
+427,Raw materials,surfactant formulations,,,,Industrial surfactants (surface-active agents) used as a raw material in industrial/commercial manufacturing processes.,OC,2,492,492
+474,Raw materials,thinners,,,,Thinners for use in manufacturing,OC,2,36,36
+307,Road vehicles,,,glass; leather; metal; plastic; rubber; textile,,"Road vehicles for passengers and goods (e.g. cars, trucks, vans)",AR,1,271,271
+320,Specialty occupational products,,,,,"Specialty products used in a specific occupational setting, by members of that occupation (e.g. firefighting foam, metal working fluids, products used in portable toilets)",OC,1,702,18704
+404,Specialty occupational products,aviation,,,,"Products used in the aviation industry for commercial or military aircraft, that do not belong to a more refined group.",OC,2,1289,4525
+408,Specialty occupational products,aviation,aircraft coatings,aerosol; liquid,,"Coatings, paints, and related surface treatments used in the aviation industry for commercial or military aircraft.",OC,3,2170,2170
+396,Specialty occupational products,aviation,aircraft deicer,,,"Deicing fluids and supporting products intended for use in aviation contexts, including aircraft and runway deicers.",OC,3,75,75
+378,Specialty occupational products,aviation,aircraft fluids and additives,,,"Fuels, fluids, oils, and other additives used in the aviation industry for commercial or military aircraft",OC,3,991,991
+407,Specialty occupational products,dry cleaning chemicals,,,,"Occupation specific products and chemicals used in the dry cleaning industry to remove stains from clothes, fabrics, etc.",OC,2,124,124
+324,Specialty occupational products,firefighting agents,,foam; gas; liquid; powder,,"specialty products used for extinguishing fires, including foams, powders, Aqueous Film Forming Foam (AFFF), etc.",OC,2,3093,3093
+399,Specialty occupational products,gas leak detector,,,,"Compounds, liquids, powders, etc. used for detecting gas leaks in occupational or industrial settings, i.e. air conditioning, mining, etc.",OC,2,182,182
+387,Specialty occupational products,law enforcement,,,,Specialty products used in the law enforcement setting,OC,2,16,386
+417,Specialty occupational products,law enforcement,fingerprint detection,aerosol; liquid; paper; paste; powder,,"Products used in law enforcement, forensics, etc., settings in order to detect and record fingerprints to determine an individual's identity based on fingerprint matching. Includes detection powders, and additional materials used to assist fingerprint investigation.",OC,3,122,122
+418,Specialty occupational products,law enforcement,fingerprinting ink,liquid; paper; paste; powder,,"Products used in commercial, government, law enforcement, legal, etc. settings in order to determine an individual's identity based on fingerprint matching. Products include fingerprint ink, and supporting products used to enhance fingerprint definition for printmaking.",OC,3,227,227
+332,Specialty occupational products,law enforcement,pepper spray,aerosol,,"Spray products for crowd control, including pepper spray and tear gas",OC,3,21,21
+333,Specialty occupational products,law enforcement,stun guns,,,Stun guns or tasers,OC,3,0,0
+338,Specialty occupational products,photography developing chemicals,,,,Fluids or solutions used in photography developing,OC,2,8265,8265
+481,Specialty occupational products,printing supplies,,liquid,,"Professional printing products such as developer, primer, imaging oil, calibration inks, etc. (does not include inks and toners).",OC,2,180,180
+377,Specialty occupational products,water treatment chemicals,,,,"Water treatment chemicals used in potable and non-potable water systems, including municipal water treatment, industrial boilers, radiators, cooling towers, etc.",OC,2,161,161
+116,Specialty occupational products,welding,,gas; gel; liquid; solid,,"miscellaneous anti-spatter welding products including gases, fluxes, and adhesives",OC,2,1086,1086
+265,Sports equipment,,,,,"formulation products for use in, with, or as sports equipment, which do not fit into a more refined category",FO,1,8,74
+266,Sports equipment,bicycling,,,,"formulation products for use on bicycles, which do not fit into a more refined category",FO,2,8,10
+267,Sports equipment,bicycling,bicycle cleaner,aerosol; gel; liquid; pump spray,,washes and rinses for cleaning bicycles,FO,3,2,2
+268,Sports equipment,fishing,,,,"formulation products used for the sport of fishing, which do not fit into a more refined category",FO,2,0,0
+269,Sports equipment,fishing,reel oil,aerosol; gel; liquid; pump spray,,lubricants and cleaner/lubricants for fishing reels,FO,3,0,0
+458,Sports equipment,hunting,,,,Hunting formulation products that do not fit into a more refined category.,FO,2,1,54
+21,Sports equipment,hunting,gun cleaner,aerosol; liquid; pump spray,,products for cleaning interior or exterior of firearms,FO,3,53,53
+459,Sports equipment,hunting,hunting scents,aerosol; liquid; wipes,,"Products used during hunting to attract animals (such as deer), or to conceal a hunter's scent.",FO,3,0,0
+270,Sports equipment,skiing,,,,"formulation products used for skiing, which do not fit into a more refined category",FO,2,1,2
+271,Sports equipment,skiing,wax,aerosol; gel; liquid; solid,,waxes for treating skis or snowboards,FO,3,1,1
+352,Tools,,,,,Tools for consumer or home use,AR,1,208,208
+310,Toys and children's products,,,child; metal; paper; plastic; rubber; textile; wood,child,"Toys and articles intended for use by children (not including formulations) (e.g. stuffed toys, blankets, games, baby bottles and pacifiers, dolls); includes electronics specifically intended for use by children",AR,1,12,12
+448,Unknown or Indeterminate,,,,,"Products for which the product category could not be determined from the available product name, manufacturer and available document metadata.",UN,1,317,317
+272,Vehicle,,,,,"products used in or on vehicles, which do not fit into a more refined category",FO,1,177,9778
+273,Vehicle,auto body work,,,,"products used for auto body work, which do not fit in a more refined category",FO,2,130,3510
+453,Vehicle,auto body work,auto adhesives,,,products used as adhesives in auto body work and repair,FO,3,231,231
+274,Vehicle,auto body work,auto paint,aerosol; liquid,,paints and primers for auto body or engine,FO,3,2350,2350
+275,Vehicle,auto body work,body repair,gel; liquid; paste,,"products for repairing auto body exteriors, including bondo-type products and scratch fillers",FO,3,494,494
+276,Vehicle,auto body work,detailing,aerosol; gel; liquid; pump spray,,"products for cleaning, polishing, or protecting car interior surfaces, upholstery, leather, carpeting, tires, or rims",FO,3,142,142
+277,Vehicle,auto body work,windows/windshield,aerosol; liquid; pump spray,,"products for washing or protecting windshields or windows, including windshield washer fluid",FO,3,163,163
+278,Vehicle,boat care and maintenance,,,,"products used for boat care and maintenance, which do not fit in a more refined category",FO,2,271,382
+280,Vehicle,boat care and maintenance,boat cleaner,aerosol; gel; liquid; paste; pump spray,,"cleaners, washes, and polishes for marine applications, including boat decks, hulls and interior care.",FO,3,55,55
+282,Vehicle,boat care and maintenance,boat engine fluids,liquid,,"antifreeze, fuel additives, engine flushes, liquid gaskets, steering fluids, and  engine, transmission, and mechanical lubricants",FO,3,56,56
+284,Vehicle,car interior,,,,"formulation products used on the interior of cars, which do not fit into a more refined category",FO,2,31,99
+283,Vehicle,car interior,auto air freshener,aerosol; gel; in vehicle; liquid; solid,,products for masking odors or adding fragrance to car cabin air,FO,3,68,68
+285,Vehicle,car surface treatment,,aerosol; liquid; paste; pump spray,,treatments for the surfaces/body of vehicles that can not be otherwise categorized,FO,2,144,1224
+286,Vehicle,car surface treatment,body cleaner,liquid; paste; pump spray,,"cleaners, shampoos, and washes for auto body exterior (not including wax products or combo wash/wax products)",FO,3,493,493
+287,Vehicle,car surface treatment,body wax,liquid; paste,,"auto body waxes and coatings, excluding combo wash/wax products",FO,3,126,126
+288,Vehicle,car surface treatment,combination wash and wax,liquid; paste,,combination wash and wax products for car surfaces,FO,3,52,52
+289,Vehicle,car surface treatment,degreaser,aerosol; liquid,,"products for removing grease from auto bodies, engines, and brakes",FO,3,409,409
+290,Vehicle,engine maintenance,,,,"formulation products used for engine maintenance, which do not fit into a more refined category",FO,2,406,4377
+291,Vehicle,engine maintenance,antifreeze,liquid,,antifreeze and/or coolant solutions for motorized vehicles,FO,3,366,366
+292,Vehicle,engine maintenance,auto fluids and additives,aerosol; liquid,,"power steering fluids, transmission fluids, brake fluids, fuel injector cleaners, gas treatments, or leak stoppers",FO,3,1934,1934
+293,Vehicle,engine maintenance,auto lubricant,gel; liquid,,"engine lubricants and belt dressings, not including motor oils",FO,3,803,803
+294,Vehicle,engine maintenance,auto refrigerant,gas,,refrigerants and freon products for auto applications,FO,3,15,15
+295,Vehicle,engine maintenance,motor oil,liquid,,petroleum-based or synthetic engine lubricants,FO,3,853,853
+391,Vehicle,recreational vehicle,,,,formulation products intended for use specifically with Recreational vehicles,FO,2,1,9
+353,Vehicle,recreational vehicle,holding tank treatment,,,"Treatments for RV holding tanks, including deodorants",FO,3,8,8
