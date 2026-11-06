@@ -1,0 +1,5 @@
+﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
+Sodium Lauryl Sulfate,151-21-3,5.1,rabbit,skin,IV,0,mild irritation,CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"
+Sodium Lauryl Sulfate,151-21-3,21.0,rabbit,skin,II,1,"unrinsed, severely irritating",CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"
+Sodium Lauryl Sulfate,151-21-3,21.0,rabbit,skin,IV,0,"rinsed, mildly irritating",CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"
+Sodium Lauryl Sulfate,151-21-3,10.0,rabbit,eye,I,1,corneal damage without rinsing,CIR SLS/ALS Report 1983(2차인용),"low(원문 미확인, 2차인용)"

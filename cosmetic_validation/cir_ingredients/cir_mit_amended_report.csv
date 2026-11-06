@@ -1,0 +1,4 @@
+﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
+Methylisothiazolinone,2682-20-4,97.8,rabbit,skin,I,1,corrosive after 1h exposure,CIR MIT Amended Report,high
+Methylisothiazolinone,2682-20-4,0.01,rabbit,skin,IV,0,"PII=0.0 (100ppm), nonirritating",CIR MIT Amended Report,high
+Methylisothiazolinone,2682-20-4,0.01,rabbit,eye,IV,0,"100ppm, no adverse effects",CIR MIT Amended Report,high

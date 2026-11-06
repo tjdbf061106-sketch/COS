@@ -1,0 +1,6 @@
+﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
+Cetrimonium Chloride,112-02-7,2.0,rabbit,eye,III,0,moderate ocular irritation,CIR Trimoniums Report 2012,medium(정확 clearing일수 미기재)
+Cetrimonium Chloride,112-02-7,10.0,rabbit,eye,I,1,"severe ocular irritant, irreversible damage",CIR Trimoniums Report 2012,medium
+Behentrimonium Chloride,17301-53-0,5.0,rabbit,skin,IV,0,not irritating,CIR Trimoniums Report 2012,high
+Behentrimonium Chloride,17301-53-0,3.0,rabbit,eye,IV,0,mild,CIR Trimoniums Report 2012,high
+Behentrimonium Chloride,17301-53-0,10.0,rabbit,eye,I,1,irreversible ocular damage,CIR Trimoniums Report 2012,high

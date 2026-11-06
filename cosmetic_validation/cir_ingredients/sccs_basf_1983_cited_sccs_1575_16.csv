@@ -1,0 +1,3 @@
+﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
+Phenoxyethanol,122-99-6,100.0,rabbit,skin,IV,0,"erythema score 1 in 2/3, reversible 24h",SCCS/BASF 1983 (cited SCCS/1575/16),high
+Phenoxyethanol,122-99-6,100.0,rabbit,eye,II,1,"corneal opacity to day8, 거의 15일내 회복",SCCS/BASF 1983 (cited SCCS/1575/16),high

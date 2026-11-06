@@ -1,0 +1,6 @@
+﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
+Methylparaben,99-76-3,100.0,rabbit,skin,IV,0,"PII=0.67/4, mild irritation",CIR Parabens Report 1984,high
+Methylparaben,99-76-3,100.0,rabbit,eye,IV,0,"score 1/110 Day1, slight transient",CIR Parabens Report 1984,high
+Propylparaben,94-13-3,0.3,rabbit,skin,IV,0,"PII max 0.5/4, minimal irritation",CIR Parabens Report 1984,high
+Propylparaben,94-13-3,0.1,rabbit,eye,IV,0,"scores 1.0-3.3/110, minimal",CIR Parabens Report 1984,high
+Butylparaben,94-26-8,0.3,rabbit,skin,IV,0,"mild irritation, grade 1/4 erythema/edema",CIR Parabens Report 1984,high

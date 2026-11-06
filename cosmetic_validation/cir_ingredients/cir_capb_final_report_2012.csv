@@ -1,0 +1,9 @@
+﻿성분명,CAS,농도(%),시험종,endpoint(skin/eye),EPA등급(환산),이진라벨,근거,출처보고서,신뢰도
+Cocamidopropyl Betaine,61789-40-0,30.0,rabbit,skin,IV,0,"PII=0.5, slight erythema, no edema",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,15.0,rabbit,skin,II,1,"PII=3.50, well-defined erythema+slight edema",CIR CAPB Final Report 2012,"high(보고서 본문은 '비자극' 결론과 상충, 참고)"
+Cocamidopropyl Betaine,61789-40-0,10.0,rabbit,skin,IV,0,PII=0.3 (pH4.5),CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,5.0,rabbit,eye,IV,0,"score 4.90/110, not an ocular irritant",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,10.0,rabbit,eye,III,0,"score 27.3/110, moderately irritating",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,6.5,rabbit,eye,II,1,"score 30/110, 14일 후 무자극(8-21일 회복)",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,30.0,rabbit,eye,I,1,"corneal opacity+iritis+necrosis, 부식성",CIR CAPB Final Report 2012,high
+Cocamidopropyl Betaine,61789-40-0,2.3,rabbit,eye,IV,0,"max score 1.7(unrinsed)/3.3(rinsed), minimal",CIR CAPB Final Report 2012,high
