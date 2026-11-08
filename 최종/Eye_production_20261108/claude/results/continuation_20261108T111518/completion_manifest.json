@@ -1,0 +1,20 @@
+{
+  "completed_at_utc": "2026-11-08T05:37:11.744215+00:00",
+  "identity": "f91f3c88787bec6be1bef4bbbfcb98b797e0d69c6fda8c9bd03d508661488f4b",
+  "status": "full_validation_verified",
+  "artifacts_sha256": {
+    "metrics.json": "cba705db305248fd49eb0998f07b759f2b28583ef99c26ef8bfae7bec3ab8f04",
+    "paired_comparison.json": "e9f9347a2920b09c5c9814d8d74e8e6245c1adc04e313b07a6e15c117512147f",
+    "eye_vectorized_concentration.csv": "3dcee8618f07caade1ba105b206c8488d6781978b46ad21bab7a0f2d85759473",
+    "export_manifest.json": "07f6cc54180def53999c9f6e14fb8baedd8e6768067331f333b9ac9272c1731b"
+  },
+  "audit_artifacts_sha256": {
+    "final_verification.json": "db06d59452b08baad4e738e7cf67b77cf50190ddc8fa61b676edf4e0682d0d4f",
+    "delta_mcc_by_label_model.csv": "ef924f4c265255656fbaf61cc3423287c341f887e802ee454f35e11fd51d9441",
+    "completion_summary.txt": "0731019798b2aca07571d35ea413820adc8f8e6c20bc20953ebd5e413e2ca7e8",
+    "preservation_snapshot.json": "58fdf669bc370c35813f66623ea1268387effc9c86135959f2ca75037078929f",
+    "verify_continuation.py": "687150f324ee75c3480fde025e8014887c69bb031b70e5909beda7aa4018df36",
+    "resume_supervisor.py": "68ef705b9bcde89b20a120ab480442924374291a7aa3b077e3f776b89282c632"
+  },
+  "preserved_files_verified": 2818
+}

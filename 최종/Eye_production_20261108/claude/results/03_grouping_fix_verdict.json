@@ -1,0 +1,10 @@
+{
+  "delta_MCC": -0.01420473239024328,
+  "seed_variation_reference": 0.024,
+  "decision": "중간 구간: 제공된 기준으로 확정 불가",
+  "evaluation_rows": 673,
+  "existing_evaluation_pool": 606,
+  "augmentation_rows_in_cv": 67,
+  "limitation": "1판과 동일 조건의 그룹화 민감도 비교임. 증강 67행이 CV 평가에 포함되므로 production train-only 검증을 대체하지 못함.",
+  "cache_warning": "00~02 및 04~11 기존 JSON은 1판 그룹화 결과이며 2판으로 재계산되지 않았음."
+}

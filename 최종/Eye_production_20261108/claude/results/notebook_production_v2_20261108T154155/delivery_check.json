@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-08T15:43:08.905696+09:00",
+  "status": "passed",
+  "notebook_sha256": "b4ab76d57a4d5f9b7f6d0081aeeda4fca662a4ecc577a6f477adaaa95f0e8d5a",
+  "original_notebook_unchanged": true,
+  "original_input_sha256": {
+    "C:\\Users\\DS\\COS\\최종\\production데이터\\eye_vectorized.csv": "811268d4813fcdd68e85458641bf5823239cae04e1fa871766c77e04f0221e7f",
+    "C:\\Users\\DS\\COS\\최종\\production데이터\\skin_vectorized.csv": "2f9e521ab5576955ecac46761669cb423f85b4394e6dd2d902c2617e9614ed82"
+  },
+  "new_code_cells_executed": 5,
+  "rendered_tables": 5,
+  "embedded_plots": 1,
+  "plot_visually_checked": true,
+  "nbformat_validation": "passed",
+  "ruff": "passed",
+  "new_training_performed": false,
+  "github_upload_performed": false
+}

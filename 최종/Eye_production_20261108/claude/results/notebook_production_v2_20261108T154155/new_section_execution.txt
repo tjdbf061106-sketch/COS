@@ -1,0 +1,25 @@
+검증된 run identity: f91f3c88787bec6be1bef4bbbfcb98b797e0d69c6fda8c9bd03d508661488f4b
+Eye 입력 SHA256: 811268d4813fcdd68e85458641bf5823239cae04e1fa871766c77e04f0221e7f
+최종 결과 4개 파일의 SHA256 일치. 파생 CSV는 checksum만 확인하며 CV 입력으로 읽지 않습니다.
+
+360개 outer checksum/분할 확인, 72개 OOF × 606행 coverage, 4개 성능지표 재집계 일치
+증강행의 outer 평가·inner validation·threshold calibration 포함: 0행
+validation/test 연결 그룹의 증강행이 해당 학습에서 제외됨을 확인했습니다.
+후보 7,200개 전체 완료는 기존 delivery_verification.json의 검증 기록입니다.
+이 절에서는 후보/모델을 학습하지 않았습니다.
+
+
+평균 ± 표본 표준편차(ddof=1), seed 42/202/777의 3개 값. Δ = 농도 − 기준.
+fold 평균/표준편차가 아니며, Δ 표준편차는 동일 seed의 차이 3개로 계산합니다.
+
+
+
+
+
+
+
+그룹화 2판 판정: 중간 구간: 제공된 기준으로 확정 불가
+이 표는 증강까지 평가에 포함한 673행 실험입니다. production 606행 결과와 섞지 않습니다.
+
+
+NOTEBOOK_VALIDATION_JSON={"augmentation_evaluated": 0, "heldout_group_leakage": false, "identity": "f91f3c88787bec6be1bef4bbbfcb98b797e0d69c6fda8c9bd03d508661488f4b", "new_full_cv_performed": false, "new_model_fits": 0, "oof_sets_verified": 72, "outer_records_verified": 360, "paired_deltas_match": true, "pipeline_tests_previously_passed": 28, "recomputed_metrics_match": true, "rows_per_oof_set": 606}

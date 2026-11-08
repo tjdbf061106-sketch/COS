@@ -1,0 +1,31 @@
+{
+  "edition": 2,
+  "round_decimals": 6,
+  "input_sha256": "811268d4813fcdd68e85458641bf5823239cae04e1fa871766c77e04f0221e7f",
+  "helper_sha256": "4e216faaadd10c31eff40b81f165808bb0bb6eb76a1857a462d9b838d23e8c41",
+  "rows": 673,
+  "features": 2265,
+  "seeds": [
+    42,
+    202,
+    777
+  ],
+  "models": [
+    "lr",
+    "rf",
+    "et",
+    "svm",
+    "xgb",
+    "lgbm"
+  ],
+  "grid_size": 6,
+  "rows_in_vectors_crossing_original_groups": 77,
+  "groups_original": 425,
+  "groups_merged": 396,
+  "roles": {
+    "existing_evaluation_pool": 606,
+    "augmentation_train_only": 67
+  },
+  "warning": "673 rows participate in CV including 67 augmentation rows; not a train-only production evaluation",
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]"
+}

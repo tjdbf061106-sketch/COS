@@ -1,0 +1,2956 @@
+[
+  {
+    "source_relative_path": "모델 실험/eye/claude/production_pipeline_v2.py",
+    "package_path": "claude/production_pipeline_v2.py",
+    "category": "code_and_protocol",
+    "sha256": "0a19718c0f47cc76ba5032fbcf29412132e1b3dc2d30e1dd29e5f65bf571a1a5",
+    "bytes": 23185
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/run_production_v2.py",
+    "package_path": "claude/run_production_v2.py",
+    "category": "code_and_protocol",
+    "sha256": "0be8bc2e14a430fdb32ffef63d5bc10e2369029732b5fd29ab661fe795e38085",
+    "bytes": 4298
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/concentration_features.py",
+    "package_path": "claude/concentration_features.py",
+    "category": "code_and_protocol",
+    "sha256": "39e6c2ece5a36c45b50b72f844534661bebb6a7a35b65b9975dd64189d1aba41",
+    "bytes": 2102
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/run_concentration_production.py",
+    "package_path": "claude/run_concentration_production.py",
+    "category": "code_and_protocol",
+    "sha256": "306380a35fea3a8ba72d964a7880fc4a4cfebeefb0e9518821842eab14ebf616",
+    "bytes": 14598
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/experiment_utils.py",
+    "package_path": "claude/experiment_utils.py",
+    "category": "code_and_protocol",
+    "sha256": "4e216faaadd10c31eff40b81f165808bb0bb6eb76a1857a462d9b838d23e8c41",
+    "bytes": 26114
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/test_production_pipeline_v2.py",
+    "package_path": "claude/test_production_pipeline_v2.py",
+    "category": "code_and_protocol",
+    "sha256": "7049b72b67c94d533ea28dbdd3b0c484086c5d2fd2383d223840538428986417",
+    "bytes": 18192
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/test_concentration_production.py",
+    "package_path": "claude/test_concentration_production.py",
+    "category": "code_and_protocol",
+    "sha256": "7ad4b5628a560bf25b3e566a440c948461928872ede027f4fd483581d9b2d2d4",
+    "bytes": 7399
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/test_grouping_v2.py",
+    "package_path": "claude/test_grouping_v2.py",
+    "category": "code_and_protocol",
+    "sha256": "b07d5d58c184699015a0f1107aec3802bea85b1ebb82b17e51a1a14a66cae9a1",
+    "bytes": 2154
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/verify_production_pipeline_v2.py",
+    "package_path": "claude/verify_production_pipeline_v2.py",
+    "category": "code_and_protocol",
+    "sha256": "fc3cc8ca9f68ae0f19ce8f9af9f5990ec5f2eb90b010dd382cdffb84868c57eb",
+    "bytes": 10818
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/compare_grouping_editions.py",
+    "package_path": "claude/compare_grouping_editions.py",
+    "category": "code_and_protocol",
+    "sha256": "8a30bea591446e13b253bc54a5ebdafb9d9e9029b205d2f0047a2bcf1087cef1",
+    "bytes": 3771
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/PRODUCTION_V2.txt",
+    "package_path": "claude/PRODUCTION_V2.txt",
+    "category": "code_and_protocol",
+    "sha256": "37413941655e22b39a3f76dbdd5856d2948a860bd73200a51609e977d4fc0696",
+    "bytes": 6356
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/production_pipeline_audit.md",
+    "package_path": "claude/production_pipeline_audit.md",
+    "category": "code_and_protocol",
+    "sha256": "788e86e7db6fe353374aa818f083740e35149c2814b664bea3ee0a85122456e6",
+    "bytes": 9572
+  },
+  {
+    "source_relative_path": "production데이터/eye_vectorized.csv",
+    "package_path": "data/eye_vectorized_production_673.csv",
+    "category": "evaluation_input",
+    "sha256": "811268d4813fcdd68e85458641bf5823239cae04e1fa871766c77e04f0221e7f",
+    "bytes": 7870851
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/config.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/config.json",
+    "category": "production_results",
+    "sha256": "5eeaca066d1d68020eaa59389283c24044efaa11a259d92bf787f8ffef64d0a9",
+    "bytes": 282276
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/metrics.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/metrics.json",
+    "category": "production_results",
+    "sha256": "cba705db305248fd49eb0998f07b759f2b28583ef99c26ef8bfae7bec3ab8f04",
+    "bytes": 29962
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/paired_comparison.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/paired_comparison.json",
+    "category": "production_results",
+    "sha256": "e9f9347a2920b09c5c9814d8d74e8e6245c1adc04e313b07a6e15c117512147f",
+    "bytes": 5511
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/export_manifest.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/export_manifest.json",
+    "category": "production_results",
+    "sha256": "07f6cc54180def53999c9f6e14fb8baedd8e6768067331f333b9ac9272c1731b",
+    "bytes": 30507
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/eye_vectorized_concentration.csv",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/eye_vectorized_concentration.csv",
+    "category": "production_results",
+    "sha256": "3dcee8618f07caade1ba105b206c8488d6781978b46ad21bab7a0f2d85759473",
+    "bytes": 7897391
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "63f848a85e91c8e010c4392ca83ab114b3f56c4254d528b1a8969779b1dce0d4",
+    "bytes": 9416
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cbd636c650e81cb054e625e551b8f3c88a5abc7261f35c932854203b1e9736de",
+    "bytes": 9375
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "df2f0c93035fab1ef5a504cf90bc175f885e78b3c452485ea57f86b03d8d45cc",
+    "bytes": 9400
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "9d57b82d282e43f6d55bd694246d196a3b6279decba9e0497313f022cbb334fd",
+    "bytes": 9435
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3243b30f2c98fd71331c4743117696cc9311e4a2bbdcdb7f2cd10c79c2663e61",
+    "bytes": 9395
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4f1651fe1fba887a1a03fc333bd11b6856343c2385569a00c91c6824e241f7da",
+    "bytes": 9437
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "07473a2eb621a1a139de06b2416aa864d9b2d969bb2f07c9f3266407b8f267ae",
+    "bytes": 9395
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "032b60f4b115e44523b9adfb34353f4a00b0156c19d3404ecc1250317a597889",
+    "bytes": 9380
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d7f3c368b757fcfec3bd7587ebe3af35e609e031732bcef96e8061a3025b87bb",
+    "bytes": 9411
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f317db8c46cd880cce0feb6434eec3ae93955ac25f47b9c33fd27d6d9ccb45af",
+    "bytes": 9411
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f757eb29e4f67dc3b7008c818692264612a8bb1a9b2ed29eb614eac0cfbfb29d",
+    "bytes": 9397
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "109299664f7c12b8be090d2753061de184a362fc24451f4474376166cdf0bb4e",
+    "bytes": 9409
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "06366d0166ec0a0c9bf798dca58ca75513221c56bc6bc6ef99f4c92f1f00d351",
+    "bytes": 9447
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d6c5b90acb7e8b3ae2fcdab3d49add958f242ea6f52a97237dfc01c5bbf0c75e",
+    "bytes": 9371
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/et/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1f929c40033068797ae2f91aadfb4f119798a46dc482102d1a3ae9c3bf672e6b",
+    "bytes": 9411
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "18c1f7466b1b04f84044e311f461b78824793495fc9e9085e0bf9e14272af8ea",
+    "bytes": 9562
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a233998f7390c8655ebe93f30a7cd0756d85648968575218f5ade4430e79fe39",
+    "bytes": 9439
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "bb9bc65c41947313504984f0f66a762016e18ff9af6f59e40e25173c8dc3d344",
+    "bytes": 9579
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0d134fffbe1b1ba52e17bdd35be8c2ba63217bc7f1444365e42e5f20e5ab2d16",
+    "bytes": 9480
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c5cffb4f92252623148d4160116c43dda7f3b61535959c82ab6cea3bf7734a5c",
+    "bytes": 9601
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c7db17acda554283a3822897f831468376a7d7dc0b26f54ab0f941759fa63b21",
+    "bytes": 9562
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "341de8d574ba6e1fcba866b863e27d170999cde821b935aac72a7b1f0aa40445",
+    "bytes": 9555
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "32ac0e0ea57171eb24c2aa124cceb88903bbeef481468fdbbe23bbd0dfe6798c",
+    "bytes": 9438
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7aab7785d1e1848e38e2752aec998e22e18938727fbc3a3e71a35fe66218e79a",
+    "bytes": 9438
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5122902c3e18b913d9725a4ed5557fdc69d4b2a4a53b705e5ab461ed30f87360",
+    "bytes": 9418
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6778df8824952d4ddc5ba6f9c4850e16f583d7723874737e3752b767dcdc8fd7",
+    "bytes": 9511
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cfb4551c757184dfca9f11e5e4686883e48dc527f1a6e639c8d9b8e1207f61af",
+    "bytes": 9586
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "140244a2c39d18ac54541c091a2e6d1aee6c4944ddac93c5faef5a660b3fcf45",
+    "bytes": 9484
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a612f5989d1efe3a57fa2af10cd88a7be7d1c00eb30a01f6627293c3c87ffdea",
+    "bytes": 9416
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lgbm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "16151bfa85e2b6d4f0c5fdb789ba6160aa50969430f8eb53ee6f64db1aa28598",
+    "bytes": 9475
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "21ca6ff381b630b6ce684eff927d911ad3681ace4b8bfa8af4d7cd4c128256e2",
+    "bytes": 9371
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "55e343f112f977801e3a4bce25b47588303a680d2e34ea14c924f4acb09babc5",
+    "bytes": 9340
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "58542fa73a890943875a5b8d6651d059b68ac522833f28ea33e9947fe19637c3",
+    "bytes": 9362
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "efe5e83db20458fed927e2ca4f3149e5854617d5d6ea8ab57d1f22eef105202d",
+    "bytes": 9416
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "63468de9b535eb52a447ccb495a519c1594eda98f01787aa6aeac5ef3863c018",
+    "bytes": 9384
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2adc56db956a346c787cfd9ae7ca69c1dd8f6f6755bc02e285e6cf62eef7742f",
+    "bytes": 9380
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7e02ada11515c6515e8eed3b367b01d123b05c75a403c1d311c4f9cfd408b4a6",
+    "bytes": 9392
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "987f88d512a3376616cbb1838a4593a99cd67966dc81559ce6911623a5b164a3",
+    "bytes": 9373
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3b272526c987fdc3042bb5964e8cb14be4d35f795d9c4ed8d3fa6061a4b16425",
+    "bytes": 9376
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "09665aa86a4d7d29acaa65146302fdb2ddc8245e987d7a51e2590efc4021f6bf",
+    "bytes": 9323
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1a28b5f74933eea14eed734c00f00b7cac9e7a8c0d32bf6be57e1bf1a5e03397",
+    "bytes": 9383
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b91d611f1b8b1c7edc3d184bfcc6767c3c95d1ce1e17486aa3be4d131fabd1cd",
+    "bytes": 9392
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b660811b09092c79a9d48633b318d5382311519a3f744a4a5df011aa08a4740b",
+    "bytes": 9378
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "27d1b60778d2ce367fdaed78a545f3acc69c42bb7afccb990040248bda5d674a",
+    "bytes": 9355
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/lr/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4072ee8f762df9f6862060ad153f0df279e374fc178406fb1b27273d4dc28678",
+    "bytes": 9366
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0d15240cfb8041cd7377f9efcd2197c0e2112d25d08223a6c87e0807c1fed21d",
+    "bytes": 9409
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8223dae7ed513051ab9f21fe48cda6f241a37caff6f33c51c2ffed8dba612199",
+    "bytes": 9330
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2be35d7f4fca20aecb8c4eb78b89892ce667c18f9389bf703130addce7a8a8bf",
+    "bytes": 9397
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "40178ccbc3dd37eeba0a3108bb39cdd4158307da8cb8591853cf8f4c1f5861fa",
+    "bytes": 9438
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4d2d3afcfa57cac62ba5ba21a2640a8de021d2efa7dd5b3e204cbdd6cad99c42",
+    "bytes": 9375
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "422da28577caf28645f9ff4c28c2fe2a096a1dd977012f1b9dd777ca9269ad77",
+    "bytes": 9417
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d56afcb216aa4ad62f44aebc7eaa9e08bf424db5bfa2073709a5670f3d03f790",
+    "bytes": 9400
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "577bc0e2ff7daea128ace095127df70e08fb502adc8f2cf8dc7f0ae87b3c5d84",
+    "bytes": 9385
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "89c2a7b4c348e037193677a1088b8bbe870813ea77ddb1dc3a8d25fb4821ba95",
+    "bytes": 9420
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6cef2852f903a9546bdd82ab49497254a29c4bd75ca21ddaeac18fd5ccea380a",
+    "bytes": 9412
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "eeff48075145b8289edd036d0e0e138094a9c7c503a705dac86f4956f0d91cb2",
+    "bytes": 9399
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "be34e1d11f6be6b48c1cf69d067fb14141cfeddbe391c4ab93319fa27c15ac1d",
+    "bytes": 9433
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e9ae7c2bf3b9113ccc0793eb8499c5db85bfec506c76a94b41115455309ad988",
+    "bytes": 9410
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d03089ec40fa341358a4b4f5fa17944077e6f38cd31d97562260c0daac4a1057",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/rf/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "df5e0bf54e4334b23d6d513cae7b7f56a66360df6ccbe6f9901528dda5fb3aad",
+    "bytes": 9410
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "83e250fa040f562a545d87d6171250b670ea2c975f14029b3588a140c6ac6a8f",
+    "bytes": 9449
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "dc63a46a6147e22cb7f6ae8fe2b63849faf3b4cffed4f64cc88db9d3632bf545",
+    "bytes": 9410
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "500a1a843496dbf6fa382e76d9697ee1faeae1eaedfbc820618bd08d37053c48",
+    "bytes": 9454
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "951224c842af4d2d0dd66c6bf814d91b17ae6f7c44d9c394f8e3026bc12de0f3",
+    "bytes": 9497
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e86f0e2be31a3df6e9777c6801faedb517d0843d001b1e0d6fa309f0fb2b7ec0",
+    "bytes": 9465
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "06848889b02f17fb15c0b15d22d696e2512d81e366734b6a9494cb5b52783295",
+    "bytes": 9452
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "15cf456f4f8e965d15aca3dd52451c6fec68aaa320aa3823f682f910b2a0d8cf",
+    "bytes": 9466
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "665f2244b8955f3256b3a26cba2f1d851950c947c6c558354d12cfd08b73a905",
+    "bytes": 9452
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ca5ee9d1747f3b89d427975be03168e0f5f8ea29e2f6d02129ea9892ef933720",
+    "bytes": 9334
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "28b11b46edd3ec9c25387388164b7c79f7f00cbfdba1285a516cead51807a23d",
+    "bytes": 9429
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e0af7affeaf22463e85f0bcc900f8a372a4b68199f61a2125b882000d22383b9",
+    "bytes": 9337
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d85c2171b0c2c4ad089768b2f2217970b352d7f5233af7e0170a7a88a3b86356",
+    "bytes": 9497
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7882448e658d792b5933322fb02521c412561b797d61e5df73c3c697c7db2eff",
+    "bytes": 9471
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "98a5cb7a3842989c868f30687899b9f0df6581ce03ff5bde56e9fafde3e23e88",
+    "bytes": 9414
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/svm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5fb117358770fd50b4d5526294966efb1b026d5d647ed59e7d7131e571d184b1",
+    "bytes": 9460
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5e6dd914067bcd0ef0e32213cb3f0128bc6ed4b200337aa2917aae2a382508fb",
+    "bytes": 9545
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ea00b7674332dd0f1caaa10658109e23e67cd46218a8cb8f42a668e62a37a68f",
+    "bytes": 9430
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c75d22447bd71e7ed7baae650511df0f7b4efaef7e81219e289a7deada5625e7",
+    "bytes": 9386
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b13f51336e584797f00bbb83c40835274a97a73d1abc6b240d4042a3f8eae105",
+    "bytes": 9432
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "85303a885e9a1ceee39d1308279dcfd7734359e457b7ae3835ef4c036a9c587f",
+    "bytes": 9364
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "71ccd7bc3ddd114f52b3c6199335c989b5521fc89f7ca2acf17e4cb034ebe5a5",
+    "bytes": 9403
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a13b6013f2b4c85b2daa4db59a951feb0a39a822fce76d0d561835b5aaacb396",
+    "bytes": 9466
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "46e9f004828b272160843601a3bbbd6b11ac04764bfab397ab963977aed322e7",
+    "bytes": 9387
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f6c8ec3c8d37f8c91a24f8a87821909efc65298a36e2de860ca0a0b11d3921eb",
+    "bytes": 9408
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "fa269f9ceae9f63bea52e7c71e740ca87d4e6b8d9d65fa2716d7a6fb70da5452",
+    "bytes": 9355
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "afb9a9a8105e425b4f6ae0118bd1037a5ef4b8040399241f82c5f03194a33192",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7a0043276e43ad26573a66074a2f6af90b2f64157b4a4c67398ad0e971cc5712",
+    "bytes": 9451
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b68922bb3df829af1f662edf834ab1ab3e25bd8937536ca1af80a81b2b110e1e",
+    "bytes": 9456
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a5e77302716d2d6cbcfb92f4201761b99509b81b0409ac578660b30e8dce17e8",
+    "bytes": 9365
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/A/xgb/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "143a7fb213fc4bc6db6bf235c21f16bf0ee7c74b466627c31dcde40d67904ee4",
+    "bytes": 9403
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "07d1f6db875f8cbfc7b93e740d9ba1992fa7e6b61a3b2daa2bdfe305a705fb15",
+    "bytes": 9382
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7fa010ac86b758cbdcf04012d3c33c0baf2faf580e796ae9fd6a3923d3d6ad4e",
+    "bytes": 9354
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3849463029aea3e59c38888750ca233bd37fe3467810ee39128055f6c1f82075",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "205dc55d42a2ebe236c8bd4501cbe6bc4940e90a9c77ff71912cf2e2a736990f",
+    "bytes": 9399
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1b322141d1287dc2a40531a49a636810250dee579d82d179b7e881c56d387475",
+    "bytes": 9384
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3e12156cc8f1c91c000ca58f16e076778580ce80fe4fe4b6fb3a424e21361af7",
+    "bytes": 9375
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "38ae8f78de286493bf5440b8031c1094d77773ed4d95c0be57b3c9380a1e307d",
+    "bytes": 9396
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "84e1668364835b88cb9f4836a8712e271426fd36e930da3ab02aca2e7fcc35ac",
+    "bytes": 9339
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c844ecabcb5f042be4aa6b8b80e5d557b6171f0ff85f43a26ec68123481e6ec3",
+    "bytes": 9378
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d666d0da0f4535587fbcd24588d5da70808c243adaebba9333b89da901c2b170",
+    "bytes": 9385
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5d0d5df724d65d0f10013ad3663dd6b360febddb1d7d437016e1aa4207aba59f",
+    "bytes": 9366
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "71cf94d8ad977bbebb4b5a414bc8049eb2c4c8490cd912cf2591bd19b987acf5",
+    "bytes": 9401
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "76a14a03cde9fa7d50a6d513dfbbcfc094223b560cc6252386e592fe6928d98d",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "285a4039b06d1db676f710362b5356858442245c8a18731c17f81fbb013ca80e",
+    "bytes": 9360
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/et/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "847d98f25f405fd24730dbf6daa2fdc1265bc3e73e043c83a49e9f0ec3c37bc1",
+    "bytes": 9375
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e3f791c8a2a11518fc5259b3efa0793f16e1c03cdb92e4a08e36133161ccaea2",
+    "bytes": 9406
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6834f895a6fe153291d90d7fd5c7e4443622dd282c6bc05c152586956bcb4945",
+    "bytes": 9342
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cadb88bb5d929edbeffc873158f54830d2d71de51ff2aeba447f49171d5be802",
+    "bytes": 9357
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "59a6e1a5d7c9f39af478c12a3dc9b4d333edc50c6f89aa98e467d754f64c374d",
+    "bytes": 9393
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "346262589d7a030d88f4220acbc0b8f184aa7427cc81ce8519cd88b412be6d3b",
+    "bytes": 9387
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "10600ff4d24bb9f89784879b4e8e863b3ca9188da367112f8b3e40f93e048406",
+    "bytes": 9340
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b091c6363afd6c8085728a3a1dd6228967ad9ecb9bf4d5bcb823ecb7fa3c283c",
+    "bytes": 9375
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "bcd4c95ed0859af84a7749245bb1cffed461fba9ee6d8670f6ffb8fdaa1bee57",
+    "bytes": 9353
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a6aa1a999f82130e66ee2832f396be1b32e63289523a3d486dc22934ee4fe78e",
+    "bytes": 9366
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7b4ae180ba4a95cf7259baaa3d30dc4968a6d033a05dadd5cab2a354bfaaa908",
+    "bytes": 9369
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b4d7af9ebcd06953e2fbab6bba14ca40e90ecf8374a2c1f4d3d4f9db595b129f",
+    "bytes": 9348
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "69664971c078987b88b939e16a982ccd5feec14f3957fc5a86eebe363eaf9d43",
+    "bytes": 9385
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7cb3c7e0354010fcb1ddcc65be41e5691ec9bf6837e942bfd3d0cb0a1bc6e901",
+    "bytes": 9357
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e586f5ee22c41334deef136184e36118c0a107754ea443516ff7563eff2e216f",
+    "bytes": 9349
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lgbm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3b687ee8b7ed4e42e1bbcd81bffe73b532e209dd91b875233715df80f2bc4a85",
+    "bytes": 9378
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "168483427a8b216e5a66788fd2a6a1e70e2ef41254cd3cd00a56e84f98e292da",
+    "bytes": 9335
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "600ecedfd3fe762584a95f7714fa8902f17bdb0ce9f49df0d063f63096652989",
+    "bytes": 9315
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2b0f48d462282420e925ac6f1d6167ff1d9b4efca20abb539840b3870ef2e88b",
+    "bytes": 9356
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4fb073c9f5d4bf2ffea28f5880c952d63a0de071cebba8cf95921591d3d24d6c",
+    "bytes": 9391
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f60d3be46a5afdb98a7f70b3aab822b4ab8b5fdfabfcc26d82fb6c82d545743c",
+    "bytes": 9364
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c2315e68da8615cc3572ef48c81789fd03340821ba3d67751ae606f977a76361",
+    "bytes": 9364
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "dea0e0be01f9c5a4568999f869954c557fc35be963b6c8e1dfcfc011fe32aadd",
+    "bytes": 9362
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "452703d788b50542412dd811bfde6270c559190107b56ccb3fd3c907b95740bd",
+    "bytes": 9327
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e8acbf95c3063cf57c6339847867bb342b048e085a0cdf5e31575adeac92cc22",
+    "bytes": 9372
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "eaedfbcc71a0042a918818d00ad7e866030b737b64e5cb4be01513ecb5c8accc",
+    "bytes": 9339
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1afaa9da5f4f8cdc988c7773ff9524e84deee52ca48dd6ba4414ad999178a1d5",
+    "bytes": 9353
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5b1c7d540d708719fac8633cd8f2fe7dd31e3b3455489f3be2cf5ae1531c8496",
+    "bytes": 9366
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b4ce46f82011c7b41b67141921d89e0a003fefb016e54fa929dd631ee3150908",
+    "bytes": 9362
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f8974225fea5925e40875ada172cda85515f9dc9feff039794c79b719efad72b",
+    "bytes": 9331
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/lr/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "adc5b1c3440e50fd10a497a968a96b574656864de69c0476a9346244fe0d69b6",
+    "bytes": 9360
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "10d5c8b7c5726aef56f9fa735d8b7651be8f5f38e6f695108ed817da45f2b906",
+    "bytes": 9370
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3d7b1bc01c1da9fb67e6ca554639b66bcedd140191dca5b0d498c149a3d08456",
+    "bytes": 9370
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b3130d7e5195ad36067d7fffd1410af9795d25dc2ccc25d7819b8df11f7bb938",
+    "bytes": 9396
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a62b324c81e71e2a39bffb842b49a99e4a1d69d2891a1a78c11ddb58d7309538",
+    "bytes": 9398
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "854bb63148414d6d7905280cfc318eb4b4153065a02b28d053831acdde2a017a",
+    "bytes": 9372
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "12fd4fb1e8a9a7e91dc928567dab2317c377b2743bc1e38e912e997c2ba07086",
+    "bytes": 9388
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a59caf36474bbc755f527a0b5af055206c88a4df227189894e51dec6a2d40f88",
+    "bytes": 9383
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d03e4839964b74273d7e2bcaff8169f4dda8ea2237e55c2c5ee01664e0afb9e2",
+    "bytes": 9351
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b65614d41e5b04501ad662de571f08b13ffdb892ebcf71da26f1d0c2fa75f760",
+    "bytes": 9376
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "efd2fe972aea58c15a464b7af1847ad4ed545a3bb341461333209348d068f714",
+    "bytes": 9354
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ba15c2bfe661bb605337759605436209a606fcca89e73e17cbc01ea18b8f6143",
+    "bytes": 9373
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "896475cf80c28353ca6eacc3874e6e14437b3f73fe5bce81d7c782004374a32c",
+    "bytes": 9414
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1c046d2c233649d41e74b0bcbe8adfde4edfc2a8ae603b23c7f6422de6630262",
+    "bytes": 9384
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0fce4a8f0bdd1be776c2c4cc81e9f9a51a251de31a5ec8de03d3d01a2017d4c3",
+    "bytes": 9352
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/rf/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d955a816c56d77592297fcbebf700eb142a8db850348a864a7d187904d250317",
+    "bytes": 9362
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cbaaea4d1bc1b1c59e7c8829bb994ddfd8d770d82a9f51393b3f910dd4156f60",
+    "bytes": 9423
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1b0785ecd2310c101353f3d8eb6c5dcbe7d93cabe4c5296586d7fbab8afeb560",
+    "bytes": 9384
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0cbf33ac5cf8f651839d0efcffe92c2eb658833ac4698b32ca7cf9e030ad6508",
+    "bytes": 9455
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8635e8739b740e0331ef5f91277f447ef3fb15a5961e3e14a90705e2d5b5c6b1",
+    "bytes": 9442
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6154dcf5606689789f9b9f994d1ef3dcf25055cdece4d12d1d0e9501129e3cea",
+    "bytes": 9461
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c6d2734f2caa70ecfcfac187ad23be998979ebd942eeb6f69d502fcb1a71610a",
+    "bytes": 9466
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ca74c033766c2f8c4a18cdd475aaf771388539ddcd4d8324df23b5432436e0fa",
+    "bytes": 9463
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f14ac9bc0afd7a834132d12ca1773f60e4f6722b2d6f986cce73034a1c433f50",
+    "bytes": 9399
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "9cb69c8dbc70cee5510de552d4f5625ccc545a56838354c05aa1b98b69c437de",
+    "bytes": 9427
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7b2e50862f2e95aeea5f44c06d46a4998c1c23744646b2718ec14973f88eb2c6",
+    "bytes": 9399
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "284e027743d7085b149226ec455d0431202e8e7270bbe1ad2bf38eb22c8797ed",
+    "bytes": 9459
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "9573272d0a18ba7ea772edb7e87c653f8f467db97e7f2366073e5d58be0593f0",
+    "bytes": 9412
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cf59c9ed3ebf6c63bbd36d19c1b4664ddee4f3d95b40f2a1db2056eb1c1b95f1",
+    "bytes": 9450
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "77442230bb14b5d07d96170b42d0089c3e1a68cf6d9523f3c5bc0a307dec507b",
+    "bytes": 9373
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/svm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "613276c3a82f939fa96b833fb86e7966b74d816bc05155bddc13244519032183",
+    "bytes": 9435
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "aa4b3c0935eed5c43dcc1fea879b3e3780cf39bbcddc7d047a0b34da37497428",
+    "bytes": 9375
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ce97fe50111180af03db44f860717f4f9bef33ef40447fdea2e86588b8f727bd",
+    "bytes": 9351
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "910f24991a85bed1d0b81d21b2427e890c75bc7dd00915fadde7711ba6902913",
+    "bytes": 9357
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8d5383faa9d7a0c227e04b3ec3d7aadcba07735d5f5f533b0e3d6286578402f6",
+    "bytes": 9384
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4b074e28e20a944d0df0998c74bab7fe35b1d7f7ae92d6d899641af6ed24a014",
+    "bytes": 9342
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5347e8b8b67ef6a14c5472b3c11fcfb5132a596606bc416d489eef7c1a9ec0be",
+    "bytes": 9367
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "884a937a7f60d76c9ef4a6846414aa0d8408ec7542cbe31fd27a0eedfe2cbba7",
+    "bytes": 9384
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "16814720f1279dd3a8a273568f0797c166d277838efd7c9e5db1761de4c484d4",
+    "bytes": 9351
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cd52d4d6bf3f2e26131739d15125032e3c364816266d8c7683b315d9821a6ea9",
+    "bytes": 9356
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "17c3effc7a4957f6b8192fce7bf36761c2b328899506a56896bcd4189d90f079",
+    "bytes": 9362
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "facbf42d3c597c4d9f0dd77bb5cf9a0a3404e3858f1a515d97a5fae55b4946f8",
+    "bytes": 9355
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7469c93ef87b9007df8113a9ee9722e9390838ca7f862b4983122851afeef5b5",
+    "bytes": 9369
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ba11e868ec0895784c7ca4eaecf0ed7d5e9b271a78b6688374bbfaf2e90f3710",
+    "bytes": 9350
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ea26ac270ca846c607fe52d6f480f596728e18176e0e0e964f910d46648ab498",
+    "bytes": 9333
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/baseline/B/xgb/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b9f88be49d5ff84f4403500f3ba5934e31b6df087c8083340b4555b28ce9df0f",
+    "bytes": 9341
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8cda447d13daba7765d5e88503f6ace071c467f30b552779d75eb844a95a26cc",
+    "bytes": 9412
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c933505c5461306578eb2bbe7f82fb9446c75a38a6aee89690f026d2a58b95f6",
+    "bytes": 9382
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "04c308f1e58bccc8cd2932c70b1d61601ac0f244118f81f6162a6dd4465da18e",
+    "bytes": 9424
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8c1217b53574af415999d3215c9ceb54ed8db35bf193a5d5c1ccc08a797e738c",
+    "bytes": 9460
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f015730797df5be77c442da867d83b9a57de3f63f07275988550571e7b8813e5",
+    "bytes": 9429
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "00e993fb592090eb7bd8325abd5baaa6e0b02a345ac3bb95b05b594fa3a19fb0",
+    "bytes": 9442
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "691ebc76a735a9fb161e24826dc3f816b7804a79256bcdb79a25378c1441e162",
+    "bytes": 9412
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2edf3a40f9bceee30257eb5678829f30a0fd76fa0c99b7588f71604a23397165",
+    "bytes": 9380
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6c96b698a986a376dcb1fb970e045348bcdebcd1a06d1cfbb4cd4e068774dd22",
+    "bytes": 9441
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d32586a554c2a91d523c7d4d5ef1c02c732743911fff0a8fd2bb8a71e24d2419",
+    "bytes": 9411
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "12a41b5e868179a51db18dc58f5f9d93a3742dad9bf90c6786f9791c35a25507",
+    "bytes": 9409
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5e32ecfa64a5ae215fdc8abbeaed3ddba456549782d2358a33ba5f53142a166d",
+    "bytes": 9444
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "98ffb1b1d650194b8d4cdb48913f073a735757787eae37b41d5c5f81605215d6",
+    "bytes": 9456
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a139e39ccbcccd1ac2626c7087883ade62c31747d2ec8a3811d5d394f5e770c0",
+    "bytes": 9392
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/et/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b96c0d5a2a7493fcc9b945162576ab2f5fccbd8f49fdb7e79e56fe879730d720",
+    "bytes": 9438
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b9635cdb6ce0fa601053a944d65cb1ecff7cef06b1585688ccf07af165c19b7e",
+    "bytes": 9429
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b74f211e009584cc62ff68abe603695798502d04d48c7f97c806045de61a598e",
+    "bytes": 9614
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6d189eb84f0a4a3708d083a197f82835a039909cecfd4fcc4383b969769a72da",
+    "bytes": 9445
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "23279dcded71dd2f539464e08a6e9ab1fc426854114ca3c8c74b1853aa58cf74",
+    "bytes": 9720
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4bf0bcd11e0c2c04784e34b0c9535ed493526374f411a498829fd88da9b0b06e",
+    "bytes": 9575
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c25f171551cdd605b3991714d4ae3d2aeb10e4c8106c25fdd58b0640e43632ff",
+    "bytes": 9450
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e3e3cc8462fd5441f5dd3f27e06c5b824a0cbf8c9b3b097873494c621a08a6b7",
+    "bytes": 9667
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "dcc4634e4216f83ef92693bd0b70db8c7b3f6bc9905930849e368f403b885ff3",
+    "bytes": 9409
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "bea8fb2f7ae66d0cebfb47dbab385345a02508473155007e0cd332a13449144f",
+    "bytes": 9505
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3bbe9e7c5517911a964559de6430a1f32006b4d4d324d5298720c7fcd16a910f",
+    "bytes": 9406
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f136a687a6bb7296719da4d6bd9cdc0b3c97355cd5ac632dcccee1a0514ea459",
+    "bytes": 9639
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "367c2ff3b6c8d38a2219cf302baa0ba34a105ab48ecd720a43b70b81126629f3",
+    "bytes": 9658
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2533f1ea6bc47b2c5f36af5beec9cc48f5b50f18101dd625fdf0d6c44723bf27",
+    "bytes": 9442
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "042cbe2fcddb850af8a64725c78b95359e74f54051c60f544e2429690adc59b7",
+    "bytes": 9446
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lgbm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "78a649869a01b9992ec4e93d9ceda1cbbf3d0efc34143a327661df52f2057975",
+    "bytes": 9666
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8779d8e07f80004cad19dc23fe1fa596d82880d48dbbcb4eee29181dbf37bf9c",
+    "bytes": 9381
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2c64caab52e7951e6c9768c759fe2a60f1457ef30736b6abe560532e68b0f6d4",
+    "bytes": 9358
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f763002d0fabe7f8acd8d3a9e405be5bf82773c4cc11219d0efa9cd07af99168",
+    "bytes": 9370
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6cdc65bd811105ab4e29c972bfaaf5d11992bdcf2a9723cf64400a84f595388a",
+    "bytes": 9444
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a9b0976bf60ebb45692956dd71a5ca36a75ec96a5f31e32b4039905dfdd75e7c",
+    "bytes": 9387
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ab2ecb22c7db2c4f38d7b403a7d993e14d4a675d2d322272334ef1ac45116cad",
+    "bytes": 9386
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8bb010172c33b7b552501305b66d35675fe2c6a8e8bc56ed2c398db933f576cc",
+    "bytes": 9380
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0a38eff31d43d3674432337fc14d434da98a99c5566abadfe381deee90a530ec",
+    "bytes": 9365
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5d6085e3be91111d509514bd62a84294f63d5ed7d5a3646895a876b2a62aa215",
+    "bytes": 9414
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4f3daf9269f7e3642a1ec7ad75bcb8341aa59f1c1d1764a57335ac83c356d5ec",
+    "bytes": 9366
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8ef20e368ed9ede86fc74b441e7fffab08e854d08a0c45adedce178c1da25dd1",
+    "bytes": 9378
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7a8e5e25a6f3c674db83c4e297f96e14c3a3c3bc7ea5bb7563f33266fed9a9c4",
+    "bytes": 9397
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "9d977f25d5dec922e8eac15681e244de4f7e4222ceb7db7f68e26cf12e33b120",
+    "bytes": 9377
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0b86bbd10ff073505cc30f961bf7a788504a23f4fdfffb2f6659d8042c804fd1",
+    "bytes": 9368
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/lr/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "65bbdb38786e3d82f0874b5c997e79741af08a1ea06972c6b7ec629df8953e14",
+    "bytes": 9401
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "57e0ecb23132ac967c8cec406fe6cbebba47f3162d04961a3f334c7b7a089ffb",
+    "bytes": 8240
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1b7e66981a6164d207d65ecb633450770971040c7389d69f6197847e479421fb",
+    "bytes": 8608
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "594f6939e125f8d86f97dc49aa68ac6c23a1ba9e41b45f32a9b8b10e6d555ca3",
+    "bytes": 9417
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3de96431abd3f176ec78d8514ab70ab1b201ada7826bebecaec8d9357dc8b7cc",
+    "bytes": 9476
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e2c1a1c903a979fa557b514a56d382fd834fb2bed2736aa21dc141a94eb26edf",
+    "bytes": 9414
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8b79a46bc63f28a8df3d576df2b106bd06f440c633281915bd981ddb38cd593f",
+    "bytes": 9437
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "11d07477d0aab5930a83b4041cea57f957f9424e43b7bbd993d4b6e11a71d554",
+    "bytes": 9428
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b5609cce5c85f7364b59f1b2c0549a565b925937a0a5cfe1017dfa41b5fc5aaa",
+    "bytes": 9388
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "53ed5129054847ec32242bb50b01dcbde61daf5770479bd55fe99a49b5de876d",
+    "bytes": 9442
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ec030900b00858fb8332ecae2c15af6840e94604ae2795cd5ac8114e2fdaaeb6",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b33fe2210919589a09442401523845ebd6d700689bb4665e51b3ac2280e612f1",
+    "bytes": 9414
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0bd83b25260c63d17d6225ea6c9a267557ff14e10b40209a836b5987c8b5ef82",
+    "bytes": 9428
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4f3466a50f5a2ce725ac6f550ddd6981181bd804a32605aa4891db5d3fb35f67",
+    "bytes": 9412
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "948f9368893d99ac124002d3c1b1a562fb9bc8efb2c2c97dd5920e2054dc45be",
+    "bytes": 9406
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/rf/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "79c2016dd84c2c7a71d8ef49f737d4f24a858ae6801ee729311a25992d6fd1b5",
+    "bytes": 9455
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "aebaaa12e91ef6b737e7e0988816ef3514715b680626566f46da2a9acfe8547d",
+    "bytes": 9456
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cff5b9cd5f673209bc6afa04a9a02792a46a06983f3ec70ec71ceae100908d86",
+    "bytes": 9414
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b36541bdf19272462922f4ceec0ce7a30ca754efa54cf0ce4a2a0812c9abb0f4",
+    "bytes": 9452
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "da8d2325e61d7a90cb290cde4e1b65750353e25ea2fc12d322f8704f31e0b400",
+    "bytes": 9530
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "58efb0b2aac1ffb1e8ee4d292d13dba7a01681cf666d54bfe0aad11c25e8d3e2",
+    "bytes": 9489
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2607318d952eb62fa5ec664868fcdf55736acca83befa45731cc02c7d256b485",
+    "bytes": 9454
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0606bec7a59d0adc9f71a9a0349f081c4725df0e17ca1b25793018a159665e4e",
+    "bytes": 9474
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "afbeac5f0e6bd50a52dc211eab710c64385c9f4e5ca74a9e280917b2953d6a82",
+    "bytes": 9451
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c1929c3043520971a8370dd686610af5b52c5874c98f68add38de28241cfbde9",
+    "bytes": 9377
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3fcb816578a6bcbd302179a2e723e5932e54406e1184d4e2c618ff78d0e0a734",
+    "bytes": 9440
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "086137d770ed5d0b8a6cc3bd2d4290b6a1289564cf89de621319f53181fa9e88",
+    "bytes": 9336
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "9867c523acdfaf33f59d0e49d26ce3c01e443e94287dc2fec17eee1243a66c93",
+    "bytes": 9508
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "aa0bfce743e9dc284e877f2a819ac8cd65ee9cdd311f3fa8867c634b553e6293",
+    "bytes": 9484
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6096cdcdb80e76ab02720b006cb437a96bf236d6bef8918a58c2f3f2af9f0f0e",
+    "bytes": 9435
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/svm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "89af8a5d2b423c99ab25b1e7e9fb417cd6f51c81320e8275a9445c8fefdd86a9",
+    "bytes": 9485
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "da4e127803014871e7f35776a00ade6cd03c9b1ba46542d13ac80ec1261ddf64",
+    "bytes": 9461
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c7b3fc29c9579f9dcd1513131adbbaaa99166c6625addffe6a67d9360f23a9b7",
+    "bytes": 9404
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "50681510cae0c8f4ade3d086a157b81b9a017dbf0a581b35fa94538a3610d105",
+    "bytes": 9394
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "371d4b3b2ffe5a2f53f1c1a6fff1b481e00677c4b4e76f78e7af55b2e03d4e0c",
+    "bytes": 9430
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f7442fee471b81359abc867c7dae3489f398dd67ffb70346e752a54bf06184b2",
+    "bytes": 9407
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c9ae0c85b29731a977359f05111c86502163724a293065584187ec58ca0fc25d",
+    "bytes": 9478
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "47be07af666de43e70de8b0c24becc5e92c3ed9b6393784baf3d4ed8d260ee90",
+    "bytes": 9459
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2d08cdad5d100fffc22456cd9accc7405a329f0c30741c6540ffdf29c96dc5cb",
+    "bytes": 9415
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "88a0514f2cae1aa09eb8c21267caceb9f82223c4d01c3e01a2035472c5c1878f",
+    "bytes": 9413
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c10b78cafad2e757dbdf428b3619462fda916deabc40ae5e049d23438f50f2c0",
+    "bytes": 9372
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "8fc189f73a2f658d11b23cd6b81d23ff6455680d8c2e625f5c34a2ef059e7f33",
+    "bytes": 9439
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c7953fcdedf2f048407634fd4e83cbcc9b80d204b1769adaa22f2374a8b2d91c",
+    "bytes": 9512
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "93d33ba08423c1f67e4bd8be04da8c4c523f61710ebb62fdd2db873e33591140",
+    "bytes": 9400
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "20245f7e8704681af4ebf5857eeb713645dfa4b3e22f1353a07bea14d372f5d0",
+    "bytes": 9507
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/A/xgb/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d2b50da9735f0b81250840651762edc3bea8ef7d84a65654ab69326d0c6035e2",
+    "bytes": 9509
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ec584a7b639895bf061532b98579603fa86e81e5db3a34e23d89d5710c58960b",
+    "bytes": 9383
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6e1b90b996bc811d13adf2eb6da0a9191d4dc749ec60daa4bd6e79db7b784995",
+    "bytes": 9362
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2bb310edc8a04a0a2c2c8dd11b0a4062539940ac4f46926a77fcb703da0964a6",
+    "bytes": 8539
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "657a562ba353b153eb2638a09c7d3fbd5e13694a50257ef72a977df035f9ca10",
+    "bytes": 9418
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d4c224a131308f90d4ae90d445219e38ea5f25e039412debb6127ab5d274cfe6",
+    "bytes": 9398
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b7665ca604f56d24527ba6f83f64635938c4de31449b168d62ab6d890bb285c6",
+    "bytes": 9400
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "eb62fb17a7aa8adb0f179964e0dcd3dbf0929b1f1a455616f5fd61a9872eca93",
+    "bytes": 9389
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "11e5be181b87b0d163fb6dde702cce4abc7bb4a7583bd9c9a25f61e43721d26d",
+    "bytes": 9371
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "32ddd88949daa039286011d2f177d1232627124a55c6be6b5408938bf75b526b",
+    "bytes": 9408
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e617ac80b6359b5241204d7d6c524811f00786b7f435d5c3182d3415c403b306",
+    "bytes": 9391
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "397110540f1f36316f67a17a08b99141500014ee2b9cd237dba33e3d526862f2",
+    "bytes": 9383
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "7d380e6b8a0d4f5581034ad29d9d03f39f06979601bc32e778e3e451ee6952d4",
+    "bytes": 9407
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "52d77ce594954428d5326de274515b9c6f312127787e8782d1a6a7ffd2ca6d1c",
+    "bytes": 9386
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "489269897a4e323de0983d3964e54a815670d38881409fd4616023b4372b7dab",
+    "bytes": 9368
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/et/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "796e850abd9a0534bed50f115a7aa9682807a8c967ec9ebe5b436db68f717553",
+    "bytes": 9396
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c95b094c494b8ba3ec16acb25e22ca528056a653b00fb5f58f2ae26cb767940c",
+    "bytes": 9404
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "37894ddf6942c52330719ec36722ce36871b539b19995be7af4bea345a45e88e",
+    "bytes": 9359
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "629a49ba0493c948942303852ac2af565d36432b625ec2417c028c6b001e89aa",
+    "bytes": 9365
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a23a288c3ed31a0a5ea98467aa34abc6742eb075bda95a05d1d8b582ba29feda",
+    "bytes": 9407
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "52713d39804428f915cecb76e93e5bbc5517cfe95a453017acdb8a70b209ca2c",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3c3b86201596b43b05c89bfaed6886a4fbd8a8b106724ae50a2804b9c735b7c6",
+    "bytes": 9381
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "63572c91365cc2e16aec4df959eaba9f180c906e86fa0e6140ea2241eb99f106",
+    "bytes": 9409
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a14f66a8ce0269687efa2eef828c88fce1d4d1eca392ac53c14722012c44d5b3",
+    "bytes": 9347
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a2222738e4e2ed2549f48ab89ed50fc373db409915577ce7c94e1aa8a5d33404",
+    "bytes": 9401
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3bd1d118d380b5274b2af6c9a10900ee3bf68f0e157c6e6bce5487a6a4d7a65c",
+    "bytes": 9352
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b7918a9958f8c3dfe5043ddb01b57f600e33c51e09ca31e070403b913e30e75d",
+    "bytes": 9368
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "438ad16489a25d477ec13e403eac04352646e50e68dc12c436372eef65cd0d01",
+    "bytes": 9408
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "780354d93be36fdb3196df17805b027348f2eee9348ffbb387c808d371208470",
+    "bytes": 9400
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6d44a27ca7e992016db55b29583bfc61136d265f68381577b72b1ae776005af2",
+    "bytes": 9350
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lgbm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "17d99df14862c89d57d18674c974a68e1bdc5578e156f804b87ad8f5d0e9ae28",
+    "bytes": 9370
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1f691050af1c2b48374d8b1ff0cb3ceec8d5dfc934d022886e4e719a36610ad5",
+    "bytes": 9352
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "02358482236c1f5b1b9b1c691a0db23fe7c46e0fa92d24d5a532c31e4de0be9d",
+    "bytes": 9330
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a35196c342dc996566f65061ee467ed82dcb777160f2d288657820747c554f07",
+    "bytes": 9368
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3b22bdf59d4049c997cf9a967386fe669c27ce5a3052ab0513ec8baf9b93a139",
+    "bytes": 9402
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "65d836c8042197332892afa28b76cf2e8fb641968506abf2679317218cbf5a81",
+    "bytes": 9374
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ef68aba1efc14a4946b0e7c2f871e89d3f5e716dd8a009009792a76ec68a8e1b",
+    "bytes": 9361
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5efd04d04de5562cbfcde31a0a2fa89dcbc5bff786765bac502c0c95fe57b539",
+    "bytes": 9375
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "66db4c14a973c2348802b02ecdd5c870bef29083c28c43b86f5ddb208151f02f",
+    "bytes": 9337
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "fc9db433e195a02a54fa07de7404e27eac62e291b385ad81bb9894232ca253d7",
+    "bytes": 9391
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b277ba10005bb082d3226b9c6ddc5daacb0fa1f65603772c34afc606682a69aa",
+    "bytes": 9344
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "ddb9b69b4c6bf5f4d971816540848f9834d72aef0a1016ff1188cd148654ce0d",
+    "bytes": 9358
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6aebe517ee6091fbd644b4a3736823c085bd2052d5f34ca845b3697c6d09a2dd",
+    "bytes": 9371
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "880eda7fce1582c8bfeeda7da4ecbd93075ee02e56ccae3ea38cf71f22b1fed2",
+    "bytes": 9364
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3cdaf046277377c04e195f51604070960ff8eb67eeed6de25d7fb448a643874a",
+    "bytes": 9342
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/lr/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6baa83dba5cb0a9ab10152c33e7fad7bda5b660478fb4d2a49454817f62372d0",
+    "bytes": 9371
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "a602c5f71a041be7f727311453ce26b5977be1ae0da495b59c804cef5c3b7197",
+    "bytes": 9384
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "db56b9919f9cfd81f48e7658c9f8b8fa40410d8ce8dee781ffb1ba84d3188e7d",
+    "bytes": 9359
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "82a3cd94313d3d552ee8d2355f636adb3469910a83b2041f9ad2777390e76a65",
+    "bytes": 8245
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "4c99930041d12259c66fc19aee8b9a1da69f9cfd3b20058a2ce0810dc3936151",
+    "bytes": 9429
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f75dcb90c65b93420d04eaaf5f249d7f99c83f4d8745d62bc003ce6faa30f3db",
+    "bytes": 9402
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1dfc524f7e10deddd9a3722f772871b2d98d7d98345fd32fd5201e12fd780ac4",
+    "bytes": 9383
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "2fbe9dc6456594a7a9d35cfd85a80501cd12bf15fd66094a02e962895af8804d",
+    "bytes": 9321
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "e505d8b6d4f10abd8fc16428a1460d40f3515fe84524e524de63695f63c07634",
+    "bytes": 9373
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "772d32185b5cbc2672f192f5f4256a900115cba98f0c813f996d97d908d6b37b",
+    "bytes": 9413
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3276956ce4b8cce48259f9b57a1418d5e3f9a39d9e632bc365ee22e86c74f4a1",
+    "bytes": 9382
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f891bb1a945d5bc3e6077c91c4583d2cedd5cf0ff591edbebe09d64afe3b8f84",
+    "bytes": 9369
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "24848edd7cd89d469dce42392b3dce1389db0410d2c386949f4d43a50ba01bf0",
+    "bytes": 9402
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d838e0ea95052afe7f114f0cd635b55e90444a5861df1218b305951a03be07d8",
+    "bytes": 9392
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "cf99b90010ee297c36de1f19af5acf22e11557cdfbe914d2120e9a26e35e3acb",
+    "bytes": 9373
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/rf/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0bb636f8c356d88ea8c6246e92a95b66cf20ce6163e5d96f99c95c908ee0cd6d",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "360ca09dc2ec75827db421fab70a33016815933e4b1498360088d2325b7ea79d",
+    "bytes": 9422
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "95695680d3466553e87e64c5491bfa607ea47db1afb3401b77437c52f8762ebf",
+    "bytes": 9390
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "425fd6018a142915567de69227a5ba3171f232e87d39ea9a20e607249f9cbc25",
+    "bytes": 9466
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5c2ed5e9d61daae9e88b2ed7702b849e8329470a53d245ab4a4bd2eb8de3b109",
+    "bytes": 9478
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "bc39fff45c7cb39487f85b8bd54fbf1c18bcadc2d91034148c5782d66cc0ea41",
+    "bytes": 9485
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "171e3222fd325f70b18609d2c06c4cabe4078d1271b12062349c8055283e9d4f",
+    "bytes": 9465
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "42c7dce5ba9eb712207b193d1a2ee544c0d229bac28dac2b64a2bae5b2f4ee09",
+    "bytes": 9463
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f763002a3f132eea818d181fcb8c83c2b8e49e9d7670774b867910995556701b",
+    "bytes": 9413
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "9e2c6661e62447397c76fd5e900afb0bf39e5e0f397e5243362a83ef62ca4c56",
+    "bytes": 9446
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "552b18821115816695a0cadfc013cccbcc86eec243c185943faed453ac5d0800",
+    "bytes": 9415
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "abd91cc7fb2a12eee8ff213bfad1b0290832f0ea0e670d7ac8df7c933c64b39d",
+    "bytes": 9463
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "80b5dd2afca6eec248f9f16e16bfa0f329bc7c0c60b7b5ad5379fe4774e4d78e",
+    "bytes": 9406
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f6337e6252261d0ff08de188fb95b04533c98e8cd2091c1683a20e1fa7876e8c",
+    "bytes": 9457
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "bf81afeb16059f7f864d6009ac20a3caf88b17f556fd1c498504662620bdef95",
+    "bytes": 9368
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/svm/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "c419054794bbf130d7e7c24e864a6ea9ad8d3afb5ce8bf0474a6cccb38fa8d2f",
+    "bytes": 9463
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d6cf4082fb29002ecb40b74cde7d86985fcb9ba42f74e93c237d54c75587d062",
+    "bytes": 9388
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5e864fb31285c6170f7888093719b86088ada96a5fd54ec1403e302014f6f559",
+    "bytes": 9359
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5165fa9a467561f6b0ef7e93a41f5ea06e134687a9b73fa8f9fba060646c7755",
+    "bytes": 9371
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "08eca47b05b29df460837983d8d4a78054727785302e985b24ffa2484fce88e2",
+    "bytes": 9411
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/202/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b044cc6c9b6d3deede05ee17335f598be3272303c443b6116d75f79e6676db8f",
+    "bytes": 9385
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "6ae6f82df559bfaa0e824b85582455196d72a829dc29a2237180028689c24ebc",
+    "bytes": 9367
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "f6d07f6691b311ce576ac45585a9ab06089802922b40e93e3b8db1cae712a37d",
+    "bytes": 9400
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "23be33f36cfb68845150628ea95beda351ee49bd9edf9caa2150bb5d875b1e82",
+    "bytes": 9353
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "421b0d00342837434d87447f44b87e72c3a2ea5e9d1581250ff334097f600f95",
+    "bytes": 9393
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/42/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "b9896e9c7acd089552c6ffc348283e781f93f2e5c6befe623063f064471eb2ab",
+    "bytes": 9335
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-0/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-0/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "3f4355dd623c3c8f0cd01f462d1ac7ba980953c6dfa9d72350506947aa3c335b",
+    "bytes": 9341
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-1/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-1/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "1dfa25395c6b30a663de725a1f4e1c52a68a3d68acddf5c8bd9ab79f32376d94",
+    "bytes": 9383
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-2/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-2/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "5f60eb141e01668459d5fabc8670dd9d57b265cbb03b3d8b04a3556f5e78cf9b",
+    "bytes": 9389
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-3/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-3/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "0b52bb6cb27b21c3b0c0b59b72029e008895260b6612418ed7c61beec9999999",
+    "bytes": 9337
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-4/outer.json",
+    "package_path": "claude/results/concentration_production/f91f3c88787bec6b/concentration/B/xgb/777/fold-4/outer.json",
+    "category": "outer_oof_evidence",
+    "sha256": "d34d3a17da3d89d65c7bbfa9814fa4298d42fa470266d70e76e5758f7b182e0c",
+    "bytes": 9369
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/03_grouping_fix.json",
+    "package_path": "claude/results/03_grouping_fix.json",
+    "category": "grouping_versions",
+    "sha256": "39a4f0cbc6fbcf50b4fc11b47f050b7222a4de13a953bfc7198753c7004cdd6b",
+    "bytes": 49741
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/03_grouping_fix_v1.json",
+    "package_path": "claude/results/03_grouping_fix_v1.json",
+    "category": "grouping_versions",
+    "sha256": "3da06927a541ab384c8681b2c45643a16a66a9cc5b365d2c1818f11a0db0fb4f",
+    "bytes": 49640
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/03_grouping_fix_edition_comparison.csv",
+    "package_path": "claude/results/03_grouping_fix_edition_comparison.csv",
+    "category": "grouping_versions",
+    "sha256": "739a89297e1baa6e4895feb05bd89ca73b6c9bd4645e69e028dd0d5aba869aa0",
+    "bytes": 488
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/03_grouping_fix_paired_comparison.csv",
+    "package_path": "claude/results/03_grouping_fix_paired_comparison.csv",
+    "category": "grouping_versions",
+    "sha256": "e90b66fe299dbb037a285f90e5bebe3fca0d2319c4898afedb780704ce3bd36d",
+    "bytes": 39027
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/03_grouping_fix_verdict.json",
+    "package_path": "claude/results/03_grouping_fix_verdict.json",
+    "category": "grouping_versions",
+    "sha256": "9989e0011df2913dbf8112eefca2e7e6b34d3313e73234e737918ab084a426d5",
+    "bytes": 540
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/03_grouping_fix_v2_manifest.json",
+    "package_path": "claude/results/03_grouping_fix_v2_manifest.json",
+    "category": "grouping_versions",
+    "sha256": "595e932fc739a0aae6bd257331e785654cd84f071b2bd4723ebfee672e392bbe",
+    "bytes": 836
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/continuation_20261108T111518/completion_summary.txt",
+    "package_path": "claude/results/continuation_20261108T111518/completion_summary.txt",
+    "category": "verification",
+    "sha256": "0731019798b2aca07571d35ea413820adc8f8e6c20bc20953ebd5e413e2ca7e8",
+    "bytes": 2015
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/continuation_20261108T111518/delta_mcc_by_label_model.csv",
+    "package_path": "claude/results/continuation_20261108T111518/delta_mcc_by_label_model.csv",
+    "category": "verification",
+    "sha256": "ef924f4c265255656fbaf61cc3423287c341f887e802ee454f35e11fd51d9441",
+    "bytes": 1707
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/continuation_20261108T111518/final_verification.json",
+    "package_path": "claude/results/continuation_20261108T111518/final_verification.json",
+    "category": "verification",
+    "sha256": "db06d59452b08baad4e738e7cf67b77cf50190ddc8fa61b676edf4e0682d0d4f",
+    "bytes": 23664
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/continuation_20261108T111518/delivery_verification.json",
+    "package_path": "claude/results/continuation_20261108T111518/delivery_verification.json",
+    "category": "verification",
+    "sha256": "a1aba85e9942972c036940959b41726c82508334eb154e9c3bcfedf6e25836d1",
+    "bytes": 1325
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/continuation_20261108T111518/completion_manifest.json",
+    "package_path": "claude/results/continuation_20261108T111518/completion_manifest.json",
+    "category": "verification",
+    "sha256": "fee4c2e2dd8ce6e564f9d71c61e48c82a0f7769a69eacbb479b2bf6416e96865",
+    "bytes": 1286
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/pipeline_v2_20261108T144904/delivery_manifest.json",
+    "package_path": "claude/results/pipeline_v2_20261108T144904/delivery_manifest.json",
+    "category": "verification",
+    "sha256": "c8c2a7501ee89fc9a7abf1cc3551c5f18db1eb141f795c472d2d026b60cf8254",
+    "bytes": 4139
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/pipeline_v2_20261108T144904/regression_tests.log",
+    "package_path": "claude/results/pipeline_v2_20261108T144904/regression_tests.log",
+    "category": "verification",
+    "sha256": "e86fe8bfe72211dc5b7b663fe2302c7ac61581b465e31e5b479ca61f80f91991",
+    "bytes": 6715
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/pipeline_v2_20261108T144904/integration/verification.json",
+    "package_path": "claude/results/pipeline_v2_20261108T144904/integration/verification.json",
+    "category": "verification",
+    "sha256": "18b8f92113e36bd3528687622b5ed970b4fc8a58dcacbacefed597df6b8cb85a",
+    "bytes": 5210
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/eye_claude_experiments.ipynb",
+    "package_path": "claude/eye_claude_experiments.ipynb",
+    "category": "historical_experiments",
+    "sha256": "59b15a24b4c156c84b7c536bc1e5ef9c15e8eba98115c0c7ff9805e6e68ba1cb",
+    "bytes": 331724
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/build_notebook.py",
+    "package_path": "claude/build_notebook.py",
+    "category": "historical_experiments",
+    "sha256": "85d5273bce52bda8a1889c980fc94075f91657544f98b091c81ffd87e905eb2d",
+    "bytes": 19327
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/build_part3.py",
+    "package_path": "claude/build_part3.py",
+    "category": "historical_experiments",
+    "sha256": "6ec110d99590c71a14110aabdc62508a13a97d90f3084940a3d773cdb6e64870",
+    "bytes": 16427
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/build_part4.py",
+    "package_path": "claude/build_part4.py",
+    "category": "historical_experiments",
+    "sha256": "74b343642b34ef8659c840b0317447c7c4868166cf198981464c1b750b8e08ef",
+    "bytes": 14684
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/run_experiments.py",
+    "package_path": "claude/run_experiments.py",
+    "category": "historical_experiments",
+    "sha256": "14ed00d46b775818bd0093a6676b2ea49dc3db1034e0e91bc863210832dfaff1",
+    "bytes": 6686
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/run_advanced.py",
+    "package_path": "claude/run_advanced.py",
+    "category": "historical_experiments",
+    "sha256": "d8abd681f32737cbb9e5ed0b35cc537658ec4d1832ec6fe1876a8869f6f3e36d",
+    "bytes": 7559
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/run_concentration.py",
+    "package_path": "claude/run_concentration.py",
+    "category": "historical_experiments",
+    "sha256": "7c4e5c8d64209c707330cf84c8a8626257dacd761f4957ce05c107b64c33e70e",
+    "bytes": 5007
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/advanced_utils.py",
+    "package_path": "claude/advanced_utils.py",
+    "category": "historical_experiments",
+    "sha256": "6cbfe03b22835541401acd8b8ec3549c90ba94a1e2caf514f25875482702ecd6",
+    "bytes": 16458
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/00_diagnostics.json",
+    "package_path": "claude/results/00_diagnostics.json",
+    "category": "historical_results",
+    "sha256": "b2b0509e76ab8fe7ab3fe023d823a73cf19a9f3fcc14293ae2dcbea612136e24",
+    "bytes": 2656
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/01_ceiling.json",
+    "package_path": "claude/results/01_ceiling.json",
+    "category": "historical_results",
+    "sha256": "6b18c7be6c52523483832b095c01e4cde1f20e5c95186060c21714a00963b9b9",
+    "bytes": 672
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/02_ensemble_saved_oof.json",
+    "package_path": "claude/results/02_ensemble_saved_oof.json",
+    "category": "historical_results",
+    "sha256": "91908225b3b9e78d113c79a93c44ed6768ce048448339ab56c0dd4d9229dad78",
+    "bytes": 5829
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/04_ordinal.json",
+    "package_path": "claude/results/04_ordinal.json",
+    "category": "historical_results",
+    "sha256": "72b2bb030fe7362f6903a77cdf87404d3dcb6060b2e13b39955137374333b85c",
+    "bytes": 20614
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/05_worst_actor.json",
+    "package_path": "claude/results/05_worst_actor.json",
+    "category": "historical_results",
+    "sha256": "0c386fd8219fdc3a83c5147cbada6554c87b6f40c55b4badeb3f7f15b99bf093",
+    "bytes": 16528
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/05_worst_actor_coverage.json",
+    "package_path": "claude/results/05_worst_actor_coverage.json",
+    "category": "historical_results",
+    "sha256": "28a7182c644d7d3d22739f8df5dc9a9b4f77603051b398c1b3aa4049ad88c871",
+    "bytes": 110
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/06_representations.json",
+    "package_path": "claude/results/06_representations.json",
+    "category": "historical_results",
+    "sha256": "b047bcc763ebc1179db15acbac7174c29fdd49496f41309064575f26c181d027",
+    "bytes": 51594
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/07_combined_representation.json",
+    "package_path": "claude/results/07_combined_representation.json",
+    "category": "historical_results",
+    "sha256": "08e26a29372a1b3ca640008f197b95aee65fafa9fa37849836c9c072b9977f66",
+    "bytes": 16843
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/07_coverage.json",
+    "package_path": "claude/results/07_coverage.json",
+    "category": "historical_results",
+    "sha256": "c7f7c34d3906ca863b9af1696ad8d94dd35789096aa89bfc66a4a27fde094d61",
+    "bytes": 100
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/08_calibration.json",
+    "package_path": "claude/results/08_calibration.json",
+    "category": "historical_results",
+    "sha256": "0fdb2f81891f79e39061a3fd9ec9d4fde6e2097462192fa5018e0ff52b7c3752",
+    "bytes": 36469
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/10_cross_ensemble.json",
+    "package_path": "claude/results/10_cross_ensemble.json",
+    "category": "historical_results",
+    "sha256": "5eabad931d982e4df673efaab499bd9651c0b277fbed83ddc3755d0207309a59",
+    "bytes": 18538
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/10_oof_pool.json",
+    "package_path": "claude/results/10_oof_pool.json",
+    "category": "historical_results",
+    "sha256": "88efe2ff6be63bda393c99793116fa9894ed3764007872764b0b0fb1162a3aae",
+    "bytes": 423849
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/11_concentration.json",
+    "package_path": "claude/results/11_concentration.json",
+    "category": "historical_results",
+    "sha256": "ff4159dab9d1e10a71a8f09a0e171e1babb056d5e61a82890b018cb7449d3a0a",
+    "bytes": 43074
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/11_meta.json",
+    "package_path": "claude/results/11_meta.json",
+    "category": "historical_results",
+    "sha256": "5ae9cc93ab0ff6920d9b5f5985c10a521d73e7b4941b55e11b134852266637d6",
+    "bytes": 789
+  },
+  {
+    "source_relative_path": "모델 실험/eye/eye_all_experiments.ipynb",
+    "package_path": "eye_all_experiments.ipynb",
+    "category": "notebook",
+    "sha256": "9812021adbbbf73f29904ee67750a3845465875172cd91b0ee702f344661ce38",
+    "bytes": 637743
+  },
+  {
+    "source_relative_path": "모델 실험/eye/eye_all_experiments_v2.ipynb",
+    "package_path": "eye_all_experiments_v2.ipynb",
+    "category": "notebook",
+    "sha256": "b4ab76d57a4d5f9b7f6d0081aeeda4fca662a4ecc577a6f477adaaa95f0e8d5a",
+    "bytes": 759015
+  },
+  {
+    "source_relative_path": "모델 실험/eye/build_eye_all_experiments_v2.py",
+    "package_path": "build_eye_all_experiments_v2.py",
+    "category": "notebook",
+    "sha256": "4097b5a2e7f1eea807ceb8f336df4d048d8deb94303d3dc772010b6164c18e67",
+    "bytes": 29034
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/notebook_production_v2_20261108T154155/completion_manifest.json",
+    "package_path": "claude/results/notebook_production_v2_20261108T154155/completion_manifest.json",
+    "category": "notebook_verification",
+    "sha256": "a16b5027890c4c8afe6744bf8becce2b115dab620784252eab51435cf00eabba",
+    "bytes": 1572
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/notebook_production_v2_20261108T154155/delivery_check.json",
+    "package_path": "claude/results/notebook_production_v2_20261108T154155/delivery_check.json",
+    "category": "notebook_verification",
+    "sha256": "8ea2fe6af222ed2299b771a7d9b26eee10fbfb69dca81218b4923ee01595cc02",
+    "bytes": 771
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/notebook_production_v2_20261108T154155/new_section_execution.txt",
+    "package_path": "claude/results/notebook_production_v2_20261108T154155/new_section_execution.txt",
+    "category": "notebook_verification",
+    "sha256": "5edebef2f8358bc15a47695293dd006cbab85beee0d38c76810aada0e063f9dc",
+    "bytes": 1537
+  },
+  {
+    "source_relative_path": "모델 실험/eye/claude/results/notebook_production_v2_20261108T154155/delta_mcc_plot.png",
+    "package_path": "claude/results/notebook_production_v2_20261108T154155/delta_mcc_plot.png",
+    "category": "notebook_verification",
+    "sha256": "adeda5a4cb129dac3d2feeafa7f3006f31b0b6014141a9cae6d98a6eb8a4df60",
+    "bytes": 46771
+  },
+  {
+    "source_relative_path": "label 조합 변경/EPA/epa_experiment_utils.py",
+    "package_path": "claude/epa_experiment_utils.py",
+    "category": "shared_epa_source_snapshot",
+    "sha256": "cdb667c3184dd62a6759ca95ad821621802e533353ce031bcea889b1fdc077ed",
+    "bytes": 33101
+  }
+]

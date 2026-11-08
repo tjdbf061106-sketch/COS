@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-08T14:38:40.094145+09:00",
+  "identity": "f91f3c88787bec6be1bef4bbbfcb98b797e0d69c6fda8c9bd03d508661488f4b",
+  "status": "delivery_verified",
+  "final_artifacts_sha256": {
+    "metrics.json": "cba705db305248fd49eb0998f07b759f2b28583ef99c26ef8bfae7bec3ab8f04",
+    "paired_comparison.json": "e9f9347a2920b09c5c9814d8d74e8e6245c1adc04e313b07a6e15c117512147f",
+    "eye_vectorized_concentration.csv": "3dcee8618f07caade1ba105b206c8488d6781978b46ad21bab7a0f2d85759473",
+    "export_manifest.json": "07f6cc54180def53999c9f6e14fb8baedd8e6768067331f333b9ac9272c1731b"
+  },
+  "audit_artifact_hashes_verified": 6,
+  "outer_results": 360,
+  "candidate_results": 7200,
+  "oof_sets": 72,
+  "rows_per_oof_set": 606,
+  "augmentation_evaluated": 0,
+  "group_leakage": false,
+  "input_eye_sha256": "811268d4813fcdd68e85458641bf5823239cae04e1fa871766c77e04f0221e7f",
+  "input_skin_sha256": "2f9e521ab5576955ecac46761669cb423f85b4394e6dd2d902c2617e9614ed82",
+  "source_code_hashes_unchanged": true,
+  "preserved_files_verified": 2818,
+  "runner_exit_code": 0,
+  "training_and_supervisor_processes_remaining": [],
+  "derived_csv_usage": "Full-training only; not used for CV",
+  "production_model_deployed_or_replaced": false,
+  "skin_repeated_comparison": "not_run_missing_files_confirmed_by_user"
+}
