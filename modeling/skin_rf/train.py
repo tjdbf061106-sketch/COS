@@ -78,7 +78,10 @@ def main():
     parser.add_argument("--save-path", default="skin_rf_checkpoint.joblib")
     args = parser.parse_args()
 
-    ds = skin_dataset(args.skin_csv)
+    # 2026-11-08: official grid recheck(rf_et_aggregation_concentration_grid.py, nz20+balance_threshold+15rep
+    # group 5-fold)에서 RandomForest+wmean+resolved_pct가 라벨A(0.225, gap 0.018)/라벨B(0.263, gap 0.008)
+    # 둘 다 집계방식을 top으로 바꾸는 것보다 낫고 균형도 가장 좋게 나와 production 채택.
+    ds = skin_dataset(args.skin_csv, include_concentration=True)
     print(f"skin: {len(ds)}건, feature {ds.input_dim}차원")
 
     trainval_idx, test_idx = group_train_test_split(ds, args.test_size, args.seed)

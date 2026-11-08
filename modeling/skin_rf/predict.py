@@ -135,7 +135,9 @@ def aggregate_formulation(components, feature_cols):
     pct = np.array(pcts, dtype=float)
     desc_cols = [c for c in feature_cols if c.startswith("desc_")]
     fp_cols = [c for c in feature_cols if c.startswith("fp_w_")]
-    common_cols = [c for c in feature_cols if c not in desc_cols and c not in fp_cols]
+    # resolved_pct(2026-11-08부터 production feature)는 성분별 descriptor가 아니라 "구조를 읽은
+    # 성분들의 투입비율 합"(pct.sum())이라 따로 계산한다 — 가중평균 대상에서 빠진다.
+    common_cols = [c for c in feature_cols if c not in desc_cols and c not in fp_cols and c != "resolved_pct"]
 
     common_mat = np.array([[r[c] for c in common_cols] for r in rows])
     desc_mat = np.array([[r[c] for c in desc_cols] for r in rows])
@@ -148,6 +150,8 @@ def aggregate_formulation(components, feature_cols):
     full = dict(zip(common_cols, common_vec))
     full.update(dict(zip(desc_cols, desc_vec)))
     full.update(dict(zip(fp_cols, fp_vec)))
+    if "resolved_pct" in feature_cols:
+        full["resolved_pct"] = float(pct.sum())
 
     x = np.array([[full[c] for c in feature_cols]], dtype=np.float32)
     return x, skipped

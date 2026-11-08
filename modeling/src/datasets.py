@@ -95,10 +95,12 @@ def skin_dataset(csv_path=SKIN_CSV, include_concentration=False):
     # (comp_group_id를 서명 6자리로 정밀화 + 벡터해시에 resolved_pct를 포함해 재계산하니 고유 그룹
     # 463 -> 637로 증가 = 농도만 다른 제형들이 더 이상 같은 벡터로 뭉개지지 않음).
     # `include_concentration=True`로 `resolved_pct`(구조 해결 성분 % 합, 이미 CSV에 존재하던 컬럼)를
-    # feature에 추가하는 효과를 반복 group 5-fold(5seed)로 측정한 결과(skin_concentration_feature_effect.csv):
-    #   overall ΔMCC - 라벨A ExtraTrees +0.044 / RandomForest -0.020, 라벨B ExtraTrees +0.016 / RandomForest -0.001
-    # ExtraTrees는 일관되게 개선, 현재 production 모델인 RandomForest는 효과가 들쭉날쭉(0 근방) —
-    # 기본값은 False로 유지(기존 checkpoint 차원 호환성 보존). 세팅/생성스크립트/eval_concentration_feature_effect.py 참조.
+    # feature에 추가하는 효과를 공식 방법론(nz20 fold-내부 필터 + 균형threshold + 15반복 group 5-fold,
+    # `rf_feature_compare/rf_et_aggregation_concentration_grid.py`)으로 최종 검증함: RandomForest+wmean+resolved_pct가
+    # 라벨A MCC 0.225(gap 0.018) / 라벨B MCC 0.263(gap 0.008)로 16조합 중 가장 균형 좋고 높음(baseline 대비 라벨A +0.012,
+    # 라벨B +0.026). **production(`modeling/skin_rf`)은 2026-11-08부터 `include_concentration=True`로 전환됨** —
+    # 이 함수의 기본값은 다른 호출자(modeling/src 멀티태스크 NN harness 등, 아직 검증 안 됨) 호환성 보존용으로 False 유지.
+    # 세팅/진행상황.md 2026-11-08(4차) 참조.
     header = pd.read_csv(csv_path, nrows=0).columns
     expanded_cols = [c for c in header if c.startswith(("desc_", "fp_w_"))]
     feature_cols = SKIN_UNIQUE_COMMON_COLS + expanded_cols

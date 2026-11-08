@@ -24,7 +24,8 @@ def main():
     args = parser.parse_args()
 
     ckpt = joblib.load(args.checkpoint)
-    ds = skin_dataset(args.skin_csv)
+    # train.py와 동일한 feature 구성(2026-11-08부터 resolved_pct 포함)이어야 nz_filter_keep 마스크 길이가 맞음
+    ds = skin_dataset(args.skin_csv, include_concentration=True)
 
     X = ds.X[:, ckpt["nz_filter_keep"]]
     test_idx = ckpt["test_idx"]
