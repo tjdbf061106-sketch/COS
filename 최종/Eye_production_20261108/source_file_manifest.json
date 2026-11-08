@@ -2908,8 +2908,11 @@
     "source_relative_path": "모델 실험/eye/eye_all_experiments_v2.ipynb",
     "package_path": "eye_all_experiments_v2.ipynb",
     "category": "notebook",
-    "sha256": "b4ab76d57a4d5f9b7f6d0081aeeda4fca662a4ecc577a6f477adaaa95f0e8d5a",
-    "bytes": 759015
+    "sha256": "5d081226979f4ace75ae3ea6abdd4acb21614dd5546669310693f50e8685f017",
+    "bytes": 951515,
+    "source_sha256": "c21ad2f586323036ff7723cab3c630ee76652a8041efc09ca17b9bcb043d9998",
+    "copied_byte_identically": false,
+    "transformation": "Relative publication links/input path; tagged and executed external report cells"
   },
   {
     "source_relative_path": "모델 실험/eye/build_eye_all_experiments_v2.py",
@@ -2952,5 +2955,279 @@
     "category": "shared_epa_source_snapshot",
     "sha256": "cdb667c3184dd62a6759ca95ad821621802e533353ce031bcea889b1fdc077ed",
     "bytes": 33101
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/aux_features.npy",
+    "package_path": "외부학습/Eye_STopTox_20261108/aux_features.npy",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "76def042ed14286f3f5c41d2c3cc1afe3e75e9e19d2a6d961bbedf5dbc1b5ee3",
+    "bytes": 21664,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/baby_concentration_case_comparisons.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/baby_concentration_case_comparisons.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "d1df292f2624b060e736d3efb02bea125c7e75b35added963592347c554f4562",
+    "bytes": 3018,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/baby_supplier_case_comparisons.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/baby_supplier_case_comparisons.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "754313bfe2fb20cfb70eeffda8c99116d379c7f67cf69fed1f99bc57609bfa45",
+    "bytes": 1537,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/baby_table2_observation_audit.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/baby_table2_observation_audit.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "a9e7528c275fe595a9d7f840b492bfa8c67f3f76bd38375c5edb771c191ab3f1",
+    "bytes": 47909,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/baby_table3_observation_audit.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/baby_table3_observation_audit.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "c9b779535ad9d7d3936c446e8a242f5298407bc244dfba7665d257465c62f2e8",
+    "bytes": 3412,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/common.py",
+    "package_path": "외부학습/Eye_STopTox_20261108/common.py",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "f9e4854b903545ffc5c5ada4b2ea4043228e2259d0254f372e297a896c9fcf95",
+    "bytes": 1414,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/control_reuse_audit.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/control_reuse_audit.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "4efdc68e5baaf82a1554cb890f1234a7a0155e5d56dd1ed0c8e718c3b54e3c69",
+    "bytes": 22473,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/data_audit.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/data_audit.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "8ba765904c4b6402239f13f4c3854dae4e1f8a0f655e817b7896d8f4119012dc",
+    "bytes": 2719,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/descriptive_case_summary.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/descriptive_case_summary.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "df6bcb650c3e51e2d3811cc70b1d550621c9878bb1ac526185c0e4814248be02",
+    "bytes": 854,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/environment.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/environment.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "bc50376a6b42e379f20cdbd31b5b8be90420e4ebecf78e8eddc8ba39385ba67f",
+    "bytes": 447,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/external_validation_audit.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/external_validation_audit.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "f1210e1c47ccd3a22bb24f1c754eaabf8b5a5761e5f411608cb0ad2d04c398f8",
+    "bytes": 4381,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/iivs_table2_observation_audit.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/iivs_table2_observation_audit.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "9ae1d207ecbcf10d27269680495c01424393dc43184fbdaf0395d0e59a879a2c",
+    "bytes": 9308,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/metrics_by_seed.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/metrics_by_seed.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "fa7300962bc284c8c4835bc927d786d4234c8fc95f8914523f7d0deb53ce83d9",
+    "bytes": 7541,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/outer_oof_predictions.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/outer_oof_predictions.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "e984d7199590e4740b012601b0c2677f81a046f50cb7fafb4df6e10987ba8058",
+    "bytes": 2077125,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/package_checksums.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/package_checksums.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "e0c3cd40a2426be121068a212ce561bbe3e9f6263208a5e4ca60c338d28140e7",
+    "bytes": 3233,
+    "copied_byte_identically": false,
+    "source_sha256": "5e316dfc14f46030abc512029e0a7d2d21d7144b6183e55c0cc120b18ae8c1b6",
+    "transformation": "Manifest regenerated for selected publication artifacts"
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/paired_delta_by_seed.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/paired_delta_by_seed.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "13ca26b9caa298cfa2aade48ef7a1a4913df1ed7cd3a3596e0002f44053340e7",
+    "bytes": 1298,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/paired_delta_mcc.png",
+    "package_path": "외부학습/Eye_STopTox_20261108/paired_delta_mcc.png",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "61baed1b1a7f0a9f2b825e025439311166c83507ca09ffd4b2f5994077992743",
+    "bytes": 69385,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/paired_summary.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/paired_summary.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "6935c23dcc5ef8dfcadfc5b3988638dc253b12d30aad8019e4121118811af0db",
+    "bytes": 1178,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/preparation_verification.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/preparation_verification.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "56f77994b06c65ceec68502123442577a15c13d36585546835c04195ec04be68",
+    "bytes": 562,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/prepare.py",
+    "package_path": "외부학습/Eye_STopTox_20261108/prepare.py",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "08d23f14cff6f75b3201b30933672ded5a347d5cd93757f28c989e4dbccf0362",
+    "bytes": 18202,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/production_component_scores.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/production_component_scores.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "ef0d7ba9dd43da6d3d81711cffda8218cc1545ee557c30b94406e28c696f64ad",
+    "bytes": 355326,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/protocol.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/protocol.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "425c25122a027f42831e4d18a1aaac47ba3a0873a435ea686c593e4fd1f67252",
+    "bytes": 3081,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/run_config.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/run_config.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "832d619d0088ead1204276180c0ec7de94088a5e2720108dedd2cf9802be9965",
+    "bytes": 215114,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/run_transfer.py",
+    "package_path": "외부학습/Eye_STopTox_20261108/run_transfer.py",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "98e80ef2d6cdb15d6b5f89294c771a1a4ef4d466fb480f43aaff85183e4c7e6c",
+    "bytes": 9985,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/sources/stoptx_eye_training_table_s4.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/sources/stoptx_eye_training_table_s4.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "096f36d7224c1b2037193c29525595e2228ed11efdbf52f92a4785e6d71c8df5",
+    "bytes": 264301,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/stoptx_aux_training.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/stoptx_aux_training.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "c6f52b86b3eb69a4e75c68d9731ab7367a4a6a7f52b0a5591baa0d31fcfacdb1",
+    "bytes": 1099353,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/stoptx_identity_audit.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/stoptx_identity_audit.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "64803b84154d5c6ceec8bd9218b77fc72dd1ed712d123497a71faa1dd7f462ca",
+    "bytes": 1186757,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/stoptx_teacher.joblib",
+    "package_path": "외부학습/Eye_STopTox_20261108/stoptx_teacher.joblib",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "9feb84c1cb019bd852b3261fe6d86feeba11b3daad37fa85fd0c31bdb7c2eff6",
+    "bytes": 7047148,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/teacher_source_internal_metrics.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/teacher_source_internal_metrics.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "91fb3d714cc1a58f2e865ebb98eb57434431acae5fb2f85b5aecb64da2caa18b",
+    "bytes": 286,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/training_attrition_disjoint.csv",
+    "package_path": "외부학습/Eye_STopTox_20261108/training_attrition_disjoint.csv",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "cb688d457276ce5304cd66bc93c0fc376337470a28ed7c3304d2d85f331e43d1",
+    "bytes": 268,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/training_complete.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/training_complete.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "d1b92450eb1fecaee1b40d914f28fe156f5df3614bfaf6e276da58b8bbb90991",
+    "bytes": 282,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/verification.json",
+    "package_path": "외부학습/Eye_STopTox_20261108/verification.json",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "270c64eb1acb6fa83a848ced966b6593305274ff8519cf6fa7abf12339a97394",
+    "bytes": 597,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/verify_transfer.py",
+    "package_path": "외부학습/Eye_STopTox_20261108/verify_transfer.py",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "27bbade06dd07454bd62ae2d69275dd844a80bdcfd277a46ed2455dada32d3a7",
+    "bytes": 9649,
+    "copied_byte_identically": true
+  },
+  {
+    "source_relative_path": "외부학습/Eye_STopTox_20261108/검증체크포인트.zip",
+    "package_path": "외부학습/Eye_STopTox_20261108/검증체크포인트.zip",
+    "category": "external_auxiliary_learning_completed_artifact",
+    "sha256": "9e843c4195c9d5b67d08fa169b26652bdea1c673e6b9103d40a3b05fb2ad20b6",
+    "bytes": 10672942,
+    "copied_byte_identically": true
   }
 ]

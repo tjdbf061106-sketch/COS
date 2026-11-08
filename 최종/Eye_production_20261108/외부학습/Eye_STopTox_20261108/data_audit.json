@@ -1,0 +1,53 @@
+{
+  "production_rows": 673,
+  "evaluation_rows": 606,
+  "augmentation_train_only": 67,
+  "component_linked_rows": 673,
+  "common_evaluation_rows": 606,
+  "evaluation_excluded_rows": 0,
+  "component_fp_reconstruction_passed": true,
+  "stoptx_input_rows": 3545,
+  "exclusion_flag_counts_nonexclusive": {
+    "production_cas_overlap": 82,
+    "local_ice_cas_overlap": 171,
+    "production_canonical_overlap": 76,
+    "production_parent_overlap": 87,
+    "production_connectivity_overlap": 79,
+    "all_local_canonical_overlap": 186,
+    "all_local_parent_overlap": 222,
+    "all_local_connectivity_overlap": 192,
+    "provided_inchikey_overlap": 192
+  },
+  "excluded_overlap_union": 230,
+  "conflicting_parent_rows": 0,
+  "concordant_parent_duplicates_removed": 2,
+  "invalid_standardized_parent_rows": 1,
+  "known_uvcb_or_polymer_rows_nonexclusive": 20,
+  "identical_local_morgan_rows_nonexclusive": 260,
+  "excluded_union_all_reasons": 284,
+  "uvcb_screen_scope": "4353 Canada prioritized CAS inventory plus explicit OECD Canada record 68955-19-1. Absence from this inventory does NOT certify a pure discrete substance.",
+  "uvcb_inventory_sha256": "14c5c6c3ac1363d5a49c339ba64a54355150c10f8d41658af003984ce4550dfb",
+  "training_rows": 3261,
+  "training_label_counts": {
+    "0": 2279,
+    "1": 982
+  },
+  "unparseable_screening_structures": 1,
+  "stoptx_external_observed_rows": 15,
+  "stoptx_external_cas_in_local_ice": 15,
+  "stoptx_external_marked_training": 6,
+  "old_ice_unique_record_ids": 977,
+  "old_ice_record_ids_in_local": 977,
+  "study_linkage_status": "Table S4 has CASRN, SMILES, InChIKey, Call only; no original study identifiers. Study-level independence is NOT proven. Global CAS/structure exclusion is a conservative surrogate, not proof.",
+  "synonym_handling": "Known CAS plus canonical, neutral parent/no-stereo/tautomer, connectivity identity across local structures. Unresolved aliases/UVCBs cannot be fully matched.",
+  "production_evaluation_source_counts": {
+    "FIFRA data": 606
+  },
+  "source_files_sha256": {
+    "C:\\Users\\DS\\COS\\시행착오\\2. vectorized\\최종\\component_level_clean.csv": "cd286bbaa395c7e5fa220f77a3f31e28c32b219c33826a4d8388c7fb6c1efc6c",
+    "C:\\Users\\DS\\COS\\최종\\준비\\테스트\\outputs\\eye_component_resolution.csv": "42c4d2b83264a1c9e89ad1b4dd83937c1d537da1cc8cc21f9785e5126799db77",
+    "C:\\Users\\DS\\COS\\최종\\준비\\테스트\\outputs\\v4_integration\\component_audit.csv": "3bd3f5b284727b93ce918a335f29fa0d81d9fc0d14faaddc9e0a4c8a85a1bdcd",
+    "C:\\Users\\DS\\COS\\eye_irritation.xlsx": "72939563e7ca33d7593fc50ee9e4678a81d8d8a7a12e597ccb48152728a204b6"
+  },
+  "rdkit": "2025.09.6"
+}
