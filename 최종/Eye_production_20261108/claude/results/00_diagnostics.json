@@ -1,0 +1,173 @@
+{
+  "n_rows": 673,
+  "n_unique_vectors": 444,
+  "n_duplicate_groups": 102,
+  "n_rows_in_duplicate_groups": 331,
+  "n_straddling_groups": 8,
+  "n_rows_straddling": 22,
+  "n_groups_original": 425,
+  "n_groups_merged": 415,
+  "straddling_detail": [
+    {
+      "rows": [
+        61,
+        224,
+        319,
+        321,
+        588,
+        591,
+        593
+      ],
+      "outer_folds": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        1
+      ],
+      "epa_classes": [
+        3,
+        1,
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "label_consistent": false
+    },
+    {
+      "rows": [
+        125,
+        285
+      ],
+      "outer_folds": [
+        1,
+        2
+      ],
+      "epa_classes": [
+        1,
+        1
+      ],
+      "label_consistent": true
+    },
+    {
+      "rows": [
+        232,
+        233
+      ],
+      "outer_folds": [
+        2,
+        1
+      ],
+      "epa_classes": [
+        3,
+        2
+      ],
+      "label_consistent": false
+    },
+    {
+      "rows": [
+        254,
+        656
+      ],
+      "outer_folds": [
+        1,
+        0
+      ],
+      "epa_classes": [
+        3,
+        4
+      ],
+      "label_consistent": false
+    },
+    {
+      "rows": [
+        606,
+        609
+      ],
+      "outer_folds": [
+        2,
+        0
+      ],
+      "epa_classes": [
+        3,
+        4
+      ],
+      "label_consistent": false
+    },
+    {
+      "rows": [
+        617,
+        620
+      ],
+      "outer_folds": [
+        0,
+        2
+      ],
+      "epa_classes": [
+        4,
+        4
+      ],
+      "label_consistent": true
+    },
+    {
+      "rows": [
+        623,
+        645
+      ],
+      "outer_folds": [
+        3,
+        4
+      ],
+      "epa_classes": [
+        4,
+        4
+      ],
+      "label_consistent": true
+    },
+    {
+      "rows": [
+        629,
+        632,
+        633
+      ],
+      "outer_folds": [
+        3,
+        4,
+        4
+      ],
+      "epa_classes": [
+        3,
+        3,
+        3
+      ],
+      "label_consistent": true
+    }
+  ],
+  "evaluation_role": {
+    "existing_evaluation_pool": 606,
+    "augmentation_train_only": 67
+  },
+  "n_components_used": {
+    "1": 421,
+    "2": 156,
+    "3": 63,
+    "4": 28,
+    "5": 3,
+    "6": 2
+  },
+  "weight_mode": {
+    "pct_active_ingredient": 597,
+    "exact_disclosed_component_weighted": 67,
+    "equal_fallback_missing_pct": 9
+  },
+  "epa_class": {
+    "1": 65,
+    "2": 60,
+    "3": 300,
+    "4": 248
+  }
+}

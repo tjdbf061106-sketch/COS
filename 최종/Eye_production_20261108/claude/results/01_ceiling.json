@@ -1,0 +1,22 @@
+[
+  {
+    "label": "A",
+    "irreducible_errors": 29,
+    "irreducible_rate": 0.04309063893016345,
+    "rows_in_conflicted_vector_groups": 83,
+    "ceiling_MCC": 0.8610419099837479,
+    "ceiling_sensitivity": 0.912,
+    "ceiling_specificity": 0.9671532846715328,
+    "ceiling_balanced_accuracy": 0.9395766423357664
+  },
+  {
+    "label": "B",
+    "irreducible_errors": 64,
+    "irreducible_rate": 0.0950965824665676,
+    "rows_in_conflicted_vector_groups": 166,
+    "ceiling_MCC": 0.7945545447385319,
+    "ceiling_sensitivity": 0.9341176470588235,
+    "ceiling_specificity": 0.8548387096774194,
+    "ceiling_balanced_accuracy": 0.8944781783681215
+  }
+]

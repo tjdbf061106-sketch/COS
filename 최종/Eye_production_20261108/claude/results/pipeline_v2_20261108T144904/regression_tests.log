@@ -1,0 +1,78 @@
+test_all_six_estimators_and_both_feature_dimensions (test_production_pipeline_v2.BundleTests.test_all_six_estimators_and_both_feature_dimensions) ... C:\Users\DS\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`
+  warnings.warn(
+C:\Users\DS\anaconda3\Lib\site-packages\sklearn\svm\_base.py:239: FutureWarning: The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`
+  warnings.warn(
+ok
+test_atomic_records_never_replace_existing_data (test_production_pipeline_v2.BundleTests.test_atomic_records_never_replace_existing_data) ... ok
+test_corruption_rejected_before_deserialization (test_production_pipeline_v2.BundleTests.test_corruption_rejected_before_deserialization) ... ok
+test_manifest_environment_and_runtime_drift_rejected (test_production_pipeline_v2.BundleTests.test_manifest_environment_and_runtime_drift_rejected) ... ok
+test_prediction_files_and_existing_output_preserved (test_production_pipeline_v2.BundleTests.test_prediction_files_and_existing_output_preserved) ... Predictions: C:\Users\DS\AppData\Local\Temp\tmpxnhwx50n\predictions.csv; rows=96
+ok
+test_serialization_raw_inference_order_batch_and_threshold (test_production_pipeline_v2.BundleTests.test_serialization_raw_inference_order_batch_and_threshold) ... ok
+test_bad_schema_and_precomputed_export_rejected (test_production_pipeline_v2.FeatureTests.test_bad_schema_and_precomputed_export_rejected) ... ok
+test_baseline_needs_no_concentration_labels_or_groups (test_production_pipeline_v2.FeatureTests.test_baseline_needs_no_concentration_labels_or_groups) ... ok
+test_column_reordering_and_batch_independence (test_production_pipeline_v2.FeatureTests.test_column_reordering_and_batch_independence) ... ok
+test_duplicate_csv_headers_fail (test_production_pipeline_v2.FeatureTests.test_duplicate_csv_headers_fail) ... ok
+test_training_median_frozen_and_original_vectors_unchanged (test_production_pipeline_v2.FeatureTests.test_training_median_frozen_and_original_vectors_unchanged) ... ok
+test_full_grid_threshold_and_interrupted_resume_without_refitting_candidates (test_production_pipeline_v2.FinalTrainingTests.test_full_grid_threshold_and_interrupted_resume_without_refitting_candidates) ... Final-training candidate 1/20: lr-000
+Final-training candidate 2/20: lr-001
+Final-training candidate 3/20: lr-002
+Final-training candidate 4/20: lr-003
+Final-training candidate 5/20: lr-004
+Final-training candidate 6/20: lr-005
+Final-training candidate 7/20: lr-006
+Final-training candidate 8/20: lr-007
+Final-training candidate 9/20: lr-008
+Final-training candidate 10/20: lr-009
+Final-training candidate 11/20: lr-010
+Final-training candidate 12/20: lr-011
+Final-training candidate 13/20: lr-012
+Final-training candidate 14/20: lr-013
+Final-training candidate 15/20: lr-014
+Final-training candidate 16/20: lr-015
+Final-training candidate 17/20: lr-016
+Final-training candidate 18/20: lr-017
+Final-training candidate 19/20: lr-018
+Final-training candidate 20/20: lr-019
+Final-training candidate 1/20: lr-000
+Final-training candidate 2/20: lr-001
+Final-training candidate 3/20: lr-002
+Final-training candidate 4/20: lr-003
+Final-training candidate 5/20: lr-004
+Final-training candidate 6/20: lr-005
+Final-training candidate 7/20: lr-006
+Final-training candidate 8/20: lr-007
+Final-training candidate 9/20: lr-008
+Final-training candidate 10/20: lr-009
+Final-training candidate 11/20: lr-010
+Final-training candidate 12/20: lr-011
+Final-training candidate 13/20: lr-012
+Final-training candidate 14/20: lr-013
+Final-training candidate 15/20: lr-014
+Final-training candidate 16/20: lr-015
+Final-training candidate 17/20: lr-016
+Final-training candidate 18/20: lr-017
+Final-training candidate 19/20: lr-018
+Final-training candidate 20/20: lr-019
+ok
+test_active_legacy_runner_is_rejected_using_cmdline (test_production_pipeline_v2.ProtocolTests.test_active_legacy_runner_is_rejected_using_cmdline) ... ok
+test_all_saved_evaluation_splits_and_feature_views_match (test_production_pipeline_v2.ProtocolTests.test_all_saved_evaluation_splits_and_feature_views_match) ... ok
+test_evaluation_dispatch_preserves_full_grid_and_legacy_entry (test_production_pipeline_v2.ProtocolTests.test_evaluation_dispatch_preserves_full_grid_and_legacy_entry) ... ok
+test_final_calibration_excludes_augmentation_and_linked_groups (test_production_pipeline_v2.ProtocolTests.test_final_calibration_excludes_augmentation_and_linked_groups) ... ok
+test_invalid_training_roles_and_ids_fail (test_production_pipeline_v2.ProtocolTests.test_invalid_training_roles_and_ids_fail) ... ok
+test_formulas_fallback_and_neat_boundary (test_concentration_production.ConcentrationTests.test_formulas_fallback_and_neat_boundary) ... ok
+test_heldout_values_do_not_influence_median (test_concentration_production.ConcentrationTests.test_heldout_values_do_not_influence_median) ... ok
+test_invalid_inputs_and_all_missing_training_fail (test_concentration_production.ConcentrationTests.test_invalid_inputs_and_all_missing_training_fail) ... ok
+test_export_preserves_real_data_and_rejects_tampering (test_concentration_production.ProductionTests.test_export_preserves_real_data_and_rejects_tampering) ... ok
+test_real_data_fallback_and_feature_dimensions (test_concentration_production.ProductionTests.test_real_data_fallback_and_feature_dimensions) ... ok
+test_real_splits_exclude_augmentation_and_all_heldout_groups (test_concentration_production.ProductionTests.test_real_splits_exclude_augmentation_and_all_heldout_groups) ... ok
+test_small_real_estimator_job_and_checkpoint_integrity (test_concentration_production.ProductionTests.test_small_real_estimator_job_and_checkpoint_integrity) ... ok
+test_distinct_six_decimal_values_are_not_merged (test_grouping_v2.RoundedGroupingTests.test_distinct_six_decimal_values_are_not_merged) ... ok
+test_merges_are_transitive_and_preserve_original_groups (test_grouping_v2.RoundedGroupingTests.test_merges_are_transitive_and_preserve_original_groups) ... ok
+test_real_data_has_expected_cross_group_duplicates (test_grouping_v2.RoundedGroupingTests.test_real_data_has_expected_cross_group_duplicates) ... ok
+test_roundoff_noise_is_merged_without_mutating_features (test_grouping_v2.RoundedGroupingTests.test_roundoff_noise_is_merged_without_mutating_features) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 283.183s
+
+OK

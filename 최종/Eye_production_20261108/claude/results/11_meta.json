@@ -1,0 +1,52 @@
+{
+  "n_rows": 673,
+  "base_features": 2265,
+  "concentration_features": [
+    "conc_log10_pct",
+    "conc_pct",
+    "conc_is_neat",
+    "conc_undeclared"
+  ],
+  "pct_range": [
+    0.001,
+    100.0
+  ],
+  "scale_range": [
+    1e-05,
+    1.0
+  ],
+  "arms": {
+    "② 농도 피처 추가": 2269,
+    "③ 희석 스케일링": 2265,
+    "④ 농도 피처 + 희석": 2269
+  },
+  "models": [
+    "lr",
+    "svm",
+    "rf",
+    "lgbm",
+    "xgb"
+  ],
+  "seeds": [
+    42,
+    202
+  ],
+  "duplicate_check": {
+    "① 기준": [
+      331,
+      221
+    ],
+    "② 농도 피처 추가": [
+      70,
+      18
+    ],
+    "③ 희석 스케일링": [
+      78,
+      18
+    ],
+    "④ 농도 피처 + 희석": [
+      68,
+      18
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+Eye concentration production validation completed and independently checked.
+Identity: f91f3c88787bec6be1bef4bbbfcb98b797e0d69c6fda8c9bd03d508661488f4b
+360 outer results / 7200 candidate checkpoints; 72 arm-label-model-seed sets each cover exactly 606 evaluation rows.
+67 augmentation rows are training only; held-out connected groups excluded from all training partitions.
+MCC is pooled OOF per seed, then mean and sample SD (ddof=1) across seeds 42, 202, 777.
+Delta MCC = concentration - baseline. Descriptive paired differences; no significance claim.
+
+label model baseline_MCC concentration_MCC delta_MCC (mean +/- sample SD)
+A et 0.260437 0.252011 -0.008426 +/- 0.018189
+A lgbm 0.211521 0.251454 +0.039933 +/- 0.066423
+A lr 0.336051 0.337392 +0.001342 +/- 0.002324
+A rf 0.274917 0.276332 +0.001415 +/- 0.007272
+A svm 0.240249 0.240446 +0.000197 +/- 0.004768
+A xgb 0.237145 0.235022 -0.002123 +/- 0.028173
+B et 0.194522 0.204542 +0.010020 +/- 0.033542
+B lgbm 0.184002 0.211707 +0.027706 +/- 0.029325
+B lr 0.156010 0.160393 +0.004382 +/- 0.004513
+B rf 0.199990 0.215147 +0.015156 +/- 0.033631
+B svm 0.131453 0.131451 -0.000003 +/- 0.004403
+B xgb 0.182657 0.223927 +0.041270 +/- 0.075155
+
+Eye SHA256: 811268d4813fcdd68e85458641bf5823239cae04e1fa871766c77e04f0221e7f
+Skin SHA256: 2f9e521ab5576955ecac46761669cb423f85b4394e6dd2d902c2617e9614ed82
+Original files and preexisting checkpoints verified unchanged against preservation_snapshot.json.
+Derived CSV: full-training export only; never used for CV. Original 2265 fp/desc features unchanged; four concentration features appended.
+Final model training, deployment or replacement: not performed.
+Skin repeated comparison: not performed; original scripts, notebook and inputs unavailable, confirmed by user.
+Grouping experiment03 and historical-v1 baseline links: preserved; intermediate verdict unchanged.
+Tests passing and full performance verification are distinct; this completion is based on actual full checkpoints and artifacts.

@@ -1,0 +1,85 @@
+Eye production v2 사용 안내
+작성일: 2026-11-08
+
+앞으로의 공통 진입점
+  작업 위치: 모델 실험/eye/claude/
+  python run_production_v2.py --help
+
+1. 성능 평가
+  python run_production_v2.py evaluate --prepare-only
+  python run_production_v2.py evaluate --workers 6
+
+  기존 run_concentration_production.py를 그대로 호출합니다. 입력/원본 코드/
+  환경/설정이 같으면 f91f3c88787bec6b의 완료된 체크포인트를 재사용합니다.
+  --prepare-only는 데이터와 분할/identity만 확인하며 학습하지 않습니다.
+  전체 기본 설정은 6모델 × A/B × seed 42/202/777 × 5-fold × 두 arm입니다.
+  inner 3-fold, 20후보 전체 격자, 평균 inner ROC-AUC로 후보를 선택합니다.
+  평가 대상은 기존 606행입니다. 증강 67행은 train-only이며, validation/test
+  그룹과 연결된 증강행은 해당 학습에서 제외합니다. 그룹은 comp/split 연결과
+  원본 fp/desc의 소수점 6자리 반올림 중복을 합칩니다.
+  threshold는 기존 EPA 방식입니다. 기존행 inner OOF에서 민감도/특이도 차이를
+  최소화하고, 동률이면 MCC가 높은 값, 이후 작은 threshold를 선택합니다.
+  농도 중앙값은 각 학습 fold에서만 계산합니다.
+  모든 평가를 이 진입점으로 실행하세요. 과거 673행 전체 평가 노트북과
+  03_grouping_fix_v1.json을 사용하는 historical 비교는 과거 기록으로 보존합니다.
+  이전 명령과 v2 명령을 동시에 수동 실행하지 마세요. v2는 실행 중인 원래
+  runner의 PID/cmdline을 확인하고 v2 학습/평가 호출 사이에도 잠금을 사용합니다.
+
+2. 최종 학습 후보 생성 (배포 아님)
+  예시이며 모델 채택 권고를 뜻하지 않습니다. label/model/arm을 명시해야 합니다.
+  python run_production_v2.py train --label A --model lr --arm baseline
+  python run_production_v2.py train --label A --model lr --arm concentration
+  python run_production_v2.py train --label B --model rf --arm concentration
+
+  model: lr/rf/et/svm/xgb/lgbm, arm: baseline/concentration, 기본 seed: 42.
+  기본 출력: results/production_pipeline_v2/models/<학습 identity>/
+  --output <폴더>로 별도 위치를 지정할 수 있습니다.
+  606행을 grouped 3-fold로 나누어 20후보를 선택하고 EPA threshold를 구합니다.
+  각 validation 그룹과 연결된 증강행은 학습에서 제외합니다. 증강은 threshold
+  보정에도 사용하지 않습니다. 선택 후 최종 모델은 전체 673행으로 학습합니다.
+  농도 arm의 최종 중앙값도 최종 학습 673행에서 한 번 계산하여 저장합니다.
+  이 과정의 OOF는 후보 선택/threshold 보정용으로, 별도의 성능 검증 결과가
+  아닙니다. 성능 비교는 1번의 outer OOF 결과를 사용하세요.
+  후보 체크포인트로 중단 후 재개할 수 있고, 완성된 동일 모델은 다시 학습하지
+  않습니다. 파일이 다른 실행과 충돌하거나 저장이 불완전하면 보존 후 오류로
+  중단합니다. 새 출력 폴더를 사용하세요.
+
+3. 저장된 모델 확인 및 추론
+  python run_production_v2.py inspect --model-dir <모델_폴더>
+  python run_production_v2.py predict --model-dir <모델_폴더> --input <원본_피처.csv> --output <새_예측.csv>
+
+  원본 fp_ 2048개 + desc_ 217개가 필요합니다. 학습 때 저장한 피처 이름과 순서로
+  선택하므로 CSV의 열 순서는 달라도 됩니다. 이름이 다르거나 중복되면 거절합니다.
+  농도 arm에는 known_pct, pct_sum_used, undeclared_pct 원본 열도 필요합니다.
+  결측값은 빈 칸으로 입력할 수 있습니다. 추론에는 label/group/evaluation_role이
+  필요하지 않습니다. formulation_id가 있으면 예측 CSV에 함께 기록합니다.
+  결측 pct: known_pct → pct_sum_used → 저장된 학습 중앙값.
+  undeclared_pct 결측: 0. 추론 데이터에서 중앙값을 다시 계산하지 않습니다.
+  농도 피처: log10(pct+0.001), pct/100, (pct>=90), undeclared_pct/100.
+  기존 fp/desc 벡터를 농도로 재스케일하지 않습니다.
+  conc_*가 이미 붙은 export CSV는 거절합니다. 해당 파생 CSV는 전체 학습용
+  참고 산출물이며 CV/이 진입점의 원본 입력으로 사용하지 않습니다.
+  원본 벡터 결측 처리/스케일러/모델은 학습한 sklearn Pipeline에 함께 저장됩니다.
+  threshold도 저장하며 예측은 score >= threshold입니다. 0.5로 대체하지 않습니다.
+  SVM score는 decision_function이며 다른 모델의 score도 보정된 확률로
+  해석하지 마세요. A는 EPA I/II 양성, B는 EPA I/II/III 양성입니다.
+
+4. 파일과 재현성
+  model.joblib: 학습된 피처 변환, 중앙값, 전처리 Pipeline, 모델, threshold.
+  model_manifest.json: 피처 순서/수, 입력 및 모델 SHA256, 학습 출처, 환경,
+  코드 해시, 저장/재로딩 예측 일치 기록. 배포 여부는 false입니다.
+  training_config.json / calibration.json / candidates/: 최종 학습의 설정과 근거.
+  예측 CSV 옆 *.manifest.json: 입력/모델/출력 SHA256 및 적용 threshold.
+  기존 출력은 덮어쓰지 않습니다. 같은 파일에 예측하려면 새 출력 이름을 쓰세요.
+  신뢰하는 출처의 joblib만 로드하세요. 체크섬은 파일 손상을 확인할 뿐,
+  악의적인 제작자를 인증하지 않습니다. 저장 당시 Python/패키지 버전과 runtime
+  코드 해시가 달라지면 로드를 거절합니다. 모델과 당시 runtime 코드를 보관하세요.
+
+검증과 적용 범위
+  test_production_pipeline_v2.py는 프로토콜 일치, 누수 방지, 저장/추론/재개,
+  오류 처리 테스트입니다. 전체 성능 검증을 대신하지 않습니다.
+  verify_production_pipeline_v2.py는 기존 LR outer fold의 두 arm을 재현하여
+  새 번들의 예측을 실제 체크포인트 및 별도 프로세스 CLI 예측과 대조합니다.
+  이 검증에서 생성하는 번들은 일부 fold 학습 모델이며 실제 배포용이 아닙니다.
+  기존 production 전체 CV 결과는 보존합니다. 최종 모델 배포/교체는 수행하지
+  않습니다. Skin 반복 비교는 필요한 원본/입력이 없어 이번 범위에 포함하지 않습니다.
