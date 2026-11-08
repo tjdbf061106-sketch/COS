@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """공식 재검증(rf_production_recheck.py와 동일 방법론: nz20 fold-internal filter, 균형점 threshold,
-comp_group_id group 5-fold)을 (RF,ExtraTrees) x (wmean,top) x (농도유무) x (라벨A,B) 16그리드로 확장.
+comp_group_id group 5-fold)을 (RF,ExtraTrees) x (wmean,top,min,max) x (농도유무) x (라벨A,B) 32그리드로 확장.
 
 rf_production_recheck.py와 다른 점:
   - 모델 2종(RF/ExtraTrees), 둘 다 class_weight="balanced"로 통일(원본 RF 설정 그대로, ET도 동일 적용)
-  - 집계방식 2종(wmean=production 그대로 / top=제형별 최우세성분 단독)
+  - 집계방식 4종(wmean=production 그대로 / top=제형별 최우세성분 단독 / min,max=descriptor컨럼별로 성분들 중 최소치/최대치를 독립적으로 택함, 11/7 비공식 노트북과 동일 정의)
   - 농도피처(resolved_pct) 유무 축 추가
   - N_REPS=20(공식 컴벤션과 동일 — 1차 15회 빠른 재검증 이후 20회로 재확인)
   - 결과를 셀 단위로 즉시 CSV에 append해 중단되어도 이어서 돌릴 수 있음(--label A 또는 --label B로 분할 실행)
@@ -155,11 +155,37 @@ top_df["formulation_id"] = top_df["fid_raw"]
 top_df.loc[is_aug, "formulation_id"] = "AUG_" + top_df.loc[is_aug, "fid_raw"]
 top_df = top_df.drop(columns=["fid_raw"]).set_index("formulation_id")
 
+min_rows = {}
+max_rows = {}
+for fid, grp in raw_all.groupby("formulation_id"):
+    g_resolved = grp[grp["has_descriptor"]]
+    if len(g_resolved) == 0:
+        continue
+    sub = desc_full.loc[g_resolved["key"].values, PROD_FEATURE_COLS]
+    min_rows[fid] = sub.min(axis=0).to_dict()
+    max_rows[fid] = sub.max(axis=0).to_dict()
+
+
+def _to_formulation_df(rows_dict):
+    d = pd.DataFrame.from_dict(rows_dict, orient="index")
+    d.index.name = "fid_raw"
+    d = d.reset_index()
+    is_aug_ = d["fid_raw"].isin(aug_meta["formulation_id"])
+    d["formulation_id"] = d["fid_raw"]
+    d.loc[is_aug_, "formulation_id"] = "AUG_" + d.loc[is_aug_, "fid_raw"]
+    return d.drop(columns=["fid_raw"]).set_index("formulation_id")
+
+
+min_df = _to_formulation_df(min_rows)
+max_df = _to_formulation_df(max_rows)
+
 META_COLS = ["comp_group_id", "resolved_pct", "binary_label_A", "binary_label_B"]
 meta = vec.set_index("formulation_id")[META_COLS]
 wmean_full = meta.join(vec.set_index("formulation_id")[PROD_FEATURE_COLS])
 top_full = meta.join(top_df)
-DATASETS = {"wmean": wmean_full, "top": top_full}
+min_full = meta.join(min_df)
+max_full = meta.join(max_df)
+DATASETS = {"wmean": wmean_full, "top": top_full, "min": min_full, "max": max_full}
 
 print(f"원자료/top 재계산 완료. wmean n={len(wmean_full)}, top n={top_full[PROD_FEATURE_COLS[0]].notna().sum()}")
 
