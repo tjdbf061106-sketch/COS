@@ -1,0 +1,18 @@
+{
+  "package": "Eye A LR weighted mean",
+  "files": {
+    ".gitattributes": "71095645ad6f3955ab19b18e391f2b45caec46f490334306bf5d1c830e798ffc",
+    "comparison_metrics.csv": "5c20d18d69ab436860ee82e1fe1aa7bb2f0fd18f0804b61a8c2a7a1f737aa013",
+    "eye_A_LR_wmean.joblib": "d71394e691ac5072e4ce900a53b47ddbb65c8685961fe2c9536411acfbbc58a2",
+    "feature_names.json": "1500757e4264c4989e46688c296f5a5621d87d47412f91fd4ed19ee9a9c4f38a",
+    "hyperparameter_search.csv": "896b523515a132384b2a56c99db3a580e81264c4fda40a318bdfba2a342bdc1a",
+    "metadata.json": "4fca7229f48880ca82d03840747c644073ab4a73c8d4e958d247d6a935d254f4",
+    "predict.py": "9600c6001a8c7576ddb42ca55d5802a0d736607743adf23637f6e7ef55989ee7",
+    "README.txt": "57cb3e078dcef4f2d9aa6e49fe2e548ba0d22411794ec3b75771658ab6366636",
+    "requirements-lock.txt": "fca600307328eec54ec0f1ebf4d4a68b82e3ebfce006fa39a9b44a5900a2c2e1",
+    "selected_parameters.json": "35625da704cfe3cd63e657bb7bbad44b474d6a97688dc15a92ff748f84a87aea",
+    "smoke_test_cases.json": "14b58cff6e737d61f52147eac3e221fc7516c53f0fd0bae3e5e5319a661755e6",
+    "verification.json": "d26a863c0d37a8c13fd9b22d01c86baa627fa9c6afa1af35067449458ef2e3f2",
+    "verify_package.py": "ea9e0bc57a2ba05ca086f8296a1eca313becb3832f751b3b6b6b53bb8294d2e5"
+  }
+}
