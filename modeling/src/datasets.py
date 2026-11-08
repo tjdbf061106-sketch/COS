@@ -83,22 +83,45 @@ class IrritationDataset(Dataset):
         return len(self.feature_cols)
 
 
-def skin_dataset(csv_path=SKIN_CSV):
+def skin_dataset(csv_path=SKIN_CSV, include_concentration=False):
     # AromaticProportion(유일 독립 공통컬럼, 위 주석 참조) + desc_*(전체 RDKit 217) + fp_w_*(Morgan FP 2048) = 2,266차원
     # 2026-10-29: unknown_pct/undeclared_pct를 feature로 추가하는 실험을 해봤으나(+2차원),
     # Sensitivity/Specificity 균형·MCC 기준으로 skin 성능이 오히려 악화되어(Sens 0.367->0.333,
     # 격차 0.520->0.545, MCC 0.174->0.143) 되돌림. skin_addons.ipynb의 단순 모델 테스트에서는
     # 개선된 것처럼 보였으나(RF 계열), 실제 Multi-task 신경망에서는 재현 안 됨 — 진행상황.md 참조.
+    #
+    # 2026-11-08: eye팀이 wmean 집계식(pct*d/pct.sum())이 단일성분 제형에서 농도를 약분해 버린다는
+    # 근본 결함을 발견(같은 feature 벡터에 다른 라벨이 붙는 사례 다수). skin도 동일 결함 확인됨
+    # (comp_group_id를 서명 6자리로 정밀화 + 벡터해시에 resolved_pct를 포함해 재계산하니 고유 그룹
+    # 463 -> 637로 증가 = 농도만 다른 제형들이 더 이상 같은 벡터로 뭉개지지 않음).
+    # `include_concentration=True`로 `resolved_pct`(구조 해결 성분 % 합, 이미 CSV에 존재하던 컬럼)를
+    # feature에 추가하는 효과를 반복 group 5-fold(5seed)로 측정한 결과(skin_concentration_feature_effect.csv):
+    #   overall ΔMCC - 라벨A ExtraTrees +0.044 / RandomForest -0.020, 라벨B ExtraTrees +0.016 / RandomForest -0.001
+    # ExtraTrees는 일관되게 개선, 현재 production 모델인 RandomForest는 효과가 들쭉날쭉(0 근방) —
+    # 기본값은 False로 유지(기존 checkpoint 차원 호환성 보존). 세팅/생성스크립트/eval_concentration_feature_effect.py 참조.
     header = pd.read_csv(csv_path, nrows=0).columns
     expanded_cols = [c for c in header if c.startswith(("desc_", "fp_w_"))]
     feature_cols = SKIN_UNIQUE_COMMON_COLS + expanded_cols
+    if include_concentration:
+        feature_cols = feature_cols + ["resolved_pct"]
     return IrritationDataset(csv_path, label_col="binary_label", feature_cols=feature_cols)
 
 
-def eye_dataset(csv_path=EYE_CSV):
+def eye_dataset(csv_path=EYE_CSV, include_concentration=False):
     # substance_type == 'Mixture'만 사용(순물질 Chemical 제외) — 진행상황.md 2026-09-18 결정사항
     # 2026-10-06 재구성 이후 eye도 desc_*/fp_w_* 스키마 + binary_label 보유(GHS만 있는 47건은 NaN -> 자동 제외)
+    #
+    # 2026-11-08: eye팀 자체 검증(실험11, `세팅/eye_11월07-08_작업정리.pdf`)에서 `known_pct`(구조 해결
+    # 성분 % 합) 피처 추가가 라벨B에서 seed변동(±0.024)을 넘는 개선(+0.030, 10칸 중 9칸)을 보였고,
+    # 라벨A는 무해함을 확인(방안1 채택, production 반영은 보류). 이 저장소의 `eye_concentration_feature_effect.csv`로
+    # 같은 방향성(ΔMCC 라벨A +0.007~+0.007, 라벨B +0.013~+0.027, 전부 양수)을 독립 재확인함.
+    # `include_concentration=True`로 `known_pct`를 feature에 추가할 수 있으나, 기본값은 False로 유지
+    # (이 harness를 쓰는 기존 코드/체크포인트의 차원 호환성 보존 — 채택 여부는 팀 결정 사항).
+    header = pd.read_csv(csv_path, nrows=0).columns
+    feature_cols = [c for c in header if c.startswith(("desc_", "fp_w_"))]
+    if include_concentration:
+        feature_cols = feature_cols + ["known_pct"]
     return IrritationDataset(
-        csv_path, label_col="binary_label", feature_prefix=("desc_", "fp_w_"),
+        csv_path, label_col="binary_label", feature_cols=feature_cols,
         substance_type_filter="Mixture",
     )
