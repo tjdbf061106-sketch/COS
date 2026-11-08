@@ -6,7 +6,7 @@ rf_production_recheck.py와 다른 점:
   - 모델 2종(RF/ExtraTrees), 둘 다 class_weight="balanced"로 통일(원본 RF 설정 그대로, ET도 동일 적용)
   - 집계방식 2종(wmean=production 그대로 / top=제형별 최우세성분 단독)
   - 농도피처(resolved_pct) 유무 축 추가
-  - N_REPS=15(원본은 20 — 16칸 전체를 감당 가능한 시간 안에 끝내기 위한 절충, 보고서에 명시할 것)
+  - N_REPS=20(공식 컴벤션과 동일 — 1차 15회 빠른 재검증 이후 20회로 재확인)
   - 결과를 셀 단위로 즉시 CSV에 append해 중단되어도 이어서 돌릴 수 있음(--label A 또는 --label B로 분할 실행)
 
 사용법:
@@ -27,7 +27,7 @@ from sklearn.preprocessing import StandardScaler
 
 BASE = r"C:\Users\UserK\학술제\skin irritation"
 SRC_B5 = r"C:\Users\UserK\OneDrive - 덕성여자대학교\문서\카카오톡 받은 파일\skin_irritation_최종후보.xlsx"
-N_REPS = 15
+N_REPS = 20
 GRID = np.round(np.arange(0.02, 0.96, 0.01), 2)
 OUT_PATH = Path(BASE) / "skin_official_grid_recheck.csv"
 
