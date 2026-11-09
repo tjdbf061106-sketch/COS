@@ -49,7 +49,7 @@ known_unified = known[["formulation_id", "key", "pct", "has_descriptor"]].copy()
 aug_meta = vec.loc[vec["formulation_id"].astype(str).str.startswith("AUG_"), ["formulation_id"]].copy()
 aug_meta["formulation_id"] = aug_meta["formulation_id"].str.replace("AUG_", "", regex=False)
 
-NUMBER = r"\d+(?:\.\d+)?"
+NUMBER = r"(?:\d+\.\d+|\.\d+|\d+)"  # 2026-11-09: eye팀 감사 - 선행 소수점(".5") 허용
 RANGE_RE = re.compile(rf"^({NUMBER})[-~]({NUMBER})%?$")
 NUM_RE = re.compile(rf"^({NUMBER})%?$")
 OCR_RE = re.compile(rf"\(OCR for\s*({NUMBER})\s*%?\)")
@@ -64,7 +64,7 @@ def clean_text(text):
         if cleaned.lower().endswith(suf_clean.lower()):
             cleaned = cleaned[: -len(suf_clean)]
             break
-    return cleaned.lstrip(".")
+    return cleaned  # 2026-11-09: 선행 "." lstrip 제거(.5->5 10배 오류 수정)
 
 
 def parse_bounds(text):

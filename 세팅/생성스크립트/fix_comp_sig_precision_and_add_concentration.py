@@ -47,7 +47,7 @@ vec = pd.read_csv(VEC_PATH, low_memory=False)
 aug_meta = vec.loc[vec["formulation_id"].astype(str).str.startswith("AUG_"), ["formulation_id"]].copy()
 aug_meta["formulation_id"] = aug_meta["formulation_id"].str.replace("AUG_", "", regex=False)
 
-NUMBER = r"\d+(?:\.\d+)?"
+NUMBER = r"(?:\d+\.\d+|\.\d+|\d+)"  # 2026-11-09: 선행 소수점(".5")도 허용 — eye팀 감사에서 발견된 lstrip('.') 버그(".5%"가 "5%"로 읽히는 10배 오류) 수정의 짝
 RANGE_RE = re.compile(rf"^({NUMBER})[-~]({NUMBER})%?$")
 NUM_RE = re.compile(rf"^({NUMBER})%?$")
 OCR_RE = re.compile(rf"\(OCR for\s*({NUMBER})\s*%?\)")
@@ -62,7 +62,7 @@ def clean_text(text):
         if cleaned.lower().endswith(suf_clean.lower()):
             cleaned = cleaned[: -len(suf_clean)]
             break
-    return cleaned.lstrip(".")
+    return cleaned  # 2026-11-09: 선행 "." lstrip 제거 — ".5"를 "5"로 잃는 10배 오류를 낳음(NUMBER 정규식이 이제 선행점 허용하므로 더 이상 필요 없음)
 
 
 def parse_bounds(text):

@@ -127,7 +127,14 @@ def aggregate_formulation(components, feature_cols):
             skipped.append(c.get("name", c.get("component_id", "?")))
             continue
         rows.append(feats)
-        pcts.append(float(c.get("amount_pct", 1.0) or 1.0))
+        raw_pct = c.get("amount_pct", 1.0)
+        raw_pct = 1.0 if raw_pct is None else float(raw_pct)
+        if not np.isfinite(raw_pct) or raw_pct < 0 or raw_pct > 100:
+            raise ValueError(
+                f"amount_pct는 0~100 사이의 유한한 숫자여야 합니다 "
+                f"(받은 값: {raw_pct}, 성분: {c.get('name', c.get('component_id', '?'))})"
+            )
+        pcts.append(raw_pct)
 
     if not rows:
         raise ValueError("구조를 읽을 수 있는 원료가 하나도 없습니다(canonical_smiles 확인 필요)")
@@ -186,7 +193,7 @@ def main():
         "probability_class1": round(float(proba), 4),
         "threshold": ckpt["threshold"],
         "predicted_label": pred,
-        "predicted_label_meaning": "자극성 있음(EPA I/II 상당)" if pred == 1 else "자극성 낮음(EPA III/IV 상당)",
+        "predicted_label_meaning": "자극성 있음(EPA I/II/III 상당)" if pred == 1 else "자극성 낮음(EPA IV 상당)",
         "note": "참고용 추정치입니다. 화장품 외부검증이나 실제 안전성 판정이 아닙니다.",
     }
     print(json.dumps(result, ensure_ascii=False, indent=2))
