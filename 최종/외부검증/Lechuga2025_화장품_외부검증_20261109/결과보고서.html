@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>화장품 계면활성제 외부 비교</title>
+<style>
+:root {
+  --bg:#ffffff; --fg:#17181c; --muted:#5d6370; --line:#e3e6ec; --soft:#f6f7f9;
+  --accent:#2f5fd0; --bad:#b4342b; --bad-bg:#fdf2f1; --good:#1d7a4c; --good-bg:#f0f9f4;
+  --warn:#8a5a00; --warn-bg:#fdf6e6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:#15171b; --fg:#e9ecf1; --muted:#9aa3b2; --line:#2b2f37; --soft:#1c1f25;
+    --accent:#7da4f5; --bad:#f08279; --bad-bg:#2b1b1a; --good:#6fd39c; --good-bg:#15241c;
+    --warn:#e2b55c; --warn-bg:#2a2317;
+  }
+}
+:root[data-theme="dark"] {
+  --bg:#15171b; --fg:#e9ecf1; --muted:#9aa3b2; --line:#2b2f37; --soft:#1c1f25;
+  --accent:#7da4f5; --bad:#f08279; --bad-bg:#2b1b1a; --good:#6fd39c; --good-bg:#15241c;
+  --warn:#e2b55c; --warn-bg:#2a2317;
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg);
+  font-family:-apple-system,"Segoe UI","Malgun Gothic",sans-serif;
+  line-height:1.65; font-size:15px; }
+.wrap { max-width:960px; margin:0 auto; padding:48px 16px 80px; }
+h1 { font-size:1.65rem; margin:0 0 6px; letter-spacing:-0.01em; }
+h2 { font-size:1.18rem; margin:44px 0 12px; padding-bottom:7px;
+  border-bottom:1px solid var(--line); }
+h3 { font-size:1rem; margin:28px 0 8px; color:var(--muted);
+  text-transform:none; letter-spacing:0; }
+.sub { color:var(--muted); font-size:.9rem; margin:0 0 28px; }
+.callout { border-left:3px solid var(--warn); background:var(--warn-bg);
+  padding:13px 16px; border-radius:0 6px 6px 0; margin:18px 0; font-size:.93rem; }
+.callout.red { border-color:var(--bad); background:var(--bad-bg); }
+.callout strong { display:block; margin-bottom:4px; }
+table { width:100%; border-collapse:collapse; margin:14px 0; font-size:.88rem; }
+th, td { padding:9px 10px; text-align:left; border-bottom:1px solid var(--line); }
+th { background:var(--soft); font-weight:600; font-size:.8rem; color:var(--muted);
+  white-space:nowrap; }
+td.num { text-align:right; font-variant-numeric:tabular-nums;
+  font-family:ui-monospace,"Cascadia Mono",Consolas,monospace; white-space:nowrap; }
+td.lbl { font-weight:600; }
+td.strong { font-weight:700; }
+.tag { display:inline-block; padding:2px 9px; border-radius:11px; font-size:.76rem;
+  font-weight:600; white-space:nowrap; }
+.tag.bad { background:var(--bad-bg); color:var(--bad); }
+.tag.good { background:var(--good-bg); color:var(--good); }
+.tag.neutral { background:var(--soft); color:var(--muted); }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:11px; margin:16px 0; }
+.stat { border:1px solid var(--line); border-radius:8px; padding:13px 15px;
+  background:var(--soft); }
+.stat .k { font-size:.76rem; color:var(--muted); margin-bottom:3px; }
+.stat .v { font-size:1.3rem; font-weight:700;
+  font-variant-numeric:tabular-nums; letter-spacing:-0.02em; }
+.stat .u { font-size:.76rem; color:var(--muted); font-weight:400; }
+.note { color:var(--muted); font-size:.87rem; }
+.pending { color:var(--muted); background:var(--soft); padding:14px 16px;
+  border-radius:7px; font-size:.9rem; }
+code { font-family:ui-monospace,Consolas,monospace; font-size:.85em;
+  background:var(--soft); padding:1.5px 5px; border-radius:4px; }
+ul { padding-left:20px; } li { margin:5px 0; }
+footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:.82rem; }
+</style></head><body><div class="wrap">
+
+<h1>Eye A 모델 — 화장품 계면활성제 외부 비교</h1>
+<p class="sub">Lechuga et al. 2025, ACS Omega 10(46):55868–55878 · 생성 2026-11-09</p>
+
+<div class="callout red">
+  <strong>결론 먼저: 음성 결과입니다.</strong>
+  전체 표본에서 단일 계면활성제는 신호가 없었고(rho +0.062),
+  이성분 혼합물은 <b>역방향</b> 연관을 보였습니다
+  (rho -0.344,
+  군집 치환검정 p=0.0134).
+  <b>단, 이 역상관은 적용범위 안에서 사라집니다</b>(아래 재분석 참조). 모델이 체계적으로
+  뒤집혀 있다는 해석은 지지되지 않으며, 동시에 전이가 입증된 것도 아닙니다.
+  모델·임계값·학습자료는 수정하지 않았고, 라벨을 예측에 맞추지 않았습니다.
+</div>
+
+<div class="callout">
+  <strong>엔드포인트 주의</strong>
+  zein number는 in vitro 단백질 변성 지표로 <b>EPA 눈자극 등급이 아닙니다</b>.
+  따라서 이것은 EPA 분류의 외부검증이 아니라 모델 점수와 독립 실험값의
+  순위 일치도 비교입니다. 민감도·특이도는 1차 결과로 보고하지 않습니다.
+</div>
+
+<h2>자료</h2>
+<div class="grid">
+  <div class="stat"><div class="k">원자료</div><div class="v">205<span class="u"> 행</span></div></div>
+  <div class="stat"><div class="k">분석단위</div><div class="v">163<span class="u"> 행</span></div></div>
+  <div class="stat"><div class="k">고유 배합</div><div class="v">66<span class="u"> 종</span></div></div>
+  <div class="stat"><div class="k">계면활성제</div><div class="v">22<span class="u"> 종</span></div></div>
+</div>
+<p class="note">농도 0.5 / 1.0 / 2.0% 3수준. 모델에 농도 피처가 없으므로(<code>concentration_features=false</code>)
+농도를 교란으로 처리해 층별 분석했고, 동일 (배합, 농도)의 반복측정은 평균 집계했습니다.
+Tier 1은 단일물질로 분자 표현 자체의 신호를, Tier 2는 이성분 혼합물로 가중평균 집계 규칙을 봅니다.</p>
+
+<h2>주 결과 — 군집 보정 Spearman</h2>
+<table>
+  <thead><tr><th>티어</th><th>n</th><th>군집</th><th>rho</th>
+  <th>군집 부트스트랩 95% CI</th><th>치환 p</th><th>1종 제외 범위</th><th>판정</th></tr></thead>
+  <tbody>
+        <tr>
+          <td class="lbl">Tier 1 · 단일물질</td>
+          <td class="num">60</td>
+          <td class="num">22</td>
+          <td class="num strong">+0.062</td>
+          <td class="num">[-0.335, +0.452]</td>
+          <td class="num">0.7716</td>
+          <td class="num">-0.018 ~ +0.172</td>
+          <td><span class="tag neutral">신호 없음</span></td>
+        </tr>
+        <tr>
+          <td class="lbl">Tier 2 · 이성분 혼합물</td>
+          <td class="num">103</td>
+          <td class="num">44</td>
+          <td class="num strong">-0.344</td>
+          <td class="num">[-0.550, -0.076]</td>
+          <td class="num">0.0134</td>
+          <td class="num">-0.486 ~ -0.239</td>
+          <td><span class="tag bad">역방향</span></td>
+        </tr></tbody>
+</table>
+<div class="callout">
+  <strong>비독립성 보정</strong>
+  혼합물 분석단위는 22종 계면활성제의 조합이라 성분을 공유합니다. 행 단위
+  Spearman은 p=0.000381로
+  나오지만 이는 과장된 값입니다. 배합 단위 치환검정 결과인
+  p=0.0134를 보고값으로 씁니다.
+</div>
+
+<h3>농도층별 (참고)</h3>
+<table>
+  <thead><tr><th>농도 %</th><th>티어</th><th>n</th><th>rho</th><th>p (행단위)</th></tr></thead>
+  <tbody><tr><td class="lbl">0.5</td><td>단일</td>
+        <td class="num">20</td><td class="num">+0.178</td>
+        <td class="num">0.4520</td></tr><tr><td class="lbl">0.5</td><td>혼합</td>
+        <td class="num">40</td><td class="num">-0.344</td>
+        <td class="num">0.0295</td></tr><tr><td class="lbl">1.0</td><td>단일</td>
+        <td class="num">22</td><td class="num">+0.167</td>
+        <td class="num">0.4590</td></tr><tr><td class="lbl">1.0</td><td>혼합</td>
+        <td class="num">44</td><td class="num">-0.216</td>
+        <td class="num">0.1590</td></tr><tr><td class="lbl">2.0</td><td>단일</td>
+        <td class="num">18</td><td class="num">-0.067</td>
+        <td class="num">0.7910</td></tr><tr><td class="lbl">2.0</td><td>혼합</td>
+        <td class="num">19</td><td class="num">-0.370</td>
+        <td class="num">0.1190</td></tr><tr><td class="lbl">pooled</td><td>단일</td>
+        <td class="num">60</td><td class="num">+0.062</td>
+        <td class="num">0.6360</td></tr><tr><td class="lbl">pooled</td><td>혼합</td>
+        <td class="num">103</td><td class="num">-0.344</td>
+        <td class="num">0.0004</td></tr></tbody>
+</table>
+
+<h2>적용범위</h2>
+<div class="grid">
+  <div class="stat"><div class="k">Tanimoto 중앙값</div><div class="v">0.464</div></div>
+  <div class="stat"><div class="k">Tanimoto &lt; 0.4</div><div class="v">10<span class="u"> / 22</span></div></div>
+  <div class="stat"><div class="k">학습 95분위 밖</div><div class="v">47.0<span class="u"> %</span></div></div>
+  <div class="stat"><div class="k">외부 / 학습 중앙거리</div><div class="v">1.35<span class="u"> / 0.78</span></div></div>
+</div>
+<p class="note">외부 배합의 약 절반이 학습 화학공간 밖입니다. 글루코사이드·글리세레스
+계열이 가장 멀고(Tanimoto 0.29–0.33), 설페이트 계열이 가장 가깝습니다.
+따라서 Tier 2의 역상관은 "모델이 틀렸다"보다 <b>"학습 영역 밖에서 가중평균 집계가
+순서를 보존하지 못한다"</b>로 읽는 것이 자료에 부합합니다. 다만 이 자료만으로
+두 해석을 완전히 분리할 수는 없습니다.</p>
+
+<h2>적용범위 내부 재분석</h2>
+<p class="note">사후 부분집합 분석입니다. 임계값을 하나만 고르면 체리피킹이 되므로
+관례적 분위수(p50·p75·p90·p95)를 전부 보고합니다. 표본이 줄어 검정력이 낮으므로
+유의성보다 CI 폭과 추정치 안정성을 봅니다.</p>
+
+      <div class="callout red">
+        <strong>핵심: Tier 2의 역상관은 적용범위 안에서 사라집니다.</strong>
+        전체에서 rho -0.344였던 혼합물 상관이
+        p75 이내에서는 -0.079 (CI [-0.557, +0.484]),
+        p95 이내에서는 +0.039로 0 근처입니다.
+        따라서 <b>모델이 화장품 계면활성제에 대해 체계적으로 뒤집혀 있다는 해석은 지지되지 않습니다.</b>
+        앞서 보고한 역상관은 학습 영역 밖에서 발생한 현상입니다.
+      </div>
+      <div class="callout">
+        <strong>다만 세 가지를 과장하면 안 됩니다.</strong>
+        <b>(1) 거리 기울기가 단조롭지 않습니다.</b> 가장 강한 음의 상관은 가장 먼 구간이 아니라
+        <b>중간 구간</b>(-0.681, CI [-0.813, -0.342])에
+        몰려 있고, 가장 먼 구간은 오히려 양수(+0.261)입니다.
+        순수한 '거리가 멀수록 악화' 설명으로는 전부 설명되지 않으며, 중간 구간의 화학적 구성을
+        따로 확인해야 합니다.
+        <b>(2) AD 내부의 Tier 1 양의 상관은 통계적으로 뒷받침되지 않습니다.</b>
+        p75에서 rho +0.602이지만 CI [-0.194, +0.849],
+        p=0.0999, 군집 8개뿐입니다. 경향일 뿐 증거가 아닙니다.
+        <b>(3) p50 이내 표본은 0건입니다.</b> 외부 배합의 최소 거리
+        (0.853)가 학습 중앙값(0.780)을 이미 넘습니다.
+        즉 '적용범위 내부'라 부른 구간조차 학습 분포의 가장자리입니다.
+      </div>
+      <table>
+        <thead><tr><th>AD 기준</th><th>티어</th><th>n</th><th>군집</th>
+        <th>rho</th><th>군집 부트스트랩 95% CI</th><th>치환 p</th><th>판정</th></tr></thead>
+        <tbody>
+            <tr>
+              <td class="lbl">전체(제한없음)</td>
+              <td>단일</td>
+              <td class="num">60</td>
+              <td class="num">22</td>
+              <td class="num strong">+0.062</td>
+              <td class="num">[-0.328, +0.462]</td>
+              <td class="num">0.7640</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">전체(제한없음)</td>
+              <td>혼합</td>
+              <td class="num">103</td>
+              <td class="num">44</td>
+              <td class="num strong">-0.344</td>
+              <td class="num">[-0.550, -0.076]</td>
+              <td class="num">0.0141</td>
+              <td><span class="tag bad">역방향</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p50</td>
+              <td>단일</td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num strong">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td><span class="tag neutral">—</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p50</td>
+              <td>혼합</td>
+              <td class="num">0</td>
+              <td class="num">0</td>
+              <td class="num strong">—</td>
+              <td class="num">—</td>
+              <td class="num">—</td>
+              <td><span class="tag neutral">—</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p75</td>
+              <td>단일</td>
+              <td class="num">22</td>
+              <td class="num">8</td>
+              <td class="num strong">+0.602</td>
+              <td class="num">[-0.194, +0.849]</td>
+              <td class="num">0.0999</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p75</td>
+              <td>혼합</td>
+              <td class="num">32</td>
+              <td class="num">12</td>
+              <td class="num strong">-0.079</td>
+              <td class="num">[-0.557, +0.484]</td>
+              <td class="num">0.7510</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p90</td>
+              <td>단일</td>
+              <td class="num">28</td>
+              <td class="num">10</td>
+              <td class="num strong">+0.553</td>
+              <td class="num">[-0.047, +0.808]</td>
+              <td class="num">0.0655</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p90</td>
+              <td>혼합</td>
+              <td class="num">41</td>
+              <td class="num">15</td>
+              <td class="num strong">-0.209</td>
+              <td class="num">[-0.566, +0.237]</td>
+              <td class="num">0.2838</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p95</td>
+              <td>단일</td>
+              <td class="num">46</td>
+              <td class="num">17</td>
+              <td class="num strong">+0.336</td>
+              <td class="num">[-0.107, +0.645]</td>
+              <td class="num">0.1489</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">p95</td>
+              <td>혼합</td>
+              <td class="num">50</td>
+              <td class="num">18</td>
+              <td class="num strong">+0.039</td>
+              <td class="num">[-0.320, +0.377]</td>
+              <td class="num">0.8213</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr></tbody>
+      </table>
+      <h3>혼합물 · 학습공간 거리 3분위별 기울기</h3>
+      <p class="note">외삽 가설의 직접 검정. 가까운 구간에서 rho가 0으로 수렴하면 외삽 설명이
+      지지되고, 가까운 구간에서도 음수면 모델 방향 자체의 문제다.</p>
+      <table>
+        <thead><tr><th>구간</th><th>거리 범위</th><th>n</th><th>rho</th>
+        <th>95% CI</th><th>판정</th></tr></thead>
+        <tbody>
+            <tr>
+              <td class="lbl">가까움</td>
+              <td class="num">0.853–1.044</td>
+              <td class="num">32</td>
+              <td class="num strong">-0.079</td>
+              <td class="num">[-0.550, +0.480]</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">중간</td>
+              <td class="num">1.044–2.697</td>
+              <td class="num">37</td>
+              <td class="num strong">-0.681</td>
+              <td class="num">[-0.813, -0.342]</td>
+              <td><span class="tag bad">역방향</span></td>
+            </tr>
+            <tr>
+              <td class="lbl">멂</td>
+              <td class="num">2.697–3.440</td>
+              <td class="num">34</td>
+              <td class="num strong">+0.261</td>
+              <td class="num">[-0.143, +0.590]</td>
+              <td><span class="tag neutral">신호 없음</span></td>
+            </tr></tbody>
+      </table>
+      <h3>학습 중복(SLS) 제외 민감도</h3>
+      <table>
+        <thead><tr><th>표본</th><th>티어</th><th>n</th><th>rho</th>
+        <th>95% CI</th><th>치환 p</th></tr></thead>
+        <tbody>
+            <tr><td class="lbl">전체</td><td>단일</td>
+            <td class="num">60</td>
+            <td class="num strong">+0.062</td>
+            <td class="num">[-0.341, +0.460]</td>
+            <td class="num">0.7646</td></tr>
+            <tr><td class="lbl">전체</td><td>혼합</td>
+            <td class="num">103</td>
+            <td class="num strong">-0.344</td>
+            <td class="num">[-0.553, -0.082]</td>
+            <td class="num">0.0132</td></tr>
+            <tr><td class="lbl">SLS 제외</td><td>단일</td>
+            <td class="num">57</td>
+            <td class="num strong">+0.025</td>
+            <td class="num">[-0.376, +0.436]</td>
+            <td class="num">0.9126</td></tr>
+            <tr><td class="lbl">SLS 제외</td><td>혼합</td>
+            <td class="num">94</td>
+            <td class="num strong">-0.320</td>
+            <td class="num">[-0.537, -0.043]</td>
+            <td class="num">0.0267</td></tr></tbody>
+      </table>
+
+<h2>한계</h2>
+<ul>
+  <li><b>엔드포인트 불일치.</b> zein number ≠ EPA 눈자극 등급. 순위 비교만 유효합니다.</li>
+  <li><b>대표구조 근사.</b> 22종 모두 다분산 상업 계면활성제로 단일 SMILES가 없습니다.
+      사전 지정 규칙 R1–R9로 구성했고 결과를 보고 조정하지 않았습니다.
+      coco 계열을 C12로 고정해 Coco Glucoside와 Lauryl Glucoside의 대표구조가
+      동일해졌고, laureth sulfate·coceth sulfate의 EO 수는 각각 2, 3으로 가정했습니다.</li>
+  <li><b>학습 중복 1종.</b> Sodium lauryl sulfate가 학습 배합 1건과 구조 동일(Tanimoto 1.000).
+      22종 중 1종이라 영향은 제한적이며 제외 민감도를 함께 보고합니다.</li>
+  <li><b>검정력.</b> 고유 배합 66종, 군집 44개로 CI가 넓습니다.</li>
+  <li><b>in vitro 단일 지표.</b> zein number 한 종류만으로 자극성 전체를 대표하지 않습니다.</li>
+</ul>
+
+<h2>재현</h2>
+<ul>
+  <li><code>python resolve_structures.py</code> — 22종 대표구조 생성</li>
+  <li><code>python run_validation.py</code> — 피처·예측·순위상관</li>
+  <li><code>python robustness.py</code> — 군집 치환검정·군집 부트스트랩·영향도</li>
+  <li><code>python applicability_domain.py</code> — Tanimoto 및 피처공간 거리</li>
+  <li><code>python in_domain_analysis.py</code> — AD 내부 재분석·거리 기울기·SLS 민감도</li>
+  <li><code>python build_report.py</code> — 본 보고서 재생성</li>
+</ul>
+
+<footer>
+  모델 identity <code>None…</code> ·
+  임계값 0.4815 ·
+  부트스트랩 10000회 · seed 20261109<br>
+  출처 SHA-256 <code>934be014b5e364bf…</code> ·
+  모델 SHA-256 <code>d71394e691ac5072…</code>
+</footer>
+
+</div></body></html>

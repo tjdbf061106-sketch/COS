@@ -1,0 +1,23 @@
+inci_name,status,matched_query,cid,smiles,iupac
+Capryl Glucoside,found,Capryl Glucoside,62142.0,CCCCCCCCCCO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O,"(2R,3R,4S,5S,6R)-2-decoxy-6-(hydroxymethyl)oxane-3,4,5-triol"
+Capryleth-6 Carboxylic Acid,http_error_404,,,,
+Cocamidopropylamine Oxide,http_error_404,,,,
+Coco Glucoside,found,Coco Glucoside,369373.0,CCCCCCCCCCCCOC1C(C(C(C(O1)CO)O)O)O,"2-dodecoxy-6-(hydroxymethyl)oxane-3,4,5-triol"
+Disodium Capryloyl Glutamate: 30% - 37%,found,Disodium Capryloyl Glutamate,71587566.0,CCCCCCCC(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-].[Na+].[Na+],disodium;(2S)-2-(octanoylamino)pentanedioate
+Disodium Lauroyl Glutamate,found,Disodium Lauroyl Glutamate,11337766.0,CCCCCCCCCCCC(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-].[Na+].[Na+],disodium;(2S)-2-(dodecanoylamino)pentanedioate
+Glycereth-17 Cocoate,http_error_404,,,,
+Glycereth-2 Cocoate,http_error_404,,,,
+Glycereth-6 Cocoate,http_error_404,,,,
+Glycereth-7 Cocoate,http_error_404,,,,
+Lauramine Oxide,found,Lauramine Oxide,15433.0,CCCCCCCCCCCC[N+](C)(C)[O-],"N,N-dimethyldodecan-1-amine oxide"
+Laureth-11 Carboxylic Acid,http_error_404,,,,
+Laureth-4 Carboxylic Acid,http_error_404,,,,
+Lauryl Glucoside,found,Lauryl Glucoside,10893439.0,CCCCCCCCCCCCOC1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O,"(3R,4S,5S,6R)-2-dodecoxy-6-(hydroxymethyl)oxane-3,4,5-triol"
+Myristamine Oxide,found,Myristamine Oxide,18739.0,CCCCCCCCCCCCCC[N+](C)(C)[O-],"N,N-dimethyltetradecan-1-amine oxide"
+Polyoxyethylene(11) alkyl(C12-14) ethers,http_error_404,,,,
+Polyoxyethylene(11) alkyl(C16-18) ethers,http_error_404,,,,
+Polyoxyethylene(6) alkyl(C8-12) ethers,http_error_404,,,,
+Sodium laureth sulfate,found,Sodium laureth sulfate,23665884.0,CCCCCCCCCCCCOCCOS(=O)(=O)[O-].[Na+],sodium 2-dodecoxyethyl sulfate
+Sodium lauryl sulfate,found,Sodium lauryl sulfate,3423265.0,CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+],sodium dodecyl sulfate
+Zinc Coceth Sulfate,http_error_404,,,,
+Zinc Coco-Sulfate: 27% - 30%,found,Zinc Coco-Sulfate,22593158.0,CCCCCCCCCCCCOS(=O)(=O)[O-].CCCCCCCCCCCCOS(=O)(=O)[O-].[Zn+2],zinc dodecyl sulfate

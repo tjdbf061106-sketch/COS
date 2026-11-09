@@ -1,0 +1,23 @@
+ingredient,structure_status,smiles,pubchem_cid,source_url,experimental_lot_identity_confirmed,note
+Capryl Glucoside,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Capryleth-6 Carboxylic Acid,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Cocamidopropylamine Oxide,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Coco Glucoside,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Disodium Capryloyl Glutamate: 30% - 37%,named_identity_resolved,CCCCCCCC(=O)NC(CCC(=O)[O-])C(=O)[O-].[Na+].[Na+],71587566.0,https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/disodium%20capryloyl%20glutamate/property/CanonicalSMILES/JSON,False,PubChem API returned this named identity; commercial lot composition/purity not established
+Disodium Lauroyl Glutamate,named_identity_resolved,CCCCCCCCCCCC(=O)NC(CCC(=O)[O-])C(=O)[O-].[Na+].[Na+],11337766.0,https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/disodium%20lauroyl%20glutamate/property/CanonicalSMILES/JSON,False,PubChem API returned this named identity; commercial lot composition/purity not established
+Glycereth-17 Cocoate,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Glycereth-2 Cocoate,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Glycereth-6 Cocoate,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Glycereth-7 Cocoate,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Lauramine Oxide,named_identity_resolved,CCCCCCCCCCCC[N+](C)(C)[O-],15433.0,https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lauramine%20oxide/property/CanonicalSMILES/JSON,False,PubChem API returned this named identity; commercial lot composition/purity not established
+Laureth-11 Carboxylic Acid,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Laureth-4 Carboxylic Acid,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Lauryl Glucoside,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Myristamine Oxide,named_identity_resolved,CCCCCCCCCCCCCC[N+](C)(C)[O-],18739.0,https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/myristamine%20oxide/property/CanonicalSMILES/JSON,False,PubChem API returned this named identity; commercial lot composition/purity not established
+Polyoxyethylene(11) alkyl(C12-14) ethers,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Polyoxyethylene(11) alkyl(C16-18) ethers,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Polyoxyethylene(6) alkyl(C8-12) ethers,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Sodium laureth sulfate,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Sodium lauryl sulfate,named_identity_resolved,CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+],3423265.0,https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20lauryl%20sulfate/property/CanonicalSMILES/JSON,False,PubChem API returned this named identity; commercial lot composition/purity not established
+Zinc Coceth Sulfate,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted
+Zinc Coco-Sulfate: 27% - 30%,unresolved_no_representative_structure,,,,False,No exact single structure established; coco/EO/alkyl/glucoside averages are not substituted

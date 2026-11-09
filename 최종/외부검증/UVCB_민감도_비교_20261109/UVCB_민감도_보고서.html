@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UVCB 구조 가정 민감도</title>
+<style>
+:root{--bg:#fff;--fg:#17181c;--muted:#5d6370;--line:#e3e6ec;--soft:#f6f7f9;
+--bad:#b4342b;--bad-bg:#fdf2f1;--good:#1d7a4c;--good-bg:#f0f9f4;
+--warn:#8a5a00;--warn-bg:#fdf6e6;--key:#3b4ca8;--key-bg:#eef1fc}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+--bg:#15171b;--fg:#e9ecf1;--muted:#9aa3b2;--line:#2b2f37;--soft:#1c1f25;
+--bad:#f08279;--bad-bg:#2b1b1a;--good:#6fd39c;--good-bg:#15241c;
+--warn:#e2b55c;--warn-bg:#2a2317;--key:#9fb4fb;--key-bg:#1b2033}}
+:root[data-theme="dark"]{--bg:#15171b;--fg:#e9ecf1;--muted:#9aa3b2;--line:#2b2f37;
+--soft:#1c1f25;--bad:#f08279;--bad-bg:#2b1b1a;--good:#6fd39c;--good-bg:#15241c;
+--warn:#e2b55c;--warn-bg:#2a2317;--key:#9fb4fb;--key-bg:#1b2033}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.68;font-size:15px;
+font-family:-apple-system,"Segoe UI","Malgun Gothic",sans-serif}
+.wrap{max-width:1020px;margin:0 auto;padding:48px 16px 88px}
+h1{font-size:1.68rem;margin:0 0 6px;letter-spacing:-0.015em}
+h2{font-size:1.18rem;margin:46px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 26px}
+.callout{border-left:3px solid var(--warn);background:var(--warn-bg);padding:13px 16px;
+border-radius:0 6px 6px 0;margin:18px 0;font-size:.93rem}
+.callout.red{border-color:var(--bad);background:var(--bad-bg)}
+.callout.key{border-color:var(--key);background:var(--key-bg)}
+.callout strong{display:block;margin-bottom:4px}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.86rem}
+th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--soft);font-weight:600;font-size:.78rem;color:var(--muted)}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;
+font-family:ui-monospace,Consolas,monospace}
+td.lbl{font-weight:600;white-space:nowrap} td.strong{font-weight:700}
+td.desc{color:var(--muted);font-size:.84rem}
+.tag{display:inline-block;padding:2px 9px;border-radius:11px;font-size:.75rem;font-weight:600;white-space:nowrap}
+.tag.bad{background:var(--bad-bg);color:var(--bad)}
+.tag.good{background:var(--good-bg);color:var(--good)}
+.tag.neutral{background:var(--soft);color:var(--muted)}
+.note{color:var(--muted);font-size:.87rem}
+code{font-family:ui-monospace,Consolas,monospace;font-size:.85em;background:var(--soft);
+padding:1.5px 5px;border-radius:4px}
+ul{padding-left:20px} li{margin:6px 0} ol{padding-left:22px} ol li{margin:9px 0}
+blockquote{margin:16px 0;padding:14px 18px;background:var(--soft);
+border-left:3px solid var(--key);border-radius:0 6px 6px 0;font-size:.94rem}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
+color:var(--muted);font-size:.82rem}
+</style></head><body><div class="wrap">
+
+<h1>UVCB 구조 가정이 결론을 바꾸는가</h1>
+<p class="sub">Lechuga 2025 zein 자료 · eye A 모델 고정 · 2026-11-09 · 범위 S5 ⊂ S10 ⊂ S22</p>
+
+<div class="callout red">
+  <strong>핵심: 같은 모델·같은 원자료인데 구조 가정 범위만 바꾸면 상관의 부호가 바뀝니다.</strong>
+  5종(-0.600) → 10종(+0.424)
+  → 22종(-0.151). 세 조건 모두 통계적 유의성에
+  도달하지 못했습니다(배합 단위 p = 0.208 /
+  0.194 / 0.226).
+  <b>결론을 만들고 있는 것은 모델이 아니라 전처리 방침입니다.</b>
+</div>
+
+<h2>1. 세 분석은 무엇이 달랐나</h2>
+<p class="note">동일한 Lechuga zein 자료에 대해 세 건의 분석이 서로 다른 결론을 냈습니다.
+차이는 다분산 상업원료(UVCB)의 구조를 어디까지 가정하는가 하나뿐이며,
+세 범위는 포함관계입니다(S5 ⊂ S10 ⊂ S22). 따라서 결과 차이는 전적으로
+추가로 포함된 성분에서 나옵니다.</p>
+<table>
+  <thead><tr><th>범위</th><th>구조 해결 방침</th><th>성분</th><th>행</th><th>배합</th>
+  <th>배합 rho</th><th>배합 p</th><th>군집 p</th><th>군집 부트스트랩 95% CI</th><th>판정</th></tr></thead>
+  <tbody>
+      <tr>
+        <td class="lbl">S5</td>
+        <td class="desc">PubChem 단일구조 5종 · UVCB 가정 금지</td>
+        <td class="num">5</td>
+        <td class="num">18</td>
+        <td class="num">6</td>
+        <td class="num strong">-0.600</td>
+        <td class="num">0.208</td>
+        <td class="num">0.181</td>
+        <td class="num">[-0.687, +0.210]</td>
+        <td><span class="tag bad">역방향</span></td>
+      </tr>
+      <tr>
+        <td class="lbl">S10</td>
+        <td class="desc">PubChem 조회 성공 10종 · 가정 암묵 수용</td>
+        <td class="num">10</td>
+        <td class="num">32</td>
+        <td class="num">11</td>
+        <td class="num strong">+0.424</td>
+        <td class="num">0.194</td>
+        <td class="num">0.089</td>
+        <td class="num">[-0.056, +0.859]</td>
+        <td><span class="tag good">정방향</span></td>
+      </tr>
+      <tr>
+        <td class="lbl">S22</td>
+        <td class="desc">대표구조 규칙 22종 · 가정 명시 사용</td>
+        <td class="num">22</td>
+        <td class="num">163</td>
+        <td class="num">66</td>
+        <td class="num strong">-0.151</td>
+        <td class="num">0.226</td>
+        <td class="num">0.143</td>
+        <td class="num">[-0.379, +0.060]</td>
+        <td><span class="tag neutral">무신호</span></td>
+      </tr></tbody>
+</table>
+<ul>
+  <li><b>S5</b> — <code>Lechuga_Eye_A_B_엄격검토_20261109</code>. PubChem에서 단일 명확
+    구조가 확인된 5종만. coco 사슬·EO 평균·글루코사이드 올리고머·알킬 범위 가정을
+    전면 금지했습니다.</li>
+  <li><b>S10</b> — GitHub <code>cosmetic_validation/lechuga_smiles_cache.csv</code>에서
+    명칭 조회가 성공한 10종. <b>가정을 피한 것이 아니라 PubChem이 제공한 대표구조를
+    암묵적으로 수용</b>한 것입니다. 이 10종 안에 글루코사이드 3종(올리고머 혼합),
+    Sodium laureth sulfate(EO 평균), Zinc Coco-Sulfate(coco 사슬)가 들어 있습니다.</li>
+  <li><b>S22</b> — <code>Lechuga2025_화장품_외부검증_20261109</code>. 대표구조 규칙
+    R1–R9를 명시적으로 적용해 22종 전부 해결. 가정을 문서화한 대신 가장 먼 외삽
+    영역까지 포함합니다.</li>
+</ul>
+
+<h2>2. 양의 상관의 정체 — 글루코사이드 3종</h2>
+<table>
+  <thead><tr><th>부분집합</th><th>배합 n</th><th>rho</th><th>p</th><th>판정</th></tr></thead>
+  <tbody>
+      <tr><td class="lbl">S10 전체</td>
+        <td class="num">11</td>
+        <td class="num strong">+0.424</td>
+        <td class="num">0.194</td>
+        <td><span class="tag good">정방향</span></td></tr>
+      <tr><td class="lbl">S10 − 글루코사이드 3종</td>
+        <td class="num">8</td>
+        <td class="num strong">-0.071</td>
+        <td class="num">0.867</td>
+        <td><span class="tag neutral">무신호</span></td></tr>
+      <tr><td class="lbl">S10 − 아민옥사이드 2종</td>
+        <td class="num">8</td>
+        <td class="num strong">+0.491</td>
+        <td class="num">0.217</td>
+        <td><span class="tag good">정방향</span></td></tr>
+      <tr><td class="lbl">S10 − SLS</td>
+        <td class="num">10</td>
+        <td class="num strong">+0.450</td>
+        <td class="num">0.192</td>
+        <td><span class="tag good">정방향</span></td></tr></tbody>
+</table>
+<div class="callout">
+  <strong>S10에서 글루코사이드 3종만 빼면 상관이 무너집니다.</strong>
+  +0.424 → -0.071.
+  즉 S10의 양의 상관은 11개 배합의 순위를 맞춘 결과가 아니라,
+  <b>글루코사이드 계열과 아민옥사이드 계열의 두 점 대비 하나</b>에서 나옵니다.
+  그리고 글루코사이드는 중합도(DP)가 분포를 갖는 UVCB로, 바로 S5가 사용을 금지한
+  부류입니다.
+</div>
+
+<h2>3. 계열별 점수와 참조값</h2>
+<table>
+  <thead><tr><th>계열</th><th>n</th><th>eye 점수 범위</th><th>zein number 범위</th><th>zein 중앙값</th></tr></thead>
+  <tbody>
+      <tr><td class="lbl">글루코사이드 (UVCB 올리고머)</td>
+        <td class="num">8</td>
+        <td class="num">0.476 – 0.492</td>
+        <td class="num">4.3 – 72.0</td>
+        <td class="num strong">16.5</td></tr>
+      <tr><td class="lbl">아민옥사이드 (단일구조)</td>
+        <td class="num">9</td>
+        <td class="num">0.524 – 0.533</td>
+        <td class="num">194.8 – 457.3</td>
+        <td class="num strong">339.5</td></tr>
+      <tr><td class="lbl">설페이트계</td>
+        <td class="num">9</td>
+        <td class="num">0.462 – 0.505</td>
+        <td class="num">76.3 – 637.0</td>
+        <td class="num strong">248.0</td></tr>
+      <tr><td class="lbl">아실글루타메이트</td>
+        <td class="num">6</td>
+        <td class="num">0.571 – 0.588</td>
+        <td class="num">83.2 – 607.0</td>
+        <td class="num strong">253.8</td></tr></tbody>
+</table>
+<p class="note">모델 점수의 계열 간 차이는 작고(수백분의 몇 수준), 참조값의 차이는
+한 자릿수에서 수백까지 큽니다. 순위상관은 이 작은 점수차를 순위로 환산하므로
+계열이 둘로 갈리기만 하면 큰 값이 나올 수 있습니다. 상관계수의 크기를 분별력의
+크기로 읽으면 안 됩니다.</p>
+
+<h2>4. skin 보고값과의 관계</h2>
+<p class="note">GitHub skin 결과(<code>lechuga_external_validation_results.csv</code>)를
+동일 기준으로 재계산했습니다. skin은 S10 범위에 해당합니다.</p>
+<table>
+  <thead><tr><th>지표</th><th>행 단위</th><th>배합 단위</th></tr></thead>
+  <tbody>
+    <tr><td class="lbl">표본 수</td><td class="num">41</td><td class="num">11</td></tr>
+    <tr><td class="lbl">분류 정확도</td><td class="num">0.780</td><td class="num strong">0.818</td></tr>
+    <tr><td class="lbl">Spearman rho</td><td class="num">+0.620</td><td class="num strong">+0.500</td></tr>
+    <tr><td class="lbl">p</td><td class="num">—</td><td class="num">0.117</td></tr>
+  </tbody>
+</table>
+<div class="callout key">
+  <strong>skin이 더 맞은 것이 아닙니다.</strong>
+  skin의 배합 단위 rho +0.500 (p=0.117)와
+  동일 범위 S10에서의 eye +0.424 (p=0.194)는
+  이 표본 크기에서 구분되지 않습니다. 둘 다 유의하지 않습니다.
+  skin의 행 단위 수치가 커 보였던 이유는 ① 고유 배합 11종을
+  41행으로 세어 반복측정이 통계를 부풀렸고, ② PubChem 조회 실패로
+  학습공간에서 가장 먼 12종이 자동 제외되어 <b>의도하지 않은 적용범위 필터</b>가
+  걸렸기 때문입니다.
+</div>
+
+<h2>5. 결론</h2>
+<ol>
+  <li><b>부호가 방침에 따라 바뀝니다.</b> 동일 모델·동일 원자료에서 배합 단위 Spearman이
+    -0.600 ~ +0.424 범위로
+    움직이며 부호를 포함해 변동합니다.</li>
+  <li><b>어느 조건도 유의하지 않습니다.</b> 배합 단위 p가 전부 0.19를 넘습니다.
+    고유 배합이 6~66개로 검정력이 없습니다.</li>
+  <li><b>양의 상관은 두 계열 대비 하나에 의존합니다.</b> 글루코사이드 3종 제거로
+    +0.424 → -0.071.</li>
+  <li><b>따라서 이 자료는 전이 여부를 판정하지 못합니다.</b> 모델 성능 이전에
+    다분산 상업원료의 구조 표현이 선결 과제입니다.</li>
+</ol>
+
+<blockquote>
+Lechuga zein 자료에 대한 외부 비교는 UVCB 성분의 구조 해결 방침에 따라 Spearman
+상관이 -0.600에서 +0.424까지
+부호를 포함해 변동했으며, 어느 조건에서도 통계적 유의성에 도달하지 않았다
+(배합 단위 p &gt; 0.19). 양의 상관은 글루코사이드 계열과 아민옥사이드 계열의
+대비에 의존했고, 해당 계열을 제외하면 소멸했다. 따라서 본 자료는 모델의 전이
+여부를 판정할 근거가 되지 못하며, 다분산 상업 원료에 대한 구조 표현이 선결
+과제임을 보여준다.
+</blockquote>
+
+<h2>6. 한계</h2>
+<ul>
+  <li>zein number는 in vitro 단백질 변성 지표이며 EPA 눈자극 등급이 아닙니다.
+    어느 범위에서도 EPA 분류 성능을 산출하지 않았습니다.</li>
+  <li>세 범위가 포함관계이므로 표본 수가 함께 변합니다. 부호 변화에는 구조 가정
+    효과와 표본 구성 효과가 섞여 있으며, 이 자료만으로 분리할 수 없습니다.</li>
+  <li>S22의 대표구조 규칙은 근사입니다. coco 계열을 C12로 고정해 Coco Glucoside와
+    Lauryl Glucoside의 대표구조가 동일해졌습니다.</li>
+  <li>Zenodo 원문 접근이 HTTP 403으로 실패해 절대 활성성분 함량 기준을 독립
+    확인하지 못했습니다. 혼합비는 명목 상대비입니다.</li>
+  <li>본 자료의 결과는 이전 작업에서 이미 열람되었으므로, 전향적으로 봉인된
+    외부 시험셋이 아닙니다.</li>
+</ul>
+
+<footer>
+  부트스트랩·치환 20,000회 · seed 20261109 ·
+  모델·임계값·학습자료 변경 없음<br>
+  구성: Lechuga2025_화장품_외부검증_20261109 ·
+  Lechuga_Eye_A_B_엄격검토_20261109 · Skin_Lechuga_외부검증_20261109<br>
+  재현: <code>python run_sensitivity.py</code> → <code>python build_report.py</code>
+</footer>
+
+</div></body></html>

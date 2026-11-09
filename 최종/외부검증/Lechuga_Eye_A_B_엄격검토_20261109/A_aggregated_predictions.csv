@@ -1,0 +1,65 @@
+product1,product2,proportion,concentration_pct,coverage,zein_number,n_replicates,eye_score,eye_prediction,feature_hash,training_feature_matches,contains_SLS,zein_label
+Capryleth-6 Carboxylic Acid,Lauramine Oxide,1-1,0.5,partial_components,116.21,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Capryleth-6 Carboxylic Acid,Lauramine Oxide,1-1,1.0,partial_components,125.580397022333,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Capryleth-6 Carboxylic Acid,Lauramine Oxide,1-1,2.0,partial_components,136.48,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Capryleth-6 Carboxylic Acid,Myristamine Oxide,1-1,0.5,partial_components,152.74,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Capryleth-6 Carboxylic Acid,Myristamine Oxide,1-1,1.0,partial_components,166.121339950372,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Capryleth-6 Carboxylic Acid,Myristamine Oxide,1-1,2.0,partial_components,218.63,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Cocamidopropylamine Oxide,Lauramine Oxide,1-1,0.5,partial_components,198.265,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Cocamidopropylamine Oxide,Lauramine Oxide,1-1,1.0,partial_components,255.118362282878,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Cocamidopropylamine Oxide,Lauramine Oxide,1-1,2.0,partial_components,456.182,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Disodium Capryloyl Glutamate: 30% - 37%,,,0.5,all_named_components,83.25,1,0.5883877141501965,1.0,772373904eca0142faf062ba9faeaea006f94af06ca1dc932c5281e7e7c7c874,0.0,False,0
+Disodium Capryloyl Glutamate: 30% - 37%,,,1.0,all_named_components,178.85,1,0.5883877141501965,1.0,772373904eca0142faf062ba9faeaea006f94af06ca1dc932c5281e7e7c7c874,0.0,False,0
+Disodium Capryloyl Glutamate: 30% - 37%,,,2.0,all_named_components,328.76,1,0.5883877141501965,1.0,772373904eca0142faf062ba9faeaea006f94af06ca1dc932c5281e7e7c7c874,0.0,False,1
+Disodium Lauroyl Glutamate,,,0.5,all_named_components,176.68,1,0.5713236277680632,1.0,783af12abb4db6c434f36471135874688179aa62e68c3999494bc3c66f1dc633,0.0,False,0
+Disodium Lauroyl Glutamate,,,1.0,all_named_components,551.19,1,0.5713236277680632,1.0,783af12abb4db6c434f36471135874688179aa62e68c3999494bc3c66f1dc633,0.0,False,1
+Disodium Lauroyl Glutamate,,,2.0,all_named_components,607.04,1,0.5713236277680632,1.0,783af12abb4db6c434f36471135874688179aa62e68c3999494bc3c66f1dc633,0.0,False,1
+Glycereth-17 Cocoate,Lauramine Oxide,1-1,0.5,partial_components,122.3,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Glycereth-17 Cocoate,Lauramine Oxide,1-1,1.0,partial_components,220.46,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Glycereth-2 Cocoate,Lauramine Oxide,1-1,0.5,partial_components,115.48,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Glycereth-2 Cocoate,Lauramine Oxide,1-1,1.0,partial_components,148.31,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Glycereth-6 Cocoate,Lauramine Oxide,1-1,0.5,partial_components,29.16,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Glycereth-6 Cocoate,Lauramine Oxide,1-1,1.0,partial_components,160.7343817,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Glycereth-6 Cocoate,Sodium lauryl sulfate,1-1,0.5,partial_components,60.65,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Glycereth-6 Cocoate,Sodium lauryl sulfate,1-1,1.0,partial_components,70.6,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Glycereth-6 Cocoate,Sodium lauryl sulfate,1-1,2.0,partial_components,83.0,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Glycereth-6 Cocoate,Sodium lauryl sulfate,1-2,0.5,partial_components,62.04,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Glycereth-6 Cocoate,Sodium lauryl sulfate,1-2,1.0,partial_components,70.9,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Glycereth-6 Cocoate,Sodium lauryl sulfate,1-2,2.0,partial_components,102.25,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Glycereth-7 Cocoate,Lauramine Oxide,1-1,0.5,partial_components,66.69,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Glycereth-7 Cocoate,Lauramine Oxide,1-1,1.0,partial_components,142.74,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Lauramine Oxide,,1,0.5,all_named_components,239.09000000000003,2,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Lauramine Oxide,,1,1.0,all_named_components,339.4697394540945,2,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Lauramine Oxide,,1,2.0,all_named_components,384.94,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Lauramine Oxide,Laureth-11 Carboxylic Acid,1-1,0.5,partial_components,171.33,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Lauramine Oxide,Laureth-11 Carboxylic Acid,1-1,1.0,partial_components,216.990570719603,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Lauramine Oxide,Laureth-11 Carboxylic Acid,1-1,2.0,partial_components,274.134,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Lauramine Oxide,Laureth-4 Carboxylic Acid,1-1,0.5,partial_components,154.63,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,0
+Lauramine Oxide,Laureth-4 Carboxylic Acid,1-1,1.0,partial_components,280.215136476427,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Lauramine Oxide,Laureth-4 Carboxylic Acid,1-1,2.0,partial_components,292.82,1,0.5329149848559309,1.0,98e600d4719e7e7ac9e18756c4649235f4c032326f08b37995929486b2de3dab,0.0,False,1
+Myristamine Oxide,,1,0.5,all_named_components,325.11,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Myristamine Oxide,,1,1.0,all_named_components,374.281265508685,2,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Myristamine Oxide,,1,2.0,all_named_components,457.26,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Myristamine Oxide,Cocamidopropylamine Oxide,1-1,0.5,partial_components,164.86,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Cocamidopropylamine Oxide,1-1,1.0,partial_components,248.844,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Myristamine Oxide,Cocamidopropylamine Oxide,1-1,2.0,partial_components,517.18,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Myristamine Oxide,Glycereth-17 Cocoate,1-1,0.5,partial_components,49.769999999999996,2,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Glycereth-17 Cocoate,1-1,1.0,partial_components,142.325,2,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Glycereth-2 Cocoate,1-1,1.0,partial_components,10.555,2,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Glycereth-6 Cocoate,1-1,0.5,partial_components,58.045,2,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Glycereth-6 Cocoate,1-1,1.0,partial_components,193.41500000000002,2,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Lauramine Oxide,1-1,0.5,all_named_components,194.79,1,0.5285437044788595,1.0,c957e4aa8fdac4b0070b78432405ba68fdeb02124b2025e240f10d4a5e74afa1,0.0,False,0
+Myristamine Oxide,Lauramine Oxide,1-1,1.0,all_named_components,206.37270471464,1,0.5285437044788595,1.0,c957e4aa8fdac4b0070b78432405ba68fdeb02124b2025e240f10d4a5e74afa1,0.0,False,1
+Myristamine Oxide,Lauramine Oxide,1-1,2.0,all_named_components,367.51,1,0.5285437044788595,1.0,c957e4aa8fdac4b0070b78432405ba68fdeb02124b2025e240f10d4a5e74afa1,0.0,False,1
+Myristamine Oxide,Laureth-11 Carboxylic Acid,1-1,0.5,partial_components,123.45,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Laureth-11 Carboxylic Acid,1-1,1.0,partial_components,154.055583126551,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Laureth-11 Carboxylic Acid,1-1,2.0,partial_components,345.56,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Myristamine Oxide,Laureth-4 Carboxylic Acid,1-1,0.5,partial_components,133.3,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Laureth-4 Carboxylic Acid,1-1,1.0,partial_components,154.248635235732,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,0
+Myristamine Oxide,Laureth-4 Carboxylic Acid,1-1,2.0,partial_components,317.28,1,0.5241680421211474,1.0,128a9b64aea4c706545182a3047af378fcd2b644e741d7dac51818facd78140d,0.0,False,1
+Sodium lauryl sulfate,,,0.5,all_named_components,248.0,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,1
+Sodium lauryl sulfate,,,1.0,all_named_components,531.0,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,1
+Sodium lauryl sulfate,,,2.0,all_named_components,637.0,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,1
+Sodium lauryl sulfate,Cocamidopropylamine Oxide,1-1,0.5,partial_components,44.13,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Sodium lauryl sulfate,Cocamidopropylamine Oxide,1-1,1.0,partial_components,59.2,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0
+Sodium lauryl sulfate,Cocamidopropylamine Oxide,1-1,2.0,partial_components,85.31,1,0.5045686820229414,1.0,e356ebb5c17319d46a1950fcfaae21d4854e614ff2cf5f5368973a7f6997167a,0.0,True,0

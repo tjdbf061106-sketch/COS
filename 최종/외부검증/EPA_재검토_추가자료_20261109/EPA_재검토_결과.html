@@ -1,0 +1,36 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>EPA 재검토 결과</title><style>body{font-family:system-ui,sans-serif;max-width:1200px;margin:32px auto;padding:0 24px;line-height:1.75;color:#172337}.lead{background:#fff1d6;border-left:5px solid #d18b00;padding:18px;font-weight:600}.text{white-space:pre-wrap}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d3dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#edf2f8}a{color:#0759b5}</style><h1>EPA 라벨 재검토와 추가 자료</h1><p class="lead">종전의 EPA III 확정 표현을 정정합니다. 4행 불일치는 계산 결과이지만, 모델의 일반적인 정확도 0%를 입증하지 않습니다.</p><div class="text">EPA 라벨 재검토 및 추가 자료 — 2026-11-09
+
+이 문서는 앞선 결과보고서의 등급 확정 표현과 성능 해석을 정정하는 부록입니다.
+
+1. EPA 등급이 뒤집힌 것인가?
+현재 확인한 공식 라벨에서는 기존 I/II 대 III/IV 이진 분류를 뒤집을 근거가 발견되지 않았습니다. 그러나 모든 등급을 실제 시험으로 확인했다고 말할 근거도 없습니다.
+No-Bite, Adams Cleansing, Davis의 기본 등록번호에 대응하는 EPA 문서에는 II에 해당하는 눈 손상 문구가 있습니다. 이 자료는 라벨 근거이며 시험 동물별 원점수는 아닙니다.
+Zodiac Oatmeal과 Adams Plus를 정확히 III로 확정한 표현은 정정합니다. EPA 지침은 IV 제품에도 III 문구를 허용하므로, 문구에서 알 수 있는 범위는 III 또는 IV입니다. 현재 모델은 둘 다 0으로 취급합니다. 0은 무자극·안전 보증이 아닙니다.
+GHS 2A/2B 및 WARNING/CAUTION만으로 EPA 눈자극 등급을 확정하지 않습니다. 문서 연도와 실제 평가 제형·시험의 일치도 별도 확인이 필요합니다.
+
+2. 앞선 결과를 어떻게 읽어야 하나?
+중간 함량을 입력한 4행이 제공 라벨과 모두 불일치했다는 계산은 그대로입니다. 이것을 모델의 일반적인 정확도 0%로 해석하면 안 됩니다.
+모델에 들어간 성분은 제품 중량의 0.779~3.93%뿐입니다. 나머지 96.07~99.221%는 모델 입력에 반영되지 않았습니다. 빠진 부분에는 물뿐 아니라 구조가 해결되지 않은 계면활성제와 비공개 성분 등이 있습니다. 포함된 성분끼리 비율을 다시 정규화했으므로 실제 제품을 충분히 표현하지 못합니다.
+4행은 기본 등록번호 3계열입니다. 같은 등록번호 아래 대체 제형이 존재하므로 동일 배합·동일 시험이라고 단정할 수도 없습니다. 계열별 집계는 중복을 보수적으로 처리한 기술 통계일 뿐입니다.
+두 제품은 공개된 함량 범위 안에서 판정이 바뀌었습니다. 모델 문제와 입력 부족 문제를 이 결과만으로 분리할 수 없습니다.
+CIR 9/22 일치도는 미검증 출처 라벨과의 산술 비교입니다. 모든 EPA 등급을 원시험에서 재판정하지 않았으므로 검증 성능으로 사용하지 않습니다. mild/moderate라는 표현이나 평균 Draize 총점만으로 EPA 등급을 정하면 안 됩니다.
+현재 검토한 기존 사례 중 전체 조성과 독립적인 원시험 등급이 함께 확인된 엄격한 외부검증 표본은 0개입니다.
+
+3. 추가 자료
+샴푸 특허 US4992266A: 실측 7배합. Table II 수치를 CSV로 옮겼습니다. 평균값과 EPA 등급은 별개라 등급 칸은 비워 두었습니다.
+혼합물 특허 US6583181B1: Tables 1–4에 21개 시험 조건. 배합과 회복 시계열이 있어 추가 검토 가치가 있습니다. 화장품 완제품 21종이나 독립 연구 21개를 뜻하지 않습니다.
+Zodiac 2724-792: 기존 Oatmeal 2724-485와 다른 등록계열의 추가 후보입니다. 일부 성분과 공식 라벨만 확인되어 엄격한 검증에는 아직 부족합니다.
+Enforcer, Vet-Kem, Pro Vita 자료는 기존 등록계열과 겹쳐 추가 독립 사례로 세지 않았습니다.
+모든 추가 후보는 학습자료와의 원시험 중복 확인이 남아 있습니다. 이번 부록에서 새 모델 예측이나 임계값 조정은 수행하지 않았습니다.
+
+4. 다음 검증에 적용할 기준
+공식 시험 등급 또는 충분한 원시험 기록, 시험한 배합·농도·세척 조건, 성분 구조와 함량, 기존 학습자료와의 중복 여부를 함께 확인해야 합니다. 기준에 부족한 자료는 참고 사례로 남깁니다.
+기존 모델과 예측값은 보존하며, 라벨을 예측에 맞추어 뒤집거나 임계값을 이 자료에 맞추지 않습니다.
+
+파일 안내
+EPA_라벨_재검토.csv: 기존 5제품의 원래 라벨과 수정된 근거·해석
+추가자료_후보와중복.csv: 신규 후보 3자료와 중복 계열 3자료의 출처·한계
+샴푸특허_7배합_원점수.csv: 원문 표의 실측 점수. EPA 분류는 비워 둠
+원본 보고서·예측·모델 파일은 수정하지 않았습니다. 이 재검토 문서의 해석을 우선합니다.
+웹 원문은 조회했으나 PDF 파일 자체를 이 폴더에 내려받아 보관한 것은 아닙니다.
+</div><h2>기존 제품의 공식 라벨 근거</h2><table><thead><tr><th>제품</th><th>등록번호</th><th>재검토</th><th>공식 라벨</th><th>PDF 페이지</th></tr></thead><tbody><tr><td>Davis Manufacturing Flea &amp; Tick Shampoo</td><td>69061-12-50591</td><td>II-consistent; study not verified</td><td><a href="https://www3.epa.gov/pesticides/chem_search/ppls/069061-00012-20150910.pdf">원문</a></td><td>4</td></tr><tr><td>No-Bite Flea &amp; Tick Shampoo</td><td>1021-1723-12281</td><td>II-consistent; study not verified</td><td><a href="https://www3.epa.gov/pesticides/chem_search/ppls/001021-01723-20131224.pdf">원문</a></td><td>4</td></tr><tr><td>Adams Flea &amp; Tick Cleansing Shampoo</td><td>270-324</td><td>II-consistent; study not verified</td><td><a href="https://www3.epa.gov/pesticides/chem_search/ppls/000270-00324-20120301.pdf">원문</a></td><td>3</td></tr><tr><td>Zodiac Oatmeal Conditioning Shampoo for Dogs &amp; Puppies</td><td>2724-485</td><td>III or IV; exact category unresolved</td><td><a href="https://www3.epa.gov/pesticides/chem_search/ppls/002724-00485-20180405.pdf">원문</a></td><td>3</td></tr><tr><td>Adams Plus Flea &amp; Tick Shampoo with Precor</td><td>2724-485-270</td><td>III or IV; exact category unresolved</td><td><a href="https://www3.epa.gov/pesticides/chem_search/ppls/002724-00485-20180405.pdf">원문</a></td><td>3</td></tr></tbody></table><p><a href="https://www.epa.gov/sites/production/files/documents/label-review-manual.pdf">EPA Label Review Manual, Chapter 7, Table 6</a>: IV에서도 III 문구 사용 가능.</p><h2>추가 후보와 중복 계열</h2><table><thead><tr><th>자료</th><th>수량</th><th>확인한 내용</th><th>한계</th><th>출처</th><th>추가 출처</th></tr></thead><tbody><tr><td>샴푸 배합 특허 US4992266A</td><td>7 시험 배합</td><td>Table I 배합; Table II 24/48/72시간 및 7일 평균 Draize 점수</td><td>7일 추적·평균 총점만으로 EPA 세부 등급 확정 불가. 향료·색소·고분자·상업용 계면활성제 구조와 함량 해석 필요.</td><td><a href="https://patents.google.com/patent/US4992266A/en">원문</a></td><td></td></tr><tr><td>4급 암모늄 혼합물 특허 US6583181B1</td><td>21 시험 조건: 표1 2개 + 표2 8개 + 표3 5개 + 표4 6개</td><td>Tables 1–4 배합·pH·최대 21일까지 관찰한 Draize 시계열</td><td>상업용 원료 용매·중화 후 화학종 확인 필요. 평균 총점으로 EPA 등급 자동 부여 금지. 표1 대조군 1일값이 표 41.7, 본문 47.1로 불일치.</td><td><a href="https://patents.google.com/patent/US6583181B1/en">원문</a></td><td></td></tr><tr><td>Zodiac Flea &amp; Tick Shampoo for Dogs &amp; Cats — 2724-792</td><td>기존 목록과 다른 기본 등록번호 1개</td><td>EPA 눈자극 문구; SDS 일부 성분 및 함량 범위</td><td>전체 조성·시험 원자료·SDS와 승인 제형의 정확한 일치 미확인. III/IV 라벨 대리값만 가능.</td><td><a href="https://www3.epa.gov/pesticides/chem_search/ppls/002724-00792-20150129.pdf">원문</a></td><td><a href="https://www.domyown.com/msds/Zodiac_Flea_and_Tick_Shampoo_for_Dogs_and_Cats_SDS_2020.pdf">원문</a></td></tr><tr><td>Enforcer Flea &amp; Tick Shampoo Pets II — 1021-1723-40849</td><td>추가 독립 사례로 세지 않음</td><td>제조사 SDS의 성분 범위</td><td>No-Bite와 기본 등록번호 동일; 제형·문서 버전 일치 전 성분 전용 금지</td><td><a href="https://labelsds.com/images/user_uploads/Enforcer%20Flea%20Tick%20Shampoo%20Pets%20II%20SDS%208-3-18.pdf">원문</a></td><td></td></tr><tr><td>Vet-Kem Ovitrol Plus Flea &amp; Tick Shampoo — 2724-485</td><td>추가 독립 사례로 세지 않음</td><td>제조사 SDS의 성분 범위</td><td>Zodiac Oatmeal 및 Adams Plus와 등록계열 공유; 동일 제형·시험이라고 단정 불가</td><td><a href="https://www.prnpharmacal.com/wp-content/uploads/2019/12/SDS-Vet-Kem-Ovitrol-Plus-Flea-Tick-Shampoo-for-Dogs-Cats-07052016.pdf">원문</a></td><td></td></tr><tr><td>Pro Vita Flea &amp; Tick Shampoo — 69061-12-84459</td><td>추가 독립 사례로 세지 않음</td><td>제조사 SDS의 살충 성분 함량</td><td>Davis와 등록계열 공유; 전체 조성은 미공개</td><td><a href="https://provitapet.com/wp-content/uploads/2016/02/SDS-FLEA-TICK.pdf">원문</a></td><td></td></tr></tbody></table><h2>받아볼 파일</h2><ul><li><a href="EPA_라벨_재검토.csv">EPA_라벨_재검토.csv</a></li><li><span>추가자료_후보와중복.csv <small>(로컬 원본 전용 · 공개 묶음 미포함)</small></span></li><li><span>샴푸특허_7배합_원점수.csv <small>(로컬 원본 전용 · 공개 묶음 미포함)</small></span></li><li><a href="정정_및_추가자료.txt">정정_및_추가자료.txt</a></li></ul></html>

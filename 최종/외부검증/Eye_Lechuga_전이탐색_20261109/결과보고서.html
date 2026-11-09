@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eye 외부적용·전이 탐색</title>
+<style>
+:root{--bg:#fff;--fg:#17181c;--muted:#5d6370;--line:#e3e6ec;--soft:#f6f7f9;
+--bad:#b4342b;--bad-bg:#fdf2f1;--good:#1d7a4c;--good-bg:#f0f9f4;
+--warn:#8a5a00;--warn-bg:#fdf6e6;--key:#3b4ca8;--key-bg:#eef1fc;--hl:#fff8e1}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+--bg:#15171b;--fg:#e9ecf1;--muted:#9aa3b2;--line:#2b2f37;--soft:#1c1f25;
+--bad:#f08279;--bad-bg:#2b1b1a;--good:#6fd39c;--good-bg:#15241c;
+--warn:#e2b55c;--warn-bg:#2a2317;--key:#9fb4fb;--key-bg:#1b2033;--hl:#262013}}
+:root[data-theme="dark"]{--bg:#15171b;--fg:#e9ecf1;--muted:#9aa3b2;--line:#2b2f37;
+--soft:#1c1f25;--bad:#f08279;--bad-bg:#2b1b1a;--good:#6fd39c;--good-bg:#15241c;
+--warn:#e2b55c;--warn-bg:#2a2317;--key:#9fb4fb;--key-bg:#1b2033;--hl:#262013}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.68;font-size:15px;
+font-family:-apple-system,"Segoe UI","Malgun Gothic",sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 16px 88px}
+h1{font-size:1.68rem;margin:0 0 6px;letter-spacing:-0.015em}
+h2{font-size:1.18rem;margin:46px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+h3{font-size:.98rem;margin:26px 0 8px;color:var(--muted)}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 26px}
+.callout{border-left:3px solid var(--warn);background:var(--warn-bg);padding:13px 16px;
+border-radius:0 6px 6px 0;margin:18px 0;font-size:.93rem}
+.callout.red{border-color:var(--bad);background:var(--bad-bg)}
+.callout.key{border-color:var(--key);background:var(--key-bg)}
+.callout strong{display:block;margin-bottom:4px}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.85rem}
+th,td{padding:8px 9px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--soft);font-weight:600;font-size:.76rem;color:var(--muted)}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;
+font-family:ui-monospace,Consolas,monospace}
+td.lbl{font-weight:600} td.strong{font-weight:700}
+td.cm{font-size:.78rem;color:var(--muted);white-space:nowrap;
+font-family:ui-monospace,Consolas,monospace}
+td.skin{color:var(--muted);background:var(--soft)}
+tr.hl td{background:var(--hl)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:11px;margin:16px 0}
+.stat{border:1px solid var(--line);border-radius:8px;padding:13px 15px;background:var(--soft)}
+.stat .k{font-size:.75rem;color:var(--muted);margin-bottom:3px}
+.stat .v{font-size:1.26rem;font-weight:700;font-variant-numeric:tabular-nums}
+.stat .u{font-size:.75rem;color:var(--muted);font-weight:400}
+.note{color:var(--muted);font-size:.87rem}
+code{font-family:ui-monospace,Consolas,monospace;font-size:.85em;background:var(--soft);
+padding:1.5px 5px;border-radius:4px}
+ul{padding-left:20px} li{margin:6px 0} ol{padding-left:22px} ol li{margin:9px 0}
+blockquote{margin:16px 0;padding:14px 18px;background:var(--soft);
+border-left:3px solid var(--key);border-radius:0 6px 6px 0;font-size:.94rem}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
+color:var(--muted);font-size:.82rem}
+</style></head><body><div class="wrap">
+
+<h1>Eye 모델 — Lechuga 외부 적용 평가 및 전이 탐색</h1>
+<p class="sub">skin 팀 PDF 설계를 eye에 그대로 적용한 대응 실험 · 2026-11-09 ·
+기존 eye 모델 변경 없음 · 탐색 결과이며 확정 외부검증이 아님</p>
+
+<div class="callout red">
+  <strong>핵심 결론</strong>
+  기존 eye A LR는 52행 <b>전부 양성</b>으로 예측했습니다(TP 21 · FP 31 ·
+  TN 0 · FN 0, MCC +0.000). skin RF와 같은 실패
+  양상입니다. 그리고 <b>화학구조 없이 농도·성분수·누락량만 쓰는 비교모델이 모든
+  조건에서 가장 높았습니다</b>(MCC 0.725~0.763). eye 계보에는 frozen backbone이
+  없어 ChemBERTa 전이 비교는 수행하지 않았습니다.
+</div>
+
+<h2>1. 설계 — skin PDF와 동일하게 맞춘 것</h2>
+<div class="grid">
+  <div class="stat"><div class="k">최종 행</div><div class="v">52<span class="u"> 행</span></div></div>
+  <div class="stat"><div class="k">양성 / 음성</div><div class="v">21 / 31</div></div>
+  <div class="stat"><div class="k">표현 성분 조합</div><div class="v">3<span class="u"> 그룹</span></div></div>
+  <div class="stat"><div class="k">fold 시험 행</div><div class="v" style="font-size:1rem">26 / 23 / 3</div></div>
+</div>
+<ul>
+  <li>후보 구조 2종만 사용: <b>Lauramine Oxide(A)</b>, <b>Myristamine Oxide(B)</b>.
+    원문 사슬길이와 부합하는 단일 명확 구조이며 UVCB 가정을 쓰지 않았습니다.</li>
+  <li>A 또는 B를 하나 이상 포함한 조건만 포함. 나머지 성분 구조는 입력에서 제외하되
+    성분명과 누락량을 기록했습니다. 미해결 파트너 동반 행 <b>25건</b>.</li>
+  <li>1:2 배합 제외, 동일 보고 조성·농도에서 라벨이 충돌하는 <b>2행</b> 제외.</li>
+  <li>라벨은 <code>ZN ≥ 200</code> 작업 기준. EPA 등급과 동등하다고 주장하지 않습니다.</li>
+  <li>그룹 구성: {&quot;B&quot;: 26, &quot;A&quot;: 23, &quot;A+B&quot;: 3} 로 GroupKFold 3-fold.</li>
+  <li>새 분류기 임계값 0.5 고정, 결과 기반 튜닝 없음. 기존 eye 임계값
+    0.481487 유지.</li>
+</ul>
+<p class="note"><b>행 수·라벨 분포·fold 크기가 skin PDF(52행, 21/31, 26·23·3)와 일치합니다.</b>
+설계 재현이 확인된 상태에서 비교한 결과입니다.</p>
+
+<h2>2. 결과</h2>
+<p class="note">회색 열은 skin 팀 PDF의 보고값입니다. 모델이 다르므로 성능 우열 비교가
+아니라 <b>같은 설계에서 어떤 입력이 작동하는가</b>의 대조로만 읽어야 합니다.</p>
+
+<h3>총농도 해석</h3>
+<table>
+  <thead><tr><th>모델</th><th>MCC</th><th>균형정확도</th><th>ROC-AUC</th><th>혼동행렬</th>
+  <th class="skin">skin MCC</th><th class="skin">skin 균형</th><th class="skin">skin AUC</th></tr></thead>
+  <tbody><tr><td class="lbl">기존 eye A LR (고정)</td>
+              <td class="num strong">+0.000</td>
+              <td class="num">0.500</td>
+              <td class="num">0.548</td>
+              <td class="cm">TP 21 · FP 31 · TN 0 · FN 0</td>
+              <td class="num skin">+0.000</td>
+              <td class="num skin">0.500</td>
+              <td class="num skin">0.578</td></tr><tr><td class="lbl">학습 양성비 기준모델</td>
+              <td class="num strong">+0.000</td>
+              <td class="num">0.500</td>
+              <td class="num">0.452</td>
+              <td class="cm">TP 0 · FP 0 · TN 31 · FN 21</td>
+              <td class="num skin">+0.000</td>
+              <td class="num skin">0.500</td>
+              <td class="num skin">0.452</td></tr><tr class="hl"><td class="lbl">농도·성분수·누락량 (구조 없음)</td>
+              <td class="num strong">+0.725</td>
+              <td class="num">0.841</td>
+              <td class="num">0.903</td>
+              <td class="cm">TP 15 · FP 1 · TN 30 · FN 6</td>
+              <td class="num skin">+0.725</td>
+              <td class="num skin">0.841</td>
+              <td class="num skin">0.903</td></tr><tr><td class="lbl">RDKit + Zein 분류기</td>
+              <td class="num strong">+0.000</td>
+              <td class="num">0.500</td>
+              <td class="num">0.509</td>
+              <td class="cm">TP 21 · FP 31 · TN 0 · FN 0</td>
+              <td class="num skin">+0.377</td>
+              <td class="num skin">0.645</td>
+              <td class="num skin">0.916</td></tr><tr><td class="lbl">ChemBERTa + Zein head</td>
+                  <td class="num">—</td><td class="num">—</td><td class="num">—</td>
+                  <td class="cm">수행 안 함</td>
+                  <td class="num skin">+0.377</td>
+                  <td class="num skin">0.645</td>
+                  <td class="num skin">0.916</td></tr></tbody>
+</table>
+
+<h3>성분별 농도 해석</h3>
+<table>
+  <thead><tr><th>모델</th><th>MCC</th><th>균형정확도</th><th>ROC-AUC</th><th>혼동행렬</th>
+  <th class="skin">skin MCC</th><th class="skin">skin 균형</th><th class="skin">skin AUC</th></tr></thead>
+  <tbody><tr><td class="lbl">기존 eye A LR (고정)</td>
+              <td class="num strong">+0.000</td>
+              <td class="num">0.500</td>
+              <td class="num">0.548</td>
+              <td class="cm">TP 21 · FP 31 · TN 0 · FN 0</td>
+              <td class="num skin">+0.000</td>
+              <td class="num skin">0.500</td>
+              <td class="num skin">0.581</td></tr><tr><td class="lbl">학습 양성비 기준모델</td>
+              <td class="num strong">+0.000</td>
+              <td class="num">0.500</td>
+              <td class="num">0.452</td>
+              <td class="cm">TP 0 · FP 0 · TN 31 · FN 21</td>
+              <td class="num skin">+0.000</td>
+              <td class="num skin">0.500</td>
+              <td class="num skin">0.452</td></tr><tr class="hl"><td class="lbl">농도·성분수·누락량 (구조 없음)</td>
+              <td class="num strong">+0.763</td>
+              <td class="num">0.865</td>
+              <td class="num">0.903</td>
+              <td class="cm">TP 16 · FP 1 · TN 30 · FN 5</td>
+              <td class="num skin">+0.763</td>
+              <td class="num skin">0.865</td>
+              <td class="num skin">0.903</td></tr><tr><td class="lbl">RDKit + Zein 분류기</td>
+              <td class="num strong">+0.000</td>
+              <td class="num">0.500</td>
+              <td class="num">0.509</td>
+              <td class="cm">TP 21 · FP 31 · TN 0 · FN 0</td>
+              <td class="num skin">+0.377</td>
+              <td class="num skin">0.645</td>
+              <td class="num skin">0.942</td></tr><tr><td class="lbl">ChemBERTa + Zein head</td>
+                  <td class="num">—</td><td class="num">—</td><td class="num">—</td>
+                  <td class="cm">수행 안 함</td>
+                  <td class="num skin">+0.377</td>
+                  <td class="num skin">0.645</td>
+                  <td class="num skin">0.942</td></tr></tbody>
+</table>
+
+<div class="callout">
+  <strong>구조 없는 비교모델이 skin 보고값과 소수점까지 일치합니다.</strong>
+  0.725 / 0.841 / 0.903 (총농도), 0.763 / 0.865 / 0.903 (성분별). 이 모델은 어느
+  쪽 모델도 쓰지 않고 같은 자료·같은 분할·같은 covariate만 쓰므로 동일한 값이
+  나오는 것이 정상이며, <b>본 재현이 skin 설계를 정확히 따랐다는 증거</b>입니다.
+</div>
+
+<div class="callout key">
+  <strong>기존 eye 모델은 두 농도 해석에서 점수가 완전히 동일합니다
+  (확인됨).</strong>
+  eye A LR는 농도를 피처로 쓰지 않기 때문입니다(<code>concentration_features=false</code>).
+  skin RF가 두 해석에서 AUC 0.578과 0.581로 미세하게 달랐던 것은 skin 쪽에 농도
+  피처가 있기 때문이며, 이 차이 자체가 두 모델의 구조적 차이를 보여줍니다.
+</div>
+
+<h2>3. skin의 MCC 0.377은 무엇이었나 — 기여 분해</h2>
+<p class="note">skin PDF에서 'RDKit + Zein 분류기'와 'ChemBERTa + Zein head'가 두 농도
+해석 모두에서 <b>MCC 0.377로 완전히 동일</b>했습니다. 서로 다른 분자 표현이 소수점
+셋째 자리까지 같은 값을 내는 것은 표현이 결과에 기여하지 않을 때 나타나는 징후입니다.
+동일 설계에서 입력 블록만 바꾸어 직접 분해했습니다.</p>
+
+<h3>총농도 해석</h3>
+<table>
+  <thead><tr><th>입력 블록</th><th>차원</th><th>MCC</th><th>균형정확도</th><th>ROC-AUC</th><th>혼동행렬</th></tr></thead>
+  <tbody><tr><td class="lbl">구조만 (eye wmean 2265차원)</td>
+          <td class="num">2,265</td>
+          <td class="num strong">+0.000</td>
+          <td class="num">0.500</td>
+          <td class="num">0.509</td>
+          <td class="cm">TP 21 · FP 31 · TN 0 · FN 0</td></tr><tr><td class="lbl">구조 + 농도 covariate</td>
+          <td class="num">2,271</td>
+          <td class="num strong">+0.302</td>
+          <td class="num">0.621</td>
+          <td class="num">0.915</td>
+          <td class="cm">TP 20 · FP 22 · TN 9 · FN 1</td></tr><tr><td class="lbl">농도 covariate만 (6차원)</td>
+          <td class="num">6</td>
+          <td class="num strong">+0.725</td>
+          <td class="num">0.841</td>
+          <td class="num">0.903</td>
+          <td class="cm">TP 15 · FP 1 · TN 30 · FN 6</td></tr></tbody>
+</table>
+<h3>성분별 농도 해석</h3>
+<table>
+  <thead><tr><th>입력 블록</th><th>차원</th><th>MCC</th><th>균형정확도</th><th>ROC-AUC</th><th>혼동행렬</th></tr></thead>
+  <tbody><tr><td class="lbl">구조만 (eye wmean 2265차원)</td>
+          <td class="num">2,265</td>
+          <td class="num strong">+0.000</td>
+          <td class="num">0.500</td>
+          <td class="num">0.509</td>
+          <td class="cm">TP 21 · FP 31 · TN 0 · FN 0</td></tr><tr><td class="lbl">구조 + 농도 covariate</td>
+          <td class="num">2,271</td>
+          <td class="num strong">+0.377</td>
+          <td class="num">0.645</td>
+          <td class="num">0.928</td>
+          <td class="cm">TP 21 · FP 22 · TN 9 · FN 0</td></tr><tr><td class="lbl">농도 covariate만 (6차원)</td>
+          <td class="num">6</td>
+          <td class="num strong">+0.763</td>
+          <td class="num">0.865</td>
+          <td class="num">0.903</td>
+          <td class="cm">TP 16 · FP 1 · TN 30 · FN 5</td></tr></tbody>
+</table>
+
+<div class="callout red">
+  <strong>구조는 기여하지 않았고, 오히려 떨어뜨렸습니다.</strong>
+  구조만 쓰면 MCC +0.000,
+  농도만 쓰면 +0.763,
+  둘을 합치면 +0.377입니다.
+  <b>성분별 해석에서 구조+농도의 0.377은 skin이 보고한 RDKit·ChemBERTa 값과 정확히
+  같습니다.</b> 즉 skin의 0.377은 분자 표현의 기여가 아니라 농도 covariate가 만든
+  값이며, 구조를 넣으면 농도 단독(0.763)보다 오히려 나빠집니다.
+</div>
+
+<div class="callout">
+  <strong>다만 구조만의 MCC 0은 모델에 대한 증거가 아닙니다.</strong>
+  52행의 구조 피처 고유 행이 <b>3개</b>뿐이고
+  그룹 수도 3개입니다. 즉 group-disjoint 교차검증에서 시험군의 구조
+  벡터는 학습에 단 한 번도 등장하지 않습니다. 구조만 쓰는 모델이 무작위 수준을
+  내는 것은 <b>설계상의 귀결</b>이며, 분자 표현의 성능을 평가한 결과로 인용하면
+  안 됩니다. 이 설계로는 전이 효과를 애초에 검정할 수 없습니다.
+</div>
+
+<h2>4. 한계</h2>
+<ul>
+  <li><b>후보 구조와 상용 원료의 동일성 미확인.</b> Lauramine Oxide·Myristamine Oxide의
+    SMILES는 명칭·사슬길이 부합 수준이며 실험 원료 순도 확인이 아닙니다.</li>
+  <li><b>부분 입력.</b> 미해결 파트너가 동반된 25행은
+    누락량만 기록했을 뿐 빠진 성분의 화학적 효과가 복원되지 않았습니다.</li>
+  <li><b>그룹 3개, 한 fold는 3행.</b> 수치 불확실성이 크고
+    신뢰구간·반복 분할 검증을 수행하지 않았습니다.</li>
+  <li><b>구조 벡터가 그룹과 1:1</b>이므로 구조 기반 모델의 일반화를 이 설계로
+    평가할 수 없습니다(위 상자 참조).</li>
+  <li><b>엔드포인트 불일치.</b> ZN ≥ 200은 작업 기준이며 EPA 눈자극 등급이 아닙니다.
+    본 실험에서 EPA 분류 성능을 산출하지 않았습니다.</li>
+  <li><b>사전등록 연구가 아닙니다.</b> 동일 자료의 결과를 이미 열람한 뒤 설계했고,
+    동일 입력의 여러 행이 독립 반복측정이라고 확정할 수 없습니다.</li>
+  <li><b>ChemBERTa 비교 부재.</b> eye 계보에 frozen backbone이 없어 전이 비교군을
+    구성하지 못했습니다. 다른 계보의 모델로 대체하지 않았습니다.</li>
+</ul>
+
+<h2>5. 결론</h2>
+<ol>
+  <li><b>기존 eye A LR는 이 입력에서 분별력이 없습니다.</b> 52행 전부 양성,
+    MCC +0.000, AUC 0.548. skin RF와 동일한 실패 양상입니다.</li>
+  <li><b>구조 없는 covariate 모델이 가장 높습니다</b>(MCC 0.725~0.763).
+    이 자료에서 분리되는 신호의 상당 부분이 화학이 아니라 농도·성분수·누락량이라는
+    뜻이며, 표본 선택 효과를 배제할 수 없습니다.</li>
+  <li><b>skin의 MCC 0.377은 농도 covariate가 만든 값입니다.</b> 동일 설계에서
+    구조만 0.000, 농도만 0.763, 구조+농도 0.377로 재현됩니다.</li>
+  <li><b>이 설계로는 전이 효과를 검정할 수 없습니다.</b> 구조 벡터가 3개뿐이고
+    그룹과 1:1이기 때문입니다.</li>
+</ol>
+
+<blockquote>
+skin 팀 설계를 eye 모델에 동일하게 적용한 결과, 기존 eye A LR는 52개 조건 전부를
+양성으로 판정해 분별력을 보이지 않았다(MCC 0.000). 화학구조를 사용하지 않고
+농도·성분수·누락량만 사용하는 비교모델이 모든 조건에서 가장 높은 MCC(0.725–0.763)를
+보였으며, 구조 표현을 추가하면 오히려 낮아졌다(0.302–0.377). 구조 피처의 고유 행이
+표현 성분 조합 그룹과 1:1이어서 group-disjoint 교차검증에서 구조 기반 일반화를
+평가할 수 없는 설계이므로, 본 결과는 분자 표현의 성능에 대한 증거가 아니라
+<b>현 자료·설계로는 전이 효과를 검정할 수 없음</b>을 보여준다.
+</blockquote>
+
+<h2>6. 권장 후속</h2>
+<ol>
+  <li>표현 성분 조합 그룹을 늘릴 것. 현재 3개로는 group-disjoint 검증이 성립하지
+    않습니다. 구조가 확정된 성분을 추가로 확보하는 것이 선결 조건입니다.</li>
+  <li>농도 covariate가 라벨과 교란되지 않는지 확인할 것. covariate 단독 MCC 0.763은
+    자료 구성 자체에 농도–라벨 연관이 있음을 시사합니다.</li>
+  <li>원문·제조사 자료로 원료와 SMILES의 동일성, 시험농도의 성분별/총농도 여부를
+    확정할 것.</li>
+  <li>확정 입력 확보 후 동일 분할에서 재비교하고, 성능이 나쁜 경우도 그대로 보고할 것.</li>
+</ol>
+
+<footer>
+  모델 SHA-256 <code>d71394e691ac5072…</code> ·
+  원자료 SHA-256 <code>934be014b5e364bf…</code> ·
+  재학습 없음 · seed 20261109<br>
+  재현: <code>python run_transfer_probe.py</code> →
+  <code>python covariate_decomposition.py</code> → <code>python build_report.py</code><br>
+  설계 출처: Lechuga_외부적용평가_전이학습_탐색결과_20261109.pdf (skin팀) 설계를 eye에 적용
+</footer>
+
+</div></body></html>

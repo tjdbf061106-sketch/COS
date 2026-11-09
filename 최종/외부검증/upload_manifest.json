@@ -1,0 +1,399 @@
+{
+  "source_scope": "로컬 외부 검증 폴더 결과 선별",
+  "destination": "최종/외부검증",
+  "files": [
+    {
+      "path": "EPA_재검토_추가자료_20261109/정정_및_추가자료.txt",
+      "source_sha256": "d4e1f487d48949d0b8a25a4519cdaa46314c99b93bdcb260d1217aaa8a6366f1",
+      "published_sha256": "f2689dff83b52950425cbbc5d3e4519313e7ef125e62ce3d89246cbf546a3782",
+      "bytes": 4507,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "EPA_재검토_추가자료_20261109/EPA_재검토_결과.html",
+      "source_sha256": "da249f091643d207fb51c3f3c6c619f6806e4f827da8a284c7f451caf98935b7",
+      "published_sha256": "6d11a41b8170b391d220d095bd99ee0fb8f69bf009d56a37747434866f251971",
+      "bytes": 10139,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text; unbundled local attachment links displayed as local-only text"
+    },
+    {
+      "path": "EPA_재검토_추가자료_20261109/EPA_라벨_재검토.csv",
+      "source_sha256": "0e1c4ef86450e28c593551c1871c1f68c75f3ff6890b3420c29aff9900847aaf",
+      "published_sha256": "368140c09ac72732c71e958e2c9b8da7977beb7dfb600cc234e79c0f8dc4a9ee",
+      "bytes": 3342,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_cosmetic_validation_20261109/결과요약.txt",
+      "source_sha256": "fee6e863130474a5e9e573e7c7b8db400f6a46d0ccf7ead14ba9ab7bcd4961ee",
+      "published_sha256": "fee6e863130474a5e9e573e7c7b8db400f6a46d0ccf7ead14ba9ab7bcd4961ee",
+      "bytes": 764,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_cosmetic_validation_20261109/outputs/summary.json",
+      "source_sha256": "7e23f250b4076006ff8b45360bc5dc073309791b91f6be8a014fb595d4170eb5",
+      "published_sha256": "7e23f250b4076006ff8b45360bc5dc073309791b91f6be8a014fb595d4170eb5",
+      "bytes": 3749,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_cosmetic_validation_20261109/outputs/shampoo_predictions.csv",
+      "source_sha256": "a6791f868e8ec0d25678efdf21f376e039edf6442ebb4690521daa513726e3bd",
+      "published_sha256": "e5e16aace3999ce8d3bf9a4a819c767c6884b6d86ae468c633eb451e82c73282",
+      "bytes": 3359,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_cosmetic_validation_20261109/outputs/CIR_eye_audit_predictions.csv",
+      "source_sha256": "abb4f962d4c3586203296434a60623da8f61029be236a965a8796399581eb154",
+      "published_sha256": "4d91c0e62bf080ddd01e07e45cd5bd74fb524bdbb798ab72719367150a359d69",
+      "bytes": 11477,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_재외부검증_20261109/결과요약.txt",
+      "source_sha256": "0bc2dc7c4f849ae9c8b6bacd1d7990a4467d6c75cd292fe5f9b2d12f0c3dda81",
+      "published_sha256": "ea29ae3d6f4740e6d61036e59b3952eb56480ba182cbcd857519b3e81f6f73eb",
+      "bytes": 3079,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_재외부검증_20261109/재외부검증_보고서.html",
+      "source_sha256": "8cb0cb33aebf6add5482df399d18ccefdbd204d85c078e0237a60843da94ea35",
+      "published_sha256": "45d10f6e981878d042379288ac2f895c53e28cc91231e514896b9824a7a83da1",
+      "bytes": 189990,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text; unbundled local attachment links displayed as local-only text"
+    },
+    {
+      "path": "Eye_재외부검증_20261109/outputs/summary.json",
+      "source_sha256": "ed8f1bdb620cc640bc5a78eff2ae24145da9b767ed13732ee1cea82c09d97beb",
+      "published_sha256": "ed8f1bdb620cc640bc5a78eff2ae24145da9b767ed13732ee1cea82c09d97beb",
+      "bytes": 2137,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_재외부검증_20261109/outputs/quat_predictions.csv",
+      "source_sha256": "e410a6385831f0251d092f887571da0a9fef15cecda28709043c6a6fe663a3bb",
+      "published_sha256": "31ca768a9fd8ecd2997631c9852a835e75b05b17771c301f4e93480f01878dbe",
+      "bytes": 6379,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_재외부검증_20261109/outputs/additional_shampoo_predictions.csv",
+      "source_sha256": "fd7fe8e638a81906922d778e234a008bcd2e506dafdc3f78761f615e167ee140",
+      "published_sha256": "3b076a4cc8a5f8ea3b9c9fb08ea1ef66efc4d3929832c550362eaf18db7fbecd",
+      "bytes": 431,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_재외부검증_20261109/outputs/prespecified_pair_results.csv",
+      "source_sha256": "1bd742f2548f5ad91d26bf6cd0945ee38f282e21723d677095fccbe37421813b",
+      "published_sha256": "f04e6a188b95b6202d1f462f9baf1658641b0afe30509773be8442609b131643",
+      "bytes": 918,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_재외부검증_20261109/threshold_diagnosis/임계값_원인진단.txt",
+      "source_sha256": "1e374c332004242eaa5074fd4d1c123abb3c838d60148b4dc4c96d35626ed92f",
+      "published_sha256": "3fdf0b9bda1c2434b56b820770f87aee2d707e204c905ec6f9cd43fc818e5250",
+      "bytes": 1648,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/결과요약.txt",
+      "source_sha256": "0d4c6f646ce258de2988754d1d477b5b1cfcd9103119fb6c93c734982b3fb75e",
+      "published_sha256": "0d4c6f646ce258de2988754d1d477b5b1cfcd9103119fb6c93c734982b3fb75e",
+      "bytes": 7176,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/결과보고서.html",
+      "source_sha256": "8b89893494d427a2c835765f41e7588b48124151b8ad122f6c55028d8ae35cc6",
+      "published_sha256": "8b89893494d427a2c835765f41e7588b48124151b8ad122f6c55028d8ae35cc6",
+      "bytes": 20174,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text; unbundled local attachment links displayed as local-only text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/predictions.csv",
+      "source_sha256": "a348721ae09255e9c507bf0c019cb1ca58a4209004c3e926ee3aafb48dcbd524",
+      "published_sha256": "de671b1a8a42ff4555ff3329a4828aaba8122ed93d508d420a9f628063ce0138",
+      "bytes": 26397,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/robustness.json",
+      "source_sha256": "5f8b681f2582c395408a8ad421514aeaa299b10f78312eedc1137d648bf00574",
+      "published_sha256": "5f8b681f2582c395408a8ad421514aeaa299b10f78312eedc1137d648bf00574",
+      "bytes": 645,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/applicability_domain.json",
+      "source_sha256": "92e78db39ca17572ec822398c2bf0447d385ab46e480b8d4c354d5abf5c37b65",
+      "published_sha256": "92e78db39ca17572ec822398c2bf0447d385ab46e480b8d4c354d5abf5c37b65",
+      "bytes": 372,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/in_domain_summary.json",
+      "source_sha256": "4876d2bac534c372c8791716cd830533cf1bd5512d4e2d9d49bfd0046f7c29d8",
+      "published_sha256": "4876d2bac534c372c8791716cd830533cf1bd5512d4e2d9d49bfd0046f7c29d8",
+      "bytes": 6240,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/sls_exclusion_sensitivity.csv",
+      "source_sha256": "daacac59cd6400268b0d3b01fcfe2d5372ad111ad7dfb6a9e10f40b07e0c342f",
+      "published_sha256": "a8add0b33307ca3451d1d8a0fcbf3472f502406980e6efcb8336d908ecbbe310",
+      "bytes": 435,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/structure_registry.csv",
+      "source_sha256": "f19c4f8fb1ea179da310bb21a5c6e9b324ad2db22fab364b47ae1305413fffec",
+      "published_sha256": "535a6b00f4dcc18e0399855a2370079159cf565f86bb22158a2a045b1433522c",
+      "bytes": 3886,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga2025_화장품_외부검증_20261109/structure_rules.json",
+      "source_sha256": "887783214a88c9e4fb9d2b26dc704d211469571d796500ea61b92ccab7b95324",
+      "published_sha256": "887783214a88c9e4fb9d2b26dc704d211469571d796500ea61b92ccab7b95324",
+      "bytes": 1169,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga_Eye_A_B_엄격검토_20261109/결과요약.txt",
+      "source_sha256": "b37eff8f18f2c025ab4c61d9f013e647f7aa064318400886eea9c87fb0ade021",
+      "published_sha256": "c8868fb4dcd494a6b4039482b793e39b7e220b4dff884ea25c59f1f8c4fdf30e",
+      "bytes": 2711,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga_Eye_A_B_엄격검토_20261109/A_B_결과보고서.html",
+      "source_sha256": "80e9427c3245414b383ad5ec962c3cf7b28933a87d5d8d950726af2cdcaf8e19",
+      "published_sha256": "80e9427c3245414b383ad5ec962c3cf7b28933a87d5d8d950726af2cdcaf8e19",
+      "bytes": 10782,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text; unbundled local attachment links displayed as local-only text"
+    },
+    {
+      "path": "Lechuga_Eye_A_B_엄격검토_20261109/summary.json",
+      "source_sha256": "9fd8944e7782103d47a426cdc7b8946bc5f8f505756c7222eb2aea4802c7add0",
+      "published_sha256": "cd63a343c779a85f1c666d8b9964fa4becee0f119427c7bcd532a8226ebed5a7",
+      "bytes": 4062,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga_Eye_A_B_엄격검토_20261109/A_aggregated_predictions.csv",
+      "source_sha256": "c360bd3f5654e4616fb0381e1ac0408f8abd49efb3272c0610880d2ff667be04",
+      "published_sha256": "2620c8fc1875f0d05e5fb7df4ec572207a11f527e45c3f23813f983b58e26233",
+      "bytes": 11462,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga_Eye_A_B_엄격검토_20261109/structure_audit.csv",
+      "source_sha256": "88ec447178f51dd35f63d02baea13eec47324140d864abdc56b868a062583517",
+      "published_sha256": "957b813f93b501c0ed53ebd8c15418ddc2000c5cbf66ed3b4605ae051f1a0a73",
+      "bytes": 4462,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Lechuga_Eye_A_B_엄격검토_20261109/protocol.json",
+      "source_sha256": "d35e9ae4e6c4006b6150f4fcdd32eb406c178ca4bc4a7fb2d95d49b138f9f9cd",
+      "published_sha256": "d35e9ae4e6c4006b6150f4fcdd32eb406c178ca4bc4a7fb2d95d49b138f9f9cd",
+      "bytes": 1982,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Skin_Lechuga_외부검증_20261109/보고서.ipynb",
+      "source_sha256": "77d2245ddcd9e925878958677e81a7ddca8731abec13fd0fd22005204323407d",
+      "published_sha256": "77d2245ddcd9e925878958677e81a7ddca8731abec13fd0fd22005204323407d",
+      "bytes": 38346,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Skin_Lechuga_외부검증_20261109/github_data/lechuga_external_validation_results.csv",
+      "source_sha256": "3941b3be7103aca15a102bfc79471cec3e4ebf1f20f1d5fecb511effa5dec410",
+      "published_sha256": "3412c46326323832495890618e43aba7a06bff2bd0ccf8f00a07c256d3aedb51",
+      "bytes": 7165,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Skin_Lechuga_외부검증_20261109/github_data/lechuga_smiles_cache.csv",
+      "source_sha256": "ff54a6da8c651bcc066778dd2dc4575ad259fafcfe6d248fe6af4a88741e0b6e",
+      "published_sha256": "66a68aa6928f9c89be505727bfb042a03be86bb45af52fba65ae141f60f074b2",
+      "bytes": 2045,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "UVCB_민감도_비교_20261109/UVCB_민감도_보고서.html",
+      "source_sha256": "e5618341c4c42e62f4cb831a9d12ba33e58a5029966ff3562fa2588353d54ce0",
+      "published_sha256": "e5618341c4c42e62f4cb831a9d12ba33e58a5029966ff3562fa2588353d54ce0",
+      "bytes": 13764,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text; unbundled local attachment links displayed as local-only text"
+    },
+    {
+      "path": "UVCB_민감도_비교_20261109/sensitivity.json",
+      "source_sha256": "93354e516ee5fd76ed312c5d34b091508d42313a1e09fe1a11a37b0faecaa437",
+      "published_sha256": "d3ef3c0762e2a43b30153dd6b074cb7daf6f25b247729b0426ad0edb02d90ab3",
+      "bytes": 7182,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "UVCB_민감도_비교_20261109/scope_comparison.csv",
+      "source_sha256": "7aada6392e04ef7c7f943f61e7c09cc49683810b415b91b898790b4797503302",
+      "published_sha256": "03c33b7ed64549652f4bc6212e8517382e3ca98375e4c2a621901b7af970e566",
+      "bytes": 548,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "UVCB_민감도_비교_20261109/class_contrast.csv",
+      "source_sha256": "cfcfd8bee476bcdb12d221f796f7ef96cb6ccadb83b2447bc8843c8750514a0a",
+      "published_sha256": "e225fe2332e488dff9048d73e66d9309b53dc6466cf64c75620650a473743f52",
+      "bytes": 316,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "UVCB_민감도_비교_20261109/glucoside_leverage.csv",
+      "source_sha256": "19e965a62d0dc8e2ca30be708b8a95f44a63291dfa786647fb573ed2677e00a6",
+      "published_sha256": "08d75390cfce9fa9e5a75ba8ac7ebf2b3445779568bbbff85c209d541f27decc",
+      "bytes": 186,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_Lechuga_전이탐색_20261109/결과보고서.html",
+      "source_sha256": "a7ac12936e21df2e4711c9a54dd5253b624ecd09a0da4741c3906dda6f24ea4e",
+      "published_sha256": "a7ac12936e21df2e4711c9a54dd5253b624ecd09a0da4741c3906dda6f24ea4e",
+      "bytes": 19202,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text; unbundled local attachment links displayed as local-only text"
+    },
+    {
+      "path": "Eye_Lechuga_전이탐색_20261109/summary.json",
+      "source_sha256": "1571ef2c3e88aeadfb056c0fdb6ef6b67a20da067af9220a0d6addbd6adef06f",
+      "published_sha256": "1571ef2c3e88aeadfb056c0fdb6ef6b67a20da067af9220a0d6addbd6adef06f",
+      "bytes": 3035,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_Lechuga_전이탐색_20261109/metrics.csv",
+      "source_sha256": "c14dfc31455d836ee4cb42be5da8bfc733dd17a2e7215ed39368be26deeb2a24",
+      "published_sha256": "3baa9cfec4121185a295b48c5b8cb6404f4ffd9482357ba9df83f6d63828e40e",
+      "bytes": 668,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_Lechuga_전이탐색_20261109/covariate_decomposition.json",
+      "source_sha256": "90c219684afb3a5bb754bda4fed8da1c3096f5b6fc84b7a1a78613b3378bb423",
+      "published_sha256": "90c219684afb3a5bb754bda4fed8da1c3096f5b6fc84b7a1a78613b3378bb423",
+      "bytes": 2002,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_Lechuga_전이탐색_20261109/predictions_total.csv",
+      "source_sha256": "bdd92e77b63bb5d1174c204dec6bfe29c8dd3ed4dda76f3b4072d67f80aae050",
+      "published_sha256": "23659237a2f6e341863d416003dacabfc7c38605f9738abafda4e73cecb05549",
+      "bytes": 16603,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "Eye_Lechuga_전이탐색_20261109/predictions_per_comp.csv",
+      "source_sha256": "a78c805dd36842b1ba238894d2b62479cae8d952dd8b75d3b74fa32496a77593",
+      "published_sha256": "b89df72e3ae0d88542f889282259fe7f17e02f205692317cde165d7967320c0c",
+      "bytes": 16533,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "검증데이터_목록_20261109/읽어주세요.txt",
+      "source_sha256": "473a3cccea36732c475fe139e787c7c9863212f4c052d45f952a294b696f49c6",
+      "published_sha256": "0f6f9db894df140b702ff44f48219fb5bfd367504521f618d8d22b3b7fddb326",
+      "bytes": 2989,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "검증데이터_목록_20261109/summary.json",
+      "source_sha256": "b195291f3ee98b95d8110e5291e93531ff37a802523f5a213e3e022ebc1b0897",
+      "published_sha256": "b195291f3ee98b95d8110e5291e93531ff37a802523f5a213e3e022ebc1b0897",
+      "bytes": 504,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "검증데이터_목록_20261109/검증용_데이터목록.csv",
+      "source_sha256": "0bed4aae6e8cff220cd0e0fa3621c59c376c439f6802d2e258506d9542b7ce82",
+      "published_sha256": "4faded413e3c493580ebb41f1a729687da8539fd04adef71807c05444f065274",
+      "bytes": 213874,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "검증데이터_목록_20261109/출처목록.csv",
+      "source_sha256": "ad7863f413ef207b11ee1863c9c2419a43acca016d727c2a93e72a4082c2db9e",
+      "published_sha256": "237bc85e4da12ca2ae37e6e7ded245b6ed8ab2be4a9c864af9cf0a35ae0329d0",
+      "bytes": 12595,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "샴푸6제품_원시험추적_20261109/결과요약.txt",
+      "source_sha256": "e0006d6a9a190a6db98b6173c9db1b40c60d8abb6c096f5e5d015b1c155b9c45",
+      "published_sha256": "8ad0ff55027bad803a0c298a0d532918400bac3c73ea2158658e854cf1e6c594",
+      "bytes": 3017,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "샴푸6제품_원시험추적_20261109/원시험추적_보고서.html",
+      "source_sha256": "034a986f51255b798169cf7bd866116be47384b207110cad32cb181d529e5848",
+      "published_sha256": "bf6fc43a58545f5809b83a15ed90c3500cb356e260dbc1c7d74c35cadcc0e6bd",
+      "bytes": 10707,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text; unbundled local attachment links displayed as local-only text"
+    },
+    {
+      "path": "샴푸6제품_원시험추적_20261109/샴푸6제품_원시험연결표.csv",
+      "source_sha256": "338bba1a27b736d08b9fd2069a3cf0a391ea944bdcfe1849c7b9981f865f9b0f",
+      "published_sha256": "b4da50177195350cdd3ed6a4506c0599e8690ada70817b29abcbe2b8a32fc615",
+      "bytes": 9552,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    },
+    {
+      "path": "샴푸6제품_원시험추적_20261109/원시험_MRID_목록.csv",
+      "source_sha256": "d43b9eadf71fc6342bf0b5c76aa1513084135c75e959c9f2f6ff5176e1ed8876",
+      "published_sha256": "72c8848600f5a1745d8079ac6626e04437d38ecfafe36a8a52ff1f5f8e96caf0",
+      "bytes": 2530,
+      "publication_transform": "UTF-8 BOM normalization; local machine root replaced by LOCAL_COS in text"
+    }
+  ],
+  "local_originals_modified": false,
+  "not_a_full_reproduction_package": true,
+  "unbundled_attachment_links": [
+    {
+      "report": "EPA_재검토_추가자료_20261109/EPA_재검토_결과.html",
+      "unbundled_reference": "추가자료_후보와중복.csv"
+    },
+    {
+      "report": "EPA_재검토_추가자료_20261109/EPA_재검토_결과.html",
+      "unbundled_reference": "샴푸특허_7배합_원점수.csv"
+    },
+    {
+      "report": "Eye_재외부검증_20261109/재외부검증_보고서.html",
+      "unbundled_reference": "재외부검증_결과.xlsx"
+    },
+    {
+      "report": "Eye_재외부검증_20261109/재외부검증_보고서.html",
+      "unbundled_reference": "protocol.json"
+    },
+    {
+      "report": "Eye_재외부검증_20261109/재외부검증_보고서.html",
+      "unbundled_reference": "outputs/verification.json"
+    },
+    {
+      "report": "샴푸6제품_원시험추적_20261109/원시험추적_보고서.html",
+      "unbundled_reference": "샴푸6제품_원시험연결표.xlsx"
+    },
+    {
+      "report": "샴푸6제품_원시험추적_20261109/원시험추적_보고서.html",
+      "unbundled_reference": "자료확보_요청목록.csv"
+    },
+    {
+      "report": "샴푸6제품_원시험추적_20261109/원시험추적_보고서.html",
+      "unbundled_reference": "원자료_요청문안_미발송.txt"
+    }
+  ]
+}

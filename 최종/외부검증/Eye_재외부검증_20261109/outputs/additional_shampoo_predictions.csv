@@ -1,0 +1,4 @@
+formulation_id,scenario,model_score,model_prediction,label_proxy,label_proxy_category,agrees_with_label_proxy,represented_pct,unrepresented_pct,training_feature_matches,strict_validation_eligible
+Zodiac_2724_792,low,0.5452864687034112,1,0,III/IV,False,2.19,97.81,0,False
+Zodiac_2724_792,midpoint,0.5479544826624758,1,0,III/IV,False,2.32,97.68,0,False
+Zodiac_2724_792,high,0.5503370343815059,1,0,III/IV,False,2.45,97.55,0,False

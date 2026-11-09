@@ -1,0 +1,164 @@
+formulation_key,concentration_pct,zein_number,n_replicates,eye_A_score,mixture_type,ionic_character,binary_label,product1,product2,proportion,eye_A_prediction,feature_distance,has_overlap_component
+Capryl Glucoside@1,0.5,9.375,2,0.4922323642198171,single,NI,0,Capryl Glucoside,,1,1,1.339992626796438,False
+Capryl Glucoside@1,1.0,15.75,2,0.4922323642198171,single,NI,0,Capryl Glucoside,,1,1,1.339992626796438,False
+Capryl Glucoside@1,2.0,72.0,1,0.4922323642198171,single,NI,0,Capryl Glucoside,,1,1,1.339992626796438,False
+Capryleth-6 Carboxylic Acid@1,0.5,110.71,1,0.4453399588018675,single,A,0,Capryleth-6 Carboxylic Acid,,1,0,0.9921233953783868,False
+Capryleth-6 Carboxylic Acid@1,1.0,280.408188585608,1,0.4453399588018675,single,A,1,Capryleth-6 Carboxylic Acid,,1,0,0.9921233953783868,False
+Capryleth-6 Carboxylic Acid@1,2.0,383.59,1,0.4453399588018675,single,A,1,Capryleth-6 Carboxylic Acid,,1,0,0.9921233953783868,False
+Capryleth-6 Carboxylic Acid@nan,1.0,157.9,1,0.4453399588018675,single,A,0,Capryleth-6 Carboxylic Acid,,,0,0.9921233953783868,False
+Capryleth-6 Carboxylic Acid|Cocamidopropylamine Oxide@1-1,0.5,152.99,1,0.4954218259194171,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Cocamidopropylamine Oxide,1-1,1,0.9510069155923107,False
+Capryleth-6 Carboxylic Acid|Cocamidopropylamine Oxide@1-1,1.0,162.935980148883,1,0.4954218259194171,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Cocamidopropylamine Oxide,1-1,1,0.9510069155923107,False
+Capryleth-6 Carboxylic Acid|Cocamidopropylamine Oxide@1-1,2.0,253.28,1,0.4954218259194171,binary_mixture,ANI,1,Capryleth-6 Carboxylic Acid,Cocamidopropylamine Oxide,1-1,1,0.9510069155923107,False
+Capryleth-6 Carboxylic Acid|Glycereth-17 Cocoate@1-1,0.5,0.5695,2,0.4652690279902101,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-17 Cocoate,1-1,0,3.373019528941172,False
+Capryleth-6 Carboxylic Acid|Glycereth-17 Cocoate@1-1,1.0,12.344,2,0.4652690279902101,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-17 Cocoate,1-1,0,3.373019528941172,False
+Capryleth-6 Carboxylic Acid|Glycereth-2 Cocoate@1-1,0.5,4.328,1,0.5713247964105683,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-2 Cocoate,1-1,1,2.6775866329480893,False
+Capryleth-6 Carboxylic Acid|Glycereth-2 Cocoate@1-1,1.0,10.558,2,0.5713247964105683,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-2 Cocoate,1-1,1,2.6775866329480893,False
+Capryleth-6 Carboxylic Acid|Glycereth-6 Cocoate@1-1,0.5,6.423,2,0.539277400639676,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-6 Cocoate,1-1,1,2.700622787839651,False
+Capryleth-6 Carboxylic Acid|Glycereth-6 Cocoate@1-1,1.0,13.98,2,0.539277400639676,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-6 Cocoate,1-1,1,2.700622787839651,False
+Capryleth-6 Carboxylic Acid|Glycereth-7 Cocoate@1-1,0.5,5.835,1,0.5311161014125583,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-7 Cocoate,1-1,1,2.707494227473134,False
+Capryleth-6 Carboxylic Acid|Glycereth-7 Cocoate@1-1,1.0,10.99,2,0.5311161014125583,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Glycereth-7 Cocoate,1-1,1,2.707494227473134,False
+Capryleth-6 Carboxylic Acid|Lauramine Oxide@1-1,0.5,116.21,1,0.4890434013939612,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Lauramine Oxide,1-1,1,0.8531221503361994,False
+Capryleth-6 Carboxylic Acid|Lauramine Oxide@1-1,1.0,125.580397022333,1,0.4890434013939612,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Lauramine Oxide,1-1,1,0.8531221503361994,False
+Capryleth-6 Carboxylic Acid|Lauramine Oxide@1-1,2.0,136.48,1,0.4890434013939612,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Lauramine Oxide,1-1,1,0.8531221503361994,False
+Capryleth-6 Carboxylic Acid|Laureth-11 Carboxylic Acid@1-1,0.5,188.98,1,0.3975229806446892,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Laureth-11 Carboxylic Acid,1-1,0,1.1131341305710696,False
+Capryleth-6 Carboxylic Acid|Laureth-11 Carboxylic Acid@1-1,1.0,366.509429280397,1,0.3975229806446892,binary_mixture,ANI,1,Capryleth-6 Carboxylic Acid,Laureth-11 Carboxylic Acid,1-1,0,1.1131341305710696,False
+Capryleth-6 Carboxylic Acid|Laureth-11 Carboxylic Acid@1-1,2.0,431.085,1,0.3975229806446892,binary_mixture,ANI,1,Capryleth-6 Carboxylic Acid,Laureth-11 Carboxylic Acid,1-1,0,1.1131341305710696,False
+Capryleth-6 Carboxylic Acid|Laureth-4 Carboxylic Acid@1-1,0.5,136.39,1,0.4526285193649243,binary_mixture,AA,0,Capryleth-6 Carboxylic Acid,Laureth-4 Carboxylic Acid,1-1,0,0.9811238090753273,False
+Capryleth-6 Carboxylic Acid|Laureth-4 Carboxylic Acid@1-1,1.0,485.912158808933,1,0.4526285193649243,binary_mixture,AA,1,Capryleth-6 Carboxylic Acid,Laureth-4 Carboxylic Acid,1-1,0,0.9811238090753273,False
+Capryleth-6 Carboxylic Acid|Laureth-4 Carboxylic Acid@1-1,2.0,516.8,1,0.4526285193649243,binary_mixture,AA,1,Capryleth-6 Carboxylic Acid,Laureth-4 Carboxylic Acid,1-1,0,0.9811238090753273,False
+Capryleth-6 Carboxylic Acid|Myristamine Oxide@1-1,0.5,152.74,1,0.4846585816606342,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Myristamine Oxide,1-1,1,0.8647877291432737,False
+Capryleth-6 Carboxylic Acid|Myristamine Oxide@1-1,1.0,166.121339950372,1,0.4846585816606342,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Myristamine Oxide,1-1,1,0.8647877291432737,False
+Capryleth-6 Carboxylic Acid|Myristamine Oxide@1-1,2.0,218.63,1,0.4846585816606342,binary_mixture,ANI,1,Capryleth-6 Carboxylic Acid,Myristamine Oxide,1-1,1,0.8647877291432737,False
+Capryleth-6 Carboxylic Acid|Polyoxyethylene(11) alkyl(C12-14) ethers@1-1,1.0,61.4,1,0.3972892680555515,binary_mixture,ANI,0,Capryleth-6 Carboxylic Acid,Polyoxyethylene(11) alkyl(C12-14) ethers,1-1,0,0.9575904612346692,False
+Cocamidopropylamine Oxide@1,0.5,280.525,2,0.5455957331483425,single,NI,1,Cocamidopropylamine Oxide,,1,1,1.5155967453572745,False
+Cocamidopropylamine Oxide@1,1.0,415.62532258064505,2,0.5455957331483425,single,NI,1,Cocamidopropylamine Oxide,,1,1,1.5155967453572745,False
+Cocamidopropylamine Oxide@1,2.0,624.04,1,0.5455957331483425,single,NI,1,Cocamidopropylamine Oxide,,1,1,1.5155967453572745,False
+Cocamidopropylamine Oxide|Glycereth-17 Cocoate@1-1,0.5,33.57,2,0.5155090895803621,binary_mixture,NINI,0,Cocamidopropylamine Oxide,Glycereth-17 Cocoate,1-1,1,3.393803320114131,False
+Cocamidopropylamine Oxide|Glycereth-17 Cocoate@1-1,1.0,85.9,2,0.5155090895803621,binary_mixture,NINI,0,Cocamidopropylamine Oxide,Glycereth-17 Cocoate,1-1,1,3.393803320114131,False
+Cocamidopropylamine Oxide|Glycereth-6 Cocoate@1-1,0.5,27.825000000000003,2,0.58871074270107,binary_mixture,NINI,0,Cocamidopropylamine Oxide,Glycereth-6 Cocoate,1-1,1,2.753187400237457,False
+Cocamidopropylamine Oxide|Glycereth-6 Cocoate@1-1,1.0,82.78,2,0.58871074270107,binary_mixture,NINI,0,Cocamidopropylamine Oxide,Glycereth-6 Cocoate,1-1,1,2.753187400237457,False
+Cocamidopropylamine Oxide|Glycereth-7 Cocoate@1-1,0.5,23.145,2,0.580744332520736,binary_mixture,NINI,0,Cocamidopropylamine Oxide,Glycereth-7 Cocoate,1-1,1,2.7574961275451555,False
+Cocamidopropylamine Oxide|Glycereth-7 Cocoate@1-1,1.0,84.405,2,0.580744332520736,binary_mixture,NINI,0,Cocamidopropylamine Oxide,Glycereth-7 Cocoate,1-1,1,2.7574961275451555,False
+Cocamidopropylamine Oxide|Lauramine Oxide@1-1,0.5,198.265,1,0.5392617115021396,binary_mixture,NINI,0,Cocamidopropylamine Oxide,Lauramine Oxide,1-1,1,1.3268860824777604,False
+Cocamidopropylamine Oxide|Lauramine Oxide@1-1,1.0,255.118362282878,1,0.5392617115021396,binary_mixture,NINI,1,Cocamidopropylamine Oxide,Lauramine Oxide,1-1,1,1.3268860824777604,False
+Cocamidopropylamine Oxide|Lauramine Oxide@1-1,2.0,456.182,1,0.5392617115021396,binary_mixture,NINI,1,Cocamidopropylamine Oxide,Lauramine Oxide,1-1,1,1.3268860824777604,False
+Cocamidopropylamine Oxide|Laureth-11 Carboxylic Acid@1-1,0.5,117.55,1,0.4465567957728363,binary_mixture,ANI,0,Cocamidopropylamine Oxide,Laureth-11 Carboxylic Acid,1-1,0,1.0444745365706245,False
+Cocamidopropylamine Oxide|Laureth-11 Carboxylic Acid@1-1,1.0,215.127617866005,1,0.4465567957728363,binary_mixture,ANI,1,Cocamidopropylamine Oxide,Laureth-11 Carboxylic Acid,1-1,0,1.0444745365706245,False
+Cocamidopropylamine Oxide|Laureth-11 Carboxylic Acid@1-1,2.0,512.78,1,0.4465567957728363,binary_mixture,ANI,1,Cocamidopropylamine Oxide,Laureth-11 Carboxylic Acid,1-1,0,1.0444745365706245,False
+Cocamidopropylamine Oxide|Laureth-4 Carboxylic Acid@1-1,0.5,116.34,1,0.5027870422948532,binary_mixture,ANI,0,Cocamidopropylamine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.9527526567896554,False
+Cocamidopropylamine Oxide|Laureth-4 Carboxylic Acid@1-1,1.0,262.068238213399,1,0.5027870422948532,binary_mixture,ANI,1,Cocamidopropylamine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.9527526567896554,False
+Cocamidopropylamine Oxide|Laureth-4 Carboxylic Acid@1-1,2.0,424.52,1,0.5027870422948532,binary_mixture,ANI,1,Cocamidopropylamine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.9527526567896554,False
+Coco Glucoside@1,0.5,4.35,2,0.475582882933241,single,NI,0,Coco Glucoside,,1,0,1.3600057544084307,False
+Coco Glucoside@1,1.0,17.2685,2,0.475582882933241,single,NI,0,Coco Glucoside,,1,0,1.3600057544084307,False
+Disodium Capryloyl Glutamate: 30% - 37%@nan,0.5,83.25,1,0.5883877141501965,single,A,0,Disodium Capryloyl Glutamate: 30% - 37%,,,1,1.1934485700827857,False
+Disodium Capryloyl Glutamate: 30% - 37%@nan,1.0,178.85,1,0.5883877141501965,single,A,0,Disodium Capryloyl Glutamate: 30% - 37%,,,1,1.1934485700827857,False
+Disodium Capryloyl Glutamate: 30% - 37%@nan,2.0,328.76,1,0.5883877141501965,single,A,1,Disodium Capryloyl Glutamate: 30% - 37%,,,1,1.1934485700827857,False
+Disodium Lauroyl Glutamate@nan,0.5,176.68,1,0.5713236277680632,single,A,0,Disodium Lauroyl Glutamate,,,1,1.2135362611867713,False
+Disodium Lauroyl Glutamate@nan,1.0,551.19,1,0.5713236277680632,single,A,1,Disodium Lauroyl Glutamate,,,1,1.2135362611867713,False
+Disodium Lauroyl Glutamate@nan,2.0,607.04,1,0.5713236277680632,single,A,1,Disodium Lauroyl Glutamate,,,1,1.2135362611867713,False
+Glycereth-17 Cocoate@1,0.5,6.470000000000001,2,0.4853096048338088,single,NI,0,Glycereth-17 Cocoate,,1,1,6.549448290413908,False
+Glycereth-17 Cocoate@1,1.0,54.755,2,0.4853096048338088,single,NI,0,Glycereth-17 Cocoate,,1,1,6.549448290413908,False
+Glycereth-17 Cocoate|Lauramine Oxide@1-1,0.5,122.3,1,0.5091329996004446,binary_mixture,NINI,0,Glycereth-17 Cocoate,Lauramine Oxide,1-1,1,3.3485339139578594,False
+Glycereth-17 Cocoate|Lauramine Oxide@1-1,1.0,220.46,1,0.5091329996004446,binary_mixture,NINI,1,Glycereth-17 Cocoate,Lauramine Oxide,1-1,1,3.3485339139578594,False
+Glycereth-17 Cocoate|Laureth-11 Carboxylic Acid@1-1,0.5,10.49,1,0.416920665546565,binary_mixture,ANI,0,Glycereth-17 Cocoate,Laureth-11 Carboxylic Acid,1-1,0,3.4398795016347203,False
+Glycereth-17 Cocoate|Laureth-11 Carboxylic Acid@1-1,1.0,16.5,1,0.416920665546565,binary_mixture,ANI,0,Glycereth-17 Cocoate,Laureth-11 Carboxylic Acid,1-1,0,3.4398795016347203,False
+Glycereth-17 Cocoate|Laureth-4 Carboxylic Acid@1-1,0.5,13.75,1,0.4726058400799588,binary_mixture,ANI,0,Glycereth-17 Cocoate,Laureth-4 Carboxylic Acid,1-1,0,3.3636503574853265,False
+Glycereth-17 Cocoate|Laureth-4 Carboxylic Acid@1-1,1.0,61.45,1,0.4726058400799588,binary_mixture,ANI,0,Glycereth-17 Cocoate,Laureth-4 Carboxylic Acid,1-1,0,3.3636503574853265,False
+Glycereth-2 Cocoate@1,0.5,44.65,1,0.6886968772126131,single,NI,0,Glycereth-2 Cocoate,,1,1,5.200670016694969,False
+Glycereth-2 Cocoate@1,1.0,55.4,1,0.6886968772126131,single,NI,0,Glycereth-2 Cocoate,,1,1,5.200670016694969,False
+Glycereth-2 Cocoate@1,2.0,50.32,1,0.6886968772126131,single,NI,0,Glycereth-2 Cocoate,,1,1,5.200670016694969,False
+Glycereth-2 Cocoate|Lauramine Oxide@1-1,0.5,115.48,1,0.6137119557153474,binary_mixture,NINI,0,Glycereth-2 Cocoate,Lauramine Oxide,1-1,1,2.691555191495147,False
+Glycereth-2 Cocoate|Lauramine Oxide@1-1,1.0,148.31,1,0.6137119557153474,binary_mixture,NINI,0,Glycereth-2 Cocoate,Lauramine Oxide,1-1,1,2.691555191495147,False
+Glycereth-2 Cocoate|Laureth-11 Carboxylic Acid@1-1,0.5,49.41,1,0.5227290756871164,binary_mixture,ANI,0,Glycereth-2 Cocoate,Laureth-11 Carboxylic Acid,1-1,1,2.7164587508354634,False
+Glycereth-2 Cocoate|Laureth-11 Carboxylic Acid@1-1,1.0,126.92,1,0.5227290756871164,binary_mixture,ANI,0,Glycereth-2 Cocoate,Laureth-11 Carboxylic Acid,1-1,1,2.7164587508354634,False
+Glycereth-2 Cocoate|Laureth-4 Carboxylic Acid@1-1,0.5,16.59,1,0.5785246422545091,binary_mixture,ANI,0,Glycereth-2 Cocoate,Laureth-4 Carboxylic Acid,1-1,1,2.6771409211046056,False
+Glycereth-2 Cocoate|Laureth-4 Carboxylic Acid@1-1,1.0,92.988,1,0.5785246422545091,binary_mixture,ANI,0,Glycereth-2 Cocoate,Laureth-4 Carboxylic Acid,1-1,1,2.6771409211046056,False
+Glycereth-6 Cocoate@1,0.5,28.47,1,0.6305053518782999,single,NI,0,Glycereth-6 Cocoate,,1,1,5.2217559372939935,False
+Glycereth-6 Cocoate@1,1.0,32.5,1,0.6305053518782999,single,NI,0,Glycereth-6 Cocoate,,1,1,5.2217559372939935,False
+Glycereth-6 Cocoate@1,2.0,34.01,1,0.6305053518782999,single,NI,0,Glycereth-6 Cocoate,,1,1,5.2217559372939935,False
+Glycereth-6 Cocoate|Lauramine Oxide@1-1,0.5,29.16,1,0.582517841459448,binary_mixture,NINI,0,Glycereth-6 Cocoate,Lauramine Oxide,1-1,1,2.7024984860765335,False
+Glycereth-6 Cocoate|Lauramine Oxide@1-1,1.0,160.7343817,1,0.582517841459448,binary_mixture,NINI,0,Glycereth-6 Cocoate,Lauramine Oxide,1-1,1,2.7024984860765335,False
+Glycereth-6 Cocoate|Laureth-11 Carboxylic Acid@1-1,0.5,36.46,1,0.4902898807457307,binary_mixture,ANI,0,Glycereth-6 Cocoate,Laureth-11 Carboxylic Acid,1-1,1,2.7512923571150374,False
+Glycereth-6 Cocoate|Laureth-11 Carboxylic Acid@1-1,1.0,66.32,1,0.4902898807457307,binary_mixture,ANI,0,Glycereth-6 Cocoate,Laureth-11 Carboxylic Acid,1-1,1,2.7512923571150374,False
+Glycereth-6 Cocoate|Laureth-4 Carboxylic Acid@1-1,0.5,6.0,1,0.546588334362894,binary_mixture,ANI,0,Glycereth-6 Cocoate,Laureth-4 Carboxylic Acid,1-1,1,2.6971230273372186,False
+Glycereth-6 Cocoate|Laureth-4 Carboxylic Acid@1-1,1.0,96.261,1,0.546588334362894,binary_mixture,ANI,0,Glycereth-6 Cocoate,Laureth-4 Carboxylic Acid,1-1,1,2.6971230273372186,False
+Glycereth-6 Cocoate|Sodium lauryl sulfate@1-1,0.5,60.65,1,0.5686463224054006,binary_mixture,ANI,0,Glycereth-6 Cocoate,Sodium lauryl sulfate,1-1,1,2.67057062431813,True
+Glycereth-6 Cocoate|Sodium lauryl sulfate@1-1,1.0,70.6,1,0.5686463224054006,binary_mixture,ANI,0,Glycereth-6 Cocoate,Sodium lauryl sulfate,1-1,1,2.67057062431813,True
+Glycereth-6 Cocoate|Sodium lauryl sulfate@1-1,2.0,83.0,1,0.5686463224054006,binary_mixture,ANI,0,Glycereth-6 Cocoate,Sodium lauryl sulfate,1-1,1,2.67057062431813,True
+Glycereth-6 Cocoate|Sodium lauryl sulfate@1-2,0.5,62.04,1,0.5474349057790049,binary_mixture,ANI,0,Glycereth-6 Cocoate,Sodium lauryl sulfate,1-2,1,1.8738653908390135,True
+Glycereth-6 Cocoate|Sodium lauryl sulfate@1-2,1.0,70.9,1,0.5474349057790049,binary_mixture,ANI,0,Glycereth-6 Cocoate,Sodium lauryl sulfate,1-2,1,1.8738653908390135,True
+Glycereth-6 Cocoate|Sodium lauryl sulfate@1-2,2.0,102.25,1,0.5474349057790049,binary_mixture,ANI,0,Glycereth-6 Cocoate,Sodium lauryl sulfate,1-2,1,1.8738653908390135,True
+Glycereth-6 Cocoate|Zinc Coceth Sulfate@1-1,0.5,45.68,1,0.5360172403046574,binary_mixture,ANI,0,Glycereth-6 Cocoate,Zinc Coceth Sulfate,1-1,1,2.69300775757429,False
+Glycereth-6 Cocoate|Zinc Coceth Sulfate@1-1,1.0,65.8,1,0.5360172403046574,binary_mixture,ANI,0,Glycereth-6 Cocoate,Zinc Coceth Sulfate,1-1,1,2.69300775757429,False
+Glycereth-6 Cocoate|Zinc Coceth Sulfate@1-1,2.0,74.32,1,0.5360172403046574,binary_mixture,ANI,0,Glycereth-6 Cocoate,Zinc Coceth Sulfate,1-1,1,2.69300775757429,False
+Glycereth-6 Cocoate|Zinc Coco-Sulfate: 27% - 30%@1-1,1.0,36.6,1,0.5648971075763162,binary_mixture,ANI,0,Glycereth-6 Cocoate,Zinc Coco-Sulfate: 27% - 30%,1-1,1,2.673795058095363,False
+Glycereth-7 Cocoate@1,0.5,50.455,2,0.6150922021664715,single,NI,0,Glycereth-7 Cocoate,,1,1,5.229641305446998,False
+Glycereth-7 Cocoate@1,1.0,93.515,2,0.6150922021664715,single,NI,0,Glycereth-7 Cocoate,,1,1,5.229641305446998,False
+Glycereth-7 Cocoate@1,2.0,104.145,2,0.6150922021664715,single,NI,0,Glycereth-7 Cocoate,,1,1,5.229641305446998,False
+Glycereth-7 Cocoate|Lauramine Oxide@1-1,0.5,66.69,1,0.574518172631466,binary_mixture,NINI,0,Glycereth-7 Cocoate,Lauramine Oxide,1-1,1,2.7063847377795933,False
+Glycereth-7 Cocoate|Lauramine Oxide@1-1,1.0,142.74,1,0.574518172631466,binary_mixture,NINI,0,Glycereth-7 Cocoate,Lauramine Oxide,1-1,1,2.7063847377795933,False
+Glycereth-7 Cocoate|Laureth-11 Carboxylic Acid@1-1,0.5,58.645,1,0.4820941916989116,binary_mixture,ANI,0,Glycereth-7 Cocoate,Laureth-11 Carboxylic Acid,1-1,1,2.760953756682546,False
+Glycereth-7 Cocoate|Laureth-11 Carboxylic Acid@1-1,1.0,77.26,1,0.4820941916989116,binary_mixture,ANI,0,Glycereth-7 Cocoate,Laureth-11 Carboxylic Acid,1-1,1,2.760953756682546,False
+Glycereth-7 Cocoate|Laureth-4 Carboxylic Acid@1-1,0.5,16.81,1,0.538445700244782,binary_mixture,ANI,0,Glycereth-7 Cocoate,Laureth-4 Carboxylic Acid,1-1,1,2.7032180975202413,False
+Glycereth-7 Cocoate|Laureth-4 Carboxylic Acid@1-1,1.0,120.37,1,0.538445700244782,binary_mixture,ANI,0,Glycereth-7 Cocoate,Laureth-4 Carboxylic Acid,1-1,1,2.7032180975202413,False
+Lauramine Oxide@1,0.5,239.09000000000003,2,0.5329149848559309,single,NI,1,Lauramine Oxide,,1,1,1.2723571393577242,False
+Lauramine Oxide@1,1.0,339.4697394540945,2,0.5329149848559309,single,NI,1,Lauramine Oxide,,1,1,1.2723571393577242,False
+Lauramine Oxide@1,2.0,384.94,1,0.5329149848559309,single,NI,1,Lauramine Oxide,,1,1,1.2723571393577242,False
+Lauramine Oxide|Laureth-11 Carboxylic Acid@1-1,0.5,171.33,1,0.440258567001985,binary_mixture,ANI,0,Lauramine Oxide,Laureth-11 Carboxylic Acid,1-1,0,0.9492499851146013,False
+Lauramine Oxide|Laureth-11 Carboxylic Acid@1-1,1.0,216.990570719603,1,0.440258567001985,binary_mixture,ANI,1,Lauramine Oxide,Laureth-11 Carboxylic Acid,1-1,0,0.9492499851146013,False
+Lauramine Oxide|Laureth-11 Carboxylic Acid@1-1,2.0,274.134,1,0.440258567001985,binary_mixture,ANI,1,Lauramine Oxide,Laureth-11 Carboxylic Acid,1-1,0,0.9492499851146013,False
+Lauramine Oxide|Laureth-4 Carboxylic Acid@1-1,0.5,154.63,1,0.4964070821788511,binary_mixture,ANI,0,Lauramine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.8578426187626396,False
+Lauramine Oxide|Laureth-4 Carboxylic Acid@1-1,1.0,280.215136476427,1,0.4964070821788511,binary_mixture,ANI,1,Lauramine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.8578426187626396,False
+Lauramine Oxide|Laureth-4 Carboxylic Acid@1-1,2.0,292.82,1,0.4964070821788511,binary_mixture,ANI,1,Lauramine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.8578426187626396,False
+Laureth-11 Carboxylic Acid@1,0.5,138.74666666666667,3,0.3515857548762114,single,A,0,Laureth-11 Carboxylic Acid,,1,0,1.2626710991566208,False
+Laureth-11 Carboxylic Acid@1,1.0,311.1052679900743,3,0.3515857548762114,single,A,1,Laureth-11 Carboxylic Acid,,1,0,1.2626710991566208,False
+Laureth-11 Carboxylic Acid@1,2.0,441.461,2,0.3515857548762114,single,A,1,Laureth-11 Carboxylic Acid,,1,0,1.2626710991566208,False
+Laureth-11 Carboxylic Acid|Laureth-4 Carboxylic Acid@1-1,0.5,117.18,1,0.4045998167929371,binary_mixture,AA,0,Laureth-11 Carboxylic Acid,Laureth-4 Carboxylic Acid,1-1,0,1.0971068147452196,False
+Laureth-11 Carboxylic Acid|Laureth-4 Carboxylic Acid@1-1,1.0,320.666,1,0.4045998167929371,binary_mixture,AA,1,Laureth-11 Carboxylic Acid,Laureth-4 Carboxylic Acid,1-1,0,1.0971068147452196,False
+Laureth-11 Carboxylic Acid|Laureth-4 Carboxylic Acid@1-1,2.0,450.39,1,0.4045998167929371,binary_mixture,AA,1,Laureth-11 Carboxylic Acid,Laureth-4 Carboxylic Acid,1-1,0,1.0971068147452196,False
+Laureth-4 Carboxylic Acid@1,0.5,153.01333333333335,3,0.4599374512190374,single,A,0,Laureth-4 Carboxylic Acid,,1,0,0.977359978519677,False
+Laureth-4 Carboxylic Acid@1,1.0,299.39872622001667,3,0.4599374512190374,single,A,1,Laureth-4 Carboxylic Acid,,1,0,0.977359978519677,False
+Laureth-4 Carboxylic Acid@1,2.0,577.8,1,0.4599374512190374,single,A,1,Laureth-4 Carboxylic Acid,,1,0,0.977359978519677,False
+Laureth-4 Carboxylic Acid|Polyoxyethylene(11) alkyl(C12-14) ethers@1-1,1.0,60.7,1,0.4043647360657404,binary_mixture,ANI,0,Laureth-4 Carboxylic Acid,Polyoxyethylene(11) alkyl(C12-14) ethers,1-1,0,0.9409097352748809,False
+Lauryl Glucoside@1,0.5,14.2525,2,0.475582882933241,single,NI,0,Lauryl Glucoside,,1,0,1.3600057544084307,False
+Lauryl Glucoside@1,1.0,28.986,2,0.475582882933241,single,NI,0,Lauryl Glucoside,,1,0,1.3600057544084307,False
+Lauryl Glucoside@1,2.0,41.0,1,0.475582882933241,single,NI,0,Lauryl Glucoside,,1,0,1.3600057544084307,False
+Myristamine Oxide@1,0.5,325.11,1,0.5241680421211474,single,NI,1,Myristamine Oxide,,1,1,1.2881919628706962,False
+Myristamine Oxide@1,1.0,374.281265508685,2,0.5241680421211474,single,NI,1,Myristamine Oxide,,1,1,1.2881919628706962,False
+Myristamine Oxide@1,2.0,457.26,1,0.5241680421211474,single,NI,1,Myristamine Oxide,,1,1,1.2881919628706962,False
+Myristamine Oxide|Cocamidopropylamine Oxide@1-1,0.5,164.86,1,0.5348979893077106,binary_mixture,NINI,0,Myristamine Oxide,Cocamidopropylamine Oxide,1-1,1,1.334029451763209,False
+Myristamine Oxide|Cocamidopropylamine Oxide@1-1,1.0,248.844,1,0.5348979893077106,binary_mixture,NINI,1,Myristamine Oxide,Cocamidopropylamine Oxide,1-1,1,1.334029451763209,False
+Myristamine Oxide|Cocamidopropylamine Oxide@1-1,2.0,517.18,1,0.5348979893077106,binary_mixture,NINI,1,Myristamine Oxide,Cocamidopropylamine Oxide,1-1,1,1.334029451763209,False
+Myristamine Oxide|Glycereth-17 Cocoate@1-1,0.5,49.77,2,0.5047459904641254,binary_mixture,NINI,0,Myristamine Oxide,Glycereth-17 Cocoate,1-1,1,3.3535766197891888,False
+Myristamine Oxide|Glycereth-17 Cocoate@1-1,1.0,142.325,2,0.5047459904641254,binary_mixture,NINI,0,Myristamine Oxide,Glycereth-17 Cocoate,1-1,1,3.3535766197891888,False
+Myristamine Oxide|Glycereth-2 Cocoate@1-1,1.0,10.555,2,0.6095428078098603,binary_mixture,NINI,0,Myristamine Oxide,Glycereth-2 Cocoate,1-1,1,2.6953111677846278,False
+Myristamine Oxide|Glycereth-6 Cocoate@1-1,0.5,58.045,2,0.5782433896867032,binary_mixture,NINI,0,Myristamine Oxide,Glycereth-6 Cocoate,1-1,1,2.7069428947025274,False
+Myristamine Oxide|Glycereth-6 Cocoate@1-1,1.0,193.415,2,0.5782433896867032,binary_mixture,NINI,0,Myristamine Oxide,Glycereth-6 Cocoate,1-1,1,2.7069428947025274,False
+Myristamine Oxide|Lauramine Oxide@1-1,0.5,194.79,1,0.5285437044788595,binary_mixture,NINI,0,Myristamine Oxide,Lauramine Oxide,1-1,1,1.2798024069349665,False
+Myristamine Oxide|Lauramine Oxide@1-1,1.0,206.37270471464,1,0.5285437044788595,binary_mixture,NINI,1,Myristamine Oxide,Lauramine Oxide,1-1,1,1.2798024069349665,False
+Myristamine Oxide|Lauramine Oxide@1-1,2.0,367.51,1,0.5285437044788595,binary_mixture,NINI,1,Myristamine Oxide,Lauramine Oxide,1-1,1,1.2798024069349665,False
+Myristamine Oxide|Laureth-11 Carboxylic Acid@1-1,0.5,123.45,1,0.4359379678594012,binary_mixture,ANI,0,Myristamine Oxide,Laureth-11 Carboxylic Acid,1-1,0,0.9646920869496804,False
+Myristamine Oxide|Laureth-11 Carboxylic Acid@1-1,1.0,154.055583126551,1,0.4359379678594012,binary_mixture,ANI,0,Myristamine Oxide,Laureth-11 Carboxylic Acid,1-1,0,0.9646920869496804,False
+Myristamine Oxide|Laureth-11 Carboxylic Acid@1-1,2.0,345.56,1,0.4359379678594012,binary_mixture,ANI,1,Myristamine Oxide,Laureth-11 Carboxylic Acid,1-1,0,0.9646920869496804,False
+Myristamine Oxide|Laureth-4 Carboxylic Acid@1-1,0.5,133.3,1,0.4920198155158581,binary_mixture,ANI,0,Myristamine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.8712488904860991,False
+Myristamine Oxide|Laureth-4 Carboxylic Acid@1-1,1.0,154.248635235732,1,0.4920198155158581,binary_mixture,ANI,0,Myristamine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.8712488904860991,False
+Myristamine Oxide|Laureth-4 Carboxylic Acid@1-1,2.0,317.28,1,0.4920198155158581,binary_mixture,ANI,1,Myristamine Oxide,Laureth-4 Carboxylic Acid,1-1,1,0.8712488904860991,False
+Polyoxyethylene(11) alkyl(C16-18) ethers@1,1.0,55.6,1,0.3354802275044679,single,NI,0,Polyoxyethylene(11) alkyl(C16-18) ethers,,1,0,1.2394063653091771,False
+Polyoxyethylene(6) alkyl(C8-12) ethers@1,0.5,17.0,1,0.4403598052693125,single,NI,0,Polyoxyethylene(6) alkyl(C8-12) ethers,,1,0,0.8918306458395305,False
+Polyoxyethylene(6) alkyl(C8-12) ethers@1,1.0,21.0,1,0.4403598052693125,single,NI,0,Polyoxyethylene(6) alkyl(C8-12) ethers,,1,0,0.8918306458395305,False
+Polyoxyethylene(6) alkyl(C8-12) ethers@1,2.0,51.0,1,0.4403598052693125,single,NI,0,Polyoxyethylene(6) alkyl(C8-12) ethers,,1,0,0.8918306458395305,False
+Sodium laureth sulfate@nan,0.5,156.0,1,0.4624394678197087,single,A,0,Sodium laureth sulfate,,,0,0.9401841613594796,False
+Sodium laureth sulfate@nan,1.0,317.0,1,0.4624394678197087,single,A,1,Sodium laureth sulfate,,,0,0.9401841613594796,False
+Sodium laureth sulfate@nan,2.0,533.0,1,0.4624394678197087,single,A,1,Sodium laureth sulfate,,,0,0.9401841613594796,False
+Sodium lauryl sulfate@nan,0.5,248.0,1,0.5045686820229414,single,A,1,Sodium lauryl sulfate,,,1,0.9522339312784146,True
+Sodium lauryl sulfate@nan,1.0,531.0,1,0.5045686820229414,single,A,1,Sodium lauryl sulfate,,,1,0.9522339312784146,True
+Sodium lauryl sulfate@nan,2.0,637.0,1,0.5045686820229414,single,A,1,Sodium lauryl sulfate,,,1,0.9522339312784146,True
+Sodium lauryl sulfate|Cocamidopropylamine Oxide@1-1,0.5,44.13,1,0.5251246046669404,binary_mixture,ANI,0,Sodium lauryl sulfate,Cocamidopropylamine Oxide,1-1,1,0.938919484676731,True
+Sodium lauryl sulfate|Cocamidopropylamine Oxide@1-1,1.0,59.2,1,0.5251246046669404,binary_mixture,ANI,0,Sodium lauryl sulfate,Cocamidopropylamine Oxide,1-1,1,0.938919484676731,True
+Sodium lauryl sulfate|Cocamidopropylamine Oxide@1-1,2.0,85.31,1,0.5251246046669404,binary_mixture,ANI,0,Sodium lauryl sulfate,Cocamidopropylamine Oxide,1-1,1,0.938919484676731,True
+Zinc Coceth Sulfate@nan,0.5,37.36,1,0.4388704525725997,single,A,0,Zinc Coceth Sulfate,,,0,0.99202660334907,False
+Zinc Coceth Sulfate@nan,1.0,65.7,1,0.4388704525725997,single,A,0,Zinc Coceth Sulfate,,,0,0.99202660334907,False
+Zinc Coceth Sulfate@nan,2.0,69.97,1,0.4388704525725997,single,A,0,Zinc Coceth Sulfate,,,0,0.99202660334907,False
+Zinc Coco-Sulfate: 27% - 30%@nan,0.5,76.34,1,0.496934224871233,single,A,0,Zinc Coco-Sulfate: 27% - 30%,,,1,0.9878146255847581,False
+Zinc Coco-Sulfate: 27% - 30%@nan,1.0,79.81,1,0.496934224871233,single,A,0,Zinc Coco-Sulfate: 27% - 30%,,,1,0.9878146255847581,False
+Zinc Coco-Sulfate: 27% - 30%@nan,2.0,81.5,1,0.496934224871233,single,A,0,Zinc Coco-Sulfate: 27% - 30%,,,1,0.9878146255847581,False

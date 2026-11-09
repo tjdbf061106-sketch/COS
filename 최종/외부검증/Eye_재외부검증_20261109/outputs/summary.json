@@ -1,0 +1,57 @@
+{
+  "screened": 29,
+  "quat_predicted": 15,
+  "held": 13,
+  "additional_shampoo": 1,
+  "strict_EPA_external_validation_cases": 0,
+  "rank_associations": [
+    {
+      "analysis": "all_15_related_cases",
+      "n": 15,
+      "spearman_day7": -0.5698961337724598,
+      "spearman_auc_days1_7": -0.5519748717041436,
+      "interpretation": "Descriptive endpoint consistency; not EPA classifier accuracy; no independent-sample p-value"
+    },
+    {
+      "analysis": "unique_represented_inputs",
+      "n": 13,
+      "spearman_day7": -0.7252747252747254,
+      "spearman_auc_days1_7": -0.6648351648351648,
+      "interpretation": "Descriptive endpoint consistency; not EPA classifier accuracy; no independent-sample p-value"
+    },
+    {
+      "analysis": "unique_inputs_without_training_feature_match",
+      "n": 13,
+      "spearman_day7": -0.7252747252747254,
+      "spearman_auc_days1_7": -0.6648351648351648,
+      "interpretation": "Descriptive endpoint consistency; not EPA classifier accuracy; no independent-sample p-value"
+    }
+  ],
+  "paired_direction_agreement": 0,
+  "paired_total": 4,
+  "pairs_without_training_feature_match": 4,
+  "direction_agreement_without_training_feature_match": 0,
+  "exact_training_feature_matched_cases": 0,
+  "unique_represented_inputs": 13,
+  "identical_input_groups_with_different_day7": 1,
+  "water_sensitivity_prediction_changes": 2,
+  "water_sensitivity_cases": 7,
+  "new_shampoo_midpoint": {
+    "formulation_id": "Zodiac_2724_792",
+    "scenario": "midpoint",
+    "model_score": 0.5479544826624758,
+    "model_prediction": 1,
+    "label_proxy": 0,
+    "label_proxy_category": "III/IV",
+    "agrees_with_label_proxy": false,
+    "represented_pct": 2.32,
+    "unrepresented_pct": 97.68,
+    "training_feature_matches": 0,
+    "strict_validation_eligible": false
+  },
+  "threshold": 0.4814867474694138,
+  "formal_EPA_accuracy": null,
+  "formal_EPA_AUC": null,
+  "model_refit": false,
+  "interpretation": "Executed external-case diagnostic evaluation; current sources do not support an independent full-formulation EPA accuracy estimate."
+}

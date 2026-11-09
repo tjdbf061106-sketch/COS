@@ -1,0 +1,15 @@
+{
+  "model": "Eye A LR wmean frozen; existing saved threshold",
+  "sequence": ["A frozen cross-endpoint comparison", "B separate zein head readiness gate"],
+  "structures": "PubChem-confirmed named discrete identities only; no coco chain, EO average, glucoside oligomer or alkyl range assumptions. Named identity does not establish experimental commercial lot purity.",
+  "allowed_names": ["Lauramine Oxide", "Myristamine Oxide", "Sodium lauryl sulfate", "Disodium Lauroyl Glutamate", "Disodium Capryloyl Glutamate: 30% - 37%"],
+  "primary": "All named components resolved; group duplicate observations by component pair, proportion and concentration, average ZN then derive ZN>=200 label",
+  "secondary": "Only resolved constituents of incomplete mixtures; never pool with all-components-resolved results",
+  "weights": "Use source proportion as nominal relative input only, not verified absolute active mass. Explicitly flag basis unverified. Single component normalized to one. No conversion to absolute amount_pct.",
+  "endpoint": "ZN>=200 operational source cutoff, not EPA Eye gold; official cutoff attribution not independently verified",
+  "metrics": "Descriptive agreement, confusion matrix, ROC AUC and Spearman, separately by coverage; no independent-sample p-value or EPA performance claim",
+  "overlap": "Flag SLS; compare exact feature vectors against preserved training reference; exclude matches in sensitivity",
+  "B_gate": "Preserve Eye model. Require actual compatible frozen encoder for separate head, resolved structures and amounts, component-disjoint and scaffold-disjoint valid heldout sets. Do not substitute an unrelated model or silently relax split rules.",
+  "prior_exposure": "Dataset outcomes already inspected in prior work; this is not a prospectively untouched external test set.",
+  "source_retrieval": "Zenodo API and landing page both HTTP 403; original workbook is available locally. Absolute mixture concentration basis remains unverified."
+}

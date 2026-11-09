@@ -1,0 +1,46 @@
+source_id,title,url,location,review_status,limitations,document_version,checked_date
+EPA_GUIDE,EPA Label Review Manual,https://www.epa.gov/sites/production/files/documents/label-review-manual.pdf,"PDF 76쪽, Chapter 7 Tables 6–7",공식 지침 확인,라벨 문구와 시험으로 확정한 등급은 구분. 피부 흡수 급성독성은 피부 자극과 다른 endpoint.,,2026-11-09
+REPO_CIR,GitHub CIR 추출표,https://github.com/tjdbf061106-sketch/COS/blob/a693ae5fb43197cac4dc530a5371f1682ede2c3c/cosmetic_validation/cir_ingredients.csv,고정 커밋의 CSV 데이터 행,로컬 보존본 확인,최신 main과의 일치 미확인; EPA등급(환산)은 저장소 작성자의 환산값.,a693ae5fb43197cac4dc530a5371f1682ede2c3c,2026-11-09
+REPO_SDS,GitHub 샴푸 추출표,https://github.com/tjdbf061106-sketch/COS/blob/a693ae5fb43197cac4dc530a5371f1682ede2c3c/cosmetic_validation/flea_tick_shampoo.csv,고정 커밋의 CSV,로컬 보존본 확인,원래 레이블과 분자구조를 보존하며 본 목록에서 자동 교정하지 않음.,a693ae5fb43197cac4dc530a5371f1682ede2c3c,2026-11-09
+Q_PATENT,US6583181B1,https://patents.google.com/patent/US6583181B1/en,Tables 1–4; Examples 1–5,특허 표·본문 확인,동물별 조직 점수 없음. Table 4 상업 원료 머리글 대응은 추가 확인 필요.,2003-06-24,2026-11-09
+SH_PATENT,US4992266A,https://patents.google.com/patent/US4992266A/en,Examples 1–7; Tables I–II,특허 표·본문 확인,"3마리 평균, 7일 관찰. Examples 8–11은 예상 결과여서 실측 사례에서 제외.",1991-02-12,2026-11-09
+CIR_REPORT_01,CIR CAPB Final Report 2012,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_02,CIR Diethanolamides Amended Report 2011,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_03,CIR Ethanolamides Report 2015,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_04,CIR Propylene Glycol Amended Report 2012,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_05,CIR Glycerin Final Report 2015,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_06,CIR PEGs Final Report 2010,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_07,CIR Parabens Report 1984,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_08,SCCS/BASF 1983 (cited SCCS/1575/16),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_09,CIR Benzyl Alcohol/Benzoic Acid Report,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_10,CIR Bronopol Final Report,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_11,CIR MIT Amended Report,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_12,CIR Fatty Alcohols Report 1988,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_13,CIR Stearyl Alcohol Report 1985,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_14,CIR Trimoniums Report 2012,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_15,CIR SLS/ALS Report 1983(2차인용),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_16,"CIR MCI/MI Final Amended Report 2019 (mcimi122019FAR.pdf, 무료)",,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_17,"CIR Butylene Glycol/Hexylene Glycol/Ethoxydiglycol/Dipropylene Glycol Final Report 1985 (Elder RL, JACT 4(5):223-248, 초록만 확인)",,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_18,CIR Final Report on Sorbic Acid and Potassium Sorbate 1988 (JACT 7(6):837-880),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_19,SCCS/1681/25 Tea Tree Oil Opinion 2025 (cites SCCP/1155/08 study),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_20,SCCS/1681/25 Tea Tree Oil Opinion 2025,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_21,SCCS/1681/25 Tea Tree Oil Opinion 2025 (cites Lee et al. 2013),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_22,SCCS/1623/20 Opinion on Propylparaben 2021 (cites unnamed 1983 ECHA REACH dossier study),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_23,SCCS/1623/20 Opinion on Propylparaben 2021,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_24,SCCS/1627/21 Opinion on Octocrylene 2021,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_25,SCCS/1622/20 + SCCS/1638/21 Opinion/Advice on Homosalate,,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_26,"SCC 2000 Opinion (2차인용, EC 2000 cited in Personal Care Council 2025 review)",,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_27,SCC 2000 Opinion (2차인용),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+CIR_REPORT_28,CIR Final Report on Sodium Laureth Sulfate 1983 (JACT),,표·페이지·원시험 식별자 확보 필요,서지명만 추출,이전 부분 검토 URL은 해당 사례 행에 별도 기록. 저장소의 high를 독립 검증 신뢰도로 재사용하지 않음.,,2026-11-09
+SDS_01,Davis Manufacturing Flea & Tick Shampoo SDS,https://davismfg.com/medias/Flea%20Tick%20Shampoo%2005%2028%202025.pdf,Section 3 / 9 / 11; pH PDF 3쪽,원문 일부 확인,SDS 제품 pH; 시험 당시 시료와 일치 미확인,2025-05-28,2026-11-09
+LABEL_01,EPA 기본 등록 69061-12,https://www3.epa.gov/pesticides/chem_search/ppls/069061-00012-20150910.pdf,PDF 4쪽,공식 endpoint별 라벨 문구 확인,원시험 등급·현재 SDS 배합 연결은 미확정,2015-09-10,2026-11-09
+SDS_02,No-Bite Flea & Tick Shampoo SDS,https://www.durvet.com/wp-content/uploads/2017/12/No_Bite-Flea-and-Tick-Shampoo_DV_neogen_sds_7_6_2015.pdf,본문 접근 실패; 기존 추출표/검색 색인만 있음,접근 실패,SDS 본문 접근 실패; pH 미보고라고 단정하지 않음,2015-07-06,2026-11-09
+LABEL_02,EPA 기본 등록 1021-1723,https://www3.epa.gov/pesticides/chem_search/ppls/001021-01723-20131224.pdf,PDF 4쪽,공식 endpoint별 라벨 문구 확인,원시험 등급·현재 SDS 배합 연결은 미확정,2013-12-24,2026-11-09
+SDS_03,Adams Flea & Tick Cleansing Shampoo SDS,https://labelsds.com/images/user_uploads/Adams%20F%20and%20T%20Cleansing%20SDS%209-28-23.pdf,Section 3 / 9 / 11; pH PDF 4쪽,원문 일부 확인,SDS 제품 pH; 시험 당시 시료와 일치 미확인,2023-09-28,2026-11-09
+LABEL_03,EPA 기본 등록 270-324,https://www3.epa.gov/pesticides/chem_search/ppls/000270-00324-20120301.pdf,PDF 3쪽,공식 endpoint별 라벨 문구 확인,원시험 등급·현재 SDS 배합 연결은 미확정,2012-03-01,2026-11-09
+SDS_04,Zodiac Oatmeal Conditioning Shampoo for Dogs & Puppies SDS,https://labelsds.com/images/user_uploads/Zodiac%20Shampoo%20-%20Puppy-Dog%20SDS%206-24-16.pdf,Section 3 / 9 / 11; pH PDF 5쪽,원문 일부 확인,"SDS 제품 pH, 21.3°C; 시험 당시 시료와 일치 미확인",2016-06-24,2026-11-09
+LABEL_04,EPA 기본 등록 2724-485,https://www3.epa.gov/pesticides/chem_search/ppls/002724-00485-20180405.pdf,PDF 3쪽,공식 endpoint별 라벨 문구 확인,원시험 등급·현재 SDS 배합 연결은 미확정,2018-04-05,2026-11-09
+SDS_05,Adams Plus Flea & Tick Shampoo with Precor SDS,https://pdf.lowes.com/productdocuments/6bba45d9-6f5a-4d63-837f-6e3a07a1bf05/44866530.pdf,Section 3 / 9 / 11; pH PDF 4쪽,원문 일부 확인,"SDS 제품 pH, 21.3°C; 시험 당시 시료와 일치 미확인",2020-10-29,2026-11-09
+LABEL_05,EPA 기본 등록 2724-485,https://www3.epa.gov/pesticides/chem_search/ppls/002724-00485-20180405.pdf,PDF 3쪽,공식 endpoint별 라벨 문구 확인,원시험 등급·현재 SDS 배합 연결은 미확정,2018-04-05,2026-11-09
+SDS_06,Zodiac Flea & Tick Shampoo for Dogs & Cats SDS,https://www.domyown.com/msds/Zodiac_Flea_and_Tick_Shampoo_for_Dogs_and_Cats_SDS_2020.pdf,"PDF 2쪽 조성, 5쪽 pH·독성",원문 확인,파일명 2020과 달리 문서 내부 날짜는 2016-04-07,2016-04-07,2026-11-09
+LABEL_06,EPA 2724-792,https://www3.epa.gov/pesticides/chem_search/ppls/002724-00792-20150129.pdf,PDF 4쪽,공식 눈자극 문구 확인,피부 흡수 유해 문구는 피부 자극 등급 근거가 아님,2015-01-29,2026-11-09

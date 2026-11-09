@@ -1,0 +1,4 @@
+scope,label,n_surfactants,n_rows,n_formulations,rho_rows,rho_formulations,p_formulations,cluster_rho,cluster_p,cluster_ci_low,cluster_ci_high,score_min,score_max
+S5,PubChem 단일구조 5종 · UVCB 가정 금지,5,18,6,-0.3856,-0.6,0.208,-0.3856,0.18085,-0.6872,0.2105,0.5046,0.5884
+S10,PubChem 조회 성공 10종 · 가정 암묵 수용,10,32,11,0.4691,0.4237,0.1941,0.4691,0.0895,-0.0559,0.8587,0.4624,0.5884
+S22,대표구조 규칙 22종 · 가정 명시 사용,22,163,66,-0.1722,-0.151,0.2261,-0.1722,0.14295,-0.3788,0.0603,0.3355,0.6887

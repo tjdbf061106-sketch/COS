@@ -1,0 +1,24 @@
+{
+  "generated": "2026-11-09",
+  "n_surfactants": 22,
+  "rules": [
+    "coco / cocamido / cocoate  -> C12 (라우르산, 코코넛 유래의 최대 성분 ~50%)",
+    "R2  capryl / capryleth         -> C8",
+    "R3  lauryl / laureth / lauroyl -> C12",
+    "R4  myrist                     -> C14",
+    "R5  명시적 탄소수 범위         -> 산술 중앙값 (C12-14→13, C16-18→17, C8-12→10)",
+    "R6  에톡실레이트 EO 수         -> 명칭의 숫자. 숫자 미표기는 상용 전형값 + 플래그",
+    "R7  알킬 폴리글루코사이드      -> DP=1 (단일 글루코스)",
+    "R8  염                         -> 학습 데이터 관례에 따라 반대이온을 별도",
+    "                                  프래그먼트로 명시 (예: .[Na+])",
+    "R9  Glycereth-n                -> 글리세롤 1차 수산기 한 곳에 EO n개를 집중"
+  ],
+  "canonical_collisions": {
+    "CCCCCCCCCCCCOC1OC(CO)C(O)C(O)C1O": [
+      "Coco Glucoside",
+      "Lauryl Glucoside"
+    ]
+  },
+  "prespecified": true,
+  "note": "다분산 상업 계면활성제의 대표구조 근사. 예측 결과를 보고 조정하지 않음."
+}

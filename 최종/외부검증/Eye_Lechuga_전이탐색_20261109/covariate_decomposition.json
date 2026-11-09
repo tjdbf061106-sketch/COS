@@ -1,0 +1,81 @@
+{
+  "generated": "2026-11-09",
+  "seed": 20261109,
+  "scenarios": {
+    "total": {
+      "structure_only": {
+        "n_features": 2265,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.5092,
+        "TP": 21,
+        "FP": 31,
+        "TN": 0,
+        "FN": 0
+      },
+      "structure_plus_concentration": {
+        "n_features": 2271,
+        "MCC": 0.3022,
+        "balanced_accuracy": 0.6214,
+        "ROC_AUC": 0.9155,
+        "TP": 20,
+        "FP": 22,
+        "TN": 9,
+        "FN": 1
+      },
+      "concentration_only": {
+        "n_features": 6,
+        "MCC": 0.7251,
+        "balanced_accuracy": 0.841,
+        "ROC_AUC": 0.9032,
+        "TP": 15,
+        "FP": 1,
+        "TN": 30,
+        "FN": 6
+      }
+    },
+    "per_comp": {
+      "structure_only": {
+        "n_features": 2265,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.5092,
+        "TP": 21,
+        "FP": 31,
+        "TN": 0,
+        "FN": 0
+      },
+      "structure_plus_concentration": {
+        "n_features": 2271,
+        "MCC": 0.3765,
+        "balanced_accuracy": 0.6452,
+        "ROC_AUC": 0.9278,
+        "TP": 21,
+        "FP": 22,
+        "TN": 9,
+        "FN": 0
+      },
+      "concentration_only": {
+        "n_features": 6,
+        "MCC": 0.7632,
+        "balanced_accuracy": 0.8648,
+        "ROC_AUC": 0.9032,
+        "TP": 16,
+        "FP": 1,
+        "TN": 30,
+        "FN": 5
+      }
+    }
+  },
+  "design": {
+    "n_rows": 52,
+    "n_distinct_structure_vectors": 3,
+    "n_groups": 3,
+    "fold_test_sizes": [
+      26,
+      23,
+      3
+    ],
+    "note": "구조 피처의 고유 행이 그룹 수와 같으므로, group-disjoint CV에서는 시험군의 구조 벡터가 학습에 전혀 등장하지 않는다. 구조만 사용하는 모델이 무작위 수준을 내는 것은 설계상의 귀결이며 분자 표현의 성능에 대한 증거가 아니다."
+  }
+}

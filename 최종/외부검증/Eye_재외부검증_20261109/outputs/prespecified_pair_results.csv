@@ -1,0 +1,5 @@
+pair_id,control,treatment,selection,control_day7,treatment_day7,observed_change,control_model_score,treatment_model_score,model_score_change,direction_agrees,includes_training_feature_match
+P1,Q_T1_C2,Q_T1_C1,same quaternary identity and nominal active concentration; EDTA/NaOH addition,30.0,7.7,-22.3,0.4782035735399345,0.6343285307764598,0.1561249572365253,False,False
+P2,Q_T2_C1,Q_T2_C2,same quaternary identity and nominal active concentration; EDTA/NaOH addition,17.7,1.7,-16.0,0.48285301371192185,0.6559449559835345,0.17309194227161268,False,False
+P3,Q_T2_C3,Q_T2_C4,same quaternary identity and nominal active concentration; EDTA/NaOH addition,6.3,2.0,-4.3,0.4712367388607567,0.6515354110977515,0.1802986722369948,False,False
+P4,Q_T2_C5,Q_T2_C6,same quaternary identity and nominal active concentration; EDTA/NaOH addition,3.0,0.3,-2.7,0.4712367388607567,0.6469739646279427,0.17573722576718598,False,False

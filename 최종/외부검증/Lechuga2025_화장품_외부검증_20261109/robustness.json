@@ -1,0 +1,30 @@
+{
+  "Tier2_mixture": {
+    "n": 103,
+    "n_clusters": 44,
+    "rho_observed": -0.3435,
+    "cluster_permutation_p": 0.01335,
+    "cluster_bootstrap_ci": [
+      -0.5505,
+      -0.0757
+    ],
+    "ci_excludes_zero": true,
+    "loo_rho_min": -0.4858,
+    "loo_rho_max": -0.2395,
+    "loo_sign_stable": true
+  },
+  "Tier1_single": {
+    "n": 60,
+    "n_clusters": 22,
+    "rho_observed": 0.0623,
+    "cluster_permutation_p": 0.7716,
+    "cluster_bootstrap_ci": [
+      -0.3351,
+      0.4517
+    ],
+    "ci_excludes_zero": false,
+    "loo_rho_min": -0.0177,
+    "loo_rho_max": 0.1722,
+    "loo_sign_stable": false
+  }
+}

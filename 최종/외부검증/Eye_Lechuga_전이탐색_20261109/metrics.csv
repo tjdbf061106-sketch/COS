@@ -1,0 +1,11 @@
+scenario,model,MCC,balanced_accuracy,ROC_AUC,TP,FP,TN,FN
+total,frozen_eye_A_LR,0.0,0.5,0.5476,21.0,31.0,0.0,0.0
+total,training_positive_rate_baseline,0.0,0.5,0.4524,0.0,0.0,31.0,21.0
+total,no_structure_covariates,0.7251,0.841,0.9032,15.0,1.0,30.0,6.0
+total,RDKit_plus_zein_head,0.0,0.5,0.5092,21.0,31.0,0.0,0.0
+total,ChemBERTa_plus_zein_head,,,,,,,
+per_comp,frozen_eye_A_LR,0.0,0.5,0.5476,21.0,31.0,0.0,0.0
+per_comp,training_positive_rate_baseline,0.0,0.5,0.4524,0.0,0.0,31.0,21.0
+per_comp,no_structure_covariates,0.7632,0.8648,0.9032,16.0,1.0,30.0,5.0
+per_comp,RDKit_plus_zein_head,0.0,0.5,0.5092,21.0,31.0,0.0,0.0
+per_comp,ChemBERTa_plus_zein_head,,,,,,,

@@ -1,0 +1,21 @@
+{
+  "candidate_case_records": 112,
+  "by_dataset": {
+    "CIR": 78,
+    "4급암모늄 특허": 21,
+    "샴푸 특허": 7,
+    "제품 SDS": 6
+  },
+  "eye_records": 65,
+  "skin_records": 53,
+  "ph_primary_document_records": 32,
+  "ph_formulation_records": 27,
+  "ph_product_records": 5,
+  "ph_csv_only_records": 1,
+  "strict_epa_eligible": 0,
+  "skin_label_conflicts": 2,
+  "zein_excluded_records": 205,
+  "duplicate_source_records": 3,
+  "component_rows": 251,
+  "source_rows": 45
+}

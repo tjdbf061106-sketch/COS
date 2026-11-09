@@ -1,0 +1,24 @@
+Eye 모델 Lechuga A→B 실행 결과
+
+A: 기존 Eye A LR 모델·임계값 0.481487 고정 계산 완료.
+원자료 205행, 성분명 22종 중 PubChem에서 명칭별 단일구조를 확인한 5종만 입력.
+UVCB 대표구조 가정은 사용하지 않음. 단일 명칭 구조 확인이 실험 상업원료의 순도 확인은 아님.
+전체 성분명이 해결된 행: 21; 반복 집계 후 18단위, 고유 모델 입력 6개.
+해결된 일부 성분만 사용한 결과와 전 성분명 해결 결과는 분리.
+전 성분명 해결 비교: {"n": 18, "unique_inputs": 6, "label_counts": {"1": 14, "0": 4}, "agreement_count": 14, "descriptive_agreement": 0.7777777777777778, "confusion_matrix_labels_0_1": [[0, 4], [0, 14]], "cross_endpoint_roc_auc": 0.17857142857142858, "spearman": -0.3856102534693761, "not_EPA_accuracy": true}
+SLS 제외: {"n": 15, "unique_inputs": 5, "label_counts": {"1": 11, "0": 4}, "agreement_count": 11, "descriptive_agreement": 0.7333333333333333, "confusion_matrix_labels_0_1": [[0, 4], [0, 11]], "cross_endpoint_roc_auc": 0.22727272727272727, "spearman": -0.2836832573067901, "not_EPA_accuracy": true}
+위 일치율/AUC는 Zein 대리 라벨과의 기술 통계이며 EPA 눈자극 성능이 아님.
+18단위 모두 양성으로 예측했으므로 일치 14/18(77.8%)는 전부 양성이라고 답하는 기준선과 동일함. 음성 4건은 모두 오분류하여 분별력을 입증하지 못함.
+같은 명목 배합은 농도가 달라도 동일 모델 입력이 됨. 총 6개 입력을 18개 독립 화학 사례로 해석하지 않음.
+혼합비는 명목 상대비로만 사용했고 절대 활성성분 함량으로 환산하지 않음. Zein 200 경계의 공식 규정 근거는 독립 확인하지 못함.
+
+B: 학습 적격성 검토까지 진행했으며 학습은 보류.
+5개 화학종은 모두 비고리형으로 scaffold 그룹이 1개뿐임. PDF와 기존 protocol의 scaffold-disjoint 검증 불가.
+성분 연결 그룹은 4개이며, 반복 농도를 무작위 분할해 표본 수를 부풀리지 않음.
+최종 Eye A LR는 ChemBERTa가 아니며 새 head를 붙일 backbone이 없음. 별도 보관 ChemBERTa는 존재하나 다른 모델 계보임.
+절대 함량과 상업원료 조성도 미확인. 이 조건을 숨기고 별도 모델을 학습하거나 성능을 주장하지 않음.
+기존 Eye 모델·입력·임계값은 변경하지 않음.
+
+해석: A에서 점수를 계산했지만 엄격한 EPA 외부검증을 완료한 것이 아님. B를 완료했다고 보고하지 않음.
+재현: python run_analysis.py
+출처: structure_audit.csv의 PubChem API URL 및 기존 원본 CSV. Zenodo 원문 접근 2회 HTTP 403.

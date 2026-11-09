@@ -1,0 +1,123 @@
+{
+  "generated": "2026-11-09",
+  "design_source": "Lechuga_외부적용평가_전이학습_탐색결과_20261109.pdf (skin팀) 설계를 eye에 적용",
+  "model": "Eye A LR wmean frozen",
+  "threshold_frozen": 0.4814867474694138,
+  "threshold_new_head": 0.5,
+  "label": "ZN >= 200 작업 기준; EPA 등급 아님",
+  "n_rows": 52,
+  "label_counts": {
+    "positive": 21,
+    "negative": 31
+  },
+  "groups": {
+    "B": 26,
+    "A": 23,
+    "A+B": 3
+  },
+  "fold_test_sizes": [
+    26,
+    23,
+    3
+  ],
+  "rows_with_unresolved_partner": 25,
+  "excluded_label_conflict_rows": 2,
+  "structures_used": {
+    "Lauramine Oxide": "CCCCCCCCCCCC[N+](C)(C)[O-]",
+    "Myristamine Oxide": "CCCCCCCCCCCCCC[N+](C)(C)[O-]"
+  },
+  "frozen_scores_identical_across_scenarios": true,
+  "chemberta_comparison": "수행하지 않음 — eye 계보에 frozen backbone 부재",
+  "results": {
+    "total": {
+      "frozen_eye_A_LR": {
+        "n": 52,
+        "TP": 21,
+        "FP": 31,
+        "TN": 0,
+        "FN": 0,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.5476
+      },
+      "training_positive_rate_baseline": {
+        "n": 52,
+        "TP": 0,
+        "FP": 0,
+        "TN": 31,
+        "FN": 21,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.4524
+      },
+      "no_structure_covariates": {
+        "n": 52,
+        "TP": 15,
+        "FP": 1,
+        "TN": 30,
+        "FN": 6,
+        "MCC": 0.7251,
+        "balanced_accuracy": 0.841,
+        "ROC_AUC": 0.9032
+      },
+      "RDKit_plus_zein_head": {
+        "n": 52,
+        "TP": 21,
+        "FP": 31,
+        "TN": 0,
+        "FN": 0,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.5092
+      },
+      "ChemBERTa_plus_zein_head": null
+    },
+    "per_comp": {
+      "frozen_eye_A_LR": {
+        "n": 52,
+        "TP": 21,
+        "FP": 31,
+        "TN": 0,
+        "FN": 0,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.5476
+      },
+      "training_positive_rate_baseline": {
+        "n": 52,
+        "TP": 0,
+        "FP": 0,
+        "TN": 31,
+        "FN": 21,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.4524
+      },
+      "no_structure_covariates": {
+        "n": 52,
+        "TP": 16,
+        "FP": 1,
+        "TN": 30,
+        "FN": 5,
+        "MCC": 0.7632,
+        "balanced_accuracy": 0.8648,
+        "ROC_AUC": 0.9032
+      },
+      "RDKit_plus_zein_head": {
+        "n": 52,
+        "TP": 21,
+        "FP": 31,
+        "TN": 0,
+        "FN": 0,
+        "MCC": 0.0,
+        "balanced_accuracy": 0.5,
+        "ROC_AUC": 0.5092
+      },
+      "ChemBERTa_plus_zein_head": null
+    }
+  },
+  "source_sha256": "934be014b5e364bf4e5470b8824a12b3788405235bd6ebd2698ea8ad252a0a44",
+  "model_sha256": "d71394e691ac5072e4ce900a53b47ddbb65c8685961fe2c9536411acfbbc58a2",
+  "model_refit": false,
+  "seed": 20261109
+}
