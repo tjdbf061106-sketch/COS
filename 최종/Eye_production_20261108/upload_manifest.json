@@ -1,9 +1,10 @@
 {
-  "created_at": "2026-11-08T15:59:02.809492+09:00",
-  "scope": "Eye only; new directory; no changes to existing repository files",
-  "base_commit": "6b21d8971e7fa7a3ab28519a4707a9e0286ccdba",
+  "created_at": "2026-11-08T23:40:52.990106+09:00",
+  "scope": "Refresh existing Eye directory; replace updated paths and add completed external auxiliary results",
+  "base_commit": "7f6a64414da51f1c5c4517436c68561e7e8875ea",
   "repository_directory": "최종/Eye_production_20261108",
   "scientific_run_identity": "f91f3c88787bec6be1bef4bbbfcb98b797e0d69c6fda8c9bd03d508661488f4b",
+  "external_evaluation_scope": "Actual external training; same 606 EPA rows for effect comparison; independent cosmetics EPA evaluation eligible rows 0",
   "files": {
     ".gitattributes": {
       "sha256": "50e94358b36ff962b04413b33a27281db03ea242da9d91696a78e4ef0fb6b804",
@@ -1698,33 +1699,182 @@
       "bytes": 637743
     },
     "eye_all_experiments_v2.ipynb": {
-      "sha256": "b4ab76d57a4d5f9b7f6d0081aeeda4fca662a4ecc577a6f477adaaa95f0e8d5a",
-      "bytes": 759015
+      "sha256": "5d081226979f4ace75ae3ea6abdd4acb21614dd5546669310693f50e8685f017",
+      "bytes": 951515
+    },
+    "publication/refresh_provenance.json": {
+      "sha256": "7fdea325722f385a6a0f63485caa71e0b267be0f1493c7bc8b0e5a41eeec0802",
+      "bytes": 4391
     },
     "README.md": {
-      "sha256": "0c710ae1049dc98648f77e397bf08dc6b3ee9dcbaf20c5555597070d236252a8",
-      "bytes": 6153
+      "sha256": "9f743d61cd8f896f2610c0f5688f1fa18a94a4c6bb6c11f4084a75befa69f2e2",
+      "bytes": 7841
     },
     "requirements-report.txt": {
       "sha256": "caa4ac5c4c164b82a611c23e04656e7bf355157fc1b8f9b4bfc86fa6d5fc0580",
       "bytes": 192
     },
     "source_file_manifest.json": {
-      "sha256": "68cada638c60fde6a2707f41fafb126514d3dc1f6cc30b1be93d5be68b5c4af4",
-      "bytes": 166968
+      "sha256": "ad8d0291209dc4f3018e80285851a85a1fa940df97e036fabbc8f2e83c1ff840",
+      "bytes": 180437
     },
     "verify_results.py": {
-      "sha256": "3fe592e7c0b393934a50691a0cad1c631702deb29f313c5e69e34e35dbb3b816",
-      "bytes": 3247
+      "sha256": "1b16205790860aefc0d40bbbefd90c2a06f3ef0f92cac8b3cb59c02cbb26a8b6",
+      "bytes": 4945
+    },
+    "외부학습/Eye_STopTox_20261108/aux_features.npy": {
+      "sha256": "76def042ed14286f3f5c41d2c3cc1afe3e75e9e19d2a6d961bbedf5dbc1b5ee3",
+      "bytes": 21664
+    },
+    "외부학습/Eye_STopTox_20261108/baby_concentration_case_comparisons.csv": {
+      "sha256": "d1df292f2624b060e736d3efb02bea125c7e75b35added963592347c554f4562",
+      "bytes": 3018
+    },
+    "외부학습/Eye_STopTox_20261108/baby_supplier_case_comparisons.csv": {
+      "sha256": "754313bfe2fb20cfb70eeffda8c99116d379c7f67cf69fed1f99bc57609bfa45",
+      "bytes": 1537
+    },
+    "외부학습/Eye_STopTox_20261108/baby_table2_observation_audit.csv": {
+      "sha256": "a9e7528c275fe595a9d7f840b492bfa8c67f3f76bd38375c5edb771c191ab3f1",
+      "bytes": 47909
+    },
+    "외부학습/Eye_STopTox_20261108/baby_table3_observation_audit.csv": {
+      "sha256": "c9b779535ad9d7d3936c446e8a242f5298407bc244dfba7665d257465c62f2e8",
+      "bytes": 3412
+    },
+    "외부학습/Eye_STopTox_20261108/common.py": {
+      "sha256": "f9e4854b903545ffc5c5ada4b2ea4043228e2259d0254f372e297a896c9fcf95",
+      "bytes": 1414
+    },
+    "외부학습/Eye_STopTox_20261108/control_reuse_audit.json": {
+      "sha256": "4efdc68e5baaf82a1554cb890f1234a7a0155e5d56dd1ed0c8e718c3b54e3c69",
+      "bytes": 22473
+    },
+    "외부학습/Eye_STopTox_20261108/data_audit.json": {
+      "sha256": "8ba765904c4b6402239f13f4c3854dae4e1f8a0f655e817b7896d8f4119012dc",
+      "bytes": 2719
+    },
+    "외부학습/Eye_STopTox_20261108/descriptive_case_summary.json": {
+      "sha256": "df6bcb650c3e51e2d3811cc70b1d550621c9878bb1ac526185c0e4814248be02",
+      "bytes": 854
+    },
+    "외부학습/Eye_STopTox_20261108/environment.json": {
+      "sha256": "bc50376a6b42e379f20cdbd31b5b8be90420e4ebecf78e8eddc8ba39385ba67f",
+      "bytes": 447
+    },
+    "외부학습/Eye_STopTox_20261108/external_validation_audit.json": {
+      "sha256": "f1210e1c47ccd3a22bb24f1c754eaabf8b5a5761e5f411608cb0ad2d04c398f8",
+      "bytes": 4381
+    },
+    "외부학습/Eye_STopTox_20261108/iivs_table2_observation_audit.csv": {
+      "sha256": "9ae1d207ecbcf10d27269680495c01424393dc43184fbdaf0395d0e59a879a2c",
+      "bytes": 9308
+    },
+    "외부학습/Eye_STopTox_20261108/metrics_by_seed.csv": {
+      "sha256": "fa7300962bc284c8c4835bc927d786d4234c8fc95f8914523f7d0deb53ce83d9",
+      "bytes": 7541
+    },
+    "외부학습/Eye_STopTox_20261108/outer_oof_predictions.csv": {
+      "sha256": "e984d7199590e4740b012601b0c2677f81a046f50cb7fafb4df6e10987ba8058",
+      "bytes": 2077125
+    },
+    "외부학습/Eye_STopTox_20261108/package_checksums.json": {
+      "sha256": "e0c3cd40a2426be121068a212ce561bbe3e9f6263208a5e4ca60c338d28140e7",
+      "bytes": 3233
+    },
+    "외부학습/Eye_STopTox_20261108/paired_delta_by_seed.csv": {
+      "sha256": "13ca26b9caa298cfa2aade48ef7a1a4913df1ed7cd3a3596e0002f44053340e7",
+      "bytes": 1298
+    },
+    "외부학습/Eye_STopTox_20261108/paired_delta_mcc.png": {
+      "sha256": "61baed1b1a7f0a9f2b825e025439311166c83507ca09ffd4b2f5994077992743",
+      "bytes": 69385
+    },
+    "외부학습/Eye_STopTox_20261108/paired_summary.csv": {
+      "sha256": "6935c23dcc5ef8dfcadfc5b3988638dc253b12d30aad8019e4121118811af0db",
+      "bytes": 1178
+    },
+    "외부학습/Eye_STopTox_20261108/preparation_verification.json": {
+      "sha256": "56f77994b06c65ceec68502123442577a15c13d36585546835c04195ec04be68",
+      "bytes": 562
+    },
+    "외부학습/Eye_STopTox_20261108/prepare.py": {
+      "sha256": "08d23f14cff6f75b3201b30933672ded5a347d5cd93757f28c989e4dbccf0362",
+      "bytes": 18202
+    },
+    "외부학습/Eye_STopTox_20261108/production_component_scores.csv": {
+      "sha256": "ef0d7ba9dd43da6d3d81711cffda8218cc1545ee557c30b94406e28c696f64ad",
+      "bytes": 355326
+    },
+    "외부학습/Eye_STopTox_20261108/protocol.json": {
+      "sha256": "425c25122a027f42831e4d18a1aaac47ba3a0873a435ea686c593e4fd1f67252",
+      "bytes": 3081
+    },
+    "외부학습/Eye_STopTox_20261108/run_config.json": {
+      "sha256": "832d619d0088ead1204276180c0ec7de94088a5e2720108dedd2cf9802be9965",
+      "bytes": 215114
+    },
+    "외부학습/Eye_STopTox_20261108/run_transfer.py": {
+      "sha256": "98e80ef2d6cdb15d6b5f89294c771a1a4ef4d466fb480f43aaff85183e4c7e6c",
+      "bytes": 9985
+    },
+    "외부학습/Eye_STopTox_20261108/sources/stoptx_eye_training_table_s4.csv": {
+      "sha256": "096f36d7224c1b2037193c29525595e2228ed11efdbf52f92a4785e6d71c8df5",
+      "bytes": 264301
+    },
+    "외부학습/Eye_STopTox_20261108/stoptx_aux_training.csv": {
+      "sha256": "c6f52b86b3eb69a4e75c68d9731ab7367a4a6a7f52b0a5591baa0d31fcfacdb1",
+      "bytes": 1099353
+    },
+    "외부학습/Eye_STopTox_20261108/stoptx_identity_audit.csv": {
+      "sha256": "64803b84154d5c6ceec8bd9218b77fc72dd1ed712d123497a71faa1dd7f462ca",
+      "bytes": 1186757
+    },
+    "외부학습/Eye_STopTox_20261108/stoptx_teacher.joblib": {
+      "sha256": "9feb84c1cb019bd852b3261fe6d86feeba11b3daad37fa85fd0c31bdb7c2eff6",
+      "bytes": 7047148
+    },
+    "외부학습/Eye_STopTox_20261108/teacher_source_internal_metrics.json": {
+      "sha256": "91fb3d714cc1a58f2e865ebb98eb57434431acae5fb2f85b5aecb64da2caa18b",
+      "bytes": 286
+    },
+    "외부학습/Eye_STopTox_20261108/training_attrition_disjoint.csv": {
+      "sha256": "cb688d457276ce5304cd66bc93c0fc376337470a28ed7c3304d2d85f331e43d1",
+      "bytes": 268
+    },
+    "외부학습/Eye_STopTox_20261108/training_complete.json": {
+      "sha256": "d1b92450eb1fecaee1b40d914f28fe156f5df3614bfaf6e276da58b8bbb90991",
+      "bytes": 282
+    },
+    "외부학습/Eye_STopTox_20261108/verification.json": {
+      "sha256": "270c64eb1acb6fa83a848ced966b6593305274ff8519cf6fa7abf12339a97394",
+      "bytes": 597
+    },
+    "외부학습/Eye_STopTox_20261108/verify_transfer.py": {
+      "sha256": "27bbade06dd07454bd62ae2d69275dd844a80bdcfd277a46ed2455dada32d3a7",
+      "bytes": 9649
+    },
+    "외부학습/Eye_STopTox_20261108/검증체크포인트.zip": {
+      "sha256": "9e843c4195c9d5b67d08fa169b26652bdea1c673e6b9103d40a3b05fb2ad20b6",
+      "bytes": 10672942
+    },
+    "외부학습/README.md": {
+      "sha256": "25971066695cb3a55bd3780a12ca29c7a234a34f41cd4a17af30310147128ad0",
+      "bytes": 2026
     }
   },
-  "source_files_copied_byte_identically": 422,
+  "source_files_copied_byte_identically": 454,
   "outer_records": 360,
-  "candidate_checkpoints_included": 0,
-  "candidate_completion_evidence": "claude/results/continuation_20261108T111518/delivery_verification.json",
-  "new_training_performed": false,
+  "external_new_outer_records": 90,
+  "external_candidate_checkpoints_included": 1800,
+  "production_candidate_checkpoints_included": 0,
+  "candidate_completion_evidence": "Original production delivery records; external verification.json and 1890-member checkpoint ZIP",
+  "new_training_performed_for_publication": false,
+  "external_training_completed_before_publication": true,
   "final_model_deployed_or_replaced": false,
   "skin_data_included": false,
-  "historical_code": "Preserved original sources; absolute paths still require a separate portable training edition",
-  "self_hash_note": "upload_manifest.json is excluded from its own files map; Git commit records its bytes"
+  "historical_code": "Original snapshots with original path dependencies, preserved byte identically",
+  "self_hash_note": "This manifest excludes itself; Git records its content identity",
+  "external_selected_files": 34,
+  "omitted_files_preserved_locally": "Raw PDFs, download logs, duplicate reports, relocation/backup audits and nonessential intermediate tables"
 }

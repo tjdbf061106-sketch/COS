@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "new_outer_jobs": 90,
+  "reused_control_outer_jobs": 90,
+  "new_candidate_jobs": 1800,
+  "new_target_model_fits": 5490,
+  "elapsed_seconds": 1149.7592425346375,
+  "evaluation_rows_per_arm_seed": 606,
+  "independent_external_evaluation_rows": 0
+}

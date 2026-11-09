@@ -1,0 +1,22 @@
+{
+  "purpose": "source observation case analysis only; NOT predictive accuracy or independent EPA validation",
+  "baby_supplier_contrast_groups": 4,
+  "baby_supplier_groups_with_different_original_grades": 2,
+  "baby_concentration_contrast_groups": 9,
+  "baby_concentration_groups_with_changed_original_grades": 4,
+  "iivs_poster_original_category_counts": {
+    "Mildly irritating": 7,
+    "Severely irritating": 3,
+    "Minimally irritating": 2,
+    "Moderately irritating": 2
+  },
+  "iivs_large_arithmetic_discrepancy_formulations": [
+    13
+  ],
+  "cautions": [
+    "Do not count contrasts as additional independent products.",
+    "Original BCOP category intervals are not EPA categories.",
+    "These comparisons do not isolate causal ingredient/supplier effects.",
+    "Animal and SIRC cell exposures are kept separate."
+  ]
+}

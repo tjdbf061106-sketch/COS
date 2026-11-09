@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "new_outer_jobs_checked": 90,
+  "new_full_grid_candidates_checked": 1800,
+  "control_outer_jobs_checked": 90,
+  "pooled_metrics_recomputed": 36,
+  "same_evaluation_rows_groups_splits": true,
+  "thresholds_recomputed_from_original_inner_oof": true,
+  "concentration_medians_train_only": true,
+  "protected_files_checked": 7612,
+  "protected_files_changed": 0,
+  "executed_code_teacher_aux_features_and_source_hashes_match": true,
+  "eye_input_sha256": "811268d4813fcdd68e85458641bf5823239cae04e1fa871766c77e04f0221e7f",
+  "cosmetic_external_evaluation_rows": 0
+}

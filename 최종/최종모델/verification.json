@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "finished_at": "2026-11-08T22:39:15.434316+00:00",
+  "candidate_records": 20,
+  "tuning_fits": 300,
+  "final_training_rows": 673,
+  "calibration_unique_rows": 606,
+  "calibration_prediction_rows": 1818,
+  "augmentation_in_validation": 0,
+  "group_separation_verified": true,
+  "candidate_auc_and_selection_recomputed": true,
+  "threshold_independently_recomputed": true,
+  "all_data_scaler_statistics_verified": true,
+  "same_process_reload_rows": 673,
+  "fresh_process_cli_reload_rows": 673,
+  "raw_component_reconstruction_rows": 26,
+  "invalid_inputs_rejected": true,
+  "source_and_bundle_hashes_verified": true,
+  "seconds": 5.450727499992354
+}

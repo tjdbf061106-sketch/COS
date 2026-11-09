@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "teacher_reloaded_predictions_match": true,
+  "all_673_component_pools_match": true,
+  "all_606_original_rows_covered_per_seed": true,
+  "heldout_groups_excluded_from_all_target_training": true,
+  "control_refit_matches_saved_scores": true,
+  "screened_identity_intersections": 0,
+  "nearest_tanimoto_median_unique_component": 0.35714285714285715,
+  "fingerprint_identical_component_count": 0,
+  "note": "Fingerprint collisions/analogs are not exact chemical identities. Domain similarity does not establish cosmetic validity."
+}

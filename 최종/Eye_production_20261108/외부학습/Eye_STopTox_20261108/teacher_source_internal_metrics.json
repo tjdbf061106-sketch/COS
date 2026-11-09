@@ -1,0 +1,8 @@
+{
+  "role": "source internal diagnostic only; NOT independent external EPA/cosmetics validation",
+  "n": 3261,
+  "groups": "identical binary Morgan fingerprints",
+  "auc": 0.8441801036471315,
+  "mcc_at_0_5": 0.49781280488372376,
+  "balanced_accuracy_at_0_5": 0.7672133059395579
+}

@@ -1,0 +1,7 @@
+﻿reason_in_order,newly_excluded,remaining
+excluded_overlap,230,3315
+excluded_invalid_standardized_parent,1,3314
+excluded_known_uvcb_or_polymer,16,3298
+excluded_identical_local_morgan,35,3263
+excluded_conflicting_parent,0,3263
+excluded_duplicate_parent,2,3261

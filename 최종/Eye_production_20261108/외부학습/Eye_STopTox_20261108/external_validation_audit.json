@@ -1,0 +1,72 @@
+{
+  "stoptx": {
+    "primary_paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8863177/",
+    "doi": "10.1289/EHP9341",
+    "observed_label": "GHS categories 1 through 2B are positive; not classified is negative",
+    "original_sources": "REACH study results plus literature; OECD 405 rabbit lesion/reversibility data",
+    "original_curation": "Reject nonexperimental/nonprotocol data; remove mixtures, inorganics, organometallics; clean/neutralize salts; normalize chemotypes; consolidate concordant replicates and remove discordant eye replicates using standardized structures.",
+    "our_standardization": "RDKit cleanup, largest parent, uncharge, remove stereochemistry, canonical tautomer; conservative screening implementation, not claimed to exactly reproduce authors software.",
+    "source_warning": "Paper has inconsistent balanced-set counts/skin wording. Training uses verified Table S4 3545 observed rows, not those prose counts or model-prediction sheets."
+  },
+  "baby": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12656482/",
+    "doi": "10.3390/toxics13110948",
+    "market_products": 39,
+    "raw_material_names": 39,
+    "table2_observation_conditions": 58,
+    "table3_display_rows": 6,
+    "new_compound_conditions_table3": 5,
+    "total_test_samples_per_supplement": 102,
+    "rabbits_per_sample": 3,
+    "n_rabbits_per_supplement": 306,
+    "labels_by_table2_condition": {
+      "Non-irritating": 34,
+      "Slightly irritating": 13,
+      "Mildly irritating": 11
+    },
+    "label_compatibility": "Supplement Table S1 recovered and visually inspected. Grades use response/recovery criteria and two-of-three animal averages; individual tissue/time records needed to derive EPA A/B. No automatic grade mapping performed.",
+    "protocol_separation": "Animal Table 3 uses 5% SLES. SIRC cell experiment uses 0.01% SLES and separately diluted additives; six cell replicates are not six independent products.",
+    "case_findings": [
+      "Same CAPB concentration and pH, supplier-dependent different grades (tests 23-26).",
+      "Table 3 composition effects are qualitative cases; UVCB grade and pH/vehicle prevent isolated causal attribution."
+    ],
+    "data_availability": "On reasonable request to corresponding authors; no author contacted.",
+    "missing": [
+      "complete per-product recipe keyed to study/sample ID",
+      "all vehicle and pH-adjuster identities/amounts",
+      "percent basis and active-content basis",
+      "commercial grade, CAS/structure distribution, purity, EO/chain distribution for SLES and polymers",
+      "raw animal-by-tissue scores at each time and reversibility/rinse details",
+      "study IDs/batch IDs and overlap references"
+    ]
+  },
+  "iivs": {
+    "source": "https://iivs.org/wp-content/uploads/2016/09/iivs-poster_eye-irritation-potential-of-prototype-cosmetic-formulations-containing-salicylic-acid-glycolic-acid-and-ethanol.pdf",
+    "numbered_formulations": 14,
+    "methods_claimed_formulations": 15,
+    "transcription_verified_rows": 14,
+    "epa_mapping_performed": false,
+    "issues": [
+      "Full vehicles absent; dashes not treated as zero; concentrations not converted to mass fractions.",
+      "Formulation 13: reported IVIS 85 versus 66.1+15*1.059=81.985 from printed means; retained as reported.",
+      "Formulation 8 IVIS 79 is severe under poster Table 1, but narrative groups 6-8 as moderate.",
+      "Abstract and table differ on formulation 13 active concentrations; table values preserved.",
+      "14 numbered observations do not resolve methods mention of 15; positive control is not counted as an extra cosmetic product."
+    ],
+    "missing": [
+      "complete vehicle recipe per formulation ID",
+      "concentration units/basis",
+      "raw replicates and test exposure/dilution details",
+      "clarification of table/narrative discrepancies",
+      "EPA-compatible in vivo observations or validated endpoint bridge"
+    ]
+  },
+  "decision": {
+    "eligible_independent_EPA_external_samples": 0,
+    "external_performance_computed": false,
+    "case_analysis_only": true,
+    "cosmetic_rows_used_for_learning_tuning_threshold": 0,
+    "chemexpo": "composition/unlabeled candidate only; no observed external Eye gold labels; no 10% rule accuracy computed",
+    "author_contacted": false
+  }
+}
